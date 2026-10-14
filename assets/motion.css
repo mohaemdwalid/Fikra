@@ -1,0 +1,11 @@
+/* Content remains visible if JavaScript is unavailable. */
+@media (prefers-reduced-motion: no-preference) {
+  .proposal-cta { transition: background-color 180ms ease, translate 180ms ease, box-shadow 180ms ease; }
+  .proposal-cta:hover { translate: 0 -2px; box-shadow: 0 8px 24px #ef1f5e22; }
+  .proposal-cta:active { translate: 0 0; }
+  .proposal-card { transition: border-color 220ms ease, box-shadow 220ms ease; }
+  .proposal-card:hover { border-color: #a9a297; box-shadow: 0 12px 32px #00000008; }
+}
+.fikra-scroll-progress { position: fixed; inset: 0 0 auto; height: 2px; z-index: 10001; background: #ef1f5e; transform: scaleX(0); transform-origin: left; pointer-events: none; }
+html[dir='rtl'] .fikra-scroll-progress { transform-origin: right; }
+@media (prefers-reduced-motion: reduce) { .fikra-scroll-progress { display: none; } }
