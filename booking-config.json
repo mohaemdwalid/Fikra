@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "timezone": "Asia/Qatar",
+  "workingDays": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "startTime": "10:00",
+  "endTime": "15:00",
+  "durationMinutes": 30,
+  "minimumNoticeMinutes": 60,
+  "daysAhead": 60
+}

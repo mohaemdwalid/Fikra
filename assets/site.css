@@ -1,0 +1,125 @@
+/* Keep the supplied design; isolate FIKRA additions from exported styles. */
+.fikra-brands-inner { max-width: 1192px; padding-inline: 24px; margin-inline: auto; text-align: center; }
+.fikra-brands-inner h2 { margin: 16px auto 40px; }
+.fikra-brands-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.fikra-brand-card { min-width: 0; min-height: 150px; padding: 24px 16px; border: 1px solid #010102; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; }
+.fikra-brand-name { font-size: 13px; line-height: 1.5; color: #69645b; }
+.fikra-testimonials { scroll-margin-top: 80px; }
+.fikra-testimonial-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.fikra-testimonial-card { border: 1px solid #010102; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; text-align: start; }
+.fikra-testimonial-card blockquote { margin: 0 0 28px; padding: 0; border: 0; font-size: 16px; line-height: 1.8; }
+.fikra-testimonial-card[lang='ar'], .fikra-testimonial-card[lang='ar'] * { font-family: 'IBM Plex Sans Arabic', sans-serif !important; letter-spacing: 0 !important; }
+.fikra-testimonial-label { margin: 0; color: #69645b; font-size: 12px; line-height: 1.6; }
+.fikra-testimonials > .fikra-brands-inner { max-width: none; padding-inline: 0; overflow: hidden; }
+.fikra-testimonials h2, .fikra-testimonials .fikra-sample-note { padding-inline: 24px; }
+.fikra-review-marquee { overflow: hidden; padding-block: 16px; mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent); }
+.fikra-review-row { display: flex; gap: 24px; width: max-content; direction: ltr; animation: fikra-reviews-scroll 65s linear infinite; }
+.fikra-review-row + .fikra-review-row { margin-top: 24px; }
+.fikra-review-row-reverse { animation-direction: reverse; animation-duration: 75s; }
+.fikra-review-group { display: flex; gap: 24px; flex-shrink: 0; }
+.fikra-review-row .fikra-testimonial-card { flex: 0 0 390px; width: 390px; min-height: 260px; padding: 28px; background: #f7f6f2; }
+.fikra-review-marquee:hover .fikra-review-row, .fikra-review-marquee:focus-within .fikra-review-row { animation-play-state: paused; }
+@keyframes fikra-reviews-scroll { from { transform: translateX(0); } to { transform: translateX(calc(-50% - 12px)); } }
+@media (max-width: 479px) { .fikra-review-row .fikra-testimonial-card { flex-basis: 290px; width: 290px; padding: 24px; min-height: 290px; } }
+@media (prefers-reduced-motion: reduce) { .fikra-review-row { animation: none; } .fikra-review-marquee { overflow-x: auto; mask-image: none; } }
+@media (max-width: 991px) { .fikra-testimonial-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 479px) { .fikra-testimonial-grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 767px) { .fikra-brands-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } .fikra-brands-inner { padding-inline: 16px; } .fikra-brand-card { padding: 20px 8px; } }
+.fikra-client-marquee { width: max-content; }
+.fikra-client-track { width: max-content; flex: none; }
+.fikra-client-item { width: 170px; min-width: 170px; height: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.fikra-client-frame { position: relative; display: block; overflow: hidden; width: 130px; height: 54px; }
+.fikra-client-frame img { position: absolute; display: block; max-width: none; width: 100%; height: 100%; object-fit: contain; }
+.fikra-client-white { filter: brightness(0); }
+/* Clip decorative/animated overflow without creating a sideways document scroller.
+   Unlike overflow:hidden, clip preserves the sticky navigation's scroll ancestor. */
+html { overflow-x: clip; }
+body.body { width: 100%; min-width: 0; overflow-x: clip; }
+@media (min-width: 992px) {
+  .navbar-wrapper { padding-inline: 0 24px; }
+  .navbar-wrapper > .nav-menu-wrapper { flex: 1; width: auto; min-width: 0; padding-inline: clamp(16px, 2.5vw, 40px) 0; }
+  .navbar-wrapper .nav-menu-two { gap: clamp(12px, 2vw, 32px); min-width: 0; }
+  .navbar-wrapper .nav-menu-two > li { min-width: 0; }
+  .navbar-wrapper .mobile-margin-top-10 { flex-shrink: 0; }
+  .navbar-wrapper .navbar-cta-wrapper .cta-button-with-image { width: auto; max-width: 100%; padding-inline: clamp(14px, 2vw, 28px); }
+}
+.sf-card__wrapper { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.sf-card { min-width: 0; max-width: 100%; }
+.sf-card__image-wrapper { max-width: 100%; }
+.sf-card__image-wrapper > .w-embed { max-width: 100%; }
+.sf-card__image-wrapper svg { max-width: 100%; height: auto; }
+.fikra-sample-note { max-width: 640px; margin: 16px auto 24px; font-size: 14px; line-height: 1.6; color: #69645b; text-align: center; }
+[data-sample-review][lang='ar'], [data-sample-review][lang='ar'] * { font-family: 'IBM Plex Sans Arabic', sans-serif !important; letter-spacing: 0 !important; }
+[data-sample-review][lang='ar'] [data-review-quote] { text-align: right; line-height: 1.85; }
+[data-sample-review][lang='en'] { text-align: left; }
+@media (max-width: 767px) {
+  .sf-card__wrapper { grid-template-columns: minmax(0, 1fr); }
+}
+@font-face { font-family: 'IBM Plex Sans Arabic'; src: url('fonts/IBMPlexSansArabic-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
+@font-face { font-family: 'IBM Plex Sans Arabic'; src: url('fonts/IBMPlexSansArabic-SemiBold.ttf') format('truetype'); font-style: normal; font-weight: 600 900; font-display: swap; }
+.fikra-language { position: fixed; top: 76px; right: 20px; z-index: 1002; padding: 8px 16px; border: 1px solid #010102; border-radius: 999px; background: #fdfbf5; color: #010102; font: 600 14px/1.5 'IBM Plex Sans Arabic', Arial, sans-serif; cursor: pointer; box-shadow: 0 3px 12px #0000000a; }
+.fikra-booking { padding: 100px 24px; background: #f3f0e8; color: #010102; scroll-margin-top: 80px; }
+.fikra-booking-inner { max-width: 1100px; margin-inline: auto; }
+.fikra-booking h2 { max-width: 720px; margin: 12px 0 18px; font: 700 clamp(30px, 4vw, 52px)/1.1 Arial, sans-serif; letter-spacing: -.035em; }
+.fikra-booking-intro { font-size: 18px; line-height: 1.6; margin-bottom: 30px; }
+.fikra-booking-grid { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid #d6d2c9; border-radius: 20px; background: #fdfbf5; overflow: hidden; }
+.fikra-calendar, .fikra-booking-details { padding: 32px; min-width: 0; }
+.fikra-booking-details { border-inline-start: 1px solid #d6d2c9; }
+.fikra-calendar-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+.fikra-calendar-head strong { font-size: 20px; }
+.fikra-calendar-head button { border: 1px solid #d6d2c9; background: transparent; border-radius: 50%; width: 38px; height: 38px; cursor: pointer; color: inherit; font: 22px Arial; }
+.fikra-weekdays, .fikra-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; text-align: center; }
+.fikra-weekdays { margin-bottom: 12px; font-size: 12px; color: #69645b; }
+.fikra-days button { border: 1px solid transparent; border-radius: 8px; background: #efebe3; aspect-ratio: 1; width: 100%; color: inherit; cursor: pointer; font: 16px Arial, sans-serif; }
+.fikra-days button:hover:not(:disabled), .fikra-slot:hover { border-color: #ef1f5e; }
+.fikra-days button[aria-current='date'] { text-decoration: underline; text-underline-offset: 5px; }
+.fikra-days button[aria-pressed='true'], .fikra-slot[aria-pressed='true'] { background: #ef1f5e; color: white; }
+.fikra-booking button:disabled { opacity: .4; cursor: default; }
+.fikra-booking :focus-visible, .fikra-language:focus-visible { outline: 3px solid #ef1f5e; outline-offset: 3px; }
+.fikra-times { display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; line-height: 1.6; margin: 16px 0 24px; min-height: 44px; }
+.fikra-slot { padding: 10px 12px; border: 1px solid #d6d2c9; border-radius: 8px; background: transparent; color: inherit; font: 14px Arial; cursor: pointer; }
+.fikra-booking-note, .fikra-booking-reference { font-size: 12px; line-height: 1.7; color: #69645b; overflow-wrap: anywhere; }
+.fikra-booking [hidden] { display: none !important; }
+.fikra-booking-reset { border: 0; background: transparent; padding: 12px 0; text-decoration: underline; color: #010102; cursor: pointer; }
+html[lang='ar'] body, html[lang='ar'] body :is(h1,h2,h3,h4,h5,p,a,button,label,input,textarea,strong,span,li,div) { font-family: 'IBM Plex Sans Arabic', sans-serif !important; letter-spacing: 0 !important; }
+html[lang='ar'] :is(p,.paragraph,.services-description,.fikra-form label) { line-height: 1.85 !important; }
+html[lang='ar'] :is(h1,h2,h3,h4,.heading,.heading-2,.section-title) { line-height: 1.4 !important; }
+html[lang='ar'] .fikra-dialog { text-align: right; }
+html[lang='ar'] .fikra-close { right: auto; left: 16px; }
+html[lang='ar'] .fikra-dialog h2 { margin-left: 32px; margin-right: 0; }
+html[lang='ar'] .fikra-calendar-head button { transform: scaleX(-1); }
+html[lang='ar'] .w-dropdown-toggle { padding-right: 20px; padding-left: 40px; }
+html[lang='ar'] .w-icon-dropdown-toggle { right: auto; left: 0; margin-left: 20px; margin-right: 0; }
+@media (max-width: 767px) { .fikra-booking { padding: 64px 20px; } .fikra-booking-grid { grid-template-columns: 1fr; } .fikra-calendar, .fikra-booking-details { padding: 24px 20px; } .fikra-booking-details { border-inline-start: 0; border-top: 1px solid #d6d2c9; } .fikra-language { top: 68px; right: 12px; padding: 6px 12px; } }
+.fikra-logo-mark { display: inline-block; position: relative; width: 150px; height: 48.47px; overflow: hidden; flex: none; vertical-align: middle; }
+.fikra-logo-mark > img.fikra-logo-image { position: absolute; width: 126.386%; max-width: none; height: auto; left: -7.266%; top: -48.126%; margin: 0; }
+.fikra-dialog { width: min(520px, calc(100% - 32px)); max-height: calc(100dvh - 32px); padding: 32px; border: 1px solid #ddd; border-radius: 20px; background: #fdfbf5; color: #010102; font: 16px/1.5 Arial, sans-serif; }
+.fikra-dialog::backdrop { background: rgb(0 0 0 / 55%); backdrop-filter: blur(6px); }
+.fikra-dialog h2 { margin: 0 32px 16px 0; font: 700 28px/1.15 Arial, sans-serif; }
+.fikra-dialog p { font: inherit; margin: 0 0 16px; }
+.fikra-close { position: absolute; right: 16px; top: 12px; border: 0; background: transparent; color: inherit; font: 28px Arial; cursor: pointer; }
+.fikra-form { display: grid; gap: 14px; }
+.fikra-form label { display: grid; gap: 5px; font: 14px Arial; }
+.fikra-form input, .fikra-form textarea { width: 100%; box-sizing: border-box; padding: 12px; border: 1px solid #bbb; border-radius: 8px; background: white; color: #010102; font: 16px Arial; }
+.fikra-form textarea { min-height: 100px; resize: vertical; }
+.fikra-action { display: inline-block; padding: 12px 18px; border: 0; border-radius: 8px; background: #ef1f5e; color: white; font: 700 15px Arial; text-align: center; cursor: pointer; text-decoration: none; }
+.fikra-action:disabled { background: #767676; cursor: default; }
+.fikra-status { font: 13px/1.5 Arial, sans-serif; }
+.fikra-dialog :focus-visible { outline: 3px solid #ef1f5e; outline-offset: 3px; }
+.fikra-media-placeholder { display: grid; place-content: center; gap: 18px; width: 100%; min-height: 340px; padding: 36px; box-sizing: border-box; background: #010102; color: #fdfbf5; text-align: center; }
+.fikra-media-placeholder strong { font: 700 clamp(26px, 4vw, 44px)/1.15 Arial, sans-serif; max-width: 540px; }
+.fikra-media-placeholder span { font: 13px/1.5 monospace; text-transform: uppercase; letter-spacing: 2px; color: #ef1f5e; }
+.w-video > .fikra-media-placeholder { position: absolute; inset: 0; min-height: 0; padding: 20px; }
+@media (max-width: 479px) { .fikra-logo-mark { width: 125px; height: 40.39px; } .fikra-dialog { padding: 28px 20px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } }
+
+/* Keep booking visible in the collapsed header, between logo and menu. */
+.fikra-header-book { display: none; }
+@media (max-width: 991px) {
+  .navbar-wrapper { position: relative; }
+  .navbar-wrapper > .fikra-header-book { display: inline-flex; align-items: center; justify-content: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 10px 18px; border: 1px solid #010102; border-radius: 999px; background: #ff1f65; color: #fff; font-size: 14px; font-weight: 600; line-height: 1.3; text-decoration: none; white-space: nowrap; z-index: 2; }
+  .fikra-header-book:focus-visible { outline: 3px solid #010102; outline-offset: 3px; }
+}
+@media (max-width: 479px) {
+  .navbar-wrapper > .fikra-header-book { left: 50%; padding: 9px 12px; font-size: 12px; }
+}

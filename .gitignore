@@ -1,0 +1,12 @@
+.data/
+__pycache__/
+backups/
+cloudflare-upload/
+fikra-cloudflare-upload.zip
+assets/videos/client-store-recording.mp4
+file.html
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
