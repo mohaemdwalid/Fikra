@@ -11,7 +11,7 @@
   "d1_databases": [{
     "binding": "LEADS_DB",
     "database_name": "fikra-leads",
-    "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_ID",
+    "database_id": "84271bb8-50a9-4a00-9aae-64b1c504f914",
     "migrations_dir": "migrations"
   }]
 }
