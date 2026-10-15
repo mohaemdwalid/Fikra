@@ -53,3 +53,28 @@ Chrome browser checks used temporary Playwright tooling after the supplied brows
 - Cal.com email was optional during inspection. Make it required in the event settings if direct/fallback bookings must always have an email address. The website requires and prefills email.
 - Cal.com notifications and its optional SMS consent field remain managed by the existing Cal.com workflows. No additional emails or WhatsApp messages are sent by this implementation.
 - Full Arabic widget translation is not claimed. Arabic visitors are told that the calendar is in English.
+
+## Editorial preview — hero and portfolio
+
+Local design iteration, following the approved premium editorial direction. The empty hero video placeholder is replaced with the supplied Karen Wazen and Chic Homz storefront screenshots; logos and the existing package summary follow the split hero. All seven portfolio recordings stay in their original order, arranged as one large feature, two smaller features and a compact four-recording gallery. Captions sit below media. Sticky stacking and scroll dimming are removed from this section.
+
+New `assets/editorial.css` scopes the hero layout. Portfolio styling/playback is updated in the existing showcase files, with deferred source loading, viewport playback, accessible pause/play buttons and native recording fallbacks without JavaScript. Hero/portfolio entrances use short unblurred fades; Arabic image descriptions and the new gallery label are translated. The pending mobile menu changes remain intact. Parsed comparisons confirmed the offer, testimonials, process, FAQ, contact, booking and footer markup are identical to the pre-redesign snapshot.
+
+Checks passed: English/Arabic at 320, 390, 768 and 1440px; no horizontal overflow; all seven recordings retained; no MP4 requests before reaching the portfolio; no autoplay under reduced motion; actual recording playback, manual pause/resume and offscreen pause; readable content/native video fallback with JavaScript disabled; consultation CTA navigation; no browser JavaScript errors. Existing nine backend tests, JavaScript syntax checks and public asset packaging passed. Screenshots are available locally under `/tmp/fikra-editorial-*`. This design was validated locally; production deployment is verified separately.
+
+## Before/after DTC demonstration
+
+Replaced only the three problem cards with two fictional storefront mockups. The same generic tote store is shown before and after improvements to product messaging, calls to action and purchase guidance. Metrics are explicitly illustrative: 10/1,000 visits = 1.0%, 25/1,000 = 2.5%, a difference of 1.5 percentage points. The section prominently states that this is not a client result; its final note also excludes forecasts and attributes actual performance to traffic, offer and testing. No supplied client imagery is represented as a poor-performing before store.
+
+English and Arabic labels, descriptions, figures and notes were checked at 320, 390, 768 and 1440px, with no horizontal overflow or browser JavaScript errors. Mockup controls are static illustrations, not dead interactive buttons. All other sections and booking behavior were preserved. Public asset build, JavaScript syntax and Git whitespace checks passed. Local screenshots: `/tmp/fikra-comparison-en-1440.png`, `/tmp/fikra-comparison-en-390.png`, `/tmp/fikra-comparison-ar-1440.png`, `/tmp/fikra-comparison-ar-390.png`. Production behavior must be checked after Cloudflare deployment.
+
+## Dedicated VSL section
+
+Added `#vsl` inside the hero, directly after its consultation CTA and before the storefront images. It keeps the hero storefront previews and provides a native video player controlled by `vslVideoUrl` and optional `vslPosterUrl` in `assets/site-config.js`. Both remain null until the owner supplies the introduction video. The current view is an honest coming-soon panel, without a fake playback control.
+
+English/Arabic rendering and consultation navigation passed at 320, 390, 768 and 1440px, without page overflow or JavaScript errors. A test-only configuration using an existing local recording verified actual native playback, inline support, manual controls, no autoplay/preloading and no booking conversion event. Missing media showed the error/direct-link fallback; an unsafe JavaScript URL was rejected. The test recording was not configured as the actual VSL. JavaScript syntax, public asset packaging and whitespace checks passed. Screenshots: `/tmp/fikra-vsl-en-1440.png`, `/tmp/fikra-vsl-en-390.png`, `/tmp/fikra-vsl-ar-1440.png`, `/tmp/fikra-vsl-ar-390.png`. Production behavior must be checked after Cloudflare deployment.
+
+
+## Hero VSL ordering and GitHub delivery
+
+Moved the existing single `#vsl` player directly after the hero consultation CTA and before the Karen Wazen / Chic Homz image composition. The standalone VSL heading and duplicate consultation button were removed to keep the requested sequence concise. Both desktop and mobile use CTA, video, then images. No actual introduction video is configured yet. This delivery includes the previously local header/menu refinement, editorial hero and portfolio, supplied hero screenshots, illustrative DTC comparison and configurable VSL. No manual Cloudflare deployment was run.

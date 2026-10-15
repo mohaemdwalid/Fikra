@@ -1,20 +1,28 @@
-#shopify-projects.showcase-section { background: #101010; color: #f7f6f2; padding-block: 80px 0; }
+#shopify-projects.showcase-section { background: #101010; color: #f7f6f2; padding-block: 72px; }
 .showcase-section .proposal-kicker { color: #ff5b88; }
-.showcase-section .proposal-intro { color: #bcbab4; }
-.showcase-stack { display: flex; flex-direction: column; gap: 22vh; padding-block: 24px 18vh; position: relative; }
-.showcase-card { position: sticky; top: calc(100px + var(--card-index) * 18px); height: min(68svh, 680px); min-height: 330px; border: 1px solid #ffffff24; border-radius: 18px; overflow: hidden; background: #191919; transform-origin: center top; isolation: isolate; will-change: transform; }
-.showcase-card video { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; background: #101010; }
-.showcase-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 38%, #000b 100%); pointer-events: none; z-index: 1; }
-.showcase-caption { position: absolute; inset-inline: 32px; bottom: 30px; z-index: 2; pointer-events: none; max-width: 75%; }
-.showcase-caption span { font: 11px/1.5 Arial,sans-serif; letter-spacing: .12em; color: #ddd; }
-.proposal .showcase-caption h3 { color: #fff; font-size: clamp(26px, 3.6vw, 46px); margin: 10px 0 0; line-height: 1.15; letter-spacing: -.035em; }
+.editorial-work-heading { display: grid; grid-template-columns: 1.4fr 1fr; align-items: end; gap: 40px; margin-bottom: 36px; }
+.editorial-work-heading h2 { max-width: 640px; margin-bottom: 0; }
+#shopify-projects .proposal-intro { max-width: 320px; margin: 0; font: 16px/1.7 Arial,sans-serif; color: #bcbab4; }
+.showcase-featured, .showcase-gallery { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 36px 24px; }
+.showcase-featured > :first-child { grid-column: 1 / -1; }
+.showcase-card { min-width: 0; position: relative; }
+.showcase-media { position: relative; overflow: hidden; border: 1px solid #ffffff24; border-radius: 14px; background: #191919; }
+.showcase-card video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: contain; object-position: center; background: #191919; }
+.showcase-featured > :first-child video { aspect-ratio: 16 / 9; }
+.showcase-caption { padding-top: 18px; text-align: start; }
+.showcase-caption span { font: 11px/1.5 'IBM Plex Mono',monospace; letter-spacing: .08em; color: #aaa69e; }
+.proposal .showcase-caption h3 { color: #fff; font-size: clamp(20px,2.4vw,30px); margin: 8px 0 0; line-height: 1.2; letter-spacing: -.025em; }
+.editorial-more-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 48px 0 24px; padding-top: 28px; border-top: 1px solid #ffffff24; color: #bcbab4; font: 12px/1.5 'IBM Plex Mono',monospace; }
+.showcase-gallery .showcase-caption h3 { font-size: 22px; }
+.showcase-playback { position: absolute; inset-block-start: 12px; inset-inline-end: 12px; display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border: 1px solid #ffffff80; border-radius: 50%; background: #101010dc; color: #fff; font: 16px/1 Arial,sans-serif; cursor: pointer; }
+.showcase-playback:focus-visible { outline: 3px solid #ff5080; outline-offset: 3px; }
+.showcase-card noscript video { display: block; }
 @media(max-width:767px) {
- #shopify-projects.showcase-section { padding-top: 56px; }
- .showcase-card { top: calc(85px + var(--card-index) * 14px); height: 65svh; min-height: 360px; border-radius: 12px; }
- .showcase-caption { inset-inline: 22px; bottom: 24px; max-width: 85%; }
- .showcase-stack { gap: 20vh; padding-bottom: 14vh; }
-}
-@media(prefers-reduced-motion:reduce) {
- .showcase-card { position: relative; top: auto; transform: none !important; filter: none !important; will-change: auto; }
- .showcase-stack { gap: 24px; padding-bottom: 64px; }
+  #shopify-projects.showcase-section { padding-block: 48px; }
+  .editorial-work-heading { grid-template-columns: minmax(0,1fr); gap: 16px; margin-bottom: 28px; }
+  .showcase-featured, .showcase-gallery { grid-template-columns: minmax(0,1fr); gap: 28px; }
+  .showcase-featured > :first-child { grid-column: auto; }
+  .showcase-caption { padding-top: 12px; }
+  .editorial-more-heading { margin-top: 36px; }
+  .showcase-media { border-radius: 10px; }
 }

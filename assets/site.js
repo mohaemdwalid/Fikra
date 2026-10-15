@@ -80,6 +80,11 @@
   });
   dialog.addEventListener('close', () => { if (opener?.isConnected) opener.focus(); });
   document.addEventListener('click', event => {
+    if (event.target.closest('.nav-menu-wrapper .nav-link[href^="#"]')) {
+      document.querySelector('.w-nav-button.w--open')?.click();
+    }
+  });
+  document.addEventListener('click', event => {
     const trigger = event.target.closest('[data-fikra-contact], [data-fikra-page]');
     if (!trigger) return;
     event.preventDefault(); event.stopImmediatePropagation();

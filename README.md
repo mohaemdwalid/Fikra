@@ -94,3 +94,14 @@ PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/br
 Run the Python preview first. Set `PREVIEW_URL=http://localhost:5188/` to use the local Worker instead. The real-widget test saves four synthetic qualification leads, reads actual Cal.com availability and stops at its booking form. The state test uses mocked Cal callbacks for confirmations and failures. Browser screenshots are written to `/tmp`. These checks never click Cal.com's final Confirm button.
 
 See `VALIDATION.md` for checks performed and limits.
+
+## VSL video
+
+The dedicated introduction-video section is `#vsl`, inside the hero, directly after its consultation CTA and before the storefront previews. Configure it in `assets/site-config.js`:
+
+```js
+vslVideoUrl: 'assets/videos/fikra-vsl.mp4',
+vslPosterUrl: 'assets/videos/fikra-vsl-poster.jpg',
+```
+
+Use an actual local video file or a direct HTTPS MP4/WebM URL, rather than a YouTube/Vimeo watch-page URL. The poster is optional. Keep `vslVideoUrl: null` until the real introduction video is supplied: the page displays a translated coming-soon panel with no fake play button. Once configured, it uses native playback controls, supports inline mobile playback, does not autoplay or preload the video, and provides an error message/direct link if playback fails. Watching the video does not fire booking conversions. For Cloudflare-hosted video files, keep each below the existing 25 MiB asset limit or use a direct hosted media URL. Do not rename a portfolio recording as the introduction video.

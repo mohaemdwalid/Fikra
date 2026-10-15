@@ -7,7 +7,7 @@
   const hero = document.querySelector('.proposal-hero');
   const targets = [...document.querySelectorAll([
     '.proposal-hero h1', '.proposal-hero .proposal-kicker', '.proposal-lead',
-    '.proposal-summary',
+    '.proposal-summary', '.editorial-hero-art', '#shopify-projects .showcase-card',
     '.proposal-section > .proposal-container > h2',
     '.proposal-section > .proposal-container > .proposal-kicker',
     '.proposal-section > .proposal-container > .proposal-intro',
@@ -22,11 +22,14 @@
     const heading = /H[12]/.test(el.tagName);
     const peers = [...el.parentElement.children].filter(node => targets.includes(node));
     const delay = Math.min(peers.indexOf(el) * 120, hero?.contains(el) ? 360 : 240);
-    const frames = heading
+    const editorial = !!el.closest('#home, #shopify-projects');
+    const frames = editorial
+      ? [{opacity: 0, transform: 'translateY(16px)'}, {opacity: 1, transform: 'translateY(0)'}]
+      : heading
       ? [{opacity: 0, transform: 'translateY(52px)', filter: 'blur(7px)', clipPath: 'inset(0 0 100% 0)'}, {opacity: 1, transform: 'translateY(0)', filter: 'blur(0)', clipPath: 'inset(-12% -2% -12% -2%)'}]
       : [{opacity: 0, transform: 'translateY(36px)'}, {opacity: 1, transform: 'translateY(0)'}];
     active.get(el)?.cancel();
-    const animation = el.animate(frames, {duration: heading ? 1250 : 950, delay: Math.max(0, delay), easing: 'cubic-bezier(.16,1,.3,1)', fill: 'backwards'});
+    const animation = el.animate(frames, {duration: editorial ? 500 : heading ? 1250 : 950, delay: Math.max(0, delay), easing: 'cubic-bezier(.16,1,.3,1)', fill: 'backwards'});
     active.set(el, animation);
     animation.finished.then(() => { if (active.get(el) === animation) active.delete(el); }, () => {});
   }

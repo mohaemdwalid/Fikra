@@ -147,6 +147,8 @@
     button.setAttribute('aria-label', lang === 'ar' ? 'Switch to English' : 'التبديل إلى العربية');
     document.title = lang === 'ar' ? 'فكرة | تصميم وتطوير متاجر شوبيفاي' : 'FIKRA | Shopify Websites';
     document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+    document.querySelectorAll('[data-i18n-alt]').forEach(el => el.alt = t(el.dataset.i18nAlt));
+    document.querySelectorAll('[data-i18n-aria]').forEach(el => el.setAttribute('aria-label', t(el.dataset.i18nAria)));
     document.querySelectorAll('input[placeholder]').forEach(el => {
       if (!el.dataset.originalPlaceholder) el.dataset.originalPlaceholder = el.placeholder;
       el.placeholder = t(el.dataset.originalPlaceholder);

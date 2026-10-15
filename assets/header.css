@@ -1,0 +1,71 @@
+/* Compact navigation for the existing Webflow mobile/tablet header. */
+@media (max-width: 991px) {
+  .navbar-logo-left .w-nav-overlay .nav-menu-wrapper .nav-menu-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 20px 24px 28px;
+    border-radius: 0 0 20px 20px;
+    background: #f7f6f2;
+    box-shadow: 0 20px 30px -20px #0003;
+  }
+  .navbar-logo-left .w-nav-overlay .nav-menu-two > .nav-link-item-wrapper {
+    width: 100%;
+    height: auto;
+    align-self: stretch;
+    border-bottom: 1px solid #01010218;
+  }
+  .navbar-logo-left .w-nav-overlay .nav-menu-two .nav-link {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 18px 0;
+    text-align: start;
+    font-size: 20px;
+    line-height: 1.4;
+    white-space: normal;
+  }
+  .navbar-logo-left .w-nav-overlay .nav-menu-two > .mobile-margin-top-10 {
+    width: 100%;
+    margin-top: 24px;
+  }
+  .navbar-logo-left .w-nav-overlay .navbar-cta-wrapper { width: 100%; }
+  .navbar-logo-left .w-nav-overlay .navbar-cta-wrapper .cta-button-with-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 56px;
+    gap: 16px;
+    padding: 16px 20px;
+    overflow: visible;
+  }
+  .navbar-logo-left .w-nav-overlay .navbar-cta-wrapper .navbar-cta {
+    flex: 1;
+    min-width: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+    white-space: normal;
+    text-transform: none;
+    overflow-wrap: normal;
+  }
+  .navbar-logo-left .w-nav-overlay .cta-button-with-image > img {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+  }
+  html[dir='rtl'] .navbar-logo-left .w-nav-overlay .cta-button-with-image > img { transform: scaleX(-1); }
+  .navbar-logo-left .nav-link:focus-visible,
+  .navbar-logo-left .cta-button-with-image:focus-visible { outline: 2px solid #ef1f5e; outline-offset: 4px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .navbar-logo-left .w-nav-overlay .nav-menu-wrapper[data-nav-menu-open],
+  .navbar-logo-left .w-nav-overlay .nav-menu-wrapper[data-nav-menu-open] .nav-menu-two > li {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
