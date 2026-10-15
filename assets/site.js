@@ -56,11 +56,11 @@
     } else {
       status.textContent = email ? 'Continue opens your email app with your enquiry ready to send.' : 'Continue opens WhatsApp with your enquiry ready to send.';
     }
-    const booking = safeUrl(config.bookingUrl);
+    const booking = '#booking';
     if (booking) {
       const a = document.createElement('a');
-      a.href = booking; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      a.className = 'fikra-action'; a.textContent = 'Book a call'; content.prepend(a);
+      a.href = booking; a.setAttribute('data-fikra-booking', '');
+      a.className = 'fikra-action'; a.textContent = t('Book Your Free Shopify Consultation'); content.prepend(a);
     }
     form.addEventListener('submit', event => {
       event.preventDefault();

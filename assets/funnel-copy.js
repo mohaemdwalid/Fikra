@@ -6,7 +6,7 @@ window.FIKRA_FUNNEL_AR = {
   "FIKRA / SHOPIFY": "فكرة / شوبيفاي",
   "A closer look at your next store.": "نظرة أقرب على متجرك القادم.",
   "Your introduction video will appear here.": "سيظهر الفيديو التعريفي هنا.",
-  "Book Your Shopify Consultation": "احجز استشارة لمتجرك",
+  "Book Your Free Shopify Consultation": "احجز استشارتك المجانية لمتجر شوبيفاي",
   "30 minutes · Your goals, your store, your next steps.": "٣٠ دقيقة · أهدافك ومتجرك وخطواتك القادمة.",
   "FIKRA Shopify Store Launch": "باقة إطلاق متجر شوبيفاي من فكرة",
   "Brand-led design. Mobile-ready pages. Store setup and handover.": "تصميم يعبّر عن علامتك. صفحات مناسبة للجوال. إعداد المتجر وتسليمه.",
@@ -73,6 +73,6 @@ window.FIKRA_FUNNEL_AR = {
   "The support period and revision allowance are still to be confirmed. These will be specified in your quote.": "مدة الدعم وعدد التعديلات بانتظار التحديد. سنوضّحهما في عرض السعر.",
   "LET’S TALK SHOPIFY": "لنتحدّث عن شوبيفاي",
   "Bring your store idea. Let’s plan the next step.": "أحضر فكرة متجرك. ولنخطّط للخطوة القادمة.",
-  "Choose a 30-minute consultation, available every day from 10am to 3pm Qatar time.": "اختر استشارة مدتها ٣٠ دقيقة، متاحة يوميًا من ١٠ صباحًا إلى ٣ عصرًا بتوقيت قطر.",
+  "Choose a free consultation at a time available in our booking calendar.": "اختر استشارة مجانية في أحد الأوقات المتاحة في تقويم الحجز.",
   "ORIGINAL PAGE CONTINUES BELOW · KEPT FOR YOUR REVIEW": "الصفحة الأصلية مستمرة بالأسفل · محفوظة للمراجعة"
 };

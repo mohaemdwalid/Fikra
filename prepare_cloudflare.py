@@ -6,7 +6,10 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / 'cloudflare-upload'
-OUTPUT.mkdir(exist_ok=True)
+# Remove stale assets from previous builds, including retired integrations.
+if OUTPUT.exists():
+    shutil.rmtree(OUTPUT)
+OUTPUT.mkdir()
 html = BeautifulSoup((ROOT / 'index.html').read_text(), 'html.parser')
 
 (OUTPUT / 'index.html').write_text(str(html))
@@ -31,5 +34,5 @@ archive = ROOT / 'fikra-cloudflare-upload.zip'
 with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as zip_file:
     for file in files:
         zip_file.write(file, file.relative_to(OUTPUT))
-print(f'Upload ZIP: {archive}')
+print(f'Static-assets ZIP: {archive} (Workers deployment requires the API and D1 binding in wrangler.jsonc)')
 print(f'{len(files)} public files; {archive.stat().st_size / 1048576:.1f} MiB ZIP')

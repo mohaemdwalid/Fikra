@@ -1,66 +1,52 @@
-import concurrent.futures
-from datetime import datetime, timedelta
+import copy
 import json
 from pathlib import Path
+import sqlite3
 import tempfile
 import unittest
-from zoneinfo import ZoneInfo
-from server import BookingError, BookingStore
+import uuid
+from concurrent.futures import ThreadPoolExecutor
+from server import LeadStore
 
 
-class BookingTests(unittest.TestCase):
+class LeadTests(unittest.TestCase):
     def setUp(self):
-        self.temp = tempfile.TemporaryDirectory()
-        root = Path(self.temp.name)
-        self.config = root / 'config.json'
-        config = json.loads(Path('booking-config.json').read_text())
-        config.update(enabled=True, workingDays=list(range(7)))
-        self.config.write_text(json.dumps(config))
-        self.store = BookingStore(root / 'bookings.sqlite3', self.config)
-        self.day = (datetime.now(ZoneInfo('Asia/Qatar')) + timedelta(days=1)).date().isoformat()
+        self.directory = tempfile.TemporaryDirectory()
+        self.path = Path(self.directory.name) / 'leads.sqlite3'
+        self.store = LeadStore(self.path)
+        self.payload = dict(id=str(uuid.uuid4()), name='اختبار Test', email='test@example.com', phone='+97412345678', project='New Shopify Store', budget='QAR 4,000–6,000', website='', language='ar', utm={'utm_source': 'instagram', 'email': 'secret@example.com'})
 
     def tearDown(self):
-        self.temp.cleanup()
+        self.directory.cleanup()
 
-    def payload(self, slot):
-        return {'slot': slot, 'name': 'Test Client', 'email': 'client@example.com', 'project': 'Shopify test enquiry'}
+    def test_persistence_and_retry(self):
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            list(executor.map(self.store.save, [self.payload] * 4))
+        LeadStore(self.path)
+        with sqlite3.connect(self.path) as db:
+            rows = db.execute('SELECT name, phone, utm FROM leads').fetchall()
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0][:2], ('اختبار Test', '+97412345678'))
+        self.assertEqual(json.loads(rows[0][2]), {'utm_source': 'instagram'})
 
-    def test_hours_and_persistence(self):
-        slots = self.store.availability(self.day)['slots']
-        self.assertEqual(len(slots), 10)
-        self.assertEqual((slots[0]['time'], slots[-1]['time']), ('10:00', '14:30'))
-        booking = self.store.book(self.payload(slots[0]['value']))
-        self.assertEqual(booking['status'], 'confirmed')
-        fresh = BookingStore(self.store.database, self.config)
-        self.assertEqual(len(fresh.availability(self.day)['slots']), 9)
+    def test_invalid_details(self):
+        for key, value in [('email', 'bad'), ('phone', '1234'), ('budget', 'invented'), ('project', 'other'), ('website', 'javascript:alert(1)'), ('website', 'https://user:secret@example.com'), ('name', ' '), ('company', 'spam'), ('id', 'bad')]:
+            with self.subTest(key=key, value=value):
+                payload = copy.deepcopy(self.payload)
+                payload[key] = value
+                with self.assertRaises(ValueError):
+                    self.store.save(payload)
 
-    def test_simultaneous_booking_only_succeeds_once(self):
-        slot = self.store.availability(self.day)['slots'][0]['value']
-        def attempt(_):
-            try:
-                self.store.book(self.payload(slot))
-                return 201
-            except BookingError as error:
-                return error.status
-        with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-            results = list(pool.map(attempt, range(4)))
-        self.assertEqual(sorted(results), [201, 409, 409, 409])
+    def test_missing_fields(self):
+        del self.payload['phone']
+        with self.assertRaises(ValueError):
+            self.store.save(self.payload)
 
-    def test_invalid_email_and_closed_times(self):
-        slot = self.store.availability(self.day)['slots'][0]['value']
-        with self.assertRaises(BookingError):
-            self.store.book({**self.payload(slot), 'email': 'invalid'})
-        with self.assertRaises(BookingError):
-            self.store.book(self.payload(self.day + 'T16:00:00+03:00'))
-        self.assertEqual(self.store.availability('2020-01-01')['slots'], [])
-
-    def test_unconfigured_calendar_cannot_confirm(self):
-        config = json.loads(self.config.read_text()); config['enabled'] = False
-        self.config.write_text(json.dumps(config))
-        self.assertFalse(self.store.availability(self.day)['configured'])
-        with self.assertRaises(BookingError) as raised:
-            self.store.book(self.payload(self.day + 'T10:00:00+03:00'))
-        self.assertEqual(raised.exception.status, 503)
+    def test_no_booking_or_private_files_in_output(self):
+        html = Path('index.html').read_text()
+        for old in ['hubspot', 'data-month', 'data-times', 'Confirm booking', '10am–3pm', 'Email confirmations are not enabled']:
+            self.assertNotIn(old, html)
+        self.assertIn('/api/leads', Path('assets/booking.js').read_text())
 
 
 if __name__ == '__main__':

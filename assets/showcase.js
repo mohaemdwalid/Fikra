@@ -4,17 +4,7 @@
   const ar = () => document.documentElement.lang === 'ar';
   function labels() {
     document.querySelectorAll('[data-showcase-en]').forEach(el => { el.textContent = ar() ? el.dataset.showcaseAr : el.dataset.showcaseEn; });
-    cards.forEach(card => {
-      const video = card.querySelector('video');
-      const play = card.querySelector('[data-showcase-action="play"]');
-      play.textContent = video.paused ? '▷' : 'Ⅱ';
-      play.setAttribute('aria-label', ar() ? (video.paused ? 'تشغيل الفيديو' : 'إيقاف الفيديو مؤقتًا') : (video.paused ? 'Play video' : 'Pause video'));
-      const sound = card.querySelector('[data-showcase-action="sound"]');
-      sound.textContent = video.muted ? '♪̸' : '♪';
-      sound.setAttribute('aria-label', ar() ? (video.muted ? 'تشغيل الصوت' : 'كتم الصوت') : (video.muted ? 'Unmute video' : 'Mute video'));
-      sound.setAttribute('aria-pressed', String(!video.muted));
-      card.querySelector('[data-showcase-action="expand"]').setAttribute('aria-label', ar() ? 'عرض الفيديو بملء الشاشة' : 'Fullscreen video');
-    });
+
   }
   const observer = new IntersectionObserver(entries => {
     entries.forEach(({target, isIntersecting}) => {
@@ -26,21 +16,7 @@
   cards.forEach(card => {
     const video = card.querySelector('video'); video.muted = true;
     observer.observe(card);
-    video.addEventListener('play', labels); video.addEventListener('pause', labels);
-    card.addEventListener('click', async event => {
-      const button = event.target.closest('[data-showcase-action]'); if (!button) return;
-      switch (button.dataset.showcaseAction) {
-        case 'play':
-          if (video.paused) { delete card.dataset.userPaused; await video.play().catch(() => {}); }
-          else { card.dataset.userPaused = 'true'; video.pause(); }
-          break;
-        case 'sound': video.muted = !video.muted; break;
-        case 'expand':
-          try { if (video.requestFullscreen) await video.requestFullscreen(); else video.webkitEnterFullscreen?.(); } catch {}
-          break;
-      }
-      labels();
-    });
+
   });
   let queued = false;
   function update() {

@@ -7,14 +7,14 @@
   const hero = document.querySelector('.proposal-hero');
   const targets = [...document.querySelectorAll([
     '.proposal-hero h1', '.proposal-hero .proposal-kicker', '.proposal-lead',
-    '.proposal-hero-actions', '.proposal-summary',
+    '.proposal-summary',
     '.proposal-section > .proposal-container > h2',
     '.proposal-section > .proposal-container > .proposal-kicker',
     '.proposal-section > .proposal-container > .proposal-intro',
     '.proposal-card', '.proposal-offer-main', '.proposal-offer-details',
     '.proposal-faq details', '#testimonials h2', '#testimonials .reviews-subtitle',
     '#booking h2', '#booking .fikra-booking-intro'
-  ].join(','))];
+  ].join(','))].filter(el => !el.querySelector('.proposal-cta'));
   function reveal(el) {
     if (visible.has(el)) return;
     visible.add(el);

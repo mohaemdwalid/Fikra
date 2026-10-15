@@ -1,100 +1,96 @@
-# FIKRA Agency — current website
+# FIKRA Shopify consultation page
 
-The website entry point is `index.html`. It includes English/Arabic content, the Shopify offer, a moving client-logo strip, client reviews, seven stacked showcase videos, a pre-booking questionnaire and the supplied HubSpot calendar embed.
+Static HTML/CSS/JavaScript, with the existing English/Arabic language switcher, portfolio and animations. Cal.com owns availability, appointments, timezone selection, Google Meet links, booking emails and configured workflows. The website saves qualification leads; it never reserves time itself.
 
-## Preview
-
-Run `python3 server.py`, then open http://127.0.0.1:5184. No frontend build is required. The calendar now uses HubSpot; the local SQLite booking implementation remains in the repository for reference but is not the active website booking flow.
-
-## Cloudflare Pages upload
+## Preview and tests
 
 ```sh
 python3 -m pip install -r requirements.txt
+python3 server.py
+# http://127.0.0.1:5184
+python3 -m unittest discover -s tests -v
+node --test tests/worker.test.mjs
+node --check assets/booking.js
 python3 prepare_cloudflare.py
 ```
 
-Upload the generated `fikra-cloudflare-upload.zip` through Cloudflare Pages Direct Upload. For a Git-connected Pages deployment, install the requirements and run `python3 prepare_cloudflare.py` as the build command, with `cloudflare-upload` as the output directory. Deploy only that public output folder.
+There is no frontend package install or compilation step. `prepare_cloudflare.py` builds the public asset directory and a static ZIP, cleaning obsolete assets first. Local leads persist in `.data/leads.sqlite3`; the Python server serves only the homepage and assets. Existing `.data/bookings.sqlite3` history is retained privately, but the old reservation API and custom calendar are retired. Do not upload `.data` or run the Python server as the Cloudflare backend.
 
-The output contains `index.html` and public assets. Database files, local backups, the original large source recording and generated upload artifacts are excluded from Git. All shipped videos are below Cloudflare Pages' 25 MiB per-file limit.
+## Booking configuration
 
-The HubSpot calendar is `https://meetings-eu1.hubspot.com/fikra-agency`. The website questionnaire shows a copyable summary; its answers are **not automatically saved to HubSpot**. Calendar availability, account calendar connections and actual confirmation delivery are configured in HubSpot and still require owner verification. No test appointment has been submitted to HubSpot.
+The **only event URL setting** is `bookingUrl` in `assets/site-config.js`. The inline path and fallback URL derive from it. No Cal.com API key is required. The official vanilla embed script is loaded once, after `POST /api/leads` confirms persistence.
 
-The VSL area and offer values still need the owner's final content. The restored original footer contains reference material that should be reviewed before public launch.
+Verified on October 15, 2026: the supplied event returns HTTP 200 and identifies itself as Free Shopify Consultation, 30 minutes, Google Meet, with Asia/Qatar as its schedule timezone. Timezone selection is unlocked. Cal.com displays its own availability and the visitor's selected timezone; the website does not calculate or hardcode slots. Name, email and `attendeePhoneNumber` are passed through embed config. A random website lead ID is passed as `metadata[fikraLeadId]`. Qualification answers stay in the lead database and are not asked again by the website or added as Cal.com questions. The inspected event has no duplicate project/budget questions.
 
-The following notes document earlier local implementations and may describe sections since replaced.
+The website form, errors, instructions and CTAs are translated. The embedded calendar intentionally uses English, with an Arabic explanation; full Arabic widget support has not been verified. Switching the website language does not remount the calendar or discard an in-progress booking. The fallback opens Cal.com directly, with contact prefills; no booking conversion can be detected on that external tab by this website.
 
----
+Cal.com's event currently also offers an optional SMS reminder phone field from its own workflow. The website does not opt visitors into it or add another workflow. Keep that choice in Cal.com. Set email to **required** in Cal.com's event settings if every attendee must receive email details; it was optional during inspection, although the website requires and prefills it.
 
-# FIKRA Shopify website
+Official references: [embed instructions](https://cal.com/help/embedding/embed-instructions), [prefilling](https://cal.com/help/embedding/prefill-booking-form-embed), [event payloads](https://cal.com/help/embedding/embed-events), [UTMs](https://cal.com/help/embedding/utm-tracking-embed).
 
-A local website based on the supplied HTML design, with FIKRA logos, Shopify service copy, Instagram enquiries, a custom booking calendar, and an English/Arabic switcher.
+## Cloudflare Workers setup — no deployment performed
 
-## Run locally
+The supplied live URL is a **Worker** (`fikra.mohamedxmod99.workers.dev`); the earlier repository only packaged static Pages uploads and had no Worker/backend configuration. `wrangler.jsonc` now defines the `fikra` Worker, static assets and a D1 binding named `LEADS_DB`. Verify the existing Worker/account in the dashboard before publishing. Preserve any existing dashboard routes, domains, bindings or observability settings when reconciling this configuration.
 
-```sh
-python3 server.py
-```
-
-Open http://127.0.0.1:5184. Python 3.9+ is required; there are no third-party Python dependencies or build steps. The booking API requires this server. A plain static server can display the design but cannot save appointments.
-
-## Booking calendar
-
-Availability is **every day, 10:00–15:00, Asia/Qatar**, as requested. The initial call duration is **30 minutes**. The last start time is 14:30 so the meeting finishes by 15:00. A 60-minute minimum notice and 60-day booking window are configured as initial defaults.
-
-Edit `booking-config.json` to change these settings. Working days use Sunday=0 through Saturday=6. Disable `enabled` to pause new bookings. The frontend currently displays a 60-day window and the agreed hours; update `assets/booking.js` and the booking section in `index.html` if those settings change.
-
-- `GET /api/availability?date=YYYY-MM-DD` returns available slots without client details.
-- `POST /api/bookings` validates client details and saves a reservation.
-- `.data/bookings.sqlite3` persists reservations. A unique slot constraint prevents simultaneous duplicate bookings.
-- The confirmation screen provides an `.ics` appointment download.
-
-View and cancel bookings locally:
+No application secrets or environment variables are needed. Wrangler must authenticate to the correct Cloudflare account. The D1 database ID is configuration, not a secret. Provisioning and production deployment are pending owner approval; these are the commands to run **after approval**:
 
 ```sh
-python3 manage_bookings.py list
-python3 manage_bookings.py cancel BOOKING_ID
+npx wrangler@4.151.0 login
+npx wrangler@4.151.0 whoami
+npx wrangler@4.151.0 d1 create fikra-leads
+# Replace REPLACE_WITH_CREATED_D1_DATABASE_ID in wrangler.jsonc with the returned ID.
+npx wrangler@4.151.0 d1 migrations apply fikra-leads --remote
+python3 prepare_cloudflare.py
+npx wrangler@4.151.0 deploy --dry-run
+npx wrangler@4.151.0 deploy
 ```
 
-A confirmation reserves time in this website database. Email delivery, owner notifications, video meeting creation and external calendar synchronisation are not connected. Personal calendar events will not block these slots automatically. Back up the database when moving or deploying the site; do not commit or publish it. The server excludes database files, configuration, source backups and owner management commands from HTTP serving. It also checks submission origins and applies a basic request rate limit.
-
-## English and Arabic
-
-The language switch translates the main copy, navigation, enquiry dialog, booking calendar, form and confirmation. It applies RTL layout and remembers the language in this browser. Arabic uses self-hosted **IBM Plex Sans Arabic**, with regular and semibold fonts and their licence under `assets/fonts/`.
-
-Translations live in `assets/i18n.js`. Reference testimonials, case-study excerpts, image text and some third-party material remain in their source language. Replace them with approved FIKRA content in both languages before launch.
-
-## Files
-
-- `index.html`: page layout, retained design interactions and booking markup.
-- `assets/site.css`: FIKRA styling, Arabic typography, RTL overrides and booking layout.
-- `assets/site.js`: enquiry dialog and newsletter handling.
-- `assets/site-config.js`: Instagram and optional contact destinations.
-- `assets/i18n.js`: translations and language persistence.
-- `assets/booking.js`: date/time selection, booking submission and calendar export.
-- `server.py`: local HTTP server, availability rules and SQLite reservations.
-- `booking-config.json`: availability settings.
-- `manage_bookings.py`: owner-only local booking commands.
-- `assets/vendor/`: local copies of the original stylesheet and nine runtime scripts.
-- `backups/design-original.html`: unchanged original design, excluded from HTTP serving.
-
-## Source analysis
-
-The original was a roughly 2.3 MB Webflow export of ConversionWise, with 98 script elements, missing secondary pages, third-party analytics and booking forms, a hosted newsletter form and another business's WhatsApp details. Removed 69 identical duplicate inline scripts, the original analytics and booking tracking, hosted review widget, Typeform switcher, duplicate entry loaders and WhatsApp modal.
-
-Core styles and scripts are local. Photos, remaining videos and original fonts still use external hosts; the site is not fully offline. The blocked reference hero video was replaced with a local Shopify introduction panel. The supplied FIKRA PNG is unchanged and displayed in cropped CSS viewports in the header and footer.
-
-Service, work, about, FAQ and review navigation scrolls to homepage sections. Main project CTAs scroll to the booking calendar. Service enquiry buttons and the contact icon open the Instagram dialog for @fikraagency.qa. Unbuilt secondary pages show a pending-page message. Newsletter signup never claims to save a subscriber without a configured destination.
-
-## Verification
+Use the current supported Wrangler version if updating the pinned command. To exercise the actual Worker/D1 runtime without deploying:
 
 ```sh
-python3 -m unittest discover -s tests -v
+python3 prepare_cloudflare.py
+npx wrangler@4.151.0 d1 migrations apply fikra-leads --local
+npx wrangler@4.151.0 dev --local --port 5188
+# http://localhost:5188
+npx wrangler@4.151.0 d1 execute fikra-leads --local --command 'SELECT id, project, budget, created_at FROM leads ORDER BY created_at DESC LIMIT 10'
 ```
 
-Backend tests cover daily opening hours, persistent reservations, simultaneous duplicate attempts, invalid email, closed times, past dates and disabled availability. Local Chrome checks verified a complete Arabic booking, slot removal after reservation, confirmation and calendar-download link, saved language choice, English restoration, and desktop/mobile RTL layouts without horizontal overflow or JavaScript errors. The test reservation was cancelled after checking. These are local browser checks, not physical-device or live-hosting checks.
+A static ZIP upload alone is insufficient: it has no lead API or D1 storage. Missing binding/schema or failed writes return HTTP 503, and the form does not show a successful save or open the calendar. The API validates every field, limits request size, checks same-origin POSTs, uses parameterized SQL and idempotent lead IDs, and applies a shared D1 rate limit (10 valid submissions per IP-derived daily hash per 10 minutes). A honeypot rejects basic bots. IP hashes expire and are cleaned; raw IPs are not saved. Lead records are private; no public read endpoint exists. Review access, retention and your privacy notice for stored name, email, WhatsApp and project information. Export and delete records using authenticated D1 tools as needed. `.wrangler`, databases, ZIPs and backups remain Git-ignored.
 
-## Before publication
+## Tracking and confirmation
 
-The design still contains reference testimonials, results, client logos, case studies, founder information, legal text and some social/reference links from ConversionWise. These are not verified FIKRA claims. Replace them with approved content, implement the secondary pages, add a genuine privacy policy explaining the stored booking details, connect owner notifications, and deploy the Python server with persistent storage and HTTPS.
+Neither inspected local source nor live HTML contained an active Meta Pixel initialization or GTM container ID. Existing placeholders are preserved; no Pixel ID has been invented. The integration pushes only these events to `window.dataLayer`, using GTM as the single delivery path:
 
-Nothing has been published or deployed. Appointments currently exist only in the local website database.
+| Website event | Trigger | Suggested Meta mapping |
+| --- | --- | --- |
+| `fikra_lead_submitted` | Persisted lead API response | `Lead` |
+| `fikra_booking_confirmed` | Official `bookingSuccessfulV2` with a UID, status `ACCEPTED`, and no outstanding payment | `Schedule` |
+
+Configure one GTM custom-event trigger/tag for each, using `event_id` for deduplication. Do not also send these from a second direct `fbq` handler or a calendar-open trigger. Only event names and opaque IDs enter the data layer: no names, email addresses, phone numbers, URLs or qualification answers. Event IDs are deduplicated in memory and session storage. Existing tracking can remain connected independently. Browser event simulation verifies the guards but does not prove delivery to Meta; verify in your GTM/Meta test-event tools after configuration.
+
+A pending/unconfirmed/payment-required Cal.com response is shown as pending and does not convert. Dry-run events do not convert. Successful accepted bookings display next steps; Cal.com alone sends notifications. A booking confirmed later by the owner or made in the fallback tab cannot be reliably attributed by this page; server-side attribution would require a separate signed Cal.com webhook integration, which is not enabled here.
+
+Only the five supported UTM keys are carried from the landing URL to the lead record and Cal.com config/fallback. Values are limited to ordinary campaign tokens. Do not put personal data in campaign parameters. For visibility in Cal.com's booking details, configure its supported hidden UTM tracking fields per the official UTM guide; do not add visible required qualification questions. Arbitrary landing query parameters are not forwarded.
+
+## Manual acceptance flow
+
+1. Open desktop and mobile views in English and Arabic. Every consultation CTA should scroll to `#booking`, and Arabic website content should use RTL.
+2. Submit empty/invalid fields; confirm clear translated validation and no calendar. Enter a full name, email, international WhatsApp number, project, budget and optional full HTTP(S) website URL.
+3. Submit, check `POST /api/leads` returns 201 with `status: saved`, then read the record from the corresponding local SQLite or D1 database. An offline/503 response must retain the form and show an error.
+4. Confirm the calendar loads once, displays real dates/times and timezone controls, and prefills name/email/attendee phone after choosing a slot. The website does not resubmit project questions.
+5. Block the embed script or Cal.com iframe: the translated error and direct fallback should remain available after saving. Confirm UTMs and prefills are present in that link.
+6. For an owner-approved **real** appointment test, select a slot and submit in Cal.com. This will trigger its real emails/workflows. Confirm the website message appears only after accepted booking; check the appointment, Meet link, notifications and timezone in Cal.com. Cancel the test appointment there afterward. No real appointment was created during implementation.
+7. In the data layer, confirm one lead event and one accepted-booking event, no event for calendar opening, no duplicate accepted event, and no personal data. Verify Meta delivery separately after GTM configuration.
+8. Check navigation, language switching, portfolio videos, client marquee, FAQ, enquiry dialog and responsive layout.
+
+Optional browser checks use Playwright with an installed Chrome, without adding a production dependency:
+
+```sh
+npm install --prefix /tmp/fikra-booking-tests playwright
+PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/browser_booking_states.cjs
+PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/browser_booking.cjs
+```
+
+Run the Python preview first. Set `PREVIEW_URL=http://localhost:5188/` to use the local Worker instead. The real-widget test saves four synthetic qualification leads, reads actual Cal.com availability and stops at its booking form. The state test uses mocked Cal callbacks for confirmations and failures. Browser screenshots are written to `/tmp`. These checks never click Cal.com's final Confirm button.
+
+See `VALIDATION.md` for checks performed and limits.

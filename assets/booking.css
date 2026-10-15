@@ -1,0 +1,16 @@
+#booking [hidden] { display: none !important; }
+.fikra-lead-form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; margin-top: 32px; }
+.fikra-lead-form label { min-width: 0; }
+.fikra-lead-form input, .fikra-lead-form select { width: 100%; box-sizing: border-box; padding: 14px; border: 1px solid #d6d2c9; border-radius: 8px; background: #fff; color: #010102; font: inherit; }
+.fikra-lead-form input:focus, .fikra-lead-form select:focus { outline: 2px solid #e63b52; outline-offset: 2px; }
+.fikra-lead-form small, .fikra-lead-note { color: #534f47; font-size: 13px; line-height: 1.7; }
+.fikra-lead-note, #lead-status { grid-column: 1 / -1; margin: 0; }
+.fikra-lead-form button { border: 0; cursor: pointer; }
+.fikra-lead-form button:disabled { opacity: .65; cursor: wait; }
+.fikra-honeypot { position: absolute; width: 1px; height: 1px; clip-path: inset(50%); overflow: hidden; pointer-events: none; }
+#fikra-calendar-panel { margin-top: 30px; min-width: 0; }
+#fikra-cal-inline { width: 100%; min-height: 680px; overflow: auto; border-radius: 16px; background: #fff; }
+#fikra-cal-inline iframe { width: 100%; border: 0; }
+[data-booking-fallback] { display: inline-block; margin-top: 16px; color: #534f47; text-decoration: underline; text-underline-offset: 4px; }
+#booking-confirmation { padding: 20px; border: 1px solid #d6d2c9; border-radius: 12px; background: #fdfbf5; }
+@media(max-width: 767px) { .fikra-lead-form { grid-template-columns: minmax(0,1fr); } #fikra-cal-inline { min-height: 760px; } }

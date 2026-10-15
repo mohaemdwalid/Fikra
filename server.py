@@ -1,94 +1,59 @@
-"""Local FIKRA website and persistent appointment booking API (standard library)."""
-from datetime import datetime, timedelta, time
+"""Local static preview with SQLite lead persistence; Cal.com owns appointments."""
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from zoneinfo import ZoneInfo
-from urllib.parse import urlsplit, parse_qs
+from urllib.parse import urlsplit
 import argparse
 import json
 import re
 import sqlite3
 import threading
+import time
 import uuid
 
 ROOT = Path(__file__).resolve().parent
+PROJECTS = {'New Shopify Store', 'Store Redesign', 'Improvements'}
+BUDGETS = {'Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'}
 
 
-class BookingError(Exception):
-    def __init__(self, message, status=400):
-        self.message, self.status = message, status
+def validate_lead(payload):
+    if not isinstance(payload, dict):
+        raise ValueError('Invalid details')
+    fields = {}
+    for key, limit in {'id': 36, 'name': 120, 'email': 254, 'phone': 32, 'project': 40, 'budget': 40, 'website': 500, 'language': 2}.items():
+        value = payload.get(key)
+        if not isinstance(value, str) or len(value) > limit:
+            raise ValueError('Invalid details')
+        fields[key] = value.strip()
+    if str(uuid.UUID(fields['id'], version=4)) != fields['id'].lower():
+        raise ValueError('Invalid ID')
+    if not fields['name'] or not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', fields['email']):
+        raise ValueError('Invalid contact')
+    if not re.fullmatch(r'\+[1-9]\d{6,14}', fields['phone']):
+        raise ValueError('Invalid phone')
+    if fields['project'] not in PROJECTS or fields['budget'] not in BUDGETS or fields['language'] not in {'en', 'ar'} or payload.get('company'):
+        raise ValueError('Invalid qualification')
+    if fields['website']:
+        url = urlsplit(fields['website'])
+        if url.scheme not in {'http', 'https'} or not url.hostname or url.username or url.password:
+            raise ValueError('Invalid URL')
+    utm = payload.get('utm', {})
+    if not isinstance(utm, dict):
+        raise ValueError('Invalid campaign')
+    fields['utm'] = json.dumps({key: value for key, value in utm.items() if key in {'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'} and isinstance(value, str) and re.fullmatch(r'[a-zA-Z0-9_.~ -]{1,120}', value)})
+    return fields
 
 
-class BookingStore:
-    def __init__(self, database, config_path):
-        self.database, self.config_path = str(database), Path(config_path)
-        with self.connect() as db:
-            db.execute('CREATE TABLE IF NOT EXISTS bookings (id TEXT PRIMARY KEY, slot TEXT UNIQUE NOT NULL, name TEXT NOT NULL, email TEXT NOT NULL, project TEXT NOT NULL, created_at TEXT NOT NULL)')
+class LeadStore:
+    def __init__(self, database):
+        self.database = str(database)
+        with sqlite3.connect(self.database) as db:
+            db.executescript((ROOT / 'migrations/0001_leads.sql').read_text())
 
-    def connect(self):
-        return sqlite3.connect(self.database, timeout=10)
-
-    def config(self):
-        config = json.loads(self.config_path.read_text())
-        ZoneInfo(config['timezone'])
-        if not 5 <= config['durationMinutes'] <= 240:
-            raise ValueError('Invalid duration')
-        if not all(type(day) is int and 0 <= day <= 6 for day in config['workingDays']):
-            raise ValueError('Invalid working days')
-        if time.fromisoformat(config['startTime']) >= time.fromisoformat(config['endTime']):
-            raise ValueError('Invalid working hours')
-        return config
-
-    def availability(self, date_string, now=None):
-        c = self.config()
-        zone = ZoneInfo(c['timezone'])
-        now = now or datetime.now(zone)
-        try:
-            day = datetime.strptime(date_string, '%Y-%m-%d').date()
-        except (ValueError, TypeError):
-            raise BookingError('Choose a valid date.')
-        result = {'configured': bool(c['enabled'] and c['workingDays']), 'timezone': c['timezone'], 'durationMinutes': c['durationMinutes'], 'slots': []}
-        if not result['configured'] or not now.date() <= day <= now.date() + timedelta(days=c['daysAhead']):
-            return result
-        # JavaScript/JSON days: Sunday=0, Monday=1, ..., Saturday=6.
-        if (day.weekday() + 1) % 7 not in c['workingDays']:
-            return result
-        start = datetime.combine(day, time.fromisoformat(c['startTime']), zone)
-        end = datetime.combine(day, time.fromisoformat(c['endTime']), zone)
-        duration = timedelta(minutes=c['durationMinutes'])
-        notice = now + timedelta(minutes=c['minimumNoticeMinutes'])
-        with self.connect() as db:
-            taken = {row[0] for row in db.execute('SELECT slot FROM bookings WHERE slot LIKE ?', (date_string + '%',))}
-        while start + duration <= end:
-            slot = start.isoformat()
-            if start >= notice and slot not in taken:
-                result['slots'].append({'value': slot, 'time': start.strftime('%H:%M')})
-            start += duration
-        return result
-
-    def book(self, payload):
-        if not isinstance(payload, dict):
-            raise BookingError('Invalid booking details.')
-        fields = {}
-        for field, limit in [('name', 120), ('email', 254), ('project', 3000), ('slot', 50)]:
-            value = payload.get(field)
-            if not isinstance(value, str) or not value.strip() or len(value) > limit:
-                raise BookingError('Complete all booking details.')
-            fields[field] = value.strip()
-        if not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', fields['email']):
-            raise BookingError('Enter a valid email address.')
-        available = self.availability(fields['slot'][:10])
-        if not available['configured']:
-            raise BookingError('Booking availability has not been configured yet.', 503)
-        if fields['slot'] not in {slot['value'] for slot in available['slots']}:
-            raise BookingError('This time is no longer available. Choose another slot.', 409)
-        booking_id = str(uuid.uuid4())
-        try:
-            with self.connect() as db:
-                db.execute('INSERT INTO bookings VALUES (?, ?, ?, ?, ?, ?)', (booking_id, fields['slot'], fields['name'], fields['email'], fields['project'], datetime.now(ZoneInfo('UTC')).isoformat()))
-        except sqlite3.IntegrityError:
-            raise BookingError('This time is no longer available. Choose another slot.', 409)
-        return {'id': booking_id, 'slot': fields['slot'], 'timezone': available['timezone'], 'durationMinutes': available['durationMinutes'], 'status': 'confirmed'}
+    def save(self, payload):
+        fields = validate_lead(payload)
+        with sqlite3.connect(self.database, timeout=10) as db:
+            db.execute('INSERT INTO leads (id,name,email,phone,project,budget,website,language,utm) VALUES (:id,:name,:email,:phone,:project,:budget,:website,:language,:utm) ON CONFLICT(id) DO NOTHING', fields)
+        return {'id': fields['id'], 'status': 'saved'}
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -100,26 +65,16 @@ class Handler(SimpleHTTPRequestHandler):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
     def reply(self, data, status=200):
-        body = json.dumps(data, ensure_ascii=False).encode()
+        body = json.dumps(data).encode()
         self.send_response(status)
-        self.send_header('Content-Type', 'application/json; charset=utf-8')
+        self.send_header('Content-Type', 'application/json')
         self.send_header('Cache-Control', 'no-store')
         self.send_header('Content-Length', str(len(body)))
         self.end_headers()
         self.wfile.write(body)
 
     def do_GET(self):
-        parsed = urlsplit(self.path)
-        if parsed.path == '/api/availability':
-            try:
-                self.reply(self.store.availability(parse_qs(parsed.query).get('date', [''])[0]))
-            except BookingError as error:
-                self.reply({'error': error.message}, error.status)
-            except (ValueError, KeyError, OSError):
-                self.reply({'error': 'Booking configuration is unavailable.'}, 503)
-            return
-        # Serve only public website assets, never configuration, backups or client records.
-        target = Path(self.translate_path(parsed.path)).resolve()
+        target = Path(self.translate_path(urlsplit(self.path).path)).resolve()
         allowed = target == ROOT or target == ROOT / 'index.html' or (ROOT / 'assets') in target.parents
         if not allowed or not target.is_relative_to(ROOT) or target.is_dir() and target != ROOT:
             self.send_error(404)
@@ -130,40 +85,37 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_error(405)
 
     def do_POST(self):
-        if self.path != '/api/bookings':
-            self.reply({'error': 'Not found.'}, 404)
+        if self.path != '/api/leads':
+            self.reply({'error': 'Not found'}, 404)
             return
-        origin = self.headers.get('Origin')
-        if origin and urlsplit(origin).netloc != self.headers.get('Host'):
-            self.reply({'error': 'Invalid request origin.'}, 403)
+        if self.headers.get('Origin') != 'http://' + self.headers.get('Host', ''):
+            self.reply({'error': 'Invalid origin'}, 403)
             return
         try:
             length = int(self.headers.get('Content-Length', 0))
-            if not 0 < length <= 12000 or self.headers.get_content_type() != 'application/json':
-                raise BookingError('Invalid request.')
-            now = datetime.now().timestamp()
+            if not 0 < length <= 8192 or self.headers.get_content_type() != 'application/json':
+                raise ValueError()
             with self.attempts_lock:
-                # Expire inactive clients so rate-limit storage remains bounded.
-                self.attempts = {ip: [stamp for stamp in stamps if now - stamp < 600] for ip, stamps in self.attempts.items() if any(now - stamp < 600 for stamp in stamps)}
-                stamps = self.attempts.setdefault(self.client_address[0], [])
-                if len(stamps) >= 10:
-                    raise BookingError('Too many requests. Please try again later.', 429)
-                stamps.append(now)
-                Handler.attempts = self.attempts
-            payload = json.loads(self.rfile.read(length))
-            self.reply(self.store.book(payload), 201)
-        except BookingError as error:
-            self.reply({'error': error.message}, error.status)
-        except (ValueError, KeyError, OSError):
-            self.reply({'error': 'Booking is temporarily unavailable.'}, 503)
+                now = time.time()
+                Handler.attempts = {ip: [t for t in times if now - t < 600] for ip, times in Handler.attempts.items() if any(now - t < 600 for t in times)}
+                times = Handler.attempts.setdefault(self.client_address[0], [])
+                if len(times) >= 10:
+                    self.reply({'error': 'Too many requests'}, 429)
+                    return
+                times.append(now)
+            self.reply(self.store.save(json.loads(self.rfile.read(length))), 201)
+        except (ValueError, TypeError):
+            self.reply({'error': 'Invalid lead details'}, 400)
+        except (sqlite3.Error, OSError):
+            self.reply({'error': 'Lead storage is unavailable'}, 503)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--port', type=int, default=5184)
+    parser.add_argument('--database', default=str(ROOT / '.data/leads.sqlite3'))
     args = parser.parse_args()
-    data = ROOT / '.data'
-    data.mkdir(mode=0o700, exist_ok=True)
-    Handler.store = BookingStore(data / 'bookings.sqlite3', ROOT / 'booking-config.json')
+    Path(args.database).parent.mkdir(mode=0o700, parents=True, exist_ok=True)
+    Handler.store = LeadStore(args.database)
     print(f'FIKRA preview: http://127.0.0.1:{args.port}', flush=True)
     ThreadingHTTPServer(('127.0.0.1', args.port), Handler).serve_forever()

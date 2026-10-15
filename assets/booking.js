@@ -1,120 +1,172 @@
 (() => {
   'use strict';
   const section = document.querySelector('#booking');
-  const t = text => window.FIKRA_I18N?.t(text) || text;
-  const locale = () => document.documentElement.lang === 'ar' ? 'ar-QA' : 'en-GB';
-  const timezone = 'Asia/Qatar';
-  const today = new Intl.DateTimeFormat('en-CA', {timeZone: timezone, year: 'numeric', month: '2-digit', day: '2-digit'}).format(new Date());
-  const maxDay = new Date(`${today}T12:00:00Z`); maxDay.setUTCDate(maxDay.getUTCDate() + 60);
-  const latest = maxDay.toISOString().slice(0, 10);
-  let month = new Date(`${today.slice(0, 7)}-01T12:00:00Z`);
-  let selectedDate = null, selectedSlot = null, busy = false, request = null;
-  const monthLabel = section.querySelector('[data-month]');
-  const days = section.querySelector('[data-days]');
-  const weekdays = section.querySelector('[data-weekdays]');
-  const times = section.querySelector('[data-times]');
-  const status = section.querySelector('[data-booking-status]');
+  if (!section) return;
   const form = section.querySelector('form');
-  const submit = form.querySelector('[type="submit"]');
-  const success = section.querySelector('[data-booking-success]');
-  const before = section.querySelector('[data-month-prev]');
-  const after = section.querySelector('[data-month-next]');
-  function renderCalendar() {
-    monthLabel.textContent = new Intl.DateTimeFormat(locale(), {month: 'long', year: 'numeric', timeZone: 'UTC'}).format(month);
-    weekdays.replaceChildren(); days.replaceChildren();
-    for (let i = 0; i < 7; i++) {
-      const label = document.createElement('span');
-      label.textContent = new Intl.DateTimeFormat(locale(), {weekday: 'short', timeZone: 'UTC'}).format(new Date(Date.UTC(2026, 0, 4 + i)));
-      weekdays.append(label);
-    }
-    const offset = month.getUTCDay();
-    const count = new Date(Date.UTC(month.getUTCFullYear(), month.getUTCMonth() + 1, 0)).getUTCDate();
-    for (let i = 0; i < offset; i++) { const blank = document.createElement('span'); blank.setAttribute('aria-hidden', 'true'); days.append(blank); }
-    for (let i = 1; i <= count; i++) {
-      const date = `${month.toISOString().slice(0, 7)}-${String(i).padStart(2, '0')}`;
-      const button = document.createElement('button');
-      button.type = 'button'; button.textContent = new Intl.NumberFormat(locale()).format(i);
-      button.setAttribute('aria-label', new Intl.DateTimeFormat(locale(), {dateStyle: 'full', timeZone: 'UTC'}).format(new Date(`${date}T12:00:00Z`)));
-      button.setAttribute('aria-pressed', String(date === selectedDate));
-      button.disabled = busy || date < today || date > latest;
-      if (date === today) button.setAttribute('aria-current', 'date');
-      button.addEventListener('click', () => selectDate(date)); days.append(button);
-    }
-    before.disabled = busy || month.toISOString().slice(0, 7) <= today.slice(0, 7);
-    after.disabled = busy || month.toISOString().slice(0, 7) >= latest.slice(0, 7);
-    before.setAttribute('aria-label', t('Previous month'));
-    after.setAttribute('aria-label', t('Next month'));
+  const panel = section.querySelector('#fikra-calendar-panel');
+  const status = section.querySelector('#lead-status');
+  const calendarStatus = section.querySelector('#calendar-status');
+  const confirmation = section.querySelector('#booking-confirmation');
+  const fallback = section.querySelector('[data-booking-fallback]');
+  const submit = form.querySelector('[type=submit]');
+  const strings = {
+    eyebrow: ['Free Shopify Consultation', 'استشارة شوبيفاي مجانية'],
+    heading: ['Book Your Free Shopify Consultation', 'احجز استشارتك المجانية لمتجر شوبيفاي'],
+    intro: ['Tell us a little about your project, then choose a time that suits you.', 'أخبرنا قليلًا عن مشروعك، ثم اختر الوقت المناسب لك.'],
+    name: ['Full name', 'الاسم الكامل'], email: ['Email address', 'البريد الإلكتروني'],
+    phone: ['WhatsApp number', 'رقم واتساب'], phoneHint: ['Include your country code.', 'أدخل رمز الدولة مع الرقم.'],
+    project: ['Project type', 'نوع المشروع'], choose: ['Select an option', 'اختر أحد الخيارات'],
+    new: ['New Shopify Store', 'متجر شوبيفاي جديد'], redesign: ['Store Redesign', 'إعادة تصميم المتجر'], improvements: ['Improvements', 'تحسينات'],
+    budget: ['Estimated budget', 'الميزانية التقديرية'], budget1: ['Below QAR 4,000', 'أقل من ٤٬٠٠٠ ر.ق'],
+    budget2: ['QAR 4,000–6,000', '٤٬٠٠٠–٦٬٠٠٠ ر.ق'], budget3: ['QAR 6,000–8,000', '٦٬٠٠٠–٨٬٠٠٠ ر.ق'],
+    budget4: ['QAR 8,000–10,000', '٨٬٠٠٠–١٠٬٠٠٠ ر.ق'], unsure: ['Not sure', 'غير متأكد'],
+    website: ['Existing website URL (optional)', 'رابط الموقع الحالي (اختياري)'],
+    privacy: ['We save these details to prepare for your consultation. Cal.com handles your booking and its configured notifications.', 'نحفظ هذه البيانات للتحضير لاستشارتك. يتولى Cal.com الحجز والإشعارات التي تم إعدادها.'],
+    continue: ['Save details & choose a time', 'احفظ البيانات واختر الوقت'], saving: ['Saving your details…', 'جارٍ حفظ بياناتك…'],
+    invalid: ['Please check the highlighted field.', 'يرجى مراجعة الحقل المحدد.'],
+    required: ['Please complete this field.', 'يرجى إكمال هذا الحقل.'],
+    invalidEmail: ['Enter a valid email address.', 'أدخل بريدًا إلكترونيًا صحيحًا.'],
+    invalidPhone: ['Enter a valid number with country code, for example +974 1234 5678.', 'أدخل رقمًا صحيحًا مع رمز الدولة، مثل ‎+974 1234 5678.'],
+    invalidWebsite: ['Enter a full website URL starting with https:// or http://.', 'أدخل رابط الموقع كاملًا ويبدأ بـ https:// أو http://.'],
+    saveError: ['We could not save your details. Please try again. Your booking calendar has not been opened.', 'تعذّر حفظ بياناتك. يرجى المحاولة مجددًا. لم يتم فتح تقويم الحجز.'],
+    saved: ['Your details are saved. Choose a time below to complete your booking.', 'تم حفظ بياناتك. اختر وقتًا بالأسفل لإكمال حجزك.'],
+    calendarHeading: ['Choose your consultation time', 'اختر وقت استشارتك'],
+    timezone: ['Check the timezone shown in the calendar before choosing a time.', 'تحقّق من المنطقة الزمنية المعروضة في التقويم قبل اختيار الوقت.'],
+    widgetLanguage: ['The Cal.com calendar is shown in English. You can select your timezone in the calendar.', 'يظهر تقويم Cal.com باللغة الإنجليزية. يمكنك اختيار منطقتك الزمنية داخل التقويم.'],
+    loading: ['Loading your booking calendar…', 'جارٍ تحميل تقويم الحجز…'],
+    loadError: ['The calendar could not load. Use the link below to book directly with Cal.com.', 'تعذّر تحميل التقويم. استخدم الرابط بالأسفل للحجز مباشرة عبر Cal.com.'],
+    fallback: ['Open booking calendar ↗', 'افتح تقويم الحجز ↗'],
+    confirmed: ['Your consultation is confirmed by Cal.com. Check your email for the booking details and meeting link. Cal.com manages any configured reminders.', 'تم تأكيد استشارتك عبر Cal.com. راجع بريدك الإلكتروني للاطّلاع على تفاصيل الحجز ورابط الاجتماع. يتولى Cal.com إرسال التذكيرات التي تم إعدادها.'],
+    pending: ['Cal.com received your booking request. It is awaiting confirmation or payment; follow the instructions in the calendar.', 'استلم Cal.com طلب حجزك. بانتظار التأكيد أو الدفع؛ اتبع التعليمات في التقويم.']
+  };
+  const ar = () => document.documentElement.lang === 'ar';
+  const text = key => strings[key][ar() ? 1 : 0];
+  let leadState = '', calendarState = '', bookingState = '', busy = false, mounted = false, timer;
+  const leadId = crypto.randomUUID(); // Retry the same save safely; no PII in browser storage.
+  const seen = new Set();
+  const utm = {};
+  // Only conventional campaign tokens; never send qualification or contact fields to analytics.
+  const query = new URLSearchParams(location.search);
+  for (const key of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']) {
+    const value = query.get(key);
+    if (value && /^[a-zA-Z0-9_.~ -]{1,120}$/.test(value) && !value.includes('@')) utm[key] = value;
   }
-  async function selectDate(date) {
-    selectedDate = date; selectedSlot = null; submit.disabled = true;
-    status.textContent = ''; times.textContent = t('Loading available times…'); renderCalendar();
-    request?.abort(); request = new AbortController();
+  let bookingUrl;
+  try {
+    bookingUrl = new URL(window.FIKRA_CONFIG.bookingUrl);
+    if (bookingUrl.origin !== 'https://cal.com' || bookingUrl.pathname.split('/').filter(Boolean).length !== 2) throw Error();
+  } catch { submit.disabled = true; status.textContent = text('saveError'); return; }
+  fallback.href = bookingUrl.href;
+  function render() {
+    section.querySelectorAll('[data-booking-copy]').forEach(el => { el.textContent = text(el.dataset.bookingCopy); });
+    submit.textContent = text(busy ? 'saving' : 'continue');
+    status.textContent = leadState ? text(leadState) : '';
+    calendarStatus.textContent = calendarState ? text(calendarState) : '';
+    confirmation.hidden = !bookingState;
+    confirmation.textContent = bookingState ? text(bookingState) : '';
+    section.querySelector('.fikra-calendar-language').hidden = !ar();
+  }
+  function track(event, id) {
+    const key = `${event}:${id}`;
+    if (seen.has(key)) return;
     try {
-      const response = await fetch(`/api/availability?date=${encodeURIComponent(date)}`, {signal: request.signal});
-      if (!response.ok) throw new Error();
-      const data = await response.json();
-      if (date !== selectedDate) return;
-      times.replaceChildren();
-      if (!data.configured) { times.textContent = t('Availability is being configured. Contact us on Instagram.'); return; }
-      if (!data.slots.length) { times.textContent = t('No times available on this day. Choose another date.'); return; }
-      for (const slot of data.slots) {
-        const button = document.createElement('button');
-        button.type = 'button'; button.className = 'fikra-slot';
-        button.textContent = new Intl.DateTimeFormat(locale(), {timeZone: timezone, hour: 'numeric', minute: '2-digit'}).format(new Date(slot.value));
-        button.setAttribute('aria-pressed', 'false');
-        button.addEventListener('click', () => {
-          selectedSlot = slot.value; submit.disabled = false;
-          times.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-        });
-        times.append(button);
+      if (sessionStorage.getItem(key)) return;
+      sessionStorage.setItem(key, '1');
+    } catch {}
+    seen.add(key);
+    // GTM is the single analytics delivery path; do not also call fbq here.
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event, event_id: id});
+  }
+  function validate() {
+    for (const input of form.elements) {
+      if (!input.willValidate) continue;
+      input.setCustomValidity('');
+      if (input.required && !input.value.trim()) input.setCustomValidity(text('required'));
+      else if (input.name === 'email' && input.validity.typeMismatch) input.setCustomValidity(text('invalidEmail'));
+      else if (input.name === 'phone' && !/^\+[1-9]\d{6,14}$/.test(input.value.replace(/[\s().-]/g, ''))) input.setCustomValidity(text('invalidPhone'));
+      else if (input.name === 'website' && input.value) {
+        try { if (!['https:', 'http:'].includes(new URL(input.value).protocol)) throw Error(); }
+        catch { input.setCustomValidity(text('invalidWebsite')); }
       }
-    } catch (error) {
-      if (error.name !== 'AbortError') times.textContent = t('Booking is not connected. Please contact us on Instagram.');
     }
+    return form.reportValidity();
   }
-  function moveMonth(delta) {
-    month.setUTCMonth(month.getUTCMonth() + delta); renderCalendar();
+  form.addEventListener('input', e => e.target.setCustomValidity?.(''));
+  function mount(details) {
+    if (mounted) return;
+    mounted = true;
+    panel.hidden = false;
+    form.hidden = true;
+    calendarState = 'loading'; render();
+    const prefill = {name: details.name, email: details.email, attendeePhoneNumber: details.phone,
+      'metadata[fikraLeadId]': leadId, ...utm, theme: 'light', layout: 'month_view', locale: 'en'};
+    // This event uses Google Meet: prefill the attendee field, never change its meeting location.
+    const direct = new URL(bookingUrl);
+    for (const [key, value] of Object.entries(prefill)) direct.searchParams.set(key, value);
+    fallback.href = direct.href;
+    const fail = () => { clearTimeout(timer); calendarState = 'loadError'; render(); };
+    timer = setTimeout(fail, 25000);
+    // Official Cal.com vanilla embed queue, installed once and only after a persisted lead.
+    (function(C, A, L) {
+      const p = (a, args) => a.q.push(args);
+      const d = C.document;
+      C.Cal = C.Cal || function() {
+        const cal = C.Cal; const args = arguments;
+        if (!cal.loaded) {
+          cal.ns = {}; cal.q = cal.q || [];
+          const script = d.createElement('script'); script.src = A; script.async = true;
+          script.onerror = fail; d.head.appendChild(script); cal.loaded = true;
+        }
+        if (args[0] === L) {
+          const api = function() { p(api, arguments); }; const namespace = args[1]; api.q = api.q || [];
+          if (typeof namespace === 'string') { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], args); p(cal, ['initNamespace', namespace]); }
+          else p(cal, args);
+          return;
+        }
+        p(cal, args);
+      };
+    })(window, 'https://app.cal.com/embed/embed.js', 'init');
+    window.Cal('init', {origin: 'https://cal.com'});
+    window.Cal('on', {action: 'linkReady', callback: () => { clearTimeout(timer); calendarState = ''; render(); }});
+    window.Cal('on', {action: 'linkFailed', callback: fail});
+    window.Cal('on', {action: 'bookingSuccessfulV2', callback: e => {
+      const data = e.detail?.data;
+      if (!data?.uid) return;
+      if (String(data.status).toUpperCase() !== 'ACCEPTED' || data.paymentRequired) {
+        bookingState = 'pending'; render(); return;
+      }
+      bookingState = 'confirmed'; render();
+      track('fikra_booking_confirmed', data.uid);
+    }});
+    window.Cal('inline', {elementOrSelector: '#fikra-cal-inline', calLink: bookingUrl.pathname.slice(1), config: prefill});
+    window.Cal('ui', {theme: 'light', cssVarsPerTheme: {light: {'cal-brand': '#010102'}}, hideEventTypeDetails: false, layout: 'month_view'});
+    panel.querySelector('h3').focus({preventScroll: true});
+    panel.scrollIntoView({behavior: 'smooth', block: 'start'});
   }
-  before.addEventListener('click', () => moveMonth(-1));
-  after.addEventListener('click', () => moveMonth(1));
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    if (busy || mounted) return;
+    if (!validate()) { leadState = 'invalid'; render(); return; }
+    busy = true; leadState = 'saving'; submit.disabled = true; render();
+    const details = Object.fromEntries(new FormData(form));
+    details.name = details.name.trim(); details.email = details.email.trim();
+    details.phone = details.phone.replace(/[\s().-]/g, '');
+    try {
+      const response = await fetch('/api/leads', {method: 'POST', headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({...details, id: leadId, language: ar() ? 'ar' : 'en', utm}), signal: AbortSignal.timeout(15000)});
+      const saved = await response.json();
+      if (!response.ok || saved.id !== leadId || saved.status !== 'saved') throw Error();
+      leadState = 'saved'; track('fikra_lead_submitted', leadId); mount(details);
+    } catch { leadState = 'saveError'; }
+    finally { busy = false; submit.disabled = false; render(); }
+  });
   document.addEventListener('click', event => {
     const trigger = event.target.closest('[data-fikra-booking]');
     if (!trigger) return;
-    event.preventDefault(); event.stopImmediatePropagation(); section.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
-    if (document.querySelector('.w-nav-button.w--open')) document.querySelector('.w-nav-button').click();
-  }, true);
-  const icsDate = date => date.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
-  form.addEventListener('submit', async event => {
-    event.preventDefault(); if (busy || !form.reportValidity()) return;
-    if (!selectedSlot) { status.textContent = t('Select a time first.'); return; }
-    busy = true; submit.disabled = true; submit.textContent = t('Confirming…');
-    times.querySelectorAll('button').forEach(button => { button.disabled = true; }); renderCalendar();
-    const fields = new FormData(form);
-    const payload = {name: fields.get('name'), email: fields.get('email'), project: fields.get('project'), slot: selectedSlot};
-    try {
-      const response = await fetch('/api/bookings', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(payload)});
-      const data = await response.json();
-      if (!response.ok) {
-        if (response.status === 409) { await selectDate(selectedDate); status.textContent = t('This time is no longer available. Choose another slot.'); }
-        else status.textContent = t('Please try again or contact us on Instagram.');
-        return;
-      }
-      form.hidden = true; success.hidden = false;
-      const heading = document.createElement('h3'); heading.dataset.i18n = 'Your appointment is reserved.'; heading.textContent = t(heading.dataset.i18n);
-      const date = document.createElement('p'); date.textContent = new Intl.DateTimeFormat(locale(), {dateStyle: 'full', timeStyle: 'short', timeZone: timezone}).format(new Date(data.slot)) + ' · ' + timezone;
-      const reference = document.createElement('p'); reference.className = 'fikra-booking-reference'; reference.textContent = `#${data.id}`; reference.dir = 'ltr';
-      const download = document.createElement('a'); download.className = 'fikra-action'; download.dataset.i18n = 'Save appointment to calendar'; download.textContent = t(download.dataset.i18n);
-      const start = new Date(data.slot); const end = new Date(start.getTime() + data.durationMinutes * 60000);
-      const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//FIKRA//Booking//EN', 'BEGIN:VEVENT', `UID:${data.id}@fikra.local`, `DTSTAMP:${icsDate(new Date())}`, `DTSTART:${icsDate(start)}`, `DTEND:${icsDate(end)}`, 'SUMMARY:FIKRA Shopify discovery call', 'DESCRIPTION:Contact @fikraagency.qa on Instagram to arrange call details.', 'END:VEVENT', 'END:VCALENDAR', ''].join('\r\n');
-      download.href = URL.createObjectURL(new Blob([ics], {type: 'text/calendar;charset=utf-8'})); download.download = 'fikra-appointment.ics';
-      success.replaceChildren(heading, date, reference, download);
-      const note = document.createElement('p'); note.dataset.i18n = 'Booking details are stored to arrange your call. Email confirmations are not enabled yet.'; note.textContent = t(note.dataset.i18n); success.append(note);
-      const reset = document.createElement('button'); reset.type = 'button'; reset.className = 'fikra-booking-reset'; reset.dataset.i18n = 'Book another call'; reset.textContent = t(reset.dataset.i18n);
-      reset.addEventListener('click', () => { URL.revokeObjectURL(download.href); form.reset(); form.hidden = false; success.hidden = true; selectDate(selectedDate); }); success.append(reset);
-      success.tabIndex = -1; success.focus();
-    } catch { status.textContent = t('Please try again or contact us on Instagram.'); }
-    finally { busy = false; submit.textContent = t('Confirm booking'); submit.disabled = !selectedSlot; times.querySelectorAll('button').forEach(button => { button.disabled = false; }); renderCalendar(); }
+    document.querySelector('dialog[open]')?.close();
+    document.querySelector('.w-nav-button.w--open')?.click();
   });
-  window.addEventListener('fikra:language', () => { renderCalendar(); if (selectedDate && !busy) selectDate(selectedDate); });
-  renderCalendar();
+  addEventListener('fikra:language', () => { for (const input of form.elements) input.setCustomValidity?.(''); render(); });
+  render();
 })();

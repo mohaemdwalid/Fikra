@@ -3,21 +3,15 @@
 .showcase-section .proposal-intro { color: #bcbab4; }
 .showcase-stack { display: flex; flex-direction: column; gap: 22vh; padding-block: 24px 18vh; position: relative; }
 .showcase-card { position: sticky; top: calc(100px + var(--card-index) * 18px); height: min(68svh, 680px); min-height: 330px; border: 1px solid #ffffff24; border-radius: 18px; overflow: hidden; background: #191919; transform-origin: center top; isolation: isolate; will-change: transform; }
-.showcase-card video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.showcase-card video { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; background: #101010; }
 .showcase-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 38%, #000b 100%); pointer-events: none; z-index: 1; }
 .showcase-caption { position: absolute; inset-inline: 32px; bottom: 30px; z-index: 2; pointer-events: none; max-width: 75%; }
 .showcase-caption span { font: 11px/1.5 Arial,sans-serif; letter-spacing: .12em; color: #ddd; }
 .proposal .showcase-caption h3 { color: #fff; font-size: clamp(26px, 3.6vw, 46px); margin: 10px 0 0; line-height: 1.15; letter-spacing: -.035em; }
-.showcase-controls { position: absolute; top: 16px; inset-inline-end: 16px; display: flex; gap: 8px; z-index: 3; }
-.showcase-controls button { width: 40px; height: 40px; border: 1px solid #ffffff55; border-radius: 50%; color: #fff; background: #0005; backdrop-filter: blur(12px); cursor: pointer; font: 20px Arial,sans-serif; }
-.showcase-controls button:hover { background: #ef1f5e; }
-.showcase-controls button:focus-visible { outline: 3px solid #ef1f5e; outline-offset: 4px; }
 @media(max-width:767px) {
  #shopify-projects.showcase-section { padding-top: 56px; }
  .showcase-card { top: calc(85px + var(--card-index) * 14px); height: 65svh; min-height: 360px; border-radius: 12px; }
  .showcase-caption { inset-inline: 22px; bottom: 24px; max-width: 85%; }
- .showcase-controls { top: 12px; inset-inline-end: 12px; gap: 6px; }
- .showcase-controls button { width: 34px; height: 34px; font-size: 18px; }
  .showcase-stack { gap: 20vh; padding-bottom: 14vh; }
 }
 @media(prefers-reduced-motion:reduce) {
