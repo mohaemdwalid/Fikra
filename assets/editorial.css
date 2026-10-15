@@ -58,6 +58,7 @@ html[dir='rtl'] .editorial-hero-art { padding-inline: 24px 0; }
 .comparison-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
 .comparison-panel { min-width: 0; padding: 24px; border: 1px solid #d6d2c9; border-radius: 18px; background: #fdfcf9; }
 .comparison-after { border-color: #ef1f5e; }
+.comparison-analytics { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #fff; border-radius: 10px; }
 .comparison-panel-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 20px; }
 #store-transformation .comparison-panel-heading h3 { margin: 0; font-size: 24px; }
 .comparison-stage { font: 12px/1.5 Arial,sans-serif; color: #69645b; }

@@ -14,7 +14,7 @@ node --check assets/booking.js
 python3 prepare_cloudflare.py
 ```
 
-There is no frontend package install or compilation step. `prepare_cloudflare.py` builds the public asset directory and a static ZIP, cleaning obsolete assets first. Local leads persist in `.data/leads.sqlite3`; the Python server serves only the homepage and assets. Existing `.data/bookings.sqlite3` history is retained privately, but the old reservation API and custom calendar are retired. Do not upload `.data` or run the Python server as the Cloudflare backend.
+There is no frontend package install or compilation step. `prepare_cloudflare.py` builds the public asset directory and a static ZIP, cleaning obsolete assets first. Local leads persist in `.data/leads.sqlite3`; the Python server serves only the homepage, booking page and assets. Existing `.data/bookings.sqlite3` history is retained privately, but the old reservation API and custom calendar are retired. Do not upload `.data` or run the Python server as the Cloudflare backend.
 
 ## Booking configuration
 
@@ -74,7 +74,7 @@ Only the five supported UTM keys are carried from the landing URL to the lead re
 
 ## Manual acceptance flow
 
-1. Open desktop and mobile views in English and Arabic. Every consultation CTA should scroll to `#booking`, and Arabic website content should use RTL.
+1. Open desktop and mobile views in English and Arabic. Every consultation CTA should open `/book/`, and Arabic website content should use RTL.
 2. Submit empty/invalid fields; confirm clear translated validation and no calendar. Enter a full name, email, international WhatsApp number, project, budget and optional full HTTP(S) website URL.
 3. Submit, check `POST /api/leads` returns 201 with `status: saved`, then read the record from the corresponding local SQLite or D1 database. An offline/503 response must retain the form and show an error.
 4. Confirm the calendar loads once, displays real dates/times and timezone controls, and prefills name/email/attendee phone after choosing a slot. The website does not resubmit project questions.
@@ -105,3 +105,20 @@ vslPosterUrl: 'assets/videos/fikra-vsl-poster.jpg',
 ```
 
 Use an actual local video file or a direct HTTPS MP4/WebM URL, rather than a YouTube/Vimeo watch-page URL. The poster is optional. Keep `vslVideoUrl: null` until the real introduction video is supplied: the page displays a translated coming-soon panel with no fake play button. Once configured, it uses native playback controls, supports inline mobile playback, does not autoplay or preload the video, and provides an error message/direct link if playback fails. Watching the video does not fire booking conversions. For Cloudflare-hosted video files, keep each below the existing 25 MiB asset limit or use a direct hosted media URL. Do not rename a portfolio recording as the introduction video.
+
+
+## Separate consultation page
+
+All consultation CTAs now open `/book/`, instead of scrolling to an inline homepage form. `book/index.html` is included in the public build and served by the existing Worker asset binding; no API or database migration is required. The Python preview explicitly permits this public route while continuing to block private files.
+
+The four steps collect project type, optional existing website URL, estimated budget and contact details. Radio choices use the same project/budget values accepted by `/api/leads`; back navigation retains answers in memory. Personal answers are not saved in browser storage. Only a successful persistent lead save reveals the existing Cal.com embed on the booking page. Confirmation guards, prefills and event deduplication remain in the existing booking controller.
+
+`bookingPageUrl` in `assets/site-config.js` configures the website destination; `bookingUrl` remains the separate Cal.com event configuration. The shared booking-navigation script carries the current English/Arabic language and five allowlisted campaign parameters into the new page. Arbitrary query parameters are discarded, and legacy homepage `#booking` URLs redirect to `/book/`. Back-to-website links preserve the same language/campaign context. The existing i18n language setting works on both pages.
+
+Preview: `http://127.0.0.1:5184/book/`. Additional browser regression check:
+
+```sh
+PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/browser_booking_steps.cjs
+```
+
+This check saves eight synthetic leads across both languages/four viewport sizes. Restart the Python preview between browser suites to reset its in-memory submission rate limit. Each new lead is still retained in the chosen test database. The real-widget and confirmation-state scripts have also been updated for the four-step page. No test clicks Cal.com's final booking confirmation.

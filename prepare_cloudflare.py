@@ -16,6 +16,10 @@ html = BeautifulSoup((ROOT / 'index.html').read_text(), 'html.parser')
 
 assets = ROOT / 'assets'
 files = [OUTPUT / 'index.html']
+(OUTPUT / 'book').mkdir()
+booking_page = OUTPUT / 'book/index.html'
+shutil.copy2(ROOT / 'book/index.html', booking_page)
+files.append(booking_page)
 for source in sorted(assets.rglob('*')):
     if not source.is_file() or source.name.startswith('.'):
         continue

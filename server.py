@@ -75,8 +75,8 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         target = Path(self.translate_path(urlsplit(self.path).path)).resolve()
-        allowed = target == ROOT or target == ROOT / 'index.html' or (ROOT / 'assets') in target.parents
-        if not allowed or not target.is_relative_to(ROOT) or target.is_dir() and target != ROOT:
+        allowed = target in {ROOT, ROOT / 'index.html', ROOT / 'book', ROOT / 'book/index.html'} or (ROOT / 'assets') in target.parents
+        if not allowed or not target.is_relative_to(ROOT) or target.is_dir() and target not in {ROOT, ROOT / 'book'}:
             self.send_error(404)
             return
         super().do_GET()

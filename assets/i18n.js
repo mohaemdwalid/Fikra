@@ -145,7 +145,9 @@
     button.textContent = lang === 'ar' ? 'English' : 'العربية';
     button.lang = lang === 'ar' ? 'en' : 'ar';
     button.setAttribute('aria-label', lang === 'ar' ? 'Switch to English' : 'التبديل إلى العربية');
-    document.title = lang === 'ar' ? 'فكرة | تصميم وتطوير متاجر شوبيفاي' : 'FIKRA | Shopify Websites';
+    document.title = document.body.classList.contains('booking-page')
+      ? (lang === 'ar' ? 'احجز استشارتك | فكرة' : 'Book your consultation | FIKRA')
+      : (lang === 'ar' ? 'فكرة | تصميم وتطوير متاجر شوبيفاي' : 'FIKRA | Shopify Websites');
     document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
     document.querySelectorAll('[data-i18n-alt]').forEach(el => el.alt = t(el.dataset.i18nAlt));
     document.querySelectorAll('[data-i18n-aria]').forEach(el => el.setAttribute('aria-label', t(el.dataset.i18nAria)));
@@ -158,11 +160,15 @@
       el.value = t(el.dataset.originalValue);
     });
     try { localStorage.setItem('fikra-language', lang); } catch {}
+    const pageUrl = new URL(location.href);
+    if (pageUrl.searchParams.has('lang')) { pageUrl.searchParams.set('lang', lang); history.replaceState(null, '', pageUrl); }
     window.dispatchEvent(new CustomEvent('fikra:language', {detail: lang}));
   }
   button.addEventListener('click', () => apply(document.documentElement.lang === 'ar' ? 'en' : 'ar'));
   window.FIKRA_I18N = {t, apply};
   let lang = 'en';
   try { if (localStorage.getItem('fikra-language') === 'ar') lang = 'ar'; } catch {}
+  const requested = new URLSearchParams(location.search).get('lang');
+  if (requested === 'ar' || requested === 'en') lang = requested;
   apply(lang);
 })();

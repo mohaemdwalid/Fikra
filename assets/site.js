@@ -56,7 +56,7 @@
     } else {
       status.textContent = email ? 'Continue opens your email app with your enquiry ready to send.' : 'Continue opens WhatsApp with your enquiry ready to send.';
     }
-    const booking = '#booking';
+    const booking = config.bookingPageUrl || '/book/';
     if (booking) {
       const a = document.createElement('a');
       a.href = booking; a.setAttribute('data-fikra-booking', '');

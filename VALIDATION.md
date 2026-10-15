@@ -78,3 +78,26 @@ English/Arabic rendering and consultation navigation passed at 320, 390, 768 and
 ## Hero VSL ordering and GitHub delivery
 
 Moved the existing single `#vsl` player directly after the hero consultation CTA and before the Karen Wazen / Chic Homz image composition. The standalone VSL heading and duplicate consultation button were removed to keep the requested sequence concise. Both desktop and mobile use CTA, video, then images. No actual introduction video is configured yet. This delivery includes the previously local header/menu refinement, editorial hero and portfolio, supplied hero screenshots, illustrative DTC comparison and configurable VSL. No manual Cloudflare deployment was run.
+
+## Process removal and Arabic sample messages
+
+Removed the How It Works / `#approach` section and redirected the footer About link to `#home`. Added two Arabic thank-you messages mentioning Mohamed, one per review row, with matched duplicate groups for continuous scrolling. The randomly selected Qataria Abaya and Keshtban logos already in public assets match the supplied INBOX originals byte-for-byte. Each new card is explicitly labeled as a design example that is not a review from the displayed brand. No attribution is represented as verified client feedback.
+
+Verified English and Arabic at 320, 390 and 1440px: two unique new cards, four matching marquee groups with four cards each, loaded logos, no horizontal overflow or JavaScript errors, and no stale `#approach` links. Syntax, public asset build and whitespace checks passed. Changes are local, not pushed or deployed.
+
+
+## Confirmed testimonial attribution
+
+The owner subsequently confirmed that the feedback reflected in the Qataria Abaya and Keshtban messages is real. Removed their example labels and written brand names, retaining centered logo-only footers and matched marquee duplicates. Brand mapping for the other six reviews remains pending; no arbitrary attribution was added. These updates are local.
+
+## Remaining client logos added to testimonials
+
+Added client logos from `/Users/aaa/Desktop/INBOX/Client Website Logos` to all 6 remaining testimonial cards that lacked logos (Bow & Note, AskAbays, Ceilo The Label, Novella, Asami, and Khadla). All 8 cards across both scrolling rows now have consistent `.fikra-testimonial-branded` styling with centered logo footers and subtle dividers. Verified seamless continuous scrolling with matched duplicate groups, 200 HTTP status on all assets, and visual regression at 1440px and 390px.
+
+## Separate booking page
+
+Moved qualification and scheduling from the homepage to `/book/`. All consultation links and the dynamic enquiry-dialog booking link use the new destination. The standalone Fikra-branded page uses four keyboard-accessible steps: project, optional store URL, budget and contact details. Back retains entered values; selection/URL/contact validation precedes persistence. The same six lead fields and existing `/api/leads` database contract remain unchanged. Campaign allowlisting, language persistence and legacy `#booking` redirects are handled by shared navigation. The calendar appears only after an actual save and uses the existing prefill and accepted-booking guards.
+
+Eight browser flows passed for English/Arabic at 320, 390, 768 and 1440px: homepage CTA navigation, removed inline homepage form, language/campaign retention, invalid selection/URL handling, optional skip, back navigation, persistent save and exactly one calendar mount/lead event. SQLite readback confirmed four English and four Arabic records. Existing confirmation-state tests passed on the separate page (failed save, pending/payment/missing-ID guards, accepted-event deduplication, language changes and embed fallback). Nine backend tests and JavaScript syntax checks passed. Public asset packaging includes the new booking document; the local Cloudflare Worker served `/book/` with HTTP 200. Screenshots: `/tmp/fikra-booking-page-en-1440.png`, `/tmp/fikra-booking-page-en-390.png`, `/tmp/fikra-booking-page-ar-1440.png`, `/tmp/fikra-booking-page-ar-390.png`. Changes are local.
+
+Additional checks passed: actual Cal.com dates/times and contact prefills on the separate page in all four English/Arabic desktop/mobile widget flows; local Worker/D1 HTTP 201 save and SQL readback; collapsed-header and expanded-menu CTA navigation; language switching followed by reload/back navigation; campaign retention on return to the website. Cloudflare deployment dry run passed. No real appointment or production deployment was created.
