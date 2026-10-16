@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-versus-marketplace",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://www.shopify.com/faq"
+    }
+  ],
+  "related": [
+    "shopify-social-selling",
+    "shopify-inventory-locations",
+    "why-choose-shopify"
+  ],
+  "en": {
+    "title": "Should you use your own Shopify store or a marketplace?",
+    "answer": "Compare where customers will find you and who controls the buying process. You can use both routes if stock and order handling stay reliable.",
+    "sections": [
+      [
+        "Map discovery and purchase",
+        "A marketplace may provide a venue where customers already browse, while your store lets you organise your own buying journey. Evaluate the actual audience and eligibility of each channel rather than treating potential traffic as confirmed sales."
+      ],
+      [
+        "Review channel rules",
+        "Check product restrictions, fees, payment settlement, return handling and customer-data access for the specific marketplace. Include the effort of maintaining catalogue and stock across channels. Rules vary, so a general comparison cannot replace current terms."
+      ],
+      [
+        "Plan consistency",
+        "Keep product identity, availability and fulfilment promises aligned wherever you sell. Define how orders reach the team and avoid selling the same last unit twice. You can consider both routes when operations support them, with a clear measurement basis."
+      ],
+      [
+        "The work changes with the channel",
+        "A marketplace can provide a place where people already browse, but eligibility, fees and customer-data access depend on its terms. An independent store gives you a route you organise, but does not arrive with guaranteed visitors. Compare actual costs and support responsibility. If both sell the same stock, decide how the final unit is protected from double-selling. Measure delivered and paid outcomes instead of treating a large channel audience as confirmed demand for your products."
+      ]
+    ],
+    "checklist": [
+      "Check actual channel eligibility.",
+      "Compare fees and control.",
+      "Plan stock and order consistency."
+    ],
+    "faq": [
+      [
+        "Can a marketplace and Shopify work together?",
+        "Potentially, through suitable workflows or supported integrations; verify the exact channel setup."
+      ]
+    ],
+    "editorial_detail_heading": "The work changes with the channel",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Compare how customers find and buy",
+        "List what the marketplace provides and what its current terms leave to you. Compare that with the effort of attracting and serving customers on an independent store. Some businesses use both, but stock, pricing and fulfilment still need coordination so two sales routes do not create contradictory promises."
+      ]
+    ],
+    "editorial_followup_heading": "Compare how customers find and buy"
+  },
+  "ar": {
+    "title": "أفتح متجرًا خاصًا أم أبيع في سوق إلكتروني؟",
+    "answer": "قارن مصدر العملاء ومن يتحكم في الشراء. يمكن الجمع بين الطريقين عندما تستطيع المحافظة على المخزون والطلبات دون تضارب.",
+    "sections": [
+      [
+        "ارسم الاكتشاف والشراء",
+        "قد يتصفّح العملاء السوق مسبقًا، بينما تنظّم متجرك بنفسك. راجع الجمهور والأهلية الفعليين."
+      ],
+      [
+        "راجع قواعد القناة",
+        "تحقّق من القيود والرسوم والتحويل والاسترجاع والبيانات والجهد وفق السوق المحدّد وشروطه الحالية."
+      ],
+      [
+        "وحّد التشغيل",
+        "طابق الهوية والتوفّر والتوصيل وحدّد معالجة الطلبات لمنع بيع آخر قطعة مرتين."
+      ],
+      [
+        "يختلف العمل مع القناة",
+        "قد يوفّر السوق مكانًا يتصفحه الناس، لكن الأهلية والرسوم وبيانات العملاء تتبع شروطه. ويتيح المتجر الخاص تنظيم تجربتك، لكنه لا يأتي بزوار مضمونين. قارن التكلفة والدعم فعلًا. وإن بعت المخزون نفسه في الاثنين، حدّد كيف تمنع بيع آخر قطعة مرتين. قِس الطلبات المسلّمة والمحصّلة بدل اعتبار جمهور القناة طلبًا مؤكدًا على منتجاتك."
+      ]
+    ],
+    "checklist": [
+      "راجع أهلية القناة.",
+      "قارن الرسوم والتحكّم.",
+      "خطّط لاتّساق المخزون."
+    ],
+    "faq": [
+      [
+        "هل يمكن الجمع بينهما؟",
+        "عبر عمليات أو تكاملات مناسبة بعد التحقّق من الإعداد المحدّد."
+      ]
+    ],
+    "editorial_detail_heading": "يختلف العمل مع القناة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي يقدّمه السوق وما الذي يبقى عليك؟",
+        "راجع شروط السوق الحالية ورسومه وطريقة عرض المنتجات والتواصل وتنفيذ الطلبات، ثم قارن ذلك بمتجر تملكه وتحتاج جذب الزوار إليه. قد يفيدك الجمع بين الاثنين، لكن حدّد كيف ستتابع المخزون والأسعار والطلبات بين القناتين. لا تفترض أن السوق يجلب مبيعات تلقائية أو أن المتجر الخاص ينجح بمجرد إطلاقه. ابدأ من جمهورك وتكلفة الوصول إليه وقدرتك على تنفيذ الطلب بشكل متسق."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي يقدّمه السوق وما الذي يبقى عليك؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-marketplace.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

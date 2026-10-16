@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-local-delivery",
+  "category": "operations",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/local-delivery"
+    }
+  ],
+  "related": [
+    "shopify-shipping-rates",
+    "shopify-cash-on-delivery",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "How should a Shopify store organise local delivery?",
+    "answer": "Define the area and dispatch process first. A local-delivery option is useful only when customers inside its coverage can receive the promised service.",
+    "sections": [
+      [
+        "Set practical coverage",
+        "Base the area on what drivers or your courier can reliably serve. Review the current Shopify location and delivery eligibility requirements for your configuration. Test addresses near the service boundary rather than relying only on a central address that always qualifies."
+      ],
+      [
+        "Explain the delivery process",
+        "Tell customers what happens after purchase and how to provide useful address information. Use a realistic preparation and delivery explanation. Avoid collecting unnecessary personal details in public notes. Agree how the team will contact a customer when directions are incomplete or nobody is available."
+      ],
+      [
+        "Reconcile delivery outcomes",
+        "Track whether the order was prepared, dispatched, delivered or requires follow-up. Keep collected payment separate if you also offer COD. Review missed deliveries with operations and revise the coverage or communication when needed. Local delivery is only useful when the experience after checkout matches the advertised service."
+      ],
+      [
+        "Do not test only an easy address",
+        "Use a central address and one near the service boundary. Review how the store handles missing directions or an unavailable recipient. Agree who contacts the customer and which status the team records after an attempt. If COD is available, keep collection separate from delivery confirmation. Publish preparation and delivery wording that operations approve, then review failed attempts to see whether the problem is coverage, instructions or capacity."
+      ]
+    ],
+    "checklist": [
+      "Define the service area and owner.",
+      "Test addresses near the boundary.",
+      "Publish realistic delivery instructions.",
+      "Record delivery and payment outcomes separately."
+    ],
+    "faq": [
+      [
+        "Is local delivery the same as a general shipping rate?",
+        "They represent different fulfilment arrangements. Review the applicable Shopify setup and make the customer-facing choices unambiguous."
+      ]
+    ],
+    "editorial_detail_heading": "Do not test only an easy address",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Test an address inside and outside the area",
+        "Define the delivery boundary and fees in terms your team can honour. Check a qualifying address, a nearby excluded address and a basket that changes any threshold. Explain the available option clearly so customers do not confuse local delivery with another shipping service."
+      ]
+    ],
+    "editorial_followup_heading": "Test an address inside and outside the area"
+  },
+  "ar": {
+    "title": "كيف أضبط التوصيل المحلي بدل الشحن العام؟",
+    "answer": "حدّد المنطقة وطريقة الإرسال أولًا. يفيد خيار التوصيل المحلي عندما يستطيع من يقع داخل تغطيته الحصول على الخدمة المعلنة فعلًا.",
+    "sections": [
+      [
+        "ضع تغطية قابلة للتنفيذ",
+        "اعتمد على نطاق يستطيع السائق أو المزوّد خدمته. راجع متطلّبات المواقع والأهلية الحالية في شوبيفاي، واختبر عناوين قرب حدود المنطقة لا عنوانًا مركزيًا فقط."
+      ],
+      [
+        "اشرح العملية",
+        "وضّح ما يحدث بعد الشراء والمعلومات الضرورية للعنوان والوقت الواقعي. تجنّب جمع بيانات شخصية غير لازمة، واتّفق على التواصل عند نقص الاتجاهات أو غياب العميل."
+      ],
+      [
+        "طابق النتائج التشغيلية",
+        "تتبّع التجهيز والإرسال والتسليم والمتابعة، وافصل تحصيل المال عند الدفع عند الاستلام. راجع الإخفاقات وعدّل التغطية أو التعليمات حتى تطابق التجربة الخدمة المعلنة."
+      ],
+      [
+        "لا تختبر عنوانًا سهلًا فقط",
+        "جرّب عنوانًا مركزيًا وآخر قرب حدود الخدمة. راجع نقص الاتجاهات وغياب المستلم ومن يتواصل معه وما الحالة المسجلة بعد المحاولة. وإذا يوجد دفع عند الاستلام، افصل التحصيل عن تأكيد التوصيل. اعتمد وقت التجهيز والنقل مع التشغيل، ثم راجع الإخفاقات لمعرفة هل السبب التغطية أم التعليمات أم القدرة على التنفيذ."
+      ]
+    ],
+    "checklist": [
+      "حدّد المنطقة والمسؤول.",
+      "اختبر عناوين على الحدود.",
+      "انشر تعليمات واقعية.",
+      "افصل التسليم عن التحصيل."
+    ],
+    "faq": [
+      [
+        "هل التوصيل المحلي سعر شحن عام؟",
+        "هما ترتيبان مختلفان للتنفيذ؛ راجع الإعداد المناسب واجعل خيارات العميل واضحة."
+      ]
+    ],
+    "editorial_detail_heading": "لا تختبر عنوانًا سهلًا فقط",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أعرف أن نطاق التوصيل مضبوط؟",
+        "جرّب عنوانًا داخل المنطقة وآخر قريبًا لكنه خارجها، ثم راجع الخيارات والرسوم التي تظهر لكل منهما. لا تعتمد على اسم منطقة واسع إذا كان الفريق لا يخدم كل أجزائها. وضّح الوقت المتوقع والحد الأدنى إن وجد، ومن يتواصل مع العميل عند وجود عنوان غير واضح. راجع أيضًا ما يظهر عند شراء منتجات لا يشملها التوصيل المحلي، حتى لا يتلقى الفريق طلبًا لا يستطيع تنفيذه بالشروط المعروضة."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أعرف أن نطاق التوصيل مضبوط؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-local-delivery.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Local delivery map with a service-area marker and parcel.",
+      "ar": "خريطة توصيل محلي بعلامة منطقة خدمة وطرد."
+    }
+  }
+}

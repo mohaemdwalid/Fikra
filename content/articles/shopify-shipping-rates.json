@@ -1,0 +1,163 @@
+{
+  "slug": "shopify-shipping-rates",
+  "category": "operations",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/fulfillment/setup/shipping-rates"
+    }
+  ],
+  "related": [
+    "shopify-local-delivery",
+    "shopify-returns-exchanges",
+    "shopify-discount-strategy"
+  ],
+  "en": {
+    "title": "How do you plan Shopify shipping rates?",
+    "answer": "Start from your courier agreement and the baskets you sell. The checkout rate should describe a service you can actually fulfil.",
+    "sections": [
+      [
+        "Create a delivery matrix",
+        "List destinations, delivery method, typical dispatch process, customer charge and exclusions. Distinguish the time you need to prepare an order from the courier’s transit time. Confirm unusual addresses, heavy items and remote areas before describing a service as available throughout a country."
+      ],
+      [
+        "Test representative baskets",
+        "Try a single item, multiple items and products with different fulfilment requirements. Check addresses inside and outside coverage, and review any free-shipping threshold with discounts applied. Record unexpected totals so the team can identify whether the issue comes from product data or the configured rule."
+      ],
+      [
+        "Keep content aligned with checkout",
+        "The product page, shipping policy and checkout should explain the same offer. If coverage or charges change, update all relevant wording. Avoid promising a universal arrival date unless operations can support it. Review your delivery matrix whenever you introduce a new product category or courier."
+      ],
+      [
+        "Test the edges of the rule",
+        "Try one item, several items and a basket containing products with different fulfilment needs. Check an address near the edge of coverage and a basket close to a free-shipping threshold, with discounts applied. Record why each total should be correct. Separate your preparation time from carrier transit time in the wording. When a courier or product category changes, update the rules and the policy together so checkout does not contradict the product page."
+      ]
+    ],
+    "checklist": [
+      "Document real coverage and exclusions.",
+      "Separate preparation time from transit time.",
+      "Test baskets and destination boundaries.",
+      "Match policy wording to checkout rates."
+    ],
+    "faq": [
+      [
+        "Should every store offer free shipping?",
+        "Only if the economics and operational coverage support it. Compare margin and fulfilment costs before setting a threshold."
+      ]
+    ],
+    "editorial_detail_heading": "Test the edges of the rule",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Baskets worth checking before launch",
+      "columns": [
+        "Test",
+        "Question"
+      ],
+      "rows": [
+        [
+          "One item",
+          "Does the normal rate match the approved offer?"
+        ],
+        [
+          "Several items",
+          "Does the combined total follow the intended rule?"
+        ],
+        [
+          "Discount near a free-shipping threshold",
+          "Does eligibility behave as intended after the discount?"
+        ],
+        [
+          "Address outside coverage",
+          "Is the customer told clearly that this destination is unsupported?"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Compare the displayed fee with the real order",
+        "Use representative baskets, weights and delivery destinations to check the proposed rules against actual carrier or fulfilment costs. Include the exceptions that matter to your catalogue. A flat fee can be simple for customers, but somebody still needs to understand when the business absorbs a difference."
+      ]
+    ],
+    "editorial_followup_heading": "Compare the displayed fee with the real order"
+  },
+  "ar": {
+    "title": "كيف أحدّد أسعار الشحن في شوبيفاي؟",
+    "answer": "ابدأ باتفاق شركة الشحن والسلال التي تبيعها. يجب أن يمثل السعر خدمة تستطيع تنفيذها، لا رقمًا اخترته ليبدو العرض مناسبًا.",
+    "sections": [
+      [
+        "أنشئ جدول توصيل",
+        "سجّل الوجهة والطريقة والتجهيز والرسوم والاستثناءات. افصل وقت تجهيز الطلب عن وقت النقل. راجع المناطق البعيدة والطرود الخاصة قبل الوعد بتغطية الدولة كاملة."
+      ],
+      [
+        "اختبر سلالًا ممثّلة",
+        "جرّب قطعة واحدة وعدة قطع ومنتجات بتنفيذ مختلف. اختبر عناوين داخل التغطية وخارجها والحد المجاني مع الخصم. وثّق الإجماليات غير المتوقّعة لمعرفة مصدر المشكلة."
+      ],
+      [
+        "طابق النص مع الدفع",
+        "ينبغي أن تعرض صفحة المنتج والسياسة والدفع العرض نفسه. حدّث جميع النصوص عند تغيّر الرسوم، ولا تَعِد بموعد وصول شامل دون دعم تشغيلي. راجع الجدول مع كل فئة أو مزوّد جديد."
+      ],
+      [
+        "اختبر حدود القاعدة",
+        "جرّب قطعة وعدة قطع ومنتجات بتنفيذ مختلف. اختبر عنوانًا قرب حدود التغطية وسلة قرب حد الشحن المجاني مع خصم، ودوّن الإجمالي المتوقع. افصل وقت تجهيزك عن نقل الشركة في النص. وعند تغيير الناقل أو فئة المنتجات، حدّث القواعد والسياسة معًا حتى لا يخالف الدفع ما وعدت به صفحة المنتج."
+      ]
+    ],
+    "checklist": [
+      "وثّق التغطية والاستثناءات.",
+      "افصل التجهيز عن النقل.",
+      "اختبر السلال وحدود الوجهات.",
+      "طابق السياسة بالأسعار."
+    ],
+    "faq": [
+      [
+        "هل يلزم شحن مجاني لكل متجر؟",
+        "اختره عندما تدعمه تكلفة التنفيذ والهامش؛ قيّم الأرقام قبل تحديد الحد."
+      ]
+    ],
+    "editorial_detail_heading": "اختبر حدود القاعدة",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "سلال تستحق التجربة قبل الإطلاق",
+      "columns": [
+        "الاختبار",
+        "السؤال"
+      ],
+      "rows": [
+        [
+          "قطعة واحدة",
+          "هل السعر يطابق العرض المعتمد؟"
+        ],
+        [
+          "عدة قطع",
+          "هل الإجمالي يتبع القاعدة المقصودة؟"
+        ],
+        [
+          "خصم قرب الحد المجاني",
+          "هل تُحسب الأهلية بعد الخصم كما تريد؟"
+        ],
+        [
+          "عنوان خارج التغطية",
+          "هل يتضح للعميل أن الوجهة غير مدعومة؟"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "كيف أختبر رسوم الشحن قبل اعتمادها؟",
+        "جهّز سلة خفيفة وأخرى أكبر، وجرّب عناوين من المناطق التي تخدمها. قارن ما يظهر للعميل بما ستدفعه فعلًا وفق اتفاقك مع الناقل وطريقة التجهيز. راجع المنتجات التي تحتاج تعاملًا خاصًا والحد الذي يفعّل الشحن المجاني إن وجد. السعر الثابت قد يبسط القرار للعميل، لكنه لا يلغي فرق التكلفة؛ يجب أن يعرف الفريق متى يتحمله المشروع وكيف ينعكس على ربحية الطلب."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أختبر رسوم الشحن قبل اعتمادها؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-shipping-rates.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Delivery truck with a shipping-rate card.",
+      "ar": "شاحنة توصيل بجانب بطاقة لسعر الشحن."
+    }
+  }
+}

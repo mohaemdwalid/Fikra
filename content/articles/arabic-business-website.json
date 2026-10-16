@@ -1,0 +1,111 @@
+{
+  "slug": "arabic-business-website",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central: multilingual sites",
+      "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites"
+    }
+  ],
+  "related": [
+    "qatar-website-language-priority",
+    "arabic-shopify-rtl",
+    "website-inquiry-forms"
+  ],
+  "en": {
+    "title": "How should a corporate website handle Arabic and English?",
+    "answer": "Write each version for its reader. Keep the facts equivalent, but do not force Arabic to follow English sentence structure word for word.",
+    "sections": [
+      [
+        "Create a language inventory",
+        "List service descriptions, project evidence, forms, contact details and documents. Decide what genuinely needs both versions. Use a glossary for business terms so the same service is not described inconsistently across pages."
+      ],
+      [
+        "Publish usable language routes",
+        "Google recommends separate URLs for language versions and appropriate language links. Keep the equivalent page easy to reach. Review right-to-left layout and mixed English names without mirroring logos or changing product identity."
+      ],
+      [
+        "Maintain equivalence over time",
+        "When a service changes, update both versions and their metadata. Record anything intentionally available in one language. Test the enquiry route from the Arabic page so a language switch does not unexpectedly lose the visitor’s context."
+      ],
+      [
+        "Translate the meaning and the journey",
+        "Agree the names of services and recurring terms, then review a complete route from introduction to enquiry. A menu in Arabic above English service details is not enough. Use separate language URLs and link to the equivalent page. When the service changes, update both versions together. Let an Arabic reader check whether the copy answers the question naturally, not merely whether every English phrase has an Arabic replacement."
+      ]
+    ],
+    "checklist": [
+      "Inventory language coverage.",
+      "Agree terminology and reviewers.",
+      "Update both versions together."
+    ],
+    "faq": [
+      [
+        "Must every business document be translated?",
+        "Decide according to audience needs and any applicable requirements; make intentional exceptions clear."
+      ]
+    ],
+    "editorial_detail_heading": "Translate the meaning and the journey",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Start with one page in both languages",
+        "Take your main service page and write it for each audience. Keep the offer, contact route and service limits consistent, but let the sentences differ. Ask a colleague to read the Arabic without seeing the English: if they cannot explain what you offer, the translation needs another pass."
+      ]
+    ],
+    "editorial_followup_heading": "Start with one page in both languages"
+  },
+  "ar": {
+    "title": "كيف أعمل موقع شركة عربي وإنجليزي بدون ترجمة غريبة؟",
+    "answer": "اكتب لكل قارئ بلغته. حافظ على الحقائق نفسها، لكن لا تجبر العربية على ترتيب الجملة الإنجليزية كلمة بكلمة. هذا سبب كثير من النصوص التي تبدو مترجمة.",
+    "sections": [
+      [
+        "احصر الصفحات",
+        "حدّد الخدمات والأعمال والنماذج والتواصل والوثائق المطلوبة، وضع قاموسًا للمصطلحات المتكرّرة."
+      ],
+      [
+        "انشر مسارات واضحة",
+        "استخدم روابط لغوية مستقلة ومبدّلًا للصفحة المكافئة. راجع اتجاه العربية والأسماء الإنجليزية دون قلب الشعارات."
+      ],
+      [
+        "حدّث النسختين",
+        "طابق تغييرات الخدمات والبيانات، ووضّح الاستثناءات واختبر الاستفسار من العربية."
+      ],
+      [
+        "راجع المعنى والمسار معًا",
+        "اتّفق على أسماء الخدمات والمصطلحات، ثم تابع الزائر من التعريف إلى الاستفسار. القائمة العربية فوق تفاصيل إنجليزية لا تكفي. استخدم روابط لغوية واضحة ومبدّلًا للصفحة المقابلة، وحدّث النسختين عند تغير الخدمة. اطلب من قارئ عربي تقييم هل يجيب النص طبيعيًا، لا هل توجد كلمة عربية مقابل كل كلمة إنجليزية."
+      ]
+    ],
+    "checklist": [
+      "حدّد التغطية.",
+      "اعتمد المصطلحات.",
+      "حدّث اللغتين معًا."
+    ],
+    "faq": [
+      [
+        "هل تُترجم جميع الوثائق؟",
+        "حدّد ذلك وفق الجمهور والمتطلّبات المطبّقة مع توضيح الاستثناءات."
+      ]
+    ],
+    "editorial_detail_heading": "راجع المعنى والمسار معًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ابدأ بصفحة واحدة قبل ترجمة الموقع كله",
+        "اختر صفحة الخدمة الأساسية واكتبها بالعربية والإنجليزية، ثم اطلب من شخص لا يعرف المشروع أن يقرأ العربية وحدها. هل فهم الخدمة، ولمن تناسب، وكيف يتواصل معك؟ إذا احتاج إلى شرح منك، عدّل النص قبل تعميمه على بقية الصفحات. ثبّت أسماء الخدمات والمصطلحات بين الصفحات؛ اختلاف الصياغة طبيعي، لكن اختلاف الوعد أو السعر أو طريقة التواصل يربك العميل."
+      ]
+    ],
+    "editorial_followup_heading": "ابدأ بصفحة واحدة قبل ترجمة الموقع كله"
+  },
+  "image": {
+    "src": "/assets/article-images/arabic-business-website.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

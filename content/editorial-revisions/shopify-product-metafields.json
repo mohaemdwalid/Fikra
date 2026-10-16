@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-product-metafields",
+  "title_ar": "ما هي Metafields ومتى أحتاجها؟",
+  "lead_en": "Think of metafields as organised places for product facts, such as fabric or care instructions, instead of repeating everything in a loose description.",
+  "lead_ar": "هي خانات منظّمة لمعلومات مثل القماش أو العناية، بدل كتابة كل التفاصيل داخل وصف طويل بطريقة مختلفة لكل منتج.",
+  "heading_en": "When the extra structure helps",
+  "detail_en": "If you sell 50 garments and want fabric to appear in the same place on every page, a dedicated field can make editing easier. Agree what the field means and how empty values behave. Entering the data is only half the job: the theme must show it correctly. Try changing one value and check the product page. Avoid creating several fields for the same fact just because different apps suggest them.",
+  "heading_ar": "متى تصبح مفيدة؟",
+  "detail_ar": "إذا لديك ٥٠ قطعة وتريد إظهار القماش في الموضع نفسه، تساعدك خانة مخصّصة على تحديثه بوضوح. حدّد معناها وما يحدث إن كانت فارغة. حفظ المعلومة لا يكفي؛ يجب أن يعرضها القالب كما تريد. غيّر قيمة في منتج وافتح صفحته للتأكد. وتجنّب إنشاء عدة خانات للمعلومة نفسها لمجرّد اقتراح تطبيقات مختلفة."
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "choose-shopify-theme",
+  "category": "planning",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/adding-themes"
+    }
+  ],
+  "related": [
+    "free-or-paid-shopify-theme",
+    "arabic-shopify-rtl",
+    "mobile-shopify-design"
+  ],
+  "en": {
+    "title": "How do you choose a Shopify theme for your brand?",
+    "answer": "Try your own content in the theme. A demo built around another brand’s photography can make almost any layout look convincing.",
+    "sections": [
+      [
+        "Test a representative catalogue",
+        "Use a long product title, multiple photos, size options and a sold-out item. Check whether a collection remains easy to scan with your image proportions. For a bilingual store, review Arabic copy and direction as well. Keep a short scorecard so each candidate is judged against the same requirements."
+      ],
+      [
+        "Distinguish settings from custom work",
+        "Some changes are available in the theme editor; others require code or an app. Ask which of your requirements the theme handles directly and which need additional work. Shopify allows previews of themes, and paid Theme Store themes require purchase before publication. Verify licensing for the store that will use it."
+      ],
+      [
+        "Review the editing experience",
+        "The owner should understand how to change banners, arrange sections and update product content after handover. Ask for a preview using realistic material rather than approving a blank demo. Check support responsibilities and preserve the current live theme before making a replacement decision."
+      ],
+      [
+        "A better test than browsing demos",
+        "Choose one typical product and one difficult product: a long name, several sizes or unusual image proportions. Preview both on a phone. Can you see the selected size, read the delivery information and browse the photos comfortably? Ask which changes are settings and which need development. This reveals the real fit before a purchase, rather than discovering afterward that the gallery or menu cannot support your catalogue."
+      ]
+    ],
+    "checklist": [
+      "Preview real products and image shapes.",
+      "Review navigation and filters on mobile.",
+      "Check Arabic layouts when required.",
+      "List features needing custom work."
+    ],
+    "faq": [
+      [
+        "Should I choose the theme with the most features?",
+        "Only if those features fit your needs. Extra functionality can add editing complexity without helping customers."
+      ]
+    ],
+    "editorial_detail_heading": "A better test than browsing demos",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "What a theme demo should prove",
+      "columns": [
+        "Area",
+        "Use your own example"
+      ],
+      "rows": [
+        [
+          "Product page",
+          "Long title, real photos, several options and an unavailable choice."
+        ],
+        [
+          "Collection",
+          "Your image proportions, useful labels and the relevant filters."
+        ],
+        [
+          "Mobile",
+          "Navigation, overlays and the selected state of controls."
+        ],
+        [
+          "Arabic",
+          "Real text with mixed numbers and English names where applicable."
+        ],
+        [
+          "Editing",
+          "The owner can perform routine content changes without the demonstration presenter."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Use your hardest product in the demo",
+        "A simple product makes most themes look good. Try your longest title, most complicated options and largest navigation category. Review those on mobile in Arabic too. Keep a list of changes the demonstration needed so the theme price is not mistaken for the complete implementation cost."
+      ]
+    ],
+    "editorial_followup_heading": "Use your hardest product in the demo"
+  },
+  "ar": {
+    "title": "كيف أعرف أن قالب شوبيفاي مناسب لمتجري؟",
+    "answer": "أفضل طريقة هي تجربة محتواك داخل القالب. صور العرض التجريبي قد تكون ممتازة، لكن هذا لا يعني أن التصميم يناسب منتجاتك أو طريقة عرضها.",
+    "sections": [
+      [
+        "اختبر كتالوجًا ممثّلًا",
+        "جرّب عنوانًا طويلًا وصورًا متعدّدة وخيارات مقاسات ومنتجًا نافدًا. راجع تناسب الصور داخل التصنيفات، والنص العربي واتجاهه إذا احتجت لغتين. استخدم معايير المقارنة نفسها لكل قالب."
+      ],
+      [
+        "ميّز الإعدادات عن التطوير المخصّص",
+        "اسأل ما الذي يوفّره محرّر القالب وما يحتاج إلى كود أو تطبيق. تتيح شوبيفاي معاينة القوالب، وتتطلّب القوالب المدفوعة شراءها قبل النشر. راجع الترخيص للمتجر الذي سيستخدمها."
+      ],
+      [
+        "راجع سهولة الإدارة",
+        "ينبغي أن يعرف صاحب المتجر تعديل البنرات وترتيب الأقسام وتحديث المحتوى. اطلب معاينة بمواد واقعية، وحدّد مسؤولية الدعم واحتفظ بالقالب الحالي قبل استبداله."
+      ],
+      [
+        "جرّب الحالات التي قد تكشف المشكلة",
+        "ضع منتجًا عاديًا وآخر اسمه طويل أو خياراته كثيرة أو صوره مختلفة الأبعاد. افتحهما على الهاتف وراجع المقاس المختار ومعلومات التوصيل والمعرض. اسأل أيضًا: ما الذي يمكن تغييره من الإعدادات وما الذي يحتاج إلى تطوير؟ ستعرف بذلك ملاءمة القالب قبل شرائه، بدل اكتشاف لاحقًا أن القائمة أو الصور لا تخدم كتالوجك."
+      ]
+    ],
+    "checklist": [
+      "جرّب صورك ومنتجاتك.",
+      "راجع القوائم على الجوال.",
+      "اختبر العربية عند الحاجة.",
+      "دوّن التطوير المخصّص المطلوب."
+    ],
+    "faq": [
+      [
+        "هل أختار القالب الأكثر خصائص؟",
+        "اختر الخصائص التي تحتاجها؛ كثرتها قد تعقّد الإدارة دون فائدة للعميل."
+      ]
+    ],
+    "editorial_detail_heading": "جرّب الحالات التي قد تكشف المشكلة",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "ما الذي يجب أن تثبته معاينة القالب؟",
+      "columns": [
+        "الجزء",
+        "استخدم مثالًا من محتواك"
+      ],
+      "rows": [
+        [
+          "المنتج",
+          "عنوان طويل وصور وخيارات وخيار غير متاح."
+        ],
+        [
+          "التصنيف",
+          "أبعاد صورك وتسميات وفلاتر مناسبة."
+        ],
+        [
+          "الجوال",
+          "القائمة والعناصر العائمة وحالة الاختيار."
+        ],
+        [
+          "العربية",
+          "نص حقيقي مع أرقام وأسماء إنجليزية عند الحاجة."
+        ],
+        [
+          "الإدارة",
+          "يستطيع المالك التعديل المعتاد دون مقدم العرض."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "جرّب القالب بمنتجاتك الحقيقية",
+        "لا تعتمد على صور العرض وحدها. ضع منتجًا اسمه طويل وله ألوان ومقاسات، ثم افتحه على الجوال بالعربية. هل الخيارات واضحة؟ هل يستطيع العميل قراءة الوصف ومعرفة التوصيل بدون بحث طويل؟ جرّب أيضًا أكبر قائمة تصنيفات عندك. اكتب التعديلات المطلوبة قبل الشراء، لأن سعر القالب لا يشمل بالضرورة ضبط كل هذه التفاصيل، وقد يناسب قالب أبسط محتواك أكثر من عرض جميل بمنتجات مختلفة تمامًا."
+      ]
+    ],
+    "editorial_followup_heading": "جرّب القالب بمنتجاتك الحقيقية"
+  },
+  "image": {
+    "src": "/assets/article-images/choose-shopify-theme.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two different storefront layouts displayed for comparison.",
+      "ar": "تخطيطان مختلفان لواجهة متجر للمقارنة."
+    }
+  }
+}

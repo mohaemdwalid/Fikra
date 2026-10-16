@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-currency-display",
+  "category": "international",
+  "service": "arabic-english-shopify",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/international/pricing"
+    }
+  ],
+  "related": [
+    "shopify-markets-languages",
+    "shopify-payments-qatar",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "How should you plan currency display in a Shopify store?",
+    "answer": "Not necessarily. Display currency, checkout currency and the currency received by your business can be different. Check the payment route, not just the selector.",
+    "sections": [
+      [
+        "Write a currency map",
+        "Record store currency, display currencies, checkout behaviour and payout currency for your intended markets. Review current provider support directly. A converted number shown by a theme widget is not proof that the payment processor will charge the customer in that currency."
+      ],
+      [
+        "Check the full total",
+        "Look beyond the product price. Review discounts, shipping, any applicable charges and the final checkout amount. Explain currency changes clearly if the journey requires them. Compare the customer-facing amount with an appropriate test result and avoid assuming that formatting alone creates local payment support."
+      ],
+      [
+        "Plan maintenance",
+        "Exchange-rate behaviour, price rounding and market-specific pricing need an owner. Keep a record of the settings used and review them when the payment provider or selling markets change. Test after app or theme changes that affect price presentation, particularly on bilingual pages with different number formatting."
+      ],
+      [
+        "What the customer actually pays",
+        "Choose a destination and compare the product price, cart total, shipping, discount and final payment currency. If the currency changes, the customer should understand when and why. Verify what your provider supports for your business and account; a display widget cannot create payment support. Keep a record of rounding and market-pricing settings, then recheck after changing providers, apps or the markets you serve."
+      ]
+    ],
+    "checklist": [
+      "Document display, checkout and payout currencies.",
+      "Verify the current payment-provider capabilities.",
+      "Review shipping and discounts in the final total.",
+      "Recheck after market or app changes."
+    ],
+    "faq": [
+      [
+        "Can I promise local-currency checkout just because a selector changes prices?",
+        "No. Confirm the actual checkout and payment behaviour for that market before making the claim."
+      ]
+    ],
+    "editorial_detail_heading": "What the customer actually pays",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Follow the amount through checkout",
+        "Choose a sample product and record the displayed amount, checkout currency and what your eligible payment route charges. Explain any difference before the customer commits. Currency presentation, settlement and bank conversion are separate questions; confirm the actual setup rather than inferring it from a selector."
+      ]
+    ],
+    "editorial_followup_heading": "Follow the amount through checkout"
+  },
+  "ar": {
+    "title": "هل تغيير العملة في المتجر يعني أن العميل يدفع بها؟",
+    "answer": "ليس دائمًا. قد تختلف عملة العرض عن عملة الدفع والعملة التي تستلمها. افحص رحلة الدفع نفسها بدل الاكتفاء بتغيّر الرقم في الصفحة.",
+    "sections": [
+      [
+        "ارسم خريطة العملات",
+        "دوّن عملة المتجر والعرض والدفع والتحويل إلى حسابك لكل سوق. راجع دعم المزوّد الحالي؛ تغيّر الرقم داخل أداة عرض لا يثبت أن الدفع سيتم بالعملة نفسها."
+      ],
+      [
+        "راجع الإجمالي كاملًا",
+        "اختبر الخصم والشحن وأي رسوم والمبلغ النهائي. وضّح تغيّر العملة إن حدث، وقارن العرض بنتيجة اختبار مناسبة. تنسيق السعر لا يوفّر دعم دفع محليًا وحده."
+      ],
+      [
+        "حدّد مسؤول التحديث",
+        "وثّق التحويل والتقريب والأسعار الخاصة بالأسواق، وراجعها عند تغيّر المزوّد أو الأسواق. أعد الاختبار بعد تعديلات القالب والتطبيقات، خصوصًا مع اختلاف تنسيق الأرقام بين اللغتين."
+      ],
+      [
+        "ما الذي يخرج من حساب العميل؟",
+        "اختر وجهة وطابق سعر المنتج والسلة والشحن والخصم والعملة النهائية. إذا تغيّرت العملة، يجب أن يفهم العميل أين حدث ذلك. أكّد دعم المزوّد لحساب نشاطك؛ أداة تحويل العرض لا تنشئ دعم دفع. وثّق التقريب والأسعار الخاصة بالأسواق، وأعد المراجعة عند تغيير المزوّد أو التطبيق أو الوجهات."
+      ]
+    ],
+    "checklist": [
+      "وثّق عملات العرض والدفع والاستلام.",
+      "تحقّق من دعم المزوّد.",
+      "راجع الشحن والخصم والإجمالي.",
+      "اختبر بعد تغييرات السوق."
+    ],
+    "faq": [
+      [
+        "هل يكفي مبدّل العملة لإثبات الدفع بها؟",
+        "لا. تحقّق من سلوك الدفع الفعلي لذلك السوق قبل الإعلان عنه."
+      ]
+    ],
+    "editorial_detail_heading": "ما الذي يخرج من حساب العميل؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا يرى العميل وماذا يُخصم منه؟",
+        "جرّب منتجًا واحدًا وسجّل العملة الظاهرة في الصفحة، ثم العملة والمبلغ عند الدفع وما يؤكده مزود الخدمة. قد يغيّر زر العملة العرض فقط في بعض الإعدادات، لذلك لا تعد العميل بشيء قبل مراجعة المسار الفعلي. اسأل أيضًا عن عملة التحصيل وما قد يخصه البنك من تحويل. اجعل أي اختلاف واضحًا قبل إتمام الطلب، وراجع التجربة لكل سوق تدعمه بدل تعميم نتيجة سوق واحد."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا يرى العميل وماذا يُخصم منه؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-currency-display.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Currency symbol connected to a checkout payment card.",
+      "ar": "رمز عملة متصل ببطاقة دفع عند إتمام الشراء."
+    }
+  }
+}

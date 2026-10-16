@@ -2,7 +2,7 @@
 .fikra-lead-form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; margin-top: 32px; }
 .fikra-lead-form label { min-width: 0; }
 .fikra-lead-form input, .fikra-lead-form select { width: 100%; box-sizing: border-box; padding: 14px; border: 1px solid #d6d2c9; border-radius: 8px; background: #fff; color: #010102; font: inherit; }
-.fikra-lead-form input:focus, .fikra-lead-form select:focus { outline: 2px solid #e63b52; outline-offset: 2px; }
+.fikra-lead-form input:focus, .fikra-lead-form select:focus { outline: 2px solid var(--fikra-accent, #005bea); outline-offset: 2px; }
 .fikra-lead-form small, .fikra-lead-note { color: #534f47; font-size: 13px; line-height: 1.7; }
 .fikra-lead-note, #lead-status { grid-column: 1 / -1; margin: 0; }
 .fikra-lead-form button { border: 0; cursor: pointer; }

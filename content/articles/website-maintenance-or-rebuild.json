@@ -1,0 +1,111 @@
+{
+  "slug": "website-maintenance-or-rebuild",
+  "category": "scaling",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://developer.wordpress.org/advanced-administration/security/backup/"
+    }
+  ],
+  "related": [
+    "shopify-maintenance-backups",
+    "shopify-redesign-seo-preservation",
+    "website-project-ownership"
+  ],
+  "en": {
+    "title": "Should you maintain your website or rebuild it?",
+    "answer": "Start with the problems the current site cannot solve. A rebuild is a large intervention, not the automatic answer to an old-looking page.",
+    "sections": [
+      [
+        "Diagnose the constraint",
+        "Separate inaccurate content, broken integrations and unclear navigation from technical limitations. List the customer tasks that fail and the business tasks that are difficult to maintain. A dated visual style alone does not establish that every component must be replaced."
+      ],
+      [
+        "Compare the recovery options",
+        "Estimate repairs against migration, content preparation and retraining. Review access, backups and the support arrangement. WordPress documents recovery requirements; any platform choice should include how the business will preserve data and resume operation after changes."
+      ],
+      [
+        "Set measurable acceptance",
+        "Define what the selected approach must improve and what needs preserving. Use representative journeys and a rollback route. Avoid approving a rebuild because it sounds more modern without a clear explanation of the problem it solves."
+      ],
+      [
+        "Compare two realistic scopes",
+        "List the failing customer and editing tasks, then ask what repairing them would involve. Separately price migration, new content and retraining for a replacement. A navigation or copy problem may not require changing the whole system; inaccessible accounts or serious structural limits may change the decision. Include recovery and link preservation in either plan. Define what success looks like before approving a modern-looking design that leaves the original problem untouched."
+      ]
+    ],
+    "checklist": [
+      "Document actual failures.",
+      "Compare repair and replacement scope.",
+      "Define acceptance and recovery."
+    ],
+    "faq": [
+      [
+        "Does a rebuild automatically fix SEO or sales?",
+        "No. It can introduce new problems unless content, routes and operations are handled carefully."
+      ]
+    ],
+    "editorial_detail_heading": "Compare two realistic scopes",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Name the faults before choosing a solution",
+        "List the important tasks the current site fails and the evidence for each. Ask what fixing those requires and compare that with rebuilding, including migration and disruption. If content or ownership is the real issue, a new design alone may carry the same problem into another system."
+      ]
+    ],
+    "editorial_followup_heading": "Name the faults before choosing a solution"
+  },
+  "ar": {
+    "title": "أصلح موقعي الحالي أم أبدأ موقعًا جديدًا؟",
+    "answer": "ابدأ بالمشكلات التي لا يستطيع موقعك حلها. إعادة البناء خطوة كبيرة، وليست الإجابة التلقائية لأن شكل الصفحة قديم.",
+    "sections": [
+      [
+        "شخّص القيد",
+        "افصل المحتوى والربط والقوائم عن حدود التقنية، ووثّق مهام العميل والإدارة المتعثّرة. الشكل القديم وحده لا يبرّر استبدال كل شيء."
+      ],
+      [
+        "قارن الخيارات",
+        "احسب الإصلاح مقابل النقل والمحتوى والتدريب، وراجع الوصول والنسخ والدعم وخطة الاستعادة."
+      ],
+      [
+        "حدّد القبول",
+        "اكتب ما يتحسّن وما يُحفظ واختبر الرحلات مع رجوع، بدل إعادة البناء لمجرّد الحداثة."
+      ],
+      [
+        "قارن نطاقين واقعيين",
+        "احصر مهام العميل والإدارة المتعطلة واسأل عن إصلاحها، ثم احسب النقل والمحتوى والتدريب في البديل. قد لا تحتاج مشكلة قائمة أو نص إلى نظام جديد، بينما يغيّر القرار فقدان الوصول أو قيد هيكلي كبير. ضمّن الاستعادة وحفظ الروابط في الخيارين. حدّد النجاح قبل اعتماد شكل حديث يترك المشكلة الأصلية كما هي."
+      ]
+    ],
+    "checklist": [
+      "وثّق الإخفاق.",
+      "قارن النطاقين.",
+      "حدّد القبول والاستعادة."
+    ],
+    "faq": [
+      [
+        "هل يصلح البناء السيو والمبيعات تلقائيًا؟",
+        "قد يضيف مشاكل إن لم تُدار الروابط والمحتوى والتشغيل."
+      ]
+    ],
+    "editorial_detail_heading": "قارن نطاقين واقعيين",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أعرف أني أحتاج إعادة بناء فعلًا؟",
+        "اكتب المشاكل المحددة: هل يصعب تحديث المحتوى، أم لا يعمل النموذج، أم يضيع العميل في الصفحات، أم النظام لا يدعم حاجة جديدة؟ اطلب تقديرًا لإصلاح كل مشكلة وقارنه بإعادة البناء ونقل المحتوى والروابط. قد يحل تعديل واضح المشكلة بتكلفة أقل، وقد يكون الأساس نفسه عائقًا. لا تبدأ من الملل بالشكل وحده، وتأكد أن الخطة الجديدة تعالج السبب بدل نقل المحتوى الضعيف والمسؤوليات غير الواضحة إلى تصميم آخر."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أعرف أني أحتاج إعادة بناء فعلًا؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-maintenance-or-rebuild.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

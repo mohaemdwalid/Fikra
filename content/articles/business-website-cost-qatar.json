@@ -1,0 +1,169 @@
+{
+  "slug": "business-website-cost-qatar",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/documentation/article/hosting-wordpress/"
+    }
+  ],
+  "related": [
+    "domain-versus-hosting",
+    "website-project-ownership",
+    "shopify-website-cost-qatar"
+  ],
+  "en": {
+    "title": "What affects business website costs in Qatar?",
+    "answer": "A useful price comparison starts with the pages, content and functions included. A cheap starting figure can leave important work outside the quote.",
+    "sections": [
+      [
+        "Define the deliverables",
+        "Count distinct page layouts, languages, forms and connections. A page assembled from supplied copy is different from a project requiring content preparation and photography. Ask what revisions, testing and handover are included."
+      ],
+      [
+        "Identify recurring responsibilities",
+        "Hosting arrangements differ by platform; WordPress documentation explains hosting as part of its setup. Record renewals, premium extensions and ongoing support separately. Confirm whether you can change supplier without losing account access."
+      ],
+      [
+        "Compare complete proposals",
+        "Give suppliers the same brief and list exclusions. Avoid treating a cheap starting price as the final project budget. FIKRA’s public guides do not establish a fixed market price; request actual quotations for your requirements."
+      ],
+      [
+        "Make the quote readable",
+        "Ask for distinct line items for page layouts, languages, copy preparation, forms, integrations and handover. Clarify whether a second language repeats the structure or needs different content. Then separate domain, hosting and maintenance renewals. A five-page site with approved text is not the same project as five pages requiring interviews, writing and photography. Compare the same brief, including exclusions, rather than choosing the smallest number without knowing what you will receive."
+      ]
+    ],
+    "checklist": [
+      "Specify layouts and languages.",
+      "Separate recurring costs.",
+      "Confirm exclusions and account ownership."
+    ],
+    "faq": [
+      [
+        "Is there one standard website price in Qatar?",
+        "No single figure describes every scope; compare written deliverables and actual quotations."
+      ]
+    ],
+    "editorial_detail_heading": "Make the quote readable",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Read the proposal line by line",
+      "columns": [
+        "Cost item",
+        "What to ask before approval"
+      ],
+      "rows": [
+        [
+          "Design and development",
+          "Which templates and functions are included, and which require another estimate?"
+        ],
+        [
+          "Content and products",
+          "Who supplies text, photos and translations, and who enters them?"
+        ],
+        [
+          "Revisions and acceptance",
+          "How is feedback handled, and what must work before handover?"
+        ],
+        [
+          "Recurring services",
+          "Which subscriptions renew, who owns them and how are charges approved?"
+        ],
+        [
+          "After launch",
+          "What support is included, for how long, and what counts as new work?"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Ask suppliers to price the same job",
+        "Give each supplier the same page list, language requirements and content responsibility. Ask what happens when a page needs a different layout or the copy arrives late. You will learn more from those answers than from comparing starting prices attached to different scopes."
+      ]
+    ],
+    "editorial_followup_heading": "Ask suppliers to price the same job"
+  },
+  "ar": {
+    "title": "كم يكلف موقع شركة في قطر، وما الذي يشمله السعر؟",
+    "answer": "تبدأ المقارنة بما يشمله السعر: الصفحات والمحتوى والوظائف. قد يبدو رقم البداية منخفضًا لأن الترجمة أو النماذج أو التجهيز غير مشمولة.",
+    "sections": [
+      [
+        "حدّد التسليمات",
+        "احسب التخطيطات واللغات والنماذج والربط. يختلف تركيب محتوى جاهز عن إنتاج نصوص وصور. اسأل عن المراجعات والتسليم."
+      ],
+      [
+        "دوّن المستمر",
+        "تختلف الاستضافة وفق المنصة. سجّل التجديدات والإضافات والدعم منفصلة وأكّد إمكان تغيير المورّد دون فقدان الحسابات."
+      ],
+      [
+        "قارن عروضًا مكتملة",
+        "شارك الوصف نفسه وراجع الاستثناءات. السعر الابتدائي ليس ميزانية نهائية، وأدلة فكرة لا تحدّد سعرًا ثابتًا للسوق."
+      ],
+      [
+        "اطلب عرضًا تستطيع فهمه",
+        "قسّم العرض إلى التخطيطات واللغات وكتابة المحتوى والنماذج والربط والتسليم. وضّح هل اللغة الثانية تنقل المحتوى نفسه أم تحتاج إلى مادة مختلفة. ثم افصل تجديد النطاق والاستضافة والصيانة. خمس صفحات بنصوص جاهزة تختلف عن خمس تحتاج مقابلات وكتابة وتصويرًا. قارن الوصف نفسه والاستثناءات، لا الرقم الأقل قبل معرفة ما ستستلمه."
+      ]
+    ],
+    "checklist": [
+      "حدّد الصفحات واللغات.",
+      "افصل التكاليف المستمرة.",
+      "راجع الاستثناءات والملكية."
+    ],
+    "faq": [
+      [
+        "هل يوجد سعر واحد للموقع في قطر؟",
+        "لا يصف رقم واحد كل المشاريع؛ قارن النطاق والعروض الفعلية."
+      ]
+    ],
+    "editorial_detail_heading": "اطلب عرضًا تستطيع فهمه",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "اقرأ العرض بندًا بندًا",
+      "columns": [
+        "البند",
+        "ما السؤال قبل الموافقة؟"
+      ],
+      "rows": [
+        [
+          "التصميم والتطوير",
+          "ما القوالب والوظائف المشمولة، وما الذي يحتاج تقديرًا إضافيًا؟"
+        ],
+        [
+          "المحتوى والمنتجات",
+          "من يجهّز النص والصور والترجمة، ومن يُدخلها؟"
+        ],
+        [
+          "المراجعة والقبول",
+          "كيف تُجمع الملاحظات وما الذي يجب أن يعمل قبل التسليم؟"
+        ],
+        [
+          "الخدمات المتكرّرة",
+          "ما الاشتراكات المتجددة ومن يملكها ويوافق على رسومها؟"
+        ],
+        [
+          "بعد الإطلاق",
+          "ما الدعم المشمول ومدته، وما الذي يُحسب عملًا جديدًا؟"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "كيف أقارن عرضين بسعرين مختلفين؟",
+        "أرسل للشركتين القائمة نفسها: الصفحات، واللغات، والنماذج، ومن يكتب النصوص ويجهّز الصور. ثم اسأل عن تكلفة إضافة صفحة مختلفة وعن التعديلات بعد اعتماد التصميم. قد يشمل عرض رخيص تركيب قالب فقط، بينما يشمل الآخر كتابة المحتوى وربط النماذج. لا تفترض أن الأغلى أفضل تلقائيًا؛ اطلب توضيح ما ستستلمه، وموعده، وما ستدفعه لاحقًا قبل المقارنة."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أقارن عرضين بسعرين مختلفين؟"
+  },
+  "image": {
+    "src": "/assets/article-images/business-website-cost-qatar.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Structured website form and its related workflow symbol.",
+      "ar": "نموذج موقع منظّم ورمز لمسار العمل المرتبط به."
+    }
+  }
+}

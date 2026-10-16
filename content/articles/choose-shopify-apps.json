@@ -1,0 +1,113 @@
+{
+  "slug": "choose-shopify-apps",
+  "category": "growth",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/apps"
+    }
+  ],
+  "related": [
+    "shopify-speed-improvements",
+    "shopify-maintenance-backups",
+    "arabic-english-shopify-store"
+  ],
+  "en": {
+    "title": "How do you decide which Shopify apps to install?",
+    "answer": "Start with a specific problem, then check what the store already supports. Installing more apps is not a strategy by itself.",
+    "sections": [
+      [
+        "Write a small requirement brief",
+        "Describe the task, who uses it and how you will judge success. Check whether the theme or Shopify configuration already covers the need. If several apps solve similar problems, compare their actual workflows with your catalogue rather than installing all of them for a trial on the live store."
+      ],
+      [
+        "Review total responsibility",
+        "Check current pricing, permissions, support, language compatibility and data handling. Identify which pages the app changes and who will maintain it. Avoid entering customer data into a tool before understanding the required access and your business’s privacy responsibilities."
+      ],
+      [
+        "Plan installation and removal",
+        "Test the feature with real content in a controlled setup and review mobile behaviour. Record any theme changes, scripts or external accounts involved. Understand what uninstalling removes and what needs separate cleanup. Keep a simple app register with purpose, owner, recurring charge and review date."
+      ],
+      [
+        "Write a reason for each installation",
+        "Describe the task and what would count as success. Check the theme and native settings before choosing an extension. Review permissions, current charges, Arabic support and the pages it changes. Try it with your own content and test mobile behaviour. Finally ask what uninstalling removes and whether separate cleanup is needed. Keep an app register so a future editor knows why the tool exists instead of being afraid to remove anything."
+      ]
+    ],
+    "checklist": [
+      "Define the requirement and success measure.",
+      "Check existing store capabilities first.",
+      "Review permissions, language and pricing.",
+      "Document maintenance and removal steps."
+    ],
+    "faq": [
+      [
+        "Is an app with many features always better?",
+        "Choose the smallest reliable solution for the requirement. Features you never use can still add cost and complexity."
+      ]
+    ],
+    "editorial_detail_heading": "Write a reason for each installation",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Try the task without another app first",
+        "Describe the missing function in plain language, then check the theme and your current setup. If an app is needed, test its customer experience and its removal before relying on it. Someone should own its billing, settings and effect on the store after installation."
+      ]
+    ],
+    "editorial_followup_heading": "Try the task without another app first"
+  },
+  "ar": {
+    "title": "كيف أعرف التطبيقات التي أحتاجها فعلًا؟",
+    "answer": "ابدأ بمشكلة محدّدة وراجع ما يوفّره المتجر أصلًا. كثرة التطبيقات ليست خطة تحسين، وقد تزيد التكلفة والتداخل.",
+    "sections": [
+      [
+        "اكتب الحاجة بوضوح",
+        "حدّد المهمة والمستخدم ومعيار النجاح. راجع القالب وإعدادات المنصة أولًا، ثم قارن سير العمل بكتالوجك بدل تجربة عدة أدوات متشابهة على المتجر الحي."
+      ],
+      [
+        "راجع المسؤولية الكاملة",
+        "تحقّق من السعر والصلاحيات والدعم واللغات والبيانات والصفحات المتأثرة. حدّد مسؤول الإدارة وافهم الوصول المطلوب قبل مشاركة بيانات العملاء."
+      ],
+      [
+        "خطّط للتركيب والإزالة",
+        "اختبر بمحتوى حقيقي في إعداد مضبوط وراجع الجوال. وثّق تغييرات القالب والسكربتات والحسابات الخارجية. اعرف ما تزيله عملية الإلغاء وما يحتاج تنظيفًا منفصلًا، واحتفظ بسجلّ التطبيقات."
+      ],
+      [
+        "اكتب سبب تثبيت كل تطبيق",
+        "صف المهمة ومعيار النجاح، ثم راجع القالب والإعدادات الأساسية. افحص الصلاحيات والرسوم والعربية والصفحات المتأثرة. جرّبه بمحتواك وعلى الهاتف. واسأل ماذا يُزال عند الإلغاء وما يحتاج تنظيفًا مستقلًا. احتفظ بسجل للتطبيقات حتى يعرف المسؤول القادم غرضها بدل الخوف من حذف أي شيء."
+      ]
+    ],
+    "checklist": [
+      "حدّد الحاجة ومعيار النجاح.",
+      "راجع الخصائص الموجودة.",
+      "افحص الصلاحيات واللغة والسعر.",
+      "وثّق الصيانة والإزالة."
+    ],
+    "faq": [
+      [
+        "هل التطبيق الأكثر خصائص أفضل؟",
+        "اختر أصغر حل موثوق للحاجة؛ قد تضيف الخصائص غير المستخدمة تكلفة وتعقيدًا."
+      ]
+    ],
+    "editorial_detail_heading": "اكتب سبب تثبيت كل تطبيق",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "قبل تثبيت تطبيق جديد",
+        "اكتب المشكلة أولًا: هل تريد جدول مقاسات، أم خيارات تخصيص، أم تذكيرًا بطلب؟ راجع هل المتجر يوفّر الوظيفة أصلًا، ثم جرّب التطبيق على منتج واحد. افحص شكله بالعربية والجوال وما يحدث عند إزالته. وجود تقييمات جيدة لا يعني أنه يناسب إعدادك. سجّل تكلفة الاشتراك ومن يتابعه، لأن التطبيقات الصغيرة قد تتحول إلى مصروف مستمر لا يعرف الفريق لماذا يدفعه."
+      ]
+    ],
+    "editorial_followup_heading": "قبل تثبيت تطبيق جديد"
+  },
+  "image": {
+    "src": "/assets/article-images/choose-shopify-apps.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Application tiles with a selected tool marked for review.",
+      "ar": "بطاقات تطبيقات مع علامة لاختيار أداة ومراجعتها."
+    }
+  }
+}

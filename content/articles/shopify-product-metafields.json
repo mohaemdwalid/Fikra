@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-product-metafields",
+  "category": "catalogue",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/custom-data/metafields"
+    }
+  ],
+  "related": [
+    "shopify-size-guide",
+    "shopify-product-descriptions",
+    "shopify-abaya-store"
+  ],
+  "en": {
+    "title": "What are Shopify metafields useful for?",
+    "answer": "Think of metafields as organised places for product facts, such as fabric or care instructions, instead of repeating everything in a loose description.",
+    "sections": [
+      [
+        "Model information customers need",
+        "For a garment, separate fields might hold fabric, care instructions or a size-guide reference. Decide which facts belong to every product and which are optional. Shopify’s metafield definitions describe the expected data type; match the type to the information you intend to store."
+      ],
+      [
+        "Plan how values reach the page",
+        "Saving a value does not by itself guarantee that shoppers will see it in the right place. The theme must display the intended information through its supported configuration or development. Preview products with populated and empty fields so missing content does not create awkward labels."
+      ],
+      [
+        "Create an editing convention",
+        "Name fields clearly, record their purpose and assign responsibility for filling them. Avoid several nearly identical fields maintained by different apps. Test a small product group first, then check whether the structure makes updates easier for the person who actually manages the catalogue."
+      ],
+      [
+        "When the extra structure helps",
+        "If you sell 50 garments and want fabric to appear in the same place on every page, a dedicated field can make editing easier. Agree what the field means and how empty values behave. Entering the data is only half the job: the theme must show it correctly. Try changing one value and check the product page. Avoid creating several fields for the same fact just because different apps suggest them."
+      ]
+    ],
+    "checklist": [
+      "Define a real customer information need.",
+      "Choose an appropriate data type.",
+      "Test filled and empty values in the theme.",
+      "Document who maintains each field."
+    ],
+    "faq": [
+      [
+        "Do metafields replace product descriptions?",
+        "No. They organise repeatable facts; the description can still explain the product’s purpose and context."
+      ]
+    ],
+    "editorial_detail_heading": "When the extra structure helps",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Use a field when the information repeats",
+        "If several products need the same kind of information, such as a material or care note, define its meaning and format once. Decide who enters it and where the theme displays it. Test a missing value too; a field in the admin does not automatically create a useful storefront section."
+      ]
+    ],
+    "editorial_followup_heading": "Use a field when the information repeats"
+  },
+  "ar": {
+    "title": "ما هي Metafields ومتى أحتاجها؟",
+    "answer": "هي خانات منظّمة لمعلومات مثل القماش أو العناية، بدل كتابة كل التفاصيل داخل وصف طويل بطريقة مختلفة لكل منتج.",
+    "sections": [
+      [
+        "نظّم معلومات يحتاجها العميل",
+        "قد تحتاج القطعة إلى القماش والعناية ومرجع دليل المقاسات. حدّد الإلزامي والاختياري، واختر نوع البيانات المناسب من تعريفات الحقول بدل تخزين جميع التفاصيل كنص غير منظّم."
+      ],
+      [
+        "خطّط لعرض القيم",
+        "حفظ المعلومة لا يضمن ظهورها للعميل. يجب أن يعرضها القالب بإعداداته أو بالتطوير المناسب. عاين منتجات بقيم مكتملة وأخرى فارغة حتى لا تظهر عناوين بلا محتوى."
+      ],
+      [
+        "اتّفق على أسلوب الإدارة",
+        "استخدم أسماء واضحة ووثّق الغرض والمسؤول عن التعبئة. تجنّب حقولًا متشابهة تنشئها تطبيقات مختلفة. اختبر مجموعة صغيرة وراجع سهولة تحديثها مع مسؤول الكتالوج."
+      ],
+      [
+        "متى تصبح مفيدة؟",
+        "إذا لديك ٥٠ قطعة وتريد إظهار القماش في الموضع نفسه، تساعدك خانة مخصّصة على تحديثه بوضوح. حدّد معناها وما يحدث إن كانت فارغة. حفظ المعلومة لا يكفي؛ يجب أن يعرضها القالب كما تريد. غيّر قيمة في منتج وافتح صفحته للتأكد. وتجنّب إنشاء عدة خانات للمعلومة نفسها لمجرّد اقتراح تطبيقات مختلفة."
+      ]
+    ],
+    "checklist": [
+      "حدّد حاجة العميل للمعلومة.",
+      "اختر نوع البيانات الصحيح.",
+      "اختبر القيم الفارغة والمكتملة.",
+      "وثّق مسؤولية التحديث."
+    ],
+    "faq": [
+      [
+        "هل تستبدل الحقول وصف المنتج؟",
+        "لا. تنظّم الحقائق المتكرّرة، بينما يشرح الوصف غرض المنتج وسياقه."
+      ]
+    ],
+    "editorial_detail_heading": "متى تصبح مفيدة؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "متى تكون الحقول أفضل من كتابة كل شيء في الوصف؟",
+        "إذا كانت المعلومة تتكرر في المنتجات، مثل الخامة أو تعليمات العناية، فقد يفيدها حقل منظم باسم ومعنى ثابتين. اتفق على طريقة إدخالها ومن يراجعها، ثم اربطها بالمكان المناسب في الصفحة. جرّب منتجًا تنقصه المعلومة حتى لا يظهر عنوان فارغ أو نص غير مناسب. وجود الحقل في لوحة الإدارة ليس نهاية العمل؛ فائدته تظهر عندما يقرأ العميل معلومة صحيحة ويحافظ الفريق عليها بسهولة."
+      ]
+    ],
+    "editorial_followup_heading": "متى تكون الحقول أفضل من كتابة كل شيء في الوصف؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-product-metafields.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Structured product-detail fields connected to a garment.",
+      "ar": "حقول منظّمة لتفاصيل قطعة ملابس."
+    }
+  }
+}

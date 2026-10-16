@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-restaurant-website",
+  "category": "qatar",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar official commerce guidance",
+      "url": "https://ecommerce.gov.qa/"
+    }
+  ],
+  "related": [
+    "website-or-instagram",
+    "booking-website-or-store",
+    "qatar-service-booking"
+  ],
+  "en": {
+    "title": "Should a Qatar restaurant use its own website alongside delivery apps?",
+    "answer": "A site can help people find the menu, location, booking or catering information. It does not have to recreate a delivery platform to be useful.",
+    "sections": [
+      [
+        "Define the site’s job",
+        "Decide whether visitors should view a menu, reserve, ask about catering or place an order. Keep dietary and availability information accurate and approved by the operator. Do not add checkout when kitchen and dispatch systems cannot handle it."
+      ],
+      [
+        "Review channel responsibilities",
+        "For each channel, identify order acceptance, delivery, payment, refunds and support. Compare actual fees and integration requirements with the operating team. A link to an external platform is different from processing the order yourself."
+      ],
+      [
+        "Maintain consistent information",
+        "Assign menu updates, hours and sold-out handling. Test the path from mobile discovery to the intended action. Use real locations and contact channels, and avoid claims of partnership or delivery coverage that have not been agreed."
+      ],
+      [
+        "Choose the job before adding ordering",
+        "If most enquiries concern catering, build a useful catering explanation and request route. If you want direct orders, confirm kitchen acceptance, payment, dispatch and support first. Compare real channel fees and responsibilities instead of assuming your own checkout is automatically more profitable. Keep menu availability and hours current across the routes. A clear link to external ordering can be better than a cart the operating team cannot reliably serve."
+      ]
+    ],
+    "checklist": [
+      "Define the main customer action.",
+      "Map channel responsibilities.",
+      "Keep menu and hours current."
+    ],
+    "faq": [
+      [
+        "Does an owned site have to take orders directly?",
+        "No. It can provide useful information and a clearly identified external ordering route."
+      ]
+    ],
+    "editorial_detail_heading": "Choose the job before adding ordering",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Keep operational information current",
+        "Start with the menu, location, opening hours and the actual order or reservation route. Assign someone to update these when service changes. If the site accepts orders, confirm how the kitchen receives them and handles unavailable dishes before adding promotions that increase demand."
+      ]
+    ],
+    "editorial_followup_heading": "Keep operational information current"
+  },
+  "ar": {
+    "title": "عندي مطعم، ما فائدة موقع بجانب تطبيقات التوصيل؟",
+    "answer": "قد يساعد الناس على القائمة والموقع والحجز والتموين. لا يحتاج إلى إعادة بناء تطبيق توصيل كامل حتى تكون له فائدة.",
+    "sections": [
+      [
+        "حدّد وظيفة الموقع",
+        "قائمة أم حجز أم تموين أم طلب؟ اعتمد المعلومات ولا تضف دفعًا دون جاهزية المطبخ والإرسال."
+      ],
+      [
+        "وزّع مسؤوليات القنوات",
+        "حدّد القبول والتوصيل والدفع والاسترجاع والدعم والرسوم. الرابط الخارجي يختلف عن معالجة الطلب داخليًا."
+      ],
+      [
+        "وحّد المعلومات",
+        "عيّن تحديث القائمة والمواعيد والنفاد واختبر الجوال مع بيانات وتغطية حقيقية."
+      ],
+      [
+        "حدّد الوظيفة قبل إضافة الطلب",
+        "إذا أكثر الأسئلة عن التموين، جهّز شرحه ومسار الطلب. وإن أردت بيعًا مباشرًا، أكّد قبول المطبخ والدفع والإرسال والدعم أولًا. قارن الرسوم والمسؤوليات الفعلية بدل افتراض أن سلتك أكثر ربحًا. حدّث القائمة والمواعيد، فقد يكون رابط واضح لقناة خارجية أفضل من طلبات لا يستطيع الفريق تنفيذها بموثوقية."
+      ]
+    ],
+    "checklist": [
+      "حدّد إجراء العميل.",
+      "وزّع المسؤوليات.",
+      "حدّث القائمة والمواعيد."
+    ],
+    "faq": [
+      [
+        "هل يلزم استقبال الطلب داخليًا؟",
+        "يمكن توفير المعلومات وربط واضح بقناة خارجية."
+      ]
+    ],
+    "editorial_detail_heading": "حدّد الوظيفة قبل إضافة الطلب",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ابدأ بالمعلومات التي يستخدمها الزائر",
+        "غالبًا يريد الزائر معرفة القائمة والأسعار والموقع وساعات العمل وكيف يطلب أو يحجز. اجعل هذه المعلومات سهلة من الجوال، وحدّد من يحدّثها عند تغيير القائمة أو أوقات الخدمة. إذا أضفت طلبًا مباشرًا، جرّب كيف يصل للمطبخ وما يحدث للصنف غير المتاح. الموقع يفيد عندما يقدّم معلومة صحيحة وخطوة تعمل؛ قائمة قديمة أو زر يرسل الطلب لجهة لا تتابعه يضر التجربة مهما كان التصميم جذابًا."
+      ]
+    ],
+    "editorial_followup_heading": "ابدأ بالمعلومات التي يستخدمها الزائر"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-restaurant-website.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "website-structured-data",
+  "title_ar": "ما هي البيانات المنظّمة، وهل تجعل موقعي أولًا في جوجل؟",
+  "lead_en": "They describe page information in a machine-readable format. They can support understanding, but they do not buy a ranking or guarantee a special search display.",
+  "lead_ar": "تصف معلومات الصفحة بصيغة تقرؤها الأنظمة. قد تساعد على الفهم، لكنها لا تشتري ترتيبًا ولا تضمن ظهورًا خاصًا في نتائج البحث.",
+  "heading_en": "A hidden claim is still a published claim",
+  "detail_en": "An organisation description should use the business’s real name and details; an article should describe its actual content. Do not fill a generator’s rating, address or price fields with invented information just because they are available. Keep markup aligned with visible text and update both together. Validate the syntax and relevant feature rules, then inspect the live output. A successful code build is not proof that Google will show stars or cite the page.",
+  "heading_ar": "المعلومة داخل الكود تظل ادّعاء منشورًا",
+  "detail_ar": "استخدم الاسم والبيانات الحقيقية للمنظمة ومحتوى المقال الفعلي. لا تملأ التقييم والعنوان والسعر في مولّد بمعلومات مختلقة لأن الخانات متاحة. طابقها بالنص الظاهر وحدّثهما معًا. افحص الصياغة وقواعد الميزة ثم النتيجة الحية. نجاح البناء لا يثبت أن جوجل سيعرض نجومًا أو يقتبس الصفحة."
+}

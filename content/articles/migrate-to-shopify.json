@@ -1,0 +1,113 @@
+{
+  "slug": "migrate-to-shopify",
+  "category": "planning",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/migrating-to-shopify"
+    }
+  ],
+  "related": [
+    "shopify-product-csv",
+    "shopify-url-redirects",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "How do you migrate an existing store to Shopify?",
+    "answer": "Begin with a list of what must survive the move: products, customer information, useful content and the links people already use.",
+    "sections": [
+      [
+        "Make a migration inventory",
+        "List products, variants, images, customers, pages and important historical records. Identify which items can be transferred through the chosen method and which need separate handling. Shopify’s migration guidance distinguishes types of store data; do not assume every field or historical record will move automatically."
+      ],
+      [
+        "Preserve important destinations",
+        "Collect URLs receiving search traffic, links or campaign visits and map them to relevant new pages. Test redirects with real examples rather than sending every old URL to the homepage. Keep page intent and product identity consistent where possible, and document URLs that cannot be preserved."
+      ],
+      [
+        "Plan the cutover",
+        "Agree when stock and order changes stop being copied from the old system. Reconcile inventory, payment configuration and shipping before switching the domain. Keep the original exports securely and define who will handle exceptions after launch. Review the new store’s key journeys before considering the move complete."
+      ],
+      [
+        "What to settle before the domain changes",
+        "Choose a small sample containing variants and several images, migrate it and compare the result with the original. Separately list pages and older links; they may need different handling from products. Agree when the old system stops receiving updates and how stock will be reconciled. Keep the original exports securely. The move is not finished until real customer routes work and the team can process orders in the new setup."
+      ]
+    ],
+    "checklist": [
+      "Inventory data and export limitations.",
+      "Map old URLs to relevant new pages.",
+      "Reconcile stock near the cutover.",
+      "Keep secure exports and an exception log."
+    ],
+    "faq": [
+      [
+        "Will customer accounts and all order history transfer automatically?",
+        "Do not assume that. Confirm each data type against the selected migration tool and the platform’s current capabilities."
+      ]
+    ],
+    "editorial_detail_heading": "What to settle before the domain changes",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Rehearse a small migration",
+        "Move a small sample first: a product with options, a content page and an old URL. Check the result with the people who manage orders and content. Agree on what happens to orders received during the final move; migration is not complete just because products appeared in a new admin."
+      ]
+    ],
+    "editorial_followup_heading": "Rehearse a small migration"
+  },
+  "ar": {
+    "title": "عندي متجر على منصة أخرى، كيف أنقله لشوبيفاي؟",
+    "answer": "ابدأ بما يجب ألا يضيع: المنتجات وبيانات العملاء والمحتوى المهم والروابط التي يصل منها الناس. تغيير المنصة ليس نقل الصور إلى قالب جديد فقط.",
+    "sections": [
+      [
+        "احصر البيانات المطلوب نقلها",
+        "سجّل المنتجات والخيارات والصور والعملاء والصفحات والسجلّات المهمة. حدّد ما تنقله الطريقة المختارة وما يحتاج إلى معالجة مستقلة. توضّح إرشادات شوبيفاي أنواع البيانات؛ لا تفترض انتقال جميع الحقول تلقائيًا."
+      ],
+      [
+        "حافظ على الروابط المهمة",
+        "اجمع الروابط التي تستقبل زيارات وروابط خارجية وحملات، واربطها بصفحات جديدة مناسبة. اختبر أمثلة حقيقية بدل توجيه الجميع إلى الرئيسية، ووثّق الروابط التي لا يمكن الحفاظ عليها."
+      ],
+      [
+        "خطّط للحظة الانتقال",
+        "حدّد موعد توقف مزامنة تغييرات الطلبات والمخزون. طابق الكميات والدفع والشحن قبل تحويل النطاق. احتفظ بالتصديرات بأمان وحدّد مسؤول معالجة الاستثناءات بعد الإطلاق."
+      ],
+      [
+        "ماذا تحسم قبل تحويل النطاق؟",
+        "انقل عيّنة فيها مقاسات وصور متعدّدة، ثم طابقها بالمصدر. احصر الصفحات والروابط القديمة منفصلة؛ قد لا تنقلها أداة المنتجات نفسها. واتّفق على وقت إيقاف التحديث في النظام القديم ومطابقة المخزون. احتفظ بالتصديرات بأمان. لا تعتبر النقل مكتملًا قبل تجربة وصول العميل والشراء وقدرة الفريق على التعامل مع الطلب الجديد."
+      ]
+    ],
+    "checklist": [
+      "احصر البيانات وحدود التصدير.",
+      "طابق الروابط القديمة بالجديدة.",
+      "راجع المخزون قرب الانتقال.",
+      "احتفظ بسجلّ للاستثناءات."
+    ],
+    "faq": [
+      [
+        "هل تنتقل الحسابات وجميع الطلبات تلقائيًا؟",
+        "تحقّق من كل نوع بيانات وفق أداة النقل وإمكانات المنصة الحالية؛ لا تفترض انتقاله تلقائيًا."
+      ]
+    ],
+    "editorial_detail_heading": "ماذا تحسم قبل تحويل النطاق؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ابدأ بعينة قبل نقل المتجر كله",
+        "اختر منتجًا بمقاسات وصور متعددة وصفحة محتوى ورابطًا قديمًا له زيارات. انقل هذه العينة وراجعها في المتجر الجديد، ثم حدّد ما يحتاج تنظيفًا قبل نقل الباقي. اتفق أيضًا على الطلبات التي تصل أثناء الانتقال ومن يتابعها، وما البيانات التي يدعم نقلها إعدادك فعلًا. احتفظ بنسخة من المصدر وخريطة الروابط، وحدّد وقت التحويل بعد مراجعة الدفع والتوصيل، لا فور ظهور المنتجات في لوحة الإدارة."
+      ]
+    ],
+    "editorial_followup_heading": "ابدأ بعينة قبل نقل المتجر كله"
+  },
+  "image": {
+    "src": "/assets/article-images/migrate-to-shopify.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Store data moving from an old website to a new storefront.",
+      "ar": "انتقال بيانات متجر من موقع قديم إلى واجهة جديدة."
+    }
+  }
+}

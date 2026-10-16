@@ -1,0 +1,111 @@
+{
+  "slug": "website-accessibility",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+    }
+  ],
+  "related": [
+    "mobile-shopify-design",
+    "website-inquiry-forms",
+    "arabic-business-website"
+  ],
+  "en": {
+    "title": "What does website accessibility mean for a business?",
+    "answer": "People should be able to understand and use the site with different abilities and input methods. Accessibility is part of how the page works, not just how it looks.",
+    "sections": [
+      [
+        "Review real interactions",
+        "Check keyboard navigation, visible focus, form labels and readable contrast. Explain meaningful images through suitable alternative text. A person should understand controls without depending solely on colour, animation or a tiny icon."
+      ],
+      [
+        "Test content as well as templates",
+        "Long headings, translated labels and uploaded images can introduce barriers even when the initial template looks good. Provide captions or appropriate alternatives for important media. Ask editors to maintain the same principles as new pages are published."
+      ],
+      [
+        "Know the limits of automation",
+        "Automated checks can find some issues but do not establish complete accessibility. Combine them with manual task review and relevant expertise. Define the acceptance standard in the project brief rather than promising compliance based on a single score."
+      ],
+      [
+        "Try a task without a mouse",
+        "Use the keyboard to reach a menu, open a dialog and complete a form. Can you see where focus is, understand the controls and close the dialog again? Check meaningful images, contrast and error messages as well. A person who cannot distinguish a colour still needs to know which size is selected. Automated tools can find some faults, but they cannot judge every task. Include manual review and continue checking when editors add new content."
+      ]
+    ],
+    "checklist": [
+      "Check keyboard and focus.",
+      "Label controls and meaningful images.",
+      "Review with manual tasks."
+    ],
+    "faq": [
+      [
+        "Does a passing automated score prove accessibility?",
+        "No. Human review is needed to judge important parts of the experience."
+      ]
+    ],
+    "editorial_detail_heading": "Try a task without a mouse",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Try the site without relying on sight alone",
+        "Use keyboard navigation and inspect focus, labels and error messages on the important journey. Check text readability and whether information depends only on colour. Record observed barriers and get specialist review when required; passing one simple check does not establish that the whole site meets every accessibility need."
+      ]
+    ],
+    "editorial_followup_heading": "Try the site without relying on sight alone"
+  },
+  "ar": {
+    "title": "ماذا يعني أن يكون الموقع سهل الاستخدام للجميع؟",
+    "answer": "يجب أن يستطيع الناس فهم الموقع واستخدامه بقدرات ووسائل تحكّم مختلفة. سهولة الوصول جزء من عمل الصفحة، وليست مجرد شكل أو لون.",
+    "sections": [
+      [
+        "راجع التفاعل",
+        "اختبر لوحة المفاتيح والتركيز وتسميات النماذج والتباين، وقدّم نصًا بديلًا للصور المهمة. لا تعتمد على اللون وحده."
+      ],
+      [
+        "راجع المحتوى",
+        "قد تضيف الترجمات والعناوين والصور الجديدة عوائق. وفّر بدائل للوسائط المهمة ودرّب المحرّرين."
+      ],
+      [
+        "افهم حدود الأدوات",
+        "تكشف الفحوص الآلية بعض المشكلات ولا تثبت الوصول الكامل. اجمعها بمراجعة بشرية وحدّد معيار القبول في الوصف."
+      ],
+      [
+        "جرّب المهمة دون فأرة",
+        "تنقّل بالمفاتيح وافتح القائمة والنافذة والنموذج. هل ترى موضع التركيز وتفهم التحكم وتستطيع الإغلاق؟ راجع الصور المهمة والتباين ورسائل الخطأ أيضًا. من لا يميّز لونًا يحتاج إلى معرفة المقاس المختار بطريقة أخرى. تكشف الأدوات بعض الأخطاء لكنها لا تحكم على كل مهمة؛ أضف مراجعة يدوية واستمر بها مع المحتوى الجديد."
+      ]
+    ],
+    "checklist": [
+      "اختبر التركيز والمفاتيح.",
+      "سمِّ عناصر التحكم.",
+      "راجع مهام يدويًا."
+    ],
+    "faq": [
+      [
+        "هل تكفي نتيجة آلية ناجحة؟",
+        "لا؛ تحتاج جوانب مهمة إلى تقييم بشري."
+      ]
+    ],
+    "editorial_detail_heading": "جرّب المهمة دون فأرة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أبدأ بمراجعة عملية؟",
+        "جرّب الوصول إلى القائمة والنموذج والأزرار بلوحة المفاتيح، وراقب هل تعرف موضعك الحالي. راجع أسماء الحقول ورسائل الخطأ ووضوح النص، ولا تعتمد على لون وحده لشرح المطلوب. هذه بداية لكشف مشاكل حقيقية وليست شهادة شاملة. إذا كانت لديك متطلبات محددة، اطلب مراجعة مختصة لها، وأشرك مستخدمين عند الإمكان؛ سهولة الاستخدام تتضح في إنجاز المهمة، لا في إضافة زر شكلي بعنوان إتاحة الوصول."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أبدأ بمراجعة عملية؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-accessibility.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

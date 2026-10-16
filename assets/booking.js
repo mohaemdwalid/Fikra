@@ -140,7 +140,7 @@
       track('fikra_booking_confirmed', data.uid);
     }});
     window.Cal('inline', {elementOrSelector: '#fikra-cal-inline', calLink: bookingUrl.pathname.slice(1), config: prefill});
-    window.Cal('ui', {theme: 'light', cssVarsPerTheme: {light: {'cal-brand': '#010102'}}, hideEventTypeDetails: false, layout: 'month_view'});
+    window.Cal('ui', {theme: 'light', cssVarsPerTheme: {light: {'cal-brand': '#005bea'}}, hideEventTypeDetails: false, layout: 'month_view'});
     panel.querySelector('h3').focus({preventScroll: true});
     panel.scrollIntoView({behavior: 'smooth', block: 'start'});
   }

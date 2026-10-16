@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-personalised-gifts",
+  "category": "qatar",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders"
+    }
+  ],
+  "related": [
+    "shopify-product-variants",
+    "qatar-seasonal-campaigns",
+    "shopify-product-metafields"
+  ],
+  "en": {
+    "title": "What should a Qatar gifting website explain about personalisation?",
+    "answer": "Decide exactly what can be customised and how the workshop receives it. A text box is only the start of the process.",
+    "sections": [
+      [
+        "Define supported choices",
+        "List name engraving, message cards, packaging or other options you actually offer. Explain character limits, accepted scripts and proof approval where relevant. Do not show a sample treatment the workshop cannot reproduce consistently."
+      ],
+      [
+        "Separate product options and instructions",
+        "Review whether each choice affects stock, price or production. Use an appropriate supported implementation and test how the order records the selection. Shopify product configuration needs to match the operational distinction, not just the visual selector."
+      ],
+      [
+        "Check the exception route",
+        "Plan corrections, unclear spellings and customer approval delays. Publish approved conditions for personalised items and review them for your market. Test Arabic names and punctuation with real examples before promoting the service."
+      ],
+      [
+        "Follow one personalised order",
+        "Try an Arabic name with punctuation and check how it appears in the order record. Does the customer need to approve a proof? Does the choice affect price or preparation time? Set useful limits and explain them before purchase. Plan what happens when spelling is unclear or approval is late. Make product photos show what is genuinely possible, and have the owner approve the relevant correction and return conditions."
+      ]
+    ],
+    "checklist": [
+      "Specify the customisation offered.",
+      "Check order records and pricing.",
+      "Plan corrections and approval delays."
+    ],
+    "faq": [
+      [
+        "Can I accept unlimited custom text?",
+        "Only within an arrangement your production process can reliably fulfil."
+      ]
+    ],
+    "editorial_detail_heading": "Follow one personalised order",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Show what the customer is approving",
+        "Use a clear example of the custom text and explain any limits before adding to cart. Confirm how staff receive the exact spelling and what happens when a request is unclear. A preview should be described honestly; do not imply it is a final proof if production still requires approval."
+      ]
+    ],
+    "editorial_followup_heading": "Show what the customer is approving"
+  },
+  "ar": {
+    "title": "كيف أضيف كتابة الاسم أو تخصيص الهدية في المتجر؟",
+    "answer": "حدّد ما يمكن تخصيصه وكيف يصل للمسؤول عن التجهيز. مربع كتابة الاسم بداية العملية فقط، وليس ضمانًا أن الهدية ستنفّذ كما قصد العميل.",
+    "sections": [
+      [
+        "عرّف الخيارات المدعومة",
+        "وضّح النقش والبطاقة والتغليف وحدود النص واللغات والاعتماد، ولا تعرض ما لا يستطيع الإنتاج تنفيذه."
+      ],
+      [
+        "افصل الخيار عن التعليمات",
+        "راجع أثره في المخزون والسعر والإنتاج واختبر تسجيله في الطلب، لا شكله فقط."
+      ],
+      [
+        "خطّط للاستثناءات",
+        "حدّد التصحيح والإملاء والتأخير والشروط المعتمدة، واختبر الأسماء العربية قبل الترويج."
+      ],
+      [
+        "تابع طلبًا مخصّصًا واحدًا",
+        "جرّب اسمًا عربيًا بعلامات ترقيم وافحص ظهوره في الطلب. هل يحتاج العميل إلى اعتماد معاينة؟ وهل يؤثّر الاختيار في السعر أو التجهيز؟ ضع حدودًا مفهومة قبل الشراء. خطّط للاسم غير الواضح وتأخر الموافقة، وطابق الصور بما تستطيع تنفيذه. واعتمد شروط التصحيح والاسترجاع المناسبة مع صاحب النشاط."
+      ]
+    ],
+    "checklist": [
+      "حدّد التخصيص.",
+      "راجع التسجيل والسعر.",
+      "خطّط للتصحيح والاعتماد."
+    ],
+    "faq": [
+      [
+        "هل تقبل نصًا بلا حدود؟",
+        "فقط ضمن ما تستطيع عملية الإنتاج تنفيذه بموثوقية."
+      ]
+    ],
+    "editorial_detail_heading": "تابع طلبًا مخصّصًا واحدًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أتجنب خطأ الاسم على الهدية؟",
+        "أظهر مثالًا واضحًا لما سيكتبه العميل، وحدّد الحد المسموح للنص وأي خيارات تؤثر في التنفيذ. تأكد أن الاسم يصل مع بند المنتج نفسه، خصوصًا إذا طلب العميل قطعتين بتخصيص مختلف. وضّح هل يحتاج التصميم موافقة لاحقة، ومتى يبدأ الإنتاج، وكيف تتعامل مع طلب غير واضح. جرّب إدخال العربية والإنجليزية من الجوال، ثم راجع ما يراه موظف التجهيز، لا ما يظهر للعميل فقط."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أتجنب خطأ الاسم على الهدية؟"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-personalised-gifts.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

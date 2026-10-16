@@ -1,0 +1,10 @@
+{
+  "slug": "website-ai-search-visibility",
+  "title_ar": "كيف يظهر مشروعي في ChatGPT عندما يسأل الناس عنه؟",
+  "lead_en": "Make the business and its answers easy to understand and access. Search access helps eligibility, but nobody can promise that ChatGPT will recommend you first.",
+  "lead_ar": "اجعل نشاطك وإجاباته واضحة ويمكن الوصول إليها. يساعد السماح بالبحث على الأهلية، لكنه لا يضمن أن يوصي ChatGPT بك أولًا.",
+  "heading_en": "Start with the information worth citing",
+  "detail_en": "Explain what you do, who it serves, how the work proceeds and the limits of the offer. Use real evidence and sources for changing facts. OpenAI documents OAI-SearchBot for search; verify robots and hosting access on the deployed site. Training preferences are separate. Track referrals and relevant enquiries over time, knowing some visits lack referral detail. One prompt or a large article count is not a universal ranking or evidence of an endorsement.",
+  "heading_ar": "ابدأ بمعلومة تستحق الاستشهاد",
+  "detail_ar": "اشرح الخدمة وجمهورها وطريقة العمل وحدود العرض بأدلة حقيقية ومراجع للمتغير. توثّق OpenAI روبوت OAI-SearchBot للبحث؛ افحص وصوله في النشر الفعلي والروبوت والاستضافة، وافصل ذلك عن تفضيلات التدريب. راقب الإحالات والاستفسارات مع حدود بيانات المصدر. تجربة سؤال واحدة أو عدد كبير من المقالات ليس ترتيبًا عامًا ولا تأييدًا للنشاط."
+}

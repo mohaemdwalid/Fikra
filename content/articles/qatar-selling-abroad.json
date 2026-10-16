@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-selling-abroad",
+  "category": "qatar",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar official commerce guidance",
+      "url": "https://ecommerce.gov.qa/"
+    }
+  ],
+  "related": [
+    "shopify-markets-languages",
+    "shopify-shipping-rates",
+    "shopify-currency-display"
+  ],
+  "en": {
+    "title": "What should a Qatar store check before selling to other countries?",
+    "answer": "Start with one real destination and test the complete delivery and payment route. Enabling a country in the interface is not the same as serving it.",
+    "sections": [
+      [
+        "Review the complete route",
+        "Choose a destination and a representative product, then confirm carrier coverage and the actual customer payment method. Review customs or import questions with the carrier and relevant authorities. Do not assume a neighbouring country has identical requirements."
+      ],
+      [
+        "Explain the customer commitment",
+        "Clarify preparation, transit and any charges according to the approved arrangement. Translate important conditions where needed. Avoid describing a market as supported when the store displays a currency but cannot fulfil the order reliably."
+      ],
+      [
+        "Start with controlled coverage",
+        "Document successful checks and unresolved exceptions before advertising broadly. Assign support and returns handling for each destination. Review actual delivered outcomes, not only checkout starts, when deciding whether to expand further."
+      ],
+      [
+        "Prove the first route before advertising more",
+        "Choose a representative item and confirm carrier coverage, product restrictions and the buyer’s supported payment method. Ask the relevant carrier or authority about import questions; do not assume neighbouring countries have identical rules. Explain preparation, transit and any agreed customer charges. Decide how returns and support work from that destination. Review delivered outcomes and unresolved exceptions before expanding coverage rather than treating a successful checkout start as operational readiness."
+      ]
+    ],
+    "checklist": [
+      "Confirm a real destination and product.",
+      "Verify carrier and payment support.",
+      "Plan support and returns."
+    ],
+    "faq": [
+      [
+        "Does adding a market establish all import arrangements?",
+        "No. Confirm fulfilment and relevant requirements separately."
+      ]
+    ],
+    "editorial_detail_heading": "Prove the first route before advertising more",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Start with one destination",
+        "Choose a destination and a representative product. Obtain actual delivery and payment requirements, then test the proposed order journey and explain the costs the customer may face. Expanding country selectors before understanding fulfilment creates choices your business may not be ready to honour."
+      ]
+    ],
+    "editorial_followup_heading": "Start with one destination"
+  },
+  "ar": {
+    "title": "كيف أبدأ البيع من قطر لدول أخرى؟",
+    "answer": "ابدأ بوجهة فعلية واختبر الدفع والتوصيل كاملين. تفعيل دولة في الواجهة يختلف عن قدرتك على خدمة طلباتها.",
+    "sections": [
+      [
+        "راجع الرحلة كاملة",
+        "اختر وجهة ومنتجًا وأكّد الناقل والدفع وأسئلة الاستيراد مع الجهات المعنية؛ لا تفترض تطابق الدول المجاورة."
+      ],
+      [
+        "وضّح الالتزام",
+        "اشرح التجهيز والنقل والرسوم وفق الاتفاق، ولا تسمِّ عرض عملة وحده دعمًا للسوق."
+      ],
+      [
+        "ابدأ بتغطية مضبوطة",
+        "وثّق الاختبارات والاستثناءات والدعم والاسترجاع وراجع الطلبات المسلّمة قبل التوسّع."
+      ],
+      [
+        "تأكّد من المسار الأول قبل التوسّع",
+        "اختر منتجًا وأكّد تغطية الناقل والقيود وطريقة دفع المشتري. اسأل الجهة المناسبة عن الاستيراد ولا تفترض تطابق الدول المجاورة. وضّح التجهيز والنقل والرسوم المتفق عليها، وحدّد الدعم والاسترجاع من الوجهة. راجع الطلبات المسلّمة والاستثناءات قبل توسيع التغطية؛ بدء الدفع ليس إثبات جاهزية تشغيلية."
+      ]
+    ],
+    "checklist": [
+      "اختر وجهة ومنتجًا.",
+      "أكّد النقل والدفع.",
+      "خطّط للدعم والاسترجاع."
+    ],
+    "faq": [
+      [
+        "هل إضافة سوق تنشئ ترتيبات الاستيراد؟",
+        "أكّد التنفيذ والمتطلّبات بصورة منفصلة."
+      ]
+    ],
+    "editorial_detail_heading": "تأكّد من المسار الأول قبل التوسّع",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ابدأ بدولة واحدة بدل فتح العالم كله",
+        "اختر سوقًا واحدًا ومنتجًا يمثل طلباتك، ثم راجع أهلية الدفع والشحن وما يحتاجه الناقل والجهات المعنية. احسب تكلفة الطلب كاملة وحدّد من يتحمل أي رسوم إضافية وكيف تشرحها للعميل. جرّب إدخال عنوان من تلك الدولة قبل الإعلان. ظهور الدولة في قائمة الموقع لا يعني أن فريقك يستطيع التوصيل إليها أو معالجة المرتجعات منها؛ اختبر العملية أولًا ثم وسّعها تدريجيًا."
+      ]
+    ],
+    "editorial_followup_heading": "ابدأ بدولة واحدة بدل فتح العالم كله"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-selling-abroad.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Parcel connected to a fulfilment destination or service.",
+      "ar": "طرد متصل بوجهة أو خدمة تنفيذ."
+    }
+  }
+}

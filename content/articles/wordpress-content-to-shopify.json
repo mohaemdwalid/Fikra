@@ -1,0 +1,111 @@
+{
+  "slug": "wordpress-content-to-shopify",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/migrating-to-shopify"
+    }
+  ],
+  "related": [
+    "migrate-to-shopify",
+    "shopify-url-redirects",
+    "wordpress-blog-shopify-store"
+  ],
+  "en": {
+    "title": "What should you review when moving WordPress content to Shopify?",
+    "answer": "Not necessarily. Products, articles, media and old links can need different migration work. List them separately before choosing the method.",
+    "sections": [
+      [
+        "Audit the content",
+        "Identify pages to keep, combine, update or retire. Record authorship, permissions, dates and language versions where relevant. Check whether embedded forms or shortcodes depend on WordPress plugins and require a replacement rather than a plain-text copy."
+      ],
+      [
+        "Map destinations",
+        "Preserve the intent of important pages and plan relevant redirects. Review images and downloadable documents for broken links. Keep an untouched export and reconcile the number of approved pages with what actually appears in the new site."
+      ],
+      [
+        "Verify after publication",
+        "Open old links and inspect the resulting content, formatting and metadata. Test any enquiry or buying route from migrated articles. Review Search Console after the move and distinguish expected URL changes from missing pages."
+      ],
+      [
+        "Check a full article, not just its title",
+        "Pick a post containing images, an embedded form and internal links. Compare the migrated result with the original, including formatting and destinations. Shortcodes or plugin elements may need replacement rather than a plain-text copy. Keep valuable older URLs mapped to relevant new pages. Reconcile the approved article list with what actually moved, and test any purchase or enquiry route linked from the content. Product-import success does not establish that the publication survived intact."
+      ]
+    ],
+    "checklist": [
+      "Inventory editorial content and dependencies.",
+      "Map URLs and media.",
+      "Reconcile and test migrated pages."
+    ],
+    "faq": [
+      [
+        "Does moving products also move every blog post?",
+        "Not necessarily. Confirm each data type against the chosen migration method."
+      ]
+    ],
+    "editorial_detail_heading": "Check a full article, not just its title",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Audit a representative article after transfer",
+        "Choose a long article with images, headings and internal links. Check its new layout, public address and metadata before migrating the rest. Keep an inventory of what moved and what needs manual work. Product import tools should not be assumed to cover every part of an existing publishing site."
+      ]
+    ],
+    "editorial_followup_heading": "Audit a representative article after transfer"
+  },
+  "ar": {
+    "title": "هل تنتقل مقالات ووردبريس إلى شوبيفاي مع المنتجات؟",
+    "answer": "ليس بالضرورة. قد يحتاج كل من المنتجات والمقالات والوسائط والروابط إلى معالجة مختلفة، لذلك احصرها منفصلة قبل اختيار طريقة النقل.",
+    "sections": [
+      [
+        "دقّق المحتوى",
+        "حدّد ما يُحفظ أو يُدمج أو يُحدّث، وراجع التواريخ واللغات والنماذج المرتبطة بإضافات ووردبريس."
+      ],
+      [
+        "طابق الوجهات",
+        "حافظ على نية الصفحة وخطّط للتحويل والصور والملفات، ثم طابق العدد المعتمد بالمنشور."
+      ],
+      [
+        "تحقّق بعد النقل",
+        "افتح الروابط القديمة وراجع التنسيق والبيانات ومسار الاستفسار أو الشراء، وتابع Search Console."
+      ],
+      [
+        "افحص مقالًا كاملًا",
+        "اختر مقالًا بصور ونموذج وروابط داخلية، وطابق النتيجة مع الأصل من حيث التنسيق والوجهات. قد تحتاج عناصر الإضافات إلى بديل، لا نسخ نصها فقط. اربط العناوين القديمة المهمة بصفحات مناسبة، وطابق قائمة المقالات بما انتقل فعلًا. جرّب مسار الشراء أو التواصل من داخلها؛ نجاح استيراد المنتجات لا يثبت سلامة المدونة."
+      ]
+    ],
+    "checklist": [
+      "احصر المحتوى والتبعيات.",
+      "طابق الروابط والوسائط.",
+      "اختبر النتائج."
+    ],
+    "faq": [
+      [
+        "هل ينقل استيراد المنتجات كل المقالات؟",
+        "تحقّق من كل نوع بيانات وفق طريقة النقل."
+      ]
+    ],
+    "editorial_detail_heading": "افحص مقالًا كاملًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "جرّب نقل مقال كامل قبل نقل المدونة",
+        "اختر مقالًا يحتوي صورًا وعناوين وروابط داخلية، وانقله كعينة ثم راجع تنسيقه وعنوانه العام وبياناته. افحص الصور والروابط التي تشير إلى مقالات أخرى وما يحتاج تعديلًا يدويًا. احتفظ بقائمة المقالات القديمة ووجهة كل منها، ولا تفترض أن أداة نقل المنتجات ستنقل المحتوى بالطريقة نفسها. بعد نجاح العينة، انقل الباقي وراجع الروابط المهمة حتى لا تظهر المدونة مكتملة بينما أجزاء منها مفقودة أو مرتبطة بالموقع القديم."
+      ]
+    ],
+    "editorial_followup_heading": "جرّب نقل مقال كامل قبل نقل المدونة"
+  },
+  "image": {
+    "src": "/assets/article-images/wordpress-content-to-shopify.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

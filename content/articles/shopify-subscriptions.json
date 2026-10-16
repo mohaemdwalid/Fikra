@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-subscriptions",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/purchase-options/subscriptions"
+    }
+  ],
+  "related": [
+    "shopify-payments-qatar",
+    "shopify-customer-accounts",
+    "shopify-order-notifications"
+  ],
+  "en": {
+    "title": "What should you check before offering Shopify subscriptions?",
+    "answer": "Possibly, with an eligible payment and subscription setup. First define what the customer receives every cycle and how they manage the commitment.",
+    "sections": [
+      [
+        "Define the recurring promise",
+        "State what arrives, how often and how customers manage the arrangement. Confirm stock and fulfilment capacity across future cycles. Avoid a low introductory offer that hides the continuing commitment."
+      ],
+      [
+        "Check technical eligibility",
+        "Review the current supported payment providers, tools and storefront configuration for the business. Do not assume a subscription example from another country works for a Qatar merchant. Test the actual creation, management and payment-failure route."
+      ],
+      [
+        "Plan customer operations",
+        "Agree renewal communication, address changes, skipped deliveries and cancellation handling according to approved terms. Assign someone to review failed payments and fulfilment exceptions. Measure the ongoing customer experience rather than counting initial signups alone."
+      ],
+      [
+        "Look beyond the first signup",
+        "Check current provider and app requirements for your business, particularly before applying another country’s example in Qatar. Test creation, renewal, failed payment, address changes and cancellation as relevant. Confirm future stock and delivery capacity. Make introductory and ongoing prices understandable. Assign someone to handle exceptions and review continued customer outcomes; a successful first payment does not show that the next cycles can be fulfilled reliably."
+      ]
+    ],
+    "checklist": [
+      "Explain the recurring commitment.",
+      "Verify provider and tool support.",
+      "Assign renewal and exception handling."
+    ],
+    "faq": [
+      [
+        "Can every Qatar payment setup support subscriptions?",
+        "Do not assume so; verify the exact supported provider and configuration."
+      ]
+    ],
+    "editorial_detail_heading": "Look beyond the first signup",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Map the second order too",
+        "Check the provider and payment compatibility for the proposed subscription arrangement, then demonstrate renewal, a failed charge and cancellation. Explain the schedule and customer controls before purchase. A recurring offer is an ongoing service process, not simply the first product labelled monthly."
+      ]
+    ],
+    "editorial_followup_heading": "Map the second order too"
+  },
+  "ar": {
+    "title": "هل أقدر أبيع باشتراك شهري على شوبيفاي؟",
+    "answer": "قد يمكن ذلك بإعداد دفع واشتراك مؤهل. ابدأ بما يستلمه العميل كل دورة وكيف يدير التزامه، لا بزر خصم متكرر فقط.",
+    "sections": [
+      [
+        "عرّف الوعد",
+        "وضّح ما يصل ومتى وكيف يدير العميل الاشتراك، مع سعة ومخزون وشروط مستمرة واضحة."
+      ],
+      [
+        "أكّد الأهلية",
+        "راجع الدعم الحالي لحسابك، ولا تطبّق مثال دولة أخرى على تاجر قطري. اختبر الإدارة وفشل الدفع."
+      ],
+      [
+        "خطّط للتشغيل",
+        "حدّد التجديد والعنوان والتخطّي والإلغاء والاستثناءات، وقِس التجربة المستمرة لا التسجيل فقط."
+      ],
+      [
+        "انظر لما بعد التسجيل الأول",
+        "أكّد متطلبات المزوّد والأداة لنشاطك، خصوصًا قبل نقل مثال دولة أخرى لقطر. اختبر الإنشاء والتجديد وفشل الدفع والعنوان والإلغاء. راجع المخزون والقدرة المستقبلية ووضوح السعر الأول والمستمر. عيّن مسؤول الاستثناءات؛ نجاح أول دفعة لا يثبت إمكانية تنفيذ الدورات التالية."
+      ]
+    ],
+    "checklist": [
+      "اشرح الالتزام.",
+      "تحقّق من الدعم.",
+      "عيّن متابعة الاستثناءات."
+    ],
+    "faq": [
+      [
+        "هل تدعم كل طرق الدفع القطرية الاشتراك؟",
+        "أكّد المزوّد والإعداد المحدّد بدل الافتراض."
+      ]
+    ],
+    "editorial_detail_heading": "انظر لما بعد التسجيل الأول",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف يعمل الطلب الثاني وما بعده؟",
+        "قبل الإعلان عن اشتراك، راجع توافق وسيلة الدفع والحل المقترح مع حسابك وسوقك. اطلب تجربة التجديد وفشل التحصيل والإلغاء وتغيير البيانات، وليس شراء المرة الأولى فقط. وضّح للعميل موعد التحصيل وما يصله وكيف يوقف الاشتراك وفق شروطك والمتطلبات المعنية. يحتاج الفريق متابعة الطلبات المتكررة والمخزون والرسائل؛ كتابة «شهري» في اسم المنتج لا تنشئ هذه العملية وحدها."
+      ]
+    ],
+    "editorial_followup_heading": "كيف يعمل الطلب الثاني وما بعده؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-subscriptions.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Scheduling calendar with a service or order symbol.",
+      "ar": "تقويم جدولة مع رمز خدمة أو طلب."
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "choose-shopify-plan",
+  "category": "planning",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features"
+    }
+  ],
+  "related": [
+    "shopify-website-cost-qatar",
+    "choose-shopify-apps",
+    "prepare-shopify-project"
+  ],
+  "en": {
+    "title": "Which Shopify plan should a new store choose?",
+    "answer": "Start with the features you need now. An upgrade is worthwhile when you can explain what it changes for your business.",
+    "sections": [
+      [
+        "Write the requirements first",
+        "List the storefront, reporting, team access, retail and selling capabilities the business needs. Separate mandatory features from conveniences. Check the current plan comparison and eligibility rather than relying on an old screenshot or a competitor’s setup. Availability and pricing can vary, so verify before subscribing."
+      ],
+      [
+        "Compare costs in context",
+        "Your subscription is only one line in the operating budget. Include paid apps, payment processing and any relevant retail setup. Estimate costs using your expected activity, but label assumptions clearly. A higher plan only makes commercial sense when its features or economics justify the difference for your operation."
+      ],
+      [
+        "Set a review trigger",
+        "Revisit the choice when your team grows, reporting needs change or a required feature is missing. Record the reason for an upgrade so you can judge whether it helped. Do not select a plan purely because an agency uses it in a demonstration; ask which requirement it satisfies."
+      ],
+      [
+        "How to make the choice without guessing",
+        "Write down who needs access, which reports you use and whether you sell in person as well as online. Check those requirements against Shopify’s current plan details. If a higher plan is proposed, ask which requirement the lower one cannot meet. Compare the whole monthly bill, including extensions. Revisit the decision when your team or workflow changes instead of paying from day one for a hypothetical future setup."
+      ]
+    ],
+    "checklist": [
+      "List required capabilities before comparing plans.",
+      "Check the official current plan details.",
+      "Include app and payment costs in the budget.",
+      "Document the reason for any upgrade."
+    ],
+    "faq": [
+      [
+        "Does upgrading the plan improve the design?",
+        "A subscription change does not replace theme design or content work. Identify the specific capability you need before upgrading."
+      ]
+    ],
+    "editorial_detail_heading": "How to make the choice without guessing",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Separate a required feature from a nice extra",
+        "List what prevents you from selling today and what might be useful later. Compare plans against the first list using current official details. If a supplier recommends upgrading, ask them to name the exact requirement and show why the current setup cannot meet it."
+      ]
+    ],
+    "editorial_followup_heading": "Separate a required feature from a nice extra"
+  },
+  "ar": {
+    "title": "أي باقة شوبيفاي أحتاج لمتجري؟",
+    "answer": "ابدأ بالخصائص التي تحتاجها الآن، لا باسم الباقة الأغلى. تستحق الترقية عندما تعرف ما الذي ستضيفه فعلًا إلى طريقة عملك.",
+    "sections": [
+      [
+        "اكتب المتطلّبات أولًا",
+        "حدّد احتياجات الواجهة والتقارير وصلاحيات الفريق والبيع المباشر. افصل الخصائص الضرورية عن الإضافات، وراجع المقارنة الحالية بدل الاعتماد على صورة قديمة أو إعداد متجر آخر."
+      ],
+      [
+        "قارن التكلفة الكاملة",
+        "أضف التطبيقات ورسوم الدفع وأي تجهيزات للبيع المباشر إلى الاشتراك. استخدم تقديرات نشاطك مع توضيح افتراضاتها. اختر الباقة الأعلى عندما تبرّر خصائصها أو اقتصادياتها فرق التكلفة."
+      ],
+      [
+        "حدّد موعد المراجعة",
+        "راجع الاختيار عند نمو الفريق أو تغيّر التقارير أو الحاجة إلى خاصية محدّدة. دوّن سبب الترقية لتقييم فائدتها، ولا تختَر باقة لمجرّد استخدامها في عرض توضيحي."
+      ],
+      [
+        "كيف تقرّر دون تخمين؟",
+        "دوّن عدد الأشخاص الذين سيديرون المتجر والتقارير التي تحتاجها وهل تبيع من فرع أيضًا. قارن هذه الاحتياجات بتفاصيل الباقات الحالية. إذا اقترحت عليك جهة باقة أعلى، اسأل عن الخاصية التي لا توفّرها الأقل. احسب الاشتراك مع التطبيقات، ثم أعد التقييم عند تغيّر العمل. لا تدفع من البداية لإعداد مستقبلي لا تعرف إن كنت ستستخدمه."
+      ]
+    ],
+    "checklist": [
+      "حدّد الخصائص المطلوبة.",
+      "راجع تفاصيل الباقات الحالية.",
+      "احسب التطبيقات ورسوم الدفع.",
+      "وثّق سبب الترقية."
+    ],
+    "faq": [
+      [
+        "هل تحسّن ترقية الباقة تصميم المتجر؟",
+        "تغيير الاشتراك لا يستبدل عمل التصميم والمحتوى. حدّد الخاصية التي تحتاجها قبل الترقية."
+      ]
+    ],
+    "editorial_detail_heading": "كيف تقرّر دون تخمين؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "متى أرفع الباقة؟",
+        "ابدأ بالوظائف التي تحتاجها اليوم، مثل طريقة إدارة الفريق أو البيع، ثم راجع تفاصيل الباقات الحالية. لا ترفع الباقة لمجرد أن اسمها يوحي بأنها أنسب لمشروع ناجح. اطلب ممن يقترح الترقية أن يشرح الوظيفة التي ستستخدمها، وما الذي يمنع تنفيذها الآن، وكيف ستؤثر في العمل. احسب فرق الاشتراك مع بقية مصاريف المتجر، ثم اتخذ القرار على حاجة واضحة يمكن مراجعتها لاحقًا."
+      ]
+    ],
+    "editorial_followup_heading": "متى أرفع الباقة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/choose-shopify-plan.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Three subscription comparison cards with one highlighted option.",
+      "ar": "ثلاث بطاقات لمقارنة الاشتراكات مع إبراز أحد الخيارات."
+    }
+  }
+}

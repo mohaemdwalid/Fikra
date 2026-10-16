@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-account-security",
+  "title_ar": "كيف أعطي الموظف أو الوكالة صلاحيات بدون مشاركة كلمة مروري؟",
+  "lead_en": "Use the access arrangement designed for the task and keep owner recovery under the business’s control. Shared passwords make responsibility harder to track.",
+  "lead_ar": "استخدم الوصول المخصص للمهمة واحفظ استعادة حساب المالك لدى النشاط. تصعّب كلمة المرور المشتركة معرفة من غيّر ماذا.",
+  "heading_en": "Separate editing from financial control",
+  "detail_en": "Someone uploading products may not need to approve charges or publish theme code. List the work first, then grant the relevant permissions through supported access methods. Review people and apps when contracts change. Keep business email, recovery details and spending authority documented. Do not forget external tools: an old supplier may lose store access while still controlling a connected service essential to operations.",
+  "heading_ar": "افصل التحرير عن التحكّم المالي",
+  "detail_ar": "قد لا يحتاج من يرفع المنتجات إلى الموافقة على الرسوم أو نشر الكود. حدّد العمل ثم امنح الصلاحيات المناسبة، وراجع الأشخاص والتطبيقات عند تغير التعاقد. وثّق البريد والاستعادة والإنفاق. ولا تنس الأدوات الخارجية؛ قد يُزال دخول مورّد للمتجر ويبقى متحكمًا في خدمة يعتمد عليها التشغيل."
+}

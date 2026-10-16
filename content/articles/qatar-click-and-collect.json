@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-click-and-collect",
+  "category": "qatar",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store"
+    }
+  ],
+  "related": [
+    "shopify-inventory-locations",
+    "shopify-local-delivery",
+    "shopify-order-notifications"
+  ],
+  "en": {
+    "title": "How should a Qatar store organise click and collect?",
+    "answer": "Give customers a real location, a readiness confirmation and clear collection instructions. Placing the order should not imply that it is ready immediately.",
+    "sections": [
+      [
+        "Make the promise specific",
+        "State where collection happens, when it is available and what confirms readiness. An order placed is not automatically an order ready to collect. Avoid publishing a location that customers cannot actually visit."
+      ],
+      [
+        "Coordinate stock and preparation",
+        "Confirm which location holds the item and who prepares it. Review mixed baskets and unavailable stock using the configured setup. Keep a clear way to mark readiness and communicate delays."
+      ],
+      [
+        "Test the customer route",
+        "Place an appropriate approved test order and review the selected location and instructions. Check the mobile language experience and handover process. Monitor uncollected orders and agree follow-up rather than leaving them indefinitely outside normal operations."
+      ],
+      [
+        "Check the stock-to-handover route",
+        "Choose an item available at one location and test how the customer selects pickup. Who prepares it, how is readiness marked, and what message does the buyer receive? Review opening times and what happens if the order is not collected. If you also offer delivery, make the choices understandable. Do not publish a pickup option simply because the software supports it when nobody is assigned to the physical handover."
+      ]
+    ],
+    "checklist": [
+      "Publish real pickup details.",
+      "Assign preparation responsibility.",
+      "Test readiness notifications and handover."
+    ],
+    "faq": [
+      [
+        "Can a pickup option be added without a collection process?",
+        "The option should match a real, staffed and supported fulfilment arrangement."
+      ]
+    ],
+    "editorial_detail_heading": "Check the stock-to-handover route",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Test the collection message",
+        "Place a sample pickup order and read every message as a customer. Can they distinguish received from ready to collect? Can staff find the item and the order? Define what happens when stock is unavailable or someone else collects on the customer's behalf."
+      ]
+    ],
+    "editorial_followup_heading": "Test the collection message"
+  },
+  "ar": {
+    "title": "كيف أضيف الاستلام من الفرع بشكل صحيح؟",
+    "answer": "وفّر موقعًا حقيقيًا وتأكيد جاهزية وتعليمات واضحة. إنشاء الطلب لا يعني أنه أصبح جاهزًا للاستلام فورًا.",
+    "sections": [
+      [
+        "حدّد الوعد",
+        "وضّح أين ومتى وكيف يتأكد التجهيز. إنشاء الطلب لا يعني جاهزيته، ولا تنشر مكانًا غير متاح للزيارة."
+      ],
+      [
+        "نسّق المخزون",
+        "حدّد الموقع والمسؤول واختبر السلال والنفاد وآلية إعلان الجاهزية والتأخير."
+      ],
+      [
+        "اختبر العميل",
+        "راجع طلبًا اختباريًا وتعليماته واللغة والتسليم، وخطّط لمتابعة الطلبات غير المستلمة."
+      ],
+      [
+        "راجع المسار حتى تسليم القطعة",
+        "اختر منتجًا متاحًا في فرع محدّد واختبر اختيار الاستلام. من يجهّزه وكيف يعلن جاهزيته وما الرسالة التي تصل؟ راجع المواعيد والطلب الذي لا يُستلم. وإذا توفر التوصيل أيضًا، وضّح الاختيار بينهما. لا تضف استلامًا لأن البرنامج يدعمه بينما لا يوجد شخص مسؤول عن التسليم الفعلي."
+      ]
+    ],
+    "checklist": [
+      "انشر تفاصيل حقيقية.",
+      "عيّن مسؤول التجهيز.",
+      "اختبر الإشعار والتسليم."
+    ],
+    "faq": [
+      [
+        "هل تضيف الخيار دون عملية استلام؟",
+        "يجب أن يطابق ترتيب تنفيذ فعليًا ومدعومًا."
+      ]
+    ],
+    "editorial_detail_heading": "راجع المسار حتى تسليم القطعة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف يعرف العميل أن طلبه جاهز؟",
+        "فرّق بين رسالة استلام الطلب ورسالة جاهزيته في الفرع. وضّح المكان وساعات الاستلام وما يحتاج العميل إظهاره، ثم جرّب الطلب من البداية مع الموظف المسؤول. اسأل كيف سيتصرف الفريق إذا لم يجد القطعة أو جاء شخص آخر للاستلام. لا تعد بتجهيز فوري لمجرد أن خيار الاستلام ظاهر في الدفع؛ الوقت المعلن يجب أن يناسب المخزون وقدرة الفرع على تجهيز الطلبات فعلًا."
+      ]
+    ],
+    "editorial_followup_heading": "كيف يعرف العميل أن طلبه جاهز؟"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-click-and-collect.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Parcel connected to a fulfilment destination or service.",
+      "ar": "طرد متصل بوجهة أو خدمة تنفيذ."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-connect-domain",
+  "title_ar": "كيف أربط الدومين بشوبيفاي بدون ما يتعطل البريد؟",
+  "lead_en": "Change only the DNS records needed for the website connection. Your email may depend on other records that must remain in place.",
+  "lead_ar": "غيّر سجلات DNS اللازمة للموقع فقط. قد يعتمد البريد على سجلات أخرى يجب المحافظة عليها، حتى لو كان النطاق واحدًا.",
+  "heading_en": "Record the setup before changing it",
+  "detail_en": "Identify the registrar and the DNS host; they may be different. Save the current values and note which support email or verification services. Follow the current store connection instructions rather than replacing the entire zone with a generic example. Afterward, check the storefront and send and receive a business email. Keep renewal and recovery access with the business, and document the final configuration so the next change does not start from guesses.",
+  "heading_ar": "دوّن الإعداد قبل تعديله",
+  "detail_ar": "حدّد جهة التسجيل ومدير DNS؛ قد يختلفان. احفظ القيم وما يخدم البريد والتحقّق، ثم اتبع تعليمات المتجر الحالية بدل استبدال المنطقة كلها بمثال عام. بعد الربط، افتح الموقع وأرسل واستقبل بريدًا. احتفظ بالتجديد والاستعادة لدى النشاط ووثّق النتيجة حتى لا يبدأ التعديل التالي بالتخمين."
+}

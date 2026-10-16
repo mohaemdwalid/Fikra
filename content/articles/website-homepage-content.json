@@ -1,0 +1,111 @@
+{
+  "slug": "website-homepage-content",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+  ],
+  "related": [
+    "website-contact-page",
+    "business-website-types",
+    "website-accessibility"
+  ],
+  "en": {
+    "title": "What should a business homepage say first?",
+    "answer": "Tell a new visitor what you offer, who it is for and what to do next. A clever slogan should not make that harder to understand.",
+    "sections": [
+      [
+        "Clarify the opening",
+        "Write a sentence naming the service or product and the relevant audience. Support it with an accurate image or example. Avoid claiming to be the leading agency or displaying impressive numbers unless you can substantiate them."
+      ],
+      [
+        "Build useful routes",
+        "Link to distinct services, products or examples using labels people understand. A prospect comparing suppliers may need scope and process; a returning customer may need contact or support. Prioritise the main journeys without hiding secondary ones."
+      ],
+      [
+        "Review on a small screen",
+        "Check whether the explanation and primary action remain understandable on mobile. Remove competing pop-ups and redundant introductions. Ask someone unfamiliar with the business to describe your offer after reading the first section, then improve what they misunderstood."
+      ],
+      [
+        "Test the first section without explaining it",
+        "Show the opening to someone unfamiliar with the business and ask what they think you do. If the answer is vague, replace abstract claims with a concrete description. Then choose a next step that fits the visitor: see the products, review a service or request a quote. Use real evidence where it helps. Do not crowd the top with several competing buttons simply because each department wants equal space."
+      ]
+    ],
+    "checklist": [
+      "Name the actual offer.",
+      "Support claims with evidence.",
+      "Give clear next-step links."
+    ],
+    "faq": [
+      [
+        "Should the homepage target every keyword?",
+        "No. Make its subject clear and use focused pages for distinct questions."
+      ]
+    ],
+    "editorial_detail_heading": "Test the first section without explaining it",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Write the first screen in plain language",
+        "Say what the business provides, who it serves and what a visitor can do next. Support that with relevant evidence further down the page. Test the copy with someone unfamiliar with the brand; a memorable slogan can help, but it should not be the only explanation of the service."
+      ]
+    ],
+    "editorial_followup_heading": "Write the first screen in plain language"
+  },
+  "ar": {
+    "title": "ماذا أكتب في أول صفحة بالموقع؟",
+    "answer": "وضّح للزائر ماذا تقدّم ولمن وما الخطوة التالية. يمكن أن تكون العبارة جميلة، لكن لا ينبغي أن يحتاج إلى تفسيرها حتى يفهم نشاطك.",
+    "sections": [
+      [
+        "وضّح البداية",
+        "سمِّ الخدمة أو المنتج والجمهور مع صورة أو مثال دقيق، ولا تستخدم أرقامًا أو صفة الريادة دون إثبات."
+      ],
+      [
+        "ابنِ مسارات مفيدة",
+        "اربط الخدمات والمنتجات والأمثلة بأسماء مفهومة. تختلف حاجة العميل الجديد عن العائد للدعم."
+      ],
+      [
+        "راجع الجوال",
+        "تأكّد من وضوح العرض والإجراء دون نوافذ متنافسة. اطلب من شخص جديد شرح ما فهمه وحسّن موضع الالتباس."
+      ],
+      [
+        "اختبر البداية دون أن تشرحها",
+        "اعرضها على شخص لا يعرف النشاط واسأله ماذا فهم. إذا كانت إجابته عامة، استبدل الادّعاء المبهم بوصف ملموس. ثم حدّد خطوة تناسبه: منتجات أم خدمة أم عرض سعر. استخدم دليلًا حقيقيًا عند الحاجة. لا تزاحم البداية بأزرار كثيرة فقط لأن كل قسم يريد مكانًا؛ وضوح القرار أهم من توزيع المساحة بالتساوي."
+      ]
+    ],
+    "checklist": [
+      "سمِّ العرض الحقيقي.",
+      "ادعم الادّعاءات.",
+      "وضّح الخطوة التالية."
+    ],
+    "faq": [
+      [
+        "هل تستهدف الرئيسية كل كلمات البحث؟",
+        "وضّح موضوعها واترك الأسئلة المختلفة لصفحات مركّزة."
+      ]
+    ],
+    "editorial_detail_heading": "اختبر البداية دون أن تشرحها",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أعرف أن بداية الصفحة واضحة؟",
+        "اعرض أول جزء من الصفحة لشخص لا يعرف شركتك، ثم اسأله ما الذي تقدمه ولمن وكيف يبدأ. إذا لم يستطع الإجابة، أعد كتابة العنوان والوصف بلغة مباشرة. يمكنك استخدام عبارة مميزة للعلامة، لكن أضف شرحًا حقيقيًا للخدمة. بعد ذلك اعرض عملًا أو معلومة تدعم كلامك وخطوة تالية مناسبة؛ لا تبدأ بصفات مثل الأفضل والمبتكر وتترك الزائر يخمّن ما الذي يستطيع طلبه منك."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أعرف أن بداية الصفحة واضحة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-homepage-content.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

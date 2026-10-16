@@ -1,0 +1,115 @@
+{
+  "slug": "qatar-domain-qa-or-com",
+  "category": "qatar",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar Communications Regulatory Authority",
+      "url": "https://www.cra.gov.qa/en/Regulatory-Framework/Domain-Management/Registrants"
+    },
+    {
+      "title": "Qatar Communications Regulatory Authority",
+      "url": "https://www.cra.gov.qa/en/Services/Domains/FAQs"
+    }
+  ],
+  "related": [
+    "domain-versus-hosting",
+    "shopify-connect-domain",
+    "website-project-ownership"
+  ],
+  "en": {
+    "title": "Should a Qatar business choose a .qa or .com domain?",
+    "answer": "Choose a name that fits the brand and intended audience, then check the conditions of that exact extension. The suffix alone does not create a business or a ranking.",
+    "sections": [
+      [
+        "Decide the audience",
+        "A Qatar-focused identity and a wider international brand may prioritise different names. Check availability and avoid confusing similarities with other businesses. Do not promise first position in search merely because a domain uses .qa."
+      ],
+      [
+        "Check registration conditions",
+        "Use CRA’s current registrant guidance and accredited channels for the chosen extension. Confirm the applicant details and renewal process. Do not assume that requirements for .com.qa also describe every other extension."
+      ],
+      [
+        "Keep the business in control",
+        "Register with accurate business-controlled contact details and record renewal ownership. If you use more than one domain, decide the primary one and redirect alternatives appropriately. Review email and existing links before changing a live domain."
+      ],
+      [
+        "Decide the primary address before launch",
+        "If Qatar is central to the brand, a local domain may be relevant; if you serve several markets, compare the wider naming plan too. CRA’s guidance distinguishes extensions and registration arrangements, so do not transfer one extension’s requirements to another. Check availability, the registered contact and renewal ownership. If you buy alternatives, choose one primary address and plan redirects instead of publishing duplicate sites with competing identities."
+      ]
+    ],
+    "checklist": [
+      "Check name and audience fit.",
+      "Verify extension-specific conditions.",
+      "Record ownership and renewals."
+    ],
+    "faq": [
+      [
+        "Does a .qa name automatically create a website?",
+        "No. Registration, hosting and website content are separate parts of launch."
+      ]
+    ],
+    "editorial_detail_heading": "Decide the primary address before launch",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Think about the address people will remember",
+        "Compare a few readable names, not only extensions. Check spelling in conversation and how the address looks beside your email. Before purchasing, confirm current registration requirements and ownership arrangements. If you use more than one domain, decide which is the main public address and how the others lead to it."
+      ]
+    ],
+    "editorial_followup_heading": "Think about the address people will remember"
+  },
+  "ar": {
+    "title": "لموقعي في قطر، أختار .qa أم .com؟",
+    "answer": "اختَر اسمًا يناسب العلامة والجمهور ثم راجع شروط الامتداد نفسه. نهاية العنوان لا تنشئ نشاطًا مرخّصًا ولا تضمن ترتيبًا في البحث.",
+    "sections": [
+      [
+        "حدّد الجمهور",
+        "راجع الاسم وتوفّره والالتباس مع غيرك. لا تَعِد بترتيب أول لمجرّد امتداد .qa."
+      ],
+      [
+        "راجع شروط الامتداد",
+        "استخدم معلومات الهيئة وقنواتها الحالية، ولا تفترض تطابق شروط .com.qa مع بقية الامتدادات."
+      ],
+      [
+        "احفظ تحكّم النشاط",
+        "استخدم بيانات اتصال دقيقة وتجديدًا واضحًا، وحدّد النطاق الأساسي وتحويل البدائل وراجع البريد قبل التغيير."
+      ],
+      [
+        "حدّد عنوانك الأساسي قبل الإطلاق",
+        "إذا كانت قطر جزءًا أساسيًا من هويتك فقد يهمك نطاق محلي، وإذا تخدم عدة أسواق فراجع خطة الاسم الأوسع. تميّز إرشادات الهيئة الامتدادات وإجراءاتها، فلا تعمّم شرط امتداد على آخر. تأكد من التوفر وبيانات المالك والتجديد. وإن اشتريت بدائل، حدّد عنوانًا أساسيًا وحوّل الباقي بدل نشر نسخ متنافسة من الموقع."
+      ]
+    ],
+    "checklist": [
+      "راجع الاسم والجمهور.",
+      "أكّد شروط الامتداد.",
+      "وثّق الملكية والتجديد."
+    ],
+    "faq": [
+      [
+        "هل ينشئ .qa موقعًا تلقائيًا؟",
+        "التسجيل والاستضافة والمحتوى أجزاء منفصلة."
+      ]
+    ],
+    "editorial_detail_heading": "حدّد عنوانك الأساسي قبل الإطلاق",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "الاسم نفسه مهم بقدر الامتداد",
+        "جرّب قول العنوان لشخص واطلب منه كتابته بدون أن يراه. إذا احتاج تهجئة طويلة أو احتوى كلمات متشابهة، قد تواجه صعوبة مهما كان الامتداد. راجع شروط التسجيل الحالية من الجهة المختصة، واجعل الملكية والتجديد باسم حساب تسيطر عليه. وإذا حجزت أكثر من عنوان، اختر واحدًا رئيسيًا للموقع والبريد والتسويق، ونظّم توجيه البقية إليه حتى لا تشتت الزوار بين نسخ مختلفة."
+      ]
+    ],
+    "editorial_followup_heading": "الاسم نفسه مهم بقدر الامتداد"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-domain-qa-or-com.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

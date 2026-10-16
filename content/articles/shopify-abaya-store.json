@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-abaya-store",
+  "category": "catalogue",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/products/variants"
+    }
+  ],
+  "related": [
+    "shopify-product-variants",
+    "shopify-size-guide",
+    "shopify-product-photos"
+  ],
+  "en": {
+    "title": "How should an abaya brand organise its Shopify store?",
+    "answer": "Give each design a clear reference and keep its photos, measurements and options together. Small differences matter when many garments have the same colour.",
+    "sections": [
+      [
+        "Keep each design identifiable",
+        "Give each design a stable name or reference and match its front, back and detail photos. Do not mix similar black garments just because their colours match. Record the distinguishing cut, embroidery or trim so product entry and later content updates preserve the correct identity."
+      ],
+      [
+        "Plan real buying options",
+        "Shopify variants can represent combinations such as size and colour. Decide whether length, fit or another choice belongs in the product structure, and confirm how it affects stock and production. Separate ready-stock and made-to-order expectations in your content without promising a dispatch time you cannot maintain."
+      ],
+      [
+        "Support a confident choice",
+        "Provide approved measurements, fabric information, care instructions and relevant delivery details. Review Arabic and English naming so the same design stays recognisable in both languages. Use collections that match shopper needs, such as everyday or occasion wear, only where the products actually fit those categories."
+      ],
+      [
+        "Start with the product record",
+        "Create one record per design with front, back and detail images. Identify the cut or finishing that distinguishes it from similar pieces. Then record whether it is ready stock or made to order and which lengths can be purchased. Do not reuse a photo because another garment looks close. Test an order from the storefront through to picking: the team should know exactly which design and option the customer chose."
+      ]
+    ],
+    "checklist": [
+      "Group photos by verified garment design.",
+      "Document fit, length and available options.",
+      "Distinguish ready-stock from made-to-order.",
+      "Approve sizing and delivery information."
+    ],
+    "faq": [
+      [
+        "Can visually similar abayas share one product page?",
+        "Only if they are genuinely options of the same product. Separate designs need clear identities so customers know what they are buying."
+      ]
+    ],
+    "editorial_detail_heading": "Start with the product record",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Make product identity clear",
+        "Keep views of the same design together and use options only for genuine variations of that product. Show the details customers ask about, such as fabric, length and included pieces, when accurate. A customer should not need to message you to discover which photograph matches the selected item."
+      ]
+    ],
+    "editorial_followup_heading": "Make product identity clear"
+  },
+  "ar": {
+    "title": "كيف أرتّب متجر عبايات بدون خلط التصاميم؟",
+    "answer": "امنح كل تصميم اسمًا أو رقمًا واضحًا واجمع صوره ومقاساته وخياراته تحته. عندما تكون قطع كثيرة سوداء، تصبح التفاصيل الصغيرة هي التي تميّز المنتج.",
+    "sections": [
+      [
+        "حافظ على هوية كل تصميم",
+        "امنح التصميم اسمًا أو مرجعًا ثابتًا وطابق الصور الأمامية والخلفية والتفاصيل. لا تخلط قطعًا سوداء متشابهة. وثّق القصّة والتطريز أو التشطيب المميّز لتجنّب أخطاء التحديث."
+      ],
+      [
+        "خطّط لخيارات الشراء",
+        "تمثّل خيارات شوبيفاي تركيبات مثل المقاس واللون. حدّد مكان الطول والقصّة وأثرهما في المخزون والإنتاج. ميّز الجاهز عن التفصيل في المحتوى دون وعود إرسال غير قابلة للتنفيذ."
+      ],
+      [
+        "ادعم الاختيار بالمعلومات",
+        "اعرض القياسات والخامة والعناية والتوصيل المعتمدة. راجع اتّساق اسم التصميم بالعربية والإنجليزية، واستخدم تصنيفات مثل يومي ومناسبات عندما تلائم المنتجات فعلًا."
+      ],
+      [
+        "ابدأ ببطاقة لكل تصميم",
+        "اجمع الأمام والخلف والتفاصيل في سجل واحد، واكتب القصّة أو التشطيب الذي يميّزه. ثم حدّد الجاهز والتفصيل والأطوال المتاحة. لا تستبدل صورة بأخرى لأن القطعتين متقاربتان. جرّب طلبًا من الموقع حتى التجهيز: يجب أن يعرف الفريق التصميم والخيار المطلوبين دون العودة لتخمين ما قصده العميل."
+      ]
+    ],
+    "checklist": [
+      "اجمع الصور حسب التصميم المؤكّد.",
+      "وثّق المقاس والطول والخيارات.",
+      "ميّز الجاهز عن التفصيل.",
+      "اعتمد القياسات والتوصيل."
+    ],
+    "faq": [
+      [
+        "هل تجمع العبايات المتشابهة في صفحة واحدة؟",
+        "فقط إن كانت خيارات حقيقية للمنتج نفسه. تحتاج التصاميم المختلفة إلى هوية واضحة."
+      ]
+    ],
+    "editorial_detail_heading": "ابدأ ببطاقة لكل تصميم",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أمنع الخلط بين العبايات؟",
+        "اجمع صور التصميم نفسه داخل صفحة واحدة، وسمّ الألوان والمقاسات بما يطابق القطعة التي سيستلمها العميل. إذا اختلف القص أو التطريز بشكل يجعلها تصميمًا آخر، لا تعرضها كخيار مبهم داخل المنتج نفسه. اذكر الخامة والطول والقطع المشمولة عندما تكون المعلومات مؤكدة، وأظهر التفاصيل التي يصعب تمييزها من الصورة العامة. راجع الاختيار مع الصورة والسعر قبل النشر، خصوصًا عند رفع منتجات كثيرة دفعة واحدة."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أمنع الخلط بين العبايات؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-abaya-store.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Abaya silhouette with detail stitching and catalogue options.",
+      "ar": "رسم عباية بتفاصيل زخرفية وخيارات كتالوج."
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-inventory-locations",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/inventory-and-locations/locations"
+    }
+  ],
+  "related": [
+    "shopify-pos-qatar",
+    "qatar-click-and-collect",
+    "shopify-product-bundles"
+  ],
+  "en": {
+    "title": "How should Shopify inventory work across multiple locations?",
+    "answer": "Model the places that actually hold and fulfil stock. A total quantity can hide the fact that an item is unavailable where the order needs it.",
+    "sections": [
+      [
+        "Map the real stock",
+        "List warehouses, shops or other supported fulfilment locations. Identify which stock can serve online orders or pickup. Avoid combining physically separate quantities in a way the team cannot dispatch."
+      ],
+      [
+        "Test allocation and transfer",
+        "Review the configured order-routing and location rules using representative baskets. Check a product available in one location but not another. Document how transfers, damaged stock and corrections are recorded."
+      ],
+      [
+        "Reconcile regularly",
+        "Assign owners and compare operational records with the store. Review the effect of returns and concurrent channels. A neat dashboard can still be wrong if stock movements are not entered consistently, so investigate discrepancies before expanding sales coverage."
+      ],
+      [
+        "Test a product available in only one location",
+        "Check which destination the order uses and whether pickup is offered appropriately. Agree how transfers, returns and damaged stock are recorded. Include simultaneous sales from the shop and website in the review. If staff move products without updating records, the dashboard can look precise and still be wrong. Assign a reconciliation owner and investigate discrepancies before advertising wider availability or introducing more channels."
+      ]
+    ],
+    "checklist": [
+      "Map real fulfilment locations.",
+      "Test allocation and unavailable stock.",
+      "Assign reconciliation owners."
+    ],
+    "faq": [
+      [
+        "Can I treat every location as interchangeable?",
+        "Only when the operational and configured fulfilment rules genuinely support that assumption."
+      ]
+    ],
+    "editorial_detail_heading": "Test a product available in only one location",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Trace one item across locations",
+        "Choose one product and record where it is physically stored, where it can be sold and which team fulfils each order. Test a transfer and an unavailable location. The online quantity should reflect a defined operating process, rather than a total nobody can reconcile with the shelves."
+      ]
+    ],
+    "editorial_followup_heading": "Trace one item across locations"
+  },
+  "ar": {
+    "title": "كيف أتابع المخزون بين الفرع والمستودع والمتجر الإلكتروني؟",
+    "answer": "نمذج الأماكن التي تحفظ وتنفّذ فعلًا. قد يخفي الإجمالي أن القطعة غير متاحة في المكان الذي يحتاجه الطلب.",
+    "sections": [
+      [
+        "ارسم المخزون",
+        "حدّد الفروع والمستودعات وما يخدم الإنترنت والاستلام دون جمع كميات لا يمكن إرسالها."
+      ],
+      [
+        "اختبر التخصيص",
+        "راجع التوجيه والنفاد والتحويل والتالف والتصحيح بمثال متاح في موقع دون آخر."
+      ],
+      [
+        "طابق باستمرار",
+        "عيّن المسؤولين وراجع الاسترجاع والقنوات المتزامنة؛ لوحة مرتّبة لا تثبت صحة الحركة."
+      ],
+      [
+        "جرّب منتجًا في موقع واحد فقط",
+        "راجع مصدر تنفيذ الطلب وأهلية الاستلام. اتّفق على تسجيل النقل والاسترجاع والتالف، وضمّن بيع الفرع والموقع في الوقت نفسه. إذا تحركت القطع دون تحديث السجل فقد تبدو اللوحة دقيقة وهي خاطئة. عيّن مسؤول مطابقة وعالج الاختلاف قبل توسيع التوفّر والقنوات."
+      ]
+    ],
+    "checklist": [
+      "حدّد المواقع الفعلية.",
+      "اختبر التوزيع والنفاد.",
+      "عيّن المطابقة."
+    ],
+    "faq": [
+      [
+        "هل المواقع قابلة للاستبدال دائمًا؟",
+        "عندما تدعم العملية والإعداد ذلك فعلًا فقط."
+      ]
+    ],
+    "editorial_detail_heading": "جرّب منتجًا في موقع واحد فقط",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "تابع قطعة واحدة من المخزون إلى التسليم",
+        "اختر منتجًا وحدّد كميته الفعلية في الفرع والمستودع، ثم راجع من أين يخرج الطلب الإلكتروني. جرّب حالة نفاد المنتج في مكان ووجوده في مكان آخر، وكيف يعرف الفريق ما يجب تنفيذه. اتفق على وقت تحديث البيع والتحويل والمرتجع، لأن الرقم الظاهر لا يبقى صحيحًا إذا كانت العمليات خارج النظام. ابدأ بعينة يمكن مطابقتها مع الواقع قبل تعديل إعدادات الكتالوج كله."
+      ]
+    ],
+    "editorial_followup_heading": "تابع قطعة واحدة من المخزون إلى التسليم"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-inventory-locations.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Parcel connected to a fulfilment destination or service.",
+      "ar": "طرد متصل بوجهة أو خدمة تنفيذ."
+    }
+  }
+}

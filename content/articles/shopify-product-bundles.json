@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-product-bundles",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/bundles"
+    }
+  ],
+  "related": [
+    "shopify-product-variants",
+    "shopify-inventory-locations",
+    "shopify-discount-strategy"
+  ],
+  "en": {
+    "title": "How should a Shopify store plan product bundles?",
+    "answer": "Define the included components and check how the chosen bundle tool records and reserves them. A combined image does not create a reliable bundle.",
+    "sections": [
+      [
+        "Specify the contents",
+        "State exactly what is included and whether customers can change a component. Use accurate images and explain size or colour choices. Avoid suggesting an accessory is included merely because it appears in a styled photograph."
+      ],
+      [
+        "Check inventory effects",
+        "Review how the selected tool treats component stock, unavailable combinations and order records. Test a mixed basket and a component that sells out. Assign responsibility for keeping the bundle aligned with the separate products."
+      ],
+      [
+        "Evaluate the commercial purpose",
+        "Compare margin and fulfilment complexity with the intended benefit. A bundle may simplify a customer choice, but a higher basket value alone does not establish profitability. Review returns handling and customer instructions before promoting it widely."
+      ],
+      [
+        "Test a component that sells out",
+        "Suppose a set contains a garment and an accessory also sold separately. What happens when the accessory is unavailable? Review the exact tool’s inventory behaviour and what the fulfilment team sees in the order. Explain optional choices and included items accurately. Compare margin and packing work, not only basket value. Decide how a return involving one component is handled before promoting the offer widely."
+      ]
+    ],
+    "checklist": [
+      "Define exact included items.",
+      "Test component stock and order records.",
+      "Review margin and fulfilment."
+    ],
+    "faq": [
+      [
+        "Can any product combination be bundled automatically?",
+        "Check the chosen bundle tool’s current capabilities and limitations."
+      ]
+    ],
+    "editorial_detail_heading": "Test a component that sells out",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Decide what happens when a component runs out",
+        "List the bundle's individual items and determine how the selected setup tracks each component. Test a sale, a return and one unavailable item. The customer-facing offer, stock deduction and staff packing instructions should describe the same set, including any permitted substitutions."
+      ]
+    ],
+    "editorial_followup_heading": "Decide what happens when a component runs out"
+  },
+  "ar": {
+    "title": "كيف أجمع منتجات في باقة بدون مشاكل مخزون؟",
+    "answer": "حدّد المكوّنات وافحص تسجيلها ومخزونها في الأداة المستخدمة. صورة لمنتجات مجتمعة لا تنشئ باقة يمكن تشغيلها بموثوقية.",
+    "sections": [
+      [
+        "حدّد المحتويات",
+        "وضّح المرفقات وإمكان التغيير والمقاس واللون، ولا توحِ بإكسسوار مشمول عبر الصورة فقط."
+      ],
+      [
+        "اختبر المخزون",
+        "راجع المكوّنات والنفاد وسجل الطلب والسلة المختلطة ومسؤول التحديث."
+      ],
+      [
+        "قيّم الغرض التجاري",
+        "قارن الهامش وتعقيد التنفيذ والاسترجاع؛ زيادة السلة وحدها لا تثبت الربح."
+      ],
+      [
+        "جرّب نفاد أحد المكوّنات",
+        "إذا جمعت قطعة وإكسسوارًا يباع منفصلًا، ماذا يحدث عند نفاد الإكسسوار؟ راجع سلوك المخزون وما يظهر لفريق التنفيذ. وضّح الاختياري والمشمول، وقارن الهامش والتغليف لا قيمة السلة فقط. واحسم الاسترجاع المتعلق بمكوّن واحد قبل الترويج للعرض."
+      ]
+    ],
+    "checklist": [
+      "عرّف المشمول.",
+      "اختبر المكوّنات.",
+      "راجع الهامش والتنفيذ."
+    ],
+    "faq": [
+      [
+        "هل تُجمع كل المنتجات تلقائيًا؟",
+        "تحقّق من إمكانات الأداة وحدودها الحالية."
+      ]
+    ],
+    "editorial_detail_heading": "جرّب نفاد أحد المكوّنات",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا يحدث إذا نفد جزء من الباقة؟",
+        "اكتب مكونات الباقة وكميات كل قطعة، ثم راجع كيف يخصم الإعداد المقترح مخزونها. جرّب بيع الباقة وقطعة منفردة منها، ثم حالة نفاد أحد المكونات. وضّح للعميل ما يشمله السعر وما إذا كان الاستبدال متاحًا، وأعطِ فريق التجهيز وصفًا مطابقًا. صورة مجموعة جميلة لا تكفي إذا كان النظام يعرضها متاحة بينما أحد أجزائها غير موجود، أو إذا لم يعرف الفريق كيف يتعامل مع مرتجع جزئي."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا يحدث إذا نفد جزء من الباقة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-product-bundles.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Organised website content and feature cards.",
+      "ar": "بطاقات منظّمة لمحتوى الموقع وخصائصه."
+    }
+  }
+}

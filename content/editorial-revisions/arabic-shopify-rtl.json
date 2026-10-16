@@ -1,0 +1,10 @@
+{
+  "slug": "arabic-shopify-rtl",
+  "title_ar": "المتجر مترجم للعربية، لماذا شكله غير مضبوط؟",
+  "lead_en": "Translation changes the words; RTL work changes how the interface reads and behaves. Check the components where the layout still feels wrong.",
+  "lead_ar": "الترجمة تغيّر الكلمات، لكن ترتيب الواجهة يحتاج إلى مراجعة أيضًا. لذلك قد تظهر النصوص بالعربية وتظل القائمة والأسهم والأرقام مربكة.",
+  "heading_en": "Do not mirror the whole page blindly",
+  "detail_en": "Start with menus, breadcrumbs, product selectors and the cart. Directional arrows may need changing, while logos and product photography usually must keep their original orientation. Test mixed text such as an Arabic sentence with an English brand name or size. Long labels reveal problems hidden by a short demo. Include app widgets in the review: their layout can be independent of the theme even when the surrounding page is correct.",
+  "heading_ar": "لا تقلب كل شيء دفعة واحدة",
+  "detail_ar": "راجع القائمة ومسار التصفّح والخيارات والسلة. قد تحتاج الأسهم إلى اتجاه مختلف، لكن الشعار وصورة المنتج يجب ألا يتغيّرا بلا سبب. جرّب جملة عربية فيها اسم إنجليزي أو مقاس وأرقام، وعناوين طويلة بدل نص تجريبي قصير. راجع أدوات التطبيقات أيضًا؛ قد تكون الواجهة صحيحة بينما يظل مكوّن خارجي باتجاه مختلف."
+}

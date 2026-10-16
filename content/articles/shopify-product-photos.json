@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-product-photos",
+  "category": "catalogue",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/products/product-media"
+    }
+  ],
+  "related": [
+    "shopify-product-descriptions",
+    "shopify-abaya-store",
+    "shopify-speed-improvements"
+  ],
+  "en": {
+    "title": "Which product photos does a Shopify store need?",
+    "answer": "Include the views that help someone judge the real item: overall shape, back, detail and scale when relevant. More photos are not always more information.",
+    "sections": [
+      [
+        "Create a repeatable shot list",
+        "For clothing, consider a complete front view, a back view and details of the fabric or finishing. If fit matters, identify the size shown and relevant model measurements only when known. Keep colour representation consistent and avoid retouching that changes the garment customers will receive."
+      ],
+      [
+        "Separate catalogue and campaign roles",
+        "A campaign image can create mood; a catalogue image must also make the product legible. Test crops in collection cards and on the product page. Maintain a consistent visual approach across related items so shoppers can compare silhouettes without the photography becoming a distraction."
+      ],
+      [
+        "Prepare files for the storefront",
+        "Use descriptive filenames and relevant alternative text. Choose appropriate display dimensions instead of uploading every asset in its largest available version. Review loading behaviour on mobile and make sure all views belong to the same design and colour. Keep original files securely for future edits."
+      ],
+      [
+        "Plan the gallery around buying questions",
+        "For a garment, a full view explains the cut while a close-up can show fabric or finishing. Do not use four nearly identical crops while leaving the back unseen. Check the collection thumbnail separately: a campaign crop can hide the product at small sizes. Keep colours believable and make sure every view belongs to the same design. Add video when movement answers a question still photos cannot, not merely to fill the gallery."
+      ]
+    ],
+    "checklist": [
+      "Capture overall shape and meaningful details.",
+      "Check colour and garment identity.",
+      "Review grid crops and mobile galleries.",
+      "Retain original media files."
+    ],
+    "faq": [
+      [
+        "Do I need a product video for every item?",
+        "Only where movement or another detail helps the customer judge the product. Strong, accurate photos can be sufficient."
+      ]
+    ],
+    "editorial_detail_heading": "Plan the gallery around buying questions",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Photograph the uncertainty",
+        "List what customers cannot judge from the main image and plan the other views around those questions. Keep the selected option and imagery consistent. Check the crop on mobile before exporting the full catalogue; beautiful source photographs can lose important detail when displayed in a different shape."
+      ]
+    ],
+    "editorial_followup_heading": "Photograph the uncertainty"
+  },
+  "ar": {
+    "title": "ما الصور التي أحتاجها لكل منتج؟",
+    "answer": "اختر الصور التي توضّح القطعة فعلًا: شكل كامل وخلفية وتفاصيل وحجم عند الحاجة. كثرة الصور لا تعني أن العميل فهم المنتج أكثر.",
+    "sections": [
+      [
+        "حدّد قائمة تصوير ثابتة",
+        "للملابس، فكّر في صورة أمامية وخلفية وتفاصيل القماش والتشطيب. اذكر مقاس القطعة وقياسات العارضة فقط إن كانت معلومة. حافظ على اللون وتجنّب تعديل يغيّر المنتج الذي سيصل للعميل."
+      ],
+      [
+        "افصل دور الحملة عن الكتالوج",
+        "تعرض صورة الحملة الجو البصري، بينما يجب أن توضّح صورة الكتالوج المنتج أيضًا. اختبر القص داخل البطاقات والصفحة ووحّد الأسلوب لتسهيل مقارنة القصّات."
+      ],
+      [
+        "جهّز الملفات للعرض",
+        "استخدم أسماء مفيدة ونصوصًا بديلة تصف الصور. اختر أبعادًا مناسبة بدل رفع أكبر نسخة دائمًا. راجع التحميل على الجوال وطابق الصور بالتصميم واللون واحتفظ بالأصول."
+      ],
+      [
+        "ابنِ المعرض حول ما يريد العميل معرفته",
+        "في الملابس، توضّح الصورة الكاملة القصّة ويُظهر التقريب القماش أو التشطيب. أربع لقطات متشابهة لا تعوّض غياب الخلفية. راجع صورة التصنيف أيضًا؛ قد يخفي القص الإعلاني المنتج عندما يصغر. حافظ على لون قريب من الحقيقة وطابق جميع الصور بالتصميم نفسه. وأضف الفيديو عندما يشرح الحركة أو التفصيل، لا لزيادة العدد فقط."
+      ]
+    ],
+    "checklist": [
+      "صوّر الشكل والتفاصيل.",
+      "راجع اللون وهوية القطعة.",
+      "اختبر القص على الجوال.",
+      "احتفظ بالملفات الأصلية."
+    ],
+    "faq": [
+      [
+        "هل يلزم فيديو لكل منتج؟",
+        "أضفه عندما تساعد الحركة على تقييم القطعة؛ قد تكفي صور واضحة ودقيقة."
+      ]
+    ],
+    "editorial_detail_heading": "ابنِ المعرض حول ما يريد العميل معرفته",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الصورة التي تنقص العميل لاتخاذ القرار؟",
+        "بعد الصورة الرئيسية، اسأل ما الذي لا يستطيع العميل فهمه: الخلفية، أم الخامة، أم الحجم، أم تفصيل الإغلاق؟ صوّر هذه النقاط بدل تكرار زاوية متشابهة. حافظ على تطابق اللون المعروض مع الخيار المحدد، وراجع القص على الجوال قبل تجهيز صور الكتالوج كله. إذا كانت الصورة للتوضيح أو تعرض إضافات غير مشمولة، وضّح ذلك؛ لا تجعل العميل يعتمد على ما يراه ثم يستلم شيئًا مختلفًا عن توقعه."
+      ]
+    ],
+    "editorial_followup_heading": "ما الصورة التي تنقص العميل لاتخاذ القرار؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-product-photos.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Camera lens and two product-photography frames.",
+      "ar": "عدسة كاميرا وإطاران لصور المنتجات."
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-versus-woocommerce-seo",
+  "category": "platforms",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+  ],
+  "related": [
+    "shopify-seo-titles",
+    "shopify-sitemap-google",
+    "shopify-versus-wordpress"
+  ],
+  "en": {
+    "title": "Shopify vs WooCommerce: which is better for SEO?",
+    "answer": "Both can support useful search-friendly pages. What matters is the site you publish and maintain, not an SEO promise attached to the platform name.",
+    "sections": [
+      [
+        "Review technical requirements",
+        "Inspect canonical URLs, redirects, language routes and sitemap handling in each proposal. Confirm how the owner will edit titles and descriptions. A plugin installation is not proof that these outputs are correct."
+      ],
+      [
+        "Review content operations",
+        "A content-heavy business may value a particular editorial workflow; a product-led team may prefer a different catalogue process. Ask editors to publish and update representative pages. Content that cannot be maintained becomes a weakness on either platform."
+      ],
+      [
+        "Compare measurable evidence",
+        "Use Search Console and a documented baseline after launch. Separate crawl issues from competitive ranking questions. Avoid accepting promises of first position as evidence for a platform choice; evaluate scope, execution and the ability to improve the site."
+      ],
+      [
+        "Compare the work your team can sustain",
+        "A publishing team may care about how easily it creates and updates detailed articles; a retailer may care more about product and collection content. Test those tasks, then inspect the actual titles, canonical links, redirects and language pages. An installed plugin or an automatic sitemap does not prove everything is correct. After launch, use Search Console to distinguish access problems from competitive ranking issues. Do not change platforms simply because someone promises first position without examining your content and current problems."
+      ]
+    ],
+    "checklist": [
+      "Inspect published metadata and routes.",
+      "Test content maintenance.",
+      "Measure with a consistent baseline."
+    ],
+    "faq": [
+      [
+        "Does installing an SEO plugin guarantee ranking?",
+        "No. Configuration, content quality and many other factors still matter."
+      ]
+    ],
+    "editorial_detail_heading": "Compare the work your team can sustain",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Compare control and execution separately",
+        "Identify the search tasks your site needs, then demonstrate how the proposed setup handles them. Review content, internal links, performance and migration work alongside technical controls. More settings do not guarantee better decisions, and fewer settings do not explain the quality of the published pages."
+      ]
+    ],
+    "editorial_followup_heading": "Compare control and execution separately"
+  },
+  "ar": {
+    "title": "أيهما أفضل للظهور في جوجل: شوبيفاي أم ووردبريس؟",
+    "answer": "يمكن بناء صفحات مفيدة للبحث على الخيارين. الأهم ما تنشره وتحدّثه فعلًا، لا وعد SEO مرتبط باسم المنصة.",
+    "sections": [
+      [
+        "راجع التقنية",
+        "افحص الروابط الأساسية والتحويل واللغات والخريطة وتعديل العناوين. تثبيت إضافة لا يثبت صحة المخرجات."
+      ],
+      [
+        "راجع إدارة المحتوى",
+        "دع المحرّر ينشر صفحات ممثّلة ويحدّثها. قد تختلف ملاءمة النشر والكتالوج بحسب الفريق."
+      ],
+      [
+        "قارن بالبيانات",
+        "استخدم Search Console ونقطة بداية، وميّز مشاكل الزحف عن المنافسة. لا تعتبر وعد المركز الأول دليل تفوّق."
+      ],
+      [
+        "قارن العمل الذي يستطيع فريقك الاستمرار فيه",
+        "قد تهم فريق النشر سهولة إعداد المقالات وتحديثها، ويهم المتجر محتوى المنتجات والتصنيفات. جرّب المهام ثم افحص العناوين والروابط الأساسية والتحويل واللغات المنشورة. الإضافة المثبتة والخريطة التلقائية لا تثبتان صحة كل شيء. بعد النشر، استخدم Search Console لفصل تعذر الوصول عن المنافسة. لا تغيّر المنصة لوعد مركز أول دون مراجعة المحتوى والمشكلة الحالية."
+      ]
+    ],
+    "checklist": [
+      "افحص البيانات والروابط.",
+      "اختبر التحديث.",
+      "قِس بصورة متّسقة."
+    ],
+    "faq": [
+      [
+        "هل تضمن إضافة SEO الترتيب؟",
+        "لا؛ تبقى جودة المحتوى والإعداد والتنفيذ مؤثّرة."
+      ]
+    ],
+    "editorial_detail_heading": "قارن العمل الذي يستطيع فريقك الاستمرار فيه",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي أقارنه إذا كان هدفي الظهور في البحث؟",
+        "اكتب المهام التي تحتاجها صفحاتك، مثل تنظيم المحتوى والعناوين والروابط والتحويلات، ثم اسأل كيف تنفذ في الإعداد المقترح. راجع جودة النص وسهولة الوصول للصفحات وأداء الجوال أيضًا. كثرة الإضافات لا تعني أن الموقع سيظهر أولًا، وقلة الإعدادات لا تختصر كل أسباب الترتيب. اطلب خطة لصفحات مشروعك ومتابعة نتائجها، بدل وعد بأن اسم المنصة وحده يحل الظهور في جوجل."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي أقارنه إذا كان هدفي الظهور في البحث؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-woocommerce-seo.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

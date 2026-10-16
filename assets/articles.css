@@ -1,0 +1,73 @@
+.article-skip{position:fixed;inset-block-start:0;inset-inline-start:12px;translate:0 -150%;padding:12px 20px;background:#171717;color:white!important;z-index:100}
+.article-skip:focus{translate:0 0}
+.article-library{max-width:1120px!important}
+.article-eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fikra-accent, #005bea);margin-bottom:16px!important}
+.article-topics{display:flex;flex-wrap:wrap;gap:10px;margin-block:32px 48px}
+.article-topics a{padding:8px 14px;border:1px solid #d8d4cb;border-radius:30px;font-size:14px;text-decoration:none;background:#fdfcf9}
+.article-topics a:hover{border-color:var(--fikra-accent, #005bea)}
+.article-topic{scroll-margin-top:24px;margin-top:56px!important}
+.article-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.article-card{min-width:0;padding:28px;background:#fdfcf9;border:1px solid #d8d4cb;border-radius:16px}
+.article-card-image{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;margin-bottom:22px;border-radius:10px;background:#eee9df}
+.article-hero{margin:0 0 32px;overflow:hidden;border:1px solid #d8d4cb;border-radius:16px;background:#eee9df}
+.article-hero img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
+.article-category,.article-read-time{display:block;font-size:12px;line-height:1.5;color:#625d54}
+.article-card h3{font-size:22px;line-height:1.3;letter-spacing:-.02em;margin:12px 0 16px}
+.article-card h3 a{text-decoration:none}
+.article-card h3 a:hover{text-decoration:none}
+.article-card p{font-size:15px;line-height:1.75;color:#534f47}
+.article-content p,.article-content li{overflow-wrap:anywhere}
+.article-byline{font-size:13px;color:#625d54;margin-bottom:28px!important}
+.article-answer{padding:24px 28px;border-inline-start:4px solid var(--fikra-accent, #005bea);background:#eeece5;border-radius:0 12px 12px 0}
+.article-answer h2{font-size:15px!important;text-transform:uppercase;letter-spacing:.04em}
+.article-answer p{font-size:20px;line-height:1.7;margin:0!important}
+.article-toc{margin-top:28px;padding:24px 28px;border:1px solid #d8d4cb;border-radius:12px;font-size:15px}
+.article-toc ol{margin:12px 0 0;padding-inline-start:24px}
+.article-toc li+li{margin-top:8px}
+.article-content section[id]{scroll-margin-top:24px}
+.article-checklist{padding-inline-start:24px}
+.article-checklist li+li{margin-top:10px}
+.article-references{border-top:1px solid #d8d4cb;padding-top:24px}
+.article-references h2{font-size:18px!important}
+.article-references p{font-size:13px;color:#625d54}
+.article-related{margin-top:40px;padding:24px 28px;border:1px solid #d8d4cb;border-radius:12px}
+.article-related h2{font-size:20px!important}
+.article-related ul{padding-inline-start:20px}
+.article-related li+li{margin-top:10px}
+.article-related p{margin:20px 0 0!important}
+html[dir=rtl] .article-eyebrow,html[dir=rtl] .article-answer h2{letter-spacing:0}
+html[dir=rtl] .article-answer{border-radius:12px 0 0 12px}
+html[dir=rtl] .article-card h3{letter-spacing:0;line-height:1.5}
+@media(max-width:680px){.article-card-grid{grid-template-columns:minmax(0,1fr)}.article-card{padding:22px}.article-answer,.article-toc,.article-related{padding:20px}.article-answer p{font-size:18px}.article-topics{margin-block:24px 36px}.article-card h3{font-size:21px}.article-byline{line-height:1.8}}
+.article-search{margin-top:28px;max-width:640px}
+.article-search label{display:block;font-weight:700;font-size:15px;margin-bottom:8px}
+.article-search input{display:block;width:100%;padding:14px 16px;border:1px solid #b8b1a6;border-radius:10px;font:inherit;background:#fffefa;color:inherit}
+.article-search input:focus-visible{outline:3px solid var(--fikra-accent, #005bea);outline-offset:3px}
+.article-search p{font-size:13px;color:#625d54;margin:8px 0!important}
+.article-card[hidden],.article-topic[hidden],.article-search[hidden]{display:none!important}
+.article-opening{padding:0;background:transparent;border:0;border-radius:0;margin:28px 0 32px}
+.article-opening p{font-size:20px;line-height:1.8;color:#393b40}
+.article-table-wrap{overflow-x:auto;margin:20px 0 28px;border:1px solid #d8d4cb;border-radius:12px}
+.article-table-wrap:focus-visible{outline:3px solid var(--brand-accent,#004eff);outline-offset:3px}
+.article-table-wrap table{border-collapse:collapse;width:100%;min-width:540px;font-size:15px;line-height:1.7;text-align:start}
+.article-table-wrap th,.article-table-wrap td{padding:16px 18px;border-bottom:1px solid #d8d4cb;vertical-align:top}
+.article-table-wrap thead th{background:#eeece5;font-weight:700}
+.article-table-wrap tbody th{font-weight:600;width:24%}
+.article-table-wrap tbody tr:last-child>*{border-bottom:0}
+.article-table-hint{display:none}
+@media(max-width:640px){.article-content .article-table-hint{display:block;font-size:14px;line-height:1.6;color:#62605b;margin-bottom:8px}.article-table-hint+.article-table-wrap{margin-top:8px}}
+/* Compact library cards and bilingual pagination. */
+.article-card{padding:22px}
+.article-card-image{height:170px;aspect-ratio:auto;object-fit:contain;margin-bottom:16px}
+.article-card h3{margin:10px 0 12px}
+.article-card p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin-block:0 14px}
+.article-topics a[aria-current]{background:var(--fikra-accent,#005bea);border-color:var(--fikra-accent,#005bea);color:white}
+.article-pagination{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-block:28px}
+.article-pagination[hidden]{display:none!important}
+.article-pagination button{min-width:40px;min-height:44px;padding:8px 12px;border:1px solid #d8d4cb;border-radius:8px;background:#fdfcf9;color:#171717;font:inherit;font-size:14px;cursor:pointer}
+.article-pagination button[aria-current]{background:var(--fikra-accent,#005bea);border-color:var(--fikra-accent,#005bea);color:white}
+.article-pagination button:disabled{opacity:.45;cursor:default}
+.article-pagination button:focus-visible,.article-topics a:focus-visible{outline:3px solid var(--fikra-accent,#005bea);outline-offset:3px}
+#article-results{scroll-margin-top:24px}
+#article-results:focus{outline:none}
+@media(max-width:680px){.article-card{padding:18px}.article-card-image{height:145px}.article-topic{margin-top:32px!important}}

@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-markets-languages",
+  "category": "international",
+  "service": "arabic-english-shopify",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/international"
+    }
+  ],
+  "related": [
+    "arabic-english-shopify-store",
+    "shopify-currency-display",
+    "shopify-shipping-rates"
+  ],
+  "en": {
+    "title": "What is the difference between Shopify markets and languages?",
+    "answer": "No. Language helps people understand the store; selling into a country also needs a working payment, delivery and support arrangement.",
+    "sections": [
+      [
+        "Map real customer needs",
+        "An Arabic-speaking customer might shop from more than one country, and a country can contain customers using different languages. Write down the actual destinations you serve and the languages you can maintain. Do not create a market simply to make a country name appear in a selector."
+      ],
+      [
+        "Check operational readiness",
+        "Before expanding, verify delivery coverage, return handling and payment availability for the intended customer. Decide who approves localised product content. If a market has different products or prices, check the configuration available to your plan and store rather than promising uniform capabilities everywhere."
+      ],
+      [
+        "Review the complete route",
+        "Open the store as a customer in each intended configuration and inspect language, currency presentation and shipping eligibility. A translated homepage does not prove the order can be completed. Keep a launch matrix with each market, language, payment route and delivery test outcome."
+      ],
+      [
+        "Separate language from selling coverage",
+        "An Arabic-speaking customer can live in several countries, and customers in one country may use different languages. List the destinations you actually serve, then the languages you can maintain. Before adding a new market, test a local address, the payment route and return handling. A market selector that shows the country name is not evidence that the order can be fulfilled. Document exceptions before advertising the new destination."
+      ]
+    ],
+    "checklist": [
+      "List actual destinations and languages.",
+      "Confirm delivery and return coverage.",
+      "Review plan and configuration dependencies.",
+      "Test each supported buying route."
+    ],
+    "faq": [
+      [
+        "Does publishing Arabic automatically enable selling throughout the GCC?",
+        "No. Language content does not by itself establish payment, shipping or operational coverage for another country."
+      ]
+    ],
+    "editorial_detail_heading": "Separate language from selling coverage",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Treat each market as an operating decision",
+        "For one proposed destination, review language, eligible payment methods, delivery and the prices or terms customers see. Assign owners for changes in those areas. Translation is one part of the experience; a language switch alone cannot establish that a destination is ready for sales."
+      ]
+    ],
+    "editorial_followup_heading": "Treat each market as an operating decision"
+  },
+  "ar": {
+    "title": "هل إضافة العربية تعني أني أقدر أبيع في كل الخليج؟",
+    "answer": "لا. اللغة تساعد العميل على فهم المتجر، لكن البيع في دولة يحتاج أيضًا إلى دفع وتوصيل ودعم مناسب. وجود العربية لا يجهّز هذه الأمور تلقائيًا.",
+    "sections": [
+      [
+        "حدّد احتياجات العملاء",
+        "قد يتسوّق الناطق بالعربية من دول مختلفة، وقد يستخدم سكان الدولة أكثر من لغة. اكتب الوجهات التي تخدمها واللغات التي تستطيع تحديثها، ولا تضف سوقًا لمجرّد عرض اسم الدولة."
+      ],
+      [
+        "تحقّق من الجاهزية التشغيلية",
+        "راجع تغطية التوصيل والاسترجاع والدفع قبل التوسّع. حدّد مسؤول المحتوى المحلي، وتحقّق من الخصائص المتاحة لإعداداتك وباقتك عند اختلاف المنتجات والأسعار."
+      ],
+      [
+        "راجع الرحلة كاملة",
+        "اختبر اللغة وعرض العملة وأهلية الشحن لكل إعداد. ترجمة الرئيسية لا تثبت إمكانية إتمام الطلب. استخدم جدولًا للأسواق واللغات وطرق الدفع ونتائج الاختبار."
+      ],
+      [
+        "افصل اللغة عن تغطية البيع",
+        "قد يعيش الناطق بالعربية في دول مختلفة، وقد يستخدم عملاء الدولة نفسها أكثر من لغة. ابدأ بالوجهات التي تستطيع خدمتها، ثم اللغات التي تستطيع تحديثها. قبل إضافة سوق، اختبر عنوانًا فيه والدفع والاسترجاع. ظهور اسم الدولة في القائمة لا يثبت أنك تستطيع تنفيذ الطلب. احسم الاستثناءات قبل الإعلان عن التوصيل إليها."
+      ]
+    ],
+    "checklist": [
+      "حدّد الوجهات واللغات الفعلية.",
+      "أكّد تغطية التوصيل والاسترجاع.",
+      "راجع متطلّبات الإعداد والباقة.",
+      "اختبر كل رحلة مدعومة."
+    ],
+    "faq": [
+      [
+        "هل نشر العربية يفعّل البيع في جميع دول الخليج؟",
+        "لا. اللغة وحدها لا تنشئ تغطية الدفع والشحن والتشغيل لدولة أخرى."
+      ]
+    ],
+    "editorial_detail_heading": "افصل اللغة عن تغطية البيع",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي أحتاجه غير الترجمة؟",
+        "اختر دولة تريد البيع إليها وراجع رحلة عميل منها: اللغة والعنوان والدفع والتوصيل والسعر والسياسات. حدّد من يتابع أي اختلاف في هذه المعلومات، خاصة إذا تغيرت تكلفة الشحن أو توافر المنتجات. لا تفتح أسواقًا كثيرة لمجرد أن الإعداد يسمح بإظهارها؛ الزائر يتوقع أن يستطيع إكمال طلبه بالشروط التي يقرأها. ابدأ بسوق يمكنك خدمته فعلًا، ثم وسّع بعد تجربة العملية وتوثيق احتياجاتها."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي أحتاجه غير الترجمة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-markets-languages.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Globe connected to separate market and language cards.",
+      "ar": "كرة أرضية مرتبطة ببطاقتي السوق واللغة."
+    }
+  }
+}

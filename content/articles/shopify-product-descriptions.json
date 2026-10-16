@@ -1,0 +1,163 @@
+{
+  "slug": "shopify-product-descriptions",
+  "category": "catalogue",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/products/details/product-descriptions"
+    }
+  ],
+  "related": [
+    "shopify-product-photos",
+    "shopify-size-guide",
+    "shopify-seo-titles"
+  ],
+  "en": {
+    "title": "How do you write useful Shopify product descriptions?",
+    "answer": "Write what someone cannot reliably learn from the photos: fit, material, contents, care and any detail that changes the buying decision.",
+    "sections": [
+      [
+        "Turn specifications into clear information",
+        "Shopify’s guidance covers product features, specifications and supported benefits. For your own item, collect verified material, dimensions, fit, care and included components. Explain an important detail in plain language, but do not turn a fabric name into an unsupported performance claim."
+      ],
+      [
+        "Answer the hesitation",
+        "Read actual customer enquiries and identify unanswered questions. Is the garment lined? Does the item include an accessory? Is it ready to ship or made to order? Put the most important answers near the buying decision and leave secondary background further down the page."
+      ],
+      [
+        "Edit for consistency",
+        "Use a shared structure across a product family while keeping the facts unique. Translate the meaning accurately, including care and size terminology. AI can help draft, but someone who knows the product should approve every factual claim. Keep a record of unresolved details instead of filling them with plausible guesses."
+      ],
+      [
+        "Use customer questions as your outline",
+        "If people ask whether an abaya is lined or whether an accessory is included, answer those questions directly. Separate verified facts from descriptive language: a fabric name does not prove a performance claim. Use a consistent structure across similar items, but check each product’s own details. Have the person who knows the garment approve the final version, especially after translation. Leave an unknown detail for confirmation rather than inventing a convincing answer."
+      ]
+    ],
+    "checklist": [
+      "Identify the product clearly.",
+      "Include verified material, fit and care details.",
+      "Answer recurring customer questions.",
+      "Approve factual claims before publication."
+    ],
+    "faq": [
+      [
+        "Should every description target the same keyword?",
+        "No. Describe the actual product naturally and distinguish it from similar items. Repeating unrelated search terms makes the copy less useful."
+      ]
+    ],
+    "editorial_detail_heading": "Use customer questions as your outline",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Replace vague praise with answerable questions",
+      "columns": [
+        "Generic phrase",
+        "Information the customer can use"
+      ],
+      "rows": [
+        [
+          "Beautiful quality",
+          "Which material, construction or finishing facts can you verify?"
+        ],
+        [
+          "Perfect fit",
+          "Which measurements, cut and size guidance apply to this product?"
+        ],
+        [
+          "Everything you need",
+          "Which accessories or components are actually included?"
+        ],
+        [
+          "Fast delivery",
+          "What preparation and delivery arrangement can the business support?"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Answer the purchase-stopping question",
+        "Read recent customer enquiries and use the recurring questions to improve the description. State measurable or verified details plainly and explain what is included. Avoid filling space with claims like premium or perfect when customers still cannot tell the dimensions, material or suitability of the item."
+      ]
+    ],
+    "editorial_followup_heading": "Answer the purchase-stopping question"
+  },
+  "ar": {
+    "title": "ماذا أكتب في وصف المنتج غير الاسم والسعر؟",
+    "answer": "اكتب ما لا توضّحه الصورة وحدها: القماش والقصّة والمحتويات والعناية وأي تفصيل قد يغيّر قرار الشراء. الوصف ليس مكانًا لمدح عام يصلح لكل قطعة.",
+    "sections": [
+      [
+        "حوّل المواصفات إلى معلومات واضحة",
+        "اجمع الخامة والأبعاد والقصّة والعناية والمكوّنات المؤكّدة. تتناول إرشادات شوبيفاي المواصفات والفوائد المدعومة؛ لا تحوّل اسم قماش إلى ادّعاء أداء بلا دليل."
+      ],
+      [
+        "أجب عن التردّد",
+        "راجع الاستفسارات: هل توجد بطانة؟ هل يشمل المنتج إكسسوارًا؟ هل هو جاهز أم تفصيل؟ ضع الإجابات المهمة قرب قرار الشراء واترك التفاصيل الثانوية لاحقًا."
+      ],
+      [
+        "وحّد الأسلوب وراجع الحقائق",
+        "استخدم بنية مشتركة مع معلومات خاصة بكل منتج. راجع ترجمة العناية والمقاسات، واعتمد الحقائق مع مسؤول المنتج حتى لو ساعد الذكاء الاصطناعي في المسودة. لا تملأ النواقص بتخمينات."
+      ],
+      [
+        "ابدأ بأسئلة العملاء",
+        "إذا يتكرر السؤال عن البطانة أو الإكسسوار، ضعه في الوصف بصراحة. افصل الحقيقة عن الانطباع؛ اسم القماش وحده لا يثبت أنه يؤدي وظيفة معينة. استخدم ترتيبًا متّسقًا للمنتجات المتشابهة مع مراجعة حقائق كل قطعة. واعتمد النص مع من يعرف المنتج، خصوصًا بعد الترجمة. المعلومة الناقصة تحتاج إلى سؤال، لا إلى عبارة مقنعة من التخمين."
+      ]
+    ],
+    "checklist": [
+      "عرّف المنتج بوضوح.",
+      "اكتب المواصفات المؤكّدة.",
+      "أجب عن الأسئلة المتكرّرة.",
+      "اعتمد الادّعاءات قبل النشر."
+    ],
+    "faq": [
+      [
+        "هل أكرّر كلمة بحث واحدة في كل وصف؟",
+        "صف المنتج الفعلي بشكل طبيعي وميّزه عن غيره؛ الكلمات غير المرتبطة تقلّل فائدة النص."
+      ]
+    ],
+    "editorial_detail_heading": "ابدأ بأسئلة العملاء",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "استبدل المدح العام بمعلومة مفيدة",
+      "columns": [
+        "عبارة عامة",
+        "ما الذي يفيد العميل؟"
+      ],
+      "rows": [
+        [
+          "جودة جميلة",
+          "ما الخامة أو التشطيب الذي تستطيع تأكيده؟"
+        ],
+        [
+          "مقاس مثالي",
+          "ما القياسات والقصّة ودليل المقاس لهذه القطعة؟"
+        ],
+        [
+          "كل ما تحتاجه",
+          "ما الإكسسوارات أو المكونات المشمولة فعلًا؟"
+        ],
+        [
+          "توصيل سريع",
+          "ما التجهيز والتوصيل الذي تستطيع الالتزام به؟"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "من أين أبدأ كتابة الوصف؟",
+        "ارجع إلى أسئلة العملاء عن المنتج: هل يسألون عن الخامة أو القياس أو ما يأتي معه أو طريقة الاستخدام؟ اكتب الإجابات المؤكدة بوضوح، وافصل بينها بعناوين تساعد على القراءة. لا تعوّض نقص المعلومة بكلمات مثل فاخر ومثالي؛ قد يريد العميل معرفة طول القطعة فقط. راجع الوصف مع من يعرف المنتج فعلًا، وحدّثه إذا تغيرت المواصفات بدل نسخ النص نفسه إلى منتجات تختلف في تفاصيل مهمة."
+      ]
+    ],
+    "editorial_followup_heading": "من أين أبدأ كتابة الوصف؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-product-descriptions.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Product image next to clear description text and an approval mark.",
+      "ar": "صورة منتج بجانب نص وصف واضح وعلامة اعتماد."
+    }
+  }
+}

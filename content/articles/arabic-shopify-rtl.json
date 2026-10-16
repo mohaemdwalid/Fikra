@@ -1,0 +1,113 @@
+{
+  "slug": "arabic-shopify-rtl",
+  "category": "international",
+  "service": "arabic-english-shopify",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes"
+    }
+  ],
+  "related": [
+    "arabic-english-shopify-store",
+    "mobile-shopify-design",
+    "choose-shopify-theme"
+  ],
+  "en": {
+    "title": "What should you check in an Arabic Shopify RTL layout?",
+    "answer": "Translation changes the words; RTL work changes how the interface reads and behaves. Check the components where the layout still feels wrong.",
+    "sections": [
+      [
+        "Check components, not just paragraphs",
+        "Review navigation drawers, breadcrumbs, product sliders, price rows and button icons. Directional arrows should make sense in context, while logos and product photography should retain their intended appearance. Mirroring an entire page can make some elements wrong even when the text reads correctly."
+      ],
+      [
+        "Handle mixed-direction content",
+        "Arabic sentences often contain English brand names, sizes, numbers or SKUs. Check their ordering and spacing on real products. Use a font that renders Arabic clearly, and review joined letter forms, line height and long labels. Do not solve a layout problem by removing useful product information."
+      ],
+      [
+        "Test in a controlled preview",
+        "Shopify provides theme customisation tools and recommends keeping a copy before changes. Use an unpublished preview to review Arabic fixes, then test the main menu, collection, product and cart on a real phone. Include any app widgets because their layout may differ from the surrounding theme."
+      ],
+      [
+        "Do not mirror the whole page blindly",
+        "Start with menus, breadcrumbs, product selectors and the cart. Directional arrows may need changing, while logos and product photography usually must keep their original orientation. Test mixed text such as an Arabic sentence with an English brand name or size. Long labels reveal problems hidden by a short demo. Include app widgets in the review: their layout can be independent of the theme even when the surrounding page is correct."
+      ]
+    ],
+    "checklist": [
+      "Review menus, arrows and reading order.",
+      "Check mixed Arabic, English and numbers.",
+      "Test fonts with long product names.",
+      "Review third-party widgets separately."
+    ],
+    "faq": [
+      [
+        "Should every image be mirrored in Arabic?",
+        "No. Product details, logos and text inside images can become inaccurate when mirrored. Review each component according to its purpose."
+      ]
+    ],
+    "editorial_detail_heading": "Do not mirror the whole page blindly",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Check the awkward combinations",
+        "A page can align right and still be hard to use. Look at a phone number beside Arabic text, a price beside a currency label and a carousel with directional arrows. Review the actual content on a narrow screen; a clean empty template may hide the problem."
+      ]
+    ],
+    "editorial_followup_heading": "Check the awkward combinations"
+  },
+  "ar": {
+    "title": "المتجر مترجم للعربية، لماذا شكله غير مضبوط؟",
+    "answer": "الترجمة تغيّر الكلمات، لكن ترتيب الواجهة يحتاج إلى مراجعة أيضًا. لذلك قد تظهر النصوص بالعربية وتظل القائمة والأسهم والأرقام مربكة.",
+    "sections": [
+      [
+        "راجع المكوّنات لا الفقرات فقط",
+        "افحص القوائم ومسار التصفّح والسلايدر والأسعار والأيقونات. ينبغي أن تناسب الأسهم السياق مع الحفاظ على الشعار وصور المنتجات. قلب الصفحة كلها قد يجعل بعض العناصر خاطئة."
+      ],
+      [
+        "عالج النص المختلط",
+        "راجع أسماء العلامات والمقاسات والأرقام وSKU داخل الجمل العربية. اختر خطًا واضحًا واختبر اتصال الحروف وتباعد السطور والعناوين الطويلة. لا تحذف معلومات المنتج لحل مشكلة تنسيق."
+      ],
+      [
+        "اختبر في معاينة آمنة",
+        "توفّر شوبيفاي أدوات تخصيص وتوصي بنسخة قبل التغييرات. راجع التعديلات في قالب غير منشور ثم اختبر القائمة والتصنيف والمنتج والسلة على هاتف، مع التطبيقات المضمّنة."
+      ],
+      [
+        "لا تقلب كل شيء دفعة واحدة",
+        "راجع القائمة ومسار التصفّح والخيارات والسلة. قد تحتاج الأسهم إلى اتجاه مختلف، لكن الشعار وصورة المنتج يجب ألا يتغيّرا بلا سبب. جرّب جملة عربية فيها اسم إنجليزي أو مقاس وأرقام، وعناوين طويلة بدل نص تجريبي قصير. راجع أدوات التطبيقات أيضًا؛ قد تكون الواجهة صحيحة بينما يظل مكوّن خارجي باتجاه مختلف."
+      ]
+    ],
+    "checklist": [
+      "راجع القوائم والأسهم.",
+      "اختبر العربية مع الأرقام.",
+      "افحص العناوين الطويلة.",
+      "راجع أدوات التطبيقات منفصلة."
+    ],
+    "faq": [
+      [
+        "هل تُقلب جميع الصور للعربية؟",
+        "لا. قد يغيّر ذلك تفاصيل المنتج أو الشعار أو النص داخل الصورة. راجع كل عنصر وفق غرضه."
+      ]
+    ],
+    "editorial_detail_heading": "لا تقلب كل شيء دفعة واحدة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "أين تظهر مشكلة الاتجاه عادة؟",
+        "ابدأ بالأماكن التي تجمع العربية مع أرقام أو كلمات إنجليزية: السعر والعملة، رقم الهاتف، كود الخصم واسم المنتج. ثم افتح القائمة والفلاتر ومعرض الصور على الجوال؛ قد يكون النص صحيحًا بينما ترتيب الأزرار يجعل الاستخدام مربكًا. صوّر كل مشكلة واذكر الخطوة التي أظهرتها. عبارة «العربي غير مضبوط» وحدها لا تساعد المصمم على معرفة هل الخلل في الاتجاه أم المسافة أم الترجمة."
+      ]
+    ],
+    "editorial_followup_heading": "أين تظهر مشكلة الاتجاه عادة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/arabic-shopify-rtl.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Right-aligned storefront content with a right-to-left direction arrow.",
+      "ar": "محتوى متجر بمحاذاة يمين وسهم لاتجاه القراءة العربي."
+    }
+  }
+}

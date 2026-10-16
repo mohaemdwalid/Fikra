@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-currency-display",
+  "title_ar": "هل تغيير العملة في المتجر يعني أن العميل يدفع بها؟",
+  "lead_en": "Not necessarily. Display currency, checkout currency and the currency received by your business can be different. Check the payment route, not just the selector.",
+  "lead_ar": "ليس دائمًا. قد تختلف عملة العرض عن عملة الدفع والعملة التي تستلمها. افحص رحلة الدفع نفسها بدل الاكتفاء بتغيّر الرقم في الصفحة.",
+  "heading_en": "What the customer actually pays",
+  "detail_en": "Choose a destination and compare the product price, cart total, shipping, discount and final payment currency. If the currency changes, the customer should understand when and why. Verify what your provider supports for your business and account; a display widget cannot create payment support. Keep a record of rounding and market-pricing settings, then recheck after changing providers, apps or the markets you serve.",
+  "heading_ar": "ما الذي يخرج من حساب العميل؟",
+  "detail_ar": "اختر وجهة وطابق سعر المنتج والسلة والشحن والخصم والعملة النهائية. إذا تغيّرت العملة، يجب أن يفهم العميل أين حدث ذلك. أكّد دعم المزوّد لحساب نشاطك؛ أداة تحويل العرض لا تنشئ دعم دفع. وثّق التقريب والأسعار الخاصة بالأسواق، وأعد المراجعة عند تغيير المزوّد أو التطبيق أو الوجهات."
+}

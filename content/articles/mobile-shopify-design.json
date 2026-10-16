@@ -1,0 +1,171 @@
+{
+  "slug": "mobile-shopify-design",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes"
+    }
+  ],
+  "related": [
+    "arabic-shopify-rtl",
+    "shopify-product-filters",
+    "shopify-speed-improvements"
+  ],
+  "en": {
+    "title": "What makes a Shopify store easier to use on mobile?",
+    "answer": "Watch someone find and buy a product on a phone. Fitting within the screen is necessary, but it is not the whole experience.",
+    "sections": [
+      [
+        "Start with the buying task",
+        "Ask a reviewer to find an item, inspect its details, choose a size and open the cart. Observe where they pause or tap the wrong element. Keep navigation labels clear and make option states visible. Do not infer success only from the absence of horizontal scrolling."
+      ],
+      [
+        "Keep overlays under control",
+        "Announcement bars, chat tools, cookie controls and sticky purchase buttons compete for a small screen. Review them together rather than approving each widget in isolation. Check that dialogs can be closed, text remains readable and important content is not covered by fixed elements."
+      ],
+      [
+        "Test content extremes",
+        "Use a long title, an unavailable variant and the longest translated label. Review menus and product galleries in both directions when the store supports Arabic. Shopify theme customisation provides the implementation tools; your acceptance check should focus on the customer’s actual ability to finish the task."
+      ],
+      [
+        "Give the shopper a task, not a tour",
+        "Ask them to find an item, inspect its size information and select a variant without coaching. Notice wrong taps and places they hesitate. Review sticky buttons, chat and consent overlays together; individually neat widgets can cover the same small screen. Use a long title, an unavailable option and Arabic labels if supported. The useful result is a completed, understood task, not merely a screenshot without horizontal scrolling."
+      ]
+    ],
+    "checklist": [
+      "Complete a product-finding task on a phone.",
+      "Check option states and tap targets.",
+      "Review fixed elements together.",
+      "Test long titles and Arabic content."
+    ],
+    "faq": [
+      [
+        "Is a responsive theme enough?",
+        "It is a starting point. Your content, apps and custom sections can still introduce problems that need checking on real pages."
+      ]
+    ],
+    "editorial_detail_heading": "Give the shopper a task, not a tour",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "A small test someone else can perform",
+      "columns": [
+        "Task",
+        "Watch for"
+      ],
+      "rows": [
+        [
+          "Find a particular product",
+          "Labels that make sense without your explanation."
+        ],
+        [
+          "Choose a size or colour",
+          "A visible selection and a correct item in the cart."
+        ],
+        [
+          "Read delivery information",
+          "Readable text that does not disappear behind a sticky widget."
+        ],
+        [
+          "Recover from an error",
+          "A helpful message and preserved input."
+        ],
+        [
+          "Switch language",
+          "A relevant equivalent page and understandable controls."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Watch someone shop without coaching",
+        "Give a person a specific product to find and ask them to reach the point before payment. Do not explain where buttons are. Note every pause, mistaken tap and question. These observations can expose a hidden size selector or delivery uncertainty that a polished screenshot will not show."
+      ]
+    ],
+    "editorial_followup_heading": "Watch someone shop without coaching"
+  },
+  "ar": {
+    "title": "كيف أعرف أن متجري مريح على الجوال؟",
+    "answer": "راقب شخصًا يعثر على قطعة ويشتريها من الهاتف. ملاءمة العرض للشاشة مهمة، لكنها لا تثبت أن النص والاختيار والدفع مريحون.",
+    "sections": [
+      [
+        "ابدأ بمهمة الشراء",
+        "اطلب العثور على قطعة ومراجعة تفاصيلها واختيار مقاس وفتح السلة. راقب التردّد والنقر الخاطئ. وضّح القوائم وحالات الخيارات ولا تكتفِ بغياب التمرير الأفقي."
+      ],
+      [
+        "راجع العناصر العائمة معًا",
+        "تتنافس أشرطة الإعلان والدردشة والكوكيز والأزرار الثابتة على مساحة صغيرة. اختبرها معًا، وتأكّد من إغلاق النوافذ وقراءة النص وعدم تغطية المعلومات المهمة."
+      ],
+      [
+        "اختبر الحالات الصعبة",
+        "جرّب عنوانًا طويلًا وخيارًا نافدًا وترجمة طويلة. راجع القوائم والمعارض بالاتجاهين عند دعم العربية. توفّر أدوات القالب التنفيذ؛ معيار القبول هو قدرة العميل على إتمام المهمة."
+      ],
+      [
+        "أعطِه مهمة بدل جولة شرح",
+        "اطلب إيجاد قطعة ومراجعة المقاس واختيار الخيار دون مساعدتك. راقب الضغط الخاطئ والتردّد. افحص الأزرار الثابتة والدردشة والتنبيهات معًا؛ قد تكون جميلة منفردة وتغطي الشاشة عند اجتماعها. جرّب عنوانًا طويلًا وخيارًا نافدًا والعربية. المعيار إتمام مهمة مفهومة، لا لقطة بلا تمرير أفقي فقط."
+      ]
+    ],
+    "checklist": [
+      "اختبر العثور على منتج بالهاتف.",
+      "راجع حالات الخيارات والنقر.",
+      "افحص العناصر الثابتة معًا.",
+      "جرّب العربية والعناوين الطويلة."
+    ],
+    "faq": [
+      [
+        "هل يكفي قالب متجاوب؟",
+        "هو بداية؛ قد يضيف المحتوى والتطبيقات والأقسام المخصّصة مشكلات تحتاج إلى مراجعة."
+      ]
+    ],
+    "editorial_detail_heading": "أعطِه مهمة بدل جولة شرح",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "اختبار صغير يقوم به شخص غيرك",
+      "columns": [
+        "المهمة",
+        "ما الذي تراقبه؟"
+      ],
+      "rows": [
+        [
+          "العثور على منتج معيّن",
+          "أسماء يفهمها دون شرحك."
+        ],
+        [
+          "اختيار مقاس أو لون",
+          "اختيار ظاهر وقطعة صحيحة في السلة."
+        ],
+        [
+          "قراءة التوصيل",
+          "نص واضح لا تخفيه أداة ثابتة."
+        ],
+        [
+          "تصحيح خطأ",
+          "رسالة مفيدة مع حفظ الإدخال."
+        ],
+        [
+          "تبديل اللغة",
+          "صفحة مقابلة وأدوات مفهومة."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "راقب التجربة بدل سؤال «هل التصميم جميل؟»",
+        "اطلب من شخص أن يجد منتجًا بمقاس محدد ويضيفه إلى السلة من هاتفه. لا ترشده أثناء التجربة؛ لاحظ أين يتوقف وما الذي يسأل عنه. قد يكون زر الإضافة ظاهرًا لكن اختيار المقاس غير واضح، أو تكون معلومات التوصيل بعيدة عن مكان اتخاذ القرار. دوّن المشكلة والخطوة التي ظهرت فيها، ثم عدّلها وكرّر المهمة. بهذه الطريقة تربط تحسين التصميم بمشكلة استخدام فعلية، لا بمجرد ذوق شخصي."
+      ]
+    ],
+    "editorial_followup_heading": "راقب التجربة بدل سؤال «هل التصميم جميل؟»"
+  },
+  "image": {
+    "src": "/assets/article-images/mobile-shopify-design.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Mobile storefront with readable content and a clear purchase button.",
+      "ar": "واجهة متجر على هاتف بمحتوى واضح وزر شراء ظاهر."
+    }
+  }
+}

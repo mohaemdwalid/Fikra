@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-speed-improvements",
+  "category": "search",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/web-performance/overview"
+    }
+  ],
+  "related": [
+    "shopify-product-photos",
+    "choose-shopify-apps",
+    "mobile-shopify-design"
+  ],
+  "en": {
+    "title": "How do you improve Shopify storefront speed?",
+    "answer": "Identify the slow part before changing the whole store. Loading, responsiveness and layout movement are different problems.",
+    "sections": [
+      [
+        "Establish a baseline",
+        "Record the page, device conditions and the issue you observed. A slow product gallery and a shifting homepage banner are different problems. Review performance reports where available and use repeatable checks. Avoid comparing one test on fast Wi-Fi with another on a constrained mobile connection."
+      ],
+      [
+        "Prioritise obvious weight",
+        "Review oversized media, autoplay video, unnecessary scripts and overlapping app widgets. Keep the content shoppers need, but deliver it appropriately. Consider whether below-the-fold assets need to load immediately. Make one controlled change at a time so you can connect any improvement or regression to a cause."
+      ],
+      [
+        "Protect functionality while optimising",
+        "A faster page that breaks variant selection or removes useful accessibility behaviour is not a successful improvement. Review product, collection, cart and language flows after changes. Keep a record of what was removed and how to restore it. Reassess after adding new apps or campaign sections."
+      ],
+      [
+        "Make one change you can evaluate",
+        "Record the page, device and connection conditions. Review oversized images, autoplay video and overlapping app scripts, then choose a meaningful issue to address. Retest under comparable conditions. Also check variant selection, the cart and language navigation afterward: a faster score is not a success if customers can no longer buy. Keep a record of what changed and how to undo it. Review performance again when new apps or campaign sections are introduced."
+      ]
+    ],
+    "checklist": [
+      "Record page and test conditions.",
+      "Review images, videos and app scripts.",
+      "Change one meaningful issue at a time.",
+      "Recheck shopping functionality afterward."
+    ],
+    "faq": [
+      [
+        "Will a perfect performance score guarantee sales?",
+        "No. Performance is part of usability, while demand, product information, pricing and traffic also influence the outcome."
+      ]
+    ],
+    "editorial_detail_heading": "Make one change you can evaluate",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Change one cause at a time",
+        "Measure representative pages on realistic mobile conditions, then identify whether large media, third-party code or page structure is responsible. Make a targeted change and compare again. Removing everything at once makes the result hard to explain and may break a useful function without proving it caused the delay."
+      ]
+    ],
+    "editorial_followup_heading": "Change one cause at a time"
+  },
+  "ar": {
+    "title": "متجري بطيء، من أين أبدأ التحسين؟",
+    "answer": "حدّد أين يحدث البطء قبل تغيير المتجر كله. بطء التحميل يختلف عن تأخر التفاعل أو تحرّك العناصر أثناء القراءة.",
+    "sections": [
+      [
+        "سجّل نقطة البداية",
+        "دوّن الصفحة والجهاز والمشكلة. بطء المعرض يختلف عن تحرّك البنر. استخدم التقارير المتاحة واختبارات قابلة للتكرار، ولا تقارن نتائج بشروط شبكة مختلفة دون توضيح."
+      ],
+      [
+        "راجع الأحمال الواضحة",
+        "افحص الصور الكبيرة والفيديو والسكربتات وأدوات التطبيقات المتكرّرة. احتفظ بالمحتوى المفيد وقدّمه بطريقة مناسبة، وراجع ضرورة تحميل العناصر البعيدة فورًا. غيّر مشكلة واحدة لتعرف سبب النتيجة."
+      ],
+      [
+        "احمِ وظائف الشراء",
+        "لا يُعدّ التحسين ناجحًا إذا عطّل الخيارات أو سهولة الوصول. اختبر المنتج والتصنيف والسلة واللغة، ووثّق ما أزلته وطريقة استعادته. أعد المراجعة بعد التطبيقات الجديدة."
+      ],
+      [
+        "طبّق تغييرًا تستطيع تقييمه",
+        "دوّن الصفحة والجهاز والشبكة. راجع الصور الكبيرة والفيديو التلقائي والسكربتات المتداخلة ثم عالج مشكلة محدّدة. أعد الاختبار بظروف متقاربة، وراجع بعدها الخيارات والسلة واللغة. النتيجة الأسرع ليست نجاحًا إذا تعطّل الشراء. سجّل التغيير وطريقة الرجوع، وأعد المراجعة مع التطبيقات والأقسام الجديدة."
+      ]
+    ],
+    "checklist": [
+      "وثّق ظروف الاختبار.",
+      "راجع الوسائط والسكربتات.",
+      "طبّق تغييرًا محدّدًا.",
+      "اختبر الشراء بعده."
+    ],
+    "faq": [
+      [
+        "هل تضمن نتيجة سرعة مثالية مبيعات؟",
+        "لا. تؤثّر أيضًا المنتجات والمعلومات والأسعار والزيارات في النتائج."
+      ]
+    ],
+    "editorial_detail_heading": "طبّق تغييرًا تستطيع تقييمه",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "من أين أبدأ بدون تخريب المتجر؟",
+        "اختر صفحة منتج وصفحة رئيسية واختبرهما في ظروف جوال واقعية، ثم راجع ما يحمل ببطء: صور كبيرة أم فيديو أم تطبيق أم أجزاء كثيرة في الصفحة. عالج سببًا واحدًا وأعد القياس مع التأكد أن الوظائف المهمة ما زالت تعمل. لا تحذف التطبيقات كلها عشوائيًا ولا تعتمد على رقم واحد من تجربة واحدة. المطلوب فهم ما ينتظره العميل وتحسينه، مع الحفاظ على الوظيفة التي يحتاجها للشراء."
+      ]
+    ],
+    "editorial_followup_heading": "من أين أبدأ بدون تخريب المتجر؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-speed-improvements.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Performance gauge highlighting faster page interaction.",
+      "ar": "مؤشر أداء يرمز إلى تحسين سرعة التفاعل."
+    }
+  }
+}

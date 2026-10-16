@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-shipping-rates",
+  "title_ar": "كيف أحدّد أسعار الشحن في شوبيفاي؟",
+  "lead_en": "Start from your courier agreement and the baskets you sell. The checkout rate should describe a service you can actually fulfil.",
+  "lead_ar": "ابدأ باتفاق شركة الشحن والسلال التي تبيعها. يجب أن يمثل السعر خدمة تستطيع تنفيذها، لا رقمًا اخترته ليبدو العرض مناسبًا.",
+  "heading_en": "Test the edges of the rule",
+  "detail_en": "Try one item, several items and a basket containing products with different fulfilment needs. Check an address near the edge of coverage and a basket close to a free-shipping threshold, with discounts applied. Record why each total should be correct. Separate your preparation time from carrier transit time in the wording. When a courier or product category changes, update the rules and the policy together so checkout does not contradict the product page.",
+  "heading_ar": "اختبر حدود القاعدة",
+  "detail_ar": "جرّب قطعة وعدة قطع ومنتجات بتنفيذ مختلف. اختبر عنوانًا قرب حدود التغطية وسلة قرب حد الشحن المجاني مع خصم، ودوّن الإجمالي المتوقع. افصل وقت تجهيزك عن نقل الشركة في النص. وعند تغيير الناقل أو فئة المنتجات، حدّث القواعد والسياسة معًا حتى لا يخالف الدفع ما وعدت به صفحة المنتج."
+}

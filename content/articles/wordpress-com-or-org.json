@@ -1,0 +1,111 @@
+{
+  "slug": "wordpress-com-or-org",
+  "category": "platforms",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/documentation/article/difference-between-wordpress-org-and-wordpress-com/"
+    }
+  ],
+  "related": [
+    "choose-website-cms",
+    "domain-versus-hosting",
+    "shopify-versus-wordpress"
+  ],
+  "en": {
+    "title": "What is the difference between WordPress.com and WordPress.org?",
+    "answer": "WordPress.org is the software project; WordPress.com is a hosted service. Ask which arrangement the quote means before comparing features and costs.",
+    "sections": [
+      [
+        "Clarify the proposal",
+        "Ask whether the project uses self-hosted WordPress or a particular hosted service plan. Identify who manages hosting, software, backups and extensions. Features available in one arrangement should not be assumed for the other."
+      ],
+      [
+        "Check control and support",
+        "Review access to plugins, custom code, exports and support in the actual service terms. Record renewal responsibility and the consequences of changing providers. Keep recovery access with the business rather than relying only on an agency account."
+      ],
+      [
+        "Test the publishing task",
+        "Try creating the page types and languages you need. If ecommerce is required, include the complete commerce setup in the demonstration. Choose based on the supported workflow and the owner’s responsibilities, not simply the familiar WordPress name."
+      ],
+      [
+        "Why the distinction matters in a quote",
+        "A proposal for self-hosted WordPress must explain the host and who maintains the software. A hosted-service proposal must specify the plan and its actual access to plugins, code and support. Do not assume the same capabilities merely because both use WordPress. Ask the supplier to demonstrate the page types, languages and commerce you need, then explain exports, renewals and changing providers. The familiar name should not hide a different responsibility or subscription model."
+      ]
+    ],
+    "checklist": [
+      "Specify hosted service versus software.",
+      "Check plan and support coverage.",
+      "Test your publishing requirements."
+    ],
+    "faq": [
+      [
+        "Is WordPress.com the only way to use WordPress?",
+        "No. WordPress software can also be used with an appropriate independent hosting arrangement."
+      ]
+    ],
+    "editorial_detail_heading": "Why the distinction matters in a quote",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Inspect the actual contract",
+        "Identify the service, plan, host and extension permissions in the proposal. Ask who handles updates, backups and migration, and what access you receive. The shared WordPress name does not mean two offers include the same control or support; compare the arrangement being sold rather than its label."
+      ]
+    ],
+    "editorial_followup_heading": "Inspect the actual contract"
+  },
+  "ar": {
+    "title": "ما الفرق بين ووردبريس .com و.org؟",
+    "answer": "WordPress.org هو مشروع البرنامج، وWordPress.com خدمة مستضافة تستخدمه. اسأل أي إعداد يقصده العرض قبل مقارنة السعر والخصائص.",
+    "sections": [
+      [
+        "وضّح العرض",
+        "حدّد الاستضافة الذاتية أو الخدمة المُدارة ومن يدير البرامج والنسخ والإضافات."
+      ],
+      [
+        "راجع التحكّم والدعم",
+        "تحقّق من الكود والإضافات والتصدير والتجديد وتغيير المورّد، واحفظ استعادة لدى النشاط."
+      ],
+      [
+        "جرّب النشر",
+        "اختبر الصفحات واللغات والتجارة المطلوبة في الإعداد نفسه قبل الاختيار."
+      ],
+      [
+        "لماذا يهم ذلك في عرض السعر؟",
+        "عرض الاستضافة الذاتية يحتاج إلى توضيح المستضيف ومسؤول إدارة البرنامج. وعرض الخدمة المستضافة يحتاج إلى اسم الباقة وصلاحيات الإضافات والكود والدعم. لا تفترض التطابق بسبب اسم ووردبريس. اطلب تجربة للصفحات واللغات والبيع المطلوب، ثم شرح التصدير والتجديد وتغيير المورّد. الاسم المألوف قد يخفي نموذج اشتراك ومسؤوليات مختلفة."
+      ]
+    ],
+    "checklist": [
+      "حدّد نموذج الاستضافة.",
+      "راجع الباقة والدعم.",
+      "اختبر متطلّبات النشر."
+    ],
+    "faq": [
+      [
+        "هل .com الطريقة الوحيدة؟",
+        "يمكن تشغيل برنامج ووردبريس باستضافة مستقلة مناسبة أيضًا."
+      ]
+    ],
+    "editorial_detail_heading": "لماذا يهم ذلك في عرض السعر؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أعرف أي ووردبريس يعرضه المورد؟",
+        "اطلب اسم الخدمة والباقة والاستضافة والصلاحيات المتاحة، وما إذا كانت الإضافات التي تحتاجها مشمولة أو مسموحة في هذا الإعداد. اسأل من يتابع التحديث والنسخ الاحتياطي وما الذي تستلمه عند إنهاء الاتفاق. لا تعتمد على كلمة ووردبريس وحدها؛ قد تختلف العقود وطريقة الإدارة والوصول بشكل كبير. قارن ما ستستخدمه فعلًا وما تستطيع نقله لاحقًا، وراجع تفاصيل الخطة الحالية من مصدرها قبل الدفع."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أعرف أي ووردبريس يعرضه المورد؟"
+  },
+  "image": {
+    "src": "/assets/article-images/wordpress-com-or-org.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

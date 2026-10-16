@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-inventory-locations",
+  "title_ar": "كيف أتابع المخزون بين الفرع والمستودع والمتجر الإلكتروني؟",
+  "lead_en": "Model the places that actually hold and fulfil stock. A total quantity can hide the fact that an item is unavailable where the order needs it.",
+  "lead_ar": "نمذج الأماكن التي تحفظ وتنفّذ فعلًا. قد يخفي الإجمالي أن القطعة غير متاحة في المكان الذي يحتاجه الطلب.",
+  "heading_en": "Test a product available in only one location",
+  "detail_en": "Check which destination the order uses and whether pickup is offered appropriately. Agree how transfers, returns and damaged stock are recorded. Include simultaneous sales from the shop and website in the review. If staff move products without updating records, the dashboard can look precise and still be wrong. Assign a reconciliation owner and investigate discrepancies before advertising wider availability or introducing more channels.",
+  "heading_ar": "جرّب منتجًا في موقع واحد فقط",
+  "detail_ar": "راجع مصدر تنفيذ الطلب وأهلية الاستلام. اتّفق على تسجيل النقل والاسترجاع والتالف، وضمّن بيع الفرع والموقع في الوقت نفسه. إذا تحركت القطع دون تحديث السجل فقد تبدو اللوحة دقيقة وهي خاطئة. عيّن مسؤول مطابقة وعالج الاختلاف قبل توسيع التوفّر والقنوات."
+}

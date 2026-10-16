@@ -1,0 +1,115 @@
+{
+  "slug": "wordpress-blog-shopify-store",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/features/"
+    },
+    {
+      "title": "Shopify documentation",
+      "url": "https://www.shopify.com/faq"
+    }
+  ],
+  "related": [
+    "wordpress-content-to-shopify",
+    "shopify-utm-tracking",
+    "website-project-ownership"
+  ],
+  "en": {
+    "title": "Can you keep a WordPress blog and use Shopify for your store?",
+    "answer": "Yes, you can plan separate content and store systems. First check whether keeping both is worth the extra navigation, accounts and maintenance work.",
+    "sections": [
+      [
+        "Decide why both are needed",
+        "List the editorial features worth preserving and the commerce workflows you want to add. Compare this with moving content into one system. Do not keep two platforms merely because both appear in the existing account list."
+      ],
+      [
+        "Make the customer route coherent",
+        "Agree how readers reach the store and return to useful content. Review branding, language links and login expectations. A blog account should not be presented as a store account unless an actual supported integration provides that behaviour."
+      ],
+      [
+        "Plan measurement and ownership",
+        "Document domain settings, redirects, analytics and support contacts for both sides. Test campaign links and the final buying route. Do not interpret matching visual design as proof of shared customer data or unified reporting."
+      ],
+      [
+        "Make the boundaries clear to customers",
+        "A reader should be able to move from an article to the relevant product without wondering whether they reached another business. Keep branding and language links coherent, and explain account boundaries: a blog login is not automatically a store login. Decide the domains and tracking before building. Also compare moving the content into one system; keeping two platforms is sensible when it preserves a real benefit, not merely because both accounts already exist."
+      ]
+    ],
+    "checklist": [
+      "Explain why two systems are useful.",
+      "Design clear cross-site navigation.",
+      "Document tracking and account boundaries."
+    ],
+    "faq": [
+      [
+        "Will the two customer accounts automatically be shared?",
+        "No. Confirm any account integration explicitly rather than assuming it exists."
+      ]
+    ],
+    "editorial_detail_heading": "Make the boundaries clear to customers",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Plan how visitors move between the two",
+        "Define where articles, product pages and account functions live, then test links and navigation in both directions. Keep branding and language routes understandable. The arrangement can preserve an established publishing workflow, but someone must manage two systems and avoid presenting them as one seamless setup before checking it."
+      ]
+    ],
+    "editorial_followup_heading": "Plan how visitors move between the two"
+  },
+  "ar": {
+    "title": "هل أقدر أبقي مدونتي على ووردبريس وأبيع بشوبيفاي؟",
+    "answer": "يمكن التخطيط لمدونة ومتجر على نظامين. لكن راجع هل تستحق المحافظة عليهما عملًا إضافيًا في التنقّل والحسابات والصيانة.",
+    "sections": [
+      [
+        "حدّد سبب الجمع",
+        "دوّن خصائص التحرير المطلوب حفظها وقارنها بنقل المحتوى لنظام واحد."
+      ],
+      [
+        "وحّد رحلة الزائر",
+        "وضّح الانتقال واللغة والهوية وتوقّعات الحساب. لا تقدّم حساب المدونة كحساب متجر دون ربط مدعوم."
+      ],
+      [
+        "وثّق القياس والملكية",
+        "راجع النطاق والتحويل والتحليلات والدعم واختبر الرابط حتى الشراء. تشابه التصميم لا يثبت مشاركة البيانات."
+      ],
+      [
+        "اجعل الحدود واضحة للعميل",
+        "يجب أن ينتقل القارئ من المقال إلى المنتج دون شك أنه وصل إلى نشاط آخر. وحّد الهوية واللغة ووضّح الحسابات؛ دخول المدونة لا يصبح تلقائيًا دخول المتجر. اتّفق على النطاقات والتتبّع مسبقًا. وقارن بنقل المحتوى لنظام واحد؛ الجمع مفيد عندما يحافظ على ميزة حقيقية، لا لأن لديك حسابين بالفعل."
+      ]
+    ],
+    "checklist": [
+      "برّر النظامين.",
+      "وضّح التنقّل.",
+      "وثّق الحسابات والتتبّع."
+    ],
+    "faq": [
+      [
+        "هل تتوحّد حسابات العملاء تلقائيًا؟",
+        "لا؛ أكّد التكامل المطلوب صراحة."
+      ]
+    ],
+    "editorial_detail_heading": "اجعل الحدود واضحة للعميل",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أجعل الانتقال بين المدونة والمتجر واضحًا؟",
+        "حدّد أين ستعيش المقالات وأين المنتجات، ثم جرّب رحلة من مقال إلى منتج والعودة إلى المحتوى. راجع القوائم واللغة والتصميم وأي اختلاف في الحسابات أو البحث، ولا تعد بتجربة موحدة قبل اختبار ما يتصل فعلًا. قد يحافظ هذا الخيار على مدونة قائمة، لكنه يعني متابعة نظامين وتكاليفهما. وثّق المسؤوليات والروابط حتى لا يغيّر فريق جزءًا ويترك الجزء الآخر بمعلومات قديمة أو تنقل مربك."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أجعل الانتقال بين المدونة والمتجر واضحًا؟"
+  },
+  "image": {
+    "src": "/assets/article-images/wordpress-blog-shopify-store.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

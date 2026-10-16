@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-speed-improvements",
+  "title_ar": "متجري بطيء، من أين أبدأ التحسين؟",
+  "lead_en": "Identify the slow part before changing the whole store. Loading, responsiveness and layout movement are different problems.",
+  "lead_ar": "حدّد أين يحدث البطء قبل تغيير المتجر كله. بطء التحميل يختلف عن تأخر التفاعل أو تحرّك العناصر أثناء القراءة.",
+  "heading_en": "Make one change you can evaluate",
+  "detail_en": "Record the page, device and connection conditions. Review oversized images, autoplay video and overlapping app scripts, then choose a meaningful issue to address. Retest under comparable conditions. Also check variant selection, the cart and language navigation afterward: a faster score is not a success if customers can no longer buy. Keep a record of what changed and how to undo it. Review performance again when new apps or campaign sections are introduced.",
+  "heading_ar": "طبّق تغييرًا تستطيع تقييمه",
+  "detail_ar": "دوّن الصفحة والجهاز والشبكة. راجع الصور الكبيرة والفيديو التلقائي والسكربتات المتداخلة ثم عالج مشكلة محدّدة. أعد الاختبار بظروف متقاربة، وراجع بعدها الخيارات والسلة واللغة. النتيجة الأسرع ليست نجاحًا إذا تعطّل الشراء. سجّل التغيير وطريقة الرجوع، وأعد المراجعة مع التطبيقات والأقسام الجديدة."
+}

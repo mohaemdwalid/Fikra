@@ -1,0 +1,111 @@
+{
+  "slug": "website-ai-search-visibility",
+  "category": "scaling",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "OpenAI crawler documentation",
+      "url": "https://developers.openai.com/api/docs/bots"
+    }
+  ],
+  "related": [
+    "website-structured-data",
+    "shopify-sitemap-google",
+    "qatar-business-website-trust"
+  ],
+  "en": {
+    "title": "How can a Qatar business improve visibility in ChatGPT and AI search?",
+    "answer": "Make the business and its answers easy to understand and access. Search access helps eligibility, but nobody can promise that ChatGPT will recommend you first.",
+    "sections": [
+      [
+        "Check access first",
+        "Review public pages, robots rules and hosting or firewall challenges. Search crawler access and training preferences are different settings. Confirm the deployed site actually permits the intended search access rather than relying only on local files."
+      ],
+      [
+        "Make answers useful",
+        "Explain services, processes and limitations in readable text. Use genuine examples and approved case studies, with sources for changeable platform facts. Keep Arabic and English versions consistent and link questions to relevant services without repeating the same thin answer across many pages."
+      ],
+      [
+        "Measure with realistic limits",
+        "Monitor referrals and relevant search queries alongside qualified enquiries. Individual AI answers vary and some visits lack useful referral data. Record observations over time; do not present one test prompt as a universal ranking or invent an endorsement from ChatGPT."
+      ],
+      [
+        "Start with the information worth citing",
+        "Explain what you do, who it serves, how the work proceeds and the limits of the offer. Use real evidence and sources for changing facts. OpenAI documents OAI-SearchBot for search; verify robots and hosting access on the deployed site. Training preferences are separate. Track referrals and relevant enquiries over time, knowing some visits lack referral detail. One prompt or a large article count is not a universal ranking or evidence of an endorsement."
+      ]
+    ],
+    "checklist": [
+      "Verify live crawler access.",
+      "Publish clear, evidenced answers.",
+      "Track referrals and enquiries over time."
+    ],
+    "faq": [
+      [
+        "Will 100 articles guarantee that ChatGPT recommends the business?",
+        "No. Quantity and crawler access alone do not guarantee inclusion or recommendation."
+      ]
+    ],
+    "editorial_detail_heading": "Start with the information worth citing",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Publish what someone could verify",
+        "Build clear pages explaining the business, its services and genuine evidence of its work. Keep names, contact details and public descriptions consistent across channels you control. Monitor whether relevant answers cite your pages, while recognising that an appearance depends on the query and system; article quantity alone is not a ranking strategy."
+      ]
+    ],
+    "editorial_followup_heading": "Publish what someone could verify"
+  },
+  "ar": {
+    "title": "كيف يظهر مشروعي في ChatGPT عندما يسأل الناس عنه؟",
+    "answer": "اجعل نشاطك وإجاباته واضحة ويمكن الوصول إليها. يساعد السماح بالبحث على الأهلية، لكنه لا يضمن أن يوصي ChatGPT بك أولًا.",
+    "sections": [
+      [
+        "راجع الوصول",
+        "افحص الصفحات والروبوت والجدار الناري في النشر الفعلي. تختلف إعدادات البحث عن التدريب."
+      ],
+      [
+        "اجعل الإجابات مفيدة",
+        "اشرح الخدمة والحدود بأدلة حقيقية ومراجع للحقائق المتغيّرة، وطابق اللغتين دون تكرار ضعيف."
+      ],
+      [
+        "قِس بحدود واقعية",
+        "راقب الإحالات والاستفسارات؛ تختلف الإجابات وقد تنقص بيانات المصدر. لا تعتبر تجربة واحدة ترتيبًا عامًا أو تأييدًا."
+      ],
+      [
+        "ابدأ بمعلومة تستحق الاستشهاد",
+        "اشرح الخدمة وجمهورها وطريقة العمل وحدود العرض بأدلة حقيقية ومراجع للمتغير. توثّق OpenAI روبوت OAI-SearchBot للبحث؛ افحص وصوله في النشر الفعلي والروبوت والاستضافة، وافصل ذلك عن تفضيلات التدريب. راقب الإحالات والاستفسارات مع حدود بيانات المصدر. تجربة سؤال واحدة أو عدد كبير من المقالات ليس ترتيبًا عامًا ولا تأييدًا للنشاط."
+      ]
+    ],
+    "checklist": [
+      "أكّد الوصول الحي.",
+      "انشر أجوبة مدعومة.",
+      "راقب النتائج عبر الوقت."
+    ],
+    "faq": [
+      [
+        "هل تضمن ١٠٠ مقالة توصية ChatGPT؟",
+        "لا تضمن الكمية والسماح بالزحف الإدراج أو التوصية."
+      ]
+    ],
+    "editorial_detail_heading": "ابدأ بمعلومة تستحق الاستشهاد",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما المحتوى الذي يساعد الناس على فهم مشروعي؟",
+        "اكتب صفحات واضحة للخدمات ولمن تناسب وكيف يبدأ العميل، وأضف أعمالًا ومعلومات يمكنك إثباتها. ثبّت اسم المشروع وبياناته في القنوات التي تديرها، واربط المقالات بالخدمة المناسبة عندما يفيد القارئ. تابع الأسئلة التي يظهر فيها موقعك والمصادر المشار إليها، بدون افتراض أن النتيجة نفسها تظهر للجميع. لا يوجد نص سري يضمن المرتبة الأولى؛ كثرة المقالات لا تعوّض محتوى عامًا أو معلومات لا يمكن التحقق منها."
+      ]
+    ],
+    "editorial_followup_heading": "ما المحتوى الذي يساعد الناس على فهم مشروعي؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-ai-search-visibility.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-size-guide",
+  "category": "catalogue",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/products/details/product-descriptions"
+    }
+  ],
+  "related": [
+    "shopify-product-variants",
+    "shopify-abaya-store",
+    "shopify-returns-exchanges"
+  ],
+  "en": {
+    "title": "What should a Shopify clothing size guide include?",
+    "answer": "Explain what each measurement describes, where it is taken and which unit you use. A table of unexplained numbers is not enough.",
+    "sections": [
+      [
+        "Distinguish body and garment measurements",
+        "State whether a number describes the customer’s body or the finished garment. Label the unit and explain where each measurement is taken. For abayas, length and fit information may be especially important. Have someone responsible for the actual product approve the values before publication."
+      ],
+      [
+        "Place the guide near the decision",
+        "Customers need size information while choosing a variant. Make it easy to reach without losing the product context. A clear table, a short measuring explanation and a relevant diagram can work together. Review the guide on mobile and ensure text remains readable without excessive sideways scrolling."
+      ],
+      [
+        "Keep promises precise",
+        "Avoid claims such as universal fit unless the product facts support them. Explain any made-to-order differences and the actual exchange process. Shopify’s description guidance treats specifications as useful product information; the practical challenge is making your own measurements accurate and understandable."
+      ],
+      [
+        "Why accurate numbers can still confuse",
+        "A customer might measure a favourite garment while your chart lists body measurements. Both sets of numbers can be correct but lead to the wrong size. Name the measurement type and show a short measuring method. For an abaya, explain the length reference and relevant fit information. Use your own approved product measurements. Put the guide beside the size choice so shoppers do not have to abandon the product to find it."
+      ]
+    ],
+    "checklist": [
+      "Label body versus garment measurements.",
+      "Show units and measuring instructions.",
+      "Match the guide to the correct product.",
+      "Have product measurements approved."
+    ],
+    "faq": [
+      [
+        "Can I copy a size chart from another brand?",
+        "Use measurements for your own products. Another brand’s chart can describe different cuts and create misleading expectations."
+      ]
+    ],
+    "editorial_detail_heading": "Why accurate numbers can still confuse",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Explain how to take the measurement",
+        "State whether the table measures the garment or the body and use consistent units. Add a simple explanation of where to measure and any product-specific fit information you can verify. Test it with someone unfamiliar with the item; an unexplained table can still leave the main buying question unanswered."
+      ]
+    ],
+    "editorial_followup_heading": "Explain how to take the measurement"
+  },
+  "ar": {
+    "title": "كيف أكتب دليل مقاسات يفهمه العميل؟",
+    "answer": "وضّح ما الذي يقيسه الرقم وأين يؤخذ وبأي وحدة. قد يكون الجدول صحيحًا، لكن العميل لن يستفيد منه إذا لم يعرف هل يصف جسمه أم القطعة.",
+    "sections": [
+      [
+        "ميّز قياسات الجسم عن القطعة",
+        "وضّح هل الرقم يصف الجسم أم المنتج النهائي، مع الوحدة وموضع القياس. قد يكون الطول والقَصّة مهمّين للعبايات. اطلب اعتماد الأرقام من المسؤول عن المنتج قبل نشرها."
+      ],
+      [
+        "قرّب الدليل من اختيار المقاس",
+        "اجعل الوصول إليه سهلًا أثناء اختيار المنتج دون فقدان السياق. استخدم جدولًا واضحًا وشرحًا قصيرًا ورسمًا عند الحاجة، وراجع القراءة على الجوال دون تمرير أفقي مبالغ فيه."
+      ],
+      [
+        "استخدم وعودًا دقيقة",
+        "تجنّب وصف المقاس بأنه مناسب للجميع دون دليل. اشرح اختلافات التفصيل وسياسة الاستبدال الفعلية. تعدّ المواصفات جزءًا مفيدًا من وصف المنتج؛ الأهم دقة قياساتك ووضوحها."
+      ],
+      [
+        "كيف يحدث الالتباس؟",
+        "قد يقيس العميل قطعة يحبها بينما جدولك يعرض قياسات الجسم. الأرقام صحيحة في الحالتين لكن المقارنة خاطئة. سمِّ نوع القياس واشرح الطريقة باختصار. وللعباية، وضّح نقطة قياس الطول والقصّة المؤثرة في الاختيار. استخدم قياسات منتجاتك المعتمدة، وضع الدليل قرب المقاس حتى لا يغادر العميل الصفحة بحثًا عنه."
+      ]
+    ],
+    "checklist": [
+      "حدّد نوع القياسات.",
+      "اعرض الوحدة والطريقة.",
+      "طابق الدليل بالمنتج.",
+      "اعتمد الأرقام قبل النشر."
+    ],
+    "faq": [
+      [
+        "هل يمكن نسخ دليل علامة أخرى؟",
+        "استخدم قياسات منتجاتك؛ قد تختلف قصّاتها عن منتجات العلامة الأخرى."
+      ]
+    ],
+    "editorial_detail_heading": "كيف يحدث الالتباس؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "جدول المقاسات وحده قد لا يكفي",
+        "وضّح هل الأرقام تخص قياس الجسم أم القطعة، وما الوحدة المستخدمة، وأين يبدأ القياس وينتهي. إذا اختلف القص بين مجموعتين، لا تستخدم جدولًا واحدًا بلا تفسير. جرّب الدليل مع شخص لا يعرف المنتج واسأله أي مقاس سيختار ولماذا. أضف المعلومة الناقصة من إجابات حقيقية عن المنتج، وتجنب وعود الملاءمة المطلقة؛ الهدف تقليل الغموض ومساعدة العميل على الاختيار، لا ضمان أن المقاس يناسب الجميع."
+      ]
+    ],
+    "editorial_followup_heading": "جدول المقاسات وحده قد لا يكفي"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-size-guide.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Garment measurement arrows beside a size table.",
+      "ar": "أسهم قياس على قطعة ملابس بجانب جدول مقاسات."
+    }
+  }
+}

@@ -12,7 +12,8 @@
 .fikra-testimonial-label { margin: 0; color: #69645b; font-size: 12px; line-height: 1.6; }
 .fikra-testimonials > .fikra-brands-inner { max-width: none; padding-inline: 0; overflow: hidden; }
 .fikra-testimonials h2, .fikra-testimonials .fikra-sample-note { padding-inline: 24px; }
-.fikra-review-marquee { overflow: hidden; padding-block: 16px; mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent); }
+/* Keep the moving strip anchored left; each review retains its own text direction. */
+.fikra-review-marquee { direction: ltr; overflow: hidden; padding-block: 16px; mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent); }
 .fikra-review-row { display: flex; gap: 24px; width: max-content; direction: ltr; animation: fikra-reviews-scroll 65s linear infinite; }
 .fikra-review-row + .fikra-review-row { margin-top: 24px; }
 .fikra-review-row-reverse { animation-direction: reverse; animation-duration: 75s; }
@@ -71,11 +72,11 @@ body.body { width: 100%; min-width: 0; overflow-x: clip; }
 .fikra-weekdays, .fikra-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; text-align: center; }
 .fikra-weekdays { margin-bottom: 12px; font-size: 12px; color: #69645b; }
 .fikra-days button { border: 1px solid transparent; border-radius: 8px; background: #efebe3; aspect-ratio: 1; width: 100%; color: inherit; cursor: pointer; font: 16px Arial, sans-serif; }
-.fikra-days button:hover:not(:disabled), .fikra-slot:hover { border-color: #ef1f5e; }
+.fikra-days button:hover:not(:disabled), .fikra-slot:hover { border-color: var(--fikra-accent, #005bea); }
 .fikra-days button[aria-current='date'] { text-decoration: underline; text-underline-offset: 5px; }
-.fikra-days button[aria-pressed='true'], .fikra-slot[aria-pressed='true'] { background: #ef1f5e; color: white; }
+.fikra-days button[aria-pressed='true'], .fikra-slot[aria-pressed='true'] { background: var(--fikra-accent, #005bea); color: white; }
 .fikra-booking button:disabled { opacity: .4; cursor: default; }
-.fikra-booking :focus-visible, .fikra-language:focus-visible { outline: 3px solid #ef1f5e; outline-offset: 3px; }
+.fikra-booking :focus-visible, .fikra-language:focus-visible { outline: 3px solid var(--fikra-accent, #005bea); outline-offset: 3px; }
 .fikra-times { display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; line-height: 1.6; margin: 16px 0 24px; min-height: 44px; }
 .fikra-slot { padding: 10px 12px; border: 1px solid #d6d2c9; border-radius: 8px; background: transparent; color: inherit; font: 14px Arial; cursor: pointer; }
 .fikra-booking-note, .fikra-booking-reference { font-size: 12px; line-height: 1.7; color: #69645b; overflow-wrap: anywhere; }
@@ -102,13 +103,13 @@ html[lang='ar'] .w-icon-dropdown-toggle { right: auto; left: 0; margin-left: 20p
 .fikra-form label { display: grid; gap: 5px; font: 14px Arial; }
 .fikra-form input, .fikra-form textarea { width: 100%; box-sizing: border-box; padding: 12px; border: 1px solid #bbb; border-radius: 8px; background: white; color: #010102; font: 16px Arial; }
 .fikra-form textarea { min-height: 100px; resize: vertical; }
-.fikra-action { display: inline-block; padding: 12px 18px; border: 0; border-radius: 8px; background: #ef1f5e; color: white; font: 700 15px Arial; text-align: center; cursor: pointer; text-decoration: none; }
+.fikra-action { display: inline-block; padding: 12px 18px; border: 0; border-radius: 8px; background: var(--fikra-accent, #005bea); color: white; font: 700 15px Arial; text-align: center; cursor: pointer; text-decoration: none; }
 .fikra-action:disabled { background: #767676; cursor: default; }
 .fikra-status { font: 13px/1.5 Arial, sans-serif; }
-.fikra-dialog :focus-visible { outline: 3px solid #ef1f5e; outline-offset: 3px; }
+.fikra-dialog :focus-visible { outline: 3px solid var(--fikra-accent, #005bea); outline-offset: 3px; }
 .fikra-media-placeholder { display: grid; place-content: center; gap: 18px; width: 100%; min-height: 340px; padding: 36px; box-sizing: border-box; background: #010102; color: #fdfbf5; text-align: center; }
 .fikra-media-placeholder strong { font: 700 clamp(26px, 4vw, 44px)/1.15 Arial, sans-serif; max-width: 540px; }
-.fikra-media-placeholder span { font: 13px/1.5 monospace; text-transform: uppercase; letter-spacing: 2px; color: #ef1f5e; }
+.fikra-media-placeholder span { font: 13px/1.5 monospace; text-transform: uppercase; letter-spacing: 2px; color: var(--fikra-accent, #005bea); }
 .w-video > .fikra-media-placeholder { position: absolute; inset: 0; min-height: 0; padding: 20px; }
 @media (max-width: 479px) { .fikra-logo-mark { width: 125px; height: 40.39px; } .fikra-dialog { padding: 28px 20px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } }
@@ -117,7 +118,7 @@ html[lang='ar'] .w-icon-dropdown-toggle { right: auto; left: 0; margin-left: 20p
 .fikra-header-book { display: none; }
 @media (max-width: 991px) {
   .navbar-wrapper { position: relative; }
-  .navbar-wrapper > .fikra-header-book { display: inline-flex; align-items: center; justify-content: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 10px 18px; border: 1px solid #010102; border-radius: 999px; background: #ff1f65; color: #fff; font-size: 14px; font-weight: 600; line-height: 1.3; text-decoration: none; white-space: nowrap; z-index: 2; }
+  .navbar-wrapper > .fikra-header-book { display: inline-flex; align-items: center; justify-content: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); padding: 10px 18px; border: 1px solid #010102; border-radius: 999px; background: var(--fikra-accent, #005bea); color: #fff; font-size: 14px; font-weight: 600; line-height: 1.3; text-decoration: none; white-space: nowrap; z-index: 2; }
   .fikra-header-book:focus-visible { outline: 3px solid #010102; outline-offset: 3px; }
 }
 @media (max-width: 479px) {

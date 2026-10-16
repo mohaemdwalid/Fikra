@@ -1,0 +1,10 @@
+{
+  "slug": "migrate-to-shopify",
+  "title_ar": "عندي متجر على منصة أخرى، كيف أنقله لشوبيفاي؟",
+  "lead_en": "Begin with a list of what must survive the move: products, customer information, useful content and the links people already use.",
+  "lead_ar": "ابدأ بما يجب ألا يضيع: المنتجات وبيانات العملاء والمحتوى المهم والروابط التي يصل منها الناس. تغيير المنصة ليس نقل الصور إلى قالب جديد فقط.",
+  "heading_en": "What to settle before the domain changes",
+  "detail_en": "Choose a small sample containing variants and several images, migrate it and compare the result with the original. Separately list pages and older links; they may need different handling from products. Agree when the old system stops receiving updates and how stock will be reconciled. Keep the original exports securely. The move is not finished until real customer routes work and the team can process orders in the new setup.",
+  "heading_ar": "ماذا تحسم قبل تحويل النطاق؟",
+  "detail_ar": "انقل عيّنة فيها مقاسات وصور متعدّدة، ثم طابقها بالمصدر. احصر الصفحات والروابط القديمة منفصلة؛ قد لا تنقلها أداة المنتجات نفسها. واتّفق على وقت إيقاف التحديث في النظام القديم ومطابقة المخزون. احتفظ بالتصديرات بأمان. لا تعتبر النقل مكتملًا قبل تجربة وصول العميل والشراء وقدرة الفريق على التعامل مع الطلب الجديد."
+}

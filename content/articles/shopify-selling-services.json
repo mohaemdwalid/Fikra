@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-selling-services",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/digital-service-product"
+    }
+  ],
+  "related": [
+    "booking-website-or-store",
+    "qatar-service-booking",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "Can you sell services through Shopify?",
+    "answer": "Yes, but be clear about what the customer receives and whether a separate booking or intake process is needed after payment.",
+    "sections": [
+      [
+        "Define the deliverable",
+        "Explain the service, scope, price conditions and what is included. Distinguish a fixed deliverable from a project requiring a quotation. Do not turn an undefined service into a product merely to make online payment possible."
+      ],
+      [
+        "Map the post-purchase work",
+        "Decide how the customer provides information and whether a time must be reserved. Review scheduling and notification integrations when needed. A paid order does not prove a consultant, room or appointment slot is available."
+      ],
+      [
+        "Review expectations",
+        "Publish approved change, cancellation and contact instructions that match operations. Test the complete route with the actual service owner. Confirm market and provider support before advertising any payment method."
+      ],
+      [
+        "A fixed service and a bespoke project differ",
+        "A clearly defined service can have a known price and purchase route. A project whose scope is agreed later may need a quote instead. If a time must be reserved, confirm how the calendar and payment work together; an order does not prove a provider is available. Test the information the service owner receives and the instructions sent to the customer. Publish change and cancellation terms that match the actual process."
+      ]
+    ],
+    "checklist": [
+      "Define the service scope.",
+      "Map scheduling and intake.",
+      "Test delivery after payment."
+    ],
+    "faq": [
+      [
+        "Does a service product automatically book a time?",
+        "Only if a configured scheduling workflow actually reserves it."
+      ]
+    ],
+    "editorial_detail_heading": "A fixed service and a bespoke project differ",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Define the deliverable before adding a price",
+        "Describe what the customer receives, what must happen after payment and what is outside the service. If availability or a consultation is required, connect that step explicitly. A service can fit a commerce flow when its fulfilment is defined, rather than leaving the customer with a receipt and no next action."
+      ]
+    ],
+    "editorial_followup_heading": "Define the deliverable before adding a price"
+  },
+  "ar": {
+    "title": "هل أقدر أبيع خدمات على شوبيفاي؟",
+    "answer": "يمكن بيع خدمات، لكن وضّح ما يستلمه العميل وهل يحتاج بعد الدفع إلى حجز أو إرسال معلومات. الدفع وحده لا ينفّذ الخدمة.",
+    "sections": [
+      [
+        "عرّف التسليم",
+        "وضّح النطاق والشروط وما يشمله السعر، وميّز الخدمة الثابتة عن المشروع الذي يحتاج عرضًا."
+      ],
+      [
+        "ارسم ما بعد الشراء",
+        "حدّد المعلومات والموعد والربط المطلوب؛ الدفع لا يثبت توفّر مقدّم الخدمة أو المكان."
+      ],
+      [
+        "راجع التوقّعات",
+        "انشر إجراءات تعديل وتواصل معتمدة واختبرها مع مسؤول الخدمة وأكّد دعم الدفع."
+      ],
+      [
+        "الخدمة المحدّدة تختلف عن المشروع الخاص",
+        "قد تناسب خدمة واضحة سعرًا ومسار شراء ثابتين، بينما يحتاج مشروع يتحدد نطاقه لاحقًا إلى عرض. وإذا كان هناك موعد، أكّد كيف يعمل التقويم مع الدفع؛ الطلب لا يثبت توفر مقدم الخدمة. راجع ما يصل للمسؤول وما يُرسل للعميل، وانشر شروط تغيير وإلغاء تطابق العملية الفعلية."
+      ]
+    ],
+    "checklist": [
+      "عرّف النطاق.",
+      "خطّط للحجز والمعلومات.",
+      "اختبر التنفيذ بعد الدفع."
+    ],
+    "faq": [
+      [
+        "هل يحجز منتج الخدمة وقتًا تلقائيًا؟",
+        "فقط عندما ينفّذ نظام مُعدّ حجزًا فعليًا."
+      ]
+    ],
+    "editorial_detail_heading": "الخدمة المحدّدة تختلف عن المشروع الخاص",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي سيشتريه العميل بالضبط؟",
+        "اكتب نتيجة الخدمة وما يشمله السعر وما يحتاجه الفريق من العميل بعدها. إذا كانت مرتبطة بموعد أو مراجعة أولية، وضّح ذلك واربط الخطوة التالية بدل تركها لرسالة لاحقة غير محددة. جرّب شراء الخدمة وراجع هل فهم العميل متى يبدأ التنفيذ وكيف يتواصل ومن يعتمد النتيجة. لا تعرض سعرًا ثابتًا لخدمة يتغير نطاقها بالكامل بعد الدفع إلا إذا شرحت حدود العرض وكيف تعالج الاختلافات."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي سيشتريه العميل بالضبط؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-selling-services.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Scheduling calendar with a service or order symbol.",
+      "ar": "تقويم جدولة مع رمز خدمة أو طلب."
+    }
+  }
+}

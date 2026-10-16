@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-account-security",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/privacy-and-security/account-security"
+    }
+  ],
+  "related": [
+    "website-project-ownership",
+    "choose-shopify-apps",
+    "shopify-customer-accounts"
+  ],
+  "en": {
+    "title": "How should a Shopify business manage staff and agency access?",
+    "answer": "Use the access arrangement designed for the task and keep owner recovery under the business’s control. Shared passwords make responsibility harder to track.",
+    "sections": [
+      [
+        "Identify the roles",
+        "Separate catalogue editing, theme work, orders and financial tasks. Review which permissions each person actually needs. Use supported access methods for external collaborators instead of sending the owner’s login through messages."
+      ],
+      [
+        "Prepare for changes",
+        "Record who can approve spending, publish code and recover the account. Review access when a staff member or supplier leaves. Keep the business email and recovery arrangements current so an expired personal account does not block operations."
+      ],
+      [
+        "Check connected tools",
+        "Apps and external services can hold separate access and data permissions. Maintain an access register that covers them as well as Shopify. Review suspicious activity through appropriate support and incident processes rather than making improvised changes without a record."
+      ],
+      [
+        "Separate editing from financial control",
+        "Someone uploading products may not need to approve charges or publish theme code. List the work first, then grant the relevant permissions through supported access methods. Review people and apps when contracts change. Keep business email, recovery details and spending authority documented. Do not forget external tools: an old supplier may lose store access while still controlling a connected service essential to operations."
+      ]
+    ],
+    "checklist": [
+      "Assign permissions by task.",
+      "Keep owner recovery methods current.",
+      "Review people and app access."
+    ],
+    "faq": [
+      [
+        "Should an agency always receive the owner password?",
+        "Use the platform’s appropriate permission-based access arrangement instead."
+      ]
+    ],
+    "editorial_detail_heading": "Separate editing from financial control",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Agree how access ends",
+        "Give each person access through the supported account or collaborator route and only to the work they need. Record who owns critical settings and how access will be removed after handover. Recovery information should remain with the business so changing an agency does not become an account-recovery problem."
+      ]
+    ],
+    "editorial_followup_heading": "Agree how access ends"
+  },
+  "ar": {
+    "title": "كيف أعطي الموظف أو الوكالة صلاحيات بدون مشاركة كلمة مروري؟",
+    "answer": "استخدم الوصول المخصص للمهمة واحفظ استعادة حساب المالك لدى النشاط. تصعّب كلمة المرور المشتركة معرفة من غيّر ماذا.",
+    "sections": [
+      [
+        "حدّد الأدوار",
+        "افصل المنتجات والقالب والطلبات والمال واستخدم وصولًا مدعومًا للمتعاون بدل كلمة المالك."
+      ],
+      [
+        "خطّط للتغيّر",
+        "وثّق النشر والإنفاق والاستعادة وراجع المغادرين والبريد الحالي."
+      ],
+      [
+        "راجع الأدوات",
+        "للتطبيقات والخدمات صلاحيات مستقلة؛ اجمعها في سجل واتبع مسارًا موثّقًا للنشاط المريب."
+      ],
+      [
+        "افصل التحرير عن التحكّم المالي",
+        "قد لا يحتاج من يرفع المنتجات إلى الموافقة على الرسوم أو نشر الكود. حدّد العمل ثم امنح الصلاحيات المناسبة، وراجع الأشخاص والتطبيقات عند تغير التعاقد. وثّق البريد والاستعادة والإنفاق. ولا تنس الأدوات الخارجية؛ قد يُزال دخول مورّد للمتجر ويبقى متحكمًا في خدمة يعتمد عليها التشغيل."
+      ]
+    ],
+    "checklist": [
+      "وزّع الصلاحيات بالمهام.",
+      "حدّث الاستعادة.",
+      "راجع الأشخاص والتطبيقات."
+    ],
+    "faq": [
+      [
+        "هل تحتاج الوكالة كلمة المالك؟",
+        "استخدم الوصول المناسب القائم على الصلاحيات."
+      ]
+    ],
+    "editorial_detail_heading": "افصل التحرير عن التحكّم المالي",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا يحدث عند انتهاء عمل الموظف أو الوكالة؟",
+        "حدّد منذ البداية المهام التي يحتاجها الشخص، ثم امنحه الوصول المناسب بدل إرسال حساب المالك. راجع من يستطيع تغيير الدفع أو النطاق أو المستخدمين، واجعل بيانات الاسترداد تحت سيطرة صاحب المشروع. عند انتهاء التعاون، أزل الوصول وراجع التطبيقات والربط الذي أُضيف أثناء العمل. احتفظ بقائمة الحسابات المهمة والمسؤول عنها، حتى لا تكتشف بعد أشهر أن خدمة أساسية مرتبطة ببريد شخص لم يعد يعمل معك."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا يحدث عند انتهاء عمل الموظف أو الوكالة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-account-security.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Business control and verification diagram beside an information panel.",
+      "ar": "رسم للتحكّم والتحقّق بجانب لوحة معلومات."
+    }
+  }
+}

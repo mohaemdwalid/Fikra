@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-url-redirects",
+  "category": "search",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/menus-and-links/url-redirect"
+    }
+  ],
+  "related": [
+    "migrate-to-shopify",
+    "shopify-sitemap-google",
+    "shopify-connect-domain"
+  ],
+  "en": {
+    "title": "How do you protect old Shopify links with URL redirects?",
+    "answer": "Send the old URL to the closest useful destination and test it. Redirecting everything to the homepage often loses the reason someone clicked.",
+    "sections": [
+      [
+        "Collect the URLs that matter",
+        "Export or record old product, collection and article URLs, especially those receiving traffic or external links. Add a destination and reason for each mapping. A discontinued product may need a suitable replacement or a useful explanation; the homepage is not automatically the right target."
+      ],
+      [
+        "Respect redirect behaviour",
+        "Review Shopify’s current restrictions and URL handling before assuming a rule will apply. Some paths and active pages do not behave like deleted destinations. Test a small set of representative URLs first, including links with the trailing-slash or domain forms your customers actually use."
+      ],
+      [
+        "Verify beyond the setup screen",
+        "Open the old URL and inspect where it leads. Avoid a chain of unnecessary hops, and update internal links to the final destination. Keep the mapping file for future migrations. Monitor errors after launch so unexpected old campaign links can be repaired with relevant targets."
+      ],
+      [
+        "Choose the destination by intent",
+        "A discontinued item may have a replacement or a relevant collection; an old article may need an updated explanation. Record the original URL, target and reason. Check Shopify’s current restrictions before assuming a rule applies to an active path. Open real older campaign links and watch where they end up. Update internal links to the final destination, and avoid unnecessary chains that make future migrations harder to understand."
+      ]
+    ],
+    "checklist": [
+      "Inventory valuable old URLs.",
+      "Choose relevant destinations.",
+      "Check current redirect restrictions.",
+      "Test old links and update internal links."
+    ],
+    "faq": [
+      [
+        "Should every removed product redirect to the homepage?",
+        "Usually a relevant replacement or collection serves the visitor better. Choose the destination according to what the original page promised."
+      ]
+    ],
+    "editorial_detail_heading": "Choose the destination by intent",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Send visitors to the closest useful page",
+        "Map each changed address to the page that best continues the original intent. Test the full destination rather than only the presence of a redirect. Sending every removed product to the homepage may leave people confused; preserve context where a relevant replacement or category exists."
+      ]
+    ],
+    "editorial_followup_heading": "Send visitors to the closest useful page"
+  },
+  "ar": {
+    "title": "غيّرت رابط منتج، كيف أحافظ على الزوار القادمين للرابط القديم؟",
+    "answer": "وجّه الرابط القديم إلى أقرب صفحة مفيدة واختبره. تحويل الجميع للرئيسية قد يضيّع سبب دخول الزائر بدل مساعدته.",
+    "sections": [
+      [
+        "اجمع الروابط المهمة",
+        "سجّل روابط المنتجات والتصنيفات والمقالات ذات الزيارات والروابط الخارجية. حدّد وجهة وسببًا لكل تحويل. قد يحتاج المنتج المتوقف إلى بديل أو شرح مفيد؛ الرئيسية ليست الوجهة المناسبة دائمًا."
+      ],
+      [
+        "راجع سلوك التحويل",
+        "تحقّق من القيود الحالية والمسارات والصفحات النشطة. اختبر عيّنة تضم صيغ الروابط التي يستخدمها العملاء بدل افتراض تطبيق كل قاعدة."
+      ],
+      [
+        "اختبر النتيجة",
+        "افتح الرابط القديم وراجع الوجهة. تجنّب سلسلة تحويلات غير لازمة وحدّث الروابط الداخلية للوجهة النهائية. احتفظ بملف المطابقة وراقب الأخطاء بعد الإطلاق."
+      ],
+      [
+        "اختر الوجهة بحسب مقصد الزائر",
+        "قد يكون للمنتج المتوقف بديل أو مجموعة مناسبة، وللمقال القديم شرح محدّث. سجّل المصدر والوجهة والسبب. راجع قيود شوبيفاي الحالية قبل تطبيق قاعدة على مسار نشط. افتح روابط الحملات القديمة فعلًا، وحدّث الروابط الداخلية إلى الوجهة النهائية. تجنّب سلاسل تحويل غير لازمة تصعّب فهم النقل القادم."
+      ]
+    ],
+    "checklist": [
+      "احصر الروابط القيّمة.",
+      "اختر وجهات مناسبة.",
+      "راجع القيود الحالية.",
+      "اختبر وحدّث الروابط الداخلية."
+    ],
+    "faq": [
+      [
+        "هل تُحوّل كل المنتجات المحذوفة إلى الرئيسية؟",
+        "اختر بديلًا أو تصنيفًا مرتبطًا عندما يخدم نية الزائر بصورة أفضل."
+      ]
+    ],
+    "editorial_detail_heading": "اختر الوجهة بحسب مقصد الزائر",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "إلى أين أحوّل الرابط القديم؟",
+        "اختر الصفحة التي تكمل ما كان يبحث عنه الزائر، مثل المنتج البديل أو التصنيف المناسب إذا لم يعد المنتج موجودًا. لا تحوّل كل شيء للرئيسية لمجرد التخلص من خطأ الرابط؛ قد يصل الشخص من إعلان أو نتيجة بحث عن شيء محدد. اختبر الرابط القديم من البداية إلى الوجهة النهائية، وحدّث الروابط الداخلية حيث تستطيع. احتفظ بخريطة التغييرات حتى تعرف ما حدث إذا رجع العميل أو الفريق إلى عنوان قديم."
+      ]
+    ],
+    "editorial_followup_heading": "إلى أين أحوّل الرابط القديم؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-url-redirects.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Old page route redirected along a curved path to a new page.",
+      "ar": "مسار صفحة قديمة يتحوّل إلى صفحة جديدة عبر سهم منحني."
+    }
+  }
+}

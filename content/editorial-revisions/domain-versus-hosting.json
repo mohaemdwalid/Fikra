@@ -1,0 +1,10 @@
+{
+  "slug": "domain-versus-hosting",
+  "title_ar": "ما الفرق بين الدومين والاستضافة؟",
+  "lead_en": "The domain is the address; hosting delivers the site at that address. You may buy them from different providers.",
+  "lead_ar": "الدومين هو عنوان الموقع، والاستضافة هي الخدمة التي تعرضه. يمكن أن يكونا لدى جهتين مختلفتين، وشراء أحدهما لا يجهّز الآخر تلقائيًا.",
+  "heading_en": "What happens when one service changes",
+  "detail_en": "Think of moving a shop without changing its published address: a website can change hosts while keeping the domain, if the connection is updated correctly. Email can be a separate service again. Before a move, record which provider handles the domain, DNS, website and email. Do not replace every DNS record just to point the site elsewhere. Keep renewal access with the business so an old supplier account does not control the address indefinitely.",
+  "heading_ar": "ماذا يحدث عند تغيير خدمة؟",
+  "detail_ar": "يمكن نقل الموقع إلى استضافة أخرى مع بقاء العنوان إذا تم الربط بصورة صحيحة. وقد يكون البريد لدى مزوّد ثالث. قبل النقل، دوّن من يدير الدومين وDNS والموقع والبريد. لا تستبدل جميع السجلات لمجرّد تحويل الموقع. واحتفظ بحساب التجديد لدى النشاط حتى لا يبقى عنوانك معتمدًا على حساب مورّد قديم."
+}

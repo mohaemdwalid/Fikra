@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-utm-tracking",
+  "title_ar": "كيف أعرف أي إعلان جلب الزيارة أو الطلب؟",
+  "lead_en": "Use consistent campaign links and understand the report’s attribution rules. Tracking helps answer the question, but it cannot explain every influence on a purchase.",
+  "lead_ar": "استخدم روابط حملة متّسقة وافهم طريقة إسناد التقرير. يساعد التتبّع على الإجابة لكنه لا يسجل كل مؤثر في قرار الشراء.",
+  "heading_en": "Keep a shared naming sheet",
+  "detail_en": "Use stable source, medium and campaign names across creatives. Open the complete link and check that redirects or language changes do not lose the intended context. Never put personal information in campaign tags. Compare reports using the same attribution basis and period: a customer can discover you in one channel and return through another. Review paid or fulfilled outcomes alongside clicks so a busy campaign is not mistaken for a profitable one.",
+  "heading_ar": "احتفظ بجدول تسمية مشترك",
+  "detail_ar": "وحّد المصدر والوسيط واسم الحملة بين المواد. افتح الرابط كاملًا وراجع التحويل واللغة، ولا تضع معلومات شخصية في الوسوم. قارن التقارير بأساس إسناد وفترة متّسقين؛ قد يكتشفك العميل بقناة ويعود بأخرى. راجع الطلبات المحصّلة أو المنفذة مع النقرات حتى لا تخلط كثرة النشاط بالربح."
+}

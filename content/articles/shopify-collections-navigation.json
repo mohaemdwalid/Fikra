@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-collections-navigation",
+  "category": "catalogue",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/products/collections"
+    }
+  ],
+  "related": [
+    "shopify-product-filters",
+    "shopify-product-variants",
+    "mobile-shopify-design"
+  ],
+  "en": {
+    "title": "How do you organise Shopify collections and navigation?",
+    "answer": "Use names customers recognise. The menu should help someone find a product without knowing your internal catalogue or campaign names.",
+    "sections": [
+      [
+        "Start with customer vocabulary",
+        "List the labels customers use in enquiries: everyday abayas, occasion wear or new arrivals, for example. Choose clear names and avoid making the entire menu depend on internal campaign names. A shopper should be able to predict what a link contains before opening it."
+      ],
+      [
+        "Decide how membership is maintained",
+        "Shopify supports manual and smart collections. Choose the approach that fits how reliably your team maintains product data. If a collection depends on a rule, document that rule and test products near its boundary. Avoid relying on inconsistent tags that make items disappear unexpectedly."
+      ],
+      [
+        "Review the whole navigation route",
+        "Move from the main menu to a collection, then to a product and back. Check how people find other relevant products without restarting from the homepage. Review empty collections, seasonal links and mobile menu depth. Keep navigation changes small enough to observe whether they reduce confusion."
+      ],
+      [
+        "Watch someone find a product",
+        "Ask a person unfamiliar with the store to find an everyday abaya in their size. Notice which menu label they choose and where they hesitate. If the route needs an explanation from you, improve the labels or grouping. Also check how products enter each collection: inconsistent tags can leave relevant items out. Remove empty seasonal links when the season ends, and make it easy to return from a product to the collection."
+      ]
+    ],
+    "checklist": [
+      "Use recognisable customer-facing labels.",
+      "Document collection membership rules.",
+      "Remove or resolve empty collection links.",
+      "Test the route on a small screen."
+    ],
+    "faq": [
+      [
+        "How many menu levels should I use?",
+        "Use the fewest levels that still organise the catalogue clearly. Test real product-finding tasks rather than choosing a number without context."
+      ]
+    ],
+    "editorial_detail_heading": "Watch someone find a product",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Sort by how customers ask",
+        "Look at the terms customers use in messages and search. Build a small set of meaningful groups and test where a mixed product belongs. Separate navigation from promotional badges: a temporary campaign should not make the permanent catalogue impossible to understand after it ends."
+      ]
+    ],
+    "editorial_followup_heading": "Sort by how customers ask"
+  },
+  "ar": {
+    "title": "كيف أقسّم منتجاتي حتى يجد العميل ما يبحث عنه؟",
+    "answer": "استخدم أسماء يعرفها العميل. يجب أن تساعده القائمة على العثور على القطعة دون أن يعرف طريقة ترتيبك الداخلية أو أسماء حملاتك.",
+    "sections": [
+      [
+        "استخدم لغة العميل",
+        "اجمع الأسماء المستخدمة في الاستفسارات مثل عبايات يومية أو مناسبات أو جديدنا. اختر أسماء واضحة بدل الاعتماد بالكامل على أسماء حملات داخلية. ينبغي أن يتوقّع العميل محتوى الرابط."
+      ],
+      [
+        "حدّد طريقة إضافة المنتجات",
+        "تدعم شوبيفاي تصنيفات يدوية وذكية. اختر بحسب انتظام بيانات فريقك، ووثّق قواعد العضوية واختبر حدودها. تجنّب الوسوم غير المتّسقة التي تُخفي المنتجات دون قصد."
+      ],
+      [
+        "اختبر مسار التصفّح",
+        "انتقل من القائمة إلى التصنيف فالمنتج ثم العودة. راجع التصنيفات الفارغة والروابط الموسمية وعمق القائمة على الجوال. طبّق تغييرات محدّدة لتستطيع تقييم أثرها."
+      ],
+      [
+        "اختبر التصفّح مع شخص جديد",
+        "اطلب من شخص لا يعرف المتجر إيجاد عباية يومية بمقاسه، وراقب الاسم الذي يضغطه وأين يتردّد. إذا احتاج إلى شرح منك، فالقائمة تحتاج إلى تحسين. راجع أيضًا طريقة دخول المنتجات لكل تصنيف؛ الوسوم غير المتّسقة قد تُخرج قطعًا مناسبة. أزل روابط المجموعات الفارغة بعد الموسم، وسهّل الرجوع من المنتج إلى المجموعة."
+      ]
+    ],
+    "checklist": [
+      "اختر أسماء مألوفة للعملاء.",
+      "وثّق قواعد التصنيفات.",
+      "عالج الروابط الفارغة.",
+      "اختبر العثور على منتج بالجوال."
+    ],
+    "faq": [
+      [
+        "كم مستوى تحتاج القائمة؟",
+        "استخدم أقل عدد يوضّح الكتالوج، واختبر مهام العثور على المنتجات بدل تحديد عدد دون سياق."
+      ]
+    ],
+    "editorial_detail_heading": "اختبر التصفّح مع شخص جديد",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ابدأ بالكلمات التي يستخدمها العملاء",
+        "راجع كيف يسأل العميل: هل يبحث حسب نوع المنتج، أم المناسبة، أم المقاس؟ ابنِ التصنيفات الرئيسية على ذلك، ثم استخدم الفلاتر للتفاصيل التي تساعد داخل المجموعة. جرّب منتجًا يصلح لأكثر من تصنيف وحدّد أين يتوقع الناس العثور عليه. تجنب قوائم طويلة بعناوين متشابهة، ولا تجعل ترتيب المتجر كله تابعًا لحملة مؤقتة. الهدف أن يجد الزائر ما يريده بدون معرفة مسبقة بطريقة تنظيمك الداخلية."
+      ]
+    ],
+    "editorial_followup_heading": "ابدأ بالكلمات التي يستخدمها العملاء"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-collections-navigation.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Collection navigation beside an organised product grid.",
+      "ar": "قائمة تصنيفات بجانب شبكة منتجات منظّمة."
+    }
+  }
+}

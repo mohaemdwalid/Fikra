@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-maintenance-backups",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/shopify-admin/duplicate-store"
+    }
+  ],
+  "related": [
+    "choose-shopify-apps",
+    "shopify-url-redirects",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "What should ongoing Shopify maintenance include?",
+    "answer": "Keep the store operable and recoverable. A theme copy is useful, but it is not a complete backup of every business record and setting.",
+    "sections": [
+      [
+        "Create an ownership register",
+        "Record who manages the domain, theme, apps, payments, catalogue and fulfilment connections. Keep supplier contacts and renewal responsibilities with the business. Review access when people leave the team, and avoid leaving critical accounts owned only by a former contractor."
+      ],
+      [
+        "Match backups to recovery needs",
+        "Identify what you would need to restore after an accidental edit or migration problem. Keep appropriate exports, theme versions and configuration records securely. Shopify documents limitations when duplicating store information, so test the recovery process rather than assuming every export can restore everything automatically."
+      ],
+      [
+        "Schedule focused reviews",
+        "Check important links, stock presentation, app changes, mobile behaviour and language content. Keep a change log with the affected pages and rollback information. Review after a major campaign or integration change, and verify that customer-facing policies and contact details still match the real operating process."
+      ],
+      [
+        "Plan the recovery you would really need",
+        "Imagine an accidental product edit or a failed integration change. Which exports, theme version and configuration records would let you recover? Keep them securely and understand their limits. Record who owns the domain, apps and payment accounts, including renewals and recovery access. After a significant change, test products, cart, language and contact routes. A maintenance agreement should explain these responsibilities rather than saying only that the agency will “keep the site updated.”"
+      ]
+    ],
+    "checklist": [
+      "Assign owners for critical accounts.",
+      "Keep secure data exports and theme versions.",
+      "Document recovery limitations.",
+      "Review key journeys after significant changes."
+    ],
+    "faq": [
+      [
+        "Is duplicating the theme a full store backup?",
+        "No. It preserves theme material, while products, customers, orders and operational settings need their own appropriate backup and recovery plan."
+      ]
+    ],
+    "editorial_detail_heading": "Plan the recovery you would really need",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Ask what can actually be restored",
+        "List the information and files your chosen backup method covers, then practise recovering a harmless sample in a safe setting. Identify what needs a separate export or another procedure. A saved theme file and a complete recovery plan are different things; document the limits before an incident."
+      ]
+    ],
+    "editorial_followup_heading": "Ask what can actually be restored"
+  },
+  "ar": {
+    "title": "ما الذي يحتاجه متجر شوبيفاي من صيانة ونسخ احتياطي؟",
+    "answer": "المطلوب استمرار التشغيل وإمكان الاستعادة. نسخة القالب مفيدة، لكنها ليست نسخة كاملة من جميع بيانات النشاط وإعداداته.",
+    "sections": [
+      [
+        "سجّل المسؤوليات",
+        "حدّد مسؤول النطاق والقالب والتطبيقات والدفع والكتالوج والتنفيذ. احتفظ بجهات الدعم والتجديد لدى النشاط، وراجع الصلاحيات عند مغادرة الأفراد بدل بقاء الحسابات بيد متعاقد سابق فقط."
+      ],
+      [
+        "اربط النسخ بهدف الاستعادة",
+        "حدّد ما يلزم بعد حذف أو نقل خاطئ. احفظ التصديرات وإصدارات القالب والإعدادات بأمان. توضّح شوبيفاي حدود نقل البيانات؛ اختبر الاستعادة بدل افتراض أن كل تصدير يعيد كل شيء تلقائيًا."
+      ],
+      [
+        "نظّم المراجعات",
+        "افحص الروابط والمخزون والتطبيقات والجوال واللغات. احتفظ بسجلّ تغييرات وطريقة رجوع، وراجع بعد الحملات والتكاملات الكبيرة واتّساق السياسات والتواصل مع التشغيل الحقيقي."
+      ],
+      [
+        "خطّط للاستعادة التي قد تحتاجها",
+        "تخيّل تعديل منتجات بالخطأ أو فشل ربط جديد. ما التصدير وإصدار القالب وسجل الإعداد الذي يساعدك على العودة؟ احفظها بأمان وافهم حدودها. وثّق مالك الدومين والتطبيقات والدفع والتجديد والاستعادة. وبعد تغيير كبير، اختبر المنتجات والسلة واللغة والتواصل. يجب أن يشرح عقد الصيانة هذه المسؤوليات بدل عبارة عامة مثل «نبقي الموقع محدّثًا»."
+      ]
+    ],
+    "checklist": [
+      "عيّن مسؤولي الحسابات.",
+      "احفظ البيانات والقالب بأمان.",
+      "وثّق حدود الاستعادة.",
+      "راجع الشراء بعد التغييرات."
+    ],
+    "faq": [
+      [
+        "هل نسخ القالب نسخة احتياطية كاملة؟",
+        "لا. تحتاج المنتجات والعملاء والطلبات والإعدادات إلى خطة نسخ واستعادة مناسبة أيضًا."
+      ]
+    ],
+    "editorial_detail_heading": "خطّط للاستعادة التي قد تحتاجها",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي تعنيه كلمة نسخة احتياطية هنا؟",
+        "اسأل عما تشمل النسخة فعلًا: هل تحفظ ملفات القالب فقط، أم بيانات أخرى أيضًا، وكيف يعاد كل جزء؟ حدّد ما يحتاج تصديرًا منفصلًا أو خدمة إضافية وفق إعدادك. جرّب استعادة عينة آمنة قبل الاعتماد على الخطة، وسجّل من يملك الملفات والوصول إليها. وجود ملف محفوظ لا يضمن أنك تستطيع إعادة المتجر كاملًا؛ المطلوب معرفة ما يمكن استرجاعه وما سيحتاج عملًا يدويًا عند المشكلة."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي تعنيه كلمة نسخة احتياطية هنا؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-maintenance-backups.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Cloud backup with an upload arrow and maintenance checklist.",
+      "ar": "نسخة احتياطية سحابية مع سهم حفظ وقائمة صيانة."
+    }
+  }
+}

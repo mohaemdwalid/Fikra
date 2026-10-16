@@ -1,0 +1,115 @@
+{
+  "slug": "shopify-versus-woocommerce-arabic",
+  "category": "platforms",
+  "service": "arabic-english-shopify",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/international/languages"
+    },
+    {
+      "title": "WooCommerce documentation",
+      "url": "https://woocommerce.com/documentation/woocommerce/getting-started/"
+    }
+  ],
+  "related": [
+    "arabic-english-shopify-store",
+    "arabic-shopify-rtl",
+    "shopify-versus-wordpress"
+  ],
+  "en": {
+    "title": "Shopify vs WooCommerce for an Arabic store: what should you test?",
+    "answer": "Try the same Arabic shopping task on both proposed setups. A translated demo is not enough to judge the theme, apps and checkout together.",
+    "sections": [
+      [
+        "Test language coverage",
+        "Use the same product, size guide, policy and checkout scenario in each candidate. Identify which content is translated through the platform, theme or extension. Missing translations and unsupported widgets should be visible in the comparison."
+      ],
+      [
+        "Test layout and editing",
+        "Review mixed Arabic and English names, numbers, cart states and long labels on mobile. Ask the editor to change a translated product. Record whether updating the original creates extra work and who approves the Arabic meaning."
+      ],
+      [
+        "Check external dependencies",
+        "Payment pages, booking tools and other embeds may follow their own language support. Verify them separately. Choose the setup that meets your actual requirements rather than assuming any theme advertised as multilingual is complete for your catalogue."
+      ],
+      [
+        "Use a demanding product as the test",
+        "Choose a product with a long Arabic name, several sizes and mixed English identifiers. Review its collection, gallery, selected options and cart on a phone. Then ask the editor to update the translation. Record which parts belong to the theme, platform or external tools and which require paid work. The better choice is the one that supports your actual catalogue and maintenance process, not the one whose homepage happens to show Arabic correctly."
+      ]
+    ],
+    "checklist": [
+      "Test identical Arabic journeys.",
+      "Review mobile RTL and editing.",
+      "Check external tools separately."
+    ],
+    "faq": [
+      [
+        "Is a translated theme enough for Arabic ecommerce?",
+        "It is only part of the setup; content, extensions and checkout also need review."
+      ]
+    ],
+    "editorial_detail_heading": "Use a demanding product as the test",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Compare a complete Arabic journey",
+        "Use the same Arabic product title, options, images and delivery information on both demonstrations. Test navigation and any third-party components too. Record the custom work and ongoing editing each needs. A language setting alone does not tell you how comfortable the finished store will be."
+      ]
+    ],
+    "editorial_followup_heading": "Compare a complete Arabic journey"
+  },
+  "ar": {
+    "title": "للمتجر العربي، أختار شوبيفاي أو ووكومرس؟",
+    "answer": "جرّب مهمة الشراء العربية نفسها على الإعدادين المقترحين. العرض المترجم لا يكفي للحكم على القالب والتطبيقات والدفع معًا.",
+    "sections": [
+      [
+        "راجع التغطية",
+        "جرّب المنتج والمقاسات والسياسة والدفع نفسه، وحدّد ما يترجمه النظام أو القالب أو الإضافة."
+      ],
+      [
+        "اختبر العرض والتحرير",
+        "راجع الأسماء المختلطة والأرقام والسلة والجوال، ودع المسؤول يعدّل منتجًا مترجمًا مع اعتماد المعنى."
+      ],
+      [
+        "افحص التبعيات",
+        "قد تتبع صفحات الدفع والأدوات المضمّنة لغات مختلفة؛ اختبرها منفصلة بدل الاكتفاء بوصف القالب."
+      ],
+      [
+        "اختبر منتجًا يكشف الفروق",
+        "اختر اسمًا عربيًا طويلًا ومقاسات ومعرّفات إنجليزية. راجع التصنيف والمعرض والخيارات والسلة على الهاتف، ثم اطلب تعديل الترجمة. دوّن ما يتبع القالب أو المنصة أو أداة خارجية وما يحتاج إلى عمل مدفوع. الأفضل لك ما يدعم كتالوجك وطريقة تحديثه، لا ما يعرض الرئيسية بالعربية بصورة جميلة فقط."
+      ]
+    ],
+    "checklist": [
+      "اختبر رحلة عربية متطابقة.",
+      "راجع RTL والتحرير.",
+      "افحص الأدوات الخارجية."
+    ],
+    "faq": [
+      [
+        "هل يكفي قالب مترجم؟",
+        "هو جزء؛ يحتاج المحتوى والربط والدفع إلى مراجعة أيضًا."
+      ]
+    ],
+    "editorial_detail_heading": "اختبر منتجًا يكشف الفروق",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "اختبر العربية بنفس المحتوى على الخيارين",
+        "ضع اسم المنتج ووصفه وخياراته نفسها في العرضين، ثم جرّب القائمة والفلاتر والسلة وأي جزء يأتي من إضافة. راجع الجوال والأرقام والعملات ورسائل الطلب، لا محاذاة النص وحدها. اكتب التعديلات التي يحتاجها كل إعداد ومن سيحافظ عليها عند التحديث. لا توجد إجابة واحدة لكل قالب أو إضافة؛ المهم جودة التنفيذ الفعلي وقدرة فريقك على إدارة النسختين بعد التسليم."
+      ]
+    ],
+    "editorial_followup_heading": "اختبر العربية بنفس المحتوى على الخيارين"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-woocommerce-arabic.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

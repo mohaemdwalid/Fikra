@@ -1,0 +1,171 @@
+{
+  "slug": "shopify-sitemap-google",
+  "category": "search",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/seo/find-site-map"
+    }
+  ],
+  "related": [
+    "shopify-seo-titles",
+    "shopify-url-redirects",
+    "shopify-connect-domain"
+  ],
+  "en": {
+    "title": "How do you help Google discover your Shopify store?",
+    "answer": "First check whether the page is accessible and indexed. A visibility problem can be different from a ranking problem.",
+    "sections": [
+      [
+        "Confirm the store is accessible",
+        "Check that the intended public pages can be reached without a customer login or storefront password. Review the canonical domain and whether internal links point to the correct destinations. Make sure a page has meaningful content before asking a search engine to index it."
+      ],
+      [
+        "Submit the actual sitemap",
+        "Follow Shopify’s current verification and sitemap instructions for the domain you use. Keep Search Console ownership with the business. Review reported issues and inspect representative product, collection and content URLs. Do not interpret a successful sitemap submission as confirmation that every listed page is indexed."
+      ],
+      [
+        "Improve pages with evidence",
+        "Monitor queries, clicks and landing pages over comparable periods. Investigate pages that search engines cannot access, and distinguish those from pages that are accessible but not yet selected for results. Add relevant internal links and useful information rather than repeatedly resubmitting unchanged thin pages."
+      ],
+      [
+        "Use Search Console to narrow the question",
+        "Confirm the public store is not behind a password, verify the correct domain and inspect a representative URL. Submit Shopify’s actual sitemap and read any reported issue. A successful submission only confirms the file was accepted, not that every page was indexed. If the page is accessible but not selected, examine its content and internal links. If it is indexed, use queries and impressions to understand relevance before treating every low-click result as a technical failure."
+      ]
+    ],
+    "checklist": [
+      "Check public access and the intended domain.",
+      "Verify Search Console ownership.",
+      "Submit the store’s actual sitemap.",
+      "Inspect representative pages and follow up on issues."
+    ],
+    "faq": [
+      [
+        "Should I upload a custom sitemap over Shopify’s one?",
+        "Shopify generates its sitemap. Review the supported workflow before attempting changes and use the actual store sitemap in Search Console."
+      ]
+    ],
+    "editorial_detail_heading": "Use Search Console to narrow the question",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Three problems that need different responses",
+      "columns": [
+        "What you find",
+        "Where to investigate"
+      ],
+      "rows": [
+        [
+          "The public page cannot be reached",
+          "Storefront access, passwords, host responses and crawl restrictions."
+        ],
+        [
+          "The page can be reached but is not indexed",
+          "URL inspection, canonical choice, content usefulness and internal links."
+        ],
+        [
+          "The page is indexed but gets few relevant visits",
+          "Queries, impressions, audience relevance and the competing results."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Why repeatedly submitting the sitemap may not help",
+        "The sitemap communicates URLs; it does not instruct Google to rank them. If a page has little useful information or the wrong canonical destination, resending the same file does not fix the cause. Inspect a specific example and read the result before changing many settings. Keep internal links clear so important pages are not discoverable only through the sitemap."
+      ],
+      [
+        "What to watch after the technical checks",
+        "Once a useful page can be reached and indexed, review which queries show it, whether those searches match the offer and whether visitors take a useful next step. A few observations over a very short period can be misleading. Keep a dated record of changes and compare suitable periods. Search Console evidence helps you ask a better question than “why am I not first?”"
+      ],
+      [
+        "Work on the page after submission",
+        "Choose an important page and check whether its content answers a clear question, links from the site lead to it and its public address is consistent. Follow the available search reports rather than submitting the same sitemap repeatedly. Discovering a URL and ranking it for a useful search are separate stages."
+      ]
+    ],
+    "editorial_followup_heading": "Work on the page after submission"
+  },
+  "ar": {
+    "title": "متجري لا يظهر في جوجل، ماذا أفعل؟",
+    "answer": "ابدأ بالوصول والفهرسة. عدم ظهور الصفحة أصلًا يختلف عن ظهورها بترتيب متأخر، ولكل حالة ما يجب فحصه.",
+    "sections": [
+      [
+        "تحقّق من الوصول",
+        "راجع الصفحات العامة دون تسجيل دخول أو كلمة مرور للمتجر. تأكّد من النطاق الأساسي والروابط الداخلية ووجود محتوى مفيد قبل طلب الفهرسة."
+      ],
+      [
+        "أرسل الخريطة الفعلية",
+        "اتبع تعليمات شوبيفاي الحالية للتحقّق والإرسال مع ملكية الحساب لدى النشاط. افحص منتجات وتصنيفات وصفحات ممثّلة. نجاح الإرسال لا يعني فهرسة جميع الروابط."
+      ],
+      [
+        "حسّن وفق البيانات",
+        "راقب الاستعلامات والنقرات والصفحات خلال فترات قابلة للمقارنة. ميّز تعذّر الوصول عن عدم اختيار الصفحة للنتائج، وأضف روابط ومعلومات مفيدة بدل تكرار إرسال محتوى ضعيف بلا تغيير."
+      ],
+      [
+        "استخدم Search Console لتحديد الحالة",
+        "تأكد أن المتجر العام ليس خلف كلمة مرور، ووثّق النطاق وافحص رابطًا ممثّلًا. أرسل خريطة شوبيفاي الفعلية واقرأ المشكلة المسجلة؛ قبول الملف لا يعني فهرسة كل صفحة. إذا أمكن الوصول ولم تُختَر الصفحة، راجع المحتوى والروابط. وإذا فُهرست، استخدم الاستعلامات والظهور لفهم الملاءمة بدل اعتبار كل قلة نقرات عطلًا تقنيًا."
+      ]
+    ],
+    "checklist": [
+      "راجع الوصول والنطاق.",
+      "وثّق ملكية Search Console.",
+      "أرسل الخريطة الفعلية.",
+      "افحص صفحات ممثّلة وتابع المشكلات."
+    ],
+    "faq": [
+      [
+        "هل أستبدل خريطة شوبيفاي بملف يدوي؟",
+        "تنشئ شوبيفاي الخريطة تلقائيًا؛ راجع المسار المدعوم واستخدم خريطة المتجر الفعلية."
+      ]
+    ],
+    "editorial_detail_heading": "استخدم Search Console لتحديد الحالة",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "ثلاث حالات لا تُعالج بالطريقة نفسها",
+      "columns": [
+        "ما الذي وجدته؟",
+        "أين تبحث؟"
+      ],
+      "rows": [
+        [
+          "لا يمكن الوصول للصفحة العامة",
+          "الوصول وكلمة المرور واستجابة الاستضافة وقيود الزحف."
+        ],
+        [
+          "يمكن الوصول ولم تُفهرس",
+          "فحص الرابط والنسخة الأساسية وفائدة المحتوى والروابط الداخلية."
+        ],
+        [
+          "فُهرست والزيارات المناسبة قليلة",
+          "الاستعلامات والظهور وملاءمة الجمهور والنتائج المنافسة."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "لماذا قد لا يفيد تكرار إرسال الخريطة؟",
+        "تعرّف الخريطة بالروابط ولا تأمر جوجل بترتيبها. إذا كان المحتوى ضعيفًا أو الرابط الأساسي خاطئًا، لا يصلح إعادة الملف السبب. افحص مثالًا واقرأ نتيجته قبل تغيير إعدادات كثيرة، واربط الصفحات المهمة داخل الموقع أيضًا."
+      ],
+      [
+        "ماذا تتابع بعد التقنية؟",
+        "راجع الاستعلامات التي تظهر الصفحة وملاءمتها للعرض والخطوة التالية للزائر. قد تضلّل ملاحظات قليلة في مدة قصيرة. سجّل التغييرات وقارن فترات مناسبة؛ تساعدك البيانات على سؤال أدق من «لماذا لست الأول؟»."
+      ],
+      [
+        "ماذا أعمل بعد إرسال خريطة الموقع؟",
+        "اختر صفحة مهمة وراجع هل يمكن الوصول إليها من روابط الموقع، وهل محتواها يجيب عن سؤال واضح، وهل العنوان العام الذي تستخدمه ثابت. تابع حالة الصفحة في التقارير المتاحة، وعالج سبب المشكلة إذا ظهر بدل إعادة إرسال الخريطة بلا تغيير. معرفة جوجل بالرابط ليست وعدًا بترتيبه أولًا؛ تحتاج الصفحة إلى فائدة ومحتوى يمكن فهمه وموقع يعمل، ثم متابعة لما يحدث بعد النشر."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا أعمل بعد إرسال خريطة الموقع؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-sitemap-google.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website sitemap connecting a parent page to three content pages.",
+      "ar": "خريطة موقع تربط صفحة رئيسية بثلاث صفحات محتوى."
+    }
+  }
+}

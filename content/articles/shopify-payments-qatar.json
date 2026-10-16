@@ -1,0 +1,195 @@
+{
+  "slug": "shopify-payments-qatar",
+  "category": "operations",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/payments/shopify-payments/supported-countries"
+    }
+  ],
+  "related": [
+    "shopify-currency-display",
+    "shopify-cash-on-delivery",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "How do you choose Shopify payment options for a Qatar business?",
+    "answer": "Check providers against your real business registration and bank arrangements. Shopify Payments and all the payment options on Shopify are not the same thing.",
+    "sections": [
+      [
+        "Check eligibility before design promises",
+        "As checked on October 16, 2026, Qatar is not on Shopify’s published Shopify Payments supported-country list. Review the current list again when configuring the store. If the business is not eligible, investigate supported third-party providers rather than using another country’s details to bypass requirements."
+      ],
+      [
+        "Compare the merchant requirements",
+        "Ask candidate providers about business documentation, settlement account, supported customer methods, refunds, fees and support. Confirm whether their Shopify integration supports the flow you need. Treat approval as a provider decision; having a Shopify website does not guarantee that a payment account will be accepted."
+      ],
+      [
+        "Verify the customer journey",
+        "Review mobile checkout, error handling and the payment confirmation route with the approved provider. Check the amount and currency that the customer is charged. Keep the owner responsible for the provider account and document support contacts so payment problems can be handled after launch."
+      ],
+      [
+        "Check eligibility before building around a method",
+        "Qatar was not on the Shopify Payments supported-country list checked for this guide. Recheck the official list when setting up the account. Ask third-party providers about merchant approval, settlement, refunds and their current Shopify integration. Do not promise a payment method before the provider accepts the business. After approval, test the exact mobile route, charged currency and order confirmation. Keep the account and support details under the merchant’s control."
+      ]
+    ],
+    "checklist": [
+      "Check the current country and business eligibility.",
+      "Confirm bank and verification requirements.",
+      "Compare refunds, fees and settlement terms.",
+      "Test the approved payment route."
+    ],
+    "faq": [
+      [
+        "Can an agency guarantee payment-provider approval?",
+        "No. Approval depends on the provider’s checks and your business documentation. The agency can help review integration requirements."
+      ]
+    ],
+    "editorial_detail_heading": "Check eligibility before building around a method",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Questions to send to a payment provider",
+      "columns": [
+        "Ask about",
+        "Why you need an answer"
+      ],
+      "rows": [
+        [
+          "Business eligibility",
+          "Confirm your actual country, activity and documentation rather than another merchant’s approval."
+        ],
+        [
+          "Settlement",
+          "Understand the supported bank account, currencies and timing under the provider’s terms."
+        ],
+        [
+          "Fees and refunds",
+          "Ask for current merchant terms and how refunds and failed payments are handled."
+        ],
+        [
+          "Shopify integration",
+          "Request the supported installation and customer-payment route for your account."
+        ],
+        [
+          "Support",
+          "Know who investigates a failed transaction after launch."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "What to ask before opening the provider account",
+        "Describe the country where the business genuinely operates, its activity, settlement bank and expected customer routes. Ask which documents are required and what current merchant terms apply. Keep approval questions separate from the website integration quote: a developer can connect a supported service but cannot guarantee that a provider accepts the business. Do not use another country’s details merely to imitate an account shown in a tutorial."
+      ],
+      [
+        "What to test after approval",
+        "Choose a representative product and destination, then review the final amount, charged currency, success route and order record. Confirm how a failed or cancelled attempt appears and which team investigates it. If a real charge is necessary, obtain the owner’s agreement because provider fees and refund conditions can apply. Do not dispatch a test parcel accidentally or count a simulated transaction as commercial revenue."
+      ],
+      [
+        "Who owns the setup afterward?",
+        "Keep the merchant account, bank relationship and recovery contacts under the business’s control. Record which part of the journey the provider handles and which the website handles. If customers report a failure, the team should know whether to inspect order data, integration behaviour or the provider’s transaction record. Clear responsibility is more useful than adding several payment logos before you know which routes work."
+      ],
+      [
+        "Keep the approval questions in one place",
+        "Prepare your business details and ask the provider about eligibility, the supported integration, required documents and the proposed charging arrangement. Keep the written answers with your project scope. Confirm the actual account before launch; a logo in a demo does not establish that your merchant setup is approved."
+      ]
+    ],
+    "editorial_followup_heading": "Keep the approval questions in one place"
+  },
+  "ar": {
+    "title": "كيف أفعّل الدفع الإلكتروني لمتجر شوبيفاي في قطر؟",
+    "answer": "ابحث عن مزوّد يناسب تسجيل نشاطك وحسابك البنكي. Shopify Payments ليس اسمًا لكل طرق الدفع على المنصة، وعدم توفره لا يعني أن جميع طرق الدفع غير ممكنة.",
+    "sections": [
+      [
+        "تحقّق قبل تقديم الوعود",
+        "بتاريخ ١٦ أكتوبر ٢٠٢٦، لا تظهر قطر في قائمة الدول المنشورة لدعم Shopify Payments. راجع القائمة مجددًا عند الإعداد. إن لم تكن مؤهلًا، ابحث عن مزوّد خارجي مدعوم بدل استخدام بيانات دولة أخرى لتجاوز الشروط."
+      ],
+      [
+        "قارن متطلّبات المزوّد",
+        "اسأل عن وثائق النشاط والبنك وطرق الدفع والاسترجاع والرسوم والدعم، وأكّد تكامل شوبيفاي المطلوب. الموافقة قرار المزوّد؛ إنشاء المتجر لا يضمن قبول الحساب."
+      ],
+      [
+        "راجع تجربة العميل",
+        "اختبر الدفع على الجوال والأخطاء والتأكيد مع المزوّد المعتمد. راجع المبلغ والعملة، وأبقِ ملكية الحساب لدى صاحب النشاط ووثّق جهة الدعم للمشكلات اللاحقة."
+      ],
+      [
+        "أكّد الأهلية قبل الوعد بالطريقة",
+        "لم تظهر قطر في قائمة Shopify Payments الرسمية التي راجعناها لهذا الدليل؛ أعد فحصها وقت الإعداد. اسأل المزوّد الخارجي عن قبول التاجر والتحويل والاسترجاع والربط الحالي بشوبيفاي. لا تَعِد بطريقة قبل قبول نشاطك. وبعد الموافقة، اختبر الجوال والعملة وتأكيد الطلب، واحتفظ بملكية الحساب وبيانات الدعم لدى التاجر."
+      ]
+    ],
+    "checklist": [
+      "راجع الأهلية الحالية.",
+      "أكّد متطلّبات التحقّق والبنك.",
+      "قارن الرسوم والاسترجاع والتحويل.",
+      "اختبر مسار الدفع المعتمد."
+    ],
+    "faq": [
+      [
+        "هل تضمن الوكالة قبول مزوّد الدفع؟",
+        "لا. يعتمد القبول على مراجعة المزوّد ووثائق نشاطك؛ يمكن للوكالة مراجعة متطلّبات الربط."
+      ]
+    ],
+    "editorial_detail_heading": "أكّد الأهلية قبل الوعد بالطريقة",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "أسئلة ترسلها لمزوّد الدفع",
+      "columns": [
+        "اسأل عن",
+        "لماذا تحتاج الإجابة؟"
+      ],
+      "rows": [
+        [
+          "أهلية النشاط",
+          "أكّد الدولة والنشاط والوثائق الخاصة بك، لا قبول تاجر آخر."
+        ],
+        [
+          "استلام الأموال",
+          "افهم البنك والعملات والوقت وفق شروط المزوّد."
+        ],
+        [
+          "الرسوم والاسترجاع",
+          "اطلب الشروط الحالية ومعالجة الاسترجاع وفشل الدفع."
+        ],
+        [
+          "ربط شوبيفاي",
+          "اطلب طريقة التركيب والدفع المدعومة لحسابك."
+        ],
+        [
+          "الدعم",
+          "اعرف من يعالج المعاملة المتعثرة بعد الإطلاق."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "ماذا تسأل قبل فتح حساب المزوّد؟",
+        "وضّح دولة النشاط الحقيقية ونوعه والبنك وطرق العملاء. اسأل عن الوثائق والشروط الحالية، وافصل الموافقة عن عرض الربط؛ يستطيع المطوّر ربط خدمة مدعومة لكنه لا يضمن قبول التاجر. لا تستخدم بيانات دولة أخرى لتقليد حساب في شرح تعليمي."
+      ],
+      [
+        "ماذا تختبر بعد القبول؟",
+        "اختر منتجًا ووجهة وراجع الإجمالي والعملة والتأكيد وسجل الطلب. افحص الفشل والإلغاء والمسؤول عن المتابعة. وأي خصم حقيقي يحتاج اتفاق المالك لاحتمال الرسوم وشروط الاسترجاع. امنع إرسال طرد الاختبار ولا تحسب المحاكاة إيرادًا تجاريًا."
+      ],
+      [
+        "من يملك الإعداد بعد التسليم؟",
+        "أبقِ الحساب والبنك والاستعادة تحت تحكم النشاط. وثّق ما تديره الصفحة وما يديره المزوّد حتى يعرف الفريق أين يفحص الفشل. وضوح المسؤولية أنفع من شعارات طرق دفع لم تتأكد أنها تعمل."
+      ],
+      [
+        "ما الذي أرسله لمزود الدفع؟",
+        "جهّز وصف نشاطك وبلد تسجيل المشروع وطبيعة المنتجات وطريقة البيع، ثم اسأل عن قبول هذه الحالة والوثائق والربط المتاح مع شوبيفاي. اطلب توضيح الرسوم والتسوية والاسترداد وفق عرضهم الحالي، واحتفظ بالإجابة مع ملفات المشروع. بعد قبول الحساب، راجع التجربة الفعلية ورسائلها مع الفريق. ظهور شعار المزود في تصميم تجريبي لا يعني أن الحساب جاهز، ولا أن كل وسيلة دفع عنده متاحة لإعدادك نفسه."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي أرسله لمزود الدفع؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-payments-qatar.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Payment card beside a shield representing provider verification.",
+      "ar": "بطاقة دفع بجانب درع يرمز إلى التحقّق لدى المزوّد."
+    }
+  }
+}

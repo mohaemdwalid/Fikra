@@ -1,0 +1,115 @@
+{
+  "slug": "shopify-versus-squarespace",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Squarespace Help Center",
+      "url": "https://support.squarespace.com/hc/en-us/articles/5237452094989-Everything-you-can-do-with-Squarespace"
+    },
+    {
+      "title": "Shopify documentation",
+      "url": "https://www.shopify.com/faq"
+    }
+  ],
+  "related": [
+    "portfolio-or-online-store",
+    "shopify-selling-services",
+    "shopify-versus-wordpress"
+  ],
+  "en": {
+    "title": "Shopify vs Squarespace: which suits a content and retail business?",
+    "answer": "Decide how much of the site is publishing and how much is commerce. A good portfolio demo does not answer inventory or fulfilment questions.",
+    "sections": [
+      [
+        "Balance the priorities",
+        "List editorial pages, portfolio content, catalogue requirements and the expected purchase route. A beautiful portfolio demonstration does not prove complex merchandising works, and an extensive commerce dashboard may not be necessary for a simple presentation site."
+      ],
+      [
+        "Check specific capabilities",
+        "Test required languages, payment providers, digital or physical fulfilment and any scheduling tools in the proposed configuration. Confirm current availability rather than relying on an old comparison chart. Record where a third-party service is required."
+      ],
+      [
+        "Review the owner experience",
+        "Have the future editor update a product and a content page. Compare recurring costs, support, export and domain handling. Choose the approach whose practical limitations you understand and can maintain."
+      ],
+      [
+        "Compare two everyday updates",
+        "Ask your team to publish an article and change a product with options. Then review the customer route, payments and languages in the proposed plan. List external tools required for scheduling or fulfilment so the comparison includes their costs and limitations. If the project is mostly presentation with a small sales element, that may lead to a different choice from a growing retail catalogue. Choose after the tasks, not before them."
+      ]
+    ],
+    "checklist": [
+      "Rank publishing and commerce needs.",
+      "Verify actual plan capabilities.",
+      "Test the editing workflow."
+    ],
+    "faq": [
+      [
+        "Does a design-focused platform mean weaker business results?",
+        "Results depend on fit and execution; the platform label alone does not establish the outcome."
+      ]
+    ],
+    "editorial_detail_heading": "Compare two everyday updates",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Demonstrate the difficult content and product",
+        "Choose one representative editorial page and one product with your real options. Ask for both to be built in the proposed setup. Review editing, eligible payments and ongoing costs. A platform comparison becomes useful when it explains your daily work, not when it only compares attractive templates."
+      ]
+    ],
+    "editorial_followup_heading": "Demonstrate the difficult content and product"
+  },
+  "ar": {
+    "title": "شوبيفاي أو Squarespace لموقع يجمع المحتوى والبيع؟",
+    "answer": "حدّد وزن المحتوى ووزن التجارة في الموقع. جمال معرض الأعمال لا يجيب عن المخزون والتنفيذ، وكثرة أدوات البيع لا تعني أنك تحتاجها كلها.",
+    "sections": [
+      [
+        "رتّب الأولويات",
+        "حدّد الصفحات والمعرض والكتالوج والشراء؛ عرض جميل لا يثبت التسويق المعقّد، وقد لا تحتاج لوحة تجارة واسعة."
+      ],
+      [
+        "اختبر الخصائص",
+        "راجع اللغة والدفع والتنفيذ والحجز في الإعداد المقترح وحدّد الأدوات الخارجية بدل جدول قديم."
+      ],
+      [
+        "راجع تجربة الإدارة",
+        "جرّب تعديل منتج وصفحة وقارن التكلفة والدعم والتصدير والنطاق مع فهم الحدود."
+      ],
+      [
+        "قارن تحديثين من العمل اليومي",
+        "جرّب نشر مقال وتعديل منتج بخيارات، ثم راجع الشراء والدفع واللغات في الباقة المقترحة. احصر الأدوات الخارجية للحجز أو التنفيذ مع تكلفتها وحدودها. موقع يغلب عليه العرض مع بيع محدود قد يحتاج اختيارًا مختلفًا عن كتالوج تجزئة متوسع. اترك المهمة تقود القرار، لا الاسم الذي اخترته مسبقًا."
+      ]
+    ],
+    "checklist": [
+      "رتّب النشر والبيع.",
+      "تحقّق من الباقة.",
+      "اختبر التحرير."
+    ],
+    "faq": [
+      [
+        "هل يحدّد التركيز البصري النتائج؟",
+        "تتبع النتائج الملاءمة والتنفيذ، وليس اسم الفئة وحده."
+      ]
+    ],
+    "editorial_detail_heading": "قارن تحديثين من العمل اليومي",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "قارن بمثال من مشروعك",
+        "خذ صفحة محتوى مهمة ومنتجًا بخياراته الحقيقية، واطلب تجربة الاثنين في الإعداد المقترح. راجع من سيعدل الصفحة وكيف يظهر المنتج وما الدفع المتاح لنشاطك، ثم قارن المصاريف والصيانة. إذا كان المحتوى هو الجزء الأكبر من المشروع، أعطه وزنًا مناسبًا، وإذا كان البيع معقدًا فلا تخفِ احتياجاته خلف شكل القالب. الاختيار يعتمد على العمل الذي ستقوم به يوميًا، لا على أجمل صورة في العرض."
+      ]
+    ],
+    "editorial_followup_heading": "قارن بمثال من مشروعك"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-squarespace.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

@@ -75,8 +75,15 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         target = Path(self.translate_path(urlsplit(self.path).path)).resolve()
-        allowed = target in {ROOT, ROOT / 'index.html', ROOT / 'book', ROOT / 'book/index.html'} or (ROOT / 'assets') in target.parents
-        if not allowed or not target.is_relative_to(ROOT) or target.is_dir() and target not in {ROOT, ROOT / 'book'}:
+        # Serve only public pages; build inputs, leads and management files stay private.
+        public_dirs = {'book', 'ar', 'articles', 'shopify-store-design', 'shopify-store-redesign', 'arabic-english-shopify'}
+        relative = target.relative_to(ROOT) if target.is_relative_to(ROOT) else None
+        public_page = relative is not None and (
+            not relative.parts or str(relative) in {'index.html', 'robots.txt', 'sitemap.xml'}
+            or relative.parts[0] in public_dirs and (target.is_dir() or target.name == 'index.html')
+        )
+        allowed = public_page or (ROOT / 'assets') in target.parents
+        if not allowed or not target.is_relative_to(ROOT):
             self.send_error(404)
             return
         super().do_GET()

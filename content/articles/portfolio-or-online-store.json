@@ -1,0 +1,115 @@
+{
+  "slug": "portfolio-or-online-store",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/features/"
+    },
+    {
+      "title": "Shopify documentation",
+      "url": "https://www.shopify.com/faq"
+    }
+  ],
+  "related": [
+    "business-website-types",
+    "shopify-selling-services",
+    "website-contact-page"
+  ],
+  "en": {
+    "title": "Does your business need a portfolio or an online store?",
+    "answer": "A portfolio helps someone judge your work; a store helps them buy a defined item. Decide whether the purchase needs a conversation first.",
+    "sections": [
+      [
+        "Understand the decision",
+        "If projects vary by scope, show examples with context and a useful enquiry route. If products have clear options and fulfilment rules, a store may reduce manual ordering. Some businesses need both, with distinct navigation for each task."
+      ],
+      [
+        "Prepare the right evidence",
+        "Portfolio entries should explain the brief, your actual contribution and approved outcomes. Product pages need prices, options, availability and delivery information. Avoid presenting mockups as completed client work or case-study percentages without supporting records."
+      ],
+      [
+        "Plan the next step",
+        "Decide who responds to a project enquiry and who fulfils a product order. Evaluate technology only after those workflows are defined. Adding a cart to an unclear service offer can introduce confusion rather than useful automation."
+      ],
+      [
+        "Use the transaction to decide",
+        "A project whose scope changes after a discussion may need strong examples and a quote form. A standard product with known options can suit checkout. You can combine both, but explain which items are examples and which are for sale. A portfolio entry needs context about your contribution; a product needs price, availability and fulfilment information. Do not add a cart merely because it makes the site feel more advanced."
+      ]
+    ],
+    "checklist": [
+      "Decide enquiry versus immediate purchase.",
+      "Prepare appropriate content.",
+      "Assign response or fulfilment owners."
+    ],
+    "faq": [
+      [
+        "Can a portfolio include products for sale?",
+        "Yes. Keep project evidence and purchasable items clearly distinguished."
+      ]
+    ],
+    "editorial_detail_heading": "Use the transaction to decide",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Match the contact route to the work",
+        "For a tailored service, a project page can explain the brief, scope and next step without adding a cart. For a fixed deliverable with a clear price, direct purchase may be useful. Decide how customers buy from you today before choosing ecommerce features that introduce unnecessary administration."
+      ]
+    ],
+    "editorial_followup_heading": "Match the contact route to the work"
+  },
+  "ar": {
+    "title": "أعرض أعمالي فقط، أم أحتاج متجرًا يبيع؟",
+    "answer": "يساعد المعرض على تقييم أعمالك، ويساعد المتجر على شراء شيء محدّد. اسأل هل يستطيع العميل إتمام القرار وحده أم يحتاج إلى مناقشة وعرض خاص.",
+    "sections": [
+      [
+        "افهم القرار",
+        "للمشاريع المتغيّرة اعرض سياقًا ومسار استفسار. ولمنتجات واضحة الخيارات والتوصيل قد يناسب المتجر. يمكن الجمع بمسارات مختلفة."
+      ],
+      [
+        "جهّز الدليل المناسب",
+        "وضّح مساهمتك والنتائج المعتمدة في المعرض، والأسعار والتوفّر في المنتجات. لا تعرض نماذج كأعمال مكتملة دون توضيح."
+      ],
+      [
+        "خطّط للخطوة التالية",
+        "حدّد مسؤول الرد أو التنفيذ قبل اختيار التقنية؛ قد تربك السلة خدمة غير محدّدة."
+      ],
+      [
+        "دع طريقة البيع تحدّد الاختيار",
+        "المشروع الذي يتغير نطاقه بعد النقاش قد يحتاج أمثلة قوية ونموذج عرض. أما المنتج المحدّد بخيارات معروفة فقد يناسبه الدفع. يمكن الجمع مع توضيح ما هو مثال وما هو للبيع. يحتاج العمل السابق إلى سياق يشرح مساهمتك، ويحتاج المنتج إلى سعر وتوفّر وتنفيذ. لا تضف سلة فقط ليبدو الموقع أكثر تطورًا."
+      ]
+    ],
+    "checklist": [
+      "ميّز الاستفسار عن الشراء.",
+      "جهّز المحتوى المناسب.",
+      "عيّن المسؤول."
+    ],
+    "faq": [
+      [
+        "هل يجمع المعرض منتجات للبيع؟",
+        "نعم مع تمييز واضح بين إثبات العمل والمنتج القابل للشراء."
+      ]
+    ],
+    "editorial_detail_heading": "دع طريقة البيع تحدّد الاختيار",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "متى يكون معرض الأعمال كافيًا؟",
+        "إذا كان كل مشروع يحتاج اجتماعًا وتسعيرًا خاصًا، ركّز على شرح الأعمال ونوع الخدمة وطريقة طلب عرض. أما إذا كان العميل يستطيع اختيار منتج أو خدمة محددة بسعر معلوم، فقد يناسبه الشراء المباشر. اسأل نفسك ماذا يحدث بعد إعجاب الزائر بعملك: هل يرسل تفاصيل، أم يحجز، أم يدفع؟ ابنِ الموقع حول تلك الخطوة، ولا تضف سلة ودفعًا إذا كان فريقك سيعيد التواصل لتحديد كل شيء من البداية."
+      ]
+    ],
+    "editorial_followup_heading": "متى يكون معرض الأعمال كافيًا؟"
+  },
+  "image": {
+    "src": "/assets/article-images/portfolio-or-online-store.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

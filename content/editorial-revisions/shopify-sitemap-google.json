@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-sitemap-google",
+  "title_ar": "متجري لا يظهر في جوجل، ماذا أفعل؟",
+  "lead_en": "First check whether the page is accessible and indexed. A visibility problem can be different from a ranking problem.",
+  "lead_ar": "ابدأ بالوصول والفهرسة. عدم ظهور الصفحة أصلًا يختلف عن ظهورها بترتيب متأخر، ولكل حالة ما يجب فحصه.",
+  "heading_en": "Use Search Console to narrow the question",
+  "detail_en": "Confirm the public store is not behind a password, verify the correct domain and inspect a representative URL. Submit Shopify’s actual sitemap and read any reported issue. A successful submission only confirms the file was accepted, not that every page was indexed. If the page is accessible but not selected, examine its content and internal links. If it is indexed, use queries and impressions to understand relevance before treating every low-click result as a technical failure.",
+  "heading_ar": "استخدم Search Console لتحديد الحالة",
+  "detail_ar": "تأكد أن المتجر العام ليس خلف كلمة مرور، ووثّق النطاق وافحص رابطًا ممثّلًا. أرسل خريطة شوبيفاي الفعلية واقرأ المشكلة المسجلة؛ قبول الملف لا يعني فهرسة كل صفحة. إذا أمكن الوصول ولم تُختَر الصفحة، راجع المحتوى والروابط. وإذا فُهرست، استخدم الاستعلامات والظهور لفهم الملاءمة بدل اعتبار كل قلة نقرات عطلًا تقنيًا."
+}

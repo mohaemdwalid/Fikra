@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-test-order",
+  "title_ar": "كيف أجرّب الطلب والدفع قبل افتتاح المتجر؟",
+  "lead_en": "Use an appropriate test-payment route and follow the order through the merchant workflow. Adding a product to the cart does not test checkout.",
+  "lead_ar": "استخدم طريقة الاختبار المناسبة وتابع الطلب حتى ما يصل للتاجر. إضافة القطعة للسلة لا تختبر الشحن والدفع وإنشاء الطلب.",
+  "heading_en": "Write the expected result first",
+  "detail_en": "Choose the variant, address, shipping and discount you expect, then compare the order with those choices. Review notifications and inventory handling too. Shopify warns that live customers cannot order while providers are in test mode, so schedule the check and restore the intended configuration. If a real charge is needed, agree it with the owner because fees can apply. Mark the test clearly so nobody dispatches it by mistake.",
+  "heading_ar": "اكتب ما تتوقعه أولًا",
+  "detail_ar": "حدّد الخيار والعنوان والشحن والخصم ثم طابق النتيجة بها، مع الإشعارات والمخزون. ينبّه شوبيفاي إلى تعذر الطلب الحقيقي أثناء وضع اختبار المزوّد، فاختر الوقت وأعد الإعداد المطلوب. وأي خصم حقيقي يحتاج اتفاق المالك لاحتمال الرسوم. ميّز الطلب حتى لا يرسله الفريق بالخطأ."
+}

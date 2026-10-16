@@ -6,11 +6,11 @@ body.booking-page { margin: 0; color: #101010; background-color: #f7f6f2; backgr
 .booking-page .fikra-language { position: static; margin: 0; box-shadow: none; padding: 7px 14px; }
 .booking-page-main { width: min(100%,900px); margin-inline: auto; padding: 40px 28px 80px; }
 .booking-page #booking { padding: 0; background: transparent; }
-.booking-page-kicker { margin: 0 0 12px; color: #ce164c; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.booking-page-kicker { margin: 0 0 12px; color: var(--fikra-accent, #005bea); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
 .booking-page h1 { font-size: clamp(26px,3vw,38px); line-height: 1.15; letter-spacing: -.035em; margin: 0 0 32px; max-width: 720px; }
 .booking-progress { display: flex; gap: 6px; margin-bottom: 18px; }
 .booking-progress > span { display: block; flex: 1; height: 4px; background: #d8d3c9; border-radius: 999px; }
-.booking-progress > .is-current { background: #101010; }
+.booking-progress > .is-current { background: var(--fikra-accent, #005bea); }
 .booking-step-count { margin: 0 0 24px; color: #69645b; font-size: 12px; }
 .booking-step { min-width: 0; margin: 0; padding: 0; border: 0; }
 .booking-step legend { max-width: 100%; padding: 0; font-size: clamp(25px,3.2vw,38px); line-height: 1.25; font-weight: 700; letter-spacing: -.035em; }
@@ -20,10 +20,10 @@ body.booking-page { margin: 0; color: #101010; background-color: #f7f6f2; backgr
 .booking-choice input { position: absolute; width: 1px; height: 1px; opacity: 0; }
 .booking-choice-letter { display: grid; place-items: center; flex: 0 0 30px; height: 30px; border: 1px solid #bdb6a9; border-radius: 50%; background: #f7f6f2; font-size: 12px; }
 .booking-choice-check { margin-inline-start: auto; opacity: 0; }
-.booking-choice:has(input:checked) { background: #fdfcf9; border: 2px solid #101010; padding: 11px 15px; }
-.booking-choice:has(input:checked) .booking-choice-letter { background: #101010; border-color: #101010; color: #fff; }
+.booking-choice:has(input:checked) { background: #fdfcf9; border: 2px solid var(--fikra-accent, #005bea); padding: 11px 15px; }
+.booking-choice:has(input:checked) .booking-choice-letter { background: var(--fikra-accent, #005bea); border-color: var(--fikra-accent, #005bea); color: #fff; }
 .booking-choice:has(input:checked) .booking-choice-check { opacity: 1; }
-.booking-choice:has(input:focus-visible) { outline: 3px solid #ef1f5e; outline-offset: 3px; }
+.booking-choice:has(input:focus-visible) { outline: 3px solid var(--fikra-accent, #005bea); outline-offset: 3px; }
 .booking-contact-fields { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
 .booking-contact-fields > :last-child { grid-column: 1 / -1; }
 .booking-field { display: grid; gap: 8px; max-width: 620px; min-width: 0; font-size: 14px; }
@@ -35,7 +35,7 @@ body.booking-page { margin: 0; color: #101010; background-color: #f7f6f2; backgr
 .booking-step-actions .fikra-action { border-radius: 999px; padding: 13px 24px; }
 .booking-back { background: transparent; border: 1px solid #c8c1b5; border-radius: 999px; padding: 12px 20px; font: inherit; cursor: pointer; }
 .booking-page #lead-status { margin-top: 20px; }
-.booking-page :focus-visible { outline: 3px solid #ef1f5e; outline-offset: 3px; }
+.booking-page :focus-visible { outline: 3px solid var(--fikra-accent, #005bea); outline-offset: 3px; }
 .booking-page [hidden] { display: none !important; }
 .booking-page #fikra-calendar-panel { margin-top: 28px; }
 @media(max-width:600px) {

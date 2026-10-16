@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-payments-qatar",
+  "title_ar": "كيف أفعّل الدفع الإلكتروني لمتجر شوبيفاي في قطر؟",
+  "lead_en": "Check providers against your real business registration and bank arrangements. Shopify Payments and all the payment options on Shopify are not the same thing.",
+  "lead_ar": "ابحث عن مزوّد يناسب تسجيل نشاطك وحسابك البنكي. Shopify Payments ليس اسمًا لكل طرق الدفع على المنصة، وعدم توفره لا يعني أن جميع طرق الدفع غير ممكنة.",
+  "heading_en": "Check eligibility before building around a method",
+  "detail_en": "Qatar was not on the Shopify Payments supported-country list checked for this guide. Recheck the official list when setting up the account. Ask third-party providers about merchant approval, settlement, refunds and their current Shopify integration. Do not promise a payment method before the provider accepts the business. After approval, test the exact mobile route, charged currency and order confirmation. Keep the account and support details under the merchant’s control.",
+  "heading_ar": "أكّد الأهلية قبل الوعد بالطريقة",
+  "detail_ar": "لم تظهر قطر في قائمة Shopify Payments الرسمية التي راجعناها لهذا الدليل؛ أعد فحصها وقت الإعداد. اسأل المزوّد الخارجي عن قبول التاجر والتحويل والاسترجاع والربط الحالي بشوبيفاي. لا تَعِد بطريقة قبل قبول نشاطك. وبعد الموافقة، اختبر الجوال والعملة وتأكيد الطلب، واحتفظ بملكية الحساب وبيانات الدعم لدى التاجر."
+}

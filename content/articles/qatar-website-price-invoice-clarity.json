@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-website-price-invoice-clarity",
+  "category": "qatar",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar official commerce guidance",
+      "url": "https://ecommerce.gov.qa/"
+    }
+  ],
+  "related": [
+    "shopify-currency-display",
+    "shopify-cash-on-delivery",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "How should a Qatar ecommerce site explain prices and order totals?",
+    "answer": "Make the amount understandable throughout the order. A customer should not discover an unexplained change between the product page and payment.",
+    "sections": [
+      [
+        "Review the whole total",
+        "Compare the product page, basket, checkout and resulting order record. Test discounts and different destinations. Do not label a displayed price as final if required charges appear later without an understandable explanation."
+      ],
+      [
+        "Keep records meaningful",
+        "Agree what the customer receives as confirmation or invoice and what the business needs for reconciliation. Verify the actual platform and provider output. A confirmation message should not imply collected payment when the order uses an unpaid manual method."
+      ],
+      [
+        "Approve commercial wording",
+        "Have the owner review currencies, inclusions and fees. Consult current official commerce guidance and qualified advice for requirements specific to the activity. Do not invent a tax rate or claim an automatic compliance result because a platform setting is enabled."
+      ],
+      [
+        "Read the journey with the customer’s question in mind",
+        "Compare the product, basket, shipping choice, discount and final total. Explain any required charge where it becomes relevant. Then check the record received after ordering and whether payment was actually collected. For COD, an order confirmation is not a collection receipt. Have the owner approve commercial wording and get suitable advice on the activity’s financial requirements. A theme setting cannot determine a business’s legal or tax obligations for it."
+      ]
+    ],
+    "checklist": [
+      "Compare prices across the route.",
+      "Verify confirmation and payment status.",
+      "Approve the wording with the owner."
+    ],
+    "faq": [
+      [
+        "Can a theme decide the business’s tax obligations?",
+        "No. Confirm the applicable obligations and then configure the approved treatment."
+      ]
+    ],
+    "editorial_detail_heading": "Read the journey with the customer’s question in mind",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Read the total as a new customer",
+        "Follow a sample cart from product page to confirmation and note every change to the amount. Explain optional extras, delivery charges and discount conditions at the point they matter. Ask your accounting adviser about the documents your business needs; interface wording should match the actual charging process."
+      ]
+    ],
+    "editorial_followup_heading": "Read the total as a new customer"
+  },
+  "ar": {
+    "title": "كيف أوضّح السعر والشحن والمبلغ النهائي للعميل؟",
+    "answer": "اجعل المبلغ مفهومًا طوال الطلب. لا ينبغي أن يكتشف العميل فرقًا غير مشروح بين صفحة المنتج والدفع.",
+    "sections": [
+      [
+        "راجع الإجمالي",
+        "اختبر الشحن والخصم والوجهات ولا تصف سعرًا بالنهائي إذا أضيفت رسوم دون شرح واضح."
+      ],
+      [
+        "وضّح السجلّات",
+        "راجع التأكيد أو الفاتورة والمطابقة المالية، ولا توحِ بتحصيل طلب يدوي غير مدفوع."
+      ],
+      [
+        "اعتمد الصياغة",
+        "راجع العملات والرسوم مع المالك والجهات المناسبة. لا تختلق نسبة ضريبة أو امتثالًا تلقائيًا بإعداد."
+      ],
+      [
+        "راجع الرحلة بعين العميل",
+        "طابق المنتج والسلة والشحن والخصم والإجمالي، واشرح أي مبلغ مطلوب في موضعه. ثم افحص السجل الذي يصل بعد الطلب وهل حُصّل المال. في الدفع عند الاستلام، تأكيد الطلب ليس إيصال تحصيل. اعتمد الصياغة التجارية مع المالك وراجع المتطلبات المالية المناسبة للنشاط؛ إعداد القالب لا يقرّر الالتزامات القانونية أو الضريبية بدلًا عنك."
+      ]
+    ],
+    "checklist": [
+      "طابق السعر عبر المسار.",
+      "راجع حالة الدفع والتأكيد.",
+      "اعتمد الصياغة."
+    ],
+    "faq": [
+      [
+        "هل يحدّد القالب التزامات الضريبة؟",
+        "أكّد الالتزامات ثم اضبط المعالجة المعتمدة."
+      ]
+    ],
+    "editorial_detail_heading": "راجع الرحلة بعين العميل",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "راجع أين يتغيّر المبلغ أثناء الطلب",
+        "ابدأ بسعر المنتج ثم أضف الخيارات والشحن والخصم حتى تصل للمبلغ النهائي. هل يفهم العميل سبب كل تغيير، أم تظهر تكلفة لم يرَ لها شرحًا؟ وضّح الإضافات الاختيارية وشروط العرض قبل الدفع، وراجع رسالة التأكيد حتى تعرض المبلغ نفسه. نسّق متطلبات المستندات مع المختص الذي يتابع نشاطك؛ لا تستخدم كلمة فاتورة أو ضريبة بطريقة لا تطابق ما يصدره مشروعك فعلًا."
+      ]
+    ],
+    "editorial_followup_heading": "راجع أين يتغيّر المبلغ أثناء الطلب"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-website-price-invoice-clarity.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Structured website form and its related workflow symbol.",
+      "ar": "نموذج موقع منظّم ورمز لمسار العمل المرتبط به."
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-seo-titles",
+  "category": "search",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords"
+    }
+  ],
+  "related": [
+    "shopify-sitemap-google",
+    "shopify-product-descriptions",
+    "shopify-url-redirects"
+  ],
+  "en": {
+    "title": "How do you write Shopify page titles and meta descriptions?",
+    "answer": "Describe the actual page and why someone would open it. Repeating a keyword across every title does not make the pages useful.",
+    "sections": [
+      [
+        "Match the page’s purpose",
+        "A collection title should describe the group; a product title should identify the specific item; an article title should answer its question. Include relevant search language naturally. Avoid adding a city or service claim that the page does not support simply because it might attract attention."
+      ],
+      [
+        "Write the description for the visitor",
+        "Explain what the page contains and a meaningful detail that distinguishes it. Keep offers accurate and maintain them when conditions change. Do not promise free delivery or a result that is absent from the page. Review the snippet alongside the title to avoid repeating the same sentence twice."
+      ],
+      [
+        "Check output and results",
+        "Inspect what the page actually publishes after saving. Search engines can select different snippet wording, so a mismatch in search results is not automatically an implementation fault. Use Search Console queries to understand relevant demand, then improve the page rather than endlessly changing metadata without evidence."
+      ],
+      [
+        "Write the snippet after you understand the page",
+        "A collection title names the group; a product title identifies the item; an article title answers the reader’s question. Use the description for a useful distinction rather than copying the title again. Keep offers accurate and update them when conditions change. Inspect the published metadata after saving, but remember search engines may choose different wording. Use real query data to improve relevance instead of changing titles repeatedly without knowing the problem."
+      ]
+    ],
+    "checklist": [
+      "Use a distinct title for each page.",
+      "Match wording to visible content.",
+      "Keep commercial claims accurate.",
+      "Check published metadata and search queries."
+    ],
+    "faq": [
+      [
+        "Do meta descriptions guarantee higher rankings?",
+        "No. They help describe the page, but neither a description nor a keyword count guarantees a particular position."
+      ]
+    ],
+    "editorial_detail_heading": "Write the snippet after you understand the page",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Write for the actual page",
+        "Use the product or service name and the detail that helps a searcher distinguish this page. Keep the description accurate rather than repeating every keyword variation. Review the rendered page too; a carefully written search description cannot fix a destination that fails to answer the question."
+      ]
+    ],
+    "editorial_followup_heading": "Write for the actual page"
+  },
+  "ar": {
+    "title": "ماذا أكتب في عنوان الصفحة ووصفها لجوجل؟",
+    "answer": "صف الصفحة الفعلية وما الذي سيجده الزائر. تكرار كلمة بحث في كل عنوان لا يجعل الصفحات مفيدة أو يوضّح الفرق بينها.",
+    "sections": [
+      [
+        "طابق غرض الصفحة",
+        "يصف عنوان التصنيف المجموعة، والمنتج القطعة، والمقال السؤال. استخدم لغة البحث طبيعيًا ولا تضف مدينة أو خدمة لا يدعمها المحتوى لمجرّد جذب الزيارات."
+      ],
+      [
+        "اكتب للزائر",
+        "وضّح المحتوى والتفصيل الذي يميّزه. حافظ على دقة العروض وحدّثها عند التغيير. لا تَعِد بشحن مجاني أو نتيجة غير موجودة، ولا تكرّر جملة العنوان في الوصف دون فائدة."
+      ],
+      [
+        "افحص المخرجات والنتائج",
+        "راجع ما تنشره الصفحة بعد الحفظ. قد تختار محركات البحث نصًا مختلفًا للمقتطف. استخدم استعلامات Search Console لفهم الطلب وتحسين الصفحة بدل تبديل الوصف دون دليل."
+      ],
+      [
+        "اكتب المقتطف بعد فهم الصفحة",
+        "سمِّ المجموعة في التصنيف والقطعة في المنتج والسؤال في المقال. استخدم الوصف لتفصيل مفيد بدل تكرار العنوان، وحدّث العروض عند تغيّرها. افحص البيانات المنشورة بعد الحفظ، مع العلم أن محرك البحث قد يختار صياغة أخرى. استفد من الاستعلامات الفعلية بدل تبديل العناوين باستمرار دون تحديد المشكلة."
+      ]
+    ],
+    "checklist": [
+      "ميّز عنوان كل صفحة.",
+      "طابقه بالمحتوى الظاهر.",
+      "راجع صحة العروض.",
+      "افحص البيانات المنشورة والاستعلامات."
+    ],
+    "faq": [
+      [
+        "هل يضمن الوصف ترتيبًا أعلى؟",
+        "لا. يساعد على وصف الصفحة، لكنه لا يضمن موضعًا محدّدًا."
+      ]
+    ],
+    "editorial_detail_heading": "اكتب المقتطف بعد فهم الصفحة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أكتب عنوانًا بدون حشو كلمات؟",
+        "ابدأ بما تتحدث عنه الصفحة فعلًا، ثم أضف التفصيل الذي يميزها ويهم الباحث. في صفحة منتج، قد يكون الاسم والنوع أهم من تكرار البلد وعبارات البيع. اكتب الوصف ليشرح ما سيجده الزائر، ولا تعد بشيء غير موجود داخل الصفحة. راجع العربية كوحدة مستقلة بدل ترجمة ترتيب الكلمات حرفيًا، وتذكّر أن عرض محركات البحث قد يختلف عما أدخلته؛ ركّز على دقة الصفحة كلها."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أكتب عنوانًا بدون حشو كلمات؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-seo-titles.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Search magnifier inspecting a page title and description.",
+      "ar": "عدسة بحث تفحص عنوان صفحة ووصفها."
+    }
+  }
+}

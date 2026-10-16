@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-product-filters",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/storefront-search"
+    }
+  ],
+  "related": [
+    "shopify-collections-navigation",
+    "shopify-product-metafields",
+    "mobile-shopify-design"
+  ],
+  "en": {
+    "title": "Which search and filters does a Shopify catalogue need?",
+    "answer": "Use filters that help someone make a real choice and that your product data can support consistently. More attributes can make browsing harder.",
+    "sections": [
+      [
+        "Choose meaningful distinctions",
+        "For a fashion collection, size, colour, fabric or occasion may matter. Only show an attribute when it meaningfully separates the products and the data is maintained. A filter full of duplicate spellings or empty results makes a catalogue harder to trust."
+      ],
+      [
+        "Test customer language",
+        "Search using product names, common synonyms and terms appearing in enquiries. Review results in the languages the store supports. Check whether important products can be found without knowing their exact internal name. Keep search behaviour and collection filtering consistent where possible."
+      ],
+      [
+        "Review empty and narrow results",
+        "Try combinations that produce few items or none. Customers should understand which choices are active and how to remove them. On mobile, check whether opening and closing filters preserves context. Record missing catalogue values and fix the data before blaming the filter interface."
+      ],
+      [
+        "Try combinations, including an empty result",
+        "For clothing, size or fabric may matter, but check whether the values are complete and consistently named. Duplicate colour spellings can split useful results. Test common searches in the store’s languages, then combine filters until few or no items remain. Can shoppers see and remove active choices? On mobile, make sure closing the panel does not lose their context. Fix missing catalogue data before blaming the filter interface."
+      ]
+    ],
+    "checklist": [
+      "Choose attributes that support real decisions.",
+      "Standardise catalogue values.",
+      "Test common search terms and languages.",
+      "Review empty results and mobile controls."
+    ],
+    "faq": [
+      [
+        "Do small catalogues need many filters?",
+        "Not necessarily. Clear collection grouping may be enough when shoppers can scan the range easily."
+      ]
+    ],
+    "editorial_detail_heading": "Try combinations, including an empty result",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Use values you can maintain",
+        "Choose filters that reduce a real customer's search, then standardise the underlying values. If the same colour has several spellings, clean the data before displaying it as a filter. Test a narrow combination and its empty state so shoppers can recover without starting again."
+      ]
+    ],
+    "editorial_followup_heading": "Use values you can maintain"
+  },
+  "ar": {
+    "title": "ما الفلاتر المفيدة فعلًا لمنتجاتي؟",
+    "answer": "أضف ما يساعد على اختيار حقيقي وتستطيع بيانات المنتجات دعمه باتّساق. زيادة الخانات قد تصعّب التصفّح بدل تحسينه.",
+    "sections": [
+      [
+        "اختر فروقًا مفيدة",
+        "قد تفيد المقاسات والألوان والخامة والمناسبة في الملابس. اعرض ما يميّز المنتجات وتستطيع تحديثه. تكرار الأسماء والنتائج الفارغة يضعف الثقة بالكتالوج."
+      ],
+      [
+        "اختبر لغة العملاء",
+        "ابحث بالأسماء والمرادفات والاستفسارات الشائعة واللغات المدعومة. تأكّد من العثور على القطع دون معرفة اسمها الداخلي بدقة، وراجع اتّساق البحث والتصنيفات."
+      ],
+      [
+        "راجع النتائج الضيّقة",
+        "اختبر تركيبات قليلة النتائج أو فارغة. وضّح الخيارات المفعّلة وطريقة إزالتها. راجع فتح الفلاتر وإغلاقها على الجوال، وأصلح القيم الناقصة قبل لوم الواجهة."
+      ],
+      [
+        "جرّب التركيبات حتى النتيجة الفارغة",
+        "قد يفيد المقاس أو القماش في الملابس، لكن تأكّد من اكتمال القيم وأسمائها. قد تقسّم كتابات لون مختلفة النتائج دون قصد. اختبر البحث باللغات ثم اجمع الفلاتر حتى تقل القطع أو تختفي. هل تظهر الاختيارات ويسهل إلغاؤها؟ راجع إغلاق اللوحة على الجوال، وأصلح البيانات الناقصة قبل لوم الواجهة."
+      ]
+    ],
+    "checklist": [
+      "اختر خصائص مفيدة للقرار.",
+      "وحّد قيم الكتالوج.",
+      "اختبر المصطلحات واللغات.",
+      "راجع النتائج الفارغة والجوال."
+    ],
+    "faq": [
+      [
+        "هل يحتاج كتالوج صغير إلى فلاتر كثيرة؟",
+        "ليس بالضرورة؛ قد تكفي تصنيفات واضحة عندما يسهل استعراض المجموعة."
+      ]
+    ],
+    "editorial_detail_heading": "جرّب التركيبات حتى النتيجة الفارغة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "نظّف البيانات قبل إضافة الفلاتر",
+        "إذا كان اللون مكتوبًا مرة «بيج» ومرة «Beige» ومرة باسم آخر للدرجة نفسها، فقد يرى العميل خيارات مربكة. وحّد القيم أولًا، ثم اختر الفلاتر التي تساعده فعلًا مثل المقاس أو النوع أو خاصية مهمة للمنتج. جرّب جمع أكثر من شرط وما يظهر عند عدم وجود نتيجة. كثرة الفلاتر ليست فائدة وحدها؛ الأفضل عدد مفهوم يعتمد على بيانات صحيحة يستطيع الفريق تحديثها مع كل منتج."
+      ]
+    ],
+    "editorial_followup_heading": "نظّف البيانات قبل إضافة الفلاتر"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-product-filters.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Filter sliders beside a narrowed product catalogue.",
+      "ar": "عناصر فلترة بجانب شبكة منتجات."
+    }
+  }
+}

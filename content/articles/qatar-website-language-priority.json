@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-website-language-priority",
+  "category": "qatar",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central: multilingual sites",
+      "url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites"
+    }
+  ],
+  "related": [
+    "arabic-business-website",
+    "arabic-english-shopify-store",
+    "qatar-customer-address-forms"
+  ],
+  "en": {
+    "title": "Should a Qatar business website start in Arabic or English?",
+    "answer": "Use the language your customers need and that your team can properly maintain. A bilingual site is useful when both routes are complete.",
+    "sections": [
+      [
+        "Use evidence from enquiries",
+        "Review the languages used by customers, sales conversations and existing traffic where available. Separate the language of the business team from the visitor’s needs. Record important terms that need consistent translation rather than relying on intuition alone."
+      ],
+      [
+        "Prioritise complete journeys",
+        "A smaller set of well-maintained pages can be more useful than translating every heading while leaving essential details unreadable. Include contact, product or service facts and the intended action. Google recommends distinct URLs for language versions."
+      ],
+      [
+        "Plan who responds",
+        "If the site invites Arabic enquiries, agree who can answer them and maintain the Arabic copy. Review support channels and external tools as well as the visible pages. Revisit language priorities when the audience or service offering changes."
+      ],
+      [
+        "Use your enquiries as evidence",
+        "Look at actual messages and sales conversations: which language do people use, and which details need explaining? Separate that from the language your internal team prefers. Translate the product or service facts and contact route first. If you invite Arabic enquiries, decide who can answer them. Review external booking or payment tools too; their language may differ. Revisit the choice as your audience changes rather than assuming one language represents everyone in Qatar."
+      ]
+    ],
+    "checklist": [
+      "Review real audience evidence.",
+      "Translate complete priority journeys.",
+      "Assign content and response owners."
+    ],
+    "faq": [
+      [
+        "Is Arabic translation alone enough to target Qatar?",
+        "No. Service relevance, actual operations and useful local information matter too."
+      ]
+    ],
+    "editorial_detail_heading": "Use your enquiries as evidence",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Use customer evidence",
+        "Review the languages used in enquiries, sales conversations and catalogue material. Start with the audience you can serve well, then plan the other version as a complete journey. Do not choose a language solely from the interface of the tool or the preference of the person building the site."
+      ]
+    ],
+    "editorial_followup_heading": "Use customer evidence"
+  },
+  "ar": {
+    "title": "في قطر، أبدأ موقعي بالعربية أم الإنجليزية؟",
+    "answer": "ابدأ بلغة يحتاجها عملاؤك وتستطيع تحديثها والرد بها. يفيد الموقع الثنائي عندما تكتمل الرحلتان، لا عندما تُترجم القائمة وتبقى التفاصيل ناقصة.",
+    "sections": [
+      [
+        "استخدم الاستفسارات دليلًا",
+        "راجع لغات العملاء والمبيعات والزيارات، وافصل لغة الفريق عن احتياج الزائر ووحّد المصطلحات."
+      ],
+      [
+        "أكمل المسار المهم",
+        "ترجم التواصل والحقائق والإجراء، لا العناوين فقط. استخدم روابط مستقلة للنسخ اللغوية."
+      ],
+      [
+        "خطّط للاستجابة",
+        "حدّد من يجيب العربية ويحدّثها، وراجع الأدوات الخارجية مع تغيّر الجمهور."
+      ],
+      [
+        "استخدم رسائل العملاء دليلًا",
+        "راجع المحادثات الفعلية: بأي لغة يسألون، وما الذي يحتاج إلى شرح؟ افصل ذلك عن تفضيل فريقك الداخلي. أعطِ الأولوية للحقائق ومسار التواصل. وإذا دعوت لاستفسارات عربية، حدّد من يرد عليها. راجع أدوات الحجز والدفع الخارجية أيضًا؛ قد تختلف لغتها. وأعد التقييم عند تغير الجمهور بدل افتراض أن لغة واحدة تمثل كل الناس في قطر."
+      ]
+    ],
+    "checklist": [
+      "راجع دليل الجمهور.",
+      "أكمل الصفحات ذات الأولوية.",
+      "عيّن مسؤول الرد والمحتوى."
+    ],
+    "faq": [
+      [
+        "هل تستهدف الترجمة وحدها قطر؟",
+        "تحتاج أيضًا ملاءمة الخدمة والتشغيل والمعلومات المحلية المفيدة."
+      ]
+    ],
+    "editorial_detail_heading": "استخدم رسائل العملاء دليلًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "من هم العملاء الذين تتحدث معهم الآن؟",
+        "راجع رسائل العملاء والاستفسارات والكلمات التي يستخدمونها لوصف المنتج. إذا كان الجمهور مختلطًا، خطط للغتين مع تحديد من يكتب ويراجع كل نسخة. لا تجعل العربية مجرد زر يغيّر العناوين بينما تبقى التفاصيل المهمة بلغة أخرى. وإذا بدأت بلغة واحدة بسبب الوقت، اخترها وفق جمهورك الفعلي وقدرتك على خدمته، وحدّد ما الذي سيضاف في المرحلة التالية بدل ترك نسخة ناقصة بلا خطة."
+      ]
+    ],
+    "editorial_followup_heading": "من هم العملاء الذين تتحدث معهم الآن؟"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-website-language-priority.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

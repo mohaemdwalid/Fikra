@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-local-delivery",
+  "title_ar": "كيف أضبط التوصيل المحلي بدل الشحن العام؟",
+  "lead_en": "Define the area and dispatch process first. A local-delivery option is useful only when customers inside its coverage can receive the promised service.",
+  "lead_ar": "حدّد المنطقة وطريقة الإرسال أولًا. يفيد خيار التوصيل المحلي عندما يستطيع من يقع داخل تغطيته الحصول على الخدمة المعلنة فعلًا.",
+  "heading_en": "Do not test only an easy address",
+  "detail_en": "Use a central address and one near the service boundary. Review how the store handles missing directions or an unavailable recipient. Agree who contacts the customer and which status the team records after an attempt. If COD is available, keep collection separate from delivery confirmation. Publish preparation and delivery wording that operations approve, then review failed attempts to see whether the problem is coverage, instructions or capacity.",
+  "heading_ar": "لا تختبر عنوانًا سهلًا فقط",
+  "detail_ar": "جرّب عنوانًا مركزيًا وآخر قرب حدود الخدمة. راجع نقص الاتجاهات وغياب المستلم ومن يتواصل معه وما الحالة المسجلة بعد المحاولة. وإذا يوجد دفع عند الاستلام، افصل التحصيل عن تأكيد التوصيل. اعتمد وقت التجهيز والنقل مع التشغيل، ثم راجع الإخفاقات لمعرفة هل السبب التغطية أم التعليمات أم القدرة على التنفيذ."
+}

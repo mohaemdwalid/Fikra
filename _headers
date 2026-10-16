@@ -1,0 +1,6 @@
+/book/*
+  X-Robots-Tag: noindex, follow
+/api/*
+  X-Robots-Tag: noindex, nofollow
+/*
+  X-Content-Type-Options: nosniff

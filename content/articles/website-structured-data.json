@@ -1,0 +1,111 @@
+{
+  "slug": "website-structured-data",
+  "category": "scaling",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central: structured data",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+    }
+  ],
+  "related": [
+    "shopify-seo-titles",
+    "website-ai-search-visibility",
+    "qatar-business-website-trust"
+  ],
+  "en": {
+    "title": "What is structured data, and does your business website need it?",
+    "answer": "They describe page information in a machine-readable format. They can support understanding, but they do not buy a ranking or guarantee a special search display.",
+    "sections": [
+      [
+        "Choose accurate entities",
+        "Identify whether the page describes an organisation, article, product or another supported type. Include only details the business can substantiate. Do not create review ratings, prices, addresses or credentials simply because a generator offers those fields."
+      ],
+      [
+        "Connect markup to content",
+        "Keep names, URLs and descriptions consistent with the page. Update the data when the underlying information changes. A hidden claim in JSON-LD is still a published claim, not a harmless technical placeholder."
+      ],
+      [
+        "Validate and monitor",
+        "Check syntax and the relevant platform or search-engine guidance. Distinguish valid vocabulary from eligibility for a particular search feature. Use actual inspection results after deployment rather than assuming a successful code build proves search appearance."
+      ],
+      [
+        "A hidden claim is still a published claim",
+        "An organisation description should use the business’s real name and details; an article should describe its actual content. Do not fill a generator’s rating, address or price fields with invented information just because they are available. Keep markup aligned with visible text and update both together. Validate the syntax and relevant feature rules, then inspect the live output. A successful code build is not proof that Google will show stars or cite the page."
+      ]
+    ],
+    "checklist": [
+      "Describe the actual page.",
+      "Avoid invented entity details.",
+      "Validate and recheck after updates."
+    ],
+    "faq": [
+      [
+        "Does valid schema guarantee stars in search?",
+        "No. Search feature eligibility and display decisions are separate."
+      ]
+    ],
+    "editorial_detail_heading": "A hidden claim is still a published claim",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Keep the markup consistent with the page",
+        "Add only types and properties that describe genuine visible information. Review them when content changes and use the relevant validation tools. Structured data can help machines interpret a page, but it cannot create a real review, qualify an unsupported claim or guarantee a special search appearance."
+      ]
+    ],
+    "editorial_followup_heading": "Keep the markup consistent with the page"
+  },
+  "ar": {
+    "title": "ما هي البيانات المنظّمة، وهل تجعل موقعي أولًا في جوجل؟",
+    "answer": "تصف معلومات الصفحة بصيغة تقرؤها الأنظمة. قد تساعد على الفهم، لكنها لا تشتري ترتيبًا ولا تضمن ظهورًا خاصًا في نتائج البحث.",
+    "sections": [
+      [
+        "اختر كيانات صحيحة",
+        "حدّد المنظمة أو المقال أو المنتج ولا تختلق تقييمًا أو سعرًا أو عنوانًا لملء حقول مولّد."
+      ],
+      [
+        "اربطها بالمحتوى",
+        "طابق الاسم والرابط والوصف وحدّثها؛ الادّعاء داخل JSON-LD يظل منشورًا."
+      ],
+      [
+        "تحقّق وراقب",
+        "افحص الصياغة والإرشادات وميّز صحة البيانات عن أهلية ميزة البحث وظهورها الفعلي."
+      ],
+      [
+        "المعلومة داخل الكود تظل ادّعاء منشورًا",
+        "استخدم الاسم والبيانات الحقيقية للمنظمة ومحتوى المقال الفعلي. لا تملأ التقييم والعنوان والسعر في مولّد بمعلومات مختلقة لأن الخانات متاحة. طابقها بالنص الظاهر وحدّثهما معًا. افحص الصياغة وقواعد الميزة ثم النتيجة الحية. نجاح البناء لا يثبت أن جوجل سيعرض نجومًا أو يقتبس الصفحة."
+      ]
+    ],
+    "checklist": [
+      "صف الصفحة الحقيقية.",
+      "تجنّب التفاصيل المختلقة.",
+      "افحص بعد التحديث."
+    ],
+    "faq": [
+      [
+        "هل يضمن المخطط نجوم البحث؟",
+        "الأهلية والعرض قرارات منفصلة."
+      ]
+    ],
+    "editorial_detail_heading": "المعلومة داخل الكود تظل ادّعاء منشورًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا أضع في البيانات المنظّمة؟",
+        "ابدأ بالمعلومات الحقيقية الظاهرة في الصفحة، مثل تعريف النشاط أو المقال أو المنتج بحسب نوعها. لا تضف تقييمات أو أسعارًا أو خدمات غير موجودة بهدف الحصول على شكل مختلف في النتائج. راجع البيانات عند تعديل المحتوى واستخدم أدوات الفحص المناسبة، مع فهم أن اجتياز الفحص لا يضمن ظهورًا خاصًا. هذه طريقة لتنظيم المعلومة للأنظمة، وليست بديلًا عن صفحة مفيدة أو وسيلة لفرض ترتيب معين في البحث."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا أضع في البيانات المنظّمة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-structured-data.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

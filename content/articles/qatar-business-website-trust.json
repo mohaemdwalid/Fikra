@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-business-website-trust",
+  "category": "qatar",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar official commerce guidance",
+      "url": "https://ecommerce.gov.qa/emerchants/"
+    }
+  ],
+  "related": [
+    "website-contact-page",
+    "shopify-returns-exchanges",
+    "qatar-online-business-registration"
+  ],
+  "en": {
+    "title": "How can a Qatar ecommerce website build credible trust?",
+    "answer": "Start with information and promises the customer can verify. Badges help only when they represent approval your business actually holds.",
+    "sections": [
+      [
+        "Make the basics verifiable",
+        "Use real contact channels, accurate product descriptions and a clear delivery and return process. Keep details consistent with the business’s public information. Avoid borrowed reviews, stock dashboard results or badges implying an affiliation you do not hold."
+      ],
+      [
+        "Check trustmark information directly",
+        "Consult the official programme information for current eligibility, assessment and permitted use. A developer cannot grant the programme’s approval by adding an image. Keep a record of any actual authorisation and its conditions."
+      ],
+      [
+        "Maintain the customer experience",
+        "Test enquiries, order confirmation and support handling. Explain what happens when an item is unavailable or a delivery is delayed. Trust is reinforced when the operating process matches the website rather than by an increasingly large badge collection."
+      ],
+      [
+        "What a customer can check before buying",
+        "Can they understand who sells the item, what is included, how it is delivered and how to ask for help? Give clear answers before adding decorative trust elements. Qatar’s official ecommerce portal describes Theqa; consult its current process if you want that trustmark. Do not copy the badge and imply acceptance. Real trust also depends on what happens after the order, so test support, confirmations and delay handling alongside the visible pages."
+      ]
+    ],
+    "checklist": [
+      "Publish verifiable details.",
+      "Use badges only with actual approval.",
+      "Test customer follow-up."
+    ],
+    "faq": [
+      [
+        "Can I display Theqa before being accepted?",
+        "Do not imply approval you have not received; confirm permitted use with the programme."
+      ]
+    ],
+    "editorial_detail_heading": "What a customer can check before buying",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Answer the questions before the customer asks",
+        "Look at the page as a first-time visitor: who is selling, what exactly arrives, when can it arrive and who helps if something goes wrong? Put accurate answers near the decision. Decorative trust badges cannot replace a reachable business and clear terms."
+      ]
+    ],
+    "editorial_followup_heading": "Answer the questions before the customer asks"
+  },
+  "ar": {
+    "title": "كيف يعرف العميل أن متجري موثوق؟",
+    "answer": "ابدأ بمعلومات ووعود يمكن للعميل التأكد منها. لا تفيد كثرة الشعارات إذا لم تمثل اعتمادًا حاصلًا عليه نشاطك فعلًا.",
+    "sections": [
+      [
+        "اجعل الأساس قابلًا للتحقّق",
+        "استخدم تواصلًا ووصفًا وتوصيلًا واسترجاعًا حقيقيًا. تجنّب التقييمات والنتائج والشراكات المستعارة."
+      ],
+      [
+        "راجع البرنامج مباشرة",
+        "تحقّق من الأهلية والتقييم والاستخدام الحالي. لا يمنح المطوّر اعتمادًا بإضافة صورة، واحفظ أي تصريح فعلي وشروطه."
+      ],
+      [
+        "حافظ على التجربة",
+        "اختبر الاستفسارات والتأكيد والدعم وشرح التأخير أو نفاد القطعة؛ يجب أن يطابق التشغيل الوعد."
+      ],
+      [
+        "ما الذي يستطيع التحقق منه قبل الدفع؟",
+        "هل يعرف من يبيع وما المشمول وكيف يصل الطلب ومن يرد عند المشكلة؟ قدّم هذه الإجابات قبل عناصر الثقة الشكلية. تشرح البوابة الرسمية برنامج Theqa؛ راجع إجراءه الحالي إذا أردت الحصول عليه، ولا تنسخ العلامة وتوحي بالقبول. راجع أيضًا الدعم والتأكيد والتأخير؛ الثقة تتأثر بما يحدث بعد الطلب وليس بما يراه العميل قبل الشراء فقط."
+      ]
+    ],
+    "checklist": [
+      "انشر بيانات موثّقة.",
+      "استخدم علامات معتمدة.",
+      "اختبر المتابعة."
+    ],
+    "faq": [
+      [
+        "هل تعرض Theqa قبل القبول؟",
+        "لا توحِ باعتماد غير حاصل؛ أكّد الاستخدام مع البرنامج."
+      ]
+    ],
+    "editorial_detail_heading": "ما الذي يستطيع التحقق منه قبل الدفع؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي يطمئن العميل قبل أول طلب؟",
+        "تخيّل شخصًا لا يعرف علامتك ووجد منتجًا عبر إعلان. غالبًا يريد فهم الخامة والمقاس والتوصيل وطريقة التواصل وما يحدث إذا لم يناسبه الطلب. ضع هذه المعلومات حيث يقرأ المنتج، مع صفحات سياسات يمكن الوصول إليها بسهولة. استخدم بيانات وصورًا ومراجعات حقيقية تستطيع إثباتها، ولا تضف شارات أو أرقامًا لمجرد أنها تبدو مقنعة. الثقة تتأثر أيضًا بسرعة الرد وتنفيذ الوعد بعد الشراء، وليس بشكل الموقع وحده."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي يطمئن العميل قبل أول طلب؟"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-business-website-trust.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Business control and verification diagram beside an information panel.",
+      "ar": "رسم للتحكّم والتحقّق بجانب لوحة معلومات."
+    }
+  }
+}

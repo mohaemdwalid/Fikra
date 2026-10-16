@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-returns-exchanges",
+  "category": "operations",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/fulfillment/managing-orders/returns"
+    }
+  ],
+  "related": [
+    "shopify-size-guide",
+    "shopify-shipping-rates",
+    "shopify-product-descriptions"
+  ],
+  "en": {
+    "title": "What should a Shopify return and exchange process explain?",
+    "answer": "Explain what the customer should do and what happens next. The policy needs to match your process and applicable obligations, not another store’s wording.",
+    "sections": [
+      [
+        "Connect the policy to operations",
+        "Write down who receives requests, checks eligibility, organises transport and approves refunds or exchanges. Include exceptions only when they reflect the actual offer and applicable obligations. A copied policy can describe services your team does not provide or omit conditions that matter to your products."
+      ],
+      [
+        "Make product-specific details visible",
+        "For clothing, clarify how customers choose the correct size and find any relevant exchange information before buying. Distinguish a return request from an approved refund. Avoid hiding important limitations in an unrelated page; link to the relevant explanation from the product journey and footer."
+      ],
+      [
+        "Test the process as a customer",
+        "Ask someone to locate the instructions and explain what they would do with an unsuitable item. Review the resulting support message and identify missing information. Keep contact channels current and update the policy when operations change. Track repeated reasons for returns as input for better product content."
+      ],
+      [
+        "Walk through an unsuitable item",
+        "Suppose a customer chose the wrong size. Where do they send the request, what information is needed, who reviews it and how is the item transported? Distinguish asking for a return from approval and a completed refund. Have the owner approve conditions and obtain appropriate legal review. Put important product-specific information near the buying decision. Then use recurring return reasons to improve sizing or descriptions instead of treating every request as an isolated support problem."
+      ]
+    ],
+    "checklist": [
+      "Assign request, inspection and refund owners.",
+      "Publish the actual approved process.",
+      "Link relevant conditions from product pages.",
+      "Review recurring return reasons."
+    ],
+    "faq": [
+      [
+        "Can I use another store’s policy unchanged?",
+        "Do not assume it fits your operations or obligations. Start from your real process and have the final wording reviewed."
+      ]
+    ],
+    "editorial_detail_heading": "Walk through an unsuitable item",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Write the actual customer journey",
+        "Explain where the customer starts, what information staff need and how the request is assessed under the applicable policy and requirements. Distinguish exchanges, refunds and delivery problems. Have operations review the wording so the site does not promise a process your team cannot carry out."
+      ]
+    ],
+    "editorial_followup_heading": "Write the actual customer journey"
+  },
+  "ar": {
+    "title": "كيف أوضّح الاستبدال والاسترجاع في متجري؟",
+    "answer": "اشرح ماذا يفعل العميل وما يحدث بعدها. يجب أن تطابق السياسة عمليتك والتزاماتك المناسبة، لا نص متجر آخر يبدو جاهزًا.",
+    "sections": [
+      [
+        "اربط السياسة بالتشغيل",
+        "حدّد من يستقبل الطلب ويفحص الأهلية وينظّم النقل ويعتمد الاسترجاع أو الاستبدال. يجب أن تعكس الاستثناءات العرض الفعلي والالتزامات المطبّقة. قد تصف السياسة المنسوخة خدمات لا تقدّمها."
+      ],
+      [
+        "وضّح تفاصيل المنتج",
+        "للملابس، قرّب معلومات المقاس والاستبدال من قرار الشراء. ميّز تقديم الطلب عن اعتماد رد المال، واربط الشروط المهمة بصفحة المنتج والتذييل بدل إخفائها بعيدًا."
+      ],
+      [
+        "اختبر التجربة",
+        "اطلب من شخص العثور على التعليمات وشرح ما سيفعله. راجع نقص المعلومات وحدّث التواصل عند تغيّر التشغيل. استخدم أسباب الاسترجاع المتكرّرة لتحسين وصف المنتج."
+      ],
+      [
+        "تابع حالة مقاس غير مناسب",
+        "أين يرسل العميل الطلب وما المعلومات ومن يراجعه وكيف تُنقل القطعة؟ فرّق طلب الاسترجاع عن الموافقة وعن رد المال المكتمل. اعتمد الشروط مع المالك والمراجعة القانونية المناسبة. ضع المعلومات المهمة قرب الشراء، واستفد من أسباب الاسترجاع المتكررة لتحسين المقاسات والوصف بدل التعامل معها كرسائل دعم منفصلة فقط."
+      ]
+    ],
+    "checklist": [
+      "حدّد مسؤول كل خطوة.",
+      "انشر العملية المعتمدة.",
+      "اربط الشروط بالمنتجات.",
+      "راجع أسباب الاسترجاع."
+    ],
+    "faq": [
+      [
+        "هل أنسخ سياسة متجر آخر كما هي؟",
+        "لا تفترض ملاءمتها لعملياتك والتزاماتك. ابدأ بإجراءاتك وراجع الصياغة النهائية."
+      ]
+    ],
+    "editorial_detail_heading": "تابع حالة مقاس غير مناسب",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أكتب سياسة يستطيع العميل استخدامها؟",
+        "اشرح من أين يبدأ الطلب وما المعلومات المطلوبة وكيف يتواصل الفريق معه، وميّز بين الاستبدال والاسترجاع ومشكلة التوصيل. اجعل الشروط متوافقة مع المتطلبات التي تنطبق على نشاطك وراجعها مع المختص عند الحاجة. بعد الكتابة، جرّبها مع موظف الدعم: هل يعرف الخطوة التالية والتكلفة والجهة المسؤولة؟ نص طويل منسوخ لا يفيد إذا لم يشرح للعميل ما يفعله أو وعده بإجراء لا يستطيع الفريق تنفيذه."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أكتب سياسة يستطيع العميل استخدامها؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-returns-exchanges.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Parcel surrounded by a two-way return and exchange loop.",
+      "ar": "طرد تحيط به أسهم لمسار الاسترجاع والاستبدال."
+    }
+  }
+}

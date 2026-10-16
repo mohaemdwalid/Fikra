@@ -1,0 +1,113 @@
+{
+  "slug": "prepare-shopify-project",
+  "category": "planning",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/products/details/product-descriptions"
+    }
+  ],
+  "related": [
+    "shopify-website-cost-qatar",
+    "shopify-build-timeline",
+    "shopify-product-descriptions"
+  ],
+  "en": {
+    "title": "What should you prepare before hiring a Shopify agency?",
+    "answer": "You do not need a perfect presentation. You need enough accurate information for someone to understand what you sell and how you deliver it.",
+    "sections": [
+      [
+        "Build a content inventory",
+        "Collect the logo, brand colours, product photographs, product names, descriptions, sizes and delivery details. Shopify’s description guidance includes specifications and supported benefits; use that as a prompt to gather missing product facts. Identify which information is approved and which still needs an owner’s decision."
+      ],
+      [
+        "Describe customer journeys",
+        "Explain how shoppers discover products and what they need to compare. A small made-to-order collection has different questions from a large ready-stock catalogue. Specify languages, markets, product options and any required connections to fulfilment or accounting. Mark essential features separately from ideas you might add later."
+      ],
+      [
+        "Agree working responsibilities",
+        "Name the person who approves design and the person who checks product data. Ask how access will be granted, how revisions are collected and what handover includes. Share the store URL first; use an appropriate permission-based access method when work begins rather than sending passwords in a message."
+      ],
+      [
+        "A brief the developer can actually use",
+        "For each product, gather its name, photos, price, options and delivery status. Mark missing details rather than filling them with guesses. Next, write down three things customers struggle to understand today. A reference site helps explain your preferences, but include what you like about it: the menu, product gallery or buying flow. That is more useful than asking for an identical copy of another brand."
+      ]
+    ],
+    "checklist": [
+      "Gather approved logo and product media.",
+      "Document sizes, options and fulfilment rules.",
+      "List required languages and integrations.",
+      "Nominate a single approval contact."
+    ],
+    "faq": [
+      [
+        "Do reference websites count as a complete brief?",
+        "No. They communicate preferences, but the agency still needs your catalogue, content and requirements to define the project."
+      ]
+    ],
+    "editorial_detail_heading": "A brief the developer can actually use",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Prepare one complete product",
+        "Before sending a folder of images, assemble one product with its name, price, options, photographs and delivery notes. This gives the team a realistic design sample and reveals missing information early. Assign an owner and deadline for the remaining catalogue instead of assuming the agency will infer it."
+      ]
+    ],
+    "editorial_followup_heading": "Prepare one complete product"
+  },
+  "ar": {
+    "title": "ماذا أجهّز قبل أن أطلب تصميم متجر؟",
+    "answer": "لا تحتاج إلى ملف عرض كبير. تحتاج إلى معلومات صحيحة عن منتجاتك وطريقة بيعها وتوصيلها، حتى تعرف الجهة المنفّذة ما الذي ستبنيه.",
+    "sections": [
+      [
+        "اجمع المحتوى المعتمد",
+        "جهّز الشعار والألوان والصور والأسماء والأوصاف والمقاسات ومعلومات التوصيل. تشير إرشادات شوبيفاي للأوصاف إلى المواصفات والفوائد المدعومة؛ استخدمها لتحديد المعلومات الناقصة. ميّز بين المحتوى المعتمد والقرارات المعلّقة."
+      ],
+      [
+        "اشرح رحلة العميل",
+        "وضّح كيف يكتشف العميل المنتجات وما يحتاج إلى مقارنته. تختلف الأسئلة بين مجموعة تفصيل حسب الطلب وكتالوج جاهز كبير. حدّد اللغات والأسواق والخيارات وتكاملات التنفيذ، وافصل الضروري عن الإضافات المستقبلية."
+      ],
+      [
+        "اتّفق على المسؤوليات",
+        "حدّد من يعتمد التصميم ومن يراجع بيانات المنتجات وطريقة جمع الملاحظات والتسليم. شارك رابط المتجر أولًا، ثم امنح الصلاحيات المناسبة عند بدء العمل بدل إرسال كلمات المرور."
+      ],
+      [
+        "ملف بسيط لكنه قابل للتنفيذ",
+        "اجمع لكل منتج الاسم والصور والسعر والخيارات وحالة التجهيز. ضع علامة أمام الناقص بدل تخمينه. ثم اكتب أكثر ثلاث نقاط يسأل عنها العملاء أو يتعثرون فيها حاليًا. وإذا أرسلت موقعًا مرجعيًا، وضّح ما يعجبك: القائمة أم صور المنتج أم طريقة الشراء؟ هذا يساعد على تنفيذ ما تحتاجه بدل نسخ علامة أخرى دون فهم."
+      ]
+    ],
+    "checklist": [
+      "اجمع الهوية والصور المعتمدة.",
+      "وثّق المقاسات والخيارات والتوصيل.",
+      "حدّد اللغات والتكاملات.",
+      "عيّن مسؤول اعتماد واحدًا."
+    ],
+    "faq": [
+      [
+        "هل تكفي المواقع المرجعية لوصف المشروع؟",
+        "لا. توضّح ذوقك، لكن تقدير المشروع يحتاج أيضًا إلى منتجاتك ومحتواك ومتطلّباتك."
+      ]
+    ],
+    "editorial_detail_heading": "ملف بسيط لكنه قابل للتنفيذ",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "جهّز منتجًا واحدًا كاملًا كنموذج",
+        "اختر منتجًا يمثل ما تبيعه، واجمع اسمه ووصفه وسعره وصوره ومقاساته وألوانه والمعلومة التي يحتاجها العميل قبل الشراء. لا ترسل صورًا بأسماء غير واضحة وتترك الفريق يخمّن أيها للمنتج نفسه. هذا النموذج يساعد على تصميم صفحة واقعية وكشف البيانات الناقصة مبكرًا. بعده وزّع مسؤولية تجهيز بقية المنتجات والنصوص والسياسات، وحدّد من يعتمد كل جزء حتى لا يتوقف التنفيذ عند أسئلة بلا صاحب قرار."
+      ]
+    ],
+    "editorial_followup_heading": "جهّز منتجًا واحدًا كاملًا كنموذج"
+  },
+  "image": {
+    "src": "/assets/article-images/prepare-shopify-project.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Project brief beside a folder of brand and product materials.",
+      "ar": "وصف مشروع بجانب ملف للهوية ومواد المنتجات."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-maintenance-backups",
+  "title_ar": "ما الذي يحتاجه متجر شوبيفاي من صيانة ونسخ احتياطي؟",
+  "lead_en": "Keep the store operable and recoverable. A theme copy is useful, but it is not a complete backup of every business record and setting.",
+  "lead_ar": "المطلوب استمرار التشغيل وإمكان الاستعادة. نسخة القالب مفيدة، لكنها ليست نسخة كاملة من جميع بيانات النشاط وإعداداته.",
+  "heading_en": "Plan the recovery you would really need",
+  "detail_en": "Imagine an accidental product edit or a failed integration change. Which exports, theme version and configuration records would let you recover? Keep them securely and understand their limits. Record who owns the domain, apps and payment accounts, including renewals and recovery access. After a significant change, test products, cart, language and contact routes. A maintenance agreement should explain these responsibilities rather than saying only that the agency will “keep the site updated.”",
+  "heading_ar": "خطّط للاستعادة التي قد تحتاجها",
+  "detail_ar": "تخيّل تعديل منتجات بالخطأ أو فشل ربط جديد. ما التصدير وإصدار القالب وسجل الإعداد الذي يساعدك على العودة؟ احفظها بأمان وافهم حدودها. وثّق مالك الدومين والتطبيقات والدفع والتجديد والاستعادة. وبعد تغيير كبير، اختبر المنتجات والسلة واللغة والتواصل. يجب أن يشرح عقد الصيانة هذه المسؤوليات بدل عبارة عامة مثل «نبقي الموقع محدّثًا»."
+}

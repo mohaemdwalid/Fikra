@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-redesign-seo-preservation",
+  "title_ar": "كيف أغيّر تصميم المتجر بدون تضييع الروابط والظهور الحالي؟",
+  "lead_en": "Preserve useful destinations and content while improving the interface. A redesign needs a release plan, not just approval of new screenshots.",
+  "lead_ar": "احفظ الوجهات والمحتوى المفيد مع تحسين الواجهة. يحتاج تغيير التصميم خطة نشر، لا اعتماد صور الشكل الجديد فقط.",
+  "heading_en": "Compare what visitors and crawlers will lose",
+  "detail_en": "Record important landing pages and URLs before the change. Review what happens to headings, product identity, language routes and internal links in the new version. A cleaner page can still remove information that helped people choose or find it. Plan relevant redirects and test older links after publication. Monitor Search Console over time and keep a recovery route for implementation faults. Careful work reduces avoidable disruption; it cannot guarantee unchanged search rankings.",
+  "heading_ar": "قارن ما قد يفقده الزائر ومحرك البحث",
+  "detail_ar": "احصر الصفحات والروابط المهمة قبل التغيير. راجع العناوين وهوية المنتجات واللغات والروابط الداخلية. قد يحذف شكل أنظف معلومة ساعدت على الاختيار أو العثور على الصفحة. خطّط لتحويل مناسب واختبر الروابط القديمة بعد النشر. تابع Search Console واحتفظ برجوع لأخطاء التنفيذ؛ العمل الدقيق يقلّل الاضطراب ولا يضمن ترتيبًا ثابتًا."
+}

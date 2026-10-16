@@ -17,7 +17,7 @@
     document.querySelectorAll('[data-fikra-booking], a[href="#booking"]').forEach(link => {
       if (link.tagName === 'A') link.href = bookingDestination();
     });
-    document.querySelectorAll('.booking-home, .booking-back-home').forEach(link => { link.href = destination('/'); });
+    document.querySelectorAll('.booking-home, .booking-back-home').forEach(link => { link.href = destination(document.documentElement.lang === 'ar' ? '/ar/' : '/'); });
   }
   document.addEventListener('click', event => {
     const link = event.target.closest('[data-fikra-booking]');

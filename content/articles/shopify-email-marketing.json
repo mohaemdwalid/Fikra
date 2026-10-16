@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-email-marketing",
+  "category": "scaling",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing"
+    }
+  ],
+  "related": [
+    "shopify-social-selling",
+    "shopify-order-notifications",
+    "shopify-discount-strategy"
+  ],
+  "en": {
+    "title": "What should you plan before Shopify email marketing?",
+    "answer": "Send a relevant message to an appropriate audience with a clear purpose. An order email and a promotion are not the same kind of communication.",
+    "sections": [
+      [
+        "Separate message purposes",
+        "An order update and a promotional campaign serve different purposes. Keep customer expectations clear and review the actual consent and unsubscribe arrangements. Do not assume every person who enquires wants ongoing advertising."
+      ],
+      [
+        "Prepare a useful campaign",
+        "Use an accurate offer, relevant products and a destination matching the message. Confirm dates and stock before scheduling. Test the email on mobile and check links, language and the visible sender."
+      ],
+      [
+        "Review outcomes responsibly",
+        "Compare delivery, relevant engagement and actual commercial outcomes. Check duplicate sending tools and avoid repeatedly messaging an unresponsive audience without reviewing the cause. Keep access and customer data controlled rather than exporting lists casually between services."
+      ],
+      [
+        "Check audience, promise and destination",
+        "Review the permission and unsubscribe arrangement for the actual campaign. Use a real offer and link to a page that explains the same conditions. Check dates, stock, language and the visible sender before scheduling. Test on a phone and review overlapping sending tools. Read results beyond opens: did recipients reach a useful page and produce relevant outcomes? Keep customer lists controlled instead of casually copying them between services whenever a new tool is installed."
+      ]
+    ],
+    "checklist": [
+      "Define audience and permission basis.",
+      "Test offer and destination links.",
+      "Review sending tools and outcomes."
+    ],
+    "faq": [
+      [
+        "Can all order contacts be treated as marketing subscribers?",
+        "Do not assume that; review customer permission and the applicable requirements."
+      ]
+    ],
+    "editorial_detail_heading": "Check audience, promise and destination",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Give each message one purpose",
+        "Decide whether the email helps customers use a purchase, discover a relevant product or respond to an offer. Keep the next step clear and use only contact lists you are entitled to market to. Review unsubscribes and replies alongside sales so frequency does not become the entire strategy."
+      ]
+    ],
+    "editorial_followup_heading": "Give each message one purpose"
+  },
+  "ar": {
+    "title": "متى أرسل بريدًا تسويقيًا، وما الذي أضعه فيه؟",
+    "answer": "أرسل رسالة لها غرض وجمهور مناسب. بريد متابعة الطلب يختلف عن الترويج، ولا يعني الاستفسار أن الشخص يريد إعلانات مستمرة.",
+    "sections": [
+      [
+        "افصل الأغراض",
+        "تختلف تحديثات الطلب عن الإعلان. وضّح التوقّعات والموافقة والإلغاء ولا تفترض رغبة كل مستفسر بالترويج."
+      ],
+      [
+        "جهّز حملة مفيدة",
+        "راجع العرض والمنتج والوجهة والتاريخ والمخزون واللغة والمرسل على الجوال."
+      ],
+      [
+        "راقب بمسؤولية",
+        "قارن الاستلام والتفاعل والنتائج وراجع التكرار والصلاحيات دون تصدير عشوائي للقوائم."
+      ],
+      [
+        "راجع الجمهور والوعد والوجهة",
+        "أكّد الموافقة والإلغاء للحملة، واستخدم عرضًا حقيقيًا وصفحة بالشروط نفسها. راجع التاريخ والمخزون واللغة والمرسل قبل الجدولة. اختبر الهاتف وأدوات الإرسال المتداخلة. اقرأ ما بعد الفتح: هل وصل الناس إلى صفحة مفيدة ونتيجة مناسبة؟ واحفظ القوائم بصلاحيات واضحة بدل نسخها بين كل أداة جديدة."
+      ]
+    ],
+    "checklist": [
+      "حدّد الجمهور والموافقة.",
+      "اختبر العرض والروابط.",
+      "راجع الإرسال والنتائج."
+    ],
+    "faq": [
+      [
+        "هل كل أصحاب الطلبات مشتركون تسويقيًا؟",
+        "راجع الإذن والمتطلّبات بدل افتراض ذلك."
+      ]
+    ],
+    "editorial_detail_heading": "راجع الجمهور والوعد والوجهة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الرسالة التي تستحق أن يفتحها العميل؟",
+        "اختر سببًا واحدًا للإرسال: منتج يناسب اهتمامًا معروفًا، أو معلومة مفيدة، أو عرض بشروط واضحة. لا تجمع كل ما عندك في رسالة واحدة ولا ترسل لمجرد أن الجدول يقول حان الوقت. راجع مصدر القائمة والموافقات وطريقة إلغاء الاشتراك، ثم جرّب الرسالة على الجوال. تابع الردود والشكاوى والانسحابات بجانب الطلبات، لأن زيادة عدد الرسائل قد تضر العلاقة حتى لو ارتفعت الزيارات مؤقتًا."
+      ]
+    ],
+    "editorial_followup_heading": "ما الرسالة التي تستحق أن يفتحها العميل؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-email-marketing.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

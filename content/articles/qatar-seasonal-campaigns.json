@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-seasonal-campaigns",
+  "category": "qatar",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing"
+    }
+  ],
+  "related": [
+    "shopify-campaign-landing-page",
+    "shopify-discount-strategy",
+    "qatar-preorder-store"
+  ],
+  "en": {
+    "title": "How should a Qatar business prepare its website for Ramadan or Eid campaigns?",
+    "answer": "Begin with stock and fulfilment capacity, then build the promotion around what you can deliver. A seasonal banner is the easy part.",
+    "sections": [
+      [
+        "Build a readiness schedule",
+        "Record product availability, creative approval, promotion rules and dispatch capacity. Assign an owner to each deadline. Confirm relevant holiday and courier arrangements with the actual providers before publishing a final-order date."
+      ],
+      [
+        "Keep the offer consistent",
+        "Match adverts, landing pages, product information and checkout. Explain included items, eligibility and any made-to-order timing. Review Arabic wording so a promotion does not change meaning between languages."
+      ],
+      [
+        "Plan the end of the campaign",
+        "Remove expired conditions, restore normal messaging and review fulfilment exceptions. Compare results with suitable periods and record changes in stock or traffic. Avoid presenting every seasonal sales increase as proof of a design improvement."
+      ],
+      [
+        "Work backward from delivery",
+        "Confirm the courier’s actual arrangements and your preparation time before announcing a final-order deadline. Separate ready products from made-to-order items. Check the same offer in the advert, landing page and checkout, including the Arabic wording. Assign someone to remove expired messages. When reviewing results, record the stock and promotion changes; a seasonal increase does not by itself prove that a redesign caused the improvement."
+      ]
+    ],
+    "checklist": [
+      "Confirm operational cutoffs.",
+      "Align the offer across pages.",
+      "Plan cleanup and review."
+    ],
+    "faq": [
+      [
+        "Should I publish estimated holiday dates as fixed deadlines?",
+        "Use confirmed information and explain any operational uncertainty accurately."
+      ]
+    ],
+    "editorial_detail_heading": "Work backward from delivery",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Plan what happens when the campaign ends",
+        "Define the stock, dispatch capacity and final ordering dates before preparing the landing page. Write down who updates sold-out offers and removes expired promises. Reuse the campaign address only with current content; old delivery deadlines can mislead visitors who arrive from saved links."
+      ]
+    ],
+    "editorial_followup_heading": "Plan what happens when the campaign ends"
+  },
+  "ar": {
+    "title": "كيف أجهّز متجري لحملة رمضان أو العيد؟",
+    "answer": "ابدأ بالمخزون وقدرة التجهيز والتوصيل، ثم ابنِ العرض على ما تستطيع تنفيذه. تغيير بنر الموسم هو الجزء الأسهل.",
+    "sections": [
+      [
+        "أنشئ جدول جاهزية",
+        "سجّل المنتجات والإعلانات والشروط والإرسال، وأكّد تواريخ المناسبات ومواعيد المزوّدين قبل النشر."
+      ],
+      [
+        "وحّد العرض",
+        "طابق الإعلان والصفحة والمنتج والدفع، وراجع المحتويات والأهلية والتفصيل والترجمة."
+      ],
+      [
+        "خطّط للنهاية",
+        "أزل المنتهي وراجع الاستثناءات وقارن فترات مناسبة دون نسبة كل زيادة موسمية للتصميم."
+      ],
+      [
+        "ابدأ من موعد التسليم وارجع للخلف",
+        "أكّد ترتيبات شركة التوصيل ووقت تجهيزك قبل إعلان آخر موعد للطلب. افصل الجاهز عن التفصيل، وطابق العرض بين الإعلان والصفحة والدفع بالعربية أيضًا. عيّن شخصًا لإزالة الرسائل المنتهية. وعند قراءة النتائج، سجّل تغيّر المخزون والعرض؛ ارتفاع الموسم وحده لا يثبت أن التصميم هو سبب التحسّن."
+      ]
+    ],
+    "checklist": [
+      "أكّد مواعيد التنفيذ.",
+      "وحّد العرض.",
+      "خطّط للتنظيف والتقييم."
+    ],
+    "faq": [
+      [
+        "هل تثبّت موعدًا تقديريًا كمهلة نهائية؟",
+        "استخدم معلومات مؤكّدة واشرح عدم اليقين التشغيلي."
+      ]
+    ],
+    "editorial_detail_heading": "ابدأ من موعد التسليم وارجع للخلف",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "رتّب التشغيل قبل الإعلان",
+        "حدّد المنتجات المتاحة وقدرة التجهيز وآخر موعد واقعي لاستقبال الطلبات، ثم اكتب العرض بناءً عليها. فرّق بين موعد طلب المنتج وموعد وصوله، وراجع أي تخصيص يحتاج وقتًا إضافيًا. عيّن شخصًا لتحديث نفاد المخزون وإيقاف العرض عند انتهائه. الزائر قد يدخل من رابط قديم بعد الحملة؛ لذلك لا تترك وعود توصيل أو خصومات منتهية تظهر كأنها ما زالت متاحة."
+      ]
+    ],
+    "editorial_followup_heading": "رتّب التشغيل قبل الإعلان"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-seasonal-campaigns.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Scheduling calendar with a service or order symbol.",
+      "ar": "تقويم جدولة مع رمز خدمة أو طلب."
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "shopify-build-timeline",
+  "category": "planning",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/initial-setup/new-to-shopify-checklists/general-checklist"
+    }
+  ],
+  "related": [
+    "prepare-shopify-project",
+    "shopify-launch-checklist",
+    "shopify-test-order"
+  ],
+  "en": {
+    "title": "How long does it take to build a Shopify store?",
+    "answer": "The build is often waiting on content or decisions, not code. A useful launch date accounts for both.",
+    "sections": [
+      [
+        "Identify the longest dependencies",
+        "Photography, product data, translations and payment-provider verification can hold up a store even when the theme is ready. Write down who owns each dependency and when it will be available. Shopify’s launch checklist covers configuration beyond the visual storefront, so allow time for those tasks too."
+      ],
+      [
+        "Plan review stages",
+        "Use milestones for brief approval, design review, development preview and launch readiness. Nominate one person to combine feedback so contradictory requests do not create repeated revisions. Freeze the agreed launch scope and keep later ideas in a separate list with their own estimates."
+      ],
+      [
+        "Leave time for acceptance",
+        "Review a representative product, a sold-out variant, a delivery address and the chosen payment flow. Check both languages if the store is bilingual. A theme preview is not proof that orders and fulfilment settings work. Reserve a correction window before announcing the public launch to customers."
+      ],
+      [
+        "Where the schedule usually gets stuck",
+        "Before agreeing a date, ask who will supply the final product sheet and who can approve changes. If a size chart arrives after products are entered, that work may need revisiting. Keep a launch list and a later-improvements list: adding a new idea midway should come with a clear effect on the schedule. The final review also needs time to correct problems found in payment, shipping or the second language."
+      ]
+    ],
+    "checklist": [
+      "Assign an owner to each content dependency.",
+      "Agree approval dates and revision limits.",
+      "Separate launch requirements from later additions.",
+      "Schedule final checks before announcing the launch."
+    ],
+    "faq": [
+      [
+        "Can a store launch quickly with a ready theme?",
+        "It can shorten design work, but content, configuration, approvals and testing still determine whether the store is ready."
+      ]
+    ],
+    "editorial_detail_heading": "Where the schedule usually gets stuck",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "What makes a milestone ready to approve?",
+      "columns": [
+        "Stage",
+        "Useful evidence"
+      ],
+      "rows": [
+        [
+          "Content ready",
+          "The launch product list, approved media and essential facts are available."
+        ],
+        [
+          "Design ready",
+          "The owner has reviewed representative pages with real content, not only placeholders."
+        ],
+        [
+          "Store ready",
+          "Options, delivery and payment have been checked on the intended customer route."
+        ],
+        [
+          "Handover ready",
+          "The team understands routine updates, support ownership and any remaining exceptions."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Put approvals on the schedule",
+        "A realistic schedule names the inputs, their owners and the decisions needed before the next step. Ask what can proceed while payment approval or photography is pending. Keep launch dependent on a working buying journey, rather than an arbitrary date that assumes every external dependency is finished."
+      ]
+    ],
+    "editorial_followup_heading": "Put approvals on the schedule"
+  },
+  "ar": {
+    "title": "كم يحتاج متجر شوبيفاي حتى يكون جاهزًا؟",
+    "answer": "مدة العمل لا تتوقف على البرمجة فقط. الصور والمنتجات والموافقة على التصميم والدفع قد تؤخّر الإطلاق حتى لو كان القالب جاهزًا.",
+    "sections": [
+      [
+        "حدّد الأعمال التي قد تؤخّر التنفيذ",
+        "قد تؤخّر الصور وبيانات المنتجات والترجمة والتحقّق لدى مزوّد الدفع الإطلاق رغم جاهزية القالب. دوّن المسؤول والموعد لكل مهمة. تشمل قائمة إطلاق شوبيفاي إعدادات تتجاوز شكل الواجهة."
+      ],
+      [
+        "نظّم مراحل المراجعة",
+        "قسّم العمل إلى اعتماد المتطلّبات ومراجعة التصميم ومعاينة التطوير والاستعداد للإطلاق. عيّن مسؤولًا يجمع الملاحظات، وثبّت نطاق النسخة الأولى. ضع الأفكار اللاحقة في قائمة منفصلة مع تقديراتها."
+      ],
+      [
+        "خصّص وقتًا للقبول النهائي",
+        "راجع منتجًا وخيارًا نافدًا وعنوان توصيل وطريقة الدفع، وراجع اللغتين إن وجدتَا. معاينة القالب لا تثبت صحة الطلبات أو إعدادات التنفيذ. اترك وقتًا لمعالجة الملاحظات قبل إعلان الإطلاق."
+      ],
+      [
+        "ما الذي قد يؤخّر الإطلاق؟",
+        "تخيّل أن إدخال المنتجات اكتمل ثم تغيّرت المقاسات أو وصلت صور بديلة. سيحتاج جزء من العمل إلى إعادة مراجعة. لذلك حدّد قبل الموعد من يجهّز البيانات ومن يعتمد التعديلات. افصل المطلوب للإطلاق عن الإضافات اللاحقة، واحسب أثر أي طلب جديد. واترك وقتًا لتصحيح ما يظهر في اختبار الدفع والتوصيل واللغة، بدل إعلان الافتتاح فور اكتمال الشكل."
+      ]
+    ],
+    "checklist": [
+      "عيّن مسؤولًا لكل محتوى ناقص.",
+      "اتّفق على مواعيد الاعتماد.",
+      "افصل متطلّبات الإطلاق عن الإضافات.",
+      "خصّص وقتًا للمراجعة النهائية."
+    ],
+    "faq": [
+      [
+        "هل يختصر القالب الجاهز وقت الإطلاق؟",
+        "قد يختصر التصميم، لكن المحتوى والإعدادات والاعتمادات والاختبارات تظل ضرورية."
+      ]
+    ],
+    "editorial_detail_heading": "ما الذي قد يؤخّر الإطلاق؟",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "متى تعتبر المرحلة مكتملة؟",
+      "columns": [
+        "المرحلة",
+        "ما الدليل المفيد؟"
+      ],
+      "rows": [
+        [
+          "جاهزية المحتوى",
+          "قائمة الإطلاق والصور والحقائق الأساسية معتمدة ومتاحة."
+        ],
+        [
+          "جاهزية التصميم",
+          "راجع المالك صفحات ممثّلة بمحتوى حقيقي لا نصوص مؤقتة فقط."
+        ],
+        [
+          "جاهزية المتجر",
+          "تمت مراجعة الخيارات والتوصيل والدفع على مسار العميل المقصود."
+        ],
+        [
+          "جاهزية التسليم",
+          "يفهم الفريق التحديث والدعم والاستثناءات المتبقية."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "ما الذي يؤخر المشروع عادة؟",
+        "قد يكون التصميم جاهزًا بينما الصور أو بيانات المنتجات أو الموافقة على الدفع ما زالت ناقصة. لذلك اطلب جدولًا يذكر المسؤول عن كل تسليم وموعد اعتماده، وليس تاريخ انتهاء واحدًا فقط. حدّد من يجمع الملاحظات حتى لا تأتي قرارات متناقضة من عدة أشخاص. إذا تأخر جزء، ناقش ما يمكن إنجازه بالتوازي وما يمنع الإطلاق فعلًا؛ جاهزية الصفحة الرئيسية وحدها لا تعني جاهزية البيع."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي يؤخر المشروع عادة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-build-timeline.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Project timeline with four connected milestones.",
+      "ar": "جدول زمني بأربع مراحل مترابطة لتنفيذ المشروع."
+    }
+  }
+}

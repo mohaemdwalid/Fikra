@@ -1,0 +1,1002 @@
+{
+  "arabic-business-website": {
+    "en": [
+      "Start with one page in both languages",
+      "Take your main service page and write it for each audience. Keep the offer, contact route and service limits consistent, but let the sentences differ. Ask a colleague to read the Arabic without seeing the English: if they cannot explain what you offer, the translation needs another pass."
+    ],
+    "ar": [
+      "ابدأ بصفحة واحدة قبل ترجمة الموقع كله",
+      "اختر صفحة الخدمة الأساسية واكتبها بالعربية والإنجليزية، ثم اطلب من شخص لا يعرف المشروع أن يقرأ العربية وحدها. هل فهم الخدمة، ولمن تناسب، وكيف يتواصل معك؟ إذا احتاج إلى شرح منك، عدّل النص قبل تعميمه على بقية الصفحات. ثبّت أسماء الخدمات والمصطلحات بين الصفحات؛ اختلاف الصياغة طبيعي، لكن اختلاف الوعد أو السعر أو طريقة التواصل يربك العميل."
+    ]
+  },
+  "arabic-english-shopify-store": {
+    "en": [
+      "Follow the same purchase in both languages",
+      "Choose a product with sizes and delivery information. Read its page, choose an option, add it to the cart and follow the permitted checkout journey in each language. Record every place where a translation disappears or the layout becomes difficult; a translated homepage alone does not complete this job."
+    ],
+    "ar": [
+      "راجع رحلة الشراء، وليس الصفحة الرئيسية فقط",
+      "خذ منتجًا فيه مقاسات وأضفه إلى السلة بالعربية، ثم كرّر التجربة بالإنجليزية. راجع اسم الخيار، ورسالة نفاد المخزون، ومعلومات التوصيل، وأي نص يظهر من تطبيق خارجي. سجّل ما يحتاج تعديلًا في قائمة واضحة بدل الاكتفاء بقول إن المتجر مترجم. بعد ذلك اتفق مع الفريق على من يترجم المنتجات الجديدة، حتى لا تبدأ النسخة العربية مكتملة ثم تتوقف عند أول تحديث."
+    ]
+  },
+  "arabic-shopify-rtl": {
+    "en": [
+      "Check the awkward combinations",
+      "A page can align right and still be hard to use. Look at a phone number beside Arabic text, a price beside a currency label and a carousel with directional arrows. Review the actual content on a narrow screen; a clean empty template may hide the problem."
+    ],
+    "ar": [
+      "أين تظهر مشكلة الاتجاه عادة؟",
+      "ابدأ بالأماكن التي تجمع العربية مع أرقام أو كلمات إنجليزية: السعر والعملة، رقم الهاتف، كود الخصم واسم المنتج. ثم افتح القائمة والفلاتر ومعرض الصور على الجوال؛ قد يكون النص صحيحًا بينما ترتيب الأزرار يجعل الاستخدام مربكًا. صوّر كل مشكلة واذكر الخطوة التي أظهرتها. عبارة «العربي غير مضبوط» وحدها لا تساعد المصمم على معرفة هل الخلل في الاتجاه أم المسافة أم الترجمة."
+    ]
+  },
+  "booking-website-or-store": {
+    "en": [
+      "Define what a confirmed booking means",
+      "Decide whether customers choose a time immediately or submit a request your team accepts later. Those are different promises. Write the confirmation message first, then check whether staff availability, payment and cancellation handling support it. A form submission should not silently become an appointment."
+    ],
+    "ar": [
+      "ما الذي يعتبر حجزًا مؤكدًا عندك؟",
+      "قبل اختيار النظام، قرّر هل العميل يحجز وقتًا متاحًا مباشرة أم يرسل طلبًا ينتظر موافقتك. لو كانت الخدمة تحتاج مراجعة الموقع أو مدة العمل أولًا، فقد يناسبها طلب موعد بدل تأكيد فوري. اكتب الرسالة التي ستصل للعميل في كل حالة، وحدّد من يراجع الطلب ومتى يرد. بذلك لا يظن العميل أن موعده ثبت بينما فريقك لم يطّلع عليه بعد."
+    ]
+  },
+  "business-website-cost-qatar": {
+    "en": [
+      "Ask suppliers to price the same job",
+      "Give each supplier the same page list, language requirements and content responsibility. Ask what happens when a page needs a different layout or the copy arrives late. You will learn more from those answers than from comparing starting prices attached to different scopes."
+    ],
+    "ar": [
+      "كيف أقارن عرضين بسعرين مختلفين؟",
+      "أرسل للشركتين القائمة نفسها: الصفحات، واللغات، والنماذج، ومن يكتب النصوص ويجهّز الصور. ثم اسأل عن تكلفة إضافة صفحة مختلفة وعن التعديلات بعد اعتماد التصميم. قد يشمل عرض رخيص تركيب قالب فقط، بينما يشمل الآخر كتابة المحتوى وربط النماذج. لا تفترض أن الأغلى أفضل تلقائيًا؛ اطلب توضيح ما ستستلمه، وموعده، وما ستدفعه لاحقًا قبل المقارنة."
+    ]
+  },
+  "business-website-types": {
+    "en": [
+      "Choose the action before the page count",
+      "Write one sentence describing a successful visitor: they request a quotation, book a consultation or buy a product. Build the main route around that action. Extra pages should answer questions that help people decide, rather than exist because a package includes a certain number."
+    ],
+    "ar": [
+      "كيف أعرف النوع المناسب لمشروعي؟",
+      "اكتب ما تريد أن يفعله الزائر في نهاية الزيارة. إذا كنت تبيع خدمة سعرها يعتمد على تفاصيل المشروع، فقد تحتاج صفحات تشرح الخدمة ونموذج طلب عرض. إذا كنت تبيع منتجات بسعر واضح، فأنت تحتاج كتالوجًا وسلة ودفعًا. وإذا كان الوقت جزءًا من الخدمة، راجع الحجز والتوافر. عدد الصفحات يأتي بعد هذا القرار، وليس قبله؛ عشر صفحات بلا خطوة واضحة قد تخدمك أقل من موقع صغير مرتب."
+    ]
+  },
+  "choose-shopify-apps": {
+    "en": [
+      "Try the task without another app first",
+      "Describe the missing function in plain language, then check the theme and your current setup. If an app is needed, test its customer experience and its removal before relying on it. Someone should own its billing, settings and effect on the store after installation."
+    ],
+    "ar": [
+      "قبل تثبيت تطبيق جديد",
+      "اكتب المشكلة أولًا: هل تريد جدول مقاسات، أم خيارات تخصيص، أم تذكيرًا بطلب؟ راجع هل المتجر يوفّر الوظيفة أصلًا، ثم جرّب التطبيق على منتج واحد. افحص شكله بالعربية والجوال وما يحدث عند إزالته. وجود تقييمات جيدة لا يعني أنه يناسب إعدادك. سجّل تكلفة الاشتراك ومن يتابعه، لأن التطبيقات الصغيرة قد تتحول إلى مصروف مستمر لا يعرف الفريق لماذا يدفعه."
+    ]
+  },
+  "choose-shopify-plan": {
+    "en": [
+      "Separate a required feature from a nice extra",
+      "List what prevents you from selling today and what might be useful later. Compare plans against the first list using current official details. If a supplier recommends upgrading, ask them to name the exact requirement and show why the current setup cannot meet it."
+    ],
+    "ar": [
+      "متى أرفع الباقة؟",
+      "ابدأ بالوظائف التي تحتاجها اليوم، مثل طريقة إدارة الفريق أو البيع، ثم راجع تفاصيل الباقات الحالية. لا ترفع الباقة لمجرد أن اسمها يوحي بأنها أنسب لمشروع ناجح. اطلب ممن يقترح الترقية أن يشرح الوظيفة التي ستستخدمها، وما الذي يمنع تنفيذها الآن، وكيف ستؤثر في العمل. احسب فرق الاشتراك مع بقية مصاريف المتجر، ثم اتخذ القرار على حاجة واضحة يمكن مراجعتها لاحقًا."
+    ]
+  },
+  "choose-shopify-theme": {
+    "en": [
+      "Use your hardest product in the demo",
+      "A simple product makes most themes look good. Try your longest title, most complicated options and largest navigation category. Review those on mobile in Arabic too. Keep a list of changes the demonstration needed so the theme price is not mistaken for the complete implementation cost."
+    ],
+    "ar": [
+      "جرّب القالب بمنتجاتك الحقيقية",
+      "لا تعتمد على صور العرض وحدها. ضع منتجًا اسمه طويل وله ألوان ومقاسات، ثم افتحه على الجوال بالعربية. هل الخيارات واضحة؟ هل يستطيع العميل قراءة الوصف ومعرفة التوصيل بدون بحث طويل؟ جرّب أيضًا أكبر قائمة تصنيفات عندك. اكتب التعديلات المطلوبة قبل الشراء، لأن سعر القالب لا يشمل بالضرورة ضبط كل هذه التفاصيل، وقد يناسب قالب أبسط محتواك أكثر من عرض جميل بمنتجات مختلفة تمامًا."
+    ]
+  },
+  "choose-website-cms": {
+    "en": [
+      "Let the future editor try it",
+      "Ask the staff member responsible for updates to change a service paragraph, replace an image and publish a draft in a demonstration. Note which actions require a developer. A system that suits the supplier but makes routine edits difficult will create avoidable delays after handover."
+    ],
+    "ar": [
+      "جرّب التعديل بنفسك قبل الموافقة",
+      "اطلب تجربة تعديل عنوان وصورة ومعلومة تواصل في النظام المقترح. الأفضل أن يجربه الموظف الذي سيستخدمه يوميًا، لا الشخص التقني فقط. لاحظ ما يحتاج مساعدة وما يمكن التراجع عنه إذا أخطأ المحرر. اسأل أيضًا عن صلاحيات النشر والتدريب وطريقة نقل المحتوى مستقبلًا. سهولة العرض أمامك لا تكفي؛ المهم أن تستطيع إجراء تحديث عادي بعد التسليم بدون انتظار المطوّر لكل كلمة."
+    ]
+  },
+  "custom-website-or-builder": {
+    "en": [
+      "Identify the requirement that needs custom work",
+      "Ask for a demonstration of the difficult part: an unusual quotation process, integration or content relationship. If a standard tool handles it well, custom development needs another reason. If it cannot, document the gap and who will maintain the custom solution once the original developer leaves."
+    ],
+    "ar": [
+      "ما الذي يستدعي برمجة خاصة فعلًا؟",
+      "اختر الجزء الذي لا تنفذه الأدوات الجاهزة كما تحتاج: ربما حساب عرض سعر، أو ربط نظام داخلي، أو خطوات موافقة متعددة. اطلب عرضه عمليًا قبل اعتماد خيار البرمجة. أما اختلاف الألوان وترتيب الأقسام فلا يكفي وحده لاتخاذ القرار. إذا احتجت حلًا خاصًا، اتفق على التوثيق وملكية الملفات والصيانة، حتى لا يصبح كل تعديل بسيط مرتبطًا بالشخص الذي بناه أول مرة."
+    ]
+  },
+  "domain-versus-hosting": {
+    "en": [
+      "Make an ownership list",
+      "Record the domain registrar, account owner, renewal contact and the place where website files or platform settings live. Keep email hosting on that list too. This makes a future move or supplier change easier and prevents a website change from accidentally becoming an email outage."
+    ],
+    "ar": [
+      "ما الذي أحتاجه من الشركة التي تنشئ موقعي؟",
+      "اطلب اسم الجهة التي حجزت الدومين، والحساب المالك له، وموعد تجديده، وأين يعمل الموقع والبريد. قد تكون هذه ثلاث خدمات مختلفة حتى لو دفعت فاتورة واحدة. تأكد أن حسابات المشروع تحت سيطرتك وأن بيانات الاسترداد تصل إليك. عند تغيير الموقع لاحقًا، تساعدك هذه القائمة على معرفة ما الذي يجب نقله وما الذي يجب تركه كما هو، خصوصًا البريد المرتبط باسم الشركة."
+    ]
+  },
+  "free-or-paid-shopify-theme": {
+    "en": [
+      "Price the missing work",
+      "Compare the required changes rather than counting demo sections. If a free theme already fits your catalogue, a paid alternative may add little. If it removes genuine implementation work, include that benefit alongside its purchase cost, support terms and any custom changes still needed."
+    ],
+    "ar": [
+      "كيف أحكم إن كان المدفوع يستحق؟",
+      "اكتب الميزات التي ستستخدمها فعلًا، ثم جرّبها في القالبين بمنتج من متجرك. هل تحتاج معرض صور معينًا، أو تنقلًا يناسب كتالوجًا كبيرًا، أم مجرد شكل مختلف؟ احسب تكلفة التعديلات اللازمة في كل خيار مع سعر الشراء والدعم. القالب المدفوع ليس ضمانًا لزيادة المبيعات، والمجاني ليس دائمًا الأقل تكلفة إذا احتاج عملًا كثيرًا. القرار الأفضل هو الذي يناسب المحتوى والميزانية وطريقة إدارة المتجر."
+    ]
+  },
+  "migrate-to-shopify": {
+    "en": [
+      "Rehearse a small migration",
+      "Move a small sample first: a product with options, a content page and an old URL. Check the result with the people who manage orders and content. Agree on what happens to orders received during the final move; migration is not complete just because products appeared in a new admin."
+    ],
+    "ar": [
+      "ابدأ بعينة قبل نقل المتجر كله",
+      "اختر منتجًا بمقاسات وصور متعددة وصفحة محتوى ورابطًا قديمًا له زيارات. انقل هذه العينة وراجعها في المتجر الجديد، ثم حدّد ما يحتاج تنظيفًا قبل نقل الباقي. اتفق أيضًا على الطلبات التي تصل أثناء الانتقال ومن يتابعها، وما البيانات التي يدعم نقلها إعدادك فعلًا. احتفظ بنسخة من المصدر وخريطة الروابط، وحدّد وقت التحويل بعد مراجعة الدفع والتوصيل، لا فور ظهور المنتجات في لوحة الإدارة."
+    ]
+  },
+  "mobile-shopify-design": {
+    "en": [
+      "Watch someone shop without coaching",
+      "Give a person a specific product to find and ask them to reach the point before payment. Do not explain where buttons are. Note every pause, mistaken tap and question. These observations can expose a hidden size selector or delivery uncertainty that a polished screenshot will not show."
+    ],
+    "ar": [
+      "راقب التجربة بدل سؤال «هل التصميم جميل؟»",
+      "اطلب من شخص أن يجد منتجًا بمقاس محدد ويضيفه إلى السلة من هاتفه. لا ترشده أثناء التجربة؛ لاحظ أين يتوقف وما الذي يسأل عنه. قد يكون زر الإضافة ظاهرًا لكن اختيار المقاس غير واضح، أو تكون معلومات التوصيل بعيدة عن مكان اتخاذ القرار. دوّن المشكلة والخطوة التي ظهرت فيها، ثم عدّلها وكرّر المهمة. بهذه الطريقة تربط تحسين التصميم بمشكلة استخدام فعلية، لا بمجرد ذوق شخصي."
+    ]
+  },
+  "portfolio-or-online-store": {
+    "en": [
+      "Match the contact route to the work",
+      "For a tailored service, a project page can explain the brief, scope and next step without adding a cart. For a fixed deliverable with a clear price, direct purchase may be useful. Decide how customers buy from you today before choosing ecommerce features that introduce unnecessary administration."
+    ],
+    "ar": [
+      "متى يكون معرض الأعمال كافيًا؟",
+      "إذا كان كل مشروع يحتاج اجتماعًا وتسعيرًا خاصًا، ركّز على شرح الأعمال ونوع الخدمة وطريقة طلب عرض. أما إذا كان العميل يستطيع اختيار منتج أو خدمة محددة بسعر معلوم، فقد يناسبه الشراء المباشر. اسأل نفسك ماذا يحدث بعد إعجاب الزائر بعملك: هل يرسل تفاصيل، أم يحجز، أم يدفع؟ ابنِ الموقع حول تلك الخطوة، ولا تضف سلة ودفعًا إذا كان فريقك سيعيد التواصل لتحديد كل شيء من البداية."
+    ]
+  },
+  "prepare-shopify-project": {
+    "en": [
+      "Prepare one complete product",
+      "Before sending a folder of images, assemble one product with its name, price, options, photographs and delivery notes. This gives the team a realistic design sample and reveals missing information early. Assign an owner and deadline for the remaining catalogue instead of assuming the agency will infer it."
+    ],
+    "ar": [
+      "جهّز منتجًا واحدًا كاملًا كنموذج",
+      "اختر منتجًا يمثل ما تبيعه، واجمع اسمه ووصفه وسعره وصوره ومقاساته وألوانه والمعلومة التي يحتاجها العميل قبل الشراء. لا ترسل صورًا بأسماء غير واضحة وتترك الفريق يخمّن أيها للمنتج نفسه. هذا النموذج يساعد على تصميم صفحة واقعية وكشف البيانات الناقصة مبكرًا. بعده وزّع مسؤولية تجهيز بقية المنتجات والنصوص والسياسات، وحدّد من يعتمد كل جزء حتى لا يتوقف التنفيذ عند أسئلة بلا صاحب قرار."
+    ]
+  },
+  "qatar-b2b-quote-website": {
+    "en": [
+      "Design the handoff after the form",
+      "Decide which details are needed to produce a quotation and which can wait for a conversation. Route each request to an owner and tell the customer what happens next. A quote button helps little if attachments disappear or sales staff cannot trace the original requirement."
+    ],
+    "ar": [
+      "ماذا أطلب في نموذج عرض السعر؟",
+      "اطلب المعلومات التي تؤثر في العرض، مثل نوع المنتج والكمية وموعد التسليم، وأضف رفع ملف فقط إذا كان الفريق يحتاجه فعلًا. اشرح للعميل أن الإرسال طلب عرض وليس تأكيد طلب أو سعر. بعد ذلك حدّد من يستلم الرسالة وكيف يتابعها ومتى يرد. جرّب إرسال طلب من الجوال وتأكد أن الملفات والتفاصيل وصلت كاملة؛ جودة النموذج لا تكتمل إذا ضاع الطلب بين البريد وموظفي المبيعات."
+    ]
+  },
+  "qatar-business-website-trust": {
+    "en": [
+      "Answer the questions before the customer asks",
+      "Look at the page as a first-time visitor: who is selling, what exactly arrives, when can it arrive and who helps if something goes wrong? Put accurate answers near the decision. Decorative trust badges cannot replace a reachable business and clear terms."
+    ],
+    "ar": [
+      "ما الذي يطمئن العميل قبل أول طلب؟",
+      "تخيّل شخصًا لا يعرف علامتك ووجد منتجًا عبر إعلان. غالبًا يريد فهم الخامة والمقاس والتوصيل وطريقة التواصل وما يحدث إذا لم يناسبه الطلب. ضع هذه المعلومات حيث يقرأ المنتج، مع صفحات سياسات يمكن الوصول إليها بسهولة. استخدم بيانات وصورًا ومراجعات حقيقية تستطيع إثباتها، ولا تضف شارات أو أرقامًا لمجرد أنها تبدو مقنعة. الثقة تتأثر أيضًا بسرعة الرد وتنفيذ الوعد بعد الشراء، وليس بشكل الموقع وحده."
+    ]
+  },
+  "qatar-click-and-collect": {
+    "en": [
+      "Test the collection message",
+      "Place a sample pickup order and read every message as a customer. Can they distinguish received from ready to collect? Can staff find the item and the order? Define what happens when stock is unavailable or someone else collects on the customer's behalf."
+    ],
+    "ar": [
+      "كيف يعرف العميل أن طلبه جاهز؟",
+      "فرّق بين رسالة استلام الطلب ورسالة جاهزيته في الفرع. وضّح المكان وساعات الاستلام وما يحتاج العميل إظهاره، ثم جرّب الطلب من البداية مع الموظف المسؤول. اسأل كيف سيتصرف الفريق إذا لم يجد القطعة أو جاء شخص آخر للاستلام. لا تعد بتجهيز فوري لمجرد أن خيار الاستلام ظاهر في الدفع؛ الوقت المعلن يجب أن يناسب المخزون وقدرة الفرع على تجهيز الطلبات فعلًا."
+    ]
+  },
+  "qatar-customer-address-forms": {
+    "en": [
+      "Check what the courier actually needs",
+      "Ask the delivery team to review a sample order from the form. Identify missing details and unnecessary fields. Explain why any additional information is needed, especially location notes, and keep it available to the people fulfilling the order rather than collecting it without a clear purpose."
+    ],
+    "ar": [
+      "ابدأ من احتياج فريق التوصيل",
+      "خذ نموذج عنوان من طلب تجريبي واعرضه على من سيوصّل الطلب. هل يستطيع تحديد المكان والاتصال بالعميل، أم يحتاج الرجوع لرسالة أخرى؟ اطلب البيانات اللازمة للعملية بعبارات واضحة، واجعل الملاحظات الإضافية مفهومة بدل خانة عامة لا يعرف العميل ماذا يكتب فيها. راجع أيضًا شكل الرقم والعنوان في تأكيد الطلب، وتجنب جمع معلومات لا يستخدمها الفريق أو تركها تظهر لأشخاص لا يحتاجون الوصول إليها."
+    ]
+  },
+  "qatar-domain-qa-or-com": {
+    "en": [
+      "Think about the address people will remember",
+      "Compare a few readable names, not only extensions. Check spelling in conversation and how the address looks beside your email. Before purchasing, confirm current registration requirements and ownership arrangements. If you use more than one domain, decide which is the main public address and how the others lead to it."
+    ],
+    "ar": [
+      "الاسم نفسه مهم بقدر الامتداد",
+      "جرّب قول العنوان لشخص واطلب منه كتابته بدون أن يراه. إذا احتاج تهجئة طويلة أو احتوى كلمات متشابهة، قد تواجه صعوبة مهما كان الامتداد. راجع شروط التسجيل الحالية من الجهة المختصة، واجعل الملكية والتجديد باسم حساب تسيطر عليه. وإذا حجزت أكثر من عنوان، اختر واحدًا رئيسيًا للموقع والبريد والتسويق، ونظّم توجيه البقية إليه حتى لا تشتت الزوار بين نسخ مختلفة."
+    ]
+  },
+  "qatar-home-business-online": {
+    "en": [
+      "Separate business readiness from website readiness",
+      "A working checkout does not answer whether your activity, location or payment account is eligible. List those questions for the relevant authority and provider before commissioning the store. In parallel, prepare a realistic catalogue and fulfilment plan so technical progress does not hide an unresolved business dependency."
+    ],
+    "ar": [
+      "ما الذي أجهّزه قبل دفع تكلفة التصميم؟",
+      "اكتب النشاط الذي ستبيعه وطريقة العمل والتوصيل، ثم اسأل الجهة المختصة عن المتطلبات التي تنطبق على حالتك تحديدًا. راجع أيضًا مزود الدفع بشأن قبول نشاطك والوثائق المطلوبة؛ نجاح تجربة دفع في متجر آخر لا يضمن قبول حسابك. يمكنك في الوقت نفسه تجهيز المنتجات والصور وطريقة الرد على العملاء. الهدف أن تعرف ما ينقص المشروع قبل الإطلاق، بدل اكتشاف عائق أساسي بعد اكتمال التصميم."
+    ]
+  },
+  "qatar-online-business-registration": {
+    "en": [
+      "Take a specific description to the authority",
+      "Describe what you sell, how you fulfil it and whether the project operates from home, a shop or another arrangement. Ask for the process that applies to that activity and retain the official response. A generic registration list found online may omit a condition relevant to your business."
+    ],
+    "ar": [
+      "كيف أطلب معلومة تفيد حالتي؟",
+      "بدل سؤال عام عن «رخصة متجر»، اشرح ما ستبيعه وأين تعمل وكيف يستلم العميل الطلب. اسأل وزارة التجارة والصناعة والجهات المعنية عن المتطلبات الخاصة بهذا النشاط، وما الذي يلزم قبل بدء البيع. احتفظ بالردود والروابط الرسمية وراجعها عند تغيير النشاط. بعد وضوح هذا الجانب، نسّق معه حساب الدفع وبيانات الموقع؛ المقال يساعدك على ترتيب الأسئلة، لكنه لا يحدد ترخيصًا واحدًا يناسب جميع المشاريع."
+    ]
+  },
+  "qatar-personalised-gifts": {
+    "en": [
+      "Show what the customer is approving",
+      "Use a clear example of the custom text and explain any limits before adding to cart. Confirm how staff receive the exact spelling and what happens when a request is unclear. A preview should be described honestly; do not imply it is a final proof if production still requires approval."
+    ],
+    "ar": [
+      "كيف أتجنب خطأ الاسم على الهدية؟",
+      "أظهر مثالًا واضحًا لما سيكتبه العميل، وحدّد الحد المسموح للنص وأي خيارات تؤثر في التنفيذ. تأكد أن الاسم يصل مع بند المنتج نفسه، خصوصًا إذا طلب العميل قطعتين بتخصيص مختلف. وضّح هل يحتاج التصميم موافقة لاحقة، ومتى يبدأ الإنتاج، وكيف تتعامل مع طلب غير واضح. جرّب إدخال العربية والإنجليزية من الجوال، ثم راجع ما يراه موظف التجهيز، لا ما يظهر للعميل فقط."
+    ]
+  },
+  "qatar-preorder-store": {
+    "en": [
+      "Explain the wait before taking the order",
+      "Place the expected dispatch information beside the purchase decision, not only in a policy page. Explain whether the order can include in-stock items and what happens if the schedule changes. Your order messages should repeat the same expectation rather than use a standard immediate-shipping promise."
+    ],
+    "ar": [
+      "ماذا يحتاج العميل أن يعرف قبل الطلب المسبق؟",
+      "وضّح أنه طلب مسبق بجانب زر الشراء، مع الموعد المتوقع للإرسال وما إذا كان تقديريًا. إذا جمع العميل قطعة جاهزة وأخرى مسبقة الطلب، اشرح هل ترسلان معًا أم في شحنتين وما أثر ذلك على التكلفة. اتفق داخليًا على من يحدث العملاء عند تغير الموعد، وراجع رسائل التأكيد حتى لا تعد بشحن سريع تلقائيًا. وصف الانتظار بوضوح أفضل من اكتشاف العميل بعد الدفع أن المنتج غير جاهز."
+    ]
+  },
+  "qatar-restaurant-website": {
+    "en": [
+      "Keep operational information current",
+      "Start with the menu, location, opening hours and the actual order or reservation route. Assign someone to update these when service changes. If the site accepts orders, confirm how the kitchen receives them and handles unavailable dishes before adding promotions that increase demand."
+    ],
+    "ar": [
+      "ابدأ بالمعلومات التي يستخدمها الزائر",
+      "غالبًا يريد الزائر معرفة القائمة والأسعار والموقع وساعات العمل وكيف يطلب أو يحجز. اجعل هذه المعلومات سهلة من الجوال، وحدّد من يحدّثها عند تغيير القائمة أو أوقات الخدمة. إذا أضفت طلبًا مباشرًا، جرّب كيف يصل للمطبخ وما يحدث للصنف غير المتاح. الموقع يفيد عندما يقدّم معلومة صحيحة وخطوة تعمل؛ قائمة قديمة أو زر يرسل الطلب لجهة لا تتابعه يضر التجربة مهما كان التصميم جذابًا."
+    ]
+  },
+  "qatar-seasonal-campaigns": {
+    "en": [
+      "Plan what happens when the campaign ends",
+      "Define the stock, dispatch capacity and final ordering dates before preparing the landing page. Write down who updates sold-out offers and removes expired promises. Reuse the campaign address only with current content; old delivery deadlines can mislead visitors who arrive from saved links."
+    ],
+    "ar": [
+      "رتّب التشغيل قبل الإعلان",
+      "حدّد المنتجات المتاحة وقدرة التجهيز وآخر موعد واقعي لاستقبال الطلبات، ثم اكتب العرض بناءً عليها. فرّق بين موعد طلب المنتج وموعد وصوله، وراجع أي تخصيص يحتاج وقتًا إضافيًا. عيّن شخصًا لتحديث نفاد المخزون وإيقاف العرض عند انتهائه. الزائر قد يدخل من رابط قديم بعد الحملة؛ لذلك لا تترك وعود توصيل أو خصومات منتهية تظهر كأنها ما زالت متاحة."
+    ]
+  },
+  "qatar-selling-abroad": {
+    "en": [
+      "Start with one destination",
+      "Choose a destination and a representative product. Obtain actual delivery and payment requirements, then test the proposed order journey and explain the costs the customer may face. Expanding country selectors before understanding fulfilment creates choices your business may not be ready to honour."
+    ],
+    "ar": [
+      "ابدأ بدولة واحدة بدل فتح العالم كله",
+      "اختر سوقًا واحدًا ومنتجًا يمثل طلباتك، ثم راجع أهلية الدفع والشحن وما يحتاجه الناقل والجهات المعنية. احسب تكلفة الطلب كاملة وحدّد من يتحمل أي رسوم إضافية وكيف تشرحها للعميل. جرّب إدخال عنوان من تلك الدولة قبل الإعلان. ظهور الدولة في قائمة الموقع لا يعني أن فريقك يستطيع التوصيل إليها أو معالجة المرتجعات منها؛ اختبر العملية أولًا ثم وسّعها تدريجيًا."
+    ]
+  },
+  "qatar-service-booking": {
+    "en": [
+      "Test the staff side of the appointment",
+      "After a sample booking, check the staff calendar, customer confirmation and the result of a cancellation or reschedule. Agree what happens when payment fails or a provider cannot attend. The business needs one reliable record of the appointment, not several messages that disagree."
+    ],
+    "ar": [
+      "راجع ما يحدث خلف زر الحجز",
+      "نفّذ حجزًا تجريبيًا وتأكد أنه ظهر عند الموظف في الموعد الصحيح، ثم جرّب التعديل والإلغاء. راجع المنطقة الزمنية والمدة والفاصل بين المواعيد ومن يملك صلاحية تغيير التوافر. إذا كانت هناك دفعة، حدّد ماذا يحدث عند فشلها وهل يبقى الموعد محجوزًا. يجب أن تتطابق رسالة العميل مع سجل الفريق؛ عبارة «تم الحجز» لا يصح أن تظهر بينما العملية مجرد طلب يحتاج مراجعة."
+    ]
+  },
+  "qatar-website-language-priority": {
+    "en": [
+      "Use customer evidence",
+      "Review the languages used in enquiries, sales conversations and catalogue material. Start with the audience you can serve well, then plan the other version as a complete journey. Do not choose a language solely from the interface of the tool or the preference of the person building the site."
+    ],
+    "ar": [
+      "من هم العملاء الذين تتحدث معهم الآن؟",
+      "راجع رسائل العملاء والاستفسارات والكلمات التي يستخدمونها لوصف المنتج. إذا كان الجمهور مختلطًا، خطط للغتين مع تحديد من يكتب ويراجع كل نسخة. لا تجعل العربية مجرد زر يغيّر العناوين بينما تبقى التفاصيل المهمة بلغة أخرى. وإذا بدأت بلغة واحدة بسبب الوقت، اخترها وفق جمهورك الفعلي وقدرتك على خدمته، وحدّد ما الذي سيضاف في المرحلة التالية بدل ترك نسخة ناقصة بلا خطة."
+    ]
+  },
+  "qatar-website-price-invoice-clarity": {
+    "en": [
+      "Read the total as a new customer",
+      "Follow a sample cart from product page to confirmation and note every change to the amount. Explain optional extras, delivery charges and discount conditions at the point they matter. Ask your accounting adviser about the documents your business needs; interface wording should match the actual charging process."
+    ],
+    "ar": [
+      "راجع أين يتغيّر المبلغ أثناء الطلب",
+      "ابدأ بسعر المنتج ثم أضف الخيارات والشحن والخصم حتى تصل للمبلغ النهائي. هل يفهم العميل سبب كل تغيير، أم تظهر تكلفة لم يرَ لها شرحًا؟ وضّح الإضافات الاختيارية وشروط العرض قبل الدفع، وراجع رسالة التأكيد حتى تعرض المبلغ نفسه. نسّق متطلبات المستندات مع المختص الذي يتابع نشاطك؛ لا تستخدم كلمة فاتورة أو ضريبة بطريقة لا تطابق ما يصدره مشروعك فعلًا."
+    ]
+  },
+  "shopify-abandoned-checkouts": {
+    "en": [
+      "Investigate a pattern, not one visit",
+      "Compare affected devices, traffic sources and checkout stages. Test the same delivery address and payment route where practical. A customer may be comparing prices or returning later; use the evidence to locate a recurring obstacle before changing the whole storefront or sending more reminders."
+    ],
+    "ar": [
+      "كيف أعرف هل المشكلة من الدفع أم من العرض؟",
+      "راجع المرحلة التي يتوقف عندها العملاء: هل يخرجون بعد ظهور الشحن، أم عند اختيار الدفع، أم قبل إدخال البيانات؟ قارن الجوال بغيره ومصادر الزيارات، ثم جرّب المسار الذي يتكرر فيه التوقف. بعض الناس يستخدمون السلة للمقارنة ولا يقصدون الشراء فورًا. لذلك ابحث عن نمط واضح قبل تغيير التصميم كله أو إرسال رسائل كثيرة، وراجع الموافقات المطلوبة قبل أي متابعة تسويقية."
+    ]
+  },
+  "shopify-abaya-store": {
+    "en": [
+      "Make product identity clear",
+      "Keep views of the same design together and use options only for genuine variations of that product. Show the details customers ask about, such as fabric, length and included pieces, when accurate. A customer should not need to message you to discover which photograph matches the selected item."
+    ],
+    "ar": [
+      "كيف أمنع الخلط بين العبايات؟",
+      "اجمع صور التصميم نفسه داخل صفحة واحدة، وسمّ الألوان والمقاسات بما يطابق القطعة التي سيستلمها العميل. إذا اختلف القص أو التطريز بشكل يجعلها تصميمًا آخر، لا تعرضها كخيار مبهم داخل المنتج نفسه. اذكر الخامة والطول والقطع المشمولة عندما تكون المعلومات مؤكدة، وأظهر التفاصيل التي يصعب تمييزها من الصورة العامة. راجع الاختيار مع الصورة والسعر قبل النشر، خصوصًا عند رفع منتجات كثيرة دفعة واحدة."
+    ]
+  },
+  "shopify-account-security": {
+    "en": [
+      "Agree how access ends",
+      "Give each person access through the supported account or collaborator route and only to the work they need. Record who owns critical settings and how access will be removed after handover. Recovery information should remain with the business so changing an agency does not become an account-recovery problem."
+    ],
+    "ar": [
+      "ماذا يحدث عند انتهاء عمل الموظف أو الوكالة؟",
+      "حدّد منذ البداية المهام التي يحتاجها الشخص، ثم امنحه الوصول المناسب بدل إرسال حساب المالك. راجع من يستطيع تغيير الدفع أو النطاق أو المستخدمين، واجعل بيانات الاسترداد تحت سيطرة صاحب المشروع. عند انتهاء التعاون، أزل الوصول وراجع التطبيقات والربط الذي أُضيف أثناء العمل. احتفظ بقائمة الحسابات المهمة والمسؤول عنها، حتى لا تكتشف بعد أشهر أن خدمة أساسية مرتبطة ببريد شخص لم يعد يعمل معك."
+    ]
+  },
+  "shopify-b2b-capabilities": {
+    "en": [
+      "Describe your wholesale process precisely",
+      "Write a sample order with customer-specific pricing, quantities, approval and payment terms. Ask the supplier to demonstrate it on the proposed plan and setup. Selling several items to a company is not the same requirement as running a structured wholesale operation with negotiated rules."
+    ],
+    "ar": [
+      "ما الذي تقصده بالبيع للشركات؟",
+      "هل تريد خصم كمية فقط، أم أسعارًا مختلفة لكل عميل، أم طلبًا يحتاج موافقة وشروط سداد؟ اكتب مثالًا لطلب حقيقي بدون بيانات حساسة واعرضه على من يقترح الحل. اطلب توضيح الوظائف المتاحة في الباقة والإعداد المقترحين وما يحتاج تطبيقًا أو تطويرًا. لا تكتفِ بإجابة «يدعم الجملة»؛ المهم أن يعمل المسار الذي يستخدمه فريقك، من دخول العميل إلى مراجعة الطلب وتنفيذه."
+    ]
+  },
+  "shopify-build-timeline": {
+    "en": [
+      "Put approvals on the schedule",
+      "A realistic schedule names the inputs, their owners and the decisions needed before the next step. Ask what can proceed while payment approval or photography is pending. Keep launch dependent on a working buying journey, rather than an arbitrary date that assumes every external dependency is finished."
+    ],
+    "ar": [
+      "ما الذي يؤخر المشروع عادة؟",
+      "قد يكون التصميم جاهزًا بينما الصور أو بيانات المنتجات أو الموافقة على الدفع ما زالت ناقصة. لذلك اطلب جدولًا يذكر المسؤول عن كل تسليم وموعد اعتماده، وليس تاريخ انتهاء واحدًا فقط. حدّد من يجمع الملاحظات حتى لا تأتي قرارات متناقضة من عدة أشخاص. إذا تأخر جزء، ناقش ما يمكن إنجازه بالتوازي وما يمنع الإطلاق فعلًا؛ جاهزية الصفحة الرئيسية وحدها لا تعني جاهزية البيع."
+    ]
+  },
+  "shopify-campaign-landing-page": {
+    "en": [
+      "Match the page to the promise",
+      "Read the ad beside the destination page. The same product, offer and next step should be easy to find without extra searching. Use a collection when people need a choice and a product page when the ad already chose the item. Measure the complete journey, not only the click rate."
+    ],
+    "ar": [
+      "ماذا يتوقع الشخص بعد الضغط على الإعلان؟",
+      "إذا كان الإعلان عن منتج محدد، اجعله يصل إلى ذلك المنتج مع السعر والخيار الذي رآه. وإذا كان عن مجموعة، فقد تكون صفحة تصنيف أو هبوط مناسبة بشرط أن تكمل الفكرة نفسها. لا ترسل الجميع للرئيسية ثم تطلب منهم البحث من جديد. جرّب الرابط من الهاتف وتأكد من المخزون والشحن واللغة، ثم تابع ما يحدث بعد الزيارة؛ كثرة النقرات لا تعني أن الصفحة ساعدت على إكمال الطلب."
+    ]
+  },
+  "shopify-cash-on-delivery": {
+    "en": [
+      "Reconcile the money after delivery",
+      "Define how an order moves from placed to delivered, refused or returned and who confirms the collected amount. Include collection fees and remittance timing in your operational review. A storefront payment label does not by itself create a reliable cash record between your team and the delivery partner."
+    ],
+    "ar": [
+      "كيف أتابع الفلوس بعد تسليم الطلب؟",
+      "اتفق مع شركة التوصيل على حالات الطلب، ورسوم التحصيل، وموعد تحويل المبالغ، وكيف تثبت الطلبات المرفوضة أو المرتجعة. جرّب مطابقة طلب واحد بين المتجر وتقرير الناقل والمبلغ المحوّل. لا تعتبر ظهور «الدفع عند الاستلام» كافيًا لتنظيم العملية؛ يحتاج الفريق معرفة متى يعد الطلب مدفوعًا ومن يراجع الفروقات. وضّح للعميل أي شروط مرتبطة بالخدمة قبل أن يختارها، بدل مفاجأته بها عند الاتصال."
+    ]
+  },
+  "shopify-collections-navigation": {
+    "en": [
+      "Sort by how customers ask",
+      "Look at the terms customers use in messages and search. Build a small set of meaningful groups and test where a mixed product belongs. Separate navigation from promotional badges: a temporary campaign should not make the permanent catalogue impossible to understand after it ends."
+    ],
+    "ar": [
+      "ابدأ بالكلمات التي يستخدمها العملاء",
+      "راجع كيف يسأل العميل: هل يبحث حسب نوع المنتج، أم المناسبة، أم المقاس؟ ابنِ التصنيفات الرئيسية على ذلك، ثم استخدم الفلاتر للتفاصيل التي تساعد داخل المجموعة. جرّب منتجًا يصلح لأكثر من تصنيف وحدّد أين يتوقع الناس العثور عليه. تجنب قوائم طويلة بعناوين متشابهة، ولا تجعل ترتيب المتجر كله تابعًا لحملة مؤقتة. الهدف أن يجد الزائر ما يريده بدون معرفة مسبقة بطريقة تنظيمك الداخلية."
+    ]
+  },
+  "shopify-connect-domain": {
+    "en": [
+      "Separate the website change from email",
+      "Before changing DNS, identify the website records and the records used by email and other services. Save the existing configuration and agree who will make the change. Follow the platform's current instructions for your domain setup, then check both the storefront and business email afterward."
+    ],
+    "ar": [
+      "ما الذي أراجعه قبل تغيير الإعدادات؟",
+      "صوّر أو احفظ سجلات النطاق الحالية وحدّد من يدير البريد والخدمات المرتبطة به. راجع التعليمات الحالية الخاصة بربط المتجر، وغيّر السجلات المطلوبة فقط بدل حذف ما لا تعرفه. بعد الربط جرّب فتح العنوان الرئيسي وتحويلاته وإرسال رسالة بريد واستقبالها. إذا كانت شركة أخرى تدير النطاق، أرسل لها المطلوب بوضوح واحتفظ بسجل التغيير، حتى يسهل الرجوع إليه إذا ظهرت مشكلة."
+    ]
+  },
+  "shopify-conversion-rate": {
+    "en": [
+      "Compare the same measure over time",
+      "Write down the report, date range and denominator before comparing results. Segment a meaningful change in traffic source or device where possible. A small campaign can change the visitor mix sharply; investigate that context before attributing every movement to design or claiming a result from two screenshots."
+    ],
+    "ar": [
+      "كيف أمنع المقارنة المضللة؟",
+      "استخدم التقرير نفسه والفترة نفسها من حيث الطول، وسجّل ما الذي يحسبه المعدل بالضبط. راجع هل زادت زيارات إعلان جديد أو تغيرت نسبة الجوال أو نفد منتج مهم؛ هذه عوامل قد تغيّر النتيجة حتى لو لم يتغير التصميم. وإذا كان عدد الطلبات قليلًا، تعامل مع النسبة بحذر لأنها تتحرك بسرعة. اعرض الأرقام مع سياقها، ولا تنسب الفرق لتعديل واحد بدون دليل يربطه بما حدث."
+    ]
+  },
+  "shopify-currency-display": {
+    "en": [
+      "Follow the amount through checkout",
+      "Choose a sample product and record the displayed amount, checkout currency and what your eligible payment route charges. Explain any difference before the customer commits. Currency presentation, settlement and bank conversion are separate questions; confirm the actual setup rather than inferring it from a selector."
+    ],
+    "ar": [
+      "ماذا يرى العميل وماذا يُخصم منه؟",
+      "جرّب منتجًا واحدًا وسجّل العملة الظاهرة في الصفحة، ثم العملة والمبلغ عند الدفع وما يؤكده مزود الخدمة. قد يغيّر زر العملة العرض فقط في بعض الإعدادات، لذلك لا تعد العميل بشيء قبل مراجعة المسار الفعلي. اسأل أيضًا عن عملة التحصيل وما قد يخصه البنك من تحويل. اجعل أي اختلاف واضحًا قبل إتمام الطلب، وراجع التجربة لكل سوق تدعمه بدل تعميم نتيجة سوق واحد."
+    ]
+  },
+  "shopify-customer-accounts": {
+    "en": [
+      "Choose the account benefit first",
+      "Identify what a returning customer gains, such as access to past orders or a feature your setup supports. Then decide when to invite them to sign in. Adding an account requirement without a clear benefit can introduce another step before a straightforward purchase."
+    ],
+    "ar": [
+      "ما فائدة الحساب للعميل عندك؟",
+      "إذا كان العميل يحتاج متابعة طلباته أو الرجوع إلى خدمة مرتبطة بحسابه، اشرح هذه الفائدة بوضوح. أما شراء قطعة واحدة فقد لا يحتاج خطوة إضافية قبل الدفع. جرّب الدخول واستعادة الوصول من الهاتف، وراجع النصوص التي تصل بالعربية والإنجليزية. لا تفرض إنشاء حساب لمجرد جمع بيانات أكثر؛ حدّد ما يحتاجه تشغيل المتجر وما يستفيد منه العميل، ثم اختر الإعداد الذي يخدم الاثنين."
+    ]
+  },
+  "shopify-digital-products": {
+    "en": [
+      "Test the delivery of the file",
+      "Buy a sample through the permitted test route and check when access is granted, how the message arrives and what happens when the link fails. Explain the file format and usage rights before purchase. Removing shipping fields alone does not provide a complete digital-delivery system."
+    ],
+    "ar": [
+      "كيف يستلم العميل الملف بعد الشراء؟",
+      "حدّد نوع الملف وطريقة وصوله والوقت الذي يحتاجه، ثم جرّب الطلب ورسالة التسليم من حساب مختلف. تأكد أن الرابط يعمل وأن العميل يعرف ماذا يفعل إذا لم تصله الرسالة أو احتاج مساعدة. وضّح ما يشتريه بالضبط وحقوق الاستخدام، خاصة إذا كانت هناك قيود على المشاركة أو إعادة البيع. إلغاء الشحن من المنتج لا يكفي وحده؛ يحتاج الملف نظام تسليم ومتابعة يناسب إعداد المتجر."
+    ]
+  },
+  "shopify-discount-strategy": {
+    "en": [
+      "Test the awkward baskets",
+      "Try the discount with an excluded product, another promotion and a basket near any qualifying threshold. Confirm the total makes sense for both the customer and the business. Publish the conditions in clear language and decide how staff handle an order placed just before an offer expires."
+    ],
+    "ar": [
+      "جرّب الخصم على أكثر من سلة",
+      "اختبر سلة تحقق الشروط وأخرى لا تحققها، وأضف منتجًا مستثنى أو عرضًا آخر لترى النتيجة. راجع أثر الشحن وتكلفة المنتج قبل اعتماد العرض، وليس نسبة الخصم وحدها. اشرح الحد الأدنى والمنتجات المشمولة والمدة بلغة واضحة، وحدّد كيف يتصرف الفريق إذا واجه العميل مشكلة. بهذه الخطوات تكتشف التعارضات قبل الإعلان، بدل تعديل السعر يدويًا لعشرات الطلبات بعد إطلاق الحملة."
+    ]
+  },
+  "shopify-email-marketing": {
+    "en": [
+      "Give each message one purpose",
+      "Decide whether the email helps customers use a purchase, discover a relevant product or respond to an offer. Keep the next step clear and use only contact lists you are entitled to market to. Review unsubscribes and replies alongside sales so frequency does not become the entire strategy."
+    ],
+    "ar": [
+      "ما الرسالة التي تستحق أن يفتحها العميل؟",
+      "اختر سببًا واحدًا للإرسال: منتج يناسب اهتمامًا معروفًا، أو معلومة مفيدة، أو عرض بشروط واضحة. لا تجمع كل ما عندك في رسالة واحدة ولا ترسل لمجرد أن الجدول يقول حان الوقت. راجع مصدر القائمة والموافقات وطريقة إلغاء الاشتراك، ثم جرّب الرسالة على الجوال. تابع الردود والشكاوى والانسحابات بجانب الطلبات، لأن زيادة عدد الرسائل قد تضر العلاقة حتى لو ارتفعت الزيارات مؤقتًا."
+    ]
+  },
+  "shopify-gift-cards": {
+    "en": [
+      "Try redemption as the recipient",
+      "Test the supported delivery and redemption process with a sample amount. Check partial use, remaining balance and the case where a product costs more than the card. Explain who receives the card and which terms apply before purchase, rather than assuming the buyer and recipient are the same person."
+    ],
+    "ar": [
+      "جرّبها من جهة المستلم",
+      "راجع كيف تصل البطاقة ومن يستلمها، ثم جرّب استخدامها في طلب قيمته أقل من الرصيد وآخر أعلى منه حسب ما يدعمه إعدادك. وضّح أين تستخدم وأي شروط تنطبق عليها قبل الشراء. إذا كان المشتري يريد إرسالها لشخص آخر، تأكد أن التجربة لا تكشف مفاجأة الهدية برسالة غير مناسبة. درّب فريق الدعم على أسئلة الرصيد والتسليم بدل ترك العميل يتنقل بين المتجر والبريد بلا إجابة."
+    ]
+  },
+  "shopify-inventory-locations": {
+    "en": [
+      "Trace one item across locations",
+      "Choose one product and record where it is physically stored, where it can be sold and which team fulfils each order. Test a transfer and an unavailable location. The online quantity should reflect a defined operating process, rather than a total nobody can reconcile with the shelves."
+    ],
+    "ar": [
+      "تابع قطعة واحدة من المخزون إلى التسليم",
+      "اختر منتجًا وحدّد كميته الفعلية في الفرع والمستودع، ثم راجع من أين يخرج الطلب الإلكتروني. جرّب حالة نفاد المنتج في مكان ووجوده في مكان آخر، وكيف يعرف الفريق ما يجب تنفيذه. اتفق على وقت تحديث البيع والتحويل والمرتجع، لأن الرقم الظاهر لا يبقى صحيحًا إذا كانت العمليات خارج النظام. ابدأ بعينة يمكن مطابقتها مع الواقع قبل تعديل إعدادات الكتالوج كله."
+    ]
+  },
+  "shopify-launch-checklist": {
+    "en": [
+      "Do a complete rehearsal",
+      "Ask a person who did not build the store to follow a purchase from a campaign link. Have the operations team follow the resulting order through its supported test process. Record who fixes each issue and which failures block launch. An attractive homepage cannot compensate for an order nobody receives."
+    ],
+    "ar": [
+      "جرّب يوم بيع كامل قبل الإعلان",
+      "ابدأ برابط يشبه ما سيراه العميل، واختر المنتج والمقاس والعنوان وطريقة الدفع المناسبة للاختبار. بعدها اطلب من الفريق متابعة الطلب ورسائله وتجهيزه وفق الإجراءات المتفق عليها. راجع أيضًا المنتج النافد والرابط الخاطئ والتواصل من الجوال. اكتب كل مشكلة ومسؤول إصلاحها، وحدّد ما يمنع الإطلاق وما يمكن تحسينه لاحقًا. المهم أن تنجح العملية كاملة، لا أن تكون صور الصفحات جاهزة فقط."
+    ]
+  },
+  "shopify-local-delivery": {
+    "en": [
+      "Test an address inside and outside the area",
+      "Define the delivery boundary and fees in terms your team can honour. Check a qualifying address, a nearby excluded address and a basket that changes any threshold. Explain the available option clearly so customers do not confuse local delivery with another shipping service."
+    ],
+    "ar": [
+      "كيف أعرف أن نطاق التوصيل مضبوط؟",
+      "جرّب عنوانًا داخل المنطقة وآخر قريبًا لكنه خارجها، ثم راجع الخيارات والرسوم التي تظهر لكل منهما. لا تعتمد على اسم منطقة واسع إذا كان الفريق لا يخدم كل أجزائها. وضّح الوقت المتوقع والحد الأدنى إن وجد، ومن يتواصل مع العميل عند وجود عنوان غير واضح. راجع أيضًا ما يظهر عند شراء منتجات لا يشملها التوصيل المحلي، حتى لا يتلقى الفريق طلبًا لا يستطيع تنفيذه بالشروط المعروضة."
+    ]
+  },
+  "shopify-maintenance-backups": {
+    "en": [
+      "Ask what can actually be restored",
+      "List the information and files your chosen backup method covers, then practise recovering a harmless sample in a safe setting. Identify what needs a separate export or another procedure. A saved theme file and a complete recovery plan are different things; document the limits before an incident."
+    ],
+    "ar": [
+      "ما الذي تعنيه كلمة نسخة احتياطية هنا؟",
+      "اسأل عما تشمل النسخة فعلًا: هل تحفظ ملفات القالب فقط، أم بيانات أخرى أيضًا، وكيف يعاد كل جزء؟ حدّد ما يحتاج تصديرًا منفصلًا أو خدمة إضافية وفق إعدادك. جرّب استعادة عينة آمنة قبل الاعتماد على الخطة، وسجّل من يملك الملفات والوصول إليها. وجود ملف محفوظ لا يضمن أنك تستطيع إعادة المتجر كاملًا؛ المطلوب معرفة ما يمكن استرجاعه وما سيحتاج عملًا يدويًا عند المشكلة."
+    ]
+  },
+  "shopify-markets-languages": {
+    "en": [
+      "Treat each market as an operating decision",
+      "For one proposed destination, review language, eligible payment methods, delivery and the prices or terms customers see. Assign owners for changes in those areas. Translation is one part of the experience; a language switch alone cannot establish that a destination is ready for sales."
+    ],
+    "ar": [
+      "ما الذي أحتاجه غير الترجمة؟",
+      "اختر دولة تريد البيع إليها وراجع رحلة عميل منها: اللغة والعنوان والدفع والتوصيل والسعر والسياسات. حدّد من يتابع أي اختلاف في هذه المعلومات، خاصة إذا تغيرت تكلفة الشحن أو توافر المنتجات. لا تفتح أسواقًا كثيرة لمجرد أن الإعداد يسمح بإظهارها؛ الزائر يتوقع أن يستطيع إكمال طلبه بالشروط التي يقرأها. ابدأ بسوق يمكنك خدمته فعلًا، ثم وسّع بعد تجربة العملية وتوثيق احتياجاتها."
+    ]
+  },
+  "shopify-order-notifications": {
+    "en": [
+      "Read every message in order",
+      "Follow a sample order and collect the confirmation, payment and delivery messages your setup sends. Remove conflicting wording and check which system owns each message. Staff and customers should understand whether an order was received, paid, dispatched or ready to collect without guessing from a generic subject line."
+    ],
+    "ar": [
+      "هل الرسائل تصف ما حدث فعلًا؟",
+      "اجمع الرسائل التي تصل من المتجر والدفع والتوصيل أثناء طلب تجريبي، واقرأها بالترتيب. تأكد أن تأكيد الاستلام لا يوحي بالشحن، وأن الدفع عند الاستلام لا يظهر كأنه مبلغ محصّل. راجع اللغة والرابط ورقم الطلب ووسيلة المساعدة، ثم حدّد أي نظام يرسل كل رسالة. إذا كان تطبيقان يرسلان تحديثات متعارضة، أصلح المسؤولية بينهما بدل الاكتفاء بتغيير العنوان أو إخفاء رسالة مهمة."
+    ]
+  },
+  "shopify-payments-qatar": {
+    "en": [
+      "Keep the approval questions in one place",
+      "Prepare your business details and ask the provider about eligibility, the supported integration, required documents and the proposed charging arrangement. Keep the written answers with your project scope. Confirm the actual account before launch; a logo in a demo does not establish that your merchant setup is approved."
+    ],
+    "ar": [
+      "ما الذي أرسله لمزود الدفع؟",
+      "جهّز وصف نشاطك وبلد تسجيل المشروع وطبيعة المنتجات وطريقة البيع، ثم اسأل عن قبول هذه الحالة والوثائق والربط المتاح مع شوبيفاي. اطلب توضيح الرسوم والتسوية والاسترداد وفق عرضهم الحالي، واحتفظ بالإجابة مع ملفات المشروع. بعد قبول الحساب، راجع التجربة الفعلية ورسائلها مع الفريق. ظهور شعار المزود في تصميم تجريبي لا يعني أن الحساب جاهز، ولا أن كل وسيلة دفع عنده متاحة لإعدادك نفسه."
+    ]
+  },
+  "shopify-pos-qatar": {
+    "en": [
+      "Demonstrate your shop's routine",
+      "Ask to see a sale, a return and stock reconciliation using the proposed hardware, payment route and subscription. Confirm country-specific availability directly with the relevant providers. A video of a shop overseas can explain the concept but cannot confirm that the same arrangement works for your Qatar business."
+    ],
+    "ar": [
+      "اطلب تجربة تشبه عمل فرعك",
+      "اكتب مثالًا لبيع قطعة ثم استبدالها ومراجعة مخزونها، واطلب تنفيذ هذه الخطوات بالإعداد والأجهزة المقترحة. اسأل عن توافق وسيلة الدفع والدعم والتوافر في قطر من الجهات المعنية مباشرة. قد يكون النظام مناسبًا لإدارة جزء من العمل بينما يحتاج تحصيل البطاقة ترتيبًا مختلفًا. لا تتخذ القرار من فيديو لفرع في دولة أخرى؛ ما يهم هو ما تستطيع تشغيله وصيانته ومطابقة حساباته في مشروعك."
+    ]
+  },
+  "shopify-product-bundles": {
+    "en": [
+      "Decide what happens when a component runs out",
+      "List the bundle's individual items and determine how the selected setup tracks each component. Test a sale, a return and one unavailable item. The customer-facing offer, stock deduction and staff packing instructions should describe the same set, including any permitted substitutions."
+    ],
+    "ar": [
+      "ماذا يحدث إذا نفد جزء من الباقة؟",
+      "اكتب مكونات الباقة وكميات كل قطعة، ثم راجع كيف يخصم الإعداد المقترح مخزونها. جرّب بيع الباقة وقطعة منفردة منها، ثم حالة نفاد أحد المكونات. وضّح للعميل ما يشمله السعر وما إذا كان الاستبدال متاحًا، وأعطِ فريق التجهيز وصفًا مطابقًا. صورة مجموعة جميلة لا تكفي إذا كان النظام يعرضها متاحة بينما أحد أجزائها غير موجود، أو إذا لم يعرف الفريق كيف يتعامل مع مرتجع جزئي."
+    ]
+  },
+  "shopify-product-csv": {
+    "en": [
+      "Keep a small reference file",
+      "Prepare a few representative products, including options and special characters, and import them first. Review names, images, prices and inventory before scaling up. Keep the original export and a record of the changes so a large import can be understood and corrected instead of repeated blindly."
+    ],
+    "ar": [
+      "لا تبدأ بأكبر ملف عندك",
+      "خذ عينة فيها منتج بسيط وآخر بمقاسات وألوان ونص عربي، وارفعها أولًا وفق التنسيق الحالي المدعوم. راجع النتيجة في الإدارة وفي صفحة العميل، خصوصًا الربط بين الصور والخيارات والأسعار. احتفظ بنسخة المصدر وسجل لما غيّرته قبل رفع الباقي. إذا ظهرت مشكلة، أصلح سببها في العينة؛ تكرار رفع الملف الكبير بدون فهم قد يوسّع الخطأ ويجعل تنظيف البيانات أصعب."
+    ]
+  },
+  "shopify-product-descriptions": {
+    "en": [
+      "Answer the purchase-stopping question",
+      "Read recent customer enquiries and use the recurring questions to improve the description. State measurable or verified details plainly and explain what is included. Avoid filling space with claims like premium or perfect when customers still cannot tell the dimensions, material or suitability of the item."
+    ],
+    "ar": [
+      "من أين أبدأ كتابة الوصف؟",
+      "ارجع إلى أسئلة العملاء عن المنتج: هل يسألون عن الخامة أو القياس أو ما يأتي معه أو طريقة الاستخدام؟ اكتب الإجابات المؤكدة بوضوح، وافصل بينها بعناوين تساعد على القراءة. لا تعوّض نقص المعلومة بكلمات مثل فاخر ومثالي؛ قد يريد العميل معرفة طول القطعة فقط. راجع الوصف مع من يعرف المنتج فعلًا، وحدّثه إذا تغيرت المواصفات بدل نسخ النص نفسه إلى منتجات تختلف في تفاصيل مهمة."
+    ]
+  },
+  "shopify-product-filters": {
+    "en": [
+      "Use values you can maintain",
+      "Choose filters that reduce a real customer's search, then standardise the underlying values. If the same colour has several spellings, clean the data before displaying it as a filter. Test a narrow combination and its empty state so shoppers can recover without starting again."
+    ],
+    "ar": [
+      "نظّف البيانات قبل إضافة الفلاتر",
+      "إذا كان اللون مكتوبًا مرة «بيج» ومرة «Beige» ومرة باسم آخر للدرجة نفسها، فقد يرى العميل خيارات مربكة. وحّد القيم أولًا، ثم اختر الفلاتر التي تساعده فعلًا مثل المقاس أو النوع أو خاصية مهمة للمنتج. جرّب جمع أكثر من شرط وما يظهر عند عدم وجود نتيجة. كثرة الفلاتر ليست فائدة وحدها؛ الأفضل عدد مفهوم يعتمد على بيانات صحيحة يستطيع الفريق تحديثها مع كل منتج."
+    ]
+  },
+  "shopify-product-metafields": {
+    "en": [
+      "Use a field when the information repeats",
+      "If several products need the same kind of information, such as a material or care note, define its meaning and format once. Decide who enters it and where the theme displays it. Test a missing value too; a field in the admin does not automatically create a useful storefront section."
+    ],
+    "ar": [
+      "متى تكون الحقول أفضل من كتابة كل شيء في الوصف؟",
+      "إذا كانت المعلومة تتكرر في المنتجات، مثل الخامة أو تعليمات العناية، فقد يفيدها حقل منظم باسم ومعنى ثابتين. اتفق على طريقة إدخالها ومن يراجعها، ثم اربطها بالمكان المناسب في الصفحة. جرّب منتجًا تنقصه المعلومة حتى لا يظهر عنوان فارغ أو نص غير مناسب. وجود الحقل في لوحة الإدارة ليس نهاية العمل؛ فائدته تظهر عندما يقرأ العميل معلومة صحيحة ويحافظ الفريق عليها بسهولة."
+    ]
+  },
+  "shopify-product-photos": {
+    "en": [
+      "Photograph the uncertainty",
+      "List what customers cannot judge from the main image and plan the other views around those questions. Keep the selected option and imagery consistent. Check the crop on mobile before exporting the full catalogue; beautiful source photographs can lose important detail when displayed in a different shape."
+    ],
+    "ar": [
+      "ما الصورة التي تنقص العميل لاتخاذ القرار؟",
+      "بعد الصورة الرئيسية، اسأل ما الذي لا يستطيع العميل فهمه: الخلفية، أم الخامة، أم الحجم، أم تفصيل الإغلاق؟ صوّر هذه النقاط بدل تكرار زاوية متشابهة. حافظ على تطابق اللون المعروض مع الخيار المحدد، وراجع القص على الجوال قبل تجهيز صور الكتالوج كله. إذا كانت الصورة للتوضيح أو تعرض إضافات غير مشمولة، وضّح ذلك؛ لا تجعل العميل يعتمد على ما يراه ثم يستلم شيئًا مختلفًا عن توقعه."
+    ]
+  },
+  "shopify-product-variants": {
+    "en": [
+      "Map choices to actual stock",
+      "Take one real item and list the choices that change what gets packed, its price or its stock record. Build the options around those differences. Test unavailable combinations and image switching. Similar-looking designs should not be merged if customers would understand them as different products."
+    ],
+    "ar": [
+      "ابدأ بما سيجهّزه موظف الطلبات",
+      "اكتب الخيارات التي تغيّر القطعة الفعلية: المقاس واللون وربما خامة مختلفة إذا كانت من المنتج نفسه. راجع لكل اختيار الصورة والسعر والمخزون، ثم جرّب تركيبة غير متاحة. إذا كان الاختلاف تصميمًا مستقلًا لا مجرد خيار، فقد تكون صفحة منفصلة أوضح للعميل. المهم أن يستطيع المشتري والموظف فهم الاختيار نفسه؛ لا تستخدم أسماء عامة تجعل الفريق يعود للعميل بعد الدفع لمعرفة ما قصده."
+    ]
+  },
+  "shopify-redesign-seo-preservation": {
+    "en": [
+      "Create a before-and-after map",
+      "Export or record the important current URLs and identify where each should lead after the redesign. Include pages receiving enquiries or useful search visits, not only products. Check those destinations after release and monitor the relevant reports; keeping the same domain does not by itself preserve every route."
+    ],
+    "ar": [
+      "ماذا أحفظ قبل بدء إعادة التصميم؟",
+      "اجمع الروابط المهمة وما تقدمه من محتوى، خصوصًا الصفحات التي يأتي منها بحث أو استفسار أو طلب. حدّد الرابط المقابل لكل صفحة في التصميم الجديد وما يحتاج تحويلًا مناسبًا، ثم راجعها بعد التنفيذ. احتفظ كذلك بالعناوين والمعلومات التي يعتمد عليها العملاء. لا تفترض أن بقاء اسم الموقع يحفظ كل شيء؛ تغيير بنية الصفحات أو حذف محتوى مفيد قد يؤثر في الزوار حتى لو بدا التصميم أفضل."
+    ]
+  },
+  "shopify-returns-exchanges": {
+    "en": [
+      "Write the actual customer journey",
+      "Explain where the customer starts, what information staff need and how the request is assessed under the applicable policy and requirements. Distinguish exchanges, refunds and delivery problems. Have operations review the wording so the site does not promise a process your team cannot carry out."
+    ],
+    "ar": [
+      "كيف أكتب سياسة يستطيع العميل استخدامها؟",
+      "اشرح من أين يبدأ الطلب وما المعلومات المطلوبة وكيف يتواصل الفريق معه، وميّز بين الاستبدال والاسترجاع ومشكلة التوصيل. اجعل الشروط متوافقة مع المتطلبات التي تنطبق على نشاطك وراجعها مع المختص عند الحاجة. بعد الكتابة، جرّبها مع موظف الدعم: هل يعرف الخطوة التالية والتكلفة والجهة المسؤولة؟ نص طويل منسوخ لا يفيد إذا لم يشرح للعميل ما يفعله أو وعده بإجراء لا يستطيع الفريق تنفيذه."
+    ]
+  },
+  "shopify-selling-services": {
+    "en": [
+      "Define the deliverable before adding a price",
+      "Describe what the customer receives, what must happen after payment and what is outside the service. If availability or a consultation is required, connect that step explicitly. A service can fit a commerce flow when its fulfilment is defined, rather than leaving the customer with a receipt and no next action."
+    ],
+    "ar": [
+      "ما الذي سيشتريه العميل بالضبط؟",
+      "اكتب نتيجة الخدمة وما يشمله السعر وما يحتاجه الفريق من العميل بعدها. إذا كانت مرتبطة بموعد أو مراجعة أولية، وضّح ذلك واربط الخطوة التالية بدل تركها لرسالة لاحقة غير محددة. جرّب شراء الخدمة وراجع هل فهم العميل متى يبدأ التنفيذ وكيف يتواصل ومن يعتمد النتيجة. لا تعرض سعرًا ثابتًا لخدمة يتغير نطاقها بالكامل بعد الدفع إلا إذا شرحت حدود العرض وكيف تعالج الاختلافات."
+    ]
+  },
+  "shopify-seo-titles": {
+    "en": [
+      "Write for the actual page",
+      "Use the product or service name and the detail that helps a searcher distinguish this page. Keep the description accurate rather than repeating every keyword variation. Review the rendered page too; a carefully written search description cannot fix a destination that fails to answer the question."
+    ],
+    "ar": [
+      "كيف أكتب عنوانًا بدون حشو كلمات؟",
+      "ابدأ بما تتحدث عنه الصفحة فعلًا، ثم أضف التفصيل الذي يميزها ويهم الباحث. في صفحة منتج، قد يكون الاسم والنوع أهم من تكرار البلد وعبارات البيع. اكتب الوصف ليشرح ما سيجده الزائر، ولا تعد بشيء غير موجود داخل الصفحة. راجع العربية كوحدة مستقلة بدل ترجمة ترتيب الكلمات حرفيًا، وتذكّر أن عرض محركات البحث قد يختلف عما أدخلته؛ ركّز على دقة الصفحة كلها."
+    ]
+  },
+  "shopify-shipping-rates": {
+    "en": [
+      "Compare the displayed fee with the real order",
+      "Use representative baskets, weights and delivery destinations to check the proposed rules against actual carrier or fulfilment costs. Include the exceptions that matter to your catalogue. A flat fee can be simple for customers, but somebody still needs to understand when the business absorbs a difference."
+    ],
+    "ar": [
+      "كيف أختبر رسوم الشحن قبل اعتمادها؟",
+      "جهّز سلة خفيفة وأخرى أكبر، وجرّب عناوين من المناطق التي تخدمها. قارن ما يظهر للعميل بما ستدفعه فعلًا وفق اتفاقك مع الناقل وطريقة التجهيز. راجع المنتجات التي تحتاج تعاملًا خاصًا والحد الذي يفعّل الشحن المجاني إن وجد. السعر الثابت قد يبسط القرار للعميل، لكنه لا يلغي فرق التكلفة؛ يجب أن يعرف الفريق متى يتحمله المشروع وكيف ينعكس على ربحية الطلب."
+    ]
+  },
+  "shopify-sitemap-google": {
+    "en": [
+      "Work on the page after submission",
+      "Choose an important page and check whether its content answers a clear question, links from the site lead to it and its public address is consistent. Follow the available search reports rather than submitting the same sitemap repeatedly. Discovering a URL and ranking it for a useful search are separate stages."
+    ],
+    "ar": [
+      "ماذا أعمل بعد إرسال خريطة الموقع؟",
+      "اختر صفحة مهمة وراجع هل يمكن الوصول إليها من روابط الموقع، وهل محتواها يجيب عن سؤال واضح، وهل العنوان العام الذي تستخدمه ثابت. تابع حالة الصفحة في التقارير المتاحة، وعالج سبب المشكلة إذا ظهر بدل إعادة إرسال الخريطة بلا تغيير. معرفة جوجل بالرابط ليست وعدًا بترتيبه أولًا؛ تحتاج الصفحة إلى فائدة ومحتوى يمكن فهمه وموقع يعمل، ثم متابعة لما يحدث بعد النشر."
+    ]
+  },
+  "shopify-size-guide": {
+    "en": [
+      "Explain how to take the measurement",
+      "State whether the table measures the garment or the body and use consistent units. Add a simple explanation of where to measure and any product-specific fit information you can verify. Test it with someone unfamiliar with the item; an unexplained table can still leave the main buying question unanswered."
+    ],
+    "ar": [
+      "جدول المقاسات وحده قد لا يكفي",
+      "وضّح هل الأرقام تخص قياس الجسم أم القطعة، وما الوحدة المستخدمة، وأين يبدأ القياس وينتهي. إذا اختلف القص بين مجموعتين، لا تستخدم جدولًا واحدًا بلا تفسير. جرّب الدليل مع شخص لا يعرف المنتج واسأله أي مقاس سيختار ولماذا. أضف المعلومة الناقصة من إجابات حقيقية عن المنتج، وتجنب وعود الملاءمة المطلقة؛ الهدف تقليل الغموض ومساعدة العميل على الاختيار، لا ضمان أن المقاس يناسب الجميع."
+    ]
+  },
+  "shopify-social-selling": {
+    "en": [
+      "Keep the product promise consistent",
+      "Open the social link as a customer and check the exact item, availability, price and language. Confirm any channel requirements using current official information for your account and market. Regardless of the integration, customers need a reliable destination that continues the offer they just saw."
+    ],
+    "ar": [
+      "جرّب الرابط كما يفتحه المتابع",
+      "افتح رابط المنتج من الهاتف وتأكد أنه يصل للقطعة نفسها وبسعر ومخزون واضحين، وليس إلى صفحة عامة تتطلب بحثًا جديدًا. راجع متطلبات القناة الحالية لحسابك وبلدك قبل الوعد بميزة معينة. حتى مع وجود ربط تقني، يحتاج العميل صورًا وخيارات ودفعًا وتوصيلًا مفهومًا. حدّث الروابط عند تغيير المنتجات، ولا تترك منشورًا نشطًا يقود إلى صفحة محذوفة أو عرض انتهى بدون توضيح."
+    ]
+  },
+  "shopify-speed-improvements": {
+    "en": [
+      "Change one cause at a time",
+      "Measure representative pages on realistic mobile conditions, then identify whether large media, third-party code or page structure is responsible. Make a targeted change and compare again. Removing everything at once makes the result hard to explain and may break a useful function without proving it caused the delay."
+    ],
+    "ar": [
+      "من أين أبدأ بدون تخريب المتجر؟",
+      "اختر صفحة منتج وصفحة رئيسية واختبرهما في ظروف جوال واقعية، ثم راجع ما يحمل ببطء: صور كبيرة أم فيديو أم تطبيق أم أجزاء كثيرة في الصفحة. عالج سببًا واحدًا وأعد القياس مع التأكد أن الوظائف المهمة ما زالت تعمل. لا تحذف التطبيقات كلها عشوائيًا ولا تعتمد على رقم واحد من تجربة واحدة. المطلوب فهم ما ينتظره العميل وتحسينه، مع الحفاظ على الوظيفة التي يحتاجها للشراء."
+    ]
+  },
+  "shopify-subscriptions": {
+    "en": [
+      "Map the second order too",
+      "Check the provider and payment compatibility for the proposed subscription arrangement, then demonstrate renewal, a failed charge and cancellation. Explain the schedule and customer controls before purchase. A recurring offer is an ongoing service process, not simply the first product labelled monthly."
+    ],
+    "ar": [
+      "كيف يعمل الطلب الثاني وما بعده؟",
+      "قبل الإعلان عن اشتراك، راجع توافق وسيلة الدفع والحل المقترح مع حسابك وسوقك. اطلب تجربة التجديد وفشل التحصيل والإلغاء وتغيير البيانات، وليس شراء المرة الأولى فقط. وضّح للعميل موعد التحصيل وما يصله وكيف يوقف الاشتراك وفق شروطك والمتطلبات المعنية. يحتاج الفريق متابعة الطلبات المتكررة والمخزون والرسائل؛ كتابة «شهري» في اسم المنتج لا تنشئ هذه العملية وحدها."
+    ]
+  },
+  "shopify-test-order": {
+    "en": [
+      "Test the exception as well as success",
+      "Use the approved test procedure for your payment setup and check successful and unsuccessful outcomes where supported. Review the order record, notifications and staff workflow. Keep test orders identifiable and separate from real fulfilment; a successful button click alone does not prove the full purchasing process."
+    ],
+    "ar": [
+      "ماذا أراجع في الطلب التجريبي؟",
+      "استخدم طريقة الاختبار المعتمدة لإعداد الدفع عندك، ثم راجع المبلغ والعملة والخصم والشحن ورسالة التأكيد وسجل الطلب. اختبر أيضًا النتيجة غير الناجحة عندما تدعمها الطريقة، حتى لا يظهر نجاح وهمي أو يتكرر الطلب. أخبر فريق التنفيذ أن الطلب تجريبي واجعله واضحًا في السجل. بعد الاختبار نظّف ما يلزم وفق الإجراءات المناسبة، ولا تخلط الطلبات التجريبية بمبيعات حقيقية أو تقارير نتائج للعملاء."
+    ]
+  },
+  "shopify-url-redirects": {
+    "en": [
+      "Send visitors to the closest useful page",
+      "Map each changed address to the page that best continues the original intent. Test the full destination rather than only the presence of a redirect. Sending every removed product to the homepage may leave people confused; preserve context where a relevant replacement or category exists."
+    ],
+    "ar": [
+      "إلى أين أحوّل الرابط القديم؟",
+      "اختر الصفحة التي تكمل ما كان يبحث عنه الزائر، مثل المنتج البديل أو التصنيف المناسب إذا لم يعد المنتج موجودًا. لا تحوّل كل شيء للرئيسية لمجرد التخلص من خطأ الرابط؛ قد يصل الشخص من إعلان أو نتيجة بحث عن شيء محدد. اختبر الرابط القديم من البداية إلى الوجهة النهائية، وحدّث الروابط الداخلية حيث تستطيع. احتفظ بخريطة التغييرات حتى تعرف ما حدث إذا رجع العميل أو الفريق إلى عنوان قديم."
+    ]
+  },
+  "shopify-utm-tracking": {
+    "en": [
+      "Use names the whole team understands",
+      "Agree a small naming convention before publishing campaign links, then record the final URLs in one place. Check that navigation preserves the intended destination. Compare campaign reports with their known limits; a tagged visit is useful evidence but does not establish that one ad caused every later purchase."
+    ],
+    "ar": [
+      "كيف أسمي الروابط حتى أستفيد من التقارير؟",
+      "اتفق على أسماء ثابتة للمصدر والحملة والمحتوى، واحتفظ بالروابط النهائية في ملف واحد بدل كتابة كل شخص صيغة مختلفة. جرّب الرابط وتأكد أنه يصل للصفحة الصحيحة وأن القيم لا تحتوي بيانات شخصية. عند قراءة النتائج، راجع اختلاف أدوات القياس والموافقات وتغيّر الجهاز، ولا تعتبر كل زيارة موسومة دليلًا كاملًا على سبب الشراء. التنظيم يساعد المقارنة، لكنه لا يزيل حدود التتبع أو يضمن تطابق كل التقارير."
+    ]
+  },
+  "shopify-versus-marketplace": {
+    "en": [
+      "Compare how customers find and buy",
+      "List what the marketplace provides and what its current terms leave to you. Compare that with the effort of attracting and serving customers on an independent store. Some businesses use both, but stock, pricing and fulfilment still need coordination so two sales routes do not create contradictory promises."
+    ],
+    "ar": [
+      "ما الذي يقدّمه السوق وما الذي يبقى عليك؟",
+      "راجع شروط السوق الحالية ورسومه وطريقة عرض المنتجات والتواصل وتنفيذ الطلبات، ثم قارن ذلك بمتجر تملكه وتحتاج جذب الزوار إليه. قد يفيدك الجمع بين الاثنين، لكن حدّد كيف ستتابع المخزون والأسعار والطلبات بين القناتين. لا تفترض أن السوق يجلب مبيعات تلقائية أو أن المتجر الخاص ينجح بمجرد إطلاقه. ابدأ من جمهورك وتكلفة الوصول إليه وقدرتك على تنفيذ الطلب بشكل متسق."
+    ]
+  },
+  "shopify-versus-squarespace": {
+    "en": [
+      "Demonstrate the difficult content and product",
+      "Choose one representative editorial page and one product with your real options. Ask for both to be built in the proposed setup. Review editing, eligible payments and ongoing costs. A platform comparison becomes useful when it explains your daily work, not when it only compares attractive templates."
+    ],
+    "ar": [
+      "قارن بمثال من مشروعك",
+      "خذ صفحة محتوى مهمة ومنتجًا بخياراته الحقيقية، واطلب تجربة الاثنين في الإعداد المقترح. راجع من سيعدل الصفحة وكيف يظهر المنتج وما الدفع المتاح لنشاطك، ثم قارن المصاريف والصيانة. إذا كان المحتوى هو الجزء الأكبر من المشروع، أعطه وزنًا مناسبًا، وإذا كان البيع معقدًا فلا تخفِ احتياجاته خلف شكل القالب. الاختيار يعتمد على العمل الذي ستقوم به يوميًا، لا على أجمل صورة في العرض."
+    ]
+  },
+  "shopify-versus-wix": {
+    "en": [
+      "Check where the small store may become complex",
+      "A small catalogue can still need unusual customisation, delivery or business integrations. Test those requirements before choosing on size alone. Ask what changes if the catalogue or workflow grows and what would need rebuilding; current simplicity is valuable only when it matches the business."
+    ],
+    "ar": [
+      "صغر المتجر لا يعني بساطة كل احتياجاته",
+      "قد تبيع منتجات قليلة لكنها تحتاج تخصيصًا أو شحنًا خاصًا أو ربطًا مهمًا للعمل. اكتب هذه المتطلبات وجرّبها على الخيارين مع العربية والجوال والدفع المتاح لك. اسأل أيضًا ماذا يحدث عند زيادة المنتجات أو إضافة قناة بيع، وما الذي يحتاج إعادة عمل. لا تختَر منصة لأنها توصف بأنها للمبتدئين أو للمحترفين؛ اختر ما ينفذ احتياجاتك اليوم بتكلفة ومسؤوليات واضحة، مع فهم حدود التوسع لاحقًا."
+    ]
+  },
+  "shopify-versus-woocommerce-arabic": {
+    "en": [
+      "Compare a complete Arabic journey",
+      "Use the same Arabic product title, options, images and delivery information on both demonstrations. Test navigation and any third-party components too. Record the custom work and ongoing editing each needs. A language setting alone does not tell you how comfortable the finished store will be."
+    ],
+    "ar": [
+      "اختبر العربية بنفس المحتوى على الخيارين",
+      "ضع اسم المنتج ووصفه وخياراته نفسها في العرضين، ثم جرّب القائمة والفلاتر والسلة وأي جزء يأتي من إضافة. راجع الجوال والأرقام والعملات ورسائل الطلب، لا محاذاة النص وحدها. اكتب التعديلات التي يحتاجها كل إعداد ومن سيحافظ عليها عند التحديث. لا توجد إجابة واحدة لكل قالب أو إضافة؛ المهم جودة التنفيذ الفعلي وقدرة فريقك على إدارة النسختين بعد التسليم."
+    ]
+  },
+  "shopify-versus-woocommerce-cost": {
+    "en": [
+      "Compare a year of the same scope",
+      "Request the same catalogue, languages, integrations and support on both proposals. Separate one-time implementation from recurring costs and identify variable charges. State who handles maintenance. Free software and a paid subscription are only parts of the total, so neither label settles which proposal costs less."
+    ],
+    "ar": [
+      "اطلب ميزانية كاملة لنفس العمل",
+      "أرسل نطاقًا واحدًا للطرفين يشمل المنتجات واللغات والدفع والربط والدعم، وافصل تكلفة البناء عن المصروف المستمر. اطلب توضيح ما قد يزيد مع الاستخدام وما تدفعه عند تعديل القالب أو الإضافات. وجود برنامج مجاني لا يلغي الاستضافة والتنفيذ والصيانة، والاشتراك لا يعني أن كل شيء مشمول. قارن فترة زمنية واضحة واحتفظ بالافتراضات، حتى تستطيع تفسير الفرق بدل مقارنة رقمين لا يشملان الخدمات نفسها."
+    ]
+  },
+  "shopify-versus-woocommerce-maintenance": {
+    "en": [
+      "Ask who responds when something breaks",
+      "Give each supplier a realistic incident, such as an integration failing after an update, and ask who investigates and restores service. Compare response scope, exclusions and access. Managed platforms and managed service contracts solve different parts of the job; the business still needs clear ownership."
+    ],
+    "ar": [
+      "من يتصرف إذا توقف جزء من المتجر؟",
+      "اسأل المورد عن مثال عملي: تحديث أثّر في إضافة أو ربط لم يعد يعمل. من يشخّص المشكلة ومن يتواصل مع الطرف الآخر وما الذي يشمله الدعم؟ راجع الاستثناءات ووقت الاستجابة والوصول للحسابات. اختلاف المنصة يغيّر بعض المسؤوليات، لكن المحتوى والتطبيقات والقرارات التشغيلية تحتاج متابعة في الحالتين. أفضل عقد صيانة يشرح العمل المتوقع وحدوده، بدل وعد عام بأن الموقع لا يحتاج اهتمامًا."
+    ]
+  },
+  "shopify-versus-woocommerce-seo": {
+    "en": [
+      "Compare control and execution separately",
+      "Identify the search tasks your site needs, then demonstrate how the proposed setup handles them. Review content, internal links, performance and migration work alongside technical controls. More settings do not guarantee better decisions, and fewer settings do not explain the quality of the published pages."
+    ],
+    "ar": [
+      "ما الذي أقارنه إذا كان هدفي الظهور في البحث؟",
+      "اكتب المهام التي تحتاجها صفحاتك، مثل تنظيم المحتوى والعناوين والروابط والتحويلات، ثم اسأل كيف تنفذ في الإعداد المقترح. راجع جودة النص وسهولة الوصول للصفحات وأداء الجوال أيضًا. كثرة الإضافات لا تعني أن الموقع سيظهر أولًا، وقلة الإعدادات لا تختصر كل أسباب الترتيب. اطلب خطة لصفحات مشروعك ومتابعة نتائجها، بدل وعد بأن اسم المنصة وحده يحل الظهور في جوجل."
+    ]
+  },
+  "shopify-versus-wordpress": {
+    "en": [
+      "Keep the recommendation tied to a requirement",
+      "Ask whoever recommends a platform to name the business requirement behind that advice and show it working. Keep the demonstration and cost assumptions with the proposal. This lets you revisit the decision later if your editorial work, catalogue or team changes, instead of defending a platform choice by habit."
+    ],
+    "ar": [
+      "ما السؤال الذي أوجهه لمن ينصحني بمنصة؟",
+      "اسأله: ما الحاجة في مشروعي التي تجعل هذا الخيار أنسب، وهل تستطيع عرضها عمليًا؟ اطلب ربط التوصية بالبيع أو المحتوى أو إدارة الفريق أو الميزانية، مع توضيح ما يحتاج عملًا إضافيًا. احتفظ بالافتراضات والعرض حتى تستطيع مراجعة القرار عندما يتغير المشروع. إذا كانت الإجابة تعتمد فقط على أن المنصة مشهورة أو أن الشركة تستخدمها دائمًا، فأنت ما زلت تحتاج مقارنة تخص احتياجاتك أنت."
+    ]
+  },
+  "shopify-website-cost-qatar": {
+    "en": [
+      "Make the handover part of the quote",
+      "Ask whether the quote includes account access, training, documented integrations and a clear point at which the work is accepted. Identify the price of changes after that point. A store is not fully handed over when its homepage is visible if your team cannot update products or understand recurring bills."
+    ],
+    "ar": [
+      "هل التسليم والتدريب داخل السعر؟",
+      "اسأل كيف ستستلم الحسابات والملفات وما التدريب الذي يحصل عليه الشخص الذي سيدير المتجر. اطلب قائمة الاشتراكات والربط ومن يملك كل حساب، وحدّد متى يعتبر العمل معتمدًا وما تكلفة التعديل بعد ذلك. قد يبدو العرض مكتملًا لأن الموقع منشور، بينما لا يستطيع الفريق تحديث منتج أو معرفة سبب فاتورة تطبيق. إدخال هذه التفاصيل في النطاق يساعدك على حساب التكلفة الحقيقية وتجنب الاعتماد الدائم على المورد لأعمال بسيطة."
+    ]
+  },
+  "website-accessibility": {
+    "en": [
+      "Try the site without relying on sight alone",
+      "Use keyboard navigation and inspect focus, labels and error messages on the important journey. Check text readability and whether information depends only on colour. Record observed barriers and get specialist review when required; passing one simple check does not establish that the whole site meets every accessibility need."
+    ],
+    "ar": [
+      "كيف أبدأ بمراجعة عملية؟",
+      "جرّب الوصول إلى القائمة والنموذج والأزرار بلوحة المفاتيح، وراقب هل تعرف موضعك الحالي. راجع أسماء الحقول ورسائل الخطأ ووضوح النص، ولا تعتمد على لون وحده لشرح المطلوب. هذه بداية لكشف مشاكل حقيقية وليست شهادة شاملة. إذا كانت لديك متطلبات محددة، اطلب مراجعة مختصة لها، وأشرك مستخدمين عند الإمكان؛ سهولة الاستخدام تتضح في إنجاز المهمة، لا في إضافة زر شكلي بعنوان إتاحة الوصول."
+    ]
+  },
+  "website-ai-search-visibility": {
+    "en": [
+      "Publish what someone could verify",
+      "Build clear pages explaining the business, its services and genuine evidence of its work. Keep names, contact details and public descriptions consistent across channels you control. Monitor whether relevant answers cite your pages, while recognising that an appearance depends on the query and system; article quantity alone is not a ranking strategy."
+    ],
+    "ar": [
+      "ما المحتوى الذي يساعد الناس على فهم مشروعي؟",
+      "اكتب صفحات واضحة للخدمات ولمن تناسب وكيف يبدأ العميل، وأضف أعمالًا ومعلومات يمكنك إثباتها. ثبّت اسم المشروع وبياناته في القنوات التي تديرها، واربط المقالات بالخدمة المناسبة عندما يفيد القارئ. تابع الأسئلة التي يظهر فيها موقعك والمصادر المشار إليها، بدون افتراض أن النتيجة نفسها تظهر للجميع. لا يوجد نص سري يضمن المرتبة الأولى؛ كثرة المقالات لا تعوّض محتوى عامًا أو معلومات لا يمكن التحقق منها."
+    ]
+  },
+  "website-contact-page": {
+    "en": [
+      "Tell people what happens after contact",
+      "Show the channels you actually monitor and explain the purpose of each. If a form is the main route, say what information helps and avoid promising a response time the team cannot maintain. Check that the enquiry reaches a responsible person and can be answered without asking everything again."
+    ],
+    "ar": [
+      "ماذا أضع بجانب وسيلة التواصل؟",
+      "اشرح للزائر ما القناة المناسبة لسؤاله وما المعلومات التي تساعدك على الرد، مثل نوع الخدمة أو رابط المتجر. اعرض وسائل تتابعها فعلًا، ولا تعد بوقت رد محدد إذا لم يستطع الفريق الالتزام به. جرّب الرسالة من هاتف وبريد خارجي وتأكد أنها وصلت لشخص مسؤول. صفحة التواصل لا تنتهي عند زر الإرسال؛ قيمتها أن يعرف العميل ما يحدث بعده وأن يستطيع فريقك متابعة الطلب بدون ضياع."
+    ]
+  },
+  "website-homepage-content": {
+    "en": [
+      "Write the first screen in plain language",
+      "Say what the business provides, who it serves and what a visitor can do next. Support that with relevant evidence further down the page. Test the copy with someone unfamiliar with the brand; a memorable slogan can help, but it should not be the only explanation of the service."
+    ],
+    "ar": [
+      "كيف أعرف أن بداية الصفحة واضحة؟",
+      "اعرض أول جزء من الصفحة لشخص لا يعرف شركتك، ثم اسأله ما الذي تقدمه ولمن وكيف يبدأ. إذا لم يستطع الإجابة، أعد كتابة العنوان والوصف بلغة مباشرة. يمكنك استخدام عبارة مميزة للعلامة، لكن أضف شرحًا حقيقيًا للخدمة. بعد ذلك اعرض عملًا أو معلومة تدعم كلامك وخطوة تالية مناسبة؛ لا تبدأ بصفات مثل الأفضل والمبتكر وتترك الزائر يخمّن ما الذي يستطيع طلبه منك."
+    ]
+  },
+  "website-inquiry-forms": {
+    "en": [
+      "Ask only what changes the next step",
+      "For each field, identify who uses the answer and why. Move information that can wait into the later conversation. Make required fields and errors clear, then test the confirmation and delivery. A shorter form is useful when it still gives the team enough context to respond well."
+    ],
+    "ar": [
+      "أي سؤال أحذفه من النموذج؟",
+      "راجع كل حقل واسأل من يستخدم إجابته وما الذي يتغير بناءً عليها. إذا لم يحتج الفريق المعلومة في الرد الأول، فقد يمكن طلبها لاحقًا. وضّح الإلزامي والاختياري واكتب رسالة خطأ تساعد على التصحيح، ثم جرّب وصول الرد وتأكيد الإرسال. لا تقلل الأسئلة لدرجة أن الفريق لا يفهم الطلب، ولا تجمع تفاصيل كثيرة بلا سبب؛ ابحث عن الحد الذي يسمح ببدء محادثة مفيدة بسهولة."
+    ]
+  },
+  "website-maintenance-or-rebuild": {
+    "en": [
+      "Name the faults before choosing a solution",
+      "List the important tasks the current site fails and the evidence for each. Ask what fixing those requires and compare that with rebuilding, including migration and disruption. If content or ownership is the real issue, a new design alone may carry the same problem into another system."
+    ],
+    "ar": [
+      "كيف أعرف أني أحتاج إعادة بناء فعلًا؟",
+      "اكتب المشاكل المحددة: هل يصعب تحديث المحتوى، أم لا يعمل النموذج، أم يضيع العميل في الصفحات، أم النظام لا يدعم حاجة جديدة؟ اطلب تقديرًا لإصلاح كل مشكلة وقارنه بإعادة البناء ونقل المحتوى والروابط. قد يحل تعديل واضح المشكلة بتكلفة أقل، وقد يكون الأساس نفسه عائقًا. لا تبدأ من الملل بالشكل وحده، وتأكد أن الخطة الجديدة تعالج السبب بدل نقل المحتوى الضعيف والمسؤوليات غير الواضحة إلى تصميم آخر."
+    ]
+  },
+  "website-or-instagram": {
+    "en": [
+      "Give each channel a clear job",
+      "Use social posts for discovery and conversation where they work for your audience, then give interested people a stable place to read details or buy. Keep product information consistent. A website needs upkeep and visitors too, so define the role before treating it as a substitute for all social activity."
+    ],
+    "ar": [
+      "كيف يعمل الموقع مع إنستغرام؟",
+      "قد يتعرف العميل عليك من منشور ثم يحتاج مكانًا يجد فيه المقاسات والسعر والتوصيل أو تفاصيل الخدمة بدون انتظار رسالة. اجعل الموقع يكمل هذه الخطوة، واستمر في استخدام القناة التي يصل منها الجمهور. حدّث المعلومات في الاثنين حتى لا يرى العميل سعرًا في المنشور وآخر بلا تفسير في الصفحة. الموقع ليس مصدر زيارات تلقائيًا؛ قيمته أنه ينظّم المعلومات والخطوة التالية عندما يصل إليه شخص مهتم."
+    ]
+  },
+  "website-project-ownership": {
+    "en": [
+      "Make a handover inventory",
+      "List the domain, hosting or platform, source files where applicable, third-party services and billing accounts. Record the owner and the access the business receives for each. Agree what happens when the relationship ends. A final invoice alone does not clarify licensing, account ownership or the work needed to change suppliers."
+    ],
+    "ar": [
+      "ما القائمة التي أطلبها عند التسليم؟",
+      "اطلب جدولًا بالنطاق والمنصة أو الاستضافة والحسابات والخدمات المدفوعة والملفات التي يشملها الاتفاق. أمام كل بند، حدّد المالك ومن يدفع ومن يستطيع استرداد الوصول. راجع أيضًا تراخيص الصور والقوالب وما يسمح العقد بنقله أو تعديله. الدفع وحده لا يشرح هذه التفاصيل؛ توثيقها يساعدك عند تغيير المورد أو الموظف، ويمنع ارتباط أصل مهم للمشروع بحساب شخصي لا تستطيع الدخول إليه."
+    ]
+  },
+  "website-structured-data": {
+    "en": [
+      "Keep the markup consistent with the page",
+      "Add only types and properties that describe genuine visible information. Review them when content changes and use the relevant validation tools. Structured data can help machines interpret a page, but it cannot create a real review, qualify an unsupported claim or guarantee a special search appearance."
+    ],
+    "ar": [
+      "ماذا أضع في البيانات المنظّمة؟",
+      "ابدأ بالمعلومات الحقيقية الظاهرة في الصفحة، مثل تعريف النشاط أو المقال أو المنتج بحسب نوعها. لا تضف تقييمات أو أسعارًا أو خدمات غير موجودة بهدف الحصول على شكل مختلف في النتائج. راجع البيانات عند تعديل المحتوى واستخدم أدوات الفحص المناسبة، مع فهم أن اجتياز الفحص لا يضمن ظهورًا خاصًا. هذه طريقة لتنظيم المعلومة للأنظمة، وليست بديلًا عن صفحة مفيدة أو وسيلة لفرض ترتيب معين في البحث."
+    ]
+  },
+  "what-is-shopify": {
+    "en": [
+      "Think of the work it organises",
+      "Picture a customer choosing a product and your team receiving, preparing and following up the order. Shopify supplies a platform for parts of that process, with the exact setup depending on your requirements. You still need accurate products, eligible payment arrangements, fulfilment and people responsible for the store."
+    ],
+    "ar": [
+      "ما الذي يبقى عليّ بعد اختيار شوبيفاي؟",
+      "ستحتاج تجهيز المنتجات والصور والأسعار والمخزون والسياسات، واختيار الدفع والتوصيل المناسبين لنشاطك. بعدها يجب أن يعرف الفريق كيف يتابع الطلب ويحدث المعلومات ويرد على العميل. المنصة تجمع أدوات لإدارة المتجر، لكنها لا تلتقط صورك أو توافق على حساب الدفع أو توصل الطلب بدلًا منك. ابدأ بفهم رحلة طلب واحدة كاملة، ثم حدّد الأجزاء التي توفرها المنصة وما يحتاج تطبيقًا أو موردًا أو عملًا من فريقك."
+    ]
+  },
+  "why-business-needs-website": {
+    "en": [
+      "Start with a recurring customer question",
+      "Look for the information you explain repeatedly: service scope, examples, prices where appropriate or how to get started. A small site can organise those answers and provide a clear enquiry route. Measure whether it helps actual customers rather than assuming more pages automatically make the business more credible."
+    ],
+    "ar": [
+      "ما الذي يمكن أن يفعله موقع صغير لمشروعي؟",
+      "راجع الأسئلة التي تكرر الإجابة عنها في الرسائل، واجمع أهمها مع تعريف الخدمة وأمثلة حقيقية وطريقة تواصل واضحة. قد يكفي موقع صغير مرتب بدل مشروع كبير قبل معرفة الحاجة. المهم أن تكون المعلومات محدثة وأن يصل الاستفسار لمن يرد عليه. بعد الإطلاق تابع هل قلّ الغموض وتحسنت نوعية الأسئلة أو الطلبات؛ عدد الصفحات وشكل الموقع وحدهما لا يثبتان أنه أفاد المشروع."
+    ]
+  },
+  "why-choose-shopify": {
+    "en": [
+      "Try managing the store before choosing",
+      "Ask to update a product, review an order and change a routine piece of content in a demonstration. Confirm the parts of your project that need additional tools or custom work. Convenience matters when it saves your team real effort, but the decision should include costs, requirements and the limits of the proposed setup."
+    ],
+    "ar": [
+      "جرّب الإدارة كما ستستخدمها أنت",
+      "اطلب تعديل منتج ومراجعة طلب وتغيير معلومة في صفحة عادية، وجرّب هذه المهام بنفسك. راجع ما تستطيع فعله بدون مساعدة وما يحتاج تطبيقًا أو تطويرًا، مع التكاليف المرتبطة به. إذا وفّر النظام على فريقك عملًا واضحًا فقد تكون هذه ميزة مهمة، لكن لا تختَره اعتمادًا على وعد عام بأنه أسهل للجميع. اربط القرار بمتجرك والدفع والتوصيل واللغات وطريقة عمل الموظفين بعد التسليم."
+    ]
+  },
+  "wordpress-blog-shopify-store": {
+    "en": [
+      "Plan how visitors move between the two",
+      "Define where articles, product pages and account functions live, then test links and navigation in both directions. Keep branding and language routes understandable. The arrangement can preserve an established publishing workflow, but someone must manage two systems and avoid presenting them as one seamless setup before checking it."
+    ],
+    "ar": [
+      "كيف أجعل الانتقال بين المدونة والمتجر واضحًا؟",
+      "حدّد أين ستعيش المقالات وأين المنتجات، ثم جرّب رحلة من مقال إلى منتج والعودة إلى المحتوى. راجع القوائم واللغة والتصميم وأي اختلاف في الحسابات أو البحث، ولا تعد بتجربة موحدة قبل اختبار ما يتصل فعلًا. قد يحافظ هذا الخيار على مدونة قائمة، لكنه يعني متابعة نظامين وتكاليفهما. وثّق المسؤوليات والروابط حتى لا يغيّر فريق جزءًا ويترك الجزء الآخر بمعلومات قديمة أو تنقل مربك."
+    ]
+  },
+  "wordpress-com-or-org": {
+    "en": [
+      "Inspect the actual contract",
+      "Identify the service, plan, host and extension permissions in the proposal. Ask who handles updates, backups and migration, and what access you receive. The shared WordPress name does not mean two offers include the same control or support; compare the arrangement being sold rather than its label."
+    ],
+    "ar": [
+      "كيف أعرف أي ووردبريس يعرضه المورد؟",
+      "اطلب اسم الخدمة والباقة والاستضافة والصلاحيات المتاحة، وما إذا كانت الإضافات التي تحتاجها مشمولة أو مسموحة في هذا الإعداد. اسأل من يتابع التحديث والنسخ الاحتياطي وما الذي تستلمه عند إنهاء الاتفاق. لا تعتمد على كلمة ووردبريس وحدها؛ قد تختلف العقود وطريقة الإدارة والوصول بشكل كبير. قارن ما ستستخدمه فعلًا وما تستطيع نقله لاحقًا، وراجع تفاصيل الخطة الحالية من مصدرها قبل الدفع."
+    ]
+  },
+  "wordpress-content-to-shopify": {
+    "en": [
+      "Audit a representative article after transfer",
+      "Choose a long article with images, headings and internal links. Check its new layout, public address and metadata before migrating the rest. Keep an inventory of what moved and what needs manual work. Product import tools should not be assumed to cover every part of an existing publishing site."
+    ],
+    "ar": [
+      "جرّب نقل مقال كامل قبل نقل المدونة",
+      "اختر مقالًا يحتوي صورًا وعناوين وروابط داخلية، وانقله كعينة ثم راجع تنسيقه وعنوانه العام وبياناته. افحص الصور والروابط التي تشير إلى مقالات أخرى وما يحتاج تعديلًا يدويًا. احتفظ بقائمة المقالات القديمة ووجهة كل منها، ولا تفترض أن أداة نقل المنتجات ستنقل المحتوى بالطريقة نفسها. بعد نجاح العينة، انقل الباقي وراجع الروابط المهمة حتى لا تظهر المدونة مكتملة بينما أجزاء منها مفقودة أو مرتبطة بالموقع القديم."
+    ]
+  }
+}

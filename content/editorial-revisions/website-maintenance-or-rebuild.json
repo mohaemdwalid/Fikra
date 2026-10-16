@@ -1,0 +1,10 @@
+{
+  "slug": "website-maintenance-or-rebuild",
+  "title_ar": "أصلح موقعي الحالي أم أبدأ موقعًا جديدًا؟",
+  "lead_en": "Start with the problems the current site cannot solve. A rebuild is a large intervention, not the automatic answer to an old-looking page.",
+  "lead_ar": "ابدأ بالمشكلات التي لا يستطيع موقعك حلها. إعادة البناء خطوة كبيرة، وليست الإجابة التلقائية لأن شكل الصفحة قديم.",
+  "heading_en": "Compare two realistic scopes",
+  "detail_en": "List the failing customer and editing tasks, then ask what repairing them would involve. Separately price migration, new content and retraining for a replacement. A navigation or copy problem may not require changing the whole system; inaccessible accounts or serious structural limits may change the decision. Include recovery and link preservation in either plan. Define what success looks like before approving a modern-looking design that leaves the original problem untouched.",
+  "heading_ar": "قارن نطاقين واقعيين",
+  "detail_ar": "احصر مهام العميل والإدارة المتعطلة واسأل عن إصلاحها، ثم احسب النقل والمحتوى والتدريب في البديل. قد لا تحتاج مشكلة قائمة أو نص إلى نظام جديد، بينما يغيّر القرار فقدان الوصول أو قيد هيكلي كبير. ضمّن الاستعادة وحفظ الروابط في الخيارين. حدّد النجاح قبل اعتماد شكل حديث يترك المشكلة الأصلية كما هي."
+}

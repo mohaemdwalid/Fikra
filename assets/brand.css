@@ -1,0 +1,35 @@
+/* Shared FIKRA accent palette. Keep buttons solid for clear, readable labels. */
+:root {
+  --fikra-accent: #005bea;
+  --fikra-accent-hover: #0047bd;
+  --fikra-glow-violet: #7465e8;
+  --fikra-glow-cyan: #75d5f0;
+  --relume-library-lite--cw-pink: var(--fikra-accent);
+}
+.proposal-cta:hover, .fikra-header-book:hover, .fikra-footer-cta:hover,
+.fikra-action:hover:not(:disabled), .seo-cta:hover { background: var(--fikra-accent-hover); }
+/* Local, static grain: no image dependency or additional animation. */
+#home .fikra-vsl { position: relative; isolation: isolate; background: transparent; }
+#home .fikra-vsl::before, #home .fikra-vsl::after {
+  content: ''; position: absolute; pointer-events: none; z-index: -1;
+  inset: -38px -18px; border-radius: 40px;
+}
+#home .fikra-vsl::before {
+  background: radial-gradient(ellipse at 15% 38%, #7465e842, transparent 64%),
+              radial-gradient(ellipse at 88% 65%, #75d5f05c, transparent 62%);
+  filter: blur(18px);
+}
+#home .fikra-vsl::after {
+  background: url('/assets/brand-grain.svg'); opacity: .13;
+  mask-image: radial-gradient(ellipse, #000 38%, transparent 72%);
+}
+.fikra-vsl-placeholder {
+  background: radial-gradient(ellipse at 0 100%, #7465e81c, transparent 65%),
+              radial-gradient(ellipse at 100% 100%, #75d5f01a, transparent 65%);
+}
+@media(max-width:479px) {
+  #home .fikra-vsl::before, #home .fikra-vsl::after { inset: -24px -8px; }
+}
+.navbar-logo-left .cta-button-with-image { background: var(--fikra-accent); }
+.navbar-logo-left .cta-button-with-image:hover { background: var(--fikra-accent-hover); }
+.proposal-final .proposal-kicker { color: var(--fikra-glow-cyan); }

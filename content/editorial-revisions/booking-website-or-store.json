@@ -1,0 +1,10 @@
+{
+  "slug": "booking-website-or-store",
+  "title_ar": "خدمتي بالمواعيد، هل أحتاج متجرًا أو نظام حجز؟",
+  "lead_en": "Use the system that manages the commitment you are making. A product payment and a reserved appointment are not the same event.",
+  "lead_ar": "اختر النظام الذي يدير الالتزام الذي تقدّمه. دفع ثمن خدمة يختلف عن حجز وقت محدّد لها؛ قد ينجح الأول ولا تكون المواعيد مضبوطة.",
+  "heading_en": "Check what happens after payment or submission",
+  "detail_en": "Suppose a customer pays for a consultation. Is a provider available, and has a time actually been reserved? Define duration, resources, timezone and change rules before building the page. If the form only requests a callback, say that instead of announcing a confirmed appointment. Test notifications and rescheduling with the real tool. You can sell products and appointments together, provided each route has a clear operating process.",
+  "heading_ar": "ماذا يحدث بعد الطلب؟",
+  "detail_ar": "إذا دفع العميل لاستشارة، هل يوجد مقدم خدمة متاح وهل حُجز الوقت فعلًا؟ حدّد المدة والموارد والمنطقة الزمنية وقواعد التعديل قبل الصفحة. وإن كان النموذج يطلب اتصالًا فقط، فلا تسمّه موعدًا مؤكدًا. اختبر الإشعارات وإعادة الجدولة في الأداة المستخدمة. يمكن الجمع بين المنتجات والمواعيد مع مسار تشغيل واضح لكل منهما."
+}

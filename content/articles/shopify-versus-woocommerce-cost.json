@@ -1,0 +1,177 @@
+{
+  "slug": "shopify-versus-woocommerce-cost",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/pricing-plans/plans-features"
+    },
+    {
+      "title": "WooCommerce documentation",
+      "url": "https://woocommerce.com/documentation/woocommerce/getting-started/"
+    },
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/documentation/article/hosting-wordpress/"
+    }
+  ],
+  "related": [
+    "shopify-website-cost-qatar",
+    "shopify-versus-wordpress",
+    "website-project-ownership"
+  ],
+  "en": {
+    "title": "Shopify vs WooCommerce: how do you compare costs?",
+    "answer": "You cannot tell from the subscription price alone. Compare the complete store, including hosting, extensions and the work required to keep it running.",
+    "sections": [
+      [
+        "Build matching budgets",
+        "Include implementation, hosting or subscription, domain, themes, extensions, maintenance and payment costs. Specify who supplies content and handles updates. Keep assumptions visible rather than comparing one supplier’s complete proposal with another’s entry price."
+      ],
+      [
+        "Price the actual requirements",
+        "A feature may be included, require an extension or need custom development. Use the same catalogue, language and integration brief for both estimates. Confirm current prices directly before approving a commercial decision."
+      ],
+      [
+        "Consider support and change",
+        "Estimate how a new content type, payment connection or catalogue workflow would be maintained. A cheap initial setup may transfer more work to the owner. The useful comparison is a budget you understand and can operate, not a universal claim that one system is always free or expensive."
+      ],
+      [
+        "Compare the bill over a real period",
+        "Ask for the same scope on both platforms and separate initial work from renewals. WooCommerce’s core software does not remove hosting, paid-extension or maintenance costs. Shopify’s subscription does not include every possible app or custom feature either. Use current prices and your likely activity, with assumptions stated clearly. Also ask what an extra language, integration or template would cost later. A lower launch invoice can mean more recurring work, not necessarily a cheaper operation."
+      ]
+    ],
+    "checklist": [
+      "Use the same scope.",
+      "Include recurring and support costs.",
+      "Verify current commercial terms."
+    ],
+    "faq": [
+      [
+        "Does free core software mean a free store?",
+        "No. Hosting, implementation and operation can still carry costs."
+      ]
+    ],
+    "editorial_detail_heading": "Compare the bill over a real period",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Read the proposal line by line",
+      "columns": [
+        "Cost item",
+        "What to ask before approval"
+      ],
+      "rows": [
+        [
+          "Design and development",
+          "Which templates and functions are included, and which require another estimate?"
+        ],
+        [
+          "Content and products",
+          "Who supplies text, photos and translations, and who enters them?"
+        ],
+        [
+          "Revisions and acceptance",
+          "How is feedback handled, and what must work before handover?"
+        ],
+        [
+          "Recurring services",
+          "Which subscriptions renew, who owns them and how are charges approved?"
+        ],
+        [
+          "After launch",
+          "What support is included, for how long, and what counts as new work?"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Compare a year of the same scope",
+        "Request the same catalogue, languages, integrations and support on both proposals. Separate one-time implementation from recurring costs and identify variable charges. State who handles maintenance. Free software and a paid subscription are only parts of the total, so neither label settles which proposal costs less."
+      ]
+    ],
+    "editorial_followup_heading": "Compare a year of the same scope"
+  },
+  "ar": {
+    "title": "هل شوبيفاي أغلى من ووكومرس؟",
+    "answer": "لا تحسمها من الاشتراك فقط. قارن متجرًا كاملًا يشمل الاستضافة والإضافات والعمل المطلوب لاستمراره، لا اشتراك منصة بتنزيل برنامج مجاني.",
+    "sections": [
+      [
+        "ابنِ ميزانيتين متطابقتين",
+        "ضمّن التنفيذ والنطاق والقالب والإضافات والصيانة والدفع والمحتوى، ووضّح الافتراضات."
+      ],
+      [
+        "سعّر المتطلّبات الفعلية",
+        "استخدم الكتالوج واللغات والربط نفسه وراجع هل الخاصية أساسية أم إضافية أم تطوير. أكّد الأسعار الحالية."
+      ],
+      [
+        "احسب التغيير والدعم",
+        "قد ينقل السعر الأولي المنخفض عملًا إضافيًا للمالك. اختر ميزانية تفهم تشغيلها بدل حكم شامل بالأرخص."
+      ],
+      [
+        "قارن الفاتورة الكاملة",
+        "اطلب النطاق نفسه وافصل التأسيس عن التجديد. مجانية البرنامج الأساسي لا تلغي الاستضافة والإضافات والصيانة، واشتراك شوبيفاي لا يشمل كل تطبيق أو تطوير. استخدم أسعارًا حالية وافتراضات واضحة عن نشاطك. واسأل عن تكلفة لغة أو ربط أو قالب صفحة لاحقًا. قد يعني سعر إطلاق أقل عملًا مستمرًا عليك، لا تشغيلًا أرخص بالضرورة."
+      ]
+    ],
+    "checklist": [
+      "وحّد النطاق.",
+      "ضمّن الدعم والتجديد.",
+      "راجع الشروط الحالية."
+    ],
+    "faq": [
+      [
+        "هل البرنامج المجاني يعني متجرًا مجانيًا؟",
+        "قد تبقى تكاليف الاستضافة والتنفيذ والتشغيل."
+      ]
+    ],
+    "editorial_detail_heading": "قارن الفاتورة الكاملة",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "اقرأ العرض بندًا بندًا",
+      "columns": [
+        "البند",
+        "ما السؤال قبل الموافقة؟"
+      ],
+      "rows": [
+        [
+          "التصميم والتطوير",
+          "ما القوالب والوظائف المشمولة، وما الذي يحتاج تقديرًا إضافيًا؟"
+        ],
+        [
+          "المحتوى والمنتجات",
+          "من يجهّز النص والصور والترجمة، ومن يُدخلها؟"
+        ],
+        [
+          "المراجعة والقبول",
+          "كيف تُجمع الملاحظات وما الذي يجب أن يعمل قبل التسليم؟"
+        ],
+        [
+          "الخدمات المتكرّرة",
+          "ما الاشتراكات المتجددة ومن يملكها ويوافق على رسومها؟"
+        ],
+        [
+          "بعد الإطلاق",
+          "ما الدعم المشمول ومدته، وما الذي يُحسب عملًا جديدًا؟"
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "اطلب ميزانية كاملة لنفس العمل",
+        "أرسل نطاقًا واحدًا للطرفين يشمل المنتجات واللغات والدفع والربط والدعم، وافصل تكلفة البناء عن المصروف المستمر. اطلب توضيح ما قد يزيد مع الاستخدام وما تدفعه عند تعديل القالب أو الإضافات. وجود برنامج مجاني لا يلغي الاستضافة والتنفيذ والصيانة، والاشتراك لا يعني أن كل شيء مشمول. قارن فترة زمنية واضحة واحتفظ بالافتراضات، حتى تستطيع تفسير الفرق بدل مقارنة رقمين لا يشملان الخدمات نفسها."
+      ]
+    ],
+    "editorial_followup_heading": "اطلب ميزانية كاملة لنفس العمل"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-woocommerce-cost.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "shopify-versus-woocommerce-maintenance",
+  "category": "platforms",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://developer.wordpress.org/advanced-administration/security/backup/"
+    },
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/security/"
+    }
+  ],
+  "related": [
+    "shopify-maintenance-backups",
+    "website-maintenance-or-rebuild",
+    "shopify-versus-wordpress"
+  ],
+  "en": {
+    "title": "Shopify vs WooCommerce: who handles maintenance?",
+    "answer": "The responsibilities differ. Compare the actual support arrangement, not a claim that one platform never needs maintenance.",
+    "sections": [
+      [
+        "List the tasks",
+        "Identify software updates, backups, account access, third-party extensions and customer-facing content. WordPress documents backing up both files and the database. Record which tasks a host or managed service performs and which remain with your team."
+      ],
+      [
+        "Plan changes safely",
+        "Use a suitable preview or staging process and a rollback plan. Review payment, shipping and language journeys after significant changes. Confirm whether custom code or extensions create additional update dependencies."
+      ],
+      [
+        "Clarify response responsibilities",
+        "Agree who investigates an outage or failed integration and how quickly they can respond. Keep business recovery access. The decision should reflect your support arrangement and the team’s capacity, not a blanket claim that either system never needs attention."
+      ],
+      [
+        "Ask who fixes a failed update",
+        "With a self-hosted WordPress store, clarify who handles the host, WordPress, themes, plugins and recovery. A managed hosting contract may cover some of that, but check its scope. With Shopify, the platform manages its service while you still maintain theme changes, apps and store configuration. In either case, name the person who investigates a broken buying flow and keeps backups or recovery records. Cheap hosting and managed maintenance are not the same purchase."
+      ]
+    ],
+    "checklist": [
+      "List maintenance tasks and owners.",
+      "Document recovery arrangements.",
+      "Agree an incident contact."
+    ],
+    "faq": [
+      [
+        "Can a host manage WordPress maintenance?",
+        "It may provide services, but verify the exact coverage instead of assuming every hosting plan includes it."
+      ]
+    ],
+    "editorial_detail_heading": "Ask who fixes a failed update",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Ask who responds when something breaks",
+        "Give each supplier a realistic incident, such as an integration failing after an update, and ask who investigates and restores service. Compare response scope, exclusions and access. Managed platforms and managed service contracts solve different parts of the job; the business still needs clear ownership."
+      ]
+    ],
+    "editorial_followup_heading": "Ask who responds when something breaks"
+  },
+  "ar": {
+    "title": "من يحتاج صيانة أكثر: شوبيفاي أم ووكومرس؟",
+    "answer": "تختلف المسؤوليات، لذلك قارن الدعم الفعلي لا عبارة «هذه المنصة لا تحتاج صيانة». يبقى المحتوى والربط والإعداد بحاجة إلى متابعة في الحالتين.",
+    "sections": [
+      [
+        "احصر المهام",
+        "حدّد التحديث والنسخ والصلاحيات والإضافات. توثّق ووردبريس نسخ الملفات وقاعدة البيانات، فراجع ما يغطيه عقدك."
+      ],
+      [
+        "غيّر بأمان",
+        "استخدم معاينة وخطة رجوع وراجع الدفع والشحن واللغة بعد التعديل الكبير."
+      ],
+      [
+        "وضّح الاستجابة",
+        "اتّفق على مسؤول الأعطال والوقت المتوقع واحفظ استعادة لدى النشاط. اختر وفق قدرة الفريق والدعم الفعلي."
+      ],
+      [
+        "اسأل من يعالج المشكلة",
+        "في ووردبريس الذاتي، حدّد مسؤول الاستضافة والنظام والقالب والإضافات والاستعادة. قد يغطي عقد إدارة بعض ذلك؛ راجع ما يشمله. في شوبيفاي تُدار خدمة المنصة، لكن تعديلات القالب والتطبيقات والإعدادات تبقى بحاجة إلى متابعة. في الحالتين، سمِّ من يعالج تعطل الشراء ويحفظ معلومات الرجوع. الاستضافة الرخيصة وعقد الصيانة ليسا الشيء نفسه."
+      ]
+    ],
+    "checklist": [
+      "وزّع المهام.",
+      "وثّق الاستعادة.",
+      "حدّد جهة الأعطال."
+    ],
+    "faq": [
+      [
+        "هل يدير المستضيف الصيانة؟",
+        "قد يوفّرها؛ تحقّق من نطاقها الفعلي في العقد."
+      ]
+    ],
+    "editorial_detail_heading": "اسأل من يعالج المشكلة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "من يتصرف إذا توقف جزء من المتجر؟",
+        "اسأل المورد عن مثال عملي: تحديث أثّر في إضافة أو ربط لم يعد يعمل. من يشخّص المشكلة ومن يتواصل مع الطرف الآخر وما الذي يشمله الدعم؟ راجع الاستثناءات ووقت الاستجابة والوصول للحسابات. اختلاف المنصة يغيّر بعض المسؤوليات، لكن المحتوى والتطبيقات والقرارات التشغيلية تحتاج متابعة في الحالتين. أفضل عقد صيانة يشرح العمل المتوقع وحدوده، بدل وعد عام بأن الموقع لا يحتاج اهتمامًا."
+      ]
+    ],
+    "editorial_followup_heading": "من يتصرف إذا توقف جزء من المتجر؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-woocommerce-maintenance.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

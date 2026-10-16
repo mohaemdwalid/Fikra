@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-conversion-rate",
+  "title_ar": "كيف أحسب معدل التحويل وأفهمه بدون مقارنة غلط؟",
+  "lead_en": "Read the report’s definition first. Orders, purchasing sessions and visits are not automatically interchangeable numbers.",
+  "lead_ar": "اقرأ تعريف التقرير أولًا. الطلبات وجلسات الشراء والزيارات ليست دائمًا أرقامًا يمكن استبدال بعضها ببعض في الحساب.",
+  "heading_en": "A simple example and its limits",
+  "detail_en": "If 10 eligible sessions include a purchase out of 1,000 eligible sessions, the rate is 1%. That illustration does not mean dividing any order card by any session card reproduces Shopify’s metric. Match channel, dates and definitions first. Then review traffic mix and sample size: an influx of low-intent visits can lower the overall percentage without a design regression. Compare payment, returns and margin too. A before-and-after difference alone does not establish what caused it.",
+  "heading_ar": "مثال بسيط وحدوده",
+  "detail_ar": "إذا اشترت ١٠ جلسات مؤهّلة من ١٬٠٠٠، فالنسبة ١٪. لكن المثال لا يعني أن قسمة أي بطاقة طلبات على أي بطاقة جلسات تعيد مؤشر شوبيفاي. طابق القناة والتاريخ والتعريف، ثم راجع مصادر الزيارات وحجم العينة. قد تخفض زيارات قليلة النية النسبة دون تراجع التصميم. راجع التحصيل والاسترجاع والهامش أيضًا؛ الفرق قبل وبعد لا يثبت السبب وحده."
+}

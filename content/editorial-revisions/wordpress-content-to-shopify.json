@@ -1,0 +1,10 @@
+{
+  "slug": "wordpress-content-to-shopify",
+  "title_ar": "هل تنتقل مقالات ووردبريس إلى شوبيفاي مع المنتجات؟",
+  "lead_en": "Not necessarily. Products, articles, media and old links can need different migration work. List them separately before choosing the method.",
+  "lead_ar": "ليس بالضرورة. قد يحتاج كل من المنتجات والمقالات والوسائط والروابط إلى معالجة مختلفة، لذلك احصرها منفصلة قبل اختيار طريقة النقل.",
+  "heading_en": "Check a full article, not just its title",
+  "detail_en": "Pick a post containing images, an embedded form and internal links. Compare the migrated result with the original, including formatting and destinations. Shortcodes or plugin elements may need replacement rather than a plain-text copy. Keep valuable older URLs mapped to relevant new pages. Reconcile the approved article list with what actually moved, and test any purchase or enquiry route linked from the content. Product-import success does not establish that the publication survived intact.",
+  "heading_ar": "افحص مقالًا كاملًا",
+  "detail_ar": "اختر مقالًا بصور ونموذج وروابط داخلية، وطابق النتيجة مع الأصل من حيث التنسيق والوجهات. قد تحتاج عناصر الإضافات إلى بديل، لا نسخ نصها فقط. اربط العناوين القديمة المهمة بصفحات مناسبة، وطابق قائمة المقالات بما انتقل فعلًا. جرّب مسار الشراء أو التواصل من داخلها؛ نجاح استيراد المنتجات لا يثبت سلامة المدونة."
+}

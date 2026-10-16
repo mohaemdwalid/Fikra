@@ -1,0 +1,111 @@
+{
+  "slug": "booking-website-or-store",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/digital-service-product"
+    }
+  ],
+  "related": [
+    "shopify-selling-services",
+    "qatar-service-booking",
+    "website-inquiry-forms"
+  ],
+  "en": {
+    "title": "Do you need a booking website or an online store?",
+    "answer": "Use the system that manages the commitment you are making. A product payment and a reserved appointment are not the same event.",
+    "sections": [
+      [
+        "Map the appointment lifecycle",
+        "Identify who provides the service, available times, duration and how changes are handled. Decide whether payment happens before, during or after the appointment. Confirm timezone behaviour for customers outside Qatar."
+      ],
+      [
+        "Separate calendar from enquiry",
+        "An enquiry asks for follow-up; a booking reserves a confirmed time under the scheduling system’s rules. Make confirmation messages accurate. Avoid describing a form submission as an appointment when nobody has reserved the slot."
+      ],
+      [
+        "Check integrations carefully",
+        "Test notifications, capacity and the intended payment route in the actual tool. Shopify can sell service products, but scheduling may need an appropriate integration. Review availability and cancellation handling before choosing the storefront platform."
+      ],
+      [
+        "Check what happens after payment or submission",
+        "Suppose a customer pays for a consultation. Is a provider available, and has a time actually been reserved? Define duration, resources, timezone and change rules before building the page. If the form only requests a callback, say that instead of announcing a confirmed appointment. Test notifications and rescheduling with the real tool. You can sell products and appointments together, provided each route has a clear operating process."
+      ]
+    ],
+    "checklist": [
+      "Define availability and duration.",
+      "Distinguish enquiry from booking.",
+      "Test confirmation and changes."
+    ],
+    "faq": [
+      [
+        "Can one website sell products and appointments?",
+        "Yes, if both workflows are configured and explained clearly."
+      ]
+    ],
+    "editorial_detail_heading": "Check what happens after payment or submission",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Define what a confirmed booking means",
+        "Decide whether customers choose a time immediately or submit a request your team accepts later. Those are different promises. Write the confirmation message first, then check whether staff availability, payment and cancellation handling support it. A form submission should not silently become an appointment."
+      ]
+    ],
+    "editorial_followup_heading": "Define what a confirmed booking means"
+  },
+  "ar": {
+    "title": "خدمتي بالمواعيد، هل أحتاج متجرًا أو نظام حجز؟",
+    "answer": "اختر النظام الذي يدير الالتزام الذي تقدّمه. دفع ثمن خدمة يختلف عن حجز وقت محدّد لها؛ قد ينجح الأول ولا تكون المواعيد مضبوطة.",
+    "sections": [
+      [
+        "ارسم دورة الموعد",
+        "حدّد مقدّم الخدمة والوقت والمدة والتعديل وتوقيت الدفع والمنطقة الزمنية."
+      ],
+      [
+        "ميّز الاستفسار عن الحجز",
+        "الاستفسار يطلب متابعة، والحجز يؤكّد وقتًا وفق قواعد النظام. لا تسمِّ إرسال نموذج موعدًا دون حجز."
+      ],
+      [
+        "اختبر الربط",
+        "راجع الإشعارات والسعة والدفع. يمكن بيع خدمات بشوبيفاي، وقد تحتاج الجدولة إلى تكامل مناسب."
+      ],
+      [
+        "ماذا يحدث بعد الطلب؟",
+        "إذا دفع العميل لاستشارة، هل يوجد مقدم خدمة متاح وهل حُجز الوقت فعلًا؟ حدّد المدة والموارد والمنطقة الزمنية وقواعد التعديل قبل الصفحة. وإن كان النموذج يطلب اتصالًا فقط، فلا تسمّه موعدًا مؤكدًا. اختبر الإشعارات وإعادة الجدولة في الأداة المستخدمة. يمكن الجمع بين المنتجات والمواعيد مع مسار تشغيل واضح لكل منهما."
+      ]
+    ],
+    "checklist": [
+      "حدّد التوفّر والمدة.",
+      "ميّز الاستفسار والحجز.",
+      "اختبر التأكيد والتعديل."
+    ],
+    "faq": [
+      [
+        "هل يجمع الموقع مواعيد ومنتجات؟",
+        "نعم مع إعداد وشرح واضحين للمسارين."
+      ]
+    ],
+    "editorial_detail_heading": "ماذا يحدث بعد الطلب؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي يعتبر حجزًا مؤكدًا عندك؟",
+        "قبل اختيار النظام، قرّر هل العميل يحجز وقتًا متاحًا مباشرة أم يرسل طلبًا ينتظر موافقتك. لو كانت الخدمة تحتاج مراجعة الموقع أو مدة العمل أولًا، فقد يناسبها طلب موعد بدل تأكيد فوري. اكتب الرسالة التي ستصل للعميل في كل حالة، وحدّد من يراجع الطلب ومتى يرد. بذلك لا يظن العميل أن موعده ثبت بينما فريقك لم يطّلع عليه بعد."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي يعتبر حجزًا مؤكدًا عندك؟"
+  },
+  "image": {
+    "src": "/assets/article-images/booking-website-or-store.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

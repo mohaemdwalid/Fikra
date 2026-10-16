@@ -1,0 +1,10 @@
+{
+  "slug": "qatar-click-and-collect",
+  "title_ar": "كيف أضيف الاستلام من الفرع بشكل صحيح؟",
+  "lead_en": "Give customers a real location, a readiness confirmation and clear collection instructions. Placing the order should not imply that it is ready immediately.",
+  "lead_ar": "وفّر موقعًا حقيقيًا وتأكيد جاهزية وتعليمات واضحة. إنشاء الطلب لا يعني أنه أصبح جاهزًا للاستلام فورًا.",
+  "heading_en": "Check the stock-to-handover route",
+  "detail_en": "Choose an item available at one location and test how the customer selects pickup. Who prepares it, how is readiness marked, and what message does the buyer receive? Review opening times and what happens if the order is not collected. If you also offer delivery, make the choices understandable. Do not publish a pickup option simply because the software supports it when nobody is assigned to the physical handover.",
+  "heading_ar": "راجع المسار حتى تسليم القطعة",
+  "detail_ar": "اختر منتجًا متاحًا في فرع محدّد واختبر اختيار الاستلام. من يجهّزه وكيف يعلن جاهزيته وما الرسالة التي تصل؟ راجع المواعيد والطلب الذي لا يُستلم. وإذا توفر التوصيل أيضًا، وضّح الاختيار بينهما. لا تضف استلامًا لأن البرنامج يدعمه بينما لا يوجد شخص مسؤول عن التسليم الفعلي."
+}

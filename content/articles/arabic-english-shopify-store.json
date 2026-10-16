@@ -1,0 +1,187 @@
+{
+  "slug": "arabic-english-shopify-store",
+  "category": "international",
+  "service": "arabic-english-shopify",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/international/languages"
+    }
+  ],
+  "related": [
+    "arabic-shopify-rtl",
+    "shopify-markets-languages",
+    "shopify-product-descriptions"
+  ],
+  "en": {
+    "title": "How do you create an Arabic and English Shopify store?",
+    "answer": "Set up both languages as complete shopping experiences. Translating the homepage does not translate the product choices, delivery explanation or customer messages.",
+    "sections": [
+      [
+        "Inventory the content to translate",
+        "List menus, collection names, product details, size information, policy pages and customer messages. Assign translation and approval responsibilities. When a translation is missing, Shopify can display default-language content, so review the customer journey for mixed-language gaps rather than assuming publishing a language completes the work."
+      ],
+      [
+        "Review the presentation separately",
+        "Arabic introduces direction and typography requirements that translated text alone does not resolve. Check menu alignment, product cards, selectors and long titles on mobile. Keep brand names and technical identifiers consistent. Ask a fluent reviewer to judge the meaning, not just whether Arabic characters are present."
+      ],
+      [
+        "Test routes and notifications",
+        "Open a product directly in each language, switch language and continue to the cart. Review checkout and notifications in the configured setup, including connected apps. Record any third-party tool that does not match the storefront language and explain the limitation instead of leaving an unexpected change for the customer."
+      ],
+      [
+        "Follow one product all the way through",
+        "Choose a representative product and review its collection, description, options, cart and checkout in both languages. Note which parts come from the theme, Shopify or an external app. Agree who supplies and approves translations, including product terminology. Missing translations can fall back to the default language, so check the result on real pages. Review the same route again after a meaningful product or app change."
+      ]
+    ],
+    "checklist": [
+      "Inventory all customer-facing content.",
+      "Assign translation approval.",
+      "Review Arabic layout on mobile.",
+      "Test language links across the buying journey."
+    ],
+    "faq": [
+      [
+        "Is automatic translation enough to launch?",
+        "It can help prepare a draft, but review product facts, size terminology, policies and brand tone before publishing."
+      ]
+    ],
+    "editorial_detail_heading": "Follow one product all the way through",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Where missing translations tend to show up",
+      "columns": [
+        "Part of the journey",
+        "What to read in both languages"
+      ],
+      "rows": [
+        [
+          "Collection",
+          "Names, sorting and filtering labels."
+        ],
+        [
+          "Product",
+          "Facts, size names, selected options and delivery information."
+        ],
+        [
+          "Cart",
+          "Variant names, totals and important instructions."
+        ],
+        [
+          "Checkout and external tools",
+          "The language actually displayed by the configured platform or provider."
+        ],
+        [
+          "After ordering",
+          "Confirmation, fulfilment instructions and support links."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "What makes an Arabic translation feel natural",
+        "Keep the facts and intended action equivalent without copying English word order. Product and service terminology should remain consistent, but the sentence can change to make sense in Arabic. Read it aloud: would a customer ask or understand it that way? Check whether the reader gets an answer or only a literal sequence of instructions. Give the reviewer enough product context to judge the meaning."
+      ],
+      [
+        "Who maintains the second language?",
+        "Agree how a change to a product, policy or promotion reaches the other version. A translation that was correct at launch can become wrong after a later edit. Keep a short list of intentionally untranslated brand names and identifiers. Review external tools separately and explain limitations honestly. A fluent Arabic homepage does not establish that notifications, checkout and app content remain consistent."
+      ],
+      [
+        "Follow the same purchase in both languages",
+        "Choose a product with sizes and delivery information. Read its page, choose an option, add it to the cart and follow the permitted checkout journey in each language. Record every place where a translation disappears or the layout becomes difficult; a translated homepage alone does not complete this job."
+      ]
+    ],
+    "editorial_followup_heading": "Follow the same purchase in both languages"
+  },
+  "ar": {
+    "title": "كيف أخلي متجر شوبيفاي عربي وإنجليزي؟",
+    "answer": "تعامل مع كل لغة كرحلة شراء كاملة. ترجمة الرئيسية لا تكفي إذا بقيت المقاسات أو التوصيل أو رسائل العميل بلغة لا يفهمها.",
+    "sections": [
+      [
+        "احصر المحتوى المطلوب",
+        "ضمّن القوائم والتصنيفات والمنتجات والمقاسات والسياسات والرسائل. حدّد مسؤول الترجمة والاعتماد. قد تعرض شوبيفاي اللغة الافتراضية عند غياب الترجمة، لذلك راجع الفجوات بدل الاكتفاء بنشر اللغة."
+      ],
+      [
+        "راجع العرض البصري",
+        "تحتاج العربية إلى اتجاه وخط وتنسيق مناسب. افحص القوائم والبطاقات والخيارات والعناوين الطويلة على الجوال. حافظ على أسماء العلامات والمعرّفات، واطلب مراجعة المعنى من متحدث بالعربية."
+      ],
+      [
+        "اختبر المسارات والرسائل",
+        "افتح منتجًا بكل لغة وبدّلها ثم تابع للسلة. راجع الدفع والإشعارات والتطبيقات في الإعداد الفعلي، وسجّل أي أداة خارجية لا تتبع لغة المتجر."
+      ],
+      [
+        "تابع منتجًا حتى نهاية الطلب",
+        "اختر قطعة وراجع التصنيف والوصف والخيارات والسلة والدفع باللغتين. دوّن ما يأتي من القالب أو المنصة أو التطبيق. اتّفق على مسؤول الترجمة واعتماد مصطلحات المنتجات. قد تظهر اللغة الافتراضية عندما تنقص ترجمة، لذلك افتح الصفحات الحقيقية ولا تكتفِ بلوحة الإعدادات. وأعد المراجعة بعد تغيير مهم في المنتج أو التطبيقات."
+      ]
+    ],
+    "checklist": [
+      "احصر المحتوى الظاهر.",
+      "حدّد مسؤول الاعتماد.",
+      "راجع العربية على الجوال.",
+      "اختبر تبديل اللغة أثناء الشراء."
+    ],
+    "faq": [
+      [
+        "هل تكفي الترجمة الآلية للإطلاق؟",
+        "تساعد في المسودة، لكن يجب مراجعة الحقائق والمقاسات والسياسات ونبرة العلامة قبل النشر."
+      ]
+    ],
+    "editorial_detail_heading": "تابع منتجًا حتى نهاية الطلب",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "أين تظهر الترجمة الناقصة؟",
+      "columns": [
+        "المرحلة",
+        "ما الذي تقرأه باللغتين؟"
+      ],
+      "rows": [
+        [
+          "التصنيف",
+          "الأسماء وتسميات الترتيب والفلاتر."
+        ],
+        [
+          "المنتج",
+          "الحقائق والمقاسات والخيار المحدّد والتوصيل."
+        ],
+        [
+          "السلة",
+          "أسماء الخيارات والمبالغ والتعليمات المهمة."
+        ],
+        [
+          "الدفع والأدوات الخارجية",
+          "اللغة التي يعرضها الإعداد والمزوّد فعلًا."
+        ],
+        [
+          "بعد الطلب",
+          "التأكيد وتعليمات التنفيذ وروابط الدعم."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "ما الذي يجعل العربية طبيعية؟",
+        "حافظ على الحقائق والإجراء دون نسخ ترتيب الإنجليزية. وحّد أسماء المنتج والخدمة، لكن غيّر الجملة لتصبح مفهومة. اقرأها بصوت: هل يسأل العميل بهذه الطريقة وهل يجد جوابًا أم تعليمات حرفية؟ أعطِ المراجع سياق المنتج حتى يحكم على المعنى."
+      ],
+      [
+        "من يحدّث اللغة الثانية؟",
+        "اتفق كيف يصل تغيير المنتج والسياسة والعرض للنسخة الأخرى. قد تصبح ترجمة صحيحة عند الإطلاق خاطئة بعد تعديل لاحق. احتفظ بالأسماء والمعرّفات التي تبقى بلغتها، وراجع الأدوات الخارجية وحدودها. سلاسة الرئيسية لا تثبت اتّساق الدفع والإشعارات."
+      ],
+      [
+        "راجع رحلة الشراء، وليس الصفحة الرئيسية فقط",
+        "خذ منتجًا فيه مقاسات وأضفه إلى السلة بالعربية، ثم كرّر التجربة بالإنجليزية. راجع اسم الخيار، ورسالة نفاد المخزون، ومعلومات التوصيل، وأي نص يظهر من تطبيق خارجي. سجّل ما يحتاج تعديلًا في قائمة واضحة بدل الاكتفاء بقول إن المتجر مترجم. بعد ذلك اتفق مع الفريق على من يترجم المنتجات الجديدة، حتى لا تبدأ النسخة العربية مكتملة ثم تتوقف عند أول تحديث."
+      ]
+    ],
+    "editorial_followup_heading": "راجع رحلة الشراء، وليس الصفحة الرئيسية فقط"
+  },
+  "image": {
+    "src": "/assets/article-images/arabic-english-shopify-store.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two language panels joined by a language-switching route.",
+      "ar": "لوحتان لغويتان متصلتان بمسار لتبديل اللغة."
+    }
+  }
+}

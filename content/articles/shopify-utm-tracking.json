@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-utm-tracking",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/marketing-reports"
+    }
+  ],
+  "related": [
+    "shopify-campaign-landing-page",
+    "shopify-conversion-rate",
+    "shopify-sitemap-google"
+  ],
+  "en": {
+    "title": "How should you use UTM links for Shopify campaigns?",
+    "answer": "Use consistent campaign links and understand the report’s attribution rules. Tracking helps answer the question, but it cannot explain every influence on a purchase.",
+    "sections": [
+      [
+        "Agree a naming convention",
+        "Use stable source, medium and campaign values that your team understands. For example, distinguish a paid social campaign from an email announcement instead of using the same generic label for both. Keep a shared link sheet and avoid changing capitalisation or spelling between creatives accidentally."
+      ],
+      [
+        "Check the destination",
+        "Open the exact campaign link and verify that it reaches the intended page. Review whether campaign parameters survive any redirect or language switch where needed. Do not put names, email addresses, phone numbers or other personal information in URL tags that can appear in logs and analytics."
+      ],
+      [
+        "Compare reports with context",
+        "Attribution models and reporting windows can assign credit differently. A customer may discover the brand in one channel and return through another. Record your chosen reporting basis and use it consistently. Review completed commercial outcomes as well as traffic so a high-click campaign is not mistaken for a profitable one."
+      ],
+      [
+        "Keep a shared naming sheet",
+        "Use stable source, medium and campaign names across creatives. Open the complete link and check that redirects or language changes do not lose the intended context. Never put personal information in campaign tags. Compare reports using the same attribution basis and period: a customer can discover you in one channel and return through another. Review paid or fulfilled outcomes alongside clicks so a busy campaign is not mistaken for a profitable one."
+      ]
+    ],
+    "checklist": [
+      "Use a shared campaign naming convention.",
+      "Check the complete tagged destination.",
+      "Keep personal information out of URL tags.",
+      "Use consistent attribution definitions."
+    ],
+    "faq": [
+      [
+        "Will UTM tags explain every order?",
+        "No. Missing referrals, cross-device journeys and attribution rules can limit visibility. Treat reports as evidence with defined limits."
+      ]
+    ],
+    "editorial_detail_heading": "Keep a shared naming sheet",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Use names the whole team understands",
+        "Agree a small naming convention before publishing campaign links, then record the final URLs in one place. Check that navigation preserves the intended destination. Compare campaign reports with their known limits; a tagged visit is useful evidence but does not establish that one ad caused every later purchase."
+      ]
+    ],
+    "editorial_followup_heading": "Use names the whole team understands"
+  },
+  "ar": {
+    "title": "كيف أعرف أي إعلان جلب الزيارة أو الطلب؟",
+    "answer": "استخدم روابط حملة متّسقة وافهم طريقة إسناد التقرير. يساعد التتبّع على الإجابة لكنه لا يسجل كل مؤثر في قرار الشراء.",
+    "sections": [
+      [
+        "اتّفق على تسمية ثابتة",
+        "استخدم مصدرًا ووسيطًا وحملة يفهمها الفريق. ميّز الإعلان المدفوع عن البريد، واحتفظ بجدول روابط مشترك وتجنّب اختلاف الحروف والكتابة بين المواد دون قصد."
+      ],
+      [
+        "افحص الوجهة",
+        "افتح الرابط الكامل وراجع الصفحة واستمرار الوسوم عبر التحويل واللغة عند الحاجة. لا تضع أسماء أو بريدًا أو هاتفًا في الرابط؛ قد تظهر في السجلّات والتحليلات."
+      ],
+      [
+        "قارن في سياق واضح",
+        "قد تختلف نسبة الفضل بحسب نموذج الإسناد والفترة، وقد يعود العميل من قناة أخرى. وثّق أساس التقرير وقارن النتائج التجارية بالنقرات بدل اعتبار كثرة الزيارات دليل ربح."
+      ],
+      [
+        "احتفظ بجدول تسمية مشترك",
+        "وحّد المصدر والوسيط واسم الحملة بين المواد. افتح الرابط كاملًا وراجع التحويل واللغة، ولا تضع معلومات شخصية في الوسوم. قارن التقارير بأساس إسناد وفترة متّسقين؛ قد يكتشفك العميل بقناة ويعود بأخرى. راجع الطلبات المحصّلة أو المنفذة مع النقرات حتى لا تخلط كثرة النشاط بالربح."
+      ]
+    ],
+    "checklist": [
+      "وحّد أسماء الحملات.",
+      "اختبر الرابط الكامل.",
+      "لا تضع بيانات شخصية في الوسوم.",
+      "ثبّت تعريفات الإسناد."
+    ],
+    "faq": [
+      [
+        "هل تفسّر UTM كل طلب؟",
+        "لا. قد تحدّ الرحلات بين الأجهزة والإحالات الناقصة وقواعد الإسناد من الرؤية."
+      ]
+    ],
+    "editorial_detail_heading": "احتفظ بجدول تسمية مشترك",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أسمي الروابط حتى أستفيد من التقارير؟",
+        "اتفق على أسماء ثابتة للمصدر والحملة والمحتوى، واحتفظ بالروابط النهائية في ملف واحد بدل كتابة كل شخص صيغة مختلفة. جرّب الرابط وتأكد أنه يصل للصفحة الصحيحة وأن القيم لا تحتوي بيانات شخصية. عند قراءة النتائج، راجع اختلاف أدوات القياس والموافقات وتغيّر الجهاز، ولا تعتبر كل زيارة موسومة دليلًا كاملًا على سبب الشراء. التنظيم يساعد المقارنة، لكنه لا يزيل حدود التتبع أو يضمن تطابق كل التقارير."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أسمي الروابط حتى أستفيد من التقارير؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-utm-tracking.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Campaign link chain connecting traffic source, destination and outcome.",
+      "ar": "سلسلة روابط حملة تصل المصدر بالوجهة والنتيجة."
+    }
+  }
+}

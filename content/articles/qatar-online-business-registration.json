@@ -1,0 +1,165 @@
+{
+  "slug": "qatar-online-business-registration",
+  "category": "qatar",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar official commerce guidance",
+      "url": "https://www.moci.gov.qa/en/e-services"
+    },
+    {
+      "title": "Qatar official commerce guidance",
+      "url": "https://ecommerce.gov.qa/"
+    }
+  ],
+  "related": [
+    "qatar-home-business-online",
+    "qatar-business-website-trust",
+    "shopify-payments-qatar"
+  ],
+  "en": {
+    "title": "Where should you start when planning an online business in Qatar?",
+    "answer": "Start with the business you will operate, then confirm its registration route. Buying Shopify or a domain does not register that business.",
+    "sections": [
+      [
+        "Describe the business accurately",
+        "Write down what you sell, who fulfils it, where the business operates and whether products or services have additional approvals. These details help you ask the authority a specific question instead of relying on a generic online checklist."
+      ],
+      [
+        "Verify the applicable route",
+        "Review current MOCI services and confirm the requirements for your circumstances with the relevant authority or a qualified adviser. Do not apply a rule quoted for a different activity, ownership structure or country without checking its relevance."
+      ],
+      [
+        "Coordinate the website project",
+        "Keep registration, banking, provider verification and storefront work on a shared readiness list. Let the website brief reflect the approved activity and verified business details. Do not publish a license number or compliance badge that has not been issued to your business."
+      ],
+      [
+        "Prepare a question the authority can answer",
+        "Write a short description of the products, where they are prepared or stored, who owns the business and how orders are delivered. A home-prepared product, imported goods and a service can raise different questions. Use MOCI’s current services and ask which activity and approvals apply to your circumstances. Keep the answer and required documents with the launch plan. You can prepare content meanwhile, but do not present platform setup as a substitute for the business process."
+      ]
+    ],
+    "checklist": [
+      "Define the activity and operating model.",
+      "Confirm the official applicable route.",
+      "Coordinate approvals with launch readiness."
+    ],
+    "faq": [
+      [
+        "Does opening a Shopify account register a Qatar business?",
+        "No. Platform setup and official business registration are separate processes."
+      ]
+    ],
+    "editorial_detail_heading": "Prepare a question the authority can answer",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Information to have ready for an official enquiry",
+      "columns": [
+        "Explain",
+        "Why it helps"
+      ],
+      "rows": [
+        [
+          "What you sell or provide",
+          "The activity matters more than calling the project an online store."
+        ],
+        [
+          "Where goods are prepared or stored",
+          "A home-prepared item and imported stock can raise different questions."
+        ],
+        [
+          "How ownership and operation are arranged",
+          "Ask about your circumstances instead of copying another seller’s route."
+        ],
+        [
+          "How customers receive the product or service",
+          "Describe the actual delivery or service model to the relevant authority."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Take a specific description to the authority",
+        "Describe what you sell, how you fulfil it and whether the project operates from home, a shop or another arrangement. Ask for the process that applies to that activity and retain the official response. A generic registration list found online may omit a condition relevant to your business."
+      ]
+    ],
+    "editorial_followup_heading": "Take a specific description to the authority"
+  },
+  "ar": {
+    "title": "أريد أفتح متجرًا إلكترونيًا في قطر، من أين أبدأ؟",
+    "answer": "ابدأ بما ستبيعه وكيف ستعمل، ثم أكّد مسار تسجيل النشاط. شراء شوبيفاي أو دومين لا يسجّل مشروعك لدى الجهات الرسمية.",
+    "sections": [
+      [
+        "صف النشاط بدقة",
+        "حدّد المنتج والتنفيذ ومكان العمل وأي موافقات خاصة لتطرح سؤالًا محدّدًا على الجهة المعنية."
+      ],
+      [
+        "تحقّق من المسار",
+        "راجع الخدمات الحالية وأكّد المتطلّبات لظروفك مع الجهة أو مستشار مؤهّل بدل تطبيق قاعدة من نشاط آخر."
+      ],
+      [
+        "نسّق الإطلاق",
+        "اجمع التسجيل والبنك والتحقّق والموقع في قائمة جاهزية، ولا تنشر ترخيصًا أو علامة اعتماد غير صادرة لك."
+      ],
+      [
+        "جهّز سؤالًا يمكن للجهة الإجابة عنه",
+        "اكتب نوع المنتجات ومكان تحضيرها أو تخزينها وملكية النشاط وطريقة التسليم. قد تختلف أسئلة منتج منزلي عن بضاعة مستوردة أو خدمة. راجع خدمات الوزارة الحالية واسأل أي نشاط وموافقات تنطبق على ظروفك. احتفظ بالجواب والمستندات ضمن خطة الإطلاق. يمكنك تجهيز المحتوى بالتوازي، لكن إعداد المنصة ليس بديلًا عن إجراءات النشاط."
+      ]
+    ],
+    "checklist": [
+      "حدّد النشاط والتشغيل.",
+      "أكّد المسار الرسمي.",
+      "نسّق الاعتماد والإطلاق."
+    ],
+    "faq": [
+      [
+        "هل يسجّل حساب شوبيفاي نشاطًا قطريًا؟",
+        "إعداد المنصة والتسجيل الرسمي عمليتان منفصلتان."
+      ]
+    ],
+    "editorial_detail_heading": "جهّز سؤالًا يمكن للجهة الإجابة عنه",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "معلومات تجهّزها للاستفسار الرسمي",
+      "columns": [
+        "وضّح",
+        "لماذا يفيد؟"
+      ],
+      "rows": [
+        [
+          "ما تبيعه أو تقدّمه",
+          "النشاط أهم من تسمية المشروع متجرًا إلكترونيًا فقط."
+        ],
+        [
+          "أين يُحضّر أو يُخزّن",
+          "قد تختلف أسئلة التحضير المنزلي والبضاعة المستوردة."
+        ],
+        [
+          "الملكية وطريقة العمل",
+          "اسأل عن ظروفك بدل نسخ مسار بائع آخر."
+        ],
+        [
+          "كيف يستلم العميل",
+          "صف التوصيل أو الخدمة الفعلية للجهة المعنية."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "كيف أطلب معلومة تفيد حالتي؟",
+        "بدل سؤال عام عن «رخصة متجر»، اشرح ما ستبيعه وأين تعمل وكيف يستلم العميل الطلب. اسأل وزارة التجارة والصناعة والجهات المعنية عن المتطلبات الخاصة بهذا النشاط، وما الذي يلزم قبل بدء البيع. احتفظ بالردود والروابط الرسمية وراجعها عند تغيير النشاط. بعد وضوح هذا الجانب، نسّق معه حساب الدفع وبيانات الموقع؛ المقال يساعدك على ترتيب الأسئلة، لكنه لا يحدد ترخيصًا واحدًا يناسب جميع المشاريع."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أطلب معلومة تفيد حالتي؟"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-online-business-registration.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Structured website form and its related workflow symbol.",
+      "ar": "نموذج موقع منظّم ورمز لمسار العمل المرتبط به."
+    }
+  }
+}

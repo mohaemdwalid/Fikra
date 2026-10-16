@@ -1,0 +1,111 @@
+{
+  "slug": "website-contact-page",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+  ],
+  "related": [
+    "website-inquiry-forms",
+    "qatar-business-website-trust",
+    "website-homepage-content"
+  ],
+  "en": {
+    "title": "What makes a business contact page useful?",
+    "answer": "Give people a real route to a response and explain what happens after they use it. A form and a map do not prove anyone will reply.",
+    "sections": [
+      [
+        "Use verified details",
+        "Publish only channels and locations the business actually operates. If there is no public office, do not invent one. Show relevant opening or response information only when the team can maintain it. Keep the same details consistent across your public profiles."
+      ],
+      [
+        "Reduce uncertainty",
+        "Explain whether the visitor is requesting a quote, asking for support or booking a consultation. Keep the required information proportionate. A confirmation should describe what really happened; opening an email app is different from saving a form submission."
+      ],
+      [
+        "Verify delivery",
+        "Submit an approved test enquiry and confirm the receiving workflow. Check failure messages, mobile behaviour and who follows up. A visually complete form that silently loses messages is not a working contact route."
+      ],
+      [
+        "Follow the message after pressing send",
+        "Test where the enquiry goes and who receives it. Does the visitor get a genuine confirmation, or did the button only open an email app? Explain the difference accurately. Publish channels the team monitors and response information it can maintain. If you do not receive visitors at an office, do not add a borrowed address to make the page look complete. A clear, working channel is more useful than decorative contact options."
+      ]
+    ],
+    "checklist": [
+      "Publish verified channels.",
+      "Explain the enquiry process.",
+      "Verify actual receipt."
+    ],
+    "faq": [
+      [
+        "Must every contact page show an office map?",
+        "Only show a location that is real and relevant to how customers contact you."
+      ]
+    ],
+    "editorial_detail_heading": "Follow the message after pressing send",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Tell people what happens after contact",
+        "Show the channels you actually monitor and explain the purpose of each. If a form is the main route, say what information helps and avoid promising a response time the team cannot maintain. Check that the enquiry reaches a responsible person and can be answered without asking everything again."
+      ]
+    ],
+    "editorial_followup_heading": "Tell people what happens after contact"
+  },
+  "ar": {
+    "title": "كيف أجعل صفحة التواصل مفيدة فعلًا؟",
+    "answer": "وفّر طريقًا حقيقيًا للرد واشرح ما يحدث بعده. وجود نموذج وخريطة لا يثبت أن الرسالة ستصل أو أن أحدًا سيتابعها.",
+    "sections": [
+      [
+        "اعرض وسائل تتواصل من خلالها فعلًا",
+        "ضع رقمًا وبريدًا وموقعًا يستخدمها مشروعك فعلًا، وحدّد ساعات التواصل إذا كان الفريق يستطيع الالتزام بها. إذا لم يكن لديك مكتب يستقبل العملاء، لا تعرض عنوانًا يوحي بذلك. راجع هذه البيانات كلما تغيرت، حتى لا يصل العميل إلى رقم قديم بعد قراءة عرضك."
+      ],
+      [
+        "وضّح ما الذي سيرسله الزائر",
+        "هل يطلب عرض سعر، أم مساعدة في طلب، أم استشارة؟ سمّ الخطوة بوضوح واطلب المعلومات المناسبة لها. إذا كان الزر يفتح تطبيق البريد فقط، لا تعرض رسالة توحي بأن الطلب وصل بالفعل؛ العميل ما زال يحتاج إرسال الرسالة من التطبيق."
+      ],
+      [
+        "تأكد أن الرسالة تصل إلى من يرد عليها",
+        "أرسل رسالة تجريبية من خارج حسابات المشروع، وراجع أين وصلت ومن سيتابعها. جرّب ذلك من الهاتف أيضًا، وراجع رسالة الخطأ إذا تعذر الإرسال. نجاح شكل النموذج لا يكفي إذا كان البريد مفقودًا أو لا يعرف الفريق من يرد على الاستفسار."
+      ],
+      [
+        "تابع الرسالة بعد الضغط على الإرسال",
+        "اختبر أين تذهب ومن يستلمها. هل حُفظ الطلب أم فتح الزر تطبيق البريد فقط؟ اشرح ما حدث بدقة. انشر القنوات التي يتابعها الفريق ومعلومات استجابة يستطيع الالتزام بها. وإن لم تستقبل العملاء في مكتب، لا تضف عنوانًا مستعارًا لإكمال الشكل. قناة واضحة تعمل أفضل من خيارات كثيرة للزينة."
+      ]
+    ],
+    "checklist": [
+      "انشر قنوات موثّقة.",
+      "اشرح العملية.",
+      "تحقّق من الاستلام."
+    ],
+    "faq": [
+      [
+        "هل يلزم موقع مكتب على الخريطة؟",
+        "اعرض موقعًا حقيقيًا ومرتبطًا بتواصل العملاء فقط."
+      ]
+    ],
+    "editorial_detail_heading": "تابع الرسالة بعد الضغط على الإرسال",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا أضع بجانب وسيلة التواصل؟",
+        "اشرح للزائر ما القناة المناسبة لسؤاله وما المعلومات التي تساعدك على الرد، مثل نوع الخدمة أو رابط المتجر. اعرض وسائل تتابعها فعلًا، ولا تعد بوقت رد محدد إذا لم يستطع الفريق الالتزام به. جرّب الرسالة من هاتف وبريد خارجي وتأكد أنها وصلت لشخص مسؤول. صفحة التواصل لا تنتهي عند زر الإرسال؛ قيمتها أن يعرف العميل ما يحدث بعده وأن يستطيع فريقك متابعة الطلب بدون ضياع."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا أضع بجانب وسيلة التواصل؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-contact-page.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Structured website form and its related workflow symbol.",
+      "ar": "نموذج موقع منظّم ورمز لمسار العمل المرتبط به."
+    }
+  }
+}

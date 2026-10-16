@@ -1,0 +1,115 @@
+{
+  "slug": "shopify-versus-wix",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Wix Help Center",
+      "url": "https://support.wix.com/en/wix-stores"
+    },
+    {
+      "title": "Shopify documentation",
+      "url": "https://www.shopify.com/faq"
+    }
+  ],
+  "related": [
+    "business-website-types",
+    "why-choose-shopify",
+    "shopify-payments-qatar"
+  ],
+  "en": {
+    "title": "Shopify vs Wix for a small business: what should you compare?",
+    "answer": "It depends on whether the main job is presenting the business or operating a store. Test the same requirements on both options.",
+    "sections": [
+      [
+        "Test the same brief",
+        "Use a representative product, service page and mobile navigation task. If the project is mostly a business presentation with occasional enquiries, include that editing workflow. If selling is central, review inventory, options and order handling more deeply."
+      ],
+      [
+        "Verify the local requirements",
+        "Confirm payment eligibility, supported integrations, language layout and shipping configuration for your actual business. A feature available in another country or plan is not sufficient evidence for your Qatar setup."
+      ],
+      [
+        "Compare ongoing ownership",
+        "Review subscriptions, extensions, support and export options using current terms. Ask the future editor to maintain a page in each candidate. Document what you would give up or add with either choice rather than buying on a promotional starting price alone."
+      ],
+      [
+        "Put a realistic task in front of each option",
+        "Ask for one product with options, one service page and the buying route your Qatar customer would use. Check payment eligibility and Arabic layout in the actual plan, not in a demonstration for another country. Then have the future editor change a price or a page. Compare recurring costs, extensions and leaving the platform. The simpler option is useful when it handles your real work; the larger commerce setup is useful when you actually need its capabilities."
+      ]
+    ],
+    "checklist": [
+      "Use identical tasks.",
+      "Verify local selling requirements.",
+      "Compare support and exit terms."
+    ],
+    "faq": [
+      [
+        "Should a service website automatically choose Shopify?",
+        "Only if its commerce requirements justify that choice; evaluate the actual workflow."
+      ]
+    ],
+    "editorial_detail_heading": "Put a realistic task in front of each option",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Check where the small store may become complex",
+        "A small catalogue can still need unusual customisation, delivery or business integrations. Test those requirements before choosing on size alone. Ask what changes if the catalogue or workflow grows and what would need rebuilding; current simplicity is valuable only when it matches the business."
+      ]
+    ],
+    "editorial_followup_heading": "Check where the small store may become complex"
+  },
+  "ar": {
+    "title": "لمتجري الصغير، هل Wix يكفي أم أختار شوبيفاي؟",
+    "answer": "يعتمد على ما إذا كانت الحاجة الأساسية عرض النشاط أم تشغيل متجر. جرّب المتطلّبات نفسها على الخيارين بدل الاختيار من شكل العرض.",
+    "sections": [
+      [
+        "اختبر الوصف نفسه",
+        "جرّب منتجًا وصفحة خدمة وتصفّح الجوال، مع إدارة الطلبات عندما يكون البيع أساس النشاط."
+      ],
+      [
+        "تحقّق من احتياجات قطر",
+        "أكّد أهلية الدفع واللغة والشحن في الباقة والإعداد الفعليين، لا عرض دولة أخرى."
+      ],
+      [
+        "قارن التشغيل والخروج",
+        "راجع الاشتراك والإضافات والدعم والتصدير ودع المحرّر يجرّب التحديث بدل الاكتفاء بسعر ترويجي."
+      ],
+      [
+        "جرّب مهمة واقعية",
+        "اطلب منتجًا بخيارات وصفحة خدمة ورحلة شراء لعميلك في قطر. راجع أهلية الدفع والعربية في الباقة الفعلية لا عرض دولة أخرى. ثم دع المسؤول يعدّل سعرًا أو صفحة. قارن الاشتراك والإضافات والخروج من المنصة. يفيد الحل الأبسط عندما ينجز عملك، ويفيد نظام التجارة الأوسع عندما تحتاج خصائصه فعلًا."
+      ]
+    ],
+    "checklist": [
+      "وحّد المهام.",
+      "تحقّق من البيع محليًا.",
+      "قارن الدعم والخروج."
+    ],
+    "faq": [
+      [
+        "هل تختار الخدمة شوبيفاي تلقائيًا؟",
+        "عندما تبرّر متطلّبات التجارة ذلك، لا لمجرّد وجود موقع."
+      ]
+    ],
+    "editorial_detail_heading": "جرّب مهمة واقعية",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "صغر المتجر لا يعني بساطة كل احتياجاته",
+        "قد تبيع منتجات قليلة لكنها تحتاج تخصيصًا أو شحنًا خاصًا أو ربطًا مهمًا للعمل. اكتب هذه المتطلبات وجرّبها على الخيارين مع العربية والجوال والدفع المتاح لك. اسأل أيضًا ماذا يحدث عند زيادة المنتجات أو إضافة قناة بيع، وما الذي يحتاج إعادة عمل. لا تختَر منصة لأنها توصف بأنها للمبتدئين أو للمحترفين؛ اختر ما ينفذ احتياجاتك اليوم بتكلفة ومسؤوليات واضحة، مع فهم حدود التوسع لاحقًا."
+      ]
+    ],
+    "editorial_followup_heading": "صغر المتجر لا يعني بساطة كل احتياجاته"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-wix.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

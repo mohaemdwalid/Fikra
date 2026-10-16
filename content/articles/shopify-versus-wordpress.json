@@ -1,0 +1,213 @@
+{
+  "slug": "shopify-versus-wordpress",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/features/"
+    },
+    {
+      "title": "WooCommerce documentation",
+      "url": "https://woocommerce.com/documentation/woocommerce/getting-started/"
+    },
+    {
+      "title": "Shopify documentation",
+      "url": "https://www.shopify.com/faq"
+    }
+  ],
+  "related": [
+    "shopify-versus-woocommerce-cost",
+    "shopify-versus-woocommerce-maintenance",
+    "shopify-versus-woocommerce-seo"
+  ],
+  "en": {
+    "title": "Shopify vs WordPress: which fits your business?",
+    "answer": "For a product-led store, compare Shopify with WordPress plus WooCommerce, hosting and the required plugins. For a content-led website, WordPress may fit a different job.",
+    "sections": [
+      [
+        "Compare like with like",
+        "A WordPress brochure site and a Shopify store solve different problems. For ecommerce, include WooCommerce, the host and required extensions in the comparison. For a content-led website, evaluate editorial workflows rather than assuming a shopping cart is essential."
+      ],
+      [
+        "Assign technical responsibility",
+        "Self-hosted WordPress gives choices over hosting and software configuration. Shopify uses its managed platform model. In both cases, someone must maintain content, integrations and business settings. Document what the platform, host and agency actually cover."
+      ],
+      [
+        "Use a requirement matrix",
+        "Score the candidates against languages, payments in your market, catalogue editing, integrations and support. Test mandatory requirements first. Neither open source nor a subscription establishes that one platform is universally cheaper, more secure or better for every Qatar business."
+      ],
+      [
+        "Two examples that change the answer",
+        "A brand selling a defined clothing catalogue may prefer a commerce-focused setup if its payments, languages and fulfilment fit. A publication with complex editorial structure may prioritise WordPress’s content tools and add commerce only where needed. Neither example makes one platform universally better. Compare who manages hosting and updates, what your team can edit, how payments work in Qatar and the total recurring bill. Then test one difficult product and one representative content page on both options before committing."
+      ]
+    ],
+    "checklist": [
+      "Specify the WordPress configuration.",
+      "Assign maintenance responsibilities.",
+      "Test mandatory market requirements."
+    ],
+    "faq": [
+      [
+        "Is WordPress the same as WooCommerce?",
+        "No. WooCommerce adds commerce functionality to WordPress; distinguish the CMS from the store setup."
+      ]
+    ],
+    "editorial_detail_heading": "Two examples that change the answer",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "What the choice changes in everyday work",
+      "columns": [
+        "Question",
+        "Shopify",
+        "WordPress with WooCommerce"
+      ],
+      "rows": [
+        [
+          "Who runs the underlying platform?",
+          "Shopify operates its hosted platform. Your team still manages the storefront, apps and business settings.",
+          "The hosting and support arrangement decides who maintains the server, WordPress and extensions."
+        ],
+        [
+          "What will the editor do?",
+          "Try catalogue updates and the content pages your theme supports.",
+          "Try both the editorial workflow and the complete WooCommerce product workflow."
+        ],
+        [
+          "What can the store accept in Qatar?",
+          "Confirm an eligible provider and its current Shopify integration.",
+          "Confirm an eligible provider and its compatibility with the selected WooCommerce setup."
+        ],
+        [
+          "What belongs in the budget?",
+          "Subscription, implementation, theme, apps, payment costs and ongoing work.",
+          "Hosting, implementation, theme, plugins, payment costs and ongoing work."
+        ],
+        [
+          "When might the fit be stronger?",
+          "When the project is mainly commerce and the required selling routes fit.",
+          "When content structure or custom requirements justify the chosen setup and maintenance."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Who will look after the site six months later?",
+        "Ask the person who will actually maintain it, not only the person selling the build. In a self-hosted WordPress arrangement, identify who owns hosting, updates, backups and plugin compatibility. A managed contract may cover much of that work, but its scope matters. Shopify operates the hosted platform while your team still manages its content, theme changes and extensions. Either can be a sensible choice with the right responsibilities; neither becomes maintenance-free because somebody used that phrase in a proposal."
+      ],
+      [
+        "What changes if the business is in Qatar?",
+        "Check merchant eligibility and a real payment integration before comparing decorative storefront features. Then test Arabic content, address input, delivery coverage and the exact checkout you expect to use. A successful demo for a merchant in another country does not establish that your account can use the same payment route. Do not assume WordPress removes provider eligibility requirements or that Shopify Payments is identical to every payment method available on Shopify."
+      ],
+      [
+        "How to reach a decision you can explain",
+        "Write a short must-have list, ask both suppliers to demonstrate it and compare the complete recurring budget. If one required journey fails, investigate the gap before scoring minor conveniences. Finally have the future editor perform a routine update. The stronger proposal explains how your business will operate, what costs extra and what happens if you change suppliers. That evidence is more useful than a blanket claim that one platform is always cheaper or ranks better."
+      ],
+      [
+        "Keep the recommendation tied to a requirement",
+        "Ask whoever recommends a platform to name the business requirement behind that advice and show it working. Keep the demonstration and cost assumptions with the proposal. This lets you revisit the decision later if your editorial work, catalogue or team changes, instead of defending a platform choice by habit."
+      ]
+    ],
+    "editorial_followup_heading": "Keep the recommendation tied to a requirement"
+  },
+  "ar": {
+    "title": "شوبيفاي أو ووردبريس: أيهما أفضل لمشروعي؟",
+    "answer": "للمتجر، قارن شوبيفاي بووردبريس مع WooCommerce والاستضافة والإضافات اللازمة. أما موقع المحتوى أو الشركة فله احتياجات مختلفة؛ المقارنة ليست اسمين يؤديان الوظيفة نفسها تمامًا.",
+    "sections": [
+      [
+        "قارن حلولًا متكافئة",
+        "الموقع التعريفي يختلف عن المتجر. أدخل WooCommerce والاستضافة والإضافات عند مقارنة التجارة، وراجع التحرير لموقع المحتوى."
+      ],
+      [
+        "حدّد المسؤولية",
+        "تمنح الاستضافة الذاتية خيارات تقنية، بينما تستخدم شوبيفاي نموذج منصة مُدارة. تبقى مسؤوليات للمحتوى والربط في الحالتين."
+      ],
+      [
+        "استخدم جدول متطلّبات",
+        "اختبر اللغات والدفع والكتالوج والدعم والربط. كون المنصة مفتوحة المصدر أو باشتراك لا يجعلها أفضل لكل نشاط قطري."
+      ],
+      [
+        "مثالان يغيّران الإجابة",
+        "علامة تبيع كتالوج ملابس واضحًا قد تفضّل نظامًا يركّز على التجارة إذا ناسبها الدفع واللغة والتنفيذ. أما جهة تنشر محتوى كثيرًا ببنية تحرير معقّدة فقد تعطي الأولوية لووردبريس وتضيف البيع عند الحاجة. لا يجعل ذلك إحداهما أفضل للجميع. قارن مسؤول الاستضافة والتحديث وما تستطيع تعديله والدفع المتاح في قطر والفاتورة المستمرة. ثم جرّب منتجًا صعبًا وصفحة محتوى ممثّلة على الخيارين."
+      ]
+    ],
+    "checklist": [
+      "حدّد إعداد ووردبريس.",
+      "وزّع الصيانة.",
+      "اختبر احتياجات السوق."
+    ],
+    "faq": [
+      [
+        "هل ووردبريس هو WooCommerce؟",
+        "لا؛ يضيف WooCommerce وظائف التجارة إلى نظام ووردبريس."
+      ]
+    ],
+    "editorial_detail_heading": "مثالان يغيّران الإجابة",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "ما الذي يغيّره الاختيار في العمل اليومي؟",
+      "columns": [
+        "السؤال",
+        "شوبيفاي",
+        "ووردبريس مع WooCommerce"
+      ],
+      "rows": [
+        [
+          "من يدير الأساس التقني؟",
+          "تدير شوبيفاي منصتها، وتبقى الواجهة والتطبيقات وإعدادات النشاط بحاجة إلى متابعة.",
+          "يحدّد عقد الاستضافة والدعم من يدير الخادم والنظام والإضافات."
+        ],
+        [
+          "كيف يحدّث المسؤول المحتوى؟",
+          "جرّب الكتالوج والصفحات التي يدعمها القالب.",
+          "جرّب التحرير وإدارة المنتجات مع إعداد WooCommerce كاملًا."
+        ],
+        [
+          "كيف يعمل الدفع في قطر؟",
+          "أكّد مزوّدًا مؤهلًا وربطه الحالي بشوبيفاي.",
+          "أكّد مزوّدًا مؤهلًا وتوافقه مع الإعداد المختار."
+        ],
+        [
+          "ماذا تحسب في الميزانية؟",
+          "الاشتراك والتنفيذ والقالب والتطبيقات والدفع والمتابعة.",
+          "الاستضافة والتنفيذ والقالب والإضافات والدفع والمتابعة."
+        ],
+        [
+          "متى قد يناسبك أكثر؟",
+          "عندما تتمحور الحاجة حول التجارة وتناسبها مسارات البيع المدعومة.",
+          "عندما تبرّر بنية المحتوى أو الخصائص الخاصة الإعداد وصيانته."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "من سيدير الموقع بعد ستة أشهر؟",
+        "اسأل من سيحدّث الموقع، لا من يبيع التنفيذ فقط. في ووردبريس الذاتي، حدّد مسؤول الاستضافة والتحديث والنسخ وتوافق الإضافات. قد يغطي عقد إدارة كثيرًا من ذلك، لكن راجع نطاقه. تدير شوبيفاي منصتها، وتبقى على الفريق مسؤوليات المحتوى والتعديلات والإضافات. يمكن أن يناسبك أي منهما مع توزيع واضح؛ عبارة «بلا صيانة» لا تلغي العمل."
+      ],
+      [
+        "ما الذي يتغيّر عندما يكون النشاط في قطر؟",
+        "ابدأ بأهلية التاجر وربط دفع فعلي قبل المفاضلة على الزينة. ثم اختبر العربية والعنوان والتغطية والدفع الذي ستستخدمه. عرض ناجح لتاجر في دولة أخرى لا يثبت أهلية حسابك للطريقة نفسها. ووردبريس لا يلغي متطلبات المزوّد، وShopify Payments ليس اسمًا لكل طرق الدفع على شوبيفاي."
+      ],
+      [
+        "كيف تصل إلى قرار تستطيع تفسيره؟",
+        "اكتب الضروري واطلب تجربته على الخيارين وقارن التكلفة المستمرة كاملة. إذا فشل مسار أساسي، افهم الفجوة قبل مقارنة تحسينات صغيرة. ثم دع المحرّر يقوم بتحديث معتاد. العرض الأقوى يشرح التشغيل والإضافي وتغيير المورّد، لا يكتفي بادّعاء أن منصة أرخص أو أفضل بحثًا دائمًا."
+      ],
+      [
+        "ما السؤال الذي أوجهه لمن ينصحني بمنصة؟",
+        "اسأله: ما الحاجة في مشروعي التي تجعل هذا الخيار أنسب، وهل تستطيع عرضها عمليًا؟ اطلب ربط التوصية بالبيع أو المحتوى أو إدارة الفريق أو الميزانية، مع توضيح ما يحتاج عملًا إضافيًا. احتفظ بالافتراضات والعرض حتى تستطيع مراجعة القرار عندما يتغير المشروع. إذا كانت الإجابة تعتمد فقط على أن المنصة مشهورة أو أن الشركة تستخدمها دائمًا، فأنت ما زلت تحتاج مقارنة تخص احتياجاتك أنت."
+      ]
+    ],
+    "editorial_followup_heading": "ما السؤال الذي أوجهه لمن ينصحني بمنصة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-versus-wordpress.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

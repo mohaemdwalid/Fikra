@@ -1,0 +1,111 @@
+{
+  "slug": "website-project-ownership",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/features/"
+    }
+  ],
+  "related": [
+    "domain-versus-hosting",
+    "website-maintenance-or-rebuild",
+    "prepare-shopify-project"
+  ],
+  "en": {
+    "title": "Who should own your website accounts and content?",
+    "answer": "Make the accounts and handover explicit. Paying for a site does not automatically explain who controls the domain, licenses or recovery access.",
+    "sections": [
+      [
+        "Inventory the dependencies",
+        "List the domain, hosting, CMS, payment tools, analytics and purchased assets. Identify the registered owner and permissions for each. Some software and media are licensed, so review their actual terms before promising unrestricted reuse."
+      ],
+      [
+        "Use permissions instead of shared passwords",
+        "Give suppliers the access needed for the task and retain business recovery methods. Record who can publish changes or approve spending. Review access when contracts end; removing a contractor should not disable the site."
+      ],
+      [
+        "Specify the handover",
+        "Request source files where agreed, editing instructions, configuration records and renewal details. WordPress’s open-source model does not automatically transfer a supplier’s separate hosting or stock-media contracts. Check the complete arrangement, not only the platform name."
+      ],
+      [
+        "Ask what happens if the supplier changes",
+        "Could another person update the site, renew the domain and restore access without chasing the previous agency? List the accounts and the business owner for each. Distinguish files created for you from licensed fonts, media or extensions with their own terms. Agree which source files, instructions and configuration records are included. Use permissions for supplier access rather than making the business dependent on one shared password or a contractor’s private email."
+      ]
+    ],
+    "checklist": [
+      "Inventory accounts and licenses.",
+      "Keep business recovery access.",
+      "Write the handover scope."
+    ],
+    "faq": [
+      [
+        "Does paying an invoice settle every ownership issue?",
+        "The agreement and individual licenses determine what is included; clarify them before approval."
+      ]
+    ],
+    "editorial_detail_heading": "Ask what happens if the supplier changes",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Make a handover inventory",
+        "List the domain, hosting or platform, source files where applicable, third-party services and billing accounts. Record the owner and the access the business receives for each. Agree what happens when the relationship ends. A final invoice alone does not clarify licensing, account ownership or the work needed to change suppliers."
+      ]
+    ],
+    "editorial_followup_heading": "Make a handover inventory"
+  },
+  "ar": {
+    "title": "بعد ما أدفع للموقع، ما الذي يجب أن يكون باسمي؟",
+    "answer": "وضّح الحسابات والتسليم من البداية. دفع تكلفة الموقع لا يشرح وحده من يملك الدومين أو التراخيص أو صلاحية استعادة الحساب.",
+    "sections": [
+      [
+        "احصر التبعيات",
+        "دوّن النطاق والاستضافة والمنصة والدفع والتحليلات والأصول المشتراة ومالك كل حساب. راجع تراخيص البرامج والوسائط."
+      ],
+      [
+        "استخدم الصلاحيات",
+        "امنح المورّد ما يلزم للمهمة مع استعادة لدى النشاط، وحدّد من ينشر أو يوافق على الإنفاق."
+      ],
+      [
+        "وثّق التسليم",
+        "اطلب الملفات المتّفق عليها وتعليمات التحرير والإعداد والتجديد. انفتاح المنصة لا ينقل تلقائيًا عقود الاستضافة أو الصور."
+      ],
+      [
+        "اسأل: ماذا لو تغيّرت الجهة المنفّذة؟",
+        "هل يستطيع شخص آخر تحديث الموقع وتجديد الدومين واستعادة الدخول دون ملاحقة المورّد السابق؟ احصر الحسابات ومالك كل منها. ميّز ملفات المشروع عن الخطوط والصور والإضافات المرخّصة بشروطها. واتّفق على الملفات والتعليمات والإعدادات التي ستُسلَّم. امنح صلاحيات للعمل بدل ربط النشاط ببريد شخصي أو كلمة مرور مشتركة لا تعرف من يستخدمها."
+      ]
+    ],
+    "checklist": [
+      "احصر الحسابات والتراخيص.",
+      "احفظ وصول الاستعادة.",
+      "اكتب نطاق التسليم."
+    ],
+    "faq": [
+      [
+        "هل تسوية الفاتورة تحسم كل الملكية؟",
+        "حدّدها الاتفاق والتراخيص؛ وضّحها قبل الاعتماد."
+      ]
+    ],
+    "editorial_detail_heading": "اسأل: ماذا لو تغيّرت الجهة المنفّذة؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما القائمة التي أطلبها عند التسليم؟",
+        "اطلب جدولًا بالنطاق والمنصة أو الاستضافة والحسابات والخدمات المدفوعة والملفات التي يشملها الاتفاق. أمام كل بند، حدّد المالك ومن يدفع ومن يستطيع استرداد الوصول. راجع أيضًا تراخيص الصور والقوالب وما يسمح العقد بنقله أو تعديله. الدفع وحده لا يشرح هذه التفاصيل؛ توثيقها يساعدك عند تغيير المورد أو الموظف، ويمنع ارتباط أصل مهم للمشروع بحساب شخصي لا تستطيع الدخول إليه."
+      ]
+    ],
+    "editorial_followup_heading": "ما القائمة التي أطلبها عند التسليم؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-project-ownership.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Business control and verification diagram beside an information panel.",
+      "ar": "رسم للتحكّم والتحقّق بجانب لوحة معلومات."
+    }
+  }
+}

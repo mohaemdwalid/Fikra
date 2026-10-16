@@ -1,0 +1,10 @@
+{
+  "slug": "mobile-shopify-design",
+  "title_ar": "كيف أعرف أن متجري مريح على الجوال؟",
+  "lead_en": "Watch someone find and buy a product on a phone. Fitting within the screen is necessary, but it is not the whole experience.",
+  "lead_ar": "راقب شخصًا يعثر على قطعة ويشتريها من الهاتف. ملاءمة العرض للشاشة مهمة، لكنها لا تثبت أن النص والاختيار والدفع مريحون.",
+  "heading_en": "Give the shopper a task, not a tour",
+  "detail_en": "Ask them to find an item, inspect its size information and select a variant without coaching. Notice wrong taps and places they hesitate. Review sticky buttons, chat and consent overlays together; individually neat widgets can cover the same small screen. Use a long title, an unavailable option and Arabic labels if supported. The useful result is a completed, understood task, not merely a screenshot without horizontal scrolling.",
+  "heading_ar": "أعطِه مهمة بدل جولة شرح",
+  "detail_ar": "اطلب إيجاد قطعة ومراجعة المقاس واختيار الخيار دون مساعدتك. راقب الضغط الخاطئ والتردّد. افحص الأزرار الثابتة والدردشة والتنبيهات معًا؛ قد تكون جميلة منفردة وتغطي الشاشة عند اجتماعها. جرّب عنوانًا طويلًا وخيارًا نافدًا والعربية. المعيار إتمام مهمة مفهومة، لا لقطة بلا تمرير أفقي فقط."
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-pos-qatar",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/sell-in-person"
+    }
+  ],
+  "related": [
+    "shopify-inventory-locations",
+    "qatar-click-and-collect",
+    "shopify-payments-qatar"
+  ],
+  "en": {
+    "title": "What should a Qatar retailer check before combining Shopify POS and online sales?",
+    "answer": "Check the exact software, hardware and payment arrangement for Qatar before buying equipment. Regional support can differ between those parts.",
+    "sections": [
+      [
+        "Map in-person operations",
+        "List checkout, stock transfers, returns and staff access needs. Decide which inventory should be shared with online orders and how locations are represented. Include the person managing the physical shop in the demonstration."
+      ],
+      [
+        "Verify compatibility",
+        "Check current software, hardware, plan and payment requirements directly. Avoid assuming a card reader promoted in another country is supported for the Qatar business. Document any separate payment terminal or reconciliation process."
+      ],
+      [
+        "Test across channels",
+        "Review an approved in-store transaction, an online order and a return against the intended stock workflow. Confirm receipts and reporting. A unified product list is not proof that every financial and fulfilment process is integrated."
+      ],
+      [
+        "Review the real counter workflow",
+        "Ask the shop operator to demonstrate a sale, a return and a stock movement using the proposed setup. Check which quantities serve online orders and pickup. Confirm current equipment and payment eligibility directly, and document any separate terminal or settlement process. Sharing products across channels is not proof of shared financial handling. Avoid importing a card reader first and discovering afterward that the intended provider does not support it for the business."
+      ]
+    ],
+    "checklist": [
+      "Define retail and online tasks.",
+      "Confirm local equipment and payment support.",
+      "Test inventory and reconciliation."
+    ],
+    "faq": [
+      [
+        "Can I import any Shopify-branded card reader for Qatar use?",
+        "Verify regional compatibility and approval before buying equipment."
+      ]
+    ],
+    "editorial_detail_heading": "Review the real counter workflow",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Demonstrate your shop's routine",
+        "Ask to see a sale, a return and stock reconciliation using the proposed hardware, payment route and subscription. Confirm country-specific availability directly with the relevant providers. A video of a shop overseas can explain the concept but cannot confirm that the same arrangement works for your Qatar business."
+      ]
+    ],
+    "editorial_followup_heading": "Demonstrate your shop's routine"
+  },
+  "ar": {
+    "title": "هل Shopify POS يناسب فرعي في قطر؟",
+    "answer": "أكّد البرنامج والجهاز وطريقة الدفع لقطر قبل شراء المعدات. قد تختلف تغطية كل جزء، فلا تفترض أن ما يظهر في إعلان دولي يعمل لديك.",
+    "sections": [
+      [
+        "ارسم تشغيل الفرع",
+        "حدّد البيع والنقل والاسترجاع والصلاحيات والمخزون المشترك مع مسؤول الفرع."
+      ],
+      [
+        "تحقّق من التوافق",
+        "راجع الباقة والجهاز والدفع الحالي ولا تفترض دعم قارئ معروض لدولة أخرى، ووثّق المطابقة المنفصلة."
+      ],
+      [
+        "اختبر القناتين",
+        "راجع معاملة حضورية وطلبًا إلكترونيًا واسترجاعًا مع المخزون والإيصالات؛ قائمة موحّدة لا تثبت تكامل كل شيء."
+      ],
+      [
+        "راجع عمل نقطة البيع",
+        "اطلب من مسؤول الفرع تجربة بيع واسترجاع وحركة مخزون بالإعداد المقترح. حدّد ما يخدم الإنترنت والاستلام، وأكّد الجهاز والدفع الحاليين ووثّق أي جهاز أو مطابقة منفصلة. مشاركة المنتجات لا تثبت وحدة التعامل المالي. لا تستورد قارئًا أولًا ثم تكتشف أن المزوّد لا يدعمه لنشاطك."
+      ]
+    ],
+    "checklist": [
+      "حدّد مهام القناتين.",
+      "أكّد الدعم المحلي.",
+      "اختبر المخزون والمطابقة."
+    ],
+    "faq": [
+      [
+        "هل تستورد أي قارئ يحمل العلامة؟",
+        "تحقّق من التوافق والاعتماد الجغرافي قبل الشراء."
+      ]
+    ],
+    "editorial_detail_heading": "راجع عمل نقطة البيع",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "اطلب تجربة تشبه عمل فرعك",
+        "اكتب مثالًا لبيع قطعة ثم استبدالها ومراجعة مخزونها، واطلب تنفيذ هذه الخطوات بالإعداد والأجهزة المقترحة. اسأل عن توافق وسيلة الدفع والدعم والتوافر في قطر من الجهات المعنية مباشرة. قد يكون النظام مناسبًا لإدارة جزء من العمل بينما يحتاج تحصيل البطاقة ترتيبًا مختلفًا. لا تتخذ القرار من فيديو لفرع في دولة أخرى؛ ما يهم هو ما تستطيع تشغيله وصيانته ومطابقة حساباته في مشروعك."
+      ]
+    ],
+    "editorial_followup_heading": "اطلب تجربة تشبه عمل فرعك"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-pos-qatar.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Parcel connected to a fulfilment destination or service.",
+      "ar": "طرد متصل بوجهة أو خدمة تنفيذ."
+    }
+  }
+}

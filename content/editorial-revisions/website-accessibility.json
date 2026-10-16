@@ -1,0 +1,10 @@
+{
+  "slug": "website-accessibility",
+  "title_ar": "ماذا يعني أن يكون الموقع سهل الاستخدام للجميع؟",
+  "lead_en": "People should be able to understand and use the site with different abilities and input methods. Accessibility is part of how the page works, not just how it looks.",
+  "lead_ar": "يجب أن يستطيع الناس فهم الموقع واستخدامه بقدرات ووسائل تحكّم مختلفة. سهولة الوصول جزء من عمل الصفحة، وليست مجرد شكل أو لون.",
+  "heading_en": "Try a task without a mouse",
+  "detail_en": "Use the keyboard to reach a menu, open a dialog and complete a form. Can you see where focus is, understand the controls and close the dialog again? Check meaningful images, contrast and error messages as well. A person who cannot distinguish a colour still needs to know which size is selected. Automated tools can find some faults, but they cannot judge every task. Include manual review and continue checking when editors add new content.",
+  "heading_ar": "جرّب المهمة دون فأرة",
+  "detail_ar": "تنقّل بالمفاتيح وافتح القائمة والنافذة والنموذج. هل ترى موضع التركيز وتفهم التحكم وتستطيع الإغلاق؟ راجع الصور المهمة والتباين ورسائل الخطأ أيضًا. من لا يميّز لونًا يحتاج إلى معرفة المقاس المختار بطريقة أخرى. تكشف الأدوات بعض الأخطاء لكنها لا تحكم على كل مهمة؛ أضف مراجعة يدوية واستمر بها مع المحتوى الجديد."
+}

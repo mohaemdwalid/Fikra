@@ -125,6 +125,35 @@
   Object.assign(ar, window.FIKRA_FUNNEL_AR || {});
   ar['Scroll to explore the stores and shopping experiences.'] = 'مرّر لاستكشاف المتاجر وتجارب التسوّق.';
   const t = value => document.documentElement.lang === 'ar' ? ar[value] || value : value;
+  // Published language pages contain their text in HTML, including without JS.
+  const staticLocale = document.documentElement.dataset.staticLocale;
+  if (staticLocale === 'en' || staticLocale === 'ar') {
+    const alternate = lang => document.querySelector(`link[rel="alternate"][hreflang="${lang}"]`);
+    function localeUrl(lang) {
+      const link = alternate(lang);
+      if (!link) return null;
+      const url = new URL(link.href);
+      // Keep local previews on the local host and preserve campaign attribution.
+      const target = new URL(url.pathname, location.origin);
+      const params = new URLSearchParams(location.search); params.delete('lang');
+      target.search = params.toString(); target.hash = location.hash;
+      return target.pathname + target.search + target.hash;
+    }
+    const requested = new URLSearchParams(location.search).get('lang');
+    if ((requested === 'ar' || requested === 'en') && requested !== staticLocale) {
+      const target = localeUrl(requested); if (target) { location.replace(target); return; }
+    }
+    const lang = staticLocale === 'ar' ? 'en' : 'ar';
+    const switcher = document.createElement('a');
+    switcher.className = 'fikra-language'; switcher.href = localeUrl(lang);
+    switcher.textContent = lang === 'ar' ? 'العربية' : 'English'; switcher.lang = lang;
+    switcher.setAttribute('aria-label', lang === 'ar' ? 'التبديل إلى العربية' : 'Switch to English');
+    document.querySelector('.navbar-wrapper')?.append(switcher);
+    window.FIKRA_I18N = {t, apply(lang) { const target = localeUrl(lang); if (target) location.assign(target); }};
+    try { localStorage.setItem('fikra-language', staticLocale); } catch {}
+    window.dispatchEvent(new CustomEvent('fikra:language', {detail: staticLocale}));
+    return;
+  }
   const nodes = [];
   const walk = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   while (walk.nextNode()) {

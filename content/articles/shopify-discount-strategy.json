@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-discount-strategy",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/discounts"
+    }
+  ],
+  "related": [
+    "shopify-campaign-landing-page",
+    "shopify-shipping-rates",
+    "shopify-conversion-rate"
+  ],
+  "en": {
+    "title": "How do you plan Shopify discounts without confusing customers?",
+    "answer": "Give the promotion a purpose and calculate it with your own costs. More orders do not necessarily mean a better result.",
+    "sections": [
+      [
+        "Define what the offer is for",
+        "Decide whether the promotion supports a launch, a specific collection or another measurable goal. Record eligible products, customer conditions, dates and redemption limits where applicable. Do not use a crossed-out price or urgency message that misrepresents the actual offer."
+      ],
+      [
+        "Check the economics",
+        "Calculate the reduction alongside fulfilment, payment and product costs using your own numbers. A promotion can increase order count while reducing contribution. Review whether a free-shipping threshold or a product-specific offer better fits the goal instead of automatically discounting the entire catalogue."
+      ],
+      [
+        "Test combinations and communication",
+        "Review the current discount-combination rules for your setup. Try eligible and ineligible items, boundary basket values and any relevant automatic discounts. Make the advert, landing page, cart and checkout describe the same conditions. Keep someone responsible for removing expired banners after the campaign."
+      ],
+      [
+        "Test the offer the customer will actually use",
+        "Write eligible products, dates and limits before designing the banner. Try an eligible basket, an ineligible one and the exact discount combinations customers may enter. Include fulfilment and payment costs in the commercial review. Keep the advert, cart and checkout consistent, and remove expired claims afterward. If the real barrier is unclear product information, a broad discount may spend margin without solving the customer’s uncertainty."
+      ]
+    ],
+    "checklist": [
+      "Write the promotion’s goal and conditions.",
+      "Check margin using actual costs.",
+      "Test eligible and ineligible baskets.",
+      "Align messaging and remove expired offers."
+    ],
+    "faq": [
+      [
+        "Can I assume two discounts will combine?",
+        "No. Check the current rules and configured eligibility, then test the exact combination customers may use."
+      ]
+    ],
+    "editorial_detail_heading": "Test the offer the customer will actually use",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Test the awkward baskets",
+        "Try the discount with an excluded product, another promotion and a basket near any qualifying threshold. Confirm the total makes sense for both the customer and the business. Publish the conditions in clear language and decide how staff handle an order placed just before an offer expires."
+      ]
+    ],
+    "editorial_followup_heading": "Test the awkward baskets"
+  },
+  "ar": {
+    "title": "كيف أعمل خصمًا يفيد المتجر بدون خسارة أو إرباك؟",
+    "answer": "حدّد غرض العرض واحسبه بتكاليفك. زيادة عدد الطلبات لا تعني دائمًا نتيجة أفضل إذا تقلّص الهامش أو تعقّد التنفيذ.",
+    "sections": [
+      [
+        "حدّد هدف العرض",
+        "هل يدعم إطلاقًا أم مجموعة معيّنة؟ وثّق المنتجات والأهلية والتواريخ وحدود الاستخدام عند الحاجة. لا تستخدم سعرًا مشطوبًا أو استعجالًا يضلّل بشأن العرض الفعلي."
+      ],
+      [
+        "راجع اقتصادياته",
+        "احسب التخفيض مع تكلفة المنتج والتنفيذ والدفع بأرقامك. قد يزيد عدد الطلبات ويقل العائد. قارن عرضًا لمنتجات محدّدة أو حد شحن مجاني بخصم الكتالوج كله."
+      ],
+      [
+        "اختبر الجمع والرسائل",
+        "راجع قواعد الجمع الحالية وجرّب منتجات مؤهّلة وغير مؤهّلة وحدود السلة والخصومات التلقائية. طابق الشروط بين الإعلان والصفحة والسلة والدفع وحدّد مسؤول إزالة البنرات المنتهية."
+      ],
+      [
+        "اختبر العرض الذي سيستخدمه العميل",
+        "اكتب المنتجات والتواريخ والحدود قبل البنر. جرّب سلة مؤهلة وأخرى غير مؤهلة وتركيبات الخصومات المتوقعة. أدخل تكلفة التنفيذ والدفع في الحساب، وطابق الإعلان والسلة والدفع وأزل المنتهي. وإذا كانت المشكلة وصفًا غير واضح، فقد تنفق هامشك بالخصم دون معالجة تردّد العميل أصلًا."
+      ]
+    ],
+    "checklist": [
+      "دوّن الهدف والشروط.",
+      "احسب الهامش الفعلي.",
+      "اختبر حالات الأهلية.",
+      "وحّد الرسائل وأزل المنتهي."
+    ],
+    "faq": [
+      [
+        "هل أفترض إمكانية جمع خصمين؟",
+        "راجع القواعد والإعدادات الحالية واختبر التركيبة الفعلية قبل الإعلان عنها."
+      ]
+    ],
+    "editorial_detail_heading": "اختبر العرض الذي سيستخدمه العميل",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "جرّب الخصم على أكثر من سلة",
+        "اختبر سلة تحقق الشروط وأخرى لا تحققها، وأضف منتجًا مستثنى أو عرضًا آخر لترى النتيجة. راجع أثر الشحن وتكلفة المنتج قبل اعتماد العرض، وليس نسبة الخصم وحدها. اشرح الحد الأدنى والمنتجات المشمولة والمدة بلغة واضحة، وحدّد كيف يتصرف الفريق إذا واجه العميل مشكلة. بهذه الخطوات تكتشف التعارضات قبل الإعلان، بدل تعديل السعر يدويًا لعشرات الطلبات بعد إطلاق الحملة."
+      ]
+    ],
+    "editorial_followup_heading": "جرّب الخصم على أكثر من سلة"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-discount-strategy.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Discount tag beside an offer-conditions worksheet.",
+      "ar": "بطاقة خصم بجانب ورقة لشروط العرض."
+    }
+  }
+}

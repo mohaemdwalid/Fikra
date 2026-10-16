@@ -1,0 +1,111 @@
+{
+  "slug": "website-or-instagram",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing"
+    }
+  ],
+  "related": [
+    "why-business-needs-website",
+    "shopify-social-selling",
+    "website-inquiry-forms"
+  ],
+  "en": {
+    "title": "Is Instagram enough, or does your business need a website?",
+    "answer": "You can keep Instagram as a discovery channel and use a website for details or purchases. They do not have to compete for the same job.",
+    "sections": [
+      [
+        "Identify the repeated work",
+        "Review messages about prices, product options, delivery or booking. If the same answers are scattered across posts, a permanent page can make the next step clearer. Keep social content linked to the relevant destination."
+      ],
+      [
+        "Protect the buying context",
+        "A product advert should lead to that product or a matching explanation. Sending every visitor to a generic profile can require them to search again. Test the route as someone who has never spoken to you."
+      ],
+      [
+        "Maintain both deliberately",
+        "Use social media for discovery and conversation, then keep approved details on pages you can update consistently. Account access, response ownership and working links matter on both surfaces. Neither follower count nor a new domain proves sales demand."
+      ],
+      [
+        "When messages become the bottleneck",
+        "Imagine promoting a product and answering its size, delivery and price questions separately for every interested person. A matching product page can put those answers and the purchase step together. If your service genuinely needs a conversation, keep that route, but give people useful context first. Link a specific post to a relevant destination instead of making visitors search through the profile or homepage to find the item again."
+      ]
+    ],
+    "checklist": [
+      "Audit repeated messages.",
+      "Link posts to relevant pages.",
+      "Keep details consistent."
+    ],
+    "faq": [
+      [
+        "Can I keep taking orders through messages?",
+        "Yes, if it fits your operations; assess errors and manual workload before changing the process."
+      ]
+    ],
+    "editorial_detail_heading": "When messages become the bottleneck",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Give each channel a clear job",
+        "Use social posts for discovery and conversation where they work for your audience, then give interested people a stable place to read details or buy. Keep product information consistent. A website needs upkeep and visitors too, so define the role before treating it as a substitute for all social activity."
+      ]
+    ],
+    "editorial_followup_heading": "Give each channel a clear job"
+  },
+  "ar": {
+    "title": "عندي إنستغرام، هل أحتاج موقعًا أيضًا؟",
+    "answer": "يمكن أن يعرّف إنستغرام الناس بك، ويتولّى الموقع التفاصيل أو الشراء. ليس ضروريًا أن تختار واحدًا وتلغي الآخر؛ المهم أن تعرف وظيفة كل قناة.",
+    "sections": [
+      [
+        "راجع العمل المتكرّر",
+        "اجمع رسائل الأسعار والخيارات والتوصيل والحجز. قد تختصر صفحة ثابتة تكرار الإجابات الموزّعة بين المنشورات."
+      ],
+      [
+        "حافظ على سياق الشراء",
+        "اربط إعلان المنتج بصفحته أو شرح مطابق بدل إجبار الزائر على البحث مجددًا داخل الحساب."
+      ],
+      [
+        "حدّث القناتين",
+        "استخدم التواصل للاكتشاف والمحادثة وصفحاتك للتفاصيل المعتمدة. وحّد الوصول والمسؤوليات والروابط؛ المتابعون لا يثبتون طلبًا تجاريًا وحدهم."
+      ],
+      [
+        "متى تصبح الرسائل عائقًا؟",
+        "تخيّل إعلان قطعة ثم إعادة شرح المقاسات والتوصيل والسعر لكل شخص. تستطيع صفحتها جمع الإجابات وخطوة الشراء. وإذا كانت خدمتك تحتاج إلى حديث، أبقِ التواصل لكن قدّم تفاصيل تساعد العميل قبل الرسالة. واربط المنشور بوجهته المناسبة بدل أن يبدأ البحث من جديد داخل الحساب أو الرئيسية. الموقع الجيد يكمّل المحادثة ولا يضيف خطوة بلا فائدة."
+      ]
+    ],
+    "checklist": [
+      "راجع الرسائل المتكرّرة.",
+      "اربط بالصفحات المناسبة.",
+      "وحّد التفاصيل."
+    ],
+    "faq": [
+      [
+        "هل يمكن متابعة الطلبات عبر الرسائل؟",
+        "نعم إذا ناسب التشغيل؛ قيّم الأخطاء والجهد قبل تغيير العملية."
+      ]
+    ],
+    "editorial_detail_heading": "متى تصبح الرسائل عائقًا؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف يعمل الموقع مع إنستغرام؟",
+        "قد يتعرف العميل عليك من منشور ثم يحتاج مكانًا يجد فيه المقاسات والسعر والتوصيل أو تفاصيل الخدمة بدون انتظار رسالة. اجعل الموقع يكمل هذه الخطوة، واستمر في استخدام القناة التي يصل منها الجمهور. حدّث المعلومات في الاثنين حتى لا يرى العميل سعرًا في المنشور وآخر بلا تفسير في الصفحة. الموقع ليس مصدر زيارات تلقائيًا؛ قيمته أنه ينظّم المعلومات والخطوة التالية عندما يصل إليه شخص مهتم."
+      ]
+    ],
+    "editorial_followup_heading": "كيف يعمل الموقع مع إنستغرام؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-or-instagram.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

@@ -1,5 +1,5 @@
 #shopify-projects.showcase-section { background: #101010; color: #f7f6f2; padding-block: 72px; }
-.showcase-section .proposal-kicker { color: #ff5b88; }
+.showcase-section .proposal-kicker { color: var(--fikra-glow-cyan, #75d5f0); }
 .editorial-work-heading { display: grid; grid-template-columns: 1.4fr 1fr; align-items: end; gap: 40px; margin-bottom: 36px; }
 .editorial-work-heading h2 { max-width: 640px; margin-bottom: 0; }
 #shopify-projects .proposal-intro { max-width: 320px; margin: 0; font: 16px/1.7 Arial,sans-serif; color: #bcbab4; }
@@ -14,8 +14,6 @@
 .proposal .showcase-caption h3 { color: #fff; font-size: clamp(20px,2.4vw,30px); margin: 8px 0 0; line-height: 1.2; letter-spacing: -.025em; }
 .editorial-more-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 48px 0 24px; padding-top: 28px; border-top: 1px solid #ffffff24; color: #bcbab4; font: 12px/1.5 'IBM Plex Mono',monospace; }
 .showcase-gallery .showcase-caption h3 { font-size: 22px; }
-.showcase-playback { position: absolute; inset-block-start: 12px; inset-inline-end: 12px; display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border: 1px solid #ffffff80; border-radius: 50%; background: #101010dc; color: #fff; font: 16px/1 Arial,sans-serif; cursor: pointer; }
-.showcase-playback:focus-visible { outline: 3px solid #ff5080; outline-offset: 3px; }
 .showcase-card noscript video { display: block; }
 @media(max-width:767px) {
   #shopify-projects.showcase-section { padding-block: 48px; }

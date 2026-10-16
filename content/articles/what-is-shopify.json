@@ -1,0 +1,111 @@
+{
+  "slug": "what-is-shopify",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://www.shopify.com/faq"
+    }
+  ],
+  "related": [
+    "why-choose-shopify",
+    "shopify-versus-wordpress",
+    "choose-shopify-plan"
+  ],
+  "en": {
+    "title": "What is Shopify, and what does it do?",
+    "answer": "Shopify gives you a system for presenting products, taking orders and running store tasks. You still need to prepare what you sell and how you fulfil it.",
+    "sections": [
+      [
+        "Understand the platform role",
+        "The system supports catalogue presentation and purchasing workflows. Your theme and configuration determine the customer-facing experience. Required apps, payment eligibility and selling channels should be checked against the current plan and market rather than assumed from a demonstration."
+      ],
+      [
+        "Understand the merchant role",
+        "You remain responsible for accurate product information, operational readiness and customer handling. Photography, descriptions and delivery promises need preparation. The platform does not decide which products will sell or approve every external payment account."
+      ],
+      [
+        "Evaluate a practical example",
+        "Set up a representative product and walk through selection, checkout and order handling. Ask the person managing the business to try routine updates. This is more informative than choosing solely on a homepage screenshot or a general platform endorsement."
+      ],
+      [
+        "What you get and what you still need",
+        "Think of a new clothing store. Shopify can hold the products, sizes and orders, but somebody must enter accurate measurements, connect an eligible payment provider and decide how parcels are dispatched. The theme shapes the presentation; apps may cover additional needs. Before subscribing, write down the daily work your team will do and try it with a sample product. That is a better introduction than assuming the platform builds an operating business from a logo."
+      ]
+    ],
+    "checklist": [
+      "List the selling workflow.",
+      "Check market and payment support.",
+      "Try a representative product."
+    ],
+    "faq": [
+      [
+        "Is Shopify only a website design tool?",
+        "No. Design is one part of a broader commerce workflow."
+      ]
+    ],
+    "editorial_detail_heading": "What you get and what you still need",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Think of the work it organises",
+        "Picture a customer choosing a product and your team receiving, preparing and following up the order. Shopify supplies a platform for parts of that process, with the exact setup depending on your requirements. You still need accurate products, eligible payment arrangements, fulfilment and people responsible for the store."
+      ]
+    ],
+    "editorial_followup_heading": "Think of the work it organises"
+  },
+  "ar": {
+    "title": "ما هو شوبيفاي، وماذا يوفّر لي؟",
+    "answer": "شوبيفاي يوفّر نظامًا لعرض المنتجات واستقبال الطلبات وإدارة المتجر. لكنه لا يجهّز منتجاتك وصورها وطريقة توصيلها بدلًا عنك.",
+    "sections": [
+      [
+        "افهم دور المنصة",
+        "تدعم عرض الكتالوج والشراء، بينما يحدّد القالب والإعداد التجربة. راجع التطبيقات والدفع والقنوات وفق الباقة والسوق."
+      ],
+      [
+        "افهم دور التاجر",
+        "يلزم وصف وصور ووعود توصيل دقيقة وتشغيل جاهز. المنصة لا تختار منتجًا ناجحًا أو تضمن قبول حساب الدفع."
+      ],
+      [
+        "جرّب مثالًا فعليًا",
+        "اختبر منتجًا واختياره والدفع ومعالجة الطلب، ودع المسؤول يجرّب التحديث اليومي."
+      ],
+      [
+        "ما الذي تجهّزه أنت؟",
+        "في متجر ملابس مثلًا، يحمل النظام المنتجات والمقاسات والطلبات، لكنك تحتاج إلى قياسات صحيحة ومزوّد دفع مؤهل وطريقة إرسال. يحدّد القالب العرض، وقد تضيف التطبيقات وظائف أخرى. قبل الاشتراك، اكتب المهام اليومية التي سيقوم بها فريقك وجرّبها بمنتج واحد. ستفهم المنصة أفضل من توقع أن الشعار والحساب الجديد يصنعان نشاطًا جاهزًا."
+      ]
+    ],
+    "checklist": [
+      "حدّد عملية البيع.",
+      "راجع الدفع والسوق.",
+      "جرّب منتجًا ممثّلًا."
+    ],
+    "faq": [
+      [
+        "هل شوبيفاي أداة تصميم فقط؟",
+        "التصميم جزء من منظومة تجارة أوسع."
+      ]
+    ],
+    "editorial_detail_heading": "ما الذي تجهّزه أنت؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي يبقى عليّ بعد اختيار شوبيفاي؟",
+        "ستحتاج تجهيز المنتجات والصور والأسعار والمخزون والسياسات، واختيار الدفع والتوصيل المناسبين لنشاطك. بعدها يجب أن يعرف الفريق كيف يتابع الطلب ويحدث المعلومات ويرد على العميل. المنصة تجمع أدوات لإدارة المتجر، لكنها لا تلتقط صورك أو توافق على حساب الدفع أو توصل الطلب بدلًا منك. ابدأ بفهم رحلة طلب واحدة كاملة، ثم حدّد الأجزاء التي توفرها المنصة وما يحتاج تطبيقًا أو موردًا أو عملًا من فريقك."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي يبقى عليّ بعد اختيار شوبيفاي؟"
+  },
+  "image": {
+    "src": "/assets/article-images/what-is-shopify.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

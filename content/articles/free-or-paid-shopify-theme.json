@@ -1,0 +1,113 @@
+{
+  "slug": "free-or-paid-shopify-theme",
+  "category": "planning",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes"
+    }
+  ],
+  "related": [
+    "choose-shopify-theme",
+    "shopify-website-cost-qatar",
+    "shopify-maintenance-backups"
+  ],
+  "en": {
+    "title": "Is a free or paid Shopify theme better for your store?",
+    "answer": "A paid theme is worth considering when it gives you useful features you would otherwise have to build. Price alone does not determine the finished store.",
+    "sections": [
+      [
+        "Price the missing features",
+        "Make a list of requirements such as size information, merchandising sections and navigation patterns. Identify which are already supported by each candidate. A low-cost starting point may need more development; a paid alternative may still need changes. Request estimates for the actual gaps before deciding."
+      ],
+      [
+        "Protect the ability to maintain it",
+        "Shopify’s theme editor supports visual customisation, while changes outside its settings can require code. Heavy modifications can make future maintenance more involved. Keep an untouched copy and a record of custom sections so another developer can understand how the store differs from the original."
+      ],
+      [
+        "Buy for the operating model",
+        "A small collection and a large seasonal catalogue may need different merchandising tools. Let the team that will update the store try routine tasks before approval. Review the theme developer’s documentation and support terms. Neither a free nor a paid theme guarantees a conversion result."
+      ],
+      [
+        "Compare the missing work, not just the price",
+        "Suppose a free theme covers your menu and product page but lacks a layout essential to your collection. Price that change, then compare it with a paid theme that already does the job. Include support and maintenance, too. A paid theme can still require custom work, and a free theme can look polished with good content. Ask the person who will manage the store to try a routine update before deciding."
+      ]
+    ],
+    "checklist": [
+      "Compare the same feature requirements.",
+      "Estimate custom development separately.",
+      "Review update and support responsibilities.",
+      "Test everyday editing tasks."
+    ],
+    "faq": [
+      [
+        "Can a free theme look professional?",
+        "Yes, when the layout, photography, typography and content are handled well. The theme price alone does not determine the final quality."
+      ]
+    ],
+    "editorial_detail_heading": "Compare the missing work, not just the price",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Price the missing work",
+        "Compare the required changes rather than counting demo sections. If a free theme already fits your catalogue, a paid alternative may add little. If it removes genuine implementation work, include that benefit alongside its purchase cost, support terms and any custom changes still needed."
+      ]
+    ],
+    "editorial_followup_heading": "Price the missing work"
+  },
+  "ar": {
+    "title": "هل القالب المدفوع يستحق، أم يكفيني المجاني؟",
+    "answer": "قد يستحق المدفوع عندما يوفّر خصائص ستحتاج إلى تطويرها بغير ذلك. لكن سعر القالب وحده لا يحدّد جودة المتجر النهائي.",
+    "sections": [
+      [
+        "احسب الخصائص الناقصة",
+        "حدّد دليل المقاسات وأقسام عرض المنتجات والقوائم المطلوبة. راجع ما يدعمه كل قالب وما يحتاج إلى تطوير. قد يحتاج القالب المدفوع أيضًا إلى تعديلات؛ اطلب تقدير الفجوات الفعلية."
+      ],
+      [
+        "حافظ على سهولة الصيانة",
+        "يتيح محرّر شوبيفاي تخصيصًا بصريًا، وقد تتطلّب التغييرات الخارجة عن إعداداته كودًا. احتفظ بنسخة أصلية وسجلّ للأقسام المخصّصة ليتمكّن المطوّر لاحقًا من فهم التعديلات."
+      ],
+      [
+        "اختر وفق طريقة التشغيل",
+        "تختلف احتياجات مجموعة صغيرة عن كتالوج موسمي كبير. دع المسؤول عن التحديث يجرّب المهام اليومية، وراجع توثيق المطوّر والدعم. لا يضمن أي نوع من القوالب نتيجة تحويل محدّدة."
+      ],
+      [
+        "قارن العمل الناقص قبل السعر",
+        "إذا كان المجاني يناسب المنتجات والقائمة لكنه يفتقد قسمًا تحتاجه فعلًا، اطلب تقدير هذا القسم وقارنه بقالب يوفّره أصلًا. احسب الدعم والصيانة أيضًا. المدفوع قد يحتاج إلى تعديلات، والمجاني قد يعطي نتيجة جيدة مع صور ومحتوى مناسبين. وقبل الاختيار، دع من سيدير المتجر يجرّب تعديل بنر أو ترتيب مجموعة؛ سهولة الإدارة جزء من القيمة."
+      ]
+    ],
+    "checklist": [
+      "قارن المتطلّبات نفسها.",
+      "قدّر التطوير بصورة منفصلة.",
+      "راجع الدعم والتحديثات.",
+      "اختبر تعديل المحتوى اليومي."
+    ],
+    "faq": [
+      [
+        "هل يبدو القالب المجاني احترافيًا؟",
+        "نعم، مع صور ومحتوى وتنسيق جيد. سعر القالب وحده لا يحدّد جودة المتجر."
+      ]
+    ],
+    "editorial_detail_heading": "قارن العمل الناقص قبل السعر",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أحكم إن كان المدفوع يستحق؟",
+        "اكتب الميزات التي ستستخدمها فعلًا، ثم جرّبها في القالبين بمنتج من متجرك. هل تحتاج معرض صور معينًا، أو تنقلًا يناسب كتالوجًا كبيرًا، أم مجرد شكل مختلف؟ احسب تكلفة التعديلات اللازمة في كل خيار مع سعر الشراء والدعم. القالب المدفوع ليس ضمانًا لزيادة المبيعات، والمجاني ليس دائمًا الأقل تكلفة إذا احتاج عملًا كثيرًا. القرار الأفضل هو الذي يناسب المحتوى والميزانية وطريقة إدارة المتجر."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أحكم إن كان المدفوع يستحق؟"
+  },
+  "image": {
+    "src": "/assets/article-images/free-or-paid-shopify-theme.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two theme choices compared by their features.",
+      "ar": "خياران للقالب مع مقارنة خصائصهما."
+    }
+  }
+}

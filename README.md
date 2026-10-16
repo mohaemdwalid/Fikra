@@ -122,3 +122,33 @@ PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/br
 ```
 
 This check saves eight synthetic leads across both languages/four viewport sizes. Restart the Python preview between browser suites to reset its in-memory submission rate limit. Each new lead is still retained in the chosen test database. The real-widget and confirmation-state scripts have also been updated for the four-step page. No test clicks Cal.com's final booking confirmation.
+
+## SEO and AI search
+
+See [SEO-HANDOFF.md](SEO-HANDOFF.md) for delivery status and the owner's launch steps. `seo-config.json` defines the canonical origin (currently the existing supplied Worker URL). Set the permanent domain there before publishing if it changes. `seo-content.json` contains bilingual service-guide copy. `python3 prepare_cloudflare.py` now generates and packages the static Arabic homepage, English/Arabic service guides, sitemap, robots.txt and metadata. Rebuild after homepage or translation edits; generated language pages are overwritten.
+
+Run `python3 scripts/check_seo.py` to check the generated assets, and pass `http://127.0.0.1:5184` to also check local HTTP routes. Language-navigation checks run with `node --test tests/seo-language.test.cjs`. Public language follows each URL; the booking form retains its existing dynamic language behavior. Booking pages are intentionally noindex.
+
+## Shopify article library
+
+`/articles/` and `/ar/articles/` contain 100 guides in English and Arabic, grouped by ten topics. Source copy lives in `content/articles/*.json`; `scripts/articles.py` renders it during the existing SEO build. The sitemap includes all 200 article pages and both library pages. The source JSON and owner inventory stay outside the public package. See [ARTICLE-INVENTORY.md](ARTICLE-INVENTORY.md) for the topic list and editing instructions.
+
+Run `python3 scripts/check_articles.py` after building to audit content, references, related links and article structured data. Keep publication dates stable and update modification dates only when making actual editorial changes.
+
+Article artwork is stored as public WebP files in `assets/article-images/`, with original SVG sources in `content/article-art/`. Normal builds use the existing WebP assets. `scripts/build_article_art.py` creates the original diagrams and image metadata; `scripts/render_article_art.cjs` optionally regenerates the WebP files using isolated Chrome/Playwright and Pillow. Article checks also verify image dimensions, distinct files, alt text and social metadata.
+
+## Expanded website and Qatar knowledge library
+
+The current collection has 100 topics with English/Arabic text and original illustrations (200 article pages). `/articles/` and `/ar/articles/` group them into ten categories and provide accessible browser search. All guides remain available without JavaScript. Source data is in `content/articles/`; the sitemap now covers 210 public pages. See ARTICLE-INVENTORY.md for the current list and ARTICLE-RESEARCH.md for research methods and limits. No popularity rankings or keyword volumes are claimed.
+
+Optional browser checks: `PLAYWRIGHT_MODULE=/path/to/playwright node tests/browser_articles.cjs` with the Python preview running. These checks do not submit a real booking.
+
+## Article editorial revisions
+
+The October 16 editorial pass revises all 100 Arabic questions and bilingual openings, adds topic-specific examples and practical explanations, and removes repeated short-answer/checklist/mini-FAQ framing from the rendered pages. Seventeen guides include decision tables. Six complex guides have further extended sections.
+
+Edit the current copy in `content/articles/`. `content/editorial-revisions/` and `content/editorial-followups.json` preserve the authored revision inputs. `scripts/apply_editorial_revisions.py` reapplies those inputs on request; it is not part of normal builds and can replace subsequent edits to those same passages. `python3 prepare_cloudflare.py` renders the current source copy and creates the local public package.
+
+## Article library browsing
+
+The English and Arabic libraries show 12 matching articles per page when JavaScript is enabled. Category buttons filter the list; selecting a category clears the search and returns to the first page. Search covers the full collection within the selected category. Previous/Next and numbered controls appear above and below results. Search, category and page are retained in URL parameters for refresh/share. Cards use shorter images and two-line excerpts. Without JavaScript, the complete linked collection remains available with category anchors.

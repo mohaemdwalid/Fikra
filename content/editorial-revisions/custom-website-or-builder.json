@@ -1,0 +1,10 @@
+{
+  "slug": "custom-website-or-builder",
+  "title_ar": "متى أحتاج موقعًا مبرمجًا خصيصًا، ومتى تكفي أداة جاهزة؟",
+  "lead_en": "Start with the work the site must do. Custom development helps when a real requirement cannot be handled sensibly by the simpler option.",
+  "lead_ar": "ابدأ بما يجب أن يفعله الموقع. يفيد التطوير الخاص عندما يعالج حاجة حقيقية لا يغطّيها الحل الأبسط بصورة مناسبة، لا لمجرّد كلمة «مخصّص».",
+  "heading_en": "Separate a custom look from a custom system",
+  "detail_en": "A brand can need an original design without needing a completely new technical platform. Conversely, a simple-looking site may have complicated integrations behind it. List the unusual requirements and ask for a demonstration of each. Then check how your team edits routine content and what happens when you leave the supplier. Compare maintenance and ownership along with launch cost; flexibility has little value if nobody can safely use it afterward.",
+  "heading_ar": "افصل الشكل الخاص عن النظام الخاص",
+  "detail_ar": "قد تحتاج العلامة إلى تصميم مميّز دون بناء منصة كاملة، وقد تبدو واجهة بسيطة بينما خلفها ربط معقّد. اكتب الاحتياجات غير المعتادة واطلب تجربة لها. ثم راجع تعديل المحتوى اليومي وتغيير المورّد. قارن الصيانة والملكية مع التكلفة؛ لا تفيدك مرونة كبيرة إذا لم يعرف أحد استخدامها بأمان بعد التسليم."
+}

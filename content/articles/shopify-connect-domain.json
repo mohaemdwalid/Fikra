@@ -1,0 +1,163 @@
+{
+  "slug": "shopify-connect-domain",
+  "category": "operations",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/domains/add-a-domain/connecting-domains"
+    }
+  ],
+  "related": [
+    "shopify-launch-checklist",
+    "migrate-to-shopify",
+    "shopify-url-redirects"
+  ],
+  "en": {
+    "title": "How do you connect a domain to Shopify without disrupting email?",
+    "answer": "Change only the DNS records needed for the website connection. Your email may depend on other records that must remain in place.",
+    "sections": [
+      [
+        "Identify ownership and access",
+        "Confirm who owns the domain and where its DNS records are managed. The registrar and DNS host may not be the same provider. Use the merchant’s account and appropriate access permissions; do not make the business dependent on a supplier’s personal login for future renewal."
+      ],
+      [
+        "Preserve unrelated services",
+        "Before editing, record the existing DNS values and identify mail, verification and other service records. Follow the current connection instructions shown for your store. Avoid replacing the entire zone with a generic example. If you are unsure which records support email, resolve that before applying changes."
+      ],
+      [
+        "Verify after the change",
+        "Check the intended storefront hostname, secure connection and both common domain forms as appropriate. Send and receive a business email to confirm that mail still works. Review links in customer messages and keep a record of the completed configuration, renewal responsibility and any remaining propagation checks."
+      ],
+      [
+        "Record the setup before changing it",
+        "Identify the registrar and the DNS host; they may be different. Save the current values and note which support email or verification services. Follow the current store connection instructions rather than replacing the entire zone with a generic example. Afterward, check the storefront and send and receive a business email. Keep renewal and recovery access with the business, and document the final configuration so the next change does not start from guesses."
+      ]
+    ],
+    "checklist": [
+      "Confirm the merchant owns the domain.",
+      "Record existing DNS values.",
+      "Preserve email and verification records.",
+      "Verify storefront and email after changes."
+    ],
+    "faq": [
+      [
+        "Do I need to buy a new domain to use Shopify?",
+        "An existing third-party domain can be connected when you control its DNS and follow the relevant setup instructions."
+      ]
+    ],
+    "editorial_detail_heading": "Record the setup before changing it",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Record these before a DNS change",
+      "columns": [
+        "Service",
+        "Keep a record of"
+      ],
+      "rows": [
+        [
+          "Domain registration",
+          "Registered contact, renewal owner and recovery access."
+        ],
+        [
+          "DNS hosting",
+          "Where the records are actually edited."
+        ],
+        [
+          "Website hosting",
+          "The destination required by the current connection instructions."
+        ],
+        [
+          "Business email",
+          "The records supporting mail and verification."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Separate the website change from email",
+        "Before changing DNS, identify the website records and the records used by email and other services. Save the existing configuration and agree who will make the change. Follow the platform's current instructions for your domain setup, then check both the storefront and business email afterward."
+      ]
+    ],
+    "editorial_followup_heading": "Separate the website change from email"
+  },
+  "ar": {
+    "title": "كيف أربط الدومين بشوبيفاي بدون ما يتعطل البريد؟",
+    "answer": "غيّر سجلات DNS اللازمة للموقع فقط. قد يعتمد البريد على سجلات أخرى يجب المحافظة عليها، حتى لو كان النطاق واحدًا.",
+    "sections": [
+      [
+        "حدّد الملكية والصلاحيات",
+        "أكّد مالك النطاق ومكان إدارة DNS؛ قد يختلف عن جهة التسجيل. استخدم حساب صاحب النشاط وصلاحيات مناسبة حتى لا يعتمد التجديد على دخول شخصي للمورّد."
+      ],
+      [
+        "حافظ على الخدمات الأخرى",
+        "سجّل القيم الحالية وحدّد سجلات البريد والتحقّق والخدمات. اتبع التعليمات الحالية لمتجرك بدل استبدال منطقة DNS بالكامل بمثال عام. افهم سجلات البريد قبل تطبيق التغيير."
+      ],
+      [
+        "تحقّق بعد الربط",
+        "راجع اسم النطاق والاتصال الآمن والصيغ المستخدمة، ثم أرسل واستقبل رسالة بريد. راجع روابط رسائل العملاء ووثّق الإعداد ومسؤول التجديد وأي متابعة مطلوبة."
+      ],
+      [
+        "دوّن الإعداد قبل تعديله",
+        "حدّد جهة التسجيل ومدير DNS؛ قد يختلفان. احفظ القيم وما يخدم البريد والتحقّق، ثم اتبع تعليمات المتجر الحالية بدل استبدال المنطقة كلها بمثال عام. بعد الربط، افتح الموقع وأرسل واستقبل بريدًا. احتفظ بالتجديد والاستعادة لدى النشاط ووثّق النتيجة حتى لا يبدأ التعديل التالي بالتخمين."
+      ]
+    ],
+    "checklist": [
+      "أكّد ملكية صاحب النشاط.",
+      "احتفظ بقيم DNS الحالية.",
+      "احمِ سجلات البريد والتحقّق.",
+      "اختبر الموقع والبريد."
+    ],
+    "faq": [
+      [
+        "هل يلزم شراء نطاق جديد؟",
+        "يمكن ربط نطاق خارجي قائم إذا كنت تتحكّم في DNS وتتبع التعليمات المناسبة."
+      ]
+    ],
+    "editorial_detail_heading": "دوّن الإعداد قبل تعديله",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "دوّن هذه المعلومات قبل تغيير DNS",
+      "columns": [
+        "الخدمة",
+        "ما الذي تحفظه؟"
+      ],
+      "rows": [
+        [
+          "تسجيل النطاق",
+          "جهة الاتصال والتجديد واستعادة الحساب."
+        ],
+        [
+          "إدارة DNS",
+          "أين تُعدّل السجلات فعلًا."
+        ],
+        [
+          "استضافة الموقع",
+          "الوجهة المطلوبة في التعليمات الحالية."
+        ],
+        [
+          "بريد النشاط",
+          "السجلات التي تدعم البريد والتحقّق."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "ما الذي أراجعه قبل تغيير الإعدادات؟",
+        "صوّر أو احفظ سجلات النطاق الحالية وحدّد من يدير البريد والخدمات المرتبطة به. راجع التعليمات الحالية الخاصة بربط المتجر، وغيّر السجلات المطلوبة فقط بدل حذف ما لا تعرفه. بعد الربط جرّب فتح العنوان الرئيسي وتحويلاته وإرسال رسالة بريد واستقبالها. إذا كانت شركة أخرى تدير النطاق، أرسل لها المطلوب بوضوح واحتفظ بسجل التغيير، حتى يسهل الرجوع إليه إذا ظهرت مشكلة."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي أراجعه قبل تغيير الإعدادات؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-connect-domain.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Domain globe connected to a verified storefront.",
+      "ar": "كرة ترمز للنطاق متصلة بواجهة متجر مؤكّدة."
+    }
+  }
+}

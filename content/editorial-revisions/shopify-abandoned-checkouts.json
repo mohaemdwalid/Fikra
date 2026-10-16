@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-abandoned-checkouts",
+  "title_ar": "العملاء يصلون للدفع ويخرجون، كيف أعرف السبب؟",
+  "lead_en": "Separate the stage people leave from the reason they leave. More reminder emails will not fix a payment or shipping problem.",
+  "lead_ar": "افصل مرحلة المغادرة عن سببها. رسائل التذكير لا تصلح خطأ دفع أو توصيل يعيد العميل إلى المشكلة نفسها.",
+  "heading_en": "Reproduce the customer’s route",
+  "detail_en": "Use a relevant product and destination, then inspect shipping eligibility, total cost, payment errors and mobile fields. Compare product views, cart additions and checkout starts as different events. Review recovery eligibility before assuming every visitor can receive an email. If the route works, look at missing information or offer concerns. Choose a response that matches the barrier instead of automatically discounting every abandoned checkout and reducing margin without knowing why.",
+  "heading_ar": "جرّب مسار العميل",
+  "detail_ar": "استخدم منتجًا ووجهة مناسبين وافحص الشحن والإجمالي والدفع وخانات الجوال. ميّز المشاهدة والإضافة وبداية الدفع. راجع أهلية الاستعادة قبل افتراض مراسلة كل زائر. وإذا كان المسار يعمل، ابحث عن معلومة ناقصة أو قلق من العرض. اختر معالجة للعائق بدل خصم تلقائي لكل مغادرة يقلّل الهامش دون معرفة السبب."
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "qatar-customer-address-forms",
+  "title_ar": "كيف أطلب عنوان العميل ورقمه بطريقة مناسبة لقطر؟",
+  "lead_en": "Ask the delivery team what it needs, then design the form around that. A template for another country may reject perfectly useful local information.",
+  "lead_ar": "اسأل فريق التوصيل عن المعلومات اللازمة ثم ابنِ النموذج عليها. قد يرفض قالب دولة أخرى عنوانًا مفيدًا في قطر أو يطلب بيانات لا تحتاجها.",
+  "heading_en": "Test the awkward inputs",
+  "detail_en": "Try an Arabic name, an international phone number and an address mixing Arabic and English. Does the keyboard suit the field, and does the error explain how to fix it? Avoid forcing a foreign postcode pattern just because the original template used one. Distinguish delivery information from a quote enquiry, which may need much less. Keep entered data when submission fails and decide who can access it afterward.",
+  "heading_ar": "جرّب المدخلات التي قد تكشف الخطأ",
+  "detail_ar": "استخدم اسمًا عربيًا ورقمًا دوليًا وعنوانًا يجمع اللغتين. هل تناسب لوحة الهاتف الخانة وهل يشرح الخطأ طريقة التصحيح؟ لا تفرض نمط رمز بريدي أجنبي لأن القالب بدأ به. وافصل عنوان التوصيل عن طلب عرض قد لا يحتاج إليه. احتفظ بالإدخال عند الفشل وحدّد من يستطيع قراءته بعد الإرسال."
+}

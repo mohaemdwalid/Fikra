@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-gift-cards",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/gift-card-products"
+    }
+  ],
+  "related": [
+    "shopify-discount-strategy",
+    "qatar-personalised-gifts",
+    "shopify-order-notifications"
+  ],
+  "en": {
+    "title": "What should you check before selling Shopify gift cards?",
+    "answer": "Treat the card as a promise of future redemption. Review the buyer, recipient and remaining-balance process rather than testing the purchase alone.",
+    "sections": [
+      [
+        "Define the offer",
+        "Explain value, delivery and how the recipient redeems the card. Confirm currency and any applicable conditions with the business owner. Do not invent expiry or refund rules from another store’s design."
+      ],
+      [
+        "Test the recipient journey",
+        "Review purchase, email delivery and redemption in the actual setup. Check gift purchases where buyer and recipient are different people. Make support instructions easy to find without exposing redemption information publicly."
+      ],
+      [
+        "Plan reconciliation",
+        "Identify who handles unused balances, customer questions and any permitted adjustments. Keep records and access appropriate to the financial workflow. Review policy and accounting requirements with qualified advice when needed rather than assuming the product setting settles them."
+      ],
+      [
+        "Test the gift, not just the transaction",
+        "Buy through an authorised test route, inspect delivery and try the intended redemption flow. If buyer and recipient differ, check who receives what. Approve value, currency and commercial conditions with the owner instead of copying expiry language from another store. Decide who handles missing emails or balance questions, and protect redemption details. A gift card is different from a discount; its records and ongoing customer commitment need clear ownership."
+      ]
+    ],
+    "checklist": [
+      "Approve value and terms.",
+      "Test delivery and redemption.",
+      "Assign balance and support handling."
+    ],
+    "faq": [
+      [
+        "Is a gift card the same as a discount code?",
+        "No. They have different purposes and operational treatment."
+      ]
+    ],
+    "editorial_detail_heading": "Test the gift, not just the transaction",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Try redemption as the recipient",
+        "Test the supported delivery and redemption process with a sample amount. Check partial use, remaining balance and the case where a product costs more than the card. Explain who receives the card and which terms apply before purchase, rather than assuming the buyer and recipient are the same person."
+      ]
+    ],
+    "editorial_followup_heading": "Try redemption as the recipient"
+  },
+  "ar": {
+    "title": "كيف أبيع بطاقة هدية وأتأكد أن المستلم يقدر يستخدمها؟",
+    "answer": "تعامل معها كوعد استخدام لاحق. راجع المشتري والمستلم والرصيد المتبقي، لا نجاح شراء البطاقة فقط.",
+    "sections": [
+      [
+        "عرّف العرض",
+        "وضّح القيمة والتسليم والاستخدام والعملة دون نسخ شروط انتهاء أو استرجاع من متجر آخر."
+      ],
+      [
+        "اختبر المستلم",
+        "راجع الشراء والبريد والاسترداد عندما يختلف المشتري والمستلم، واحمِ بيانات الاستخدام."
+      ],
+      [
+        "خطّط للمطابقة",
+        "حدّد مسؤول الأرصدة والدعم والسجلات والمتطلّبات المالية المناسبة بدل اعتبار الإعداد كافيًا."
+      ],
+      [
+        "اختبر الهدية نفسها",
+        "راجع الشراء المصرح به والتسليم والاستخدام. إذا اختلف المشتري والمستلم، افحص ما يصل لكل منهما. اعتمد القيمة والعملة والشروط بدل نسخ انتهاء من متجر آخر. حدّد مسؤول البريد المفقود وأسئلة الرصيد واحمِ بيانات الاستخدام. تختلف البطاقة عن الخصم، لذلك تحتاج سجلاتها والتزامها المستمر إلى مسؤول واضح."
+      ]
+    ],
+    "checklist": [
+      "اعتمد القيمة والشروط.",
+      "اختبر الاستلام والاستخدام.",
+      "عيّن مسؤول الأرصدة."
+    ],
+    "faq": [
+      [
+        "هل البطاقة رمز خصم؟",
+        "لهما غرض ومعالجة تشغيلية مختلفان."
+      ]
+    ],
+    "editorial_detail_heading": "اختبر الهدية نفسها",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "جرّبها من جهة المستلم",
+        "راجع كيف تصل البطاقة ومن يستلمها، ثم جرّب استخدامها في طلب قيمته أقل من الرصيد وآخر أعلى منه حسب ما يدعمه إعدادك. وضّح أين تستخدم وأي شروط تنطبق عليها قبل الشراء. إذا كان المشتري يريد إرسالها لشخص آخر، تأكد أن التجربة لا تكشف مفاجأة الهدية برسالة غير مناسبة. درّب فريق الدعم على أسئلة الرصيد والتسليم بدل ترك العميل يتنقل بين المتجر والبريد بلا إجابة."
+      ]
+    ],
+    "editorial_followup_heading": "جرّبها من جهة المستلم"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-gift-cards.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

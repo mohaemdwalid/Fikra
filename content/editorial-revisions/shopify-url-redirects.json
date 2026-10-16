@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-url-redirects",
+  "title_ar": "غيّرت رابط منتج، كيف أحافظ على الزوار القادمين للرابط القديم؟",
+  "lead_en": "Send the old URL to the closest useful destination and test it. Redirecting everything to the homepage often loses the reason someone clicked.",
+  "lead_ar": "وجّه الرابط القديم إلى أقرب صفحة مفيدة واختبره. تحويل الجميع للرئيسية قد يضيّع سبب دخول الزائر بدل مساعدته.",
+  "heading_en": "Choose the destination by intent",
+  "detail_en": "A discontinued item may have a replacement or a relevant collection; an old article may need an updated explanation. Record the original URL, target and reason. Check Shopify’s current restrictions before assuming a rule applies to an active path. Open real older campaign links and watch where they end up. Update internal links to the final destination, and avoid unnecessary chains that make future migrations harder to understand.",
+  "heading_ar": "اختر الوجهة بحسب مقصد الزائر",
+  "detail_ar": "قد يكون للمنتج المتوقف بديل أو مجموعة مناسبة، وللمقال القديم شرح محدّث. سجّل المصدر والوجهة والسبب. راجع قيود شوبيفاي الحالية قبل تطبيق قاعدة على مسار نشط. افتح روابط الحملات القديمة فعلًا، وحدّث الروابط الداخلية إلى الوجهة النهائية. تجنّب سلاسل تحويل غير لازمة تصعّب فهم النقل القادم."
+}

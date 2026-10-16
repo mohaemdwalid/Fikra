@@ -1,0 +1,111 @@
+{
+  "slug": "domain-versus-hosting",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar Communications Regulatory Authority",
+      "url": "https://www.cra.gov.qa/en/Services/Domains/FAQs"
+    }
+  ],
+  "related": [
+    "shopify-connect-domain",
+    "website-project-ownership",
+    "qatar-domain-qa-or-com"
+  ],
+  "en": {
+    "title": "What is the difference between a domain and hosting?",
+    "answer": "The domain is the address; hosting delivers the site at that address. You may buy them from different providers.",
+    "sections": [
+      [
+        "Separate the accounts",
+        "Record the registrar, DNS manager and hosting provider. Check who receives renewal notices and owns recovery access. Qatar’s domain authority explains domain registration separately from launching a hosted website."
+      ],
+      [
+        "Understand the connection",
+        "DNS points services to their destinations. Your website and email may use different records, so a website move should not blindly replace the whole configuration. Keep a record of existing values before approved changes."
+      ],
+      [
+        "Plan renewal and handover",
+        "Maintain a business-owned contact address, renewal schedule and access register. Ask what happens if the hosting contract ends. A working site today is not proof that the business controls its domain next year."
+      ],
+      [
+        "What happens when one service changes",
+        "Think of moving a shop without changing its published address: a website can change hosts while keeping the domain, if the connection is updated correctly. Email can be a separate service again. Before a move, record which provider handles the domain, DNS, website and email. Do not replace every DNS record just to point the site elsewhere. Keep renewal access with the business so an old supplier account does not control the address indefinitely."
+      ]
+    ],
+    "checklist": [
+      "Record registrar and host.",
+      "Identify DNS and email dependencies.",
+      "Assign renewals and recovery access."
+    ],
+    "faq": [
+      [
+        "Must the domain and website use one provider?",
+        "No. They can work together through an appropriate configuration."
+      ]
+    ],
+    "editorial_detail_heading": "What happens when one service changes",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Make an ownership list",
+        "Record the domain registrar, account owner, renewal contact and the place where website files or platform settings live. Keep email hosting on that list too. This makes a future move or supplier change easier and prevents a website change from accidentally becoming an email outage."
+      ]
+    ],
+    "editorial_followup_heading": "Make an ownership list"
+  },
+  "ar": {
+    "title": "ما الفرق بين الدومين والاستضافة؟",
+    "answer": "الدومين هو عنوان الموقع، والاستضافة هي الخدمة التي تعرضه. يمكن أن يكونا لدى جهتين مختلفتين، وشراء أحدهما لا يجهّز الآخر تلقائيًا.",
+    "sections": [
+      [
+        "افصل الحسابات",
+        "سجّل المسجّل ومدير DNS والمستضيف ومسؤول التجديد والاستعادة. تميّز هيئة الاتصالات القطرية التسجيل عن إطلاق موقع مستضاف."
+      ],
+      [
+        "افهم الربط",
+        "توجّه سجلات DNS الخدمات، وقد تختلف سجلات البريد والموقع. لا تستبدلها كلها عند النقل دون مراجعة."
+      ],
+      [
+        "خطّط للتسليم",
+        "احتفظ بتواصل وملكية وتجديد لدى النشاط واسأل عن إنهاء عقد الاستضافة. تشغيل الموقع لا يثبت تحكّمك في النطاق."
+      ],
+      [
+        "ماذا يحدث عند تغيير خدمة؟",
+        "يمكن نقل الموقع إلى استضافة أخرى مع بقاء العنوان إذا تم الربط بصورة صحيحة. وقد يكون البريد لدى مزوّد ثالث. قبل النقل، دوّن من يدير الدومين وDNS والموقع والبريد. لا تستبدل جميع السجلات لمجرّد تحويل الموقع. واحتفظ بحساب التجديد لدى النشاط حتى لا يبقى عنوانك معتمدًا على حساب مورّد قديم."
+      ]
+    ],
+    "checklist": [
+      "سجّل المسجّل والمستضيف.",
+      "حدّد تبعيات البريد.",
+      "عيّن مسؤول التجديد."
+    ],
+    "faq": [
+      [
+        "هل يلزم مورّد واحد للخدمتين؟",
+        "لا؛ يمكن ربطهما بإعداد مناسب."
+      ]
+    ],
+    "editorial_detail_heading": "ماذا يحدث عند تغيير خدمة؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي أحتاجه من الشركة التي تنشئ موقعي؟",
+        "اطلب اسم الجهة التي حجزت الدومين، والحساب المالك له، وموعد تجديده، وأين يعمل الموقع والبريد. قد تكون هذه ثلاث خدمات مختلفة حتى لو دفعت فاتورة واحدة. تأكد أن حسابات المشروع تحت سيطرتك وأن بيانات الاسترداد تصل إليك. عند تغيير الموقع لاحقًا، تساعدك هذه القائمة على معرفة ما الذي يجب نقله وما الذي يجب تركه كما هو، خصوصًا البريد المرتبط باسم الشركة."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي أحتاجه من الشركة التي تنشئ موقعي؟"
+  },
+  "image": {
+    "src": "/assets/article-images/domain-versus-hosting.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

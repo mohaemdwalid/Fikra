@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-customer-accounts",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/customers/customer-accounts"
+    }
+  ],
+  "related": [
+    "shopify-subscriptions",
+    "shopify-order-notifications",
+    "shopify-account-security"
+  ],
+  "en": {
+    "title": "What should customer accounts do in a Shopify store?",
+    "answer": "Use an account when it helps a real task, such as reviewing an order or managing an ongoing service. Do not add registration without a clear reason.",
+    "sections": [
+      [
+        "Define the customer value",
+        "List order review, address handling or other tasks the account should support. Decide whether account use is necessary for the transaction. Avoid requesting registration merely because a template includes a prominent login button."
+      ],
+      [
+        "Check the actual account setup",
+        "Review current Shopify account options and compatibility with required extensions. Test a new customer, returning customer and failed access attempt. Make the recovery route understandable in the languages you support."
+      ],
+      [
+        "Protect information and expectations",
+        "Verify that people see only their own appropriate data. Explain support routes without requesting passwords in messages. A customer account is different from staff access, and an external service login is not automatically shared with it."
+      ],
+      [
+        "Try new, returning and locked-out customers",
+        "Check how each enters, what information is visible and how access is recovered. Review app compatibility with the chosen account setup. A login for an external service is not automatically shared with the store. Explain support without asking customers to send passwords. If an account is required for a particular purchase, make that clear before the visitor reaches a frustrating surprise at the end of the journey."
+      ]
+    ],
+    "checklist": [
+      "Define useful account tasks.",
+      "Test access and recovery.",
+      "Review app compatibility and data visibility."
+    ],
+    "faq": [
+      [
+        "Will every external app use the same login automatically?",
+        "No. Confirm supported integrations rather than assuming account sharing."
+      ]
+    ],
+    "editorial_detail_heading": "Try new, returning and locked-out customers",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Choose the account benefit first",
+        "Identify what a returning customer gains, such as access to past orders or a feature your setup supports. Then decide when to invite them to sign in. Adding an account requirement without a clear benefit can introduce another step before a straightforward purchase."
+      ]
+    ],
+    "editorial_followup_heading": "Choose the account benefit first"
+  },
+  "ar": {
+    "title": "هل يحتاج العميل إلى حساب في متجري؟",
+    "answer": "استخدم الحساب عندما يساعد في مهمة مثل مراجعة طلب أو إدارة خدمة مستمرة. لا تضف التسجيل دون سبب يفهمه العميل.",
+    "sections": [
+      [
+        "حدّد الفائدة",
+        "دوّن مراجعة الطلب والعنوان والحاجة للتسجيل؛ لا تطلبه لأن القالب يعرض زرًا."
+      ],
+      [
+        "اختبر الإعداد",
+        "راجع الحساب الجديد والعائد وفشل الدخول والاستعادة واللغات والتوافق الحالي."
+      ],
+      [
+        "احمِ المعلومات",
+        "تحقّق من رؤية البيانات المناسبة فقط، ولا تطلب كلمة مرور عبر الرسائل أو تفترض مشاركة حساب خارجي."
+      ],
+      [
+        "اختبر العميل الجديد والعائد ومن تعذّر دخوله",
+        "راجع الدخول والبيانات والاستعادة وتوافق التطبيقات مع الإعداد المختار. حساب خدمة خارجية لا يُشارك تلقائيًا مع المتجر. اشرح الدعم دون طلب كلمات مرور، وإذا كان الحساب ضروريًا لشراء معيّن فوضّح ذلك مبكرًا بدل مفاجأة العميل في نهاية الرحلة."
+      ]
+    ],
+    "checklist": [
+      "حدّد المهام المفيدة.",
+      "اختبر الدخول والاستعادة.",
+      "راجع التوافق والظهور."
+    ],
+    "faq": [
+      [
+        "هل تستخدم كل التطبيقات الدخول نفسه؟",
+        "أكّد الربط المدعوم بدل افتراض المشاركة."
+      ]
+    ],
+    "editorial_detail_heading": "اختبر العميل الجديد والعائد ومن تعذّر دخوله",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما فائدة الحساب للعميل عندك؟",
+        "إذا كان العميل يحتاج متابعة طلباته أو الرجوع إلى خدمة مرتبطة بحسابه، اشرح هذه الفائدة بوضوح. أما شراء قطعة واحدة فقد لا يحتاج خطوة إضافية قبل الدفع. جرّب الدخول واستعادة الوصول من الهاتف، وراجع النصوص التي تصل بالعربية والإنجليزية. لا تفرض إنشاء حساب لمجرد جمع بيانات أكثر؛ حدّد ما يحتاجه تشغيل المتجر وما يستفيد منه العميل، ثم اختر الإعداد الذي يخدم الاثنين."
+      ]
+    ],
+    "editorial_followup_heading": "ما فائدة الحساب للعميل عندك؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-customer-accounts.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Business control and verification diagram beside an information panel.",
+      "ar": "رسم للتحكّم والتحقّق بجانب لوحة معلومات."
+    }
+  }
+}

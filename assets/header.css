@@ -60,7 +60,7 @@
   }
   html[dir='rtl'] .navbar-logo-left .w-nav-overlay .cta-button-with-image > img { transform: scaleX(-1); }
   .navbar-logo-left .nav-link:focus-visible,
-  .navbar-logo-left .cta-button-with-image:focus-visible { outline: 2px solid #ef1f5e; outline-offset: 4px; }
+  .navbar-logo-left .cta-button-with-image:focus-visible { outline: 2px solid var(--fikra-accent, #005bea); outline-offset: 4px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-logo-left .w-nav-overlay .nav-menu-wrapper[data-nav-menu-open],
@@ -68,4 +68,18 @@
     animation: none !important;
     opacity: 1 !important;
   }
+}
+/* Group the compact CTA with the menu, leaving the logo clear in both directions. */
+@media (max-width: 991px) {
+  .navbar-wrapper > .fikra-header-book {
+    position: static;
+    transform: none;
+    flex: none;
+    margin-inline-start: auto;
+    margin-inline-end: 12px;
+  }
+  .navbar-wrapper > .menu-button { flex: none; }
+}
+@media (max-width: 479px) {
+  .navbar-wrapper > .fikra-header-book { margin-inline-end: 8px; }
 }

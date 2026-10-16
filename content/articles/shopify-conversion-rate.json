@@ -1,0 +1,155 @@
+{
+  "slug": "shopify-conversion-rate",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/behaviour-reports"
+    }
+  ],
+  "related": [
+    "shopify-utm-tracking",
+    "shopify-abandoned-checkouts",
+    "shopify-cash-on-delivery"
+  ],
+  "en": {
+    "title": "How do you interpret a Shopify conversion rate correctly?",
+    "answer": "Read the report’s definition first. Orders, purchasing sessions and visits are not automatically interchangeable numbers.",
+    "sections": [
+      [
+        "Use matching definitions",
+        "Choose the same channel, time range and definition for both sides of a comparison. For a simple illustrative calculation, 10 purchasing sessions out of 1,000 eligible sessions is 1%. Orders and purchasing sessions are not always interchangeable, so do not reconstruct a report from unrelated dashboard cards."
+      ],
+      [
+        "Segment before deciding",
+        "Compare device types, landing pages or traffic sources where the available data supports it. A campaign can add many low-intent visits and change the overall rate without a design regression. Look at the volume behind a percentage; a handful of purchases provides limited evidence for a large conclusion."
+      ],
+      [
+        "Connect changes to business outcomes",
+        "Review completed payments, returns, margin and fulfilment quality alongside the funnel. Compare equivalent periods and record other changes such as promotions or stock availability. A before-and-after chart shows a difference; it does not by itself prove that a redesign caused it."
+      ],
+      [
+        "A simple example and its limits",
+        "If 10 eligible sessions include a purchase out of 1,000 eligible sessions, the rate is 1%. That illustration does not mean dividing any order card by any session card reproduces Shopify’s metric. Match channel, dates and definitions first. Then review traffic mix and sample size: an influx of low-intent visits can lower the overall percentage without a design regression. Compare payment, returns and margin too. A before-and-after difference alone does not establish what caused it."
+      ]
+    ],
+    "checklist": [
+      "Read the exact metric definition.",
+      "Use comparable channels and periods.",
+      "Review sample size and traffic mix.",
+      "Separate measured change from causal claims."
+    ],
+    "faq": [
+      [
+        "Is a higher conversion rate always better?",
+        "Not in isolation. Consider revenue quality, margin and traffic volume rather than optimising one percentage at the expense of the business."
+      ]
+    ],
+    "editorial_detail_heading": "A simple example and its limits",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Two different ways a percentage can change",
+      "columns": [
+        "Illustrative situation",
+        "What it does not prove"
+      ],
+      "rows": [
+        [
+          "10 purchasing sessions from 1,000 eligible sessions: 1%",
+          "It does not establish a universal good or bad benchmark."
+        ],
+        [
+          "The campaign adds many browsing visits",
+          "A lower combined percentage does not by itself prove the store design became worse."
+        ],
+        [
+          "A later period has more purchases",
+          "The difference does not alone show which change caused it."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Compare the same measure over time",
+        "Write down the report, date range and denominator before comparing results. Segment a meaningful change in traffic source or device where possible. A small campaign can change the visitor mix sharply; investigate that context before attributing every movement to design or claiming a result from two screenshots."
+      ]
+    ],
+    "editorial_followup_heading": "Compare the same measure over time"
+  },
+  "ar": {
+    "title": "كيف أحسب معدل التحويل وأفهمه بدون مقارنة غلط؟",
+    "answer": "اقرأ تعريف التقرير أولًا. الطلبات وجلسات الشراء والزيارات ليست دائمًا أرقامًا يمكن استبدال بعضها ببعض في الحساب.",
+    "sections": [
+      [
+        "استخدم تعريفات متطابقة",
+        "وحّد القناة والفترة والتعريف. مثال توضيحي: ١٠ جلسات شراء من ١٬٠٠٠ جلسة مؤهّلة تساوي ١٪. الطلبات وجلسات الشراء ليست دائمًا الشيء نفسه؛ لا تركّب نسبة من بطاقات غير مترابطة."
+      ],
+      [
+        "قسّم البيانات أولًا",
+        "قارن الأجهزة والصفحات والمصادر عندما تسمح البيانات. قد تزيد الحملة الزيارات منخفضة النية فتغيّر المعدل دون خلل تصميم. راجع حجم العيّنة قبل استنتاج كبير من مشتريات قليلة."
+      ],
+      [
+        "اربطه بنتائج النشاط",
+        "راجع التحصيل والاسترجاع والهامش والتنفيذ، ووثّق تغيّر العروض والمخزون. يظهر رسم قبل وبعد فرقًا، لكنه لا يثبت وحده أن إعادة التصميم سبّبته."
+      ],
+      [
+        "مثال بسيط وحدوده",
+        "إذا اشترت ١٠ جلسات مؤهّلة من ١٬٠٠٠، فالنسبة ١٪. لكن المثال لا يعني أن قسمة أي بطاقة طلبات على أي بطاقة جلسات تعيد مؤشر شوبيفاي. طابق القناة والتاريخ والتعريف، ثم راجع مصادر الزيارات وحجم العينة. قد تخفض زيارات قليلة النية النسبة دون تراجع التصميم. راجع التحصيل والاسترجاع والهامش أيضًا؛ الفرق قبل وبعد لا يثبت السبب وحده."
+      ]
+    ],
+    "checklist": [
+      "اقرأ تعريف المؤشر.",
+      "وحّد القنوات والفترات.",
+      "راجع العيّنة ومزيج الزيارات.",
+      "افصل الفرق عن إثبات السبب."
+    ],
+    "faq": [
+      [
+        "هل ارتفاع المعدل أفضل دائمًا؟",
+        "قيّمه مع الإيراد والهامش وحجم الزيارات بدل تحسين نسبة واحدة على حساب النشاط."
+      ]
+    ],
+    "editorial_detail_heading": "مثال بسيط وحدوده",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "كيف تتغيّر النسبة دون أن تشرح السبب؟",
+      "columns": [
+        "حالة توضيحية",
+        "ما الذي لا تثبته؟"
+      ],
+      "rows": [
+        [
+          "١٠ جلسات شراء من ١٬٠٠٠ مؤهّلة: ١٪",
+          "لا يحدّد المثال معيارًا عامًا للجيد والسيئ."
+        ],
+        [
+          "أضافت الحملة زيارات تصفّح كثيرة",
+          "انخفاض النسبة المجمّعة لا يثبت تراجع التصميم وحده."
+        ],
+        [
+          "ارتفعت المشتريات في فترة لاحقة",
+          "الفرق لا يحدّد التغيير الذي سبّبه بمفرده."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "كيف أمنع المقارنة المضللة؟",
+        "استخدم التقرير نفسه والفترة نفسها من حيث الطول، وسجّل ما الذي يحسبه المعدل بالضبط. راجع هل زادت زيارات إعلان جديد أو تغيرت نسبة الجوال أو نفد منتج مهم؛ هذه عوامل قد تغيّر النتيجة حتى لو لم يتغير التصميم. وإذا كان عدد الطلبات قليلًا، تعامل مع النسبة بحذر لأنها تتحرك بسرعة. اعرض الأرقام مع سياقها، ولا تنسب الفرق لتعديل واحد بدون دليل يربطه بما حدث."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أمنع المقارنة المضللة؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-conversion-rate.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Purchase funnel with distinct stages and no claimed business results.",
+      "ar": "قمع شراء بمراحل منفصلة دون عرض نتائج تجارية."
+    }
+  }
+}

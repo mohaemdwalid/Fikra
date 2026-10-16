@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-preorder-store",
+  "category": "qatar",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/purchase-options/pre-orders"
+    }
+  ],
+  "related": [
+    "shopify-abaya-store",
+    "shopify-product-variants",
+    "qatar-seasonal-campaigns"
+  ],
+  "en": {
+    "title": "How should a Qatar store explain pre-orders?",
+    "answer": "Say clearly that the item is not ordinary ready stock. Explain the preparation expectation, payment arrangement and what happens if timing changes.",
+    "sections": [
+      [
+        "Define the commitment",
+        "State what the customer is reserving, the expected preparation basis and any genuine uncertainty. Distinguish a production estimate from a guaranteed arrival date. Have the owner approve the commercial conditions before taking orders."
+      ],
+      [
+        "Match stock and payment behaviour",
+        "Review the supported pre-order tool and payment eligibility for your store. Confirm how mixed baskets and stock are handled. Do not simulate a pre-order by silently accepting orders for unavailable items without informing the buyer."
+      ],
+      [
+        "Prepare communication",
+        "Agree how customers receive updates, what happens if timing changes and who handles requests. Check the wording in Arabic and English. A campaign deadline should reflect a real operational limit rather than invented scarcity."
+      ],
+      [
+        "A made-to-order example",
+        "A shopper may assume an abaya shown as available will leave with the next dispatch. If it must be made first, that difference belongs near the buying choice, not only in a distant policy. Review the supported pre-order and payment setup for the store, then test a basket containing ready and future items. Agree how updates and delays are communicated. Use a real production commitment rather than a countdown invented to hurry the customer."
+      ]
+    ],
+    "checklist": [
+      "Label future fulfilment clearly.",
+      "Verify the supported configuration.",
+      "Plan updates and exceptions."
+    ],
+    "faq": [
+      [
+        "Can I promise a fixed date without production confirmation?",
+        "Use wording that accurately reflects the commitment your operation can support."
+      ]
+    ],
+    "editorial_detail_heading": "A made-to-order example",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Explain the wait before taking the order",
+        "Place the expected dispatch information beside the purchase decision, not only in a policy page. Explain whether the order can include in-stock items and what happens if the schedule changes. Your order messages should repeat the same expectation rather than use a standard immediate-shipping promise."
+      ]
+    ],
+    "editorial_followup_heading": "Explain the wait before taking the order"
+  },
+  "ar": {
+    "title": "كيف أبيع بالطلب المسبق بدون أن أُربك العميل؟",
+    "answer": "وضّح أن القطعة ليست مخزونًا جاهزًا عاديًا. اشرح التجهيز والدفع وما يحدث إذا تغيّر الوقت، قبل أن يضغط العميل على الشراء.",
+    "sections": [
+      [
+        "حدّد الالتزام",
+        "وضّح الحجز وأساس موعد التجهيز وعدم اليقين. فرّق التقدير عن الضمان واعتمد الشروط قبل البيع."
+      ],
+      [
+        "طابق الدفع والمخزون",
+        "راجع الأداة والأهلية والسلال المختلطة، ولا تقبل منتجًا نافدًا كطلب مسبق دون إخبار العميل."
+      ],
+      [
+        "جهّز التواصل",
+        "حدّد تحديثات المواعيد والتأخير والمسؤول، وراجع اللغتين دون استعجال مختلق."
+      ],
+      [
+        "مثال قطعة تُجهّز بعد الطلب",
+        "قد يفهم العميل أن العباية المتاحة تُرسل مع الشحنة التالية، بينما تحتاج أنت إلى تفصيلها أولًا. مكان هذا الفرق قرب الشراء، لا في سياسة بعيدة فقط. راجع إعداد الطلب المسبق والدفع المدعوم واختبر سلة تجمع الجاهز والمؤجل. واتّفق على التواصل عند التأخير. استخدم التزام إنتاج حقيقيًا بدل عدّاد هدفه الاستعجال."
+      ]
+    ],
+    "checklist": [
+      "وضّح التسليم المستقبلي.",
+      "تحقّق من الإعداد.",
+      "خطّط للاستثناءات."
+    ],
+    "faq": [
+      [
+        "هل تَعِد بتاريخ بلا تأكيد إنتاج؟",
+        "استخدم وعدًا يعكس التزامًا يستطيع التشغيل دعمه."
+      ]
+    ],
+    "editorial_detail_heading": "مثال قطعة تُجهّز بعد الطلب",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا يحتاج العميل أن يعرف قبل الطلب المسبق؟",
+        "وضّح أنه طلب مسبق بجانب زر الشراء، مع الموعد المتوقع للإرسال وما إذا كان تقديريًا. إذا جمع العميل قطعة جاهزة وأخرى مسبقة الطلب، اشرح هل ترسلان معًا أم في شحنتين وما أثر ذلك على التكلفة. اتفق داخليًا على من يحدث العملاء عند تغير الموعد، وراجع رسائل التأكيد حتى لا تعد بشحن سريع تلقائيًا. وصف الانتظار بوضوح أفضل من اكتشاف العميل بعد الدفع أن المنتج غير جاهز."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا يحتاج العميل أن يعرف قبل الطلب المسبق؟"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-preorder-store.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Scheduling calendar with a service or order symbol.",
+      "ar": "تقويم جدولة مع رمز خدمة أو طلب."
+    }
+  }
+}

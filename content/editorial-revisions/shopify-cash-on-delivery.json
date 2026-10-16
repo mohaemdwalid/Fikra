@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-cash-on-delivery",
+  "title_ar": "كيف أضيف الدفع عند الاستلام وأتابع التحصيل؟",
+  "lead_en": "Set up the payment choice and the collection process together. Receiving an order does not mean the courier has collected its value.",
+  "lead_ar": "اضبط خيار الدفع وعملية تحصيله معًا. وصول الطلب لا يعني أن المندوب سلّم القطعة أو حصّل قيمتها.",
+  "heading_en": "Follow the money as well as the parcel",
+  "detail_en": "Agree where COD is available and what instructions the courier needs. Then define who records delivery, who matches settlements and who updates payment status. A failed delivery and a delivered-but-unreconciled payment are different issues. Keep those stages separate in your review. Test the customer instructions and any real additional charge before publishing. Compare collected results with fulfilment costs rather than counting every placed COD order as paid revenue.",
+  "heading_ar": "تابع المال مثلما تتابع الطرد",
+  "detail_ar": "اتّفق على التغطية وتعليمات المندوب، ثم حدّد من يسجّل التسليم ويطابق التحويل ويحدّث حالة الدفع. فشل التوصيل يختلف عن طلب سُلّم ولم يُطابق تحصيله. افصل المراحل في المتابعة. اختبر تعليمات العميل وأي رسوم فعلية قبل النشر. وقارن المبالغ المحصّلة بتكلفة التنفيذ بدل اعتبار كل طلب إيرادًا مدفوعًا."
+}

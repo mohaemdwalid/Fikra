@@ -1,0 +1,111 @@
+{
+  "slug": "choose-website-cms",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/features/"
+    }
+  ],
+  "related": [
+    "website-homepage-content",
+    "website-project-ownership",
+    "wordpress-com-or-org"
+  ],
+  "en": {
+    "title": "How do you choose a CMS for a business website?",
+    "answer": "Choose a system your editors can use for the content you publish. A flexible dashboard is not useful if every small update needs a developer.",
+    "sections": [
+      [
+        "Map the content",
+        "Identify repeatable items such as services, projects, locations or articles. Decide which fields editors must fill and which pages need custom structure. This makes platform demonstrations more meaningful than comparing empty dashboards."
+      ],
+      [
+        "Check the publishing process",
+        "Ask how drafts, approvals, previews and revisions work. WordPress documents publishing and user-management features; other systems arrange these differently. Confirm the capabilities in the actual plan and configuration you would buy."
+      ],
+      [
+        "Evaluate ongoing operation",
+        "Review updates, backups, training and the cost of adding a new content type. Give the editor a realistic task and observe the result. Choose the system that supports the expected work, not just the developer’s favourite tool."
+      ],
+      [
+        "Give the editor a real task",
+        "Ask the future editor to add a service, update a project and preview the Arabic version. Can they find the right fields and understand what will change? Check drafts and permissions if several people contribute. Compare the cost of adding a new content type later, not just editing existing text. This reveals the fit better than watching an expert click through a polished demonstration you could not repeat yourself."
+      ]
+    ],
+    "checklist": [
+      "Model repeatable content.",
+      "Define editing permissions.",
+      "Test a real publishing task."
+    ],
+    "faq": [
+      [
+        "Is the most flexible CMS always best?",
+        "Flexibility is useful only when the team can configure and maintain it."
+      ]
+    ],
+    "editorial_detail_heading": "Give the editor a real task",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Let the future editor try it",
+        "Ask the staff member responsible for updates to change a service paragraph, replace an image and publish a draft in a demonstration. Note which actions require a developer. A system that suits the supplier but makes routine edits difficult will create avoidable delays after handover."
+      ]
+    ],
+    "editorial_followup_heading": "Let the future editor try it"
+  },
+  "ar": {
+    "title": "كيف أختار نظام إدارة محتوى يناسب فريقي؟",
+    "answer": "اختر نظامًا يستطيع فريقك استخدامه للمحتوى الذي تنشره. لا تفيدك لوحة مرنة إذا احتاج كل تعديل صغير إلى مطوّر.",
+    "sections": [
+      [
+        "نظّم المحتوى",
+        "حدّد الخدمات والمشاريع والمواقع والمقالات والحقول المطلوبة لكل نوع قبل مقارنة لوحات فارغة."
+      ],
+      [
+        "راجع النشر",
+        "اختبر المسودات والاعتماد والمعاينة والإصدارات في الباقة والإعداد الفعليين. توثّق ووردبريس إمكانات التحرير وإدارة المستخدمين."
+      ],
+      [
+        "قيّم التشغيل",
+        "راجع التحديث والنسخ والتدريب وإضافة أنواع محتوى. أعطِ المسؤول مهمة واقعية واختر وفق العمل المتوقع."
+      ],
+      [
+        "أعطِ المحرّر مهمة حقيقية",
+        "اطلب من المسؤول إضافة خدمة وتعديل مشروع ومعاينة العربية. هل يجد الخانات ويفهم أثر التعديل؟ راجع المسودات والصلاحيات إذا شارك أكثر من شخص. واسأل عن إضافة نوع محتوى لاحقًا، لا تغيير نص فقط. هذه التجربة تكشف الملاءمة أكثر من مشاهدة خبير ينفّذ عرضًا متقنًا لا يستطيع فريقك تكراره."
+      ]
+    ],
+    "checklist": [
+      "نمذج المحتوى المتكرّر.",
+      "حدّد صلاحيات التحرير.",
+      "اختبر النشر الفعلي."
+    ],
+    "faq": [
+      [
+        "هل النظام الأكثر مرونة أفضل؟",
+        "تفيد المرونة عندما يستطيع الفريق إعدادها وصيانتها."
+      ]
+    ],
+    "editorial_detail_heading": "أعطِ المحرّر مهمة حقيقية",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "جرّب التعديل بنفسك قبل الموافقة",
+        "اطلب تجربة تعديل عنوان وصورة ومعلومة تواصل في النظام المقترح. الأفضل أن يجربه الموظف الذي سيستخدمه يوميًا، لا الشخص التقني فقط. لاحظ ما يحتاج مساعدة وما يمكن التراجع عنه إذا أخطأ المحرر. اسأل أيضًا عن صلاحيات النشر والتدريب وطريقة نقل المحتوى مستقبلًا. سهولة العرض أمامك لا تكفي؛ المهم أن تستطيع إجراء تحديث عادي بعد التسليم بدون انتظار المطوّر لكل كلمة."
+      ]
+    ],
+    "editorial_followup_heading": "جرّب التعديل بنفسك قبل الموافقة"
+  },
+  "image": {
+    "src": "/assets/article-images/choose-website-cms.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Organised website content and feature cards.",
+      "ar": "بطاقات منظّمة لمحتوى الموقع وخصائصه."
+    }
+  }
+}

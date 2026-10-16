@@ -1,0 +1,111 @@
+{
+  "slug": "business-website-types",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/features/"
+    }
+  ],
+  "related": [
+    "portfolio-or-online-store",
+    "booking-website-or-store",
+    "choose-website-cms"
+  ],
+  "en": {
+    "title": "What type of website does your business need?",
+    "answer": "Choose the type by what the visitor needs to do: understand a service, judge your work, reserve a time or buy a product.",
+    "sections": [
+      [
+        "Map the customer action",
+        "A brochure site explains services, a portfolio presents evidence, a booking site manages appointments and a store handles products and orders. Some businesses combine these, but each function needs an owner and a clear workflow."
+      ],
+      [
+        "Avoid buying unused complexity",
+        "List the pages and information needed for the first launch. Memberships, dashboards and custom accounts add management work; include them only when a real user task requires them. A simple enquiry route may solve the immediate need."
+      ],
+      [
+        "Choose technology afterward",
+        "Evaluate editing, language, payments and integrations once the workflow is clear. WordPress supports varied content-led sites, while commerce platforms focus on selling. Your operating requirements should decide the shortlist, followed by a realistic demonstration."
+      ],
+      [
+        "Three businesses, three different routes",
+        "A design studio may need project examples and a quote request. A clothing brand may need sizes, stock and checkout. A consultant may need availability and appointment confirmation. Each can look polished, but their underlying work differs. Write the customer route in ordinary sentences before choosing technology. If the proposal contains accounts, dashboards or a cart, ask which step needs them and who will manage them after launch."
+      ]
+    ],
+    "checklist": [
+      "Define the visitor’s decision.",
+      "List essential workflows.",
+      "Compare tools using those tasks."
+    ],
+    "faq": [
+      [
+        "Can one site combine services and products?",
+        "Yes, but make each route clear and agree how enquiries and orders are handled."
+      ]
+    ],
+    "editorial_detail_heading": "Three businesses, three different routes",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Choose the action before the page count",
+        "Write one sentence describing a successful visitor: they request a quotation, book a consultation or buy a product. Build the main route around that action. Extra pages should answer questions that help people decide, rather than exist because a package includes a certain number."
+      ]
+    ],
+    "editorial_followup_heading": "Choose the action before the page count"
+  },
+  "ar": {
+    "title": "أحتاج موقع شركة أم متجرًا أم صفحة حجز؟",
+    "answer": "اختَر النوع وفق ما سيفعله الزائر: يفهم خدمة، يراجع أعمالك، يحجز وقتًا، أو يشتري منتجًا. الاسم التقني للموقع لا يحدّد الحاجة بدلًا عنك.",
+    "sections": [
+      [
+        "ارسم إجراء العميل",
+        "يشرح الموقع التعريفي الخدمات ويعرض المعرض الأعمال ويدير الحجز المواعيد والمتجر الطلبات. قد تجمع بينها مع مسؤول لكل مسار."
+      ],
+      [
+        "تجنّب التعقيد غير المستخدم",
+        "حدّد الضروري للإطلاق. تضيف العضويات والحسابات إدارة إضافية؛ لا تطلبها دون مهمة واضحة."
+      ],
+      [
+        "اختر التقنية لاحقًا",
+        "قارن التحرير واللغة والدفع والتكاملات بعد فهم العملية، ثم جرّب المهام على الأدوات المرشّحة."
+      ],
+      [
+        "ثلاثة أنشطة ومسارات مختلفة",
+        "قد يحتاج الاستوديو أمثلة أعمال وطلب عرض، وعلامة الملابس مقاسات ومخزونًا ودفعًا، والمستشار جدولًا وتأكيد موعد. كلها مواقع، لكن عملها مختلف. اكتب رحلة العميل بكلام بسيط قبل التقنية. وإذا تضمّن العرض حسابات أو لوحة أو سلة، اسأل أي خطوة تحتاجها ومن سيديرها بعد الإطلاق. هكذا تشتري ما يخدم المشروع فعلًا."
+      ]
+    ],
+    "checklist": [
+      "حدّد قرار الزائر.",
+      "دوّن العمليات الأساسية.",
+      "قارن بالمهام الفعلية."
+    ],
+    "faq": [
+      [
+        "هل يجمع الموقع خدمات ومنتجات؟",
+        "نعم، مع مسارات واضحة ومسؤولية للطلبات والاستفسارات."
+      ]
+    ],
+    "editorial_detail_heading": "ثلاثة أنشطة ومسارات مختلفة",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أعرف النوع المناسب لمشروعي؟",
+        "اكتب ما تريد أن يفعله الزائر في نهاية الزيارة. إذا كنت تبيع خدمة سعرها يعتمد على تفاصيل المشروع، فقد تحتاج صفحات تشرح الخدمة ونموذج طلب عرض. إذا كنت تبيع منتجات بسعر واضح، فأنت تحتاج كتالوجًا وسلة ودفعًا. وإذا كان الوقت جزءًا من الخدمة، راجع الحجز والتوافر. عدد الصفحات يأتي بعد هذا القرار، وليس قبله؛ عشر صفحات بلا خطوة واضحة قد تخدمك أقل من موقع صغير مرتب."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أعرف النوع المناسب لمشروعي؟"
+  },
+  "image": {
+    "src": "/assets/article-images/business-website-types.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Organised website content and feature cards.",
+      "ar": "بطاقات منظّمة لمحتوى الموقع وخصائصه."
+    }
+  }
+}

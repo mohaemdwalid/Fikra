@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-product-csv",
+  "category": "catalogue",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/products/import-export/using-csv"
+    }
+  ],
+  "related": [
+    "shopify-product-variants",
+    "shopify-product-photos",
+    "migrate-to-shopify"
+  ],
+  "en": {
+    "title": "How do you prepare a Shopify product CSV import?",
+    "answer": "Use a small trial import first. A spreadsheet mistake can affect prices, options and existing products, not just the appearance of a page.",
+    "sections": [
+      [
+        "Create a consistent source sheet",
+        "Standardise product names, handles, SKUs, options and image references. Separate your working spreadsheet from the file prepared for Shopify. Use the current Shopify CSV format and review its column requirements rather than inventing headers. Preserve identifiers that your fulfilment or stock process relies on."
+      ],
+      [
+        "Use representative test products",
+        "Include a simple product, a product with several variants and an item with multiple images. Check the import preview and then inspect the resulting product pages, prices and options. Confirm that image links are reachable. Do not take a successful upload message as proof that the catalogue is correct."
+      ],
+      [
+        "Reconcile after import",
+        "Compare product and variant counts with the approved source. Spot-check high-value items and check for duplicate handles or missing photos. Keep an exception list with a named owner. Only expand the import after the sample behaves as expected, and record the exact source version used."
+      ],
+      [
+        "What your sample should contain",
+        "Include one simple product, one with several variants and one with multiple photos. After importing, open the actual product pages and compare names, SKUs, prices and images with the approved sheet. Check the overwrite settings before touching an existing catalogue. If the sample has a mismatch, correct the source instead of manually repairing hundreds of pages later. Record the file version used so you can trace any unexpected change."
+      ]
+    ],
+    "checklist": [
+      "Keep an untouched source export.",
+      "Use Shopify’s current CSV columns.",
+      "Import a small representative sample.",
+      "Reconcile counts, options and images."
+    ],
+    "faq": [
+      [
+        "Can I overwrite existing products with a CSV?",
+        "Some import settings affect matching existing products. Review the current overwrite behaviour and preserve an export before using it."
+      ]
+    ],
+    "editorial_detail_heading": "What your sample should contain",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Keep a small reference file",
+        "Prepare a few representative products, including options and special characters, and import them first. Review names, images, prices and inventory before scaling up. Keep the original export and a record of the changes so a large import can be understood and corrected instead of repeated blindly."
+      ]
+    ],
+    "editorial_followup_heading": "Keep a small reference file"
+  },
+  "ar": {
+    "title": "كيف أرفع منتجات كثيرة على شوبيفاي بدون أخطاء؟",
+    "answer": "ابدأ باستيراد عيّنة صغيرة. خطأ في الجدول قد يغيّر السعر أو الخيارات أو منتجًا موجودًا، وليس مجرد تنسيق في الصفحة.",
+    "sections": [
+      [
+        "وحّد بيانات المصدر",
+        "نظّم الأسماء والمعرّفات وSKU والخيارات وروابط الصور. افصل جدول العمل عن ملف الاستيراد، واستخدم تنسيق شوبيفاي الحالي بدل ابتكار الأعمدة. حافظ على المعرّفات المرتبطة بالمخزون والتنفيذ."
+      ],
+      [
+        "اختبر منتجات ممثّلة",
+        "ضمّن منتجًا بسيطًا وآخر بخيارات وصور متعدّدة. راجع المعاينة ثم الصفحات والأسعار والخيارات الناتجة. تأكّد من الوصول إلى الصور؛ نجاح الرفع وحده لا يثبت صحة الكتالوج."
+      ],
+      [
+        "طابق النتائج",
+        "قارن أعداد المنتجات والخيارات بالمصدر وافحص العناصر المهمة. سجّل الصور الناقصة والتكرارات وحدّد مسؤول معالجتها. وسّع الاستيراد بعد نجاح العيّنة وسجّل نسخة المصدر المستخدمة."
+      ],
+      [
+        "ما العيّنة المناسبة؟",
+        "ضمّن منتجًا بسيطًا وآخر بمقاسات ومنتجًا بصور كثيرة. بعد الاستيراد افتح الصفحات وطابق الأسماء وSKU والأسعار والصور بالجدول المعتمد. راجع إعداد الاستبدال قبل تغيير كتالوج موجود. إذا ظهر اختلاف، أصلح المصدر أولًا بدل معالجة مئات الصفحات يدويًا. واحتفظ باسم نسخة الملف المستخدمة حتى تستطيع معرفة مصدر أي تغيير غير متوقّع."
+      ]
+    ],
+    "checklist": [
+      "احتفظ بالتصدير الأصلي.",
+      "استخدم الأعمدة الحالية.",
+      "اختبر عيّنة صغيرة.",
+      "طابق الأعداد والصور والخيارات."
+    ],
+    "faq": [
+      [
+        "هل يغيّر الاستيراد المنتجات الموجودة؟",
+        "قد تؤثّر إعدادات الاستيراد في المنتجات المتطابقة. راجع سلوك الاستبدال واحتفظ بتصدير قبل استخدامه."
+      ]
+    ],
+    "editorial_detail_heading": "ما العيّنة المناسبة؟",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "لا تبدأ بأكبر ملف عندك",
+        "خذ عينة فيها منتج بسيط وآخر بمقاسات وألوان ونص عربي، وارفعها أولًا وفق التنسيق الحالي المدعوم. راجع النتيجة في الإدارة وفي صفحة العميل، خصوصًا الربط بين الصور والخيارات والأسعار. احتفظ بنسخة المصدر وسجل لما غيّرته قبل رفع الباقي. إذا ظهرت مشكلة، أصلح سببها في العينة؛ تكرار رفع الملف الكبير بدون فهم قد يوسّع الخطأ ويجعل تنظيف البيانات أصعب."
+      ]
+    ],
+    "editorial_followup_heading": "لا تبدأ بأكبر ملف عندك"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-product-csv.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Structured product spreadsheet with an import arrow.",
+      "ar": "جدول بيانات منتجات منظّم مع سهم للاستيراد."
+    }
+  }
+}

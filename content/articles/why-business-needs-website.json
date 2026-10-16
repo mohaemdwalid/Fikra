@@ -1,0 +1,111 @@
+{
+  "slug": "why-business-needs-website",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    }
+  ],
+  "related": [
+    "website-or-instagram",
+    "business-website-types",
+    "website-homepage-content"
+  ],
+  "en": {
+    "title": "Does a small business in Qatar need a website?",
+    "answer": "You need a site when it makes a customer task easier. Start there, rather than buying a large website because every business is supposed to have one.",
+    "sections": [
+      [
+        "Start with the customer task",
+        "A service business may need qualified enquiries, while a retailer may need product comparison and checkout. List the information people repeatedly request and put the most important answers where a first-time visitor can find them."
+      ],
+      [
+        "Choose a manageable first version",
+        "A clear introduction, useful service pages and a working contact route can be enough for an initial site. Do not buy an online store if your process actually requires individual quotations rather than immediate purchases."
+      ],
+      [
+        "Give the site an owner",
+        "Assign someone to update availability, contact details and content. Review whether enquiries reach the right person. A site that answers yesterday’s questions with outdated information is less useful than a smaller maintained one."
+      ],
+      [
+        "Look at what customers ask repeatedly",
+        "If customers keep asking what you do, where you work or how to request a price, a few clear pages can save time. A retailer may need product selection and payment instead. Write down the five questions you answer most often and the action that follows each. That tells you what the first version needs. Measure whether people reach the right next step, not whether the site looks larger than a competitor’s."
+      ]
+    ],
+    "checklist": [
+      "Define the main customer action.",
+      "List recurring questions.",
+      "Assign an update owner."
+    ],
+    "faq": [
+      [
+        "Does a website automatically bring enquiries?",
+        "No. Visibility, useful content and a working response process matter too."
+      ]
+    ],
+    "editorial_detail_heading": "Look at what customers ask repeatedly",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Start with a recurring customer question",
+        "Look for the information you explain repeatedly: service scope, examples, prices where appropriate or how to get started. A small site can organise those answers and provide a clear enquiry route. Measure whether it helps actual customers rather than assuming more pages automatically make the business more credible."
+      ]
+    ],
+    "editorial_followup_heading": "Start with a recurring customer question"
+  },
+  "ar": {
+    "title": "هل أحتاج موقعًا إذا كان مشروعي صغيرًا؟",
+    "answer": "تحتاج الموقع عندما يسهّل خطوة على العميل. ابدأ بهذه الفكرة، لا بعدد كبير من الصفحات لأن الجميع يقول إن كل مشروع يجب أن يكون له موقع.",
+    "sections": [
+      [
+        "ابدأ بمهمة العميل",
+        "قد تحتاج الخدمة إلى استفسارات مؤهّلة ويحتاج المتجر إلى شراء مباشر. اجمع الأسئلة المتكرّرة وقدّم أجوبتها للزائر الجديد."
+      ],
+      [
+        "اختر بداية مناسبة",
+        "قد تكفي مقدمة وخدمات وتواصل يعمل. لا تشترِ متجرًا إذا كانت عمليتك تتطلّب عروض أسعار فردية."
+      ],
+      [
+        "عيّن مسؤول التحديث",
+        "حدّث التوفّر والتواصل وتحقّق من وصول الاستفسارات. موقع صغير ومحدّث أنفع من معلومات قديمة."
+      ],
+      [
+        "ابدأ بالأسئلة التي تردّ عليها يوميًا",
+        "إذا يتكرر سؤال ماذا تقدّم وأين تعمل وكيف يطلب العميل سعرًا، فقد تكفي صفحات واضحة لتخفيف هذا العمل. أما بيع منتجات فيحتاج مسارًا مختلفًا. اكتب أكثر خمسة أسئلة تجيب عنها والخطوة التالية لكل منها. ستعرف ما تحتاجه النسخة الأولى. قيّم وصول الناس إلى الإجراء الصحيح، لا حجم الموقع مقارنة بمنافسك."
+      ]
+    ],
+    "checklist": [
+      "حدّد الإجراء الرئيسي.",
+      "اجمع الأسئلة المتكرّرة.",
+      "عيّن مسؤولًا للمحتوى."
+    ],
+    "faq": [
+      [
+        "هل يجلب الموقع استفسارات تلقائيًا؟",
+        "لا. تحتاج إلى ظهور ومحتوى مفيد واستجابة فعلية."
+      ]
+    ],
+    "editorial_detail_heading": "ابدأ بالأسئلة التي تردّ عليها يوميًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي يمكن أن يفعله موقع صغير لمشروعي؟",
+        "راجع الأسئلة التي تكرر الإجابة عنها في الرسائل، واجمع أهمها مع تعريف الخدمة وأمثلة حقيقية وطريقة تواصل واضحة. قد يكفي موقع صغير مرتب بدل مشروع كبير قبل معرفة الحاجة. المهم أن تكون المعلومات محدثة وأن يصل الاستفسار لمن يرد عليه. بعد الإطلاق تابع هل قلّ الغموض وتحسنت نوعية الأسئلة أو الطلبات؛ عدد الصفحات وشكل الموقع وحدهما لا يثبتان أنه أفاد المشروع."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي يمكن أن يفعله موقع صغير لمشروعي؟"
+  },
+  "image": {
+    "src": "/assets/article-images/why-business-needs-website.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

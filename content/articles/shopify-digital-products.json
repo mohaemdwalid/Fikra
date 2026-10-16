@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-digital-products",
+  "category": "platforms",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/products/digital-service-product"
+    }
+  ],
+  "related": [
+    "shopify-selling-services",
+    "shopify-customer-accounts",
+    "shopify-order-notifications"
+  ],
+  "en": {
+    "title": "What changes when Shopify sells digital rather than physical products?",
+    "answer": "Plan how the buyer receives and accesses the product. Checkout is only the first part of digital fulfilment.",
+    "sections": [
+      [
+        "Define what is delivered",
+        "List the file or access entitlement, supported format and usage conditions. Explain whether the buyer receives an immediate download, a manually prepared item or access through another system. Avoid implying delivery is automatic when someone must fulfil it later."
+      ],
+      [
+        "Test access after purchase",
+        "Review the appropriate delivery integration and check the customer’s confirmation and retrieval route. Test a valid purchase, an incorrect email and a support request as appropriate. Confirm that files are not unintentionally public before payment."
+      ],
+      [
+        "Plan changes and support",
+        "Decide how customers receive corrections or updated versions, and who handles lost access. Use accurate policy wording reviewed for your product and market. A checkout success is only one stage; successful access is the customer outcome."
+      ],
+      [
+        "Follow the buyer beyond the receipt",
+        "Specify the format, license or entitlement and whether delivery is immediate or manual. Test the actual download or access tool after an appropriate purchase. What happens if the email is wrong, the link expires or the file is updated? Agree who answers those requests. Also check that paid files are not accidentally public. The customer needs clear retrieval instructions, not shipping text copied from a physical-product template."
+      ]
+    ],
+    "checklist": [
+      "Specify format and entitlement.",
+      "Verify delivery and access.",
+      "Assign update and support owners."
+    ],
+    "faq": [
+      [
+        "Can I use the same fulfilment instructions as physical goods?",
+        "Digital delivery has different steps; explain the actual access process."
+      ]
+    ],
+    "editorial_detail_heading": "Follow the buyer beyond the receipt",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Test the delivery of the file",
+        "Buy a sample through the permitted test route and check when access is granted, how the message arrives and what happens when the link fails. Explain the file format and usage rights before purchase. Removing shipping fields alone does not provide a complete digital-delivery system."
+      ]
+    ],
+    "editorial_followup_heading": "Test the delivery of the file"
+  },
+  "ar": {
+    "title": "كيف أبيع ملفات أو منتجات رقمية بشوبيفاي؟",
+    "answer": "خطّط لكيفية استلام المشتري ووصوله للمنتج. الدفع أول خطوة في التسليم الرقمي، وليس دليلًا أن الملف وصل أو أن الوصول يعمل.",
+    "sections": [
+      [
+        "حدّد ما يُسلّم",
+        "دوّن الملف والصيغة وحقوق الاستخدام وهل التسليم فوري أم يدوي أم عبر نظام آخر."
+      ],
+      [
+        "اختبر الوصول",
+        "راجع التأكيد والاستلام والدعم وعدم كشف الملفات قبل الشراء. اختر ربطًا مناسبًا."
+      ],
+      [
+        "خطّط للتحديث",
+        "حدّد التصحيح واستعادة الوصول ومسؤول الدعم وسياسات تناسب المنتج والسوق. نجاح الدفع ليس إثبات استلام الملف."
+      ],
+      [
+        "تابع ما بعد رسالة التأكيد",
+        "حدّد الصيغة وحق الاستخدام والتسليم الفوري أو اليدوي، ثم اختبر الأداة الفعلية. ماذا لو أخطأ البريد أو انتهى الرابط أو تغيّر الملف؟ عيّن من يعالج ذلك. تأكّد أيضًا أن الملفات المدفوعة ليست عامة بالخطأ. يحتاج العميل إلى تعليمات وصول واضحة، لا نص توصيل من قالب منتجات مادية."
+      ]
+    ],
+    "checklist": [
+      "حدّد الصيغة والحقوق.",
+      "اختبر التسليم والوصول.",
+      "عيّن مسؤول الدعم."
+    ],
+    "faq": [
+      [
+        "هل تكفي تعليمات شحن المنتجات؟",
+        "اشرح عملية الوصول الرقمية الفعلية بدل تعليمات الطرود."
+      ]
+    ],
+    "editorial_detail_heading": "تابع ما بعد رسالة التأكيد",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف يستلم العميل الملف بعد الشراء؟",
+        "حدّد نوع الملف وطريقة وصوله والوقت الذي يحتاجه، ثم جرّب الطلب ورسالة التسليم من حساب مختلف. تأكد أن الرابط يعمل وأن العميل يعرف ماذا يفعل إذا لم تصله الرسالة أو احتاج مساعدة. وضّح ما يشتريه بالضبط وحقوق الاستخدام، خاصة إذا كانت هناك قيود على المشاركة أو إعادة البيع. إلغاء الشحن من المنتج لا يكفي وحده؛ يحتاج الملف نظام تسليم ومتابعة يناسب إعداد المتجر."
+      ]
+    ],
+    "editorial_followup_heading": "كيف يستلم العميل الملف بعد الشراء؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-digital-products.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

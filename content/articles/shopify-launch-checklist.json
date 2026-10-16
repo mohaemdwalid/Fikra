@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-launch-checklist",
+  "category": "planning",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/intro-to-shopify/initial-setup/new-to-shopify-checklists/general-checklist"
+    }
+  ],
+  "related": [
+    "shopify-test-order",
+    "shopify-shipping-rates",
+    "shopify-connect-domain"
+  ],
+  "en": {
+    "title": "What should you check before launching a Shopify store?",
+    "answer": "Try to buy from it as a new customer, then follow the order as the merchant. A homepage review only covers part of the launch.",
+    "sections": [
+      [
+        "Review what customers see",
+        "Check collection links, product options, prices, availability and delivery explanations. Open policy and contact links from mobile. Confirm that images match the product being sold and that the displayed language remains consistent across templates. Replace placeholder banners or unsupported claims before customers arrive."
+      ],
+      [
+        "Review what happens after purchase",
+        "Shopify’s setup checklist includes products, payments, shipping and other configuration. Walk through the process with whoever fulfils orders. Confirm where a new order appears, how stock is handled and who responds to customer questions. A beautiful storefront cannot compensate for an unclear dispatch process."
+      ],
+      [
+        "Make launch an owned decision",
+        "Classify findings as blocking, important follow-up or optional polish. Broken payments and unreachable products are different from minor spacing preferences. Obtain approval from the person responsible for commercial details, preserve a rollback route and monitor the first period after launch for unexpected errors."
+      ],
+      [
+        "A launch review with a clear result",
+        "Pick a product with options, choose a delivery address and complete an appropriate test order. Confirm what the customer sees and what the fulfilment team receives. List remaining issues by consequence: a broken payment route blocks launch, while a minor spacing change may not. Ask the owner to approve prices, product facts and policies. Keep someone available after publication to respond to unexpected errors rather than treating launch as the last task."
+      ]
+    ],
+    "checklist": [
+      "Check product, collection and policy links.",
+      "Confirm shipping and payment configuration.",
+      "Complete an appropriate test order.",
+      "Assign a person to monitor after launch."
+    ],
+    "faq": [
+      [
+        "Can I launch while some products are unfinished?",
+        "You can agree a smaller launch catalogue, but keep unfinished products out of the customer journey until their information is ready."
+      ]
+    ],
+    "editorial_detail_heading": "A launch review with a clear result",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Do a complete rehearsal",
+        "Ask a person who did not build the store to follow a purchase from a campaign link. Have the operations team follow the resulting order through its supported test process. Record who fixes each issue and which failures block launch. An attractive homepage cannot compensate for an order nobody receives."
+      ]
+    ],
+    "editorial_followup_heading": "Do a complete rehearsal"
+  },
+  "ar": {
+    "title": "كيف أتأكد أن متجري جاهز للإطلاق؟",
+    "answer": "جرّب أن تشتري كعميل جديد، ثم تابع الطلب كتاجر. مراجعة الصفحة الرئيسية وحدها لا تكشف ما يحدث في المقاسات والشحن والدفع والتنفيذ.",
+    "sections": [
+      [
+        "راجع ما يراه العميل",
+        "اختبر روابط التصنيفات والخيارات والأسعار والتوفّر والتوصيل. افتح السياسات والتواصل على الجوال، وطابق الصور بالمنتجات، وراجع اتّساق اللغة. استبدل النصوص المؤقتة والادّعاءات غير المدعومة."
+      ],
+      [
+        "راجع ما بعد الشراء",
+        "تشمل قائمة شوبيفاي إعداد المنتجات والدفع والشحن. ناقش التنفيذ مع الفريق: أين يظهر الطلب، وكيف يُدار المخزون، ومن يجيب العميل؟ لا يكفي جمال الواجهة دون عملية إرسال واضحة."
+      ],
+      [
+        "حدّد مسؤول قرار الإطلاق",
+        "صنّف الملاحظات إلى عوائق ومتابعات وتحسينات اختيارية. تعطّل الدفع يختلف عن مسافة صغيرة في التصميم. اعتمد التفاصيل التجارية واحتفظ بخطة رجوع وراقب الفترة الأولى بعد النشر."
+      ],
+      [
+        "اختبار يعطيك قرارًا واضحًا",
+        "اختر قطعة لها خيارات، وأدخل عنوانًا، ونفّذ طلب اختبار بالطريقة المناسبة. راجع رسالة العميل وما يصل لفريق التنفيذ. بعد ذلك صنّف الملاحظات: تعطل الدفع يمنع الإطلاق، أما مسافة صغيرة فقد لا تمنعه. اعتمد الأسعار والحقائق والسياسات مع صاحب النشاط، وحدّد من يتابع الأخطاء بعد النشر؛ الإطلاق بداية التشغيل وليس نهاية المسؤولية."
+      ]
+    ],
+    "checklist": [
+      "اختبر الروابط والسياسات.",
+      "أكّد إعدادات الدفع والشحن.",
+      "نفّذ طلب اختبار مناسبًا.",
+      "عيّن مسؤولًا للمراقبة."
+    ],
+    "faq": [
+      [
+        "هل يمكن الإطلاق بمنتجات أقل؟",
+        "يمكن اعتماد مجموعة أولية أصغر، مع إخفاء المنتجات غير المكتملة حتى تصبح جاهزة."
+      ]
+    ],
+    "editorial_detail_heading": "اختبار يعطيك قرارًا واضحًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "جرّب يوم بيع كامل قبل الإعلان",
+        "ابدأ برابط يشبه ما سيراه العميل، واختر المنتج والمقاس والعنوان وطريقة الدفع المناسبة للاختبار. بعدها اطلب من الفريق متابعة الطلب ورسائله وتجهيزه وفق الإجراءات المتفق عليها. راجع أيضًا المنتج النافد والرابط الخاطئ والتواصل من الجوال. اكتب كل مشكلة ومسؤول إصلاحها، وحدّد ما يمنع الإطلاق وما يمكن تحسينه لاحقًا. المهم أن تنجح العملية كاملة، لا أن تكون صور الصفحات جاهزة فقط."
+      ]
+    ],
+    "editorial_followup_heading": "جرّب يوم بيع كامل قبل الإعلان"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-launch-checklist.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Launch checklist with completed checks and an approval mark.",
+      "ar": "قائمة مراجعة إطلاق بعلامات إكمال واعتماد."
+    }
+  }
+}

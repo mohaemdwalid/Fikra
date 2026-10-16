@@ -1,0 +1,10 @@
+{
+  "slug": "qatar-service-booking",
+  "title_ar": "كيف أتأكد أن الحجز الإلكتروني يحجز موعدًا فعلًا؟",
+  "lead_en": "Follow the booking beyond the calendar display. Confirm that a real slot is reserved and that the customer and service provider receive the right information.",
+  "lead_ar": "تابع ما بعد ظهور التقويم. تأكّد من حجز وقت فعلي ووصول المعلومات الصحيحة للعميل ومقدم الخدمة؛ تحميل الأداة وحده لا يثبت ذلك.",
+  "heading_en": "Try the situations that cause confusion",
+  "detail_en": "What happens if a staff member is unavailable, the customer chooses another timezone or payment remains pending? The confirmation should describe the actual result, not label every submission a booking. Agree duration, resources and rescheduling rules with operations. Test an authorised scenario with the tool’s real configuration, and check notification delivery separately. Keep the person maintaining availability clearly identified after the website project ends.",
+  "heading_ar": "اختبر الحالات التي تربك الناس",
+  "detail_ar": "ماذا يحدث عند غياب الموظف أو اختلاف المنطقة الزمنية أو بقاء الدفع معلّقًا؟ يجب أن تصف الرسالة النتيجة الفعلية لا تسمّي كل إرسال حجزًا. اتّفق على المدة والموارد والتعديل مع التشغيل، ثم اختبر سيناريو معتمدًا بالإعداد الحقيقي. راجع وصول الإشعارات بصورة مستقلة وحدّد من يحدّث التوفّر بعد انتهاء مشروع الموقع."
+}

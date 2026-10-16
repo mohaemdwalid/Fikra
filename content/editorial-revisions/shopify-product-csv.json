@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-product-csv",
+  "title_ar": "كيف أرفع منتجات كثيرة على شوبيفاي بدون أخطاء؟",
+  "lead_en": "Use a small trial import first. A spreadsheet mistake can affect prices, options and existing products, not just the appearance of a page.",
+  "lead_ar": "ابدأ باستيراد عيّنة صغيرة. خطأ في الجدول قد يغيّر السعر أو الخيارات أو منتجًا موجودًا، وليس مجرد تنسيق في الصفحة.",
+  "heading_en": "What your sample should contain",
+  "detail_en": "Include one simple product, one with several variants and one with multiple photos. After importing, open the actual product pages and compare names, SKUs, prices and images with the approved sheet. Check the overwrite settings before touching an existing catalogue. If the sample has a mismatch, correct the source instead of manually repairing hundreds of pages later. Record the file version used so you can trace any unexpected change.",
+  "heading_ar": "ما العيّنة المناسبة؟",
+  "detail_ar": "ضمّن منتجًا بسيطًا وآخر بمقاسات ومنتجًا بصور كثيرة. بعد الاستيراد افتح الصفحات وطابق الأسماء وSKU والأسعار والصور بالجدول المعتمد. راجع إعداد الاستبدال قبل تغيير كتالوج موجود. إذا ظهر اختلاف، أصلح المصدر أولًا بدل معالجة مئات الصفحات يدويًا. واحتفظ باسم نسخة الملف المستخدمة حتى تستطيع معرفة مصدر أي تغيير غير متوقّع."
+}

@@ -12,13 +12,7 @@
   }
   function labels() {
     document.querySelectorAll('[data-showcase-en]').forEach(el => { el.textContent = ar() ? el.dataset.showcaseAr : el.dataset.showcaseEn; });
-    cards.forEach(card => {
-      const video = card.querySelector('video');
-      const button = card.querySelector('.showcase-playback');
-      if (!button) return;
-      button.textContent = video.paused ? '▶' : 'Ⅱ';
-      button.setAttribute('aria-label', ar() ? (video.paused ? 'تشغيل عرض المتجر' : 'إيقاف عرض المتجر مؤقتًا') : (video.paused ? 'Play store recording' : 'Pause store recording'));
-    });
+
   }
   function autoplay(card) {
     const video = card.querySelector('video');
@@ -34,14 +28,6 @@
   }, {threshold: .3});
   cards.forEach(card => {
     const video = card.querySelector('video'); video.muted = true;
-    const button = document.createElement('button');
-    button.type = 'button'; button.className = 'showcase-playback';
-    card.querySelector('.showcase-media').append(button);
-    video.addEventListener('play', labels); video.addEventListener('pause', labels);
-    button.addEventListener('click', () => {
-      if (video.paused) { delete card.dataset.userPaused; load(video); video.play().catch(labels); }
-      else { card.dataset.userPaused = 'true'; video.pause(); }
-    });
     observer.observe(card);
   });
   reduced.addEventListener('change', () => {

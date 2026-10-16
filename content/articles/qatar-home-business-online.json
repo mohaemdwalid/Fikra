@@ -1,0 +1,111 @@
+{
+  "slug": "qatar-home-business-online",
+  "category": "qatar",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Qatar official commerce guidance",
+      "url": "https://www.moci.gov.qa/en/e-services"
+    }
+  ],
+  "related": [
+    "qatar-online-business-registration",
+    "shopify-payments-qatar",
+    "website-contact-page"
+  ],
+  "en": {
+    "title": "What should a home-based Qatar business verify before selling online?",
+    "answer": "Confirm the requirements for your own activity and circumstances. Another home seller’s page is not evidence that the same route applies to you.",
+    "sections": [
+      [
+        "Ask a specific official question",
+        "Describe the product, preparation location, customer contact and delivery method. Use current MOCI channels to confirm the route relevant to your circumstances. Do not treat another seller’s social-media activity as evidence of permission for your own business."
+      ],
+      [
+        "Plan privacy and customer contact",
+        "Decide which contact channels and address information should be public and which details are only needed operationally. Use genuine business details without exposing unnecessary personal information. Review obligations with an appropriate adviser where needed."
+      ],
+      [
+        "Coordinate launch dependencies",
+        "Confirm payment-provider requirements, fulfilment capacity and approved customer information. Keep registration or approval tasks separate from design tasks. Only publish claims of licensing or certification that are actually supported by issued records."
+      ],
+      [
+        "Describe the setup, not just “online selling”",
+        "Explain what you make or resell, where it is prepared or stored and how customers receive it. Use that description when checking current official services or asking a qualified adviser. Separately plan public contact details, payment-provider requirements and delivery capacity. Do not expose unnecessary personal information to make the site appear complete. Keep approval tasks visible in the launch plan and publish only credentials actually issued to the business."
+      ]
+    ],
+    "checklist": [
+      "Describe the real activity.",
+      "Confirm the official route.",
+      "Coordinate privacy, payments and fulfilment."
+    ],
+    "faq": [
+      [
+        "Can another home seller’s setup be copied as legal guidance?",
+        "No. Confirm the requirements for your own activity and circumstances."
+      ]
+    ],
+    "editorial_detail_heading": "Describe the setup, not just “online selling”",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Separate business readiness from website readiness",
+        "A working checkout does not answer whether your activity, location or payment account is eligible. List those questions for the relevant authority and provider before commissioning the store. In parallel, prepare a realistic catalogue and fulfilment plan so technical progress does not hide an unresolved business dependency."
+      ]
+    ],
+    "editorial_followup_heading": "Separate business readiness from website readiness"
+  },
+  "ar": {
+    "title": "أبيع من البيت في قطر، ماذا أتأكد منه قبل فتح متجر؟",
+    "answer": "قبل إنشاء المتجر، تأكد من متطلبات نشاطك وطريقة عملك في قطر. وجود مشروع مشابه يبيع من البيت لا يعني أن الإجراءات نفسها تنطبق على حالتك.",
+    "sections": [
+      [
+        "اشرح نشاطك عند السؤال عن المتطلبات",
+        "اذكر ما تبيعه وأين تجهّزه وكيف يصل إلى العميل، ثم استخدم قنوات وزارة التجارة والصناعة لمعرفة الإجراءات المناسبة لحالتك. هذه التفاصيل تساعد على إجابة أدق من سؤال عام عن البيع عبر الإنترنت."
+      ],
+      [
+        "اختر بيانات التواصل التي ستعرضها",
+        "حدّد كيف يتواصل العميل مع المشروع وما المعلومات التي يحتاجها فعلًا. لا تنشر تفاصيل شخصية غير لازمة لمجرد ملء أقسام الموقع، وراجع ما يجب إظهاره بحسب المتطلبات التي تنطبق على نشاطك."
+      ],
+      [
+        "رتّب ما يحتاج موافقة قبل الإطلاق",
+        "تابع متطلبات الحساب التجاري والدفع وقدرتك على تجهيز الطلبات إلى جانب تصميم الموقع. اجعل لكل خطوة مسؤولًا وموعدًا للمتابعة، ولا تنشر معلومات عن ترخيص أو اعتماد إلا إذا كانت صادرة فعلًا للمشروع."
+      ],
+      [
+        "صف العمل بدل عبارة «بيع أونلاين» فقط",
+        "وضّح ما تصنعه أو تعيد بيعه وأين يُحضّر أو يُخزّن وكيف يصل. استخدم هذا الوصف عند مراجعة الخدمات الرسمية أو سؤال مختص. وبالتوازي، خطّط للتواصل العام والدفع والتوصيل دون كشف معلومات شخصية غير لازمة. أبقِ مهام الموافقة ضمن خطة الإطلاق، ولا تنشر صفة ترخيص أو اعتماد لم تصدر لنشاطك."
+      ]
+    ],
+    "checklist": [
+      "صف النشاط.",
+      "أكّد المسار الرسمي.",
+      "نسّق الخصوصية والدفع."
+    ],
+    "faq": [
+      [
+        "هل يُنسخ إعداد بائع آخر كإرشاد قانوني؟",
+        "تحقّق من متطلّبات نشاطك وظروفك أنت."
+      ]
+    ],
+    "editorial_detail_heading": "صف العمل بدل عبارة «بيع أونلاين» فقط",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي أجهّزه قبل دفع تكلفة التصميم؟",
+        "اكتب النشاط الذي ستبيعه وطريقة العمل والتوصيل، ثم اسأل الجهة المختصة عن المتطلبات التي تنطبق على حالتك تحديدًا. راجع أيضًا مزود الدفع بشأن قبول نشاطك والوثائق المطلوبة؛ نجاح تجربة دفع في متجر آخر لا يضمن قبول حسابك. يمكنك في الوقت نفسه تجهيز المنتجات والصور وطريقة الرد على العملاء. الهدف أن تعرف ما ينقص المشروع قبل الإطلاق، بدل اكتشاف عائق أساسي بعد اكتمال التصميم."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي أجهّزه قبل دفع تكلفة التصميم؟"
+  },
+  "image": {
+    "src": "/assets/article-images/qatar-home-business-online.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Business control and verification diagram beside an information panel.",
+      "ar": "رسم للتحكّم والتحقّق بجانب لوحة معلومات."
+    }
+  }
+}

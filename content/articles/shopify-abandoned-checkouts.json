@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-abandoned-checkouts",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/abandoned-checkouts"
+    }
+  ],
+  "related": [
+    "shopify-conversion-rate",
+    "shopify-test-order",
+    "shopify-discount-strategy"
+  ],
+  "en": {
+    "title": "How should you investigate abandoned Shopify checkouts?",
+    "answer": "Separate the stage people leave from the reason they leave. More reminder emails will not fix a payment or shipping problem.",
+    "sections": [
+      [
+        "Separate the stages",
+        "A person who viewed a product, someone who added it to the cart and someone who entered checkout represent different behaviours. Use the relevant report and current recovery eligibility rules instead of assuming every cart can receive an email. Identify where the drop-off occurs before choosing a response."
+      ],
+      [
+        "Look for preventable friction",
+        "Test shipping availability, unexpected totals, payment errors and confusing options. Review mobile input fields and whether the checkout matches the promise on the product page. If the underlying problem persists, a reminder can simply send someone back to the same broken experience."
+      ],
+      [
+        "Use recovery messages deliberately",
+        "Review the current Shopify recovery workflow and consent requirements for your setup. Keep the message accurate, avoid fabricated scarcity and do not add a discount automatically without considering margin. Compare recovered orders with the cost and customer experience of the intervention."
+      ],
+      [
+        "Reproduce the customer’s route",
+        "Use a relevant product and destination, then inspect shipping eligibility, total cost, payment errors and mobile fields. Compare product views, cart additions and checkout starts as different events. Review recovery eligibility before assuming every visitor can receive an email. If the route works, look at missing information or offer concerns. Choose a response that matches the barrier instead of automatically discounting every abandoned checkout and reducing margin without knowing why."
+      ]
+    ],
+    "checklist": [
+      "Distinguish cart activity from checkout activity.",
+      "Check payment and shipping failures.",
+      "Review workflow eligibility and messaging.",
+      "Measure recovered outcomes without assuming causation."
+    ],
+    "faq": [
+      [
+        "Should every recovery email include a discount?",
+        "No. First determine whether the barrier is price, a technical problem or missing information, then choose a proportionate response."
+      ]
+    ],
+    "editorial_detail_heading": "Reproduce the customer’s route",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Investigate a pattern, not one visit",
+        "Compare affected devices, traffic sources and checkout stages. Test the same delivery address and payment route where practical. A customer may be comparing prices or returning later; use the evidence to locate a recurring obstacle before changing the whole storefront or sending more reminders."
+      ]
+    ],
+    "editorial_followup_heading": "Investigate a pattern, not one visit"
+  },
+  "ar": {
+    "title": "العملاء يصلون للدفع ويخرجون، كيف أعرف السبب؟",
+    "answer": "افصل مرحلة المغادرة عن سببها. رسائل التذكير لا تصلح خطأ دفع أو توصيل يعيد العميل إلى المشكلة نفسها.",
+    "sections": [
+      [
+        "ميّز المراحل",
+        "مشاهدة المنتج والإضافة للسلة والدخول للدفع سلوكيات مختلفة. استخدم التقرير المناسب وقواعد الأهلية الحالية، ولا تفترض إمكان مراسلة كل سلة. حدّد موضع الانقطاع أولًا."
+      ],
+      [
+        "ابحث عن عوائق قابلة للإصلاح",
+        "اختبر الشحن والإجمالي المفاجئ وأخطاء الدفع والخيارات والجوال. راجع مطابقة الدفع لوعد المنتج. إرسال تذكير دون إصلاح المشكلة قد يعيد العميل إلى التجربة نفسها."
+      ],
+      [
+        "استخدم الرسائل بقصد",
+        "راجع مسار الاستعادة ومتطلّبات الموافقة في إعدادك. تجنّب الاستعجال المختلق والخصم التلقائي دون حساب الهامش، وقارن الطلبات المستعادة بتكلفة التدخّل وتجربة العميل."
+      ],
+      [
+        "جرّب مسار العميل",
+        "استخدم منتجًا ووجهة مناسبين وافحص الشحن والإجمالي والدفع وخانات الجوال. ميّز المشاهدة والإضافة وبداية الدفع. راجع أهلية الاستعادة قبل افتراض مراسلة كل زائر. وإذا كان المسار يعمل، ابحث عن معلومة ناقصة أو قلق من العرض. اختر معالجة للعائق بدل خصم تلقائي لكل مغادرة يقلّل الهامش دون معرفة السبب."
+      ]
+    ],
+    "checklist": [
+      "افصل السلة عن الدفع.",
+      "افحص أخطاء الشحن والدفع.",
+      "راجع الأهلية والرسائل.",
+      "قِس النتائج بحذر."
+    ],
+    "faq": [
+      [
+        "هل يجب وضع خصم في كل تذكير؟",
+        "لا. حدّد هل العائق سعر أم خطأ أم معلومة ناقصة، ثم اختر المعالجة المناسبة."
+      ]
+    ],
+    "editorial_detail_heading": "جرّب مسار العميل",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "كيف أعرف هل المشكلة من الدفع أم من العرض؟",
+        "راجع المرحلة التي يتوقف عندها العملاء: هل يخرجون بعد ظهور الشحن، أم عند اختيار الدفع، أم قبل إدخال البيانات؟ قارن الجوال بغيره ومصادر الزيارات، ثم جرّب المسار الذي يتكرر فيه التوقف. بعض الناس يستخدمون السلة للمقارنة ولا يقصدون الشراء فورًا. لذلك ابحث عن نمط واضح قبل تغيير التصميم كله أو إرسال رسائل كثيرة، وراجع الموافقات المطلوبة قبل أي متابعة تسويقية."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أعرف هل المشكلة من الدفع أم من العرض؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-abandoned-checkouts.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Unfinished purchase route with a checkout card and reminder clock.",
+      "ar": "مسار شراء غير مكتمل مع بطاقة دفع وساعة تذكير."
+    }
+  }
+}

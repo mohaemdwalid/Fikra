@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "shopify-store-design",
+    "en": {
+      "title": "Shopify Store Design & Development | FIKRA",
+      "heading": "Shopify store design built around your brand.",
+      "description": "FIKRA designs and develops Shopify stores with clear navigation, useful product pages and a considered mobile shopping experience. Book a free consultation.",
+      "intro": "FIKRA designs and develops Shopify stores for brands launching their first website or moving to a more considered shopping experience. We bring your brand identity, products and store structure together, then agree the pages and features your project needs.",
+      "sections": [
+        ["What a Shopify design project can include", "A project can cover the homepage, collection pages, product templates, navigation and essential store settings. The exact scope depends on your catalogue, content and existing setup. Custom features, paid themes and apps are discussed before they are included in your quote."],
+        ["Start with the way customers shop", "A useful store helps visitors understand what you sell, find the right collection and review a product before buying. We consider product information, photography, options, delivery information and calls to action together. On mobile, readable copy and clear navigation matter as much as the visual design."],
+        ["From consultation to handover", "The first conversation covers your products, audience, existing website and priorities. We agree the scope, review the design and develop the agreed Shopify pages. Before handover, we review the shopping journey and identify any remaining content or configuration work. Timing is agreed for each project."],
+        ["What to prepare", "Bring your logo, product photography, product descriptions, collection structure and delivery information. If you already use Shopify, share your store URL first. Access can be arranged when needed. Missing content and responsibility for supplying translations should be agreed before development starts."]
+      ],
+      "faq": [
+        ["Do I need to buy a new theme?", "That depends on your existing theme and the agreed design. We review the options first and identify any separate theme or app fees in the quote."],
+        ["How much does a Shopify website cost?", "FIKRA provides a project quote after reviewing the pages, catalogue and features required. Your Shopify subscription, paid themes and third-party apps may have separate costs."],
+        ["Can you build an Arabic and English store?", "A bilingual storefront can be included in the scope. Language content, right-to-left layouts and translation responsibilities are agreed during planning."]
+      ]
+    },
+    "ar": {
+      "title": "تصميم وتطوير متجر شوبيفاي | فكرة",
+      "heading": "تصميم متجر شوبيفاي يعبّر عن علامتك.",
+      "description": "نصمّم ونطوّر في فكرة متاجر شوبيفاي بتصفّح واضح وصفحات منتجات مفيدة وتجربة مناسبة للجوال. احجز استشارة مجانية لمناقشة مشروعك.",
+      "intro": "نصمّم ونطوّر في فكرة متاجر شوبيفاي للعلامات التي تطلق موقعها الأول أو ترغب في تطوير تجربة التسوّق. نجمع هويّة علامتك ومنتجاتك وبنية المتجر، ثم نتّفق على الصفحات والخصائص التي يحتاجها مشروعك.",
+      "sections": [
+        ["ما الذي يمكن أن يشمله المشروع؟", "يمكن أن يشمل المشروع الصفحة الرئيسية وصفحات التصنيفات وقوالب المنتجات والقوائم والإعدادات الأساسية. يعتمد نطاق العمل على منتجاتك ومحتواك وإعدادات متجرك الحالي. نناقش الخصائص المخصّصة والقوالب والتطبيقات المدفوعة قبل إدراجها في عرض السعر."],
+        ["نبدأ من طريقة تسوّق عملائك", "يساعد المتجر الواضح الزائر على فهم منتجاتك والوصول إلى التصنيف المناسب ومراجعة تفاصيل المنتج قبل الشراء. ننظر إلى المعلومات والصور والخيارات والتوصيل وأزرار الشراء معًا. وعلى الجوال، نراعي سهولة قراءة النص والتصفّح إلى جانب التصميم."],
+        ["من الاستشارة إلى التسليم", "نناقش منتجاتك وجمهورك وموقعك الحالي وأولوياتك، ثم نتّفق على نطاق العمل ونراجع التصميم ونطوّر الصفحات المطلوبة. قبل التسليم، نراجع رحلة الشراء ونحدّد أي محتوى أو إعدادات متبقية. نتّفق على الجدول الزمني لكل مشروع على حدة."],
+        ["ما الذي تحتاج إلى تجهيزه؟", "جهّز شعارك وصور المنتجات وأوصافها والتصنيفات ومعلومات التوصيل. إذا كان لديك متجر شوبيفاي، شارك رابطه أولًا ونرتّب الوصول عند الحاجة. نتّفق قبل التطوير على المحتوى الناقص ومسؤولية توفير الترجمات."]
+      ],
+      "faq": [
+        ["هل أحتاج إلى شراء قالب جديد؟", "يعتمد ذلك على قالبك الحالي والتصميم المتّفق عليه. نراجع الخيارات ونوضّح أي رسوم منفصلة للقالب أو التطبيقات في عرض السعر."],
+        ["كم تبلغ تكلفة متجر شوبيفاي؟", "نقدّم عرض سعر بعد مراجعة الصفحات والمنتجات والخصائص المطلوبة. قد تكون لاشتراك شوبيفاي والقوالب والتطبيقات المدفوعة تكاليف منفصلة."],
+        ["هل يمكن إنشاء متجر بالعربية والإنجليزية؟", "يمكن إدراج متجر ثنائي اللغة ضمن نطاق المشروع. نتّفق أثناء التخطيط على المحتوى والتصميم من اليمين إلى اليسار ومسؤولية الترجمة."]
+      ]
+    }
+  },
+  {
+    "slug": "shopify-store-redesign",
+    "en": {
+      "title": "Shopify Store Redesign | FIKRA",
+      "heading": "Give your existing Shopify store a clearer shopping experience.",
+      "description": "Refresh your Shopify storefront with FIKRA. Review navigation, product pages, mobile layouts and brand presentation before agreeing a focused redesign.",
+      "intro": "A Shopify redesign starts with what your existing store needs. FIKRA reviews the storefront, navigation and product pages, then helps you define changes that fit your brand and the way your customers shop.",
+      "sections": [
+        ["When a redesign is useful", "Your catalogue may have grown, your brand may have changed, or mobile pages may feel difficult to browse. A redesign can address how collections are organised, how product information is presented and how visitors move through the store. We discuss the problems before deciding which pages to change."],
+        ["Define the work before changing the theme", "A visual refresh does not always require a full rebuild. The project may involve selected templates, navigation or custom sections. Existing theme features, apps, product options and content need to be reviewed so the agreed design fits the store's requirements."],
+        ["Content and functionality belong together", "Product photography, descriptions, size information and delivery details influence how clearly shoppers understand your offer. We consider these alongside layout and mobile behaviour. Any content gaps, app changes or additional features are included in planning rather than assumed to be part of every project."],
+        ["Measure changes with context", "A redesign cannot promise a particular conversion rate or sales result. If you have analytics, they can help identify pages worth reviewing and provide a baseline. Traffic quality, pricing, promotions, product demand and seasonality also affect the outcome. Use comparable periods and clear definitions when reviewing performance."]
+      ],
+      "faq": [
+        ["Can you redesign only part of the store?", "Yes, a focused scope can cover selected pages or templates. We agree what needs to change after reviewing the store."],
+        ["Will a redesign guarantee more sales?", "No. Design can improve clarity and usability, but commercial results also depend on your products, offer and traffic. Any measured claim needs supporting data."],
+        ["What should I share before the consultation?", "Share your store URL, the pages causing concern, your priorities and any relevant analytics you are comfortable discussing. Do not send account passwords."]
+      ]
+    },
+    "ar": {
+      "title": "إعادة تصميم متجر شوبيفاي | فكرة",
+      "heading": "تجربة تسوّق أوضح لمتجرك الحالي على شوبيفاي.",
+      "description": "جدّد واجهة متجرك على شوبيفاي مع فكرة. نراجع القوائم وصفحات المنتجات وتصميم الجوال وهوية العلامة قبل تحديد نطاق إعادة التصميم.",
+      "intro": "تبدأ إعادة التصميم من احتياجات متجرك الحالي. نراجع في فكرة الواجهة والقوائم وصفحات المنتجات، ثم نساعدك على تحديد تحسينات تناسب علامتك وطريقة تسوّق عملائك.",
+      "sections": [
+        ["متى تكون إعادة التصميم مفيدة؟", "قد تتوسّع منتجاتك أو تتغيّر هويّة علامتك أو تصبح صفحات الجوال صعبة التصفّح. يمكن أن تشمل إعادة التصميم تنظيم التصنيفات وعرض معلومات المنتجات والتنقّل داخل المتجر. نناقش المشكلة قبل تحديد الصفحات التي تحتاج إلى تغيير."],
+        ["نحدّد العمل قبل تغيير القالب", "لا يتطلّب تحديث التصميم دائمًا إعادة بناء المتجر بالكامل. قد يشمل المشروع قوالب محدّدة أو القوائم أو أقسامًا مخصّصة. نراجع خصائص القالب والتطبيقات وخيارات المنتجات والمحتوى ليتناسب التصميم مع متطلّبات المتجر."],
+        ["المحتوى والخصائص يعملان معًا", "تؤثّر صور المنتجات وأوصافها والمقاسات ومعلومات التوصيل في وضوح العرض للعميل. ننظر إليها إلى جانب التصميم وتجربة الجوال. نحدّد المحتوى الناقص وتغييرات التطبيقات والخصائص الإضافية خلال التخطيط."],
+        ["قراءة النتائج في سياقها", "لا تضمن إعادة التصميم معدل تحويل أو مبيعات محدّدة. يمكن أن تساعد تحليلاتك في تحديد الصفحات التي تستحق المراجعة وتوفير نقطة مقارنة. تؤثّر جودة الزيارات والأسعار والعروض والطلب والمواسم أيضًا في النتائج. استخدم فترات قابلة للمقارنة وتعريفات واضحة عند تقييم الأداء."]
+      ],
+      "faq": [
+        ["هل يمكن إعادة تصميم جزء من المتجر فقط؟", "نعم، يمكن تحديد نطاق يضم صفحات أو قوالب معيّنة بعد مراجعة متجرك وتحديد ما يحتاج إلى تغيير."],
+        ["هل تضمن إعادة التصميم زيادة المبيعات؟", "لا. يمكن أن يحسّن التصميم الوضوح وسهولة الاستخدام، لكن النتائج تعتمد أيضًا على منتجاتك وعرضك والزيارات. تحتاج أي نتيجة معلنة إلى بيانات تثبتها."],
+        ["ماذا أشارك قبل الاستشارة؟", "شارك رابط متجرك والصفحات التي تحتاج إلى مراجعة وأولوياتك وأي تحليلات ترغب في مناقشتها. لا ترسل كلمات مرور حساباتك."]
+      ]
+    }
+  },
+  {
+    "slug": "arabic-english-shopify",
+    "en": {
+      "title": "Arabic & English Shopify Store Design | FIKRA",
+      "heading": "A Shopify experience for Arabic and English shoppers.",
+      "description": "Plan an Arabic and English Shopify storefront with FIKRA, including RTL layouts, navigation, product content and a clear language switching experience.",
+      "intro": "A bilingual Shopify store needs more than translated headings. FIKRA can include Arabic and English storefront design in your project scope, with attention to right-to-left layouts, navigation and the details shoppers use to make a purchase.",
+      "sections": [
+        ["Plan both languages from the start", "Agree which languages your store needs and who will supply and approve the translations. Product titles, descriptions, collection names, menus, delivery information and customer messages should be considered together. Translating only the homepage leaves gaps in the shopping journey."],
+        ["Review right-to-left layouts", "Arabic content changes text direction and can affect spacing, icons, menus and alignment. Product images, sizes, prices and English brand names may need their own direction treatment. We review these details across the agreed templates rather than treating Arabic as a final visual layer."],
+        ["Consider the full shopping journey", "The language selector should be easy to find and should take shoppers to relevant content. Theme sections and apps may have different translation capabilities. Checkout, notifications and external tools depend on the store's configuration and platform support, so their language requirements need to be reviewed separately."],
+        ["Keep language content useful and consistent", "Each language needs clear product information and accurate policy content. Search visibility also depends on accessible language URLs and meaningful page titles. The implementation should reflect your catalogue and target audience; adding a language alone does not guarantee a search position."]
+      ],
+      "faq": [
+        ["Do you supply every translation?", "Translation responsibility and approval are agreed in the project scope. Bring any existing approved Arabic and English content to the consultation."],
+        ["Can an existing theme support Arabic?", "That depends on the theme, its sections and connected apps. We review the existing setup before agreeing the changes required."],
+        ["Will every external app automatically switch language?", "Not necessarily. Each app or embedded service has its own language support. We identify these dependencies during planning."]
+      ]
+    },
+    "ar": {
+      "title": "تصميم متجر شوبيفاي بالعربية والإنجليزية | فكرة",
+      "heading": "تجربة شوبيفاي لعملائك بالعربية والإنجليزية.",
+      "description": "خطّط لمتجر شوبيفاي بالعربية والإنجليزية مع فكرة، مع مراعاة التصميم من اليمين إلى اليسار والقوائم ومحتوى المنتجات وسهولة تبديل اللغة.",
+      "intro": "يحتاج متجر شوبيفاي ثنائي اللغة إلى أكثر من ترجمة العناوين. يمكن أن ندرج تصميم واجهة بالعربية والإنجليزية ضمن مشروعك، مع الاهتمام باتجاه الصفحة والقوائم والتفاصيل التي يحتاجها العميل قبل الشراء.",
+      "sections": [
+        ["التخطيط للغتين منذ البداية", "حدّد اللغات المطلوبة ومن سيوفّر الترجمات ويعتمدها. نراجع عناوين المنتجات وأوصافها والتصنيفات والقوائم ومعلومات التوصيل ورسائل العملاء معًا. ترجمة الصفحة الرئيسية وحدها تترك فجوات في رحلة التسوّق."],
+        ["مراجعة التصميم من اليمين إلى اليسار", "تغيّر العربية اتجاه النص وقد تؤثّر في المسافات والأيقونات والقوائم والمحاذاة. قد تحتاج الصور والمقاسات والأسعار وأسماء العلامات الإنجليزية إلى معالجة مستقلة لاتجاهها. نراجع هذه التفاصيل في القوالب المتّفق عليها."],
+        ["الاهتمام برحلة الشراء كاملة", "ينبغي أن يكون مبدّل اللغة واضحًا وأن يصل بالعميل إلى المحتوى المناسب. تختلف إمكانات الترجمة بين أقسام القالب والتطبيقات. تعتمد لغة الدفع والإشعارات والأدوات الخارجية على إعدادات المتجر ودعم المنصة، لذلك نراجع متطلّباتها بشكل منفصل."],
+        ["محتوى مفيد ومتّسق في كل لغة", "تحتاج كل لغة إلى معلومات منتجات واضحة وسياسات دقيقة. يعتمد الظهور في البحث أيضًا على روابط لغوية قابلة للوصول وعناوين صفحات مفيدة. ينبغي أن يناسب التنفيذ منتجاتك وجمهورك؛ إضافة لغة وحدها لا تضمن ترتيبًا في البحث."]
+      ],
+      "faq": [
+        ["هل توفّرون جميع الترجمات؟", "نتّفق على مسؤولية توفير الترجمات واعتمادها ضمن نطاق المشروع. شارك أي محتوى عربي وإنجليزي معتمد لديك أثناء الاستشارة."],
+        ["هل يدعم القالب الحالي اللغة العربية؟", "يعتمد ذلك على القالب وأقسامه والتطبيقات المرتبطة به. نراجع الإعدادات الحالية قبل الاتفاق على التغييرات المطلوبة."],
+        ["هل تتغيّر لغة جميع التطبيقات تلقائيًا؟", "ليس بالضرورة. لكل تطبيق أو خدمة مضمّنة دعم لغوي مستقل. نحدّد هذه المتطلّبات أثناء التخطيط."]
+      ]
+    }
+  }
+]

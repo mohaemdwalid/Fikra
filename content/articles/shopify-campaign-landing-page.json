@@ -1,0 +1,113 @@
+{
+  "slug": "shopify-campaign-landing-page",
+  "category": "growth",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/online-store/themes/customizing-themes"
+    }
+  ],
+  "related": [
+    "shopify-utm-tracking",
+    "shopify-conversion-rate",
+    "mobile-shopify-design"
+  ],
+  "en": {
+    "title": "When should a Shopify campaign use a dedicated landing page?",
+    "answer": "Send people where the advert’s promise continues clearly. A dedicated landing page is useful when it explains something the product page does not.",
+    "sections": [
+      [
+        "Match the destination to the question",
+        "A campaign for one clear product may work well with a complete product page. A collection story or offer needing explanation may benefit from a dedicated layout. Write down what the visitor already knows from the advert and what they still need before choosing the destination."
+      ],
+      [
+        "Keep the offer consistent",
+        "Use the same product identity, conditions and availability across the advert and page. Show the relevant proof and product details without inventing testimonials or urgency. If a promotion has an end date or eligibility condition, explain it where customers decide rather than only in a remote policy page."
+      ],
+      [
+        "Measure the whole route",
+        "Review landing engagement, product selection, checkout and completed orders as appropriate. Keep campaign tracking consistent and inspect mobile behaviour. Shopify theme customisation can support different layouts, but the result still depends on the offer and audience. Compare meaningful outcomes before keeping a dedicated page permanently."
+      ],
+      [
+        "Choose by what the visitor still needs",
+        "An advert for one clearly defined item may work with a complete product page. A collection story or an offer needing several explanations may need a focused landing page. Keep the same identity, conditions and availability across the route. Test it on a phone with the exact campaign link. Compare completed outcomes as well as clicks before deciding that the extra page helped; adding another step can also introduce friction."
+      ]
+    ],
+    "checklist": [
+      "Define the campaign’s single buying question.",
+      "Choose the most relevant destination.",
+      "Keep offer conditions consistent.",
+      "Measure through to completed outcomes."
+    ],
+    "faq": [
+      [
+        "Should every advert link to the homepage?",
+        "Choose the page that best continues the advert’s promise. A homepage can be too broad for a specific product or promotion."
+      ]
+    ],
+    "editorial_detail_heading": "Choose by what the visitor still needs",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Match the page to the promise",
+        "Read the ad beside the destination page. The same product, offer and next step should be easy to find without extra searching. Use a collection when people need a choice and a product page when the ad already chose the item. Measure the complete journey, not only the click rate."
+      ]
+    ],
+    "editorial_followup_heading": "Match the page to the promise"
+  },
+  "ar": {
+    "title": "أرسل الإعلان للرئيسية أم لصفحة منتج أم لصفحة هبوط؟",
+    "answer": "أرسل الناس إلى المكان الذي يكمّل وعد الإعلان. تفيد صفحة الهبوط عندما تشرح ما لا تكفي صفحة المنتج لشرحه، لا لمجرّد اسمها.",
+    "sections": [
+      [
+        "طابق الوجهة بالسؤال",
+        "قد تناسب صفحة منتج مكتملة إعلانًا لقطعة واضحة. وقد تحتاج قصة مجموعة أو عرض إلى صفحة خاصة. حدّد ما عرفه الزائر من الإعلان وما يحتاج إلى فهمه قبل الاختيار."
+      ],
+      [
+        "حافظ على اتّساق العرض",
+        "طابق هوية المنتج والشروط والتوفّر بين الإعلان والصفحة. اعرض التفاصيل والأدلة دون تقييمات أو استعجال مختلق. وضّح موعد العرض وشروطه قرب القرار."
+      ],
+      [
+        "قِس المسار كاملًا",
+        "راجع الوصول والاختيار والدفع والطلبات المكتملة، ووحّد التتبّع واختبر الجوال. يدعم تخصيص القالب تخطيطات مختلفة، لكن الجمهور والعرض يظلان مؤثّرين في النتائج."
+      ],
+      [
+        "اختر وفق ما يحتاج الزائر لفهمه",
+        "إعلان قطعة محدّدة قد يناسب صفحة منتج مكتملة، بينما تحتاج قصة مجموعة أو عرض مركّب إلى شرح مركّز. طابق الهوية والشروط والتوفر واختبر الرابط نفسه على الهاتف. قارن النتائج المكتملة بالنقرات قبل الحكم على الفائدة؛ قد تساعد الصفحة الإضافية وقد تضيف خطوة تعرقل العميل."
+      ]
+    ],
+    "checklist": [
+      "حدّد سؤال الحملة.",
+      "اختر وجهة ذات صلة.",
+      "طابق شروط العرض.",
+      "قِس النتيجة النهائية."
+    ],
+    "faq": [
+      [
+        "هل تربط جميع الإعلانات بالرئيسية؟",
+        "اختر الصفحة التي تكمّل وعد الإعلان؛ قد تكون الرئيسية أوسع من عرض محدّد."
+      ]
+    ],
+    "editorial_detail_heading": "اختر وفق ما يحتاج الزائر لفهمه",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا يتوقع الشخص بعد الضغط على الإعلان؟",
+        "إذا كان الإعلان عن منتج محدد، اجعله يصل إلى ذلك المنتج مع السعر والخيار الذي رآه. وإذا كان عن مجموعة، فقد تكون صفحة تصنيف أو هبوط مناسبة بشرط أن تكمل الفكرة نفسها. لا ترسل الجميع للرئيسية ثم تطلب منهم البحث من جديد. جرّب الرابط من الهاتف وتأكد من المخزون والشحن واللغة، ثم تابع ما يحدث بعد الزيارة؛ كثرة النقرات لا تعني أن الصفحة ساعدت على إكمال الطلب."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا يتوقع الشخص بعد الضغط على الإعلان؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-campaign-landing-page.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Focused campaign landing page paired with an audience target.",
+      "ar": "صفحة هبوط لحملة بجانب هدف يرمز إلى الجمهور المقصود."
+    }
+  }
+}

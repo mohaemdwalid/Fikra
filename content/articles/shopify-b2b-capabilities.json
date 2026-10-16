@@ -1,0 +1,111 @@
+{
+  "slug": "shopify-b2b-capabilities",
+  "category": "scaling",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/b2b/getting-started/considerations"
+    }
+  ],
+  "related": [
+    "qatar-b2b-quote-website",
+    "choose-shopify-plan",
+    "shopify-customer-accounts"
+  ],
+  "en": {
+    "title": "Can Shopify support wholesale and B2B selling?",
+    "answer": "It may, depending on the buying rules you need and the current plan capabilities. Start with pricing, approval and account requirements.",
+    "sections": [
+      [
+        "Describe the commercial model",
+        "Identify company buyers, negotiated catalogues, payment terms and order approval needs. Some wholesalers need quotation before sale; others can offer a structured account-based purchase route. Write the required behaviours before choosing extensions or upgrading a plan."
+      ],
+      [
+        "Verify each requirement",
+        "Check the current B2B considerations and feature matrix. Record which capability is native, plan-dependent or provided by an external tool. Avoid promising unlimited catalogues or a specific credit workflow without confirming the supported configuration."
+      ],
+      [
+        "Test as a buyer and operator",
+        "Walk through account access, pricing visibility, order placement and operational follow-up. Include exceptions such as an unapproved company or changed terms. Keep commercial approvals and customer data under appropriate business control."
+      ],
+      [
+        "Describe one company purchase",
+        "Does a buyer need an approved account, a negotiated catalogue, a quote or payment terms? Write that route and compare each requirement with current documentation. Some older comparisons describe restrictions that have changed, so verify instead of repeating them. Test an unapproved buyer as well as an accepted one. Check who can see commercial prices and who authorises changes; a polished wholesale page is not the same as a controlled business process."
+      ]
+    ],
+    "checklist": [
+      "Document company buying requirements.",
+      "Check current plan-dependent features.",
+      "Test buyer and operator roles."
+    ],
+    "faq": [
+      [
+        "Does B2B mean every visitor should see wholesale prices?",
+        "Set visibility according to the approved commercial model and supported configuration."
+      ]
+    ],
+    "editorial_detail_heading": "Describe one company purchase",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Describe your wholesale process precisely",
+        "Write a sample order with customer-specific pricing, quantities, approval and payment terms. Ask the supplier to demonstrate it on the proposed plan and setup. Selling several items to a company is not the same requirement as running a structured wholesale operation with negotiated rules."
+      ]
+    ],
+    "editorial_followup_heading": "Describe your wholesale process precisely"
+  },
+  "ar": {
+    "title": "هل شوبيفاي يصلح للبيع بالجملة وللشركات؟",
+    "answer": "قد يناسب ذلك وفق قواعد البيع والخصائص الحالية للباقة. ابدأ بالتسعير والاعتماد والحسابات، لا بكلمة B2B وحدها.",
+    "sections": [
+      [
+        "صف النموذج",
+        "حدّد الشركات والكتالوجات والتسعير وشروط الدفع والاعتماد قبل الترقية أو الإضافات."
+      ],
+      [
+        "تحقّق من كل حاجة",
+        "دوّن الأساسي والمعتمد على الباقة والخارجي، ولا تعد بحدود أو ائتمان دون تأكيد."
+      ],
+      [
+        "اختبر الأدوار",
+        "راجع الحساب والأسعار والطلب والمتابعة والاستثناءات مع ضبط البيانات التجارية."
+      ],
+      [
+        "صف طلب شركة واحدًا",
+        "هل يحتاج المشتري حسابًا معتمدًا أو كتالوجًا تفاوضيًا أو عرضًا أو شروط دفع؟ اكتب المسار وقارن كل حاجة بالتوثيق الحالي، لأن بعض المقارنات القديمة لم تعد تصف القيود نفسها. اختبر مشتريًا غير معتمد وآخر مقبولًا، وراجع ظهور الأسعار ومن يجيز التغيير. صفحة جملة جميلة لا تعني أن العملية التجارية مضبوطة."
+      ]
+    ],
+    "checklist": [
+      "وثّق احتياجات الشركات.",
+      "راجع الخصائص الحالية.",
+      "اختبر العميل والمشغّل."
+    ],
+    "faq": [
+      [
+        "هل يرى الجميع أسعار الجملة؟",
+        "اضبط الظهور وفق نموذجك المعتمد والإعداد المدعوم."
+      ]
+    ],
+    "editorial_detail_heading": "صف طلب شركة واحدًا",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي تقصده بالبيع للشركات؟",
+        "هل تريد خصم كمية فقط، أم أسعارًا مختلفة لكل عميل، أم طلبًا يحتاج موافقة وشروط سداد؟ اكتب مثالًا لطلب حقيقي بدون بيانات حساسة واعرضه على من يقترح الحل. اطلب توضيح الوظائف المتاحة في الباقة والإعداد المقترحين وما يحتاج تطبيقًا أو تطويرًا. لا تكتفِ بإجابة «يدعم الجملة»؛ المهم أن يعمل المسار الذي يستخدمه فريقك، من دخول العميل إلى مراجعة الطلب وتنفيذه."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي تقصده بالبيع للشركات؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-b2b-capabilities.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Connected website systems and information routes.",
+      "ar": "أنظمة موقع مترابطة ومسارات للمعلومات."
+    }
+  }
+}

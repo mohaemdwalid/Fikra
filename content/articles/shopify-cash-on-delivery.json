@@ -1,0 +1,163 @@
+{
+  "slug": "shopify-cash-on-delivery",
+  "category": "operations",
+  "service": "shopify-store-design",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Shopify Help Center",
+      "url": "https://help.shopify.com/en/manual/payments/manual-payments"
+    }
+  ],
+  "related": [
+    "shopify-payments-qatar",
+    "shopify-local-delivery",
+    "shopify-conversion-rate"
+  ],
+  "en": {
+    "title": "How should you set up cash on delivery on Shopify?",
+    "answer": "Set up the payment choice and the collection process together. Receiving an order does not mean the courier has collected its value.",
+    "sections": [
+      [
+        "Explain the conditions clearly",
+        "State where COD is available, what the customer needs to prepare and whether your actual delivery arrangement has an additional charge. Confirm the instructions with your courier. Keep the wording near the payment choice so customers do not discover important conditions only after placing an order."
+      ],
+      [
+        "Separate order creation from payment",
+        "Shopify manual-payment orders can remain unpaid until the money is received and recorded. An order confirmation is therefore not evidence that a COD payment was collected. Agree who updates payment status and how the team matches courier settlements to orders."
+      ],
+      [
+        "Monitor the operational cost",
+        "Track dispatches, successful deliveries, failed attempts and collected amounts using consistent definitions. Compare COD results with the costs of fulfilment and returns. If a destination causes repeated issues, review the process and coverage rather than assuming all placed orders represent completed revenue."
+      ],
+      [
+        "Follow the money as well as the parcel",
+        "Agree where COD is available and what instructions the courier needs. Then define who records delivery, who matches settlements and who updates payment status. A failed delivery and a delivered-but-unreconciled payment are different issues. Keep those stages separate in your review. Test the customer instructions and any real additional charge before publishing. Compare collected results with fulfilment costs rather than counting every placed COD order as paid revenue."
+      ]
+    ],
+    "checklist": [
+      "Confirm courier collection arrangements.",
+      "Publish accurate availability and instructions.",
+      "Assign payment reconciliation responsibility.",
+      "Track delivered and collected orders separately."
+    ],
+    "faq": [
+      [
+        "Should COD orders count as paid sales immediately?",
+        "Do not treat order creation as collected payment. Use the correct payment status and reconcile actual receipts."
+      ]
+    ],
+    "editorial_detail_heading": "Follow the money as well as the parcel",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "Do not collapse these order states",
+      "columns": [
+        "State",
+        "What it tells you"
+      ],
+      "rows": [
+        [
+          "Order received",
+          "The customer submitted an order, not necessarily a collected payment."
+        ],
+        [
+          "Dispatched",
+          "The parcel entered the delivery process."
+        ],
+        [
+          "Delivered",
+          "The handover occurred according to the delivery record."
+        ],
+        [
+          "Payment reconciled",
+          "The received money was matched to the order."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "Reconcile the money after delivery",
+        "Define how an order moves from placed to delivered, refused or returned and who confirms the collected amount. Include collection fees and remittance timing in your operational review. A storefront payment label does not by itself create a reliable cash record between your team and the delivery partner."
+      ]
+    ],
+    "editorial_followup_heading": "Reconcile the money after delivery"
+  },
+  "ar": {
+    "title": "كيف أضيف الدفع عند الاستلام وأتابع التحصيل؟",
+    "answer": "اضبط خيار الدفع وعملية تحصيله معًا. وصول الطلب لا يعني أن المندوب سلّم القطعة أو حصّل قيمتها.",
+    "sections": [
+      [
+        "وضّح الشروط",
+        "اذكر التغطية وما يحتاجه العميل وأي رسوم فعلية متّفق عليها. أكّد التعليمات مع شركة التوصيل وضعها قرب اختيار الدفع بدل ظهورها بعد الطلب فقط."
+      ],
+      [
+        "افصل إنشاء الطلب عن التحصيل",
+        "قد يبقى الطلب بالدفع اليدوي غير مدفوع حتى استلام المال وتسجيله. تأكيد الطلب ليس دليل تحصيل. حدّد مسؤول تحديث الحالة ومطابقة تحويلات شركة التوصيل بالطلبات."
+      ],
+      [
+        "راقب تكلفة العملية",
+        "تتبّع الإرسال والتسليم والمحاولات الفاشلة والمبالغ المحصّلة بتعريفات ثابتة. راجع التكلفة والتغطية عند تكرار المشكلات بدل اعتبار جميع الطلبات إيرادًا مكتملًا."
+      ],
+      [
+        "تابع المال مثلما تتابع الطرد",
+        "اتّفق على التغطية وتعليمات المندوب، ثم حدّد من يسجّل التسليم ويطابق التحويل ويحدّث حالة الدفع. فشل التوصيل يختلف عن طلب سُلّم ولم يُطابق تحصيله. افصل المراحل في المتابعة. اختبر تعليمات العميل وأي رسوم فعلية قبل النشر. وقارن المبالغ المحصّلة بتكلفة التنفيذ بدل اعتبار كل طلب إيرادًا مدفوعًا."
+      ]
+    ],
+    "checklist": [
+      "أكّد ترتيبات التحصيل.",
+      "انشر التغطية والتعليمات الدقيقة.",
+      "عيّن مسؤول المطابقة المالية.",
+      "افصل المسلّم عن المحصّل."
+    ],
+    "faq": [
+      [
+        "هل يُعدّ طلب الدفع عند الاستلام مدفوعًا فورًا؟",
+        "لا تساوِ إنشاء الطلب بالتحصيل؛ حدّث الحالة وطابق المبلغ المستلم فعليًا."
+      ]
+    ],
+    "editorial_detail_heading": "تابع المال مثلما تتابع الطرد",
+    "editorial_revision": "2026-10-16",
+    "detail_table": {
+      "heading": "لا تدمج حالات الطلب هذه",
+      "columns": [
+        "الحالة",
+        "ماذا تعني؟"
+      ],
+      "rows": [
+        [
+          "استلام الطلب",
+          "أرسل العميل طلبًا، وليس بالضرورة مالًا محصّلًا."
+        ],
+        [
+          "الإرسال",
+          "دخل الطرد عملية التوصيل."
+        ],
+        [
+          "التسليم",
+          "تمت المناولة وفق سجل التوصيل."
+        ],
+        [
+          "مطابقة التحصيل",
+          "طُوبق المال المستلم بالطلب."
+        ]
+      ]
+    },
+    "extended_sections": [
+      [
+        "كيف أتابع الفلوس بعد تسليم الطلب؟",
+        "اتفق مع شركة التوصيل على حالات الطلب، ورسوم التحصيل، وموعد تحويل المبالغ، وكيف تثبت الطلبات المرفوضة أو المرتجعة. جرّب مطابقة طلب واحد بين المتجر وتقرير الناقل والمبلغ المحوّل. لا تعتبر ظهور «الدفع عند الاستلام» كافيًا لتنظيم العملية؛ يحتاج الفريق معرفة متى يعد الطلب مدفوعًا ومن يراجع الفروقات. وضّح للعميل أي شروط مرتبطة بالخدمة قبل أن يختارها، بدل مفاجأته بها عند الاتصال."
+      ]
+    ],
+    "editorial_followup_heading": "كيف أتابع الفلوس بعد تسليم الطلب؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-cash-on-delivery.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Delivery parcel exchanged for a cash payment and receipt confirmation.",
+      "ar": "طرد توصيل مقابل دفع نقدي مع علامة تأكيد التحصيل."
+    }
+  }
+}

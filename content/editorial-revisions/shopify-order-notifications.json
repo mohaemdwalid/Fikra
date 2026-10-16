@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-order-notifications",
+  "title_ar": "كيف أضبط رسائل الطلب حتى لا تعطي العميل معلومة غلط؟",
+  "lead_en": "Match each message to the order’s actual stage. Received, paid, ready for pickup and dispatched mean different things.",
+  "lead_ar": "طابق الرسالة بمرحلة الطلب. «استلمنا الطلب» و«تم الدفع» و«جاهز للاستلام» و«أُرسل» ليست حالات متطابقة.",
+  "heading_en": "Read a message against the order record",
+  "detail_en": "For COD or a pre-order, check that the wording does not imply collected payment or immediate dispatch. Review options, totals, contact links and the relevant language. Then test actual delivery of the message; saving a template proves only that it was saved. Check whether an app sends another notification and remove confusing duplicates. Assign responsibility for sender configuration and failures so the customer is not left with contradictory or missing instructions.",
+  "heading_ar": "اقرأ الرسالة مقابل السجل",
+  "detail_ar": "في الدفع عند الاستلام أو الطلب المسبق، تأكد أنها لا تعني تحصيلًا أو إرسالًا فوريًا. راجع الخيارات والمبالغ والروابط واللغة، ثم اختبر الوصول الحقيقي؛ الحفظ يثبت الحفظ فقط. افحص رسائل التطبيقات الأخرى وتجنب التكرار المربك. وحدّد مسؤول المرسل والفشل حتى لا تصل تعليمات ناقصة أو متناقضة."
+}

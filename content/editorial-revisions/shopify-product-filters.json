@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-product-filters",
+  "title_ar": "ما الفلاتر المفيدة فعلًا لمنتجاتي؟",
+  "lead_en": "Use filters that help someone make a real choice and that your product data can support consistently. More attributes can make browsing harder.",
+  "lead_ar": "أضف ما يساعد على اختيار حقيقي وتستطيع بيانات المنتجات دعمه باتّساق. زيادة الخانات قد تصعّب التصفّح بدل تحسينه.",
+  "heading_en": "Try combinations, including an empty result",
+  "detail_en": "For clothing, size or fabric may matter, but check whether the values are complete and consistently named. Duplicate colour spellings can split useful results. Test common searches in the store’s languages, then combine filters until few or no items remain. Can shoppers see and remove active choices? On mobile, make sure closing the panel does not lose their context. Fix missing catalogue data before blaming the filter interface.",
+  "heading_ar": "جرّب التركيبات حتى النتيجة الفارغة",
+  "detail_ar": "قد يفيد المقاس أو القماش في الملابس، لكن تأكّد من اكتمال القيم وأسمائها. قد تقسّم كتابات لون مختلفة النتائج دون قصد. اختبر البحث باللغات ثم اجمع الفلاتر حتى تقل القطع أو تختفي. هل تظهر الاختيارات ويسهل إلغاؤها؟ راجع إغلاق اللوحة على الجوال، وأصلح البيانات الناقصة قبل لوم الواجهة."
+}

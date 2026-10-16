@@ -1,0 +1,115 @@
+{
+  "slug": "custom-website-or-builder",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "WordPress documentation",
+      "url": "https://wordpress.org/about/features/"
+    },
+    {
+      "title": "Wix Help Center",
+      "url": "https://support.wix.com/en/wix-stores"
+    }
+  ],
+  "related": [
+    "choose-website-cms",
+    "business-website-types",
+    "website-project-ownership"
+  ],
+  "en": {
+    "title": "Should you choose a custom website or a website builder?",
+    "answer": "Start with the work the site must do. Custom development helps when a real requirement cannot be handled sensibly by the simpler option.",
+    "sections": [
+      [
+        "Write the constraints",
+        "List integrations, languages, content volume and editing frequency. Identify which requirements are standard and which genuinely need unusual behaviour. Distinguish a bespoke visual design from a completely custom technical system."
+      ],
+      [
+        "Test the owner’s work",
+        "Ask the intended editor to update a page and preview the result in each candidate approach. Include mobile and translated content. The demonstration should use your tasks, not a supplier’s polished example unrelated to the business."
+      ],
+      [
+        "Compare lifetime responsibility",
+        "Review hosting, updates, portability and support with named owners. A flexible system needs somebody to maintain its flexibility. A convenient builder needs an exit plan and a clear understanding of subscription and export limitations."
+      ],
+      [
+        "Separate a custom look from a custom system",
+        "A brand can need an original design without needing a completely new technical platform. Conversely, a simple-looking site may have complicated integrations behind it. List the unusual requirements and ask for a demonstration of each. Then check how your team edits routine content and what happens when you leave the supplier. Compare maintenance and ownership along with launch cost; flexibility has little value if nobody can safely use it afterward."
+      ]
+    ],
+    "checklist": [
+      "Separate design from technical requirements.",
+      "Test real editing tasks.",
+      "Compare support and exit arrangements."
+    ],
+    "faq": [
+      [
+        "Does custom code always mean a better site?",
+        "Only when it serves a requirement and can be maintained reliably."
+      ]
+    ],
+    "editorial_detail_heading": "Separate a custom look from a custom system",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Identify the requirement that needs custom work",
+        "Ask for a demonstration of the difficult part: an unusual quotation process, integration or content relationship. If a standard tool handles it well, custom development needs another reason. If it cannot, document the gap and who will maintain the custom solution once the original developer leaves."
+      ]
+    ],
+    "editorial_followup_heading": "Identify the requirement that needs custom work"
+  },
+  "ar": {
+    "title": "متى أحتاج موقعًا مبرمجًا خصيصًا، ومتى تكفي أداة جاهزة؟",
+    "answer": "ابدأ بما يجب أن يفعله الموقع. يفيد التطوير الخاص عندما يعالج حاجة حقيقية لا يغطّيها الحل الأبسط بصورة مناسبة، لا لمجرّد كلمة «مخصّص».",
+    "sections": [
+      [
+        "اكتب القيود",
+        "حدّد التكاملات واللغات والمحتوى وتكرار التحديث. ميّز التصميم البصري الخاص عن بناء نظام تقني كامل."
+      ],
+      [
+        "جرّب عمل المسؤول",
+        "اطلب تعديل صفحة ومعاينتها بمحتواك ولغاتك وعلى الجوال، لا بمثال عرض فقط."
+      ],
+      [
+        "قارن المسؤولية المستمرة",
+        "راجع الاستضافة والتحديث والنقل والدعم والخروج. تحتاج المرونة إلى صيانة والأداة إلى فهم حدود الاشتراك والتصدير."
+      ],
+      [
+        "افصل الشكل الخاص عن النظام الخاص",
+        "قد تحتاج العلامة إلى تصميم مميّز دون بناء منصة كاملة، وقد تبدو واجهة بسيطة بينما خلفها ربط معقّد. اكتب الاحتياجات غير المعتادة واطلب تجربة لها. ثم راجع تعديل المحتوى اليومي وتغيير المورّد. قارن الصيانة والملكية مع التكلفة؛ لا تفيدك مرونة كبيرة إذا لم يعرف أحد استخدامها بأمان بعد التسليم."
+      ]
+    ],
+    "checklist": [
+      "افصل التصميم عن التقنية.",
+      "جرّب التحرير الفعلي.",
+      "قارن الدعم والخروج."
+    ],
+    "faq": [
+      [
+        "هل الكود المخصّص أفضل دائمًا؟",
+        "عندما يخدم حاجة ويمكن صيانته، وليس لمجرّد كونه خاصًا."
+      ]
+    ],
+    "editorial_detail_heading": "افصل الشكل الخاص عن النظام الخاص",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ما الذي يستدعي برمجة خاصة فعلًا؟",
+        "اختر الجزء الذي لا تنفذه الأدوات الجاهزة كما تحتاج: ربما حساب عرض سعر، أو ربط نظام داخلي، أو خطوات موافقة متعددة. اطلب عرضه عمليًا قبل اعتماد خيار البرمجة. أما اختلاف الألوان وترتيب الأقسام فلا يكفي وحده لاتخاذ القرار. إذا احتجت حلًا خاصًا، اتفق على التوثيق وملكية الملفات والصيانة، حتى لا يصبح كل تعديل بسيط مرتبطًا بالشخص الذي بناه أول مرة."
+      ]
+    ],
+    "editorial_followup_heading": "ما الذي يستدعي برمجة خاصة فعلًا؟"
+  },
+  "image": {
+    "src": "/assets/article-images/custom-website-or-builder.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Two website options compared side by side.",
+      "ar": "مقارنة بين خيارين لموقع جنبًا إلى جنب."
+    }
+  }
+}

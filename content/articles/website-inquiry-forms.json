@@ -1,0 +1,111 @@
+{
+  "slug": "website-inquiry-forms",
+  "category": "websites",
+  "service": null,
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "W3C Web Accessibility Initiative",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"
+    }
+  ],
+  "related": [
+    "website-contact-page",
+    "booking-website-or-store",
+    "website-accessibility"
+  ],
+  "en": {
+    "title": "What should a website enquiry form ask?",
+    "answer": "Ask only for what helps you answer the enquiry. The right fields depend on whether the visitor needs support, a price or an appointment.",
+    "sections": [
+      [
+        "Match fields to follow-up",
+        "A quote request may need project type and contact details; a support request may need an order reference. Avoid collecting sensitive documents or unrelated personal information in an open form. Explain why unusual information is needed."
+      ],
+      [
+        "Make errors recoverable",
+        "Use visible labels and clear validation. Preserve entered information when a connection fails and avoid announcing success before the server accepts the submission. W3C accessibility guidance supports usable interaction; include keyboard and assistive-technology checks."
+      ],
+      [
+        "Test the receiving process",
+        "Confirm where submissions are stored or delivered, who can access them and how follow-up is assigned. Test duplicate taps and failure states. Decide retention and privacy handling for the actual data rather than relying on a template notice."
+      ],
+      [
+        "Start from the reply you need to give",
+        "If you cannot estimate a project without knowing its type, ask for that. If a budget is uncertain, allow the visitor to say so rather than invent a number. Explain unusual questions and avoid sensitive documents in an ordinary public form. Test errors on a phone: useful information should not disappear after a failed submission. Also confirm who can read stored messages and how follow-up is assigned."
+      ]
+    ],
+    "checklist": [
+      "Justify required fields.",
+      "Use clear labels and errors.",
+      "Verify storage or delivery."
+    ],
+    "faq": [
+      [
+        "Should budget always be required?",
+        "Only if it is necessary for your process and the visitor can answer meaningfully."
+      ]
+    ],
+    "editorial_detail_heading": "Start from the reply you need to give",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Ask only what changes the next step",
+        "For each field, identify who uses the answer and why. Move information that can wait into the later conversation. Make required fields and errors clear, then test the confirmation and delivery. A shorter form is useful when it still gives the team enough context to respond well."
+      ]
+    ],
+    "editorial_followup_heading": "Ask only what changes the next step"
+  },
+  "ar": {
+    "title": "ما المعلومات التي أطلبها في نموذج التواصل؟",
+    "answer": "اطلب ما يساعدك على الرد فقط. تختلف الحقول إذا كان العميل يحتاج دعمًا أو عرض سعر أو موعدًا؛ ليس كل استفسار طلب مشروع كاملًا.",
+    "sections": [
+      [
+        "اربط الحقول بالمتابعة",
+        "قد يحتاج عرض السعر نوع المشروع، والدعم رقم الطلب. لا تجمع وثائق حساسة أو معلومات شخصية غير مرتبطة في نموذج عام."
+      ],
+      [
+        "اجعل الأخطاء قابلة للمعالجة",
+        "استخدم تسميات واضحة واحفظ الإدخال عند الفشل ولا تعلن النجاح قبل قبول الخادم. اختبر لوحة المفاتيح وسهولة الوصول."
+      ],
+      [
+        "اختبر جهة الاستلام",
+        "حدّد التخزين والصلاحيات والمتابعة وراجع النقر المكرّر والفشل والاحتفاظ بالبيانات وفق العملية الفعلية."
+      ],
+      [
+        "ابدأ بالرد الذي ستقدّمه",
+        "إن كان نوع المشروع ضروريًا للتقدير فاسأل عنه. وإن كانت الميزانية غير معروفة، اسمح بقول ذلك بدل رقم مختلق. اشرح السؤال غير المعتاد ولا تطلب وثائق حساسة في نموذج عام. اختبر الأخطاء على الهاتف؛ لا ينبغي أن تختفي المعلومات بعد فشل الإرسال. وحدّد أيضًا من يقرأ الرسائل المحفوظة ومن يتابعها."
+      ]
+    ],
+    "checklist": [
+      "برّر الحقول المطلوبة.",
+      "وضّح التسميات والأخطاء.",
+      "تحقّق من الاستلام."
+    ],
+    "faq": [
+      [
+        "هل الميزانية إلزامية دائمًا؟",
+        "اجعلها كذلك فقط عندما تلزم العملية ويمكن للزائر الإجابة."
+      ]
+    ],
+    "editorial_detail_heading": "ابدأ بالرد الذي ستقدّمه",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "أي سؤال أحذفه من النموذج؟",
+        "راجع كل حقل واسأل من يستخدم إجابته وما الذي يتغير بناءً عليها. إذا لم يحتج الفريق المعلومة في الرد الأول، فقد يمكن طلبها لاحقًا. وضّح الإلزامي والاختياري واكتب رسالة خطأ تساعد على التصحيح، ثم جرّب وصول الرد وتأكيد الإرسال. لا تقلل الأسئلة لدرجة أن الفريق لا يفهم الطلب، ولا تجمع تفاصيل كثيرة بلا سبب؛ ابحث عن الحد الذي يسمح ببدء محادثة مفيدة بسهولة."
+      ]
+    ],
+    "editorial_followup_heading": "أي سؤال أحذفه من النموذج؟"
+  },
+  "image": {
+    "src": "/assets/article-images/website-inquiry-forms.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Structured website form and its related workflow symbol.",
+      "ar": "نموذج موقع منظّم ورمز لمسار العمل المرتبط به."
+    }
+  }
+}

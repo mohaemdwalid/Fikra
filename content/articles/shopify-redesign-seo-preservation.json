@@ -1,0 +1,115 @@
+{
+  "slug": "shopify-redesign-seo-preservation",
+  "category": "scaling",
+  "service": "shopify-store-redesign",
+  "published": "2026-10-16",
+  "modified": "2026-10-16",
+  "sources": [
+    {
+      "title": "Google Search Central",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+    },
+    {
+      "title": "Shopify documentation",
+      "url": "https://help.shopify.com/en/manual/migrating-to-shopify"
+    }
+  ],
+  "related": [
+    "shopify-url-redirects",
+    "shopify-sitemap-google",
+    "website-maintenance-or-rebuild"
+  ],
+  "en": {
+    "title": "How do you redesign a Shopify store without losing important search routes?",
+    "answer": "Preserve useful destinations and content while improving the interface. A redesign needs a release plan, not just approval of new screenshots.",
+    "sections": [
+      [
+        "Capture the baseline",
+        "Record important landing pages, search queries and current URLs using available evidence. Identify content and product identity that should survive the redesign. Keep a copy of the existing theme and relevant exports before approved changes."
+      ],
+      [
+        "Review the release difference",
+        "Compare headings, descriptions, internal links, language routes and product availability. Plan relevant redirects for changed URLs. Do not discard useful content simply to make a page look shorter without understanding the role it serves."
+      ],
+      [
+        "Verify after publication",
+        "Open representative old and new links, inspect metadata and test purchase routes. Monitor crawl and indexing reports over time. Keep a rollback plan for implementation failures while recognising that search-system responses are not immediate or completely controllable."
+      ],
+      [
+        "Compare what visitors and crawlers will lose",
+        "Record important landing pages and URLs before the change. Review what happens to headings, product identity, language routes and internal links in the new version. A cleaner page can still remove information that helped people choose or find it. Plan relevant redirects and test older links after publication. Monitor Search Console over time and keep a recovery route for implementation faults. Careful work reduces avoidable disruption; it cannot guarantee unchanged search rankings."
+      ]
+    ],
+    "checklist": [
+      "Record important URLs and content.",
+      "Review changes before release.",
+      "Test and monitor after publication."
+    ],
+    "faq": [
+      [
+        "Can an agency guarantee no ranking movement?",
+        "No. It can document careful implementation and monitoring, not control every search outcome."
+      ]
+    ],
+    "editorial_detail_heading": "Compare what visitors and crawlers will lose",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "Create a before-and-after map",
+        "Export or record the important current URLs and identify where each should lead after the redesign. Include pages receiving enquiries or useful search visits, not only products. Check those destinations after release and monitor the relevant reports; keeping the same domain does not by itself preserve every route."
+      ]
+    ],
+    "editorial_followup_heading": "Create a before-and-after map"
+  },
+  "ar": {
+    "title": "كيف أغيّر تصميم المتجر بدون تضييع الروابط والظهور الحالي؟",
+    "answer": "احفظ الوجهات والمحتوى المفيد مع تحسين الواجهة. يحتاج تغيير التصميم خطة نشر، لا اعتماد صور الشكل الجديد فقط.",
+    "sections": [
+      [
+        "سجّل البداية",
+        "احصر الصفحات والاستعلامات والروابط المهمة وما يجب حفظه مع نسخة قالب وتصديرات."
+      ],
+      [
+        "راجع فرق الإصدار",
+        "قارن العناوين والروابط واللغات والتوفّر وخطّط لتحويل مناسب، ولا تحذف محتوى مفيدًا للشكل فقط."
+      ],
+      [
+        "تحقّق بعد النشر",
+        "اختبر الروابط والبيانات والشراء وراقب الفهرسة مع خطة رجوع للأخطاء."
+      ],
+      [
+        "قارن ما قد يفقده الزائر ومحرك البحث",
+        "احصر الصفحات والروابط المهمة قبل التغيير. راجع العناوين وهوية المنتجات واللغات والروابط الداخلية. قد يحذف شكل أنظف معلومة ساعدت على الاختيار أو العثور على الصفحة. خطّط لتحويل مناسب واختبر الروابط القديمة بعد النشر. تابع Search Console واحتفظ برجوع لأخطاء التنفيذ؛ العمل الدقيق يقلّل الاضطراب ولا يضمن ترتيبًا ثابتًا."
+      ]
+    ],
+    "checklist": [
+      "وثّق المهم.",
+      "راجع التغيير.",
+      "اختبر وراقب."
+    ],
+    "faq": [
+      [
+        "هل تُضمن عدم حركة الترتيب؟",
+        "يمكن توثيق التنفيذ والمتابعة لا التحكّم في كل نتيجة بحث."
+      ]
+    ],
+    "editorial_detail_heading": "قارن ما قد يفقده الزائر ومحرك البحث",
+    "editorial_revision": "2026-10-16",
+    "extended_sections": [
+      [
+        "ماذا أحفظ قبل بدء إعادة التصميم؟",
+        "اجمع الروابط المهمة وما تقدمه من محتوى، خصوصًا الصفحات التي يأتي منها بحث أو استفسار أو طلب. حدّد الرابط المقابل لكل صفحة في التصميم الجديد وما يحتاج تحويلًا مناسبًا، ثم راجعها بعد التنفيذ. احتفظ كذلك بالعناوين والمعلومات التي يعتمد عليها العملاء. لا تفترض أن بقاء اسم الموقع يحفظ كل شيء؛ تغيير بنية الصفحات أو حذف محتوى مفيد قد يؤثر في الزوار حتى لو بدا التصميم أفضل."
+      ]
+    ],
+    "editorial_followup_heading": "ماذا أحفظ قبل بدء إعادة التصميم؟"
+  },
+  "image": {
+    "src": "/assets/article-images/shopify-redesign-seo-preservation.webp",
+    "width": 1200,
+    "height": 675,
+    "alt": {
+      "en": "Website layout with a topic-specific feature illustration.",
+      "ar": "تخطيط موقع مع رسم لخاصية مرتبطة بموضوع الدليل."
+    }
+  }
+}

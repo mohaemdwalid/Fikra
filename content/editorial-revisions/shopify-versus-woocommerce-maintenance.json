@@ -1,0 +1,10 @@
+{
+  "slug": "shopify-versus-woocommerce-maintenance",
+  "title_ar": "من يحتاج صيانة أكثر: شوبيفاي أم ووكومرس؟",
+  "lead_en": "The responsibilities differ. Compare the actual support arrangement, not a claim that one platform never needs maintenance.",
+  "lead_ar": "تختلف المسؤوليات، لذلك قارن الدعم الفعلي لا عبارة «هذه المنصة لا تحتاج صيانة». يبقى المحتوى والربط والإعداد بحاجة إلى متابعة في الحالتين.",
+  "heading_en": "Ask who fixes a failed update",
+  "detail_en": "With a self-hosted WordPress store, clarify who handles the host, WordPress, themes, plugins and recovery. A managed hosting contract may cover some of that, but check its scope. With Shopify, the platform manages its service while you still maintain theme changes, apps and store configuration. In either case, name the person who investigates a broken buying flow and keeps backups or recovery records. Cheap hosting and managed maintenance are not the same purchase.",
+  "heading_ar": "اسأل من يعالج المشكلة",
+  "detail_ar": "في ووردبريس الذاتي، حدّد مسؤول الاستضافة والنظام والقالب والإضافات والاستعادة. قد يغطي عقد إدارة بعض ذلك؛ راجع ما يشمله. في شوبيفاي تُدار خدمة المنصة، لكن تعديلات القالب والتطبيقات والإعدادات تبقى بحاجة إلى متابعة. في الحالتين، سمِّ من يعالج تعطل الشراء ويحفظ معلومات الرجوع. الاستضافة الرخيصة وعقد الصيانة ليسا الشيء نفسه."
+}
