@@ -204,3 +204,7 @@ Centered the hero kicker independently of the supporting paragraph. Extended bef
 
 The section statistic now displays the owner-requested 100+ (١٠٠+ in Arabic) independently of the number of illustrated portfolio towers. On first viewport entry it counts upward over 1.6 seconds and settles at 100+; reduced motion shows the final value without animation. The accessible group label exposes the final count throughout. Cleanup cancels animation/observer listeners. Existing portfolio data is preserved.
 TypeScript and the skyline production build passed. Browser checks passed English/Arabic at 320/390/1440px for increasing values, final 100+, reduced-motion behavior, no overflow and no page errors. English mobile screenshot visually inspected. Packaging and all 210 SEO checks passed. No hosting deployment performed.
+
+### Remove skyline introduction and project statistic — 2026-10-16
+
+Removed the BUILT WITH FIKRA kicker, Ideas turned into storefronts heading, portfolio description, and 100+ Shopify projects statistic in both languages. Removed their count-up state/observer and unused styles. The skyline chart, its title, project data and interactive controls remain. TypeScript/build, packaging and all 210 SEO checks passed. Browser checks passed English/Arabic at 390/1440px for absent intro/counter markup, a retained chart, functioning 2D/3D toggles, no overflow and no JS errors. Arabic mobile screenshot inspected. No hosting deployment performed.

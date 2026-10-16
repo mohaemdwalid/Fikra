@@ -1,10 +1,4 @@
 #fikra-project-skyline{padding:88px 0;background:linear-gradient(180deg,#f5f9ff,#edf4ff);color:#102b50}
-.skyline-intro{display:flex;align-items:center;justify-content:space-between;gap:32px;margin-bottom:32px}
-.skyline-intro h2{font-size:clamp(30px,4vw,52px);line-height:1.12;letter-spacing:-.035em;margin:10px 0 16px;color:#102b50;max-width:680px}
-.skyline-intro p:last-child{font-size:17px;line-height:1.65;color:#526b8c;margin:0;max-width:580px}
-.skyline-total{display:flex;flex-direction:column;flex-shrink:0;text-align:center;min-width:180px}
-.skyline-total strong{font-size:clamp(68px,8vw,104px);font-weight:600;letter-spacing:-.065em;line-height:1;color:#005bea}
-.skyline-total span{font-size:15px;margin-top:10px;color:#526b8c}
 .contribution-skyline{border:1px solid #d4e3fa;border-radius:24px;padding:24px;background:#fff;box-shadow:0 18px 60px #003b9910;font-family:inherit}
 .contribution-skyline *{box-sizing:border-box}
 .contribution-skyline header h3{font-size:15px;font-weight:500;color:#526b8c;margin:0}
@@ -20,7 +14,7 @@
 .skyline-swatch{width:16px;height:16px;border:0;border-radius:4px;padding:0;cursor:pointer}
 .skyline-swatch[aria-pressed=true]{outline:2px solid #003b99;outline-offset:3px}
 .contribution-skyline button:focus-visible{outline:2px solid #005bea;outline-offset:3px}
-@media(max-width:600px){#fikra-project-skyline{padding:56px 0}.skyline-intro{align-items:flex-start;gap:20px}.skyline-total{min-width:90px}.skyline-total strong{font-size:64px}.skyline-total span{font-size:12px}.skyline-intro p:last-child{font-size:15px}.contribution-skyline{padding:16px;border-radius:18px}.skyline-stage{height:310px}.contribution-skyline header h3{max-width:180px}}
+@media(max-width:600px){#fikra-project-skyline{padding:56px 0}.contribution-skyline{padding:16px;border-radius:18px}.skyline-stage{height:310px}.contribution-skyline header h3{max-width:180px}}
 @media(prefers-reduced-motion:reduce){.contribution-skyline *{transition:none!important}}
 .contribution-skyline header h3{letter-spacing:normal;line-height:1.5;font-family:inherit}
 @media(max-width:600px){.contribution-skyline header h3{font-size:13px;max-width:170px}}
