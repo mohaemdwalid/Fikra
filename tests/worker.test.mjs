@@ -25,3 +25,11 @@ test('persist before returning saved; respect rate limit and database failure', 
 test('body size bounded even without content length', async () => {
   assert.equal((await handleLead(request({...lead, extra: 'x'.repeat(9000)}), {LEADS_DB: {}})).status, 413);
 });
+
+test('validate product count and starting price responses, retaining legacy leads', () => {
+  for (const budget of ['QAR 5,000+ — confirmed', 'QAR 5,000+ — discuss scope', 'Below QAR 5,000']) {
+    assert.equal(validateLead({...lead, budget, product_count: '11–50'}).product_count, '11–50');
+  }
+  assert.throws(() => validateLead({...lead, product_count: 'invented'}));
+  assert.equal(validateLead(lead).product_count, '');
+});

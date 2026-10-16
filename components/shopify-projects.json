@@ -1,0 +1,65 @@
+{
+  "source": "/Users/aaa/Desktop/Fikra/Shopify/Clients",
+  "projects": [
+    {
+      "name": "Ask Abays",
+      "sourceFolder": "AskAbays"
+    },
+    {
+      "name": "Bow & Note",
+      "sourceFolder": "bowandnote-theme"
+    },
+    {
+      "name": "Brism couture",
+      "sourceFolder": "Brism couture"
+    },
+    {
+      "name": "BYF",
+      "sourceFolder": "BYF"
+    },
+    {
+      "name": "Ceilo The Label",
+      "sourceFolder": "ceilo-the-label-theme"
+    },
+    {
+      "name": "Ghlorya Line",
+      "sourceFolder": "ghloryaline"
+    },
+    {
+      "name": "Keshtban",
+      "sourceFolder": "Keshtban"
+    },
+    {
+      "name": "Khadla",
+      "sourceFolder": "khadla_q"
+    },
+    {
+      "name": "MSHQ Artistry Gallery",
+      "sourceFolder": "mshq-artistry-gallery"
+    },
+    {
+      "name": "Neomi Wear",
+      "sourceFolder": "Neomi Wear"
+    },
+    {
+      "name": "Novella",
+      "sourceFolder": "novella"
+    },
+    {
+      "name": "Qataria Abaya",
+      "sourceFolder": "Qataria Abaya"
+    },
+    {
+      "name": "Sage",
+      "sourceFolder": "sage"
+    },
+    {
+      "name": "Serial",
+      "sourceFolder": "serial"
+    },
+    {
+      "name": "Seventeen Co",
+      "sourceFolder": "seventeenco"
+    }
+  ]
+}

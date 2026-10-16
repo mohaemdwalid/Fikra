@@ -14,12 +14,12 @@
     heading: ['Book Your Free Shopify Consultation', 'احجز استشارتك المجانية لمتجر شوبيفاي'],
     intro: ['Tell us a little about your project, then choose a time that suits you.', 'أخبرنا قليلًا عن مشروعك، ثم اختر الوقت المناسب لك.'],
     name: ['Full name', 'الاسم الكامل'], email: ['Email address', 'البريد الإلكتروني'],
-    phone: ['WhatsApp number', 'رقم واتساب'], phoneHint: ['Include your country code.', 'أدخل رمز الدولة مع الرقم.'],
+    phone: ['WhatsApp number', 'رقم واتساب'], phoneHint: ['Choose your country code, then enter your mobile number.', 'اختر رمز الدولة، ثم أدخل رقم الجوال.'],
     project: ['Project type', 'نوع المشروع'], choose: ['Select an option', 'اختر أحد الخيارات'],
     new: ['New Shopify Store', 'متجر شوبيفاي جديد'], redesign: ['Store Redesign', 'إعادة تصميم المتجر'], improvements: ['Improvements', 'تحسينات'],
     budget: ['Estimated budget', 'الميزانية التقديرية'], budget1: ['Below QAR 4,000', 'أقل من ٤٬٠٠٠ ر.ق'],
     budget2: ['QAR 4,000–6,000', '٤٬٠٠٠–٦٬٠٠٠ ر.ق'], budget3: ['QAR 6,000–8,000', '٦٬٠٠٠–٨٬٠٠٠ ر.ق'],
-    budget4: ['QAR 8,000–10,000', '٨٬٠٠٠–١٠٬٠٠٠ ر.ق'], unsure: ['Not sure', 'غير متأكد'],
+    budget4: ['QAR 8,000–10,000', '٨٬٠٠٠–١٠٬٠٠٠ ر.ق'], unsure: ['I’d like help defining my budget', 'أحتاج مساعدة في تحديد ميزانيتي'],
     website: ['Existing website URL (optional)', 'رابط الموقع الحالي (اختياري)'],
     privacy: ['We save these details to prepare for your consultation. Cal.com handles your booking and its configured notifications.', 'نحفظ هذه البيانات للتحضير لاستشارتك. يتولى Cal.com الحجز والإشعارات التي تم إعدادها.'],
     continue: ['Save details & choose a time', 'احفظ البيانات واختر الوقت'], saving: ['Saving your details…', 'جارٍ حفظ بياناتك…'],
@@ -78,13 +78,36 @@
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({event, event_id: id});
   }
+  const phoneCountry = form.querySelector('[data-phone-country]');
+  function internationalPhone() {
+    let value = form.elements.phone.value.trim()
+      .replace(/[٠-٩]/g, digit => String(digit.charCodeAt(0) - 1632))
+      .replace(/[۰-۹]/g, digit => String(digit.charCodeAt(0) - 1776))
+      .replace(/[\s().-]/g, '');
+    if (!phoneCountry) return value;
+    if (value.startsWith('00')) value = '+' + value.slice(2);
+    if (value.startsWith('+')) return value;
+    if (['+966', '+971'].includes(phoneCountry.value)) value = value.replace(/^0/, '');
+    return phoneCountry.value + value;
+  }
+  function validPhone(value) {
+    if (!/^\+[1-9]\d{6,14}$/.test(value)) return false;
+    if (!phoneCountry) return true;
+    const lengths = {'+974': 8, '+966': 9, '+971': 9, '+965': 8, '+973': 8, '+968': 8};
+    const prefix = Object.keys(lengths).find(code => value.startsWith(code));
+    return !!prefix && value.length - prefix.length === lengths[prefix];
+  }
+  phoneCountry?.addEventListener('change', () => {
+    form.elements.phone.setCustomValidity('');
+    form.elements.phone.placeholder = ['+966', '+971'].includes(phoneCountry.value) ? '50 123 4567' : '1234 5678';
+  });
   function validate() {
     for (const input of form.elements) {
       if (!input.willValidate) continue;
       input.setCustomValidity('');
       if (input.required && !input.value.trim()) input.setCustomValidity(text('required'));
       else if (input.name === 'email' && input.validity.typeMismatch) input.setCustomValidity(text('invalidEmail'));
-      else if (input.name === 'phone' && !/^\+[1-9]\d{6,14}$/.test(input.value.replace(/[\s().-]/g, ''))) input.setCustomValidity(text('invalidPhone'));
+      else if (input.name === 'phone' && !validPhone(internationalPhone())) input.setCustomValidity(text('invalidPhone'));
       else if (input.name === 'website' && input.value) {
         try { if (!['https:', 'http:'].includes(new URL(input.value).protocol)) throw Error(); }
         catch { input.setCustomValidity(text('invalidWebsite')); }
@@ -151,7 +174,7 @@
     busy = true; leadState = 'saving'; submit.disabled = true; render();
     const details = Object.fromEntries(new FormData(form));
     details.name = details.name.trim(); details.email = details.email.trim();
-    details.phone = details.phone.replace(/[\s().-]/g, '');
+    details.phone = internationalPhone();
     try {
       const response = await fetch('/api/leads', {method: 'POST', headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({...details, id: leadId, language: ar() ? 'ar' : 'en', utm}), signal: AbortSignal.timeout(15000)});

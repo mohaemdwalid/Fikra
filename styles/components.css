@@ -1,0 +1,4 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css" source(none);
+@source "../components";
+/* No global preflight: the existing static site's typography owns the page. */

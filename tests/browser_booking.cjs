@@ -12,7 +12,7 @@ const {chooseProjectAndBudget, bookingPageUrl}=require('./browser_booking_helper
   assert.equal(await page.locator('html').getAttribute('lang'),lang);
   const form=page.locator('#fikra-lead-form');await form.scrollIntoViewIfNeeded();
   await page.locator('[data-step-next]').click();assert.equal(await page.locator('#fikra-calendar-panel').isVisible(),false);
-  await chooseProjectAndBudget(page, 'Store Redesign', 'QAR 4,000–6,000');
+  await chooseProjectAndBudget(page, 'Store Redesign', 'QAR 5,000+ — confirmed');
   await form.locator('[name=name]').fill('Fikra QA Test');await form.locator('[name=email]').fill('fikra-qa@example.com');await form.locator('[name=phone]').fill('+974 1234 5678');
   await page.locator('#booking').screenshot({path:`/tmp/fikra-${lang}-${width}-form.png`});
   const response=page.waitForResponse(r=>r.url().endsWith('/api/leads')&&r.request().method()==='POST');await form.locator('[type=submit]').click();assert.equal((await response).status(),201);

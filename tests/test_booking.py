@@ -29,6 +29,15 @@ class LeadTests(unittest.TestCase):
         self.assertEqual(rows[0][:2], ('اختبار Test', '+97412345678'))
         self.assertEqual(json.loads(rows[0][2]), {'utm_source': 'instagram'})
 
+    def test_product_count_and_starting_price_persistence(self):
+        self.payload.update(product_count='11–50', budget='QAR 5,000+ — confirmed')
+        self.store.save(self.payload)
+        with sqlite3.connect(self.path) as db:
+            self.assertEqual(db.execute('SELECT product_count,budget FROM leads').fetchone(), ('11–50', 'QAR 5,000+ — confirmed'))
+        self.payload['product_count'] = 'invented'
+        with self.assertRaises(ValueError):
+            self.store.save(self.payload)
+
     def test_invalid_details(self):
         for key, value in [('email', 'bad'), ('phone', '1234'), ('budget', 'invented'), ('project', 'other'), ('website', 'javascript:alert(1)'), ('website', 'https://user:secret@example.com'), ('name', ' '), ('company', 'spam'), ('id', 'bad')]:
             with self.subTest(key=key, value=value):

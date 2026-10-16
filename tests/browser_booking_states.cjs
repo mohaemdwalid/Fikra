@@ -4,7 +4,7 @@ const {chooseProjectAndBudget, bookingPageUrl}=require('./browser_booking_helper
 (async()=>{const b=await chromium.launch({channel:'chrome',headless:true});const p=await b.newPage({viewport:{width:390,height:844}});
 await p.addInitScript(()=>{window.testCalCalls=[];window.Cal=(...args)=>window.testCalCalls.push(args);});
 await p.goto(bookingPageUrl(),{waitUntil:'domcontentloaded'});await p.waitForFunction(()=>window.FIKRA_I18N);await p.waitForTimeout(1500);await p.screenshot({path:'/tmp/fikra-header-mobile.png'});
-await chooseProjectAndBudget(p, 'Improvements', 'Not sure');
+await chooseProjectAndBudget(p, 'Improvements', 'QAR 5,000+ — discuss scope');
 const f=p.locator('#fikra-lead-form');await f.locator('[name=name]').fill('QA');await f.locator('[name=email]').fill('qa@example.com');await f.locator('[name=phone]').fill('1234');await f.locator('[type=submit]').click();assert.equal(await p.locator('#fikra-calendar-panel').isVisible(),false);
 await f.locator('[name=phone]').fill('+97412345678');await p.route('**/api/leads',r=>r.fulfill({status:503,contentType:'application/json',body:'{"error":"unavailable"}'}));await f.locator('[type=submit]').click();await p.waitForFunction(()=>document.querySelector('#lead-status').textContent.includes('could not save'));assert.equal(await p.locator('#fikra-calendar-panel').isVisible(),false);assert.equal(await p.evaluate(()=>window.testCalCalls.length),0);await p.unroute('**/api/leads');await f.locator('[type=submit]').click();await p.waitForFunction(()=>window.testCalCalls.some(c=>c[0]==='inline'));
 const invoke=async(data)=>p.evaluate(data=>window.testCalCalls.find(c=>c[0]==='on'&&c[1].action==='bookingSuccessfulV2')[1].callback({detail:{data}}),data);

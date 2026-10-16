@@ -1,0 +1,1 @@
+ALTER TABLE leads ADD COLUMN product_count TEXT NOT NULL DEFAULT '';

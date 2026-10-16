@@ -1,0 +1,25 @@
+/* No global preflight: the surrounding static site owns its reset. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@source "../../components";
+@source "../hero.tsx";
+
+@theme inline {
+  --color-background: #f7f6f2;
+  --color-foreground: #121212;
+  --color-muted: #e8e7e2;
+  --color-muted-foreground: #69645b;
+  --color-border: #d6d2c9;
+}
+
+#fikra-tilted-grid { margin-top: 20px; width: 100%; }
+.fikra-curved-band { width: 100%; height: clamp(220px, 27vw, 340px); direction: ltr; }
+/* Vendor CSS gives all images max-width:100%; the facet needs the full tile. */
+.fikra-curved-band img { max-width: none; }
+#home .editorial-proof { margin-top: 20px; }
+@media (max-width: 767px) {
+  #fikra-tilted-grid { margin-top: 8px; }
+}
+
+.fikra-curved-band[data-media-paused] > [aria-hidden] > div { animation-play-state:paused!important; }

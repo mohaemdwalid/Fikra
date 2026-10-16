@@ -1,5 +1,6 @@
 export const projects = ['New Shopify Store', 'Store Redesign', 'Improvements'];
-export const budgets = ['Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'];
+export const productCounts = ['1–10', '11–50', '51–100', '101–250', 'More than 250', 'Not sure yet'];
+export const budgets = ['QAR 5,000+ — confirmed', 'QAR 5,000+ — discuss scope', 'Below QAR 5,000', 'Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'];
 export function validateLead(input) {
   if (!input || typeof input !== 'object' || Array.isArray(input)) throw Error('Invalid details');
   const limits = {id: 36, name: 120, email: 254, phone: 32, project: 40, budget: 40, website: 500, language: 2};
@@ -11,6 +12,8 @@ export function validateLead(input) {
   if (!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(result.id) ||
       !result.name || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(result.email) || !/^\+[1-9]\d{6,14}$/.test(result.phone) ||
       !projects.includes(result.project) || !budgets.includes(result.budget) || !['ar', 'en'].includes(result.language) || input.company) throw Error('Invalid details');
+  result.product_count = input.product_count ?? '';
+  if (typeof result.product_count !== 'string' || !['', ...productCounts].includes(result.product_count)) throw Error('Invalid product count');
   if (result.website) {
     const url = new URL(result.website);
     if (!['https:', 'http:'].includes(url.protocol) || url.username || url.password) throw Error('Invalid website');
@@ -22,8 +25,8 @@ export function validateLead(input) {
   }
   return result;
 }
-export const insertLead = `INSERT INTO leads (id,name,email,phone,project,budget,website,language,utm) VALUES (?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO NOTHING`;
-export const leadValues = lead => [lead.id, lead.name, lead.email, lead.phone, lead.project, lead.budget, lead.website, lead.language, JSON.stringify(lead.utm)];
+export const insertLead = `INSERT INTO leads (id,name,email,phone,project,budget,website,language,utm,product_count) VALUES (?,?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO NOTHING`;
+export const leadValues = lead => [lead.id, lead.name, lead.email, lead.phone, lead.project, lead.budget, lead.website, lead.language, JSON.stringify(lead.utm), lead.product_count];
 export function json(data, status = 200) {
   return new Response(JSON.stringify(data), {status, headers: {'Content-Type': 'application/json', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff'}});
 }

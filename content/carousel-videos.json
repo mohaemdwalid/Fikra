@@ -1,0 +1,23 @@
+[
+  {
+    "source_file": "Screen Recording 2026-10-16 at 7.39.12 PM.mov",
+    "source_sha256": "1f8443d0f080d3f6e905c1059f64630403d2ab6b5856ac2227aff05e5ce9c976",
+    "video": "assets/videos/carousel-store-01.mp4",
+    "poster": "assets/videos/carousel-store-01.jpg",
+    "format": "H.264, yuv420p, 1440x822, 24fps, silent, faststart"
+  },
+  {
+    "source_file": "Screen Recording 2026-10-16 at 7.40.19 PM.mov",
+    "source_sha256": "88a1290047642c8a042047014e936069c3df18be1bfcd61b433380fa7e668727",
+    "video": "assets/videos/carousel-store-02.mp4",
+    "poster": "assets/videos/carousel-store-02.jpg",
+    "format": "H.264, yuv420p, 1440x822, 24fps, silent, faststart"
+  },
+  {
+    "source_file": "Screen Recording 2026-10-16 at 7.48.13 PM.mov",
+    "source_sha256": "f700680d226b65d8d1fd8f1271a0f2d45e890628ee7ba9b7e5336ccb589ab8cf",
+    "video": "assets/videos/carousel-store-03.mp4",
+    "poster": "assets/videos/carousel-store-03.jpg",
+    "format": "H.264, yuv420p, 1440x822, 24fps, silent, faststart"
+  }
+]

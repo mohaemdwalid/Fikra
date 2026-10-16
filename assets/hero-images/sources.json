@@ -1,0 +1,32 @@
+[
+  {
+    "file": "assets/hero-images/fashion.jpg",
+    "source": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=82",
+    "bytes": 147859
+  },
+  {
+    "file": "assets/hero-images/workspace.jpg",
+    "source": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1000&q=82",
+    "bytes": 137443
+  },
+  {
+    "file": "assets/hero-images/store.jpg",
+    "source": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=1000&q=82",
+    "bytes": 131615
+  },
+  {
+    "file": "assets/hero-images/design.jpg",
+    "source": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?fm=jpg&fit=crop&w=1000&q=82",
+    "bytes": 100091
+  },
+  {
+    "file": "assets/hero-images/clothing.jpg",
+    "source": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=82",
+    "bytes": 78300
+  },
+  {
+    "file": "assets/hero-images/studio.jpg",
+    "source": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=82",
+    "bytes": 122972
+  }
+]

@@ -33,3 +33,9 @@
 .navbar-logo-left .cta-button-with-image { background: var(--fikra-accent); }
 .navbar-logo-left .cta-button-with-image:hover { background: var(--fikra-accent-hover); }
 .proposal-final .proposal-kicker { color: var(--fikra-glow-cyan); }
+
+#home h1 .hero-delivery { display:block; color:var(--fikra-accent); }
+
+/* Larger hero headline, retaining comfortable wrapping on narrow screens. */
+#home .editorial-hero-copy h1 { max-width:1050px; font-size:clamp(48px,5vw,72px); }
+@media(max-width:767px) { #home .editorial-hero-copy h1 { font-size:clamp(42px,10.5vw,60px); } }

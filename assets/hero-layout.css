@@ -1,0 +1,16 @@
+/* Restore the original subtle square grid without affecting the hero content. */
+#home.editorial-hero {
+  background-image:linear-gradient(#d8d4cb4d 1px,transparent 1px),linear-gradient(90deg,#d8d4cb4d 1px,transparent 1px);
+  background-size:64px 64px;
+}
+.fikra-image-band { padding:36px 24px; background:#f7f6f2; overflow:hidden; }
+.fikra-image-band-inner { width:100%; max-width:1280px; margin-inline:auto; }
+.fikra-image-band #fikra-tilted-grid { margin-top:0; }
+@media(max-width:767px) { .fikra-image-band { padding:24px 20px; } }
+
+.fikra-band-heading { margin:8px 0 28px; padding-inline:16px; text-align:center; color:#111; font:700 clamp(28px,3.5vw,44px)/1.2 Arial,sans-serif; letter-spacing:-.035em; }
+html[lang=ar] .fikra-band-heading { font-family:inherit; line-height:1.5; letter-spacing:0; }
+
+.fikra-image-band .fikra-band-heading { margin-bottom:16px; }
+.fikra-band-subheading { max-width:680px; margin:0 auto 28px; padding-inline:16px; color:#625d54; font:16px/1.7 Arial,sans-serif; text-align:center; }
+html[lang=ar] .fikra-band-subheading { font-family:inherit; }

@@ -12,7 +12,8 @@ import uuid
 
 ROOT = Path(__file__).resolve().parent
 PROJECTS = {'New Shopify Store', 'Store Redesign', 'Improvements'}
-BUDGETS = {'Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'}
+PRODUCT_COUNTS = {'1–10', '11–50', '51–100', '101–250', 'More than 250', 'Not sure yet'}
+BUDGETS = {'QAR 5,000+ — confirmed', 'QAR 5,000+ — discuss scope', 'Below QAR 5,000', 'Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'}
 
 
 def validate_lead(payload):
@@ -32,6 +33,9 @@ def validate_lead(payload):
         raise ValueError('Invalid phone')
     if fields['project'] not in PROJECTS or fields['budget'] not in BUDGETS or fields['language'] not in {'en', 'ar'} or payload.get('company'):
         raise ValueError('Invalid qualification')
+    fields['product_count'] = payload.get('product_count', '')
+    if not isinstance(fields['product_count'], str) or fields['product_count'] not in PRODUCT_COUNTS | {''}:
+        raise ValueError('Invalid product count')
     if fields['website']:
         url = urlsplit(fields['website'])
         if url.scheme not in {'http', 'https'} or not url.hostname or url.username or url.password:
@@ -48,11 +52,13 @@ class LeadStore:
         self.database = str(database)
         with sqlite3.connect(self.database) as db:
             db.executescript((ROOT / 'migrations/0001_leads.sql').read_text())
+            if 'product_count' not in {row[1] for row in db.execute('PRAGMA table_info(leads)')}:
+                db.executescript((ROOT / 'migrations/0002_product_count.sql').read_text())
 
     def save(self, payload):
         fields = validate_lead(payload)
         with sqlite3.connect(self.database, timeout=10) as db:
-            db.execute('INSERT INTO leads (id,name,email,phone,project,budget,website,language,utm) VALUES (:id,:name,:email,:phone,:project,:budget,:website,:language,:utm) ON CONFLICT(id) DO NOTHING', fields)
+            db.execute('INSERT INTO leads (id,name,email,phone,project,budget,website,language,utm,product_count) VALUES (:id,:name,:email,:phone,:project,:budget,:website,:language,:utm,:product_count) ON CONFLICT(id) DO NOTHING', fields)
         return {'id': fields['id'], 'status': 'saved'}
 
 

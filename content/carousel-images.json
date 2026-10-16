@@ -1,0 +1,32 @@
+[
+  {
+    "source_file": "Screenshot 2026-10-16 at 7.56.14 PM.png",
+    "source_sha256": "b2d2e7c89779a17f8968f2f08548e4499f58a83147bf040fd8dec5f773cfcb96",
+    "output": "assets/hero-images/drvn-coffee.webp",
+    "bytes": 89672
+  },
+  {
+    "source_file": "Screenshot 2026-10-16 at 7.55.52 PM.png",
+    "source_sha256": "d9690c38908a54c1e2cc3554e414e3cf60439e58dfb6661724becb53d0ace4ac",
+    "output": "assets/hero-images/nayomi.webp",
+    "bytes": 118326
+  },
+  {
+    "source_file": "Screenshot 2026-10-16 at 7.58.35 PM.png",
+    "source_sha256": "714af5b6d89fe6e13e458015b7256e5d7ccefa019a4f8d856a4e05dc738c322b",
+    "output": "assets/hero-images/joya.webp",
+    "bytes": 61232
+  },
+  {
+    "source_file": "Screenshot 2026-10-16 at 7.58.14 PM.png",
+    "source_sha256": "f75bddc7b6cc20be6a7e071cf43806a6609b07430eeb9253e22b3203b3abd937",
+    "output": "assets/hero-images/twigs.webp",
+    "bytes": 136708
+  },
+  {
+    "source_file": "Screenshot 2026-10-16 at 7.56.39 PM.png",
+    "source_sha256": "0f35ec1e7f84042fae3fa3897bb4fa33c6e316cc9c2f5f19666524a15a749a09",
+    "output": "assets/hero-images/aura.webp",
+    "bytes": 112776
+  }
+]
