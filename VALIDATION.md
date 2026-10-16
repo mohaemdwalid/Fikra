@@ -208,3 +208,8 @@ TypeScript and the skyline production build passed. Browser checks passed Englis
 ### Remove skyline introduction and project statistic — 2026-10-16
 
 Removed the BUILT WITH FIKRA kicker, Ideas turned into storefronts heading, portfolio description, and 100+ Shopify projects statistic in both languages. Removed their count-up state/observer and unused styles. The skyline chart, its title, project data and interactive controls remain. TypeScript/build, packaging and all 210 SEO checks passed. Browser checks passed English/Arabic at 390/1440px for absent intro/counter markup, a retained chart, functioning 2D/3D toggles, no overflow and no JS errors. Arabic mobile screenshot inspected. No hosting deployment performed.
+
+### Remove skyline graph section — 2026-10-16
+
+Removed the entire skyline section, including its static fallback, mounting script, stylesheet links, generated JS/CSS and obsolete build entry. The default npm build now builds the active storefront band. The reusable component and portfolio inventory remain as inactive source references. Repackaging removes the retired public graph assets (418 public files).
+Production build/typecheck and all 210 SEO checks passed. English/Arabic browser checks at 390/1440px confirm no graph markup, canvas controls or graph asset requests; storefront band, reviews and footer remain present, with no overflow or JS errors. No hosting deployment performed.

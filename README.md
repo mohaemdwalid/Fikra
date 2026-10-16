@@ -177,34 +177,15 @@ python3 scripts/check_seo.py
 python3 server.py
 ```
 
-React, TypeScript, Tailwind CSS v4, `clsx`, and `tailwind-merge` are installed through `package.json`. The hero build bundles React with esbuild and compiles Tailwind utilities without a global preflight reset, preserving the existing site's styles. The dedicated `build:hero` command is independent of the other component build.
+React, TypeScript, Tailwind CSS v4, `clsx`, and `tailwind-merge` are installed through `package.json`. The hero build bundles React with esbuild and compiles Tailwind utilities without a global preflight reset, preserving the existing site's styles. `npm run build` and `npm run build:hero` both build the active curved storefront band.
 
 The shadcn configuration is `components.json`: UI components resolve to `/components/ui`, shared helpers to `/lib/utils.ts`, and the default shadcn stylesheet is `/styles/components.css`. Keep `/components/ui` so generated shadcn imports resolve consistently; the `@/*` TypeScript alias points to the project root. The hero has a separate stylesheet to avoid shipping unrelated utilities. No icon package is required because this component uses no icons. Future shadcn components can be added with `npx shadcn@latest add <component>`; this repository already has the manual TypeScript/Tailwind/alias setup, so reinitialization is unnecessary. Setup follows the [Tailwind documentation](https://tailwindcss.com/docs/installation/tailwind-cli) and [shadcn configuration documentation](https://ui.shadcn.com/docs/components-json).
 
 After changing the component, its props, images, or styles, run `npm run build:hero` before the Python packaging command. The compiled assets are kept in the repository so the static server and upload ZIP do not require a browser-side transpiler. These commands build locally; deployment is a separate action.
 
-### Shopify project skyline
+### Removed Shopify project skyline
 
-The home page mounts a React island immediately before the footer. Source components
-live in `components/ui`, styles in `styles/components.css` (Tailwind utilities) and
-`assets/project-skyline.css` (site styling). Keeping `components/ui` makes the shadcn
-alias and future component imports predictable. `components.json` and `tsconfig.json`
-configure the shadcn structure and `@/` imports; React, TypeScript, Tailwind and esbuild
-are installed locally. No provider, remote assets, stock photos or icon package is needed.
-
-Run `npm ci`, `npm run typecheck`, and `npm run build` after component edits, then
-`python3 prepare_cloudflare.py` to rebuild the English/Arabic static distribution.
-The generated bundles are committed public assets, so the Python server needs no Node runtime.
-
-`components/shopify-projects.json` records the 15 local Shopify client project folders
-used for the displayed portfolio count. It is a portfolio inventory, not a daily
-completion log. The supplied Contribution Skyline design is adapted to one tower per
-project; tower heights and color groups are decorative. Sample dates, generated yearly
-activity and delivery streaks are omitted. The project array remains stable when the
-language changes; both `/` and `/ar/` and the language switch render localized copy.
-Original component reference: https://mcp.21st.dev/@kedhareswer/components/contribution-skyline
-(MIT, Kedhareswer Naidu).
-
+The skyline graph and its mounting code, styles, generated bundle, and build entry have been removed from the site. The reusable component and portfolio JSON remain in `components/` as inactive source references. The normal build compiles the curved storefront band only.
 
 ### Arabic default and four product-count choices
 
