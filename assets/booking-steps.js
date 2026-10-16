@@ -11,16 +11,16 @@
   const count = form.querySelector('[data-step-count]');
   const t = value => window.FIKRA_I18N?.t(value) || value;
   let step = 0;
-  const activeSteps = () => form.elements.project.value === 'New Shopify Store' ? [0, 1, 3, 4] : [0, 1, 2, 3, 4];
+  const activeSteps = () => form.elements.project.value === 'New Shopify Store' ? [0, 2, 3] : [0, 1, 2, 3];
   function render(focus = false) {
     steps.forEach((element, index) => { element.hidden = index !== step; });
     back.hidden = step === 0;
     next.hidden = step === steps.length - 1;
     submit.hidden = step !== steps.length - 1;
-    next.textContent = t(step === 2 && !form.elements.website.value.trim() ? 'Skip for now' : 'Continue');
+    next.textContent = t(step === 1 && !form.elements.website.value.trim() ? 'Skip for now' : 'Continue');
     const path = activeSteps();
     const position = path.indexOf(step) + 1;
-    count.textContent = document.documentElement.lang === 'ar' ? `السؤال ${position} من ${path.length}` : `Question ${position} of ${path.length}`;
+    count.textContent = document.documentElement.lang === 'ar' ? `الخطوة ${position} من ${path.length}` : `Step ${position} of ${path.length}`;
     progress.setAttribute('aria-valuenow', String(position));
     progress.setAttribute('aria-valuemax', String(path.length));
     progress.setAttribute('aria-valuetext', count.textContent);
@@ -32,14 +32,15 @@
     }
   }
   function validateStep() {
-    if ([0, 1, 3].includes(step)) {
-      const name = {0: 'project', 1: 'product_count', 3: 'budget'}[step];
+    const requiredGroups = step === 0 ? ['project', 'product_count'] : step === 2 ? ['budget'] : [];
+    for (const name of requiredGroups) {
       if (!form.querySelector(`input[name="${name}"]:checked`)) {
         error.textContent = t('Please choose an option to continue.');
-        steps[step].querySelector('input').focus(); return false;
+        form.querySelector(`input[name="${name}"]`).focus();
+        return false;
       }
     }
-    if (step === 2) {
+    if (step === 1) {
       const input = form.elements.website;
       input.setCustomValidity('');
       if (input.value.trim()) {

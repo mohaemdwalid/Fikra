@@ -180,3 +180,8 @@ Replaced the three carousel recordings with the five supplied storefront screens
 ### Full update verification before GitHub push — 2026-10-16
 
 Both `npm run build` and `npm run build:hero` now pass; the skyline component source is present. Python booking tests (5) and Worker tests (6) pass. The current supplied-image carousel regression passes English/Arabic at 390/1440px, including loaded images, translated heading, no carousel video requests and reduced motion. Packaging rebuilt 420 public files; SEO validation passes all 210 pages. Delivery target is GitHub `origin/main`; no hosting deployment or production database migration is part of this push.
+
+### Combined first booking step — 2026-10-16
+
+Project type and product count now share one first-step container with separate accessible fieldsets. Desktop uses two columns; phones stack the questions above one Continue button. Validation focuses the unanswered group. New-store clients have three steps; existing-store clients have four. Back navigation retains both answers, and the optional website branch is preserved.
+`browser_booking_conditional.cjs` passed all three project types in English/Arabic at 390/1440px. `browser_booking_steps.cjs` passed English/Arabic at 320/390/768/1440px, covering local lead persistence, saved product count, language/UTMs and the calendar gate without creating an appointment. English desktop and Arabic mobile screenshots visually inspected. No hosting deployment or production migration performed.
