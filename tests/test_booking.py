@@ -6,7 +6,7 @@ import tempfile
 import unittest
 import uuid
 from concurrent.futures import ThreadPoolExecutor
-from server import LeadStore
+from server import LeadStore, validate_lead
 
 
 class LeadTests(unittest.TestCase):
@@ -30,10 +30,12 @@ class LeadTests(unittest.TestCase):
         self.assertEqual(json.loads(rows[0][2]), {'utm_source': 'instagram'})
 
     def test_product_count_and_starting_price_persistence(self):
-        self.payload.update(product_count='11–50', budget='QAR 5,000+ — confirmed')
+        self.payload.update(product_count='25 to 100', budget='QAR 5,000+ — confirmed')
         self.store.save(self.payload)
         with sqlite3.connect(self.path) as db:
-            self.assertEqual(db.execute('SELECT product_count,budget FROM leads').fetchone(), ('11–50', 'QAR 5,000+ — confirmed'))
+            self.assertEqual(db.execute('SELECT product_count,budget FROM leads').fetchone(), ('25 to 100', 'QAR 5,000+ — confirmed'))
+        for count in ['Under 25', '25 to 100', '100 to 500', 'More than 500']:
+            self.assertEqual(validate_lead(dict(self.payload, product_count=count))['product_count'], count)
         self.payload['product_count'] = 'invented'
         with self.assertRaises(ValueError):
             self.store.save(self.payload)

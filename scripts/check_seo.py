@@ -30,6 +30,7 @@ for path in paths:
     assert soup.find('link', rel='canonical')['href'] == ORIGIN + path, path
     alternatives = {t['hreflang']: t['href'] for t in soup.find_all('link', rel='alternate')}
     assert set(alternatives) == {'en', 'ar', 'x-default'}, path
+    assert alternatives['x-default'] == alternatives['ar'], path
     for language in ['en', 'ar']:
         target = BeautifulSoup(file_for(urlsplit(alternatives[language]).path).read_text(), 'html.parser')
         reverse = {t['hreflang']: t['href'] for t in target.find_all('link', rel='alternate')}

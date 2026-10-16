@@ -204,3 +204,10 @@ activity and delivery streaks are omitted. The project array remains stable when
 language changes; both `/` and `/ar/` and the language switch render localized copy.
 Original component reference: https://mcp.21st.dev/@kedhareswer/components/contribution-skyline
 (MIT, Kedhareswer Naidu).
+
+
+### Arabic default and four product-count choices
+
+Fresh homepage visits open `/ar/` before the English page paints; campaign parameters and anchors are retained. The English switch uses `/?lang=en`, and a saved language preference is respected on return. Direct visits to `/book/` default to Arabic unless a language was chosen or explicitly supplied in `?lang=`. Existing English/Arabic service and article URLs remain available. HTML and sitemap `x-default` alternates point to Arabic. With JavaScript disabled the homepage also forwards to the static Arabic page.
+
+Product-count choices are exactly `Under 25`, `25 to 100`, `100 to 500`, and `More than 500`, translated as `أقل من ٢٥`, `من ٢٥ إلى ١٠٠`, `من ١٠٠ إلى ٥٠٠`, and `أكثر من ٥٠٠`. Both API implementations accept these values and retain support for historical lead values. No new database migration is needed for this choice update. Restart a running Python preview after changing the API validation constants.

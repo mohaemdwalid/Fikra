@@ -28,8 +28,9 @@ test('body size bounded even without content length', async () => {
 
 test('validate product count and starting price responses, retaining legacy leads', () => {
   for (const budget of ['QAR 5,000+ — confirmed', 'QAR 5,000+ — discuss scope', 'Below QAR 5,000']) {
-    assert.equal(validateLead({...lead, budget, product_count: '11–50'}).product_count, '11–50');
+    assert.equal(validateLead({...lead, budget, product_count: '25 to 100'}).product_count, '25 to 100');
   }
+  for (const product_count of ['Under 25', '25 to 100', '100 to 500', 'More than 500']) assert.equal(validateLead({...lead, product_count}).product_count, product_count);
   assert.throws(() => validateLead({...lead, product_count: 'invented'}));
   assert.equal(validateLead(lead).product_count, '');
 });

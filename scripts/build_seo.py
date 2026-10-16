@@ -29,6 +29,15 @@ def page_path(slug='', lang='en'):
     return ('/ar' if lang == 'ar' else '') + ('/' + slug if slug else '') + '/'
 
 def metadata(soup, path, en_path, ar_path, lang, title, description, service=None):
+    # Arabic is the default entry; explicit English URLs remain available.
+    for node in list(soup.select('#fikra-default-language, #fikra-default-noscript')):
+        node.decompose()
+    if path == '/':
+        script = soup.new_tag('script', id='fikra-default-language')
+        script.string = (ROOT / 'assets/default-language.js').read_text()
+        soup.head.insert(1, script)
+        fallback = BeautifulSoup('<noscript id="fikra-default-noscript"><meta http-equiv="refresh" content="0;url=/ar/"></noscript>', 'html.parser')
+        soup.head.append(fallback)
     for icon in list(soup.head.find_all('link')):
         if any(rel in icon.get('rel', []) for rel in ['icon', 'shortcut', 'apple-touch-icon']):
             icon.decompose()
@@ -52,7 +61,7 @@ def metadata(soup, path, en_path, ar_path, lang, title, description, service=Non
     meta(name='robots', content='index,follow,max-image-preview:large,max-video-preview:-1')
     canonical = ORIGIN + path
     soup.head.append(soup.new_tag('link', rel='canonical', href=canonical))
-    for language, target in [('en', en_path), ('ar', ar_path), ('x-default', en_path)]:
+    for language, target in [('en', en_path), ('ar', ar_path), ('x-default', ar_path)]:
         soup.head.append(soup.new_tag('link', rel='alternate', hreflang=language, href=ORIGIN + target))
     for prop, val in {'type': 'website', 'site_name': CONFIG['business_name'], 'title': title, 'description': description, 'url': canonical, 'image': ORIGIN + '/assets/fikra-logo.png', 'image:alt': 'FIKRA', 'locale': 'ar_QA' if lang == 'ar' else 'en_US', 'locale:alternate': 'en_US' if lang == 'ar' else 'ar_QA'}.items():
         meta(property='og:' + prop, content=val)
@@ -131,7 +140,7 @@ for lang in ['ar']:
         link['href'] = '/ar/articles/'
     metadata(soup, '/ar/', '/', '/ar/', lang, *HOME[lang])
     (ROOT / 'ar').mkdir(exist_ok=True)
-    (ROOT / 'ar/index.html').write_text(str(soup))
+    (ROOT / 'ar/index.html').write_text('\n'.join(line.rstrip() for line in str(soup).split('\n')))
 
 for page in PAGES:
     for lang in ['en', 'ar']:
@@ -139,7 +148,7 @@ for page in PAGES:
         esc = html.escape
         sections = ''.join(f'<section><h2>{esc(h)}</h2><p>{esc(p)}</p></section>' for h, p in c['sections'])
         faq = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in c['faq'])
-        raw = f'''<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/seo.css?v=20261016-blue2"><script defer src="/assets/funnel-copy.js"></script><script defer src="/assets/i18n.js?v=seo1"></script><script defer src="/assets/booking-navigation.js?v=seo1"></script></head><body class="seo-page"><header class="seo-header navbar-wrapper"><a href="{page_path(lang=lang)}" aria-label="{labels['home']}"><img src="/assets/fikra-logo.png" width="146" height="48" alt="FIKRA"></a><a href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></header><main id="main"><nav aria-label="{'Breadcrumb' if lang == 'en' else 'مسار التصفّح'}"><a href="{page_path(lang=lang)}">{labels['home']}</a> / {esc(c['title'].split(' | ')[0])}</nav><article><h1>{esc(c['heading'])}</h1><p class="seo-intro">{esc(c['intro'])}</p>{sections}<section><h2>{labels['faq']}</h2>{faq}</section><section class="seo-consult"><h2>{labels['book']}</h2><p>{labels['scope']}</p><a class="seo-cta" href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></section></article></main><footer><nav class="seo-related" aria-label="{labels['related']}"><strong>{labels['related']}</strong>{service_links(lang)}</nav><a href="{page_path(lang=lang)}#shopify-projects">{labels['back']}</a><a href="{CONFIG['instagram_url']}" rel="noopener noreferrer">{labels['instagram']}</a><p>© 2026 FIKRA</p></footer></body></html>'''
+        raw = f'''<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/seo.css?v=20261016-blue2"><script defer src="/assets/funnel-copy.js"></script><script defer src="/assets/i18n.js?v=arabic-default1"></script><script defer src="/assets/booking-navigation.js?v=seo1"></script></head><body class="seo-page"><header class="seo-header navbar-wrapper"><a href="{page_path(lang=lang)}" aria-label="{labels['home']}"><img src="/assets/fikra-logo.png" width="146" height="48" alt="FIKRA"></a><a href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></header><main id="main"><nav aria-label="{'Breadcrumb' if lang == 'en' else 'مسار التصفّح'}"><a href="{page_path(lang=lang)}">{labels['home']}</a> / {esc(c['title'].split(' | ')[0])}</nav><article><h1>{esc(c['heading'])}</h1><p class="seo-intro">{esc(c['intro'])}</p>{sections}<section><h2>{labels['faq']}</h2>{faq}</section><section class="seo-consult"><h2>{labels['book']}</h2><p>{labels['scope']}</p><a class="seo-cta" href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></section></article></main><footer><nav class="seo-related" aria-label="{labels['related']}"><strong>{labels['related']}</strong>{service_links(lang)}</nav><a href="{page_path(lang=lang)}#shopify-projects">{labels['back']}</a><a href="{CONFIG['instagram_url']}" rel="noopener noreferrer">{labels['instagram']}</a><p>© 2026 FIKRA</p></footer></body></html>'''
         soup = BeautifulSoup(raw, 'html.parser')
         path = page_path(page['slug'], lang)
         metadata(soup, path, page_path(page['slug']), page_path(page['slug'], 'ar'), lang, c['title'], c['description'], c['title'].split(' | ')[0])
@@ -157,7 +166,7 @@ xml = ET.Element(ns + 'urlset')
 for en, ar in pairs:
     for path in [en, ar]:
         item = ET.SubElement(xml, ns + 'url'); ET.SubElement(item, ns + 'loc').text = ORIGIN + path
-        for language, target in [('en', en), ('ar', ar), ('x-default', en)]:
+        for language, target in [('en', en), ('ar', ar), ('x-default', ar)]:
             ET.SubElement(item, xhtml + 'link', rel='alternate', hreflang=language, href=ORIGIN + target)
 ET.indent(xml)
 (ROOT / 'sitemap.xml').write_bytes(ET.tostring(xml, encoding='utf-8', xml_declaration=True))

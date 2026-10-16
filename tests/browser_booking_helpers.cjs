@@ -7,5 +7,7 @@ exports.chooseProjectAndBudget = async function(page, project, budget) {
   await page.locator('[data-step-next]').click();
 };
 exports.bookingPageUrl = function(query = '') {
-  return new URL('/book/' + query, process.env.PREVIEW_URL || 'http://127.0.0.1:5184/').href;
+  const url = new URL('/book/' + query, process.env.PREVIEW_URL || 'http://127.0.0.1:5184/');
+  if (!url.searchParams.has('lang')) url.searchParams.set('lang', 'en');
+  return url.href;
 };

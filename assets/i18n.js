@@ -136,6 +136,7 @@
       // Keep local previews on the local host and preserve campaign attribution.
       const target = new URL(url.pathname, location.origin);
       const params = new URLSearchParams(location.search); params.delete('lang');
+      if (lang === 'en' && target.pathname === '/') params.set('lang', 'en');
       target.search = params.toString(); target.hash = location.hash;
       return target.pathname + target.search + target.hash;
     }
@@ -195,8 +196,8 @@
   }
   button.addEventListener('click', () => apply(document.documentElement.lang === 'ar' ? 'en' : 'ar'));
   window.FIKRA_I18N = {t, apply};
-  let lang = 'en';
-  try { if (localStorage.getItem('fikra-language') === 'ar') lang = 'ar'; } catch {}
+  let lang = 'ar';
+  try { const saved = localStorage.getItem('fikra-language'); if (saved === 'ar' || saved === 'en') lang = saved; } catch {}
   const requested = new URLSearchParams(location.search).get('lang');
   if (requested === 'ar' || requested === 'en') lang = requested;
   apply(lang);

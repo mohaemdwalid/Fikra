@@ -1,4 +1,8 @@
 window.FIKRA_FUNNEL_AR = {
+  "Under 25": "أقل من ٢٥",
+  "25 to 100": "من ٢٥ إلى ١٠٠",
+  "100 to 500": "من ١٠٠ إلى ٥٠٠",
+  "More than 500": "أكثر من ٥٠٠",
   "A closer look at exceptional storefronts.": "نظرة أقرب إلى واجهات متاجر مميّزة.",
   "Distinctive brands. Thoughtful design. Shopping experiences worth exploring.": "علامات بهويّة مميّزة، وتصميم مدروس، وتجارب تسوّق تستحق الاكتشاف.",
   "Explore the storefronts.": "استكشف واجهات المتاجر.",
