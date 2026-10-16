@@ -47,8 +47,8 @@ def metadata(soup, path, en_path, ar_path, lang, title, description, service=Non
         {'rel': 'apple-touch-icon', 'sizes': '180x180', 'href': '/assets/fikra-apple-touch-icon.png?v=1'},
     ]:
         soup.head.append(soup.new_tag('link', attrs=attrs))
-    if not soup.find('link', href='/assets/brand.css?v=headline3'):
-        soup.head.append(soup.new_tag('link', rel='stylesheet', href='/assets/brand.css?v=headline3'))
+    if not soup.find('link', href='/assets/brand.css?v=headline4'):
+        soup.head.append(soup.new_tag('link', rel='stylesheet', href='/assets/brand.css?v=headline4'))
     soup.html['lang'] = lang
     soup.html['dir'] = 'rtl' if lang == 'ar' else 'ltr'
     soup.html['data-static-locale'] = lang
