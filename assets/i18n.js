@@ -136,7 +136,7 @@
       // Keep local previews on the local host and preserve campaign attribution.
       const target = new URL(url.pathname, location.origin);
       const params = new URLSearchParams(location.search); params.delete('lang');
-      if (lang === 'en' && target.pathname === '/') params.set('lang', 'en');
+      if (lang === 'en') params.set('lang', 'en');
       target.search = params.toString(); target.hash = location.hash;
       return target.pathname + target.search + target.hash;
     }
@@ -144,13 +144,17 @@
     if ((requested === 'ar' || requested === 'en') && requested !== staticLocale) {
       const target = localeUrl(requested); if (target) { location.replace(target); return; }
     }
+    if (requested === 'ar' || requested === 'en') {
+      try { localStorage.setItem('fikra-language-choice', requested); } catch {}
+    }
     const lang = staticLocale === 'ar' ? 'en' : 'ar';
     const switcher = document.createElement('a');
     switcher.className = 'fikra-language'; switcher.href = localeUrl(lang);
     switcher.textContent = lang === 'ar' ? 'العربية' : 'English'; switcher.lang = lang;
     switcher.setAttribute('aria-label', lang === 'ar' ? 'التبديل إلى العربية' : 'Switch to English');
+    switcher.addEventListener('click', () => { try { localStorage.setItem('fikra-language-choice', lang); } catch {} });
     document.querySelector('.navbar-wrapper')?.append(switcher);
-    window.FIKRA_I18N = {t, apply(lang) { const target = localeUrl(lang); if (target) location.assign(target); }};
+    window.FIKRA_I18N = {t, apply(lang) { try { localStorage.setItem('fikra-language-choice', lang); } catch {} const target = localeUrl(lang); if (target) location.assign(target); }};
     try { localStorage.setItem('fikra-language', staticLocale); } catch {}
     window.dispatchEvent(new CustomEvent('fikra:language', {detail: staticLocale}));
     return;
@@ -166,7 +170,7 @@
   const button = document.createElement('button');
   button.className = 'fikra-language'; button.type = 'button';
   document.querySelector('.navbar-wrapper').append(button);
-  function apply(lang) {
+  function apply(lang, chosen = false) {
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
     // Discard horizontal offsets retained from the previous writing direction.
@@ -189,16 +193,16 @@
       if (!el.dataset.originalValue) el.dataset.originalValue = el.value;
       el.value = t(el.dataset.originalValue);
     });
-    try { localStorage.setItem('fikra-language', lang); } catch {}
+    try { localStorage.setItem('fikra-language', lang); if (chosen) localStorage.setItem('fikra-language-choice', lang); } catch {}
     const pageUrl = new URL(location.href);
     if (pageUrl.searchParams.has('lang')) { pageUrl.searchParams.set('lang', lang); history.replaceState(null, '', pageUrl); }
     window.dispatchEvent(new CustomEvent('fikra:language', {detail: lang}));
   }
-  button.addEventListener('click', () => apply(document.documentElement.lang === 'ar' ? 'en' : 'ar'));
+  button.addEventListener('click', () => apply(document.documentElement.lang === 'ar' ? 'en' : 'ar', true));
   window.FIKRA_I18N = {t, apply};
   let lang = 'ar';
-  try { const saved = localStorage.getItem('fikra-language'); if (saved === 'ar' || saved === 'en') lang = saved; } catch {}
+  try { const saved = localStorage.getItem('fikra-language-choice'); if (saved === 'ar' || saved === 'en') lang = saved; } catch {}
   const requested = new URLSearchParams(location.search).get('lang');
   if (requested === 'ar' || requested === 'en') lang = requested;
-  apply(lang);
+  apply(lang, requested === 'ar' || requested === 'en');
 })();

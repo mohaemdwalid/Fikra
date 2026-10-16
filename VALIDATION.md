@@ -194,3 +194,8 @@ The combined first booking step now offers exactly four product counts: Under 25
 ### Centered hero headline without periods — 2026-10-16
 
 Removed the ending periods from the main headline and blue delivery line in English and Arabic. Centered the h1 text and its block, preserving the existing font sizes and blue delivery line. Updated translation keys and stylesheet cache version. Browser checks passed both languages at 390/1440px for centered alignment, no periods, preserved blue color and no overflow; English mobile screenshot visually inspected. Packaging and all 210 SEO checks passed. No hosting deployment performed.
+
+### Centered hero kicker and sitewide Arabic entry — 2026-10-16
+
+Centered the hero kicker independently of the supporting paragraph. Extended before-paint Arabic routing and no-JavaScript fallbacks from the homepage to every public English service/library/article page. All 210 generated pages now validate correct Arabic counterpart routing or absence of redirect on Arabic pages. Only deliberately selected language choices override Arabic; older automatically saved English values are ignored. English switches supply `?lang=en` and retain explicit selections across navigation and reload.
+`browser_all_arabic.cjs` passed homepage, service, library, article and booking entry at 390/1440px with stale English storage, Arabic RTL, preserved campaign/hash, English switching and persistence; no-JavaScript public-page checks passed. Existing default-language regression passed both widths. Arabic mobile hero screenshot visually inspected. Packaging and all 210 SEO checks passed. GitHub delivery only; no hosting deployment performed.

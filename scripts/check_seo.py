@@ -31,6 +31,12 @@ for path in paths:
     alternatives = {t['hreflang']: t['href'] for t in soup.find_all('link', rel='alternate')}
     assert set(alternatives) == {'en', 'ar', 'x-default'}, path
     assert alternatives['x-default'] == alternatives['ar'], path
+    if lang == 'en':
+        entry = soup.select_one('#fikra-default-language')
+        assert entry and entry['data-ar-path'] == urlsplit(alternatives['ar']).path, path
+        assert soup.select_one('#fikra-default-noscript meta')['content'] == '0;url=' + urlsplit(alternatives['ar']).path, path
+    else:
+        assert not soup.select_one('#fikra-default-language, #fikra-default-noscript'), path
     for language in ['en', 'ar']:
         target = BeautifulSoup(file_for(urlsplit(alternatives[language]).path).read_text(), 'html.parser')
         reverse = {t['hreflang']: t['href'] for t in target.find_all('link', rel='alternate')}

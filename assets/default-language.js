@@ -1,16 +1,18 @@
-// Run in the homepage head before paint; explicit choices take precedence.
+// Arabic is the default on every public English route, before first paint.
 (() => {
-  if (!['/', '/index.html'].includes(location.pathname)) return;
+  const arabicPath = document.currentScript?.dataset.arPath;
+  if (!arabicPath) return;
   const url = new URL(location.href);
   const requested = url.searchParams.get('lang');
   let language = 'ar';
   try {
-    const saved = localStorage.getItem('fikra-language');
+    // Only a deliberate language selection overrides the Arabic default.
+    const saved = localStorage.getItem('fikra-language-choice');
     if (saved === 'ar' || saved === 'en') language = saved;
   } catch {}
   if (requested === 'ar' || requested === 'en') language = requested;
   if (language === 'ar') {
-    url.pathname = '/ar/';
+    url.pathname = arabicPath;
     location.replace(url.pathname + url.search + url.hash);
   }
 })();
