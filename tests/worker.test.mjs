@@ -15,7 +15,10 @@ test('reject cross-origin submissions', async () => {
 });
 test('persist before returning saved; respect rate limit and database failure', async () => {
   let persisted = false;
-  const database = (attempts, success) => ({prepare(sql) {return {bind() {return this;}, async first() {return {attempts};}, async run() {if (sql.startsWith('INSERT INTO leads')) persisted = success; return {success};}};}});
+  const database = (attempts, success) => ({
+    async batch(statements) { persisted = success; return statements.map(() => ({success})); },
+    prepare(sql) {return {bind() {return this;}, async first() {return {attempts};}, async run() {return {success};}};}
+  });
   const response = await handleLead(request(), {LEADS_DB: database(1, true)});
   assert.equal(response.status, 201); assert.equal(persisted, true);
   assert.equal((await response.json()).status, 'saved');

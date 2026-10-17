@@ -1,3 +1,4 @@
+import {enabledChannels} from './notifications.mjs';
 export const projects = ['New Shopify Store', 'Store Redesign', 'Improvements'];
 export const productCounts = ['Under 25', '25 to 100', '100 to 500', 'More than 500', '1–10', '11–50', '51–100', '101–250', 'More than 250', 'Not sure yet'];
 export const budgets = ['QAR 5,000+ — confirmed', 'QAR 5,000+ — discuss scope', 'Below QAR 5,000', 'Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'];
@@ -30,7 +31,7 @@ export const leadValues = lead => [lead.id, lead.name, lead.email, lead.phone, l
 export function json(data, status = 200) {
   return new Response(JSON.stringify(data), {status, headers: {'Content-Type': 'application/json', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff'}});
 }
-export async function handleLead(request, env) {
+export async function handleLead(request, env, onSaved) {
   if (request.method !== 'POST') return json({error: 'Method not allowed'}, 405);
   if (request.headers.get('Origin') !== new URL(request.url).origin) return json({error: 'Invalid origin'}, 403);
   if (request.headers.get('Content-Type')?.split(';')[0] !== 'application/json') return json({error: 'Invalid request'}, 415);
@@ -59,8 +60,13 @@ export async function handleLead(request, env) {
     const rate = await env.LEADS_DB.prepare(`INSERT INTO lead_rate_limits VALUES (?,1,?) ON CONFLICT(client_hash) DO UPDATE SET attempts=CASE WHEN expires_at<? THEN 1 ELSE attempts+1 END, expires_at=CASE WHEN expires_at<? THEN excluded.expires_at ELSE expires_at END RETURNING attempts`).bind(client, now + 600, now, now).first();
     if (rate.attempts > 10) return json({error: 'Too many requests'}, 429);
     await env.LEADS_DB.prepare('DELETE FROM lead_rate_limits WHERE expires_at < ?').bind(now - 86400).run();
-    const result = await env.LEADS_DB.prepare(insertLead).bind(...leadValues(lead)).run();
-    if (!result.success) throw Error();
+    const statements = [env.LEADS_DB.prepare(insertLead).bind(...leadValues(lead))];
+    for (const channel of enabledChannels(env)) statements.push(env.LEADS_DB.prepare(
+      `INSERT INTO lead_alerts (lead_id,channel) VALUES (?,?) ON CONFLICT(lead_id,channel) DO NOTHING`).bind(lead.id, channel));
+    const results = await env.LEADS_DB.batch(statements);
+    if (results.some(result => !result.success)) throw Error();
+    // Notification delivery is separate from the successful lead save.
+    try { onSaved?.(lead.id); } catch { /* Scheduled retries process the durable outbox. */ }
     return json({id: lead.id, status: 'saved'}, 201);
   } catch { return json({error: 'Lead storage is unavailable'}, 503); }
 }

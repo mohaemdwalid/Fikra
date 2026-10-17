@@ -22,17 +22,13 @@ The `/book/` page collects project type, optional existing website URL, estimate
 
 The form is available in English and Arabic. Only a successful persistent save hides the form and displays the callback confirmation; a failed or unavailable API leaves the form visible and reports that the request was not sent. The page passes only allowlisted campaign UTM fields to the lead API and analytics does not receive contact or qualification data.
 
-## Cloudflare Workers setup — no deployment performed
+## Cloudflare Workers setup
 
-The supplied live URL is a **Worker** (`fikra.mohamedxmod99.workers.dev`); the earlier repository only packaged static Pages uploads and had no Worker/backend configuration. `wrangler.jsonc` now defines the `fikra` Worker, static assets and a D1 binding named `LEADS_DB`. Verify the existing Worker/account in the dashboard before publishing. Preserve any existing dashboard routes, domains, bindings or observability settings when reconciling this configuration.
+The live `fikra` Worker serves static assets and `/api/leads`, with `LEADS_DB` bound to the configured `fikra-leads` D1 database. Preserve the existing Worker domains, account, bindings and settings when publishing.
 
-No application secrets or environment variables are needed. Wrangler must authenticate to the correct Cloudflare account. The D1 database ID is configuration, not a secret. Provisioning and production deployment are pending owner approval; these are the commands to run **after approval**:
+The lead form does not require an application secret. Owner email alerts use the `LEAD_ALERT_EMAIL` binding and a private `LEAD_ALERT_EMAIL_TO` Worker secret; see [NOTIFICATIONS.md](NOTIFICATIONS.md). The D1 database ID in `wrangler.jsonc` is already configured. Apply pending migrations before deploying changes that depend on new columns or tables:
 
 ```sh
-npx wrangler@4.151.0 login
-npx wrangler@4.151.0 whoami
-npx wrangler@4.151.0 d1 create fikra-leads
-# Replace REPLACE_WITH_CREATED_D1_DATABASE_ID in wrangler.jsonc with the returned ID.
 npx wrangler@4.151.0 d1 migrations apply fikra-leads --remote
 python3 prepare_cloudflare.py
 npx wrangler@4.151.0 deploy --dry-run
@@ -49,9 +45,11 @@ npx wrangler@4.151.0 dev --local --port 5188
 npx wrangler@4.151.0 d1 execute fikra-leads --local --command 'SELECT id, project, budget, created_at FROM leads ORDER BY created_at DESC LIMIT 10'
 ```
 
-A static ZIP upload alone is insufficient: it has no lead API or D1 storage. Missing binding/schema or failed writes return HTTP 503, and the form does not show a successful save or open the calendar. The API validates every field, limits request size, checks same-origin POSTs, uses parameterized SQL and idempotent lead IDs, and applies a shared D1 rate limit (10 valid submissions per IP-derived daily hash per 10 minutes). A honeypot rejects basic bots. IP hashes expire and are cleaned; raw IPs are not saved. Lead records are private; no public read endpoint exists. Review access, retention and your privacy notice for stored name, email, WhatsApp and project information. Export and delete records using authenticated D1 tools as needed. `.wrangler`, databases, ZIPs and backups remain Git-ignored.
+A static ZIP upload alone is insufficient: it has no lead API or D1 storage. Missing binding/schema or failed writes return HTTP 503, and the form stays visible and does not show a successful save. The API validates every field, limits request size, checks same-origin POSTs, uses parameterized SQL and idempotent lead IDs, and applies a shared D1 rate limit (10 valid submissions per IP-derived daily hash per 10 minutes). A honeypot rejects basic bots. IP hashes expire and are cleaned; raw IPs are not saved. Lead records are private; no public read endpoint exists. Review access, retention and your privacy notice for stored name, email, WhatsApp and project information. Export and delete records using authenticated D1 tools as needed. `.wrangler`, databases, ZIPs and backups remain Git-ignored.
 
 ## Tracking and confirmation
+
+For owner email alert setup, retries and delivery status, see [NOTIFICATIONS.md](NOTIFICATIONS.md). Notification acceptance is tracked separately from lead persistence.
 
 The form pushes `fikra_lead_submitted` to `window.dataLayer` only after the lead API confirms persistence. No booking or calendar-open event is sent. Only the event name and opaque lead ID enter the data layer; names, email addresses, phone numbers, URLs and qualification answers are excluded. Verify Meta delivery separately after GTM configuration.
 
