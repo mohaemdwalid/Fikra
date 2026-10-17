@@ -3,6 +3,11 @@
   "name": "fikra",
   "main": "cloudflare/worker.mjs",
   "compatibility_date": "2026-10-15",
+  "workers_dev": true,
+  "routes": [
+    {"pattern": "fikra-agency.com", "custom_domain": true},
+    {"pattern": "www.fikra-agency.com", "custom_domain": true}
+  ],
   "send_email": [{"name": "LEAD_ALERT_EMAIL"}],
   "vars": {"LEAD_ALERT_EMAIL_FROM": "leads@fikra-agency.com"},
   "triggers": {"crons": ["*/5 * * * *"]},
