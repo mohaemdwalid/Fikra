@@ -1,6 +1,6 @@
 # FIKRA Shopify consultation page
 
-Static HTML/CSS/JavaScript, with the existing English/Arabic language switcher, portfolio and animations. Cal.com owns availability, appointments, timezone selection, Google Meet links, booking emails and configured workflows. The website saves qualification leads; it never reserves time itself.
+Static HTML/CSS/JavaScript, with the existing English/Arabic language switcher, portfolio and animations. The website saves qualification leads and asks FIKRA to call; meeting scheduling happens manually afterward if the lead agrees.
 
 ## Preview and tests
 
@@ -14,19 +14,13 @@ node --check assets/booking.js
 python3 prepare_cloudflare.py
 ```
 
-There is no frontend package install or compilation step. `prepare_cloudflare.py` builds the public asset directory and a static ZIP, cleaning obsolete assets first. Local leads persist in `.data/leads.sqlite3`; the Python server serves only the homepage, booking page and assets. Existing `.data/bookings.sqlite3` history is retained privately, but the old reservation API and custom calendar are retired. Do not upload `.data` or run the Python server as the Cloudflare backend.
+There is no frontend package install or compilation step. `prepare_cloudflare.py` builds the public asset directory and a static ZIP, cleaning obsolete assets first. Local leads persist in `.data/leads.sqlite3`; the Python server serves only the homepage, callback request page and assets. Existing `.data/bookings.sqlite3` history is retained privately. Do not upload `.data` or run the Python server as the Cloudflare backend.
 
-## Booking configuration
+## Lead form and callback flow
 
-The **only event URL setting** is `bookingUrl` in `assets/site-config.js`. The inline path and fallback URL derive from it. No Cal.com API key is required. The official vanilla embed script is loaded once, after `POST /api/leads` confirms persistence.
+The `/book/` page collects project type, optional existing website URL, estimated budget and contact details. After `POST /api/leads` confirms the lead was saved, the page thanks the visitor and explains that FIKRA will call them. If they want a meeting after the call, the owner can send the Cal.com link manually over WhatsApp. Cal.com is not embedded or loaded by the website.
 
-Verified on October 15, 2026: the supplied event returns HTTP 200 and identifies itself as Free Shopify Consultation, 30 minutes, Google Meet, with Asia/Qatar as its schedule timezone. Timezone selection is unlocked. Cal.com displays its own availability and the visitor's selected timezone; the website does not calculate or hardcode slots. Name, email and `attendeePhoneNumber` are passed through embed config. A random website lead ID is passed as `metadata[fikraLeadId]`. Qualification answers stay in the lead database and are not asked again by the website or added as Cal.com questions. The inspected event has no duplicate project/budget questions.
-
-The website form, errors, instructions and CTAs are translated. The embedded calendar intentionally uses English, with an Arabic explanation; full Arabic widget support has not been verified. Switching the website language does not remount the calendar or discard an in-progress booking. The fallback opens Cal.com directly, with contact prefills; no booking conversion can be detected on that external tab by this website.
-
-Cal.com's event currently also offers an optional SMS reminder phone field from its own workflow. The website does not opt visitors into it or add another workflow. Keep that choice in Cal.com. Set email to **required** in Cal.com's event settings if every attendee must receive email details; it was optional during inspection, although the website requires and prefills it.
-
-Official references: [embed instructions](https://cal.com/help/embedding/embed-instructions), [prefilling](https://cal.com/help/embedding/prefill-booking-form-embed), [event payloads](https://cal.com/help/embedding/embed-events), [UTMs](https://cal.com/help/embedding/utm-tracking-embed).
+The form is available in English and Arabic. Only a successful persistent save hides the form and displays the callback confirmation; a failed or unavailable API leaves the form visible and reports that the request was not sent. The page passes only allowlisted campaign UTM fields to the lead API and analytics does not receive contact or qualification data.
 
 ## Cloudflare Workers setup — no deployment performed
 
@@ -59,39 +53,25 @@ A static ZIP upload alone is insufficient: it has no lead API or D1 storage. Mis
 
 ## Tracking and confirmation
 
-Neither inspected local source nor live HTML contained an active Meta Pixel initialization or GTM container ID. Existing placeholders are preserved; no Pixel ID has been invented. The integration pushes only these events to `window.dataLayer`, using GTM as the single delivery path:
-
-| Website event | Trigger | Suggested Meta mapping |
-| --- | --- | --- |
-| `fikra_lead_submitted` | Persisted lead API response | `Lead` |
-| `fikra_booking_confirmed` | Official `bookingSuccessfulV2` with a UID, status `ACCEPTED`, and no outstanding payment | `Schedule` |
-
-Configure one GTM custom-event trigger/tag for each, using `event_id` for deduplication. Do not also send these from a second direct `fbq` handler or a calendar-open trigger. Only event names and opaque IDs enter the data layer: no names, email addresses, phone numbers, URLs or qualification answers. Event IDs are deduplicated in memory and session storage. Existing tracking can remain connected independently. Browser event simulation verifies the guards but does not prove delivery to Meta; verify in your GTM/Meta test-event tools after configuration.
-
-A pending/unconfirmed/payment-required Cal.com response is shown as pending and does not convert. Dry-run events do not convert. Successful accepted bookings display next steps; Cal.com alone sends notifications. A booking confirmed later by the owner or made in the fallback tab cannot be reliably attributed by this page; server-side attribution would require a separate signed Cal.com webhook integration, which is not enabled here.
-
-Only the five supported UTM keys are carried from the landing URL to the lead record and Cal.com config/fallback. Values are limited to ordinary campaign tokens. Do not put personal data in campaign parameters. For visibility in Cal.com's booking details, configure its supported hidden UTM tracking fields per the official UTM guide; do not add visible required qualification questions. Arbitrary landing query parameters are not forwarded.
+The form pushes `fikra_lead_submitted` to `window.dataLayer` only after the lead API confirms persistence. No booking or calendar-open event is sent. Only the event name and opaque lead ID enter the data layer; names, email addresses, phone numbers, URLs and qualification answers are excluded. Verify Meta delivery separately after GTM configuration.
 
 ## Manual acceptance flow
 
-1. Open desktop and mobile views in English and Arabic. Every consultation CTA should open `/book/`, and Arabic website content should use RTL.
-2. Submit empty/invalid fields; confirm clear translated validation and no calendar. Enter a full name, email, international WhatsApp number, project, budget and optional full HTTP(S) website URL.
-3. Submit, check `POST /api/leads` returns 201 with `status: saved`, then read the record from the corresponding local SQLite or D1 database. An offline/503 response must retain the form and show an error.
-4. Confirm the calendar loads once, displays real dates/times and timezone controls, and prefills name/email/attendee phone after choosing a slot. The website does not resubmit project questions.
-5. Block the embed script or Cal.com iframe: the translated error and direct fallback should remain available after saving. Confirm UTMs and prefills are present in that link.
-6. For an owner-approved **real** appointment test, select a slot and submit in Cal.com. This will trigger its real emails/workflows. Confirm the website message appears only after accepted booking; check the appointment, Meet link, notifications and timezone in Cal.com. Cancel the test appointment there afterward. No real appointment was created during implementation.
-7. In the data layer, confirm one lead event and one accepted-booking event, no event for calendar opening, no duplicate accepted event, and no personal data. Verify Meta delivery separately after GTM configuration.
-8. Check navigation, language switching, portfolio videos, client marquee, FAQ, enquiry dialog and responsive layout.
+1. Open desktop and mobile views in English and Arabic. Consultation CTAs should open `/book/`, and Arabic content should use RTL.
+2. Submit empty/invalid fields; confirm translated validation. Enter a full name, email, international WhatsApp number, project, budget and optional full HTTP(S) website URL.
+3. Submit and confirm `POST /api/leads` returns `status: saved`, then read the record from the local SQLite or D1 database. An offline/503 response must retain the form and show an error.
+4. After a successful save, confirm the form is replaced by the callback message, no Cal.com embed or external calendar is loaded, and one lead event is recorded. Switch languages and confirm the success message translates.
+5. If the lead agrees during the callback, the owner can send the meeting link manually over WhatsApp.
+6. Check navigation, language switching, portfolio videos, client marquee, FAQ, enquiry dialog and responsive layout.
 
 Optional browser checks use Playwright with an installed Chrome, without adding a production dependency:
 
 ```sh
 npm install --prefix /tmp/fikra-booking-tests playwright
 PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/browser_booking_states.cjs
-PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/browser_booking.cjs
 ```
 
-Run the Python preview first. Set `PREVIEW_URL=http://localhost:5188/` to use the local Worker instead. The real-widget test saves four synthetic qualification leads, reads actual Cal.com availability and stops at its booking form. The state test uses mocked Cal callbacks for confirmations and failures. Browser screenshots are written to `/tmp`. These checks never click Cal.com's final Confirm button.
+Run the Python preview first. These checks use synthetic lead data and write browser screenshots to `/tmp`.
 
 See `VALIDATION.md` for checks performed and limits.
 
@@ -107,21 +87,13 @@ vslPosterUrl: 'assets/videos/fikra-vsl-poster.jpg',
 Use an actual local video file or a direct HTTPS MP4/WebM URL, rather than a YouTube/Vimeo watch-page URL. The poster is optional. Keep `vslVideoUrl: null` until the real introduction video is supplied: the page displays a translated coming-soon panel with no fake play button. Once configured, it uses native playback controls, supports inline mobile playback, does not autoplay or preload the video, and provides an error message/direct link if playback fails. Watching the video does not fire booking conversions. For Cloudflare-hosted video files, keep each below the existing 25 MiB asset limit or use a direct hosted media URL. Do not rename a portfolio recording as the introduction video.
 
 
-## Separate consultation page
+## Separate callback request page
 
-All consultation CTAs now open `/book/`, instead of scrolling to an inline homepage form. `book/index.html` is included in the public build and served by the existing Worker asset binding; no API or database migration is required. The Python preview explicitly permits this public route while continuing to block private files.
+Consultation CTAs open `/book/`, a four-step lead form that collects project type, optional existing website URL, estimated budget and contact details. Radio choices use the same project/budget values accepted by `/api/leads`; back navigation retains answers in memory. Personal answers are not saved in browser storage. The page shows a callback confirmation only after a successful persistent lead save. The owner follows up by phone and can send a Cal.com meeting link manually over WhatsApp if the lead wants to meet.
 
-The four steps collect project type, optional existing website URL, estimated budget and contact details. Radio choices use the same project/budget values accepted by `/api/leads`; back navigation retains answers in memory. Personal answers are not saved in browser storage. Only a successful persistent lead save reveals the existing Cal.com embed on the booking page. Confirmation guards, prefills and event deduplication remain in the existing booking controller.
+`bookingPageUrl` in `assets/site-config.js` configures the website destination. The shared booking-navigation script carries the current English/Arabic language and five allowlisted campaign parameters into the page. Arbitrary query parameters are discarded, and legacy homepage `#booking` URLs redirect to `/book/`. Back-to-website links preserve language and campaign context. Booking pages are intentionally noindex.
 
-`bookingPageUrl` in `assets/site-config.js` configures the website destination; `bookingUrl` remains the separate Cal.com event configuration. The shared booking-navigation script carries the current English/Arabic language and five allowlisted campaign parameters into the new page. Arbitrary query parameters are discarded, and legacy homepage `#booking` URLs redirect to `/book/`. Back-to-website links preserve the same language/campaign context. The existing i18n language setting works on both pages.
-
-Preview: `http://127.0.0.1:5184/book/`. Additional browser regression check:
-
-```sh
-PLAYWRIGHT_MODULE=/tmp/fikra-booking-tests/node_modules/playwright node tests/browser_booking_steps.cjs
-```
-
-This check saves eight synthetic leads across both languages/four viewport sizes. Restart the Python preview between browser suites to reset its in-memory submission rate limit. Each new lead is still retained in the chosen test database. The real-widget and confirmation-state scripts have also been updated for the four-step page. No test clicks Cal.com's final booking confirmation.
+Preview: `http://127.0.0.1:5184/book/`.
 
 ## SEO and AI search
 

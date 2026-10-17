@@ -53,11 +53,18 @@ class LeadTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.store.save(self.payload)
 
-    def test_no_booking_or_private_files_in_output(self):
+    def test_callback_flow_has_no_calendar_embed(self):
         html = Path('index.html').read_text()
         for old in ['hubspot', 'data-month', 'data-times', 'Confirm booking', '10am–3pm', 'Email confirmations are not enabled']:
             self.assertNotIn(old, html)
-        self.assertIn('/api/leads', Path('assets/booking.js').read_text())
+        booking = Path('assets/booking.js').read_text()
+        page = Path('book/index.html').read_text()
+        self.assertIn('/api/leads', booking)
+        self.assertIn('fikra_lead_submitted', booking)
+        self.assertIn('call you to discuss your project', booking)
+        self.assertNotIn('bookingUrl', booking)
+        self.assertNotIn('fikra-calendar-panel', page)
+        self.assertNotIn('app.cal.com/embed', booking)
 
 
 if __name__ == '__main__':

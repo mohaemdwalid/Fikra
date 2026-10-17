@@ -17,12 +17,12 @@ if parsed.scheme != 'https' or not parsed.netloc or parsed.path or parsed.query 
 PAGES = json.loads((ROOT / 'seo-content.json').read_text())
 AR = json.loads(subprocess.check_output(['node', str(ROOT / 'scripts/export-translations.cjs')], text=True))
 HOME = {
-    'en': ('Shopify Website Design & Development | FIKRA', 'FIKRA designs and develops Shopify stores around your brand, with mobile layouts, clear navigation and Arabic and English storefront options. Book a free consultation.'),
-    'ar': ('فكرة | تصميم وتطوير متاجر شوبيفاي', 'نصمّم ونطوّر في فكرة متاجر شوبيفاي تناسب علامتك، مع تجربة جوال واضحة وخيارات للعربية والإنجليزية. احجز استشارة مجانية لمناقشة مشروعك.')
+    'en': ('Shopify Website Design & Development | FIKRA', 'FIKRA designs and develops Shopify stores around your brand, with mobile layouts, clear navigation and Arabic and English storefront options. Request a free call.'),
+    'ar': ('فكرة | تصميم وتطوير متاجر شوبيفاي', 'نصمّم ونطوّر في فكرة متاجر شوبيفاي تناسب علامتك، مع تجربة جوال واضحة وخيارات للعربية والإنجليزية. اطلب مكالمة مجانية لمناقشة مشروعك.')
 }
 LABELS = {
-    'en': {'services': 'Explore our Shopify services', 'home': 'Home', 'book': 'Book your free consultation', 'related': 'Related services', 'faq': 'Questions about this service', 'instagram': 'Contact FIKRA on Instagram', 'back': 'See our work', 'scope': 'Discuss your products, content and priorities. We agree the scope before work begins.'},
-    'ar': {'services': 'اكتشف خدماتنا لمتاجر شوبيفاي', 'home': 'الرئيسية', 'book': 'احجز استشارتك المجانية', 'related': 'خدمات ذات صلة', 'faq': 'أسئلة حول هذه الخدمة', 'instagram': 'تواصل مع فكرة على إنستغرام', 'back': 'شاهد أعمالنا', 'scope': 'نناقش منتجاتك ومحتواك وأولوياتك، ونتّفق على نطاق المشروع قبل بدء العمل.'}
+    'en': {'services': 'Explore our Shopify services', 'home': 'Home', 'book': 'Request a free call', 'related': 'Related services', 'faq': 'Questions about this service', 'instagram': 'Contact FIKRA on Instagram', 'back': 'See our work', 'scope': 'Request a free call to discuss your products, content and priorities. We agree the scope before work begins.'},
+    'ar': {'services': 'اكتشف خدماتنا لمتاجر شوبيفاي', 'home': 'الرئيسية', 'book': 'اطلب مكالمة مجانية', 'related': 'خدمات ذات صلة', 'faq': 'أسئلة حول هذه الخدمة', 'instagram': 'تواصل مع فكرة على إنستغرام', 'back': 'شاهد أعمالنا', 'scope': 'اطلب مكالمة مجانية لمناقشة منتجاتك ومحتواك وأولوياتك، ونتّفق على نطاق المشروع قبل بدء العمل.'}
 }
 
 def page_path(slug='', lang='en'):

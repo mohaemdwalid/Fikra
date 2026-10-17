@@ -37,7 +37,7 @@ body.booking-page { margin: 0; color: #101010; background-color: #f7f6f2; backgr
 .booking-page #lead-status { margin-top: 20px; }
 .booking-page :focus-visible { outline: 3px solid var(--fikra-accent, #005bea); outline-offset: 3px; }
 .booking-page [hidden] { display: none !important; }
-.booking-page #fikra-calendar-panel { margin-top: 28px; }
+.booking-page #lead-success { margin-top: 28px; }
 @media(max-width:600px) {
  .booking-page .navbar-wrapper { flex-wrap: wrap; gap: 12px; padding: 18px 20px; }
  .booking-page .fikra-logo-mark { width: 110px; height: 36px; }

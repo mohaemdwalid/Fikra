@@ -60,7 +60,7 @@
     if (booking) {
       const a = document.createElement('a');
       a.href = booking; a.setAttribute('data-fikra-booking', '');
-      a.className = 'fikra-action'; a.textContent = t('Book Your Free Shopify Consultation'); content.prepend(a);
+      a.className = 'fikra-action'; a.textContent = t('Request a free call'); content.prepend(a);
     }
     form.addEventListener('submit', event => {
       event.preventDefault();
