@@ -51,7 +51,7 @@ A static ZIP upload alone is insufficient: it has no lead API or D1 storage. Mis
 
 For owner email alert setup, retries and delivery status, see [NOTIFICATIONS.md](NOTIFICATIONS.md). Notification acceptance is tracked separately from lead persistence.
 
-The form pushes `fikra_lead_submitted` to `window.dataLayer` only after the lead API confirms persistence. No booking or calendar-open event is sent. Only the event name and opaque lead ID enter the data layer; names, email addresses, phone numbers, URLs and qualification answers are excluded. Verify Meta delivery separately after GTM configuration.
+The form pushes `fikra_lead_submitted` to `window.dataLayer` and sends Meta `Lead` only after the lead API confirms persistence. The browser `eventID` and server `event_id` both use the saved lead UUID. Do not configure another Meta Lead sender for this dataLayer event in GTM. See [META-TRACKING.md](META-TRACKING.md) for server setup and verification. No booking or calendar-open event is sent. Only the event name and opaque lead ID enter the data layer; names, email addresses, phone numbers, URLs and qualification answers are excluded. Verify Meta delivery separately after GTM configuration.
 
 ## Manual acceptance flow
 

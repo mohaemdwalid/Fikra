@@ -1,4 +1,5 @@
 import {enabledChannels} from './notifications.mjs';
+import {conversionStatement} from './meta.mjs';
 export const projects = ['New Shopify Store', 'Store Redesign', 'Improvements'];
 export const productCounts = ['Under 25', '25 to 100', '100 to 500', 'More than 500', '1–10', '11–50', '51–100', '101–250', 'More than 250', 'Not sure yet'];
 export const budgets = ['QAR 5,000+ — confirmed', 'QAR 5,000+ — discuss scope', 'Below QAR 5,000', 'Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'];
@@ -67,6 +68,8 @@ export async function handleLead(request, env, onSaved) {
     const statements = [env.LEADS_DB.prepare(insertLead).bind(...leadValues(lead))];
     for (const channel of enabledChannels(env)) statements.push(env.LEADS_DB.prepare(
       `INSERT INTO lead_alerts (lead_id,channel) VALUES (?,?) ON CONFLICT(lead_id,channel) DO NOTHING`).bind(lead.id, channel));
+    const conversion = await conversionStatement(request, lead, env, now);
+    if (conversion) statements.push(conversion);
     const results = await env.LEADS_DB.batch(statements);
     if (results.some(result => !result.success)) throw Error();
     // Notification delivery is separate from the successful lead save.

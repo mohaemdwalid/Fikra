@@ -9,7 +9,7 @@
     {"pattern": "www.fikra-agency.com", "custom_domain": true}
   ],
   "send_email": [{"name": "LEAD_ALERT_EMAIL"}],
-  "vars": {"LEAD_ALERT_EMAIL_FROM": "leads@fikra-agency.com"},
+  "vars": {"LEAD_ALERT_EMAIL_FROM": "leads@fikra-agency.com", "META_PIXEL_ID": "1420582636952575", "META_API_VERSION": "v26.0"},
   "triggers": {"crons": ["*/5 * * * *"]},
   "assets": {
     "directory": "./cloudflare-upload",

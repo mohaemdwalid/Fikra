@@ -57,9 +57,14 @@
       sessionStorage.setItem(key, '1');
     } catch {}
     seen.add(key);
-    // GTM is the single analytics delivery path; do not also call fbq here.
+    // Meta Lead is delivered here only; do not also map the dataLayer event to Meta in GTM.
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({event, event_id: id});
+    try {
+      if (event === 'fikra_lead_submitted' && typeof window.fbq === 'function') {
+        window.fbq('track', 'Lead', {}, {eventID: id});
+      }
+    } catch { /* A blocked tracker must not affect the saved-lead confirmation. */ }
   }
   const phoneCountry = form.querySelector('[data-phone-country]');
   function internationalPhone() {
