@@ -83,3 +83,109 @@
 @media (max-width: 479px) {
   .navbar-wrapper > .fikra-header-book { margin-inline-end: 8px; }
 }
+
+/* Floating grid navigation: soft color and individual links replace the export's dividers. */
+.navbar-logo-left {
+  border: 0 !important;
+  padding: 12px 16px;
+  background: transparent;
+}
+.navbar-logo-left .navbar-logo-left-container.shadow-three {
+  position: relative;
+  max-width: 1320px;
+  border: 0;
+  border-radius: 24px;
+  background-color: #f9faf8;
+  background-image: linear-gradient(#005bea0d 1px, transparent 1px),
+    linear-gradient(90deg, #005bea0d 1px, transparent 1px),
+    radial-gradient(ellipse at 0% 10%, #75d5f045, transparent 52%),
+    radial-gradient(ellipse at 100% 100%, #7465e830, transparent 55%);
+  background-size: 24px 24px, 24px 24px, 100% 100%, 100% 100%;
+  box-shadow: 0 12px 38px -22px #153d7859, inset 0 0 0 1px #005bea12;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.navbar-logo-left .navbar-wrapper {
+  position: relative;
+  z-index: 1;
+  min-height: 80px;
+  gap: 20px;
+  padding: 12px 18px;
+  border: 0;
+}
+.navbar-logo-left .navbar-brand {
+  flex: none;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 14px;
+  background: #ffffffb3;
+}
+.navbar-logo-left .navbar-brand .fikra-logo-mark { width: 132px; height: 42.65px; }
+.navbar-logo-left .nav-link {
+  padding: 12px 13px;
+  border-radius: 12px;
+  color: #1b273d;
+  font-weight: 500;
+  transition: background-color .18s ease, color .18s ease, box-shadow .18s ease;
+}
+.navbar-logo-left .nav-link:hover,
+.navbar-logo-left .nav-link.w--current {
+  color: #0047bd;
+  background: #ffffffdc;
+  box-shadow: 0 3px 12px -6px #005bea35;
+}
+.navbar-logo-left .cta-button-with-image,
+.navbar-logo-left .navbar-wrapper > .fikra-header-book {
+  border: 0;
+  border-radius: 14px;
+  background: var(--fikra-accent, #005bea);
+  box-shadow: 0 6px 16px -8px #005bea80;
+}
+.navbar-logo-left .nav-link:focus-visible,
+.navbar-logo-left .cta-button-with-image:focus-visible,
+.navbar-logo-left .fikra-header-book:focus-visible,
+.navbar-logo-left .navbar-brand:focus-visible,
+.navbar-logo-left .menu-button:focus-visible { outline: 3px solid #005bea; outline-offset: 3px; }
+@media (min-width: 992px) {
+  .navbar-logo-left .navbar-wrapper > .nav-menu-wrapper { flex: 1; min-width: 0; width: auto; padding: 0; }
+  .navbar-logo-left .nav-menu-two { gap: 4px; padding: 0; margin: 0; background: transparent; box-shadow: none; }
+  .navbar-logo-left .nav-menu-two > li { width: auto; min-width: 0; align-self: center; }
+  .navbar-logo-left .nav-menu-two > .mobile-margin-top-10 { order: 2; }
+  .navbar-logo-left .navbar-cta-wrapper .cta-button-with-image { min-height: 48px; height: auto; gap: 12px; padding: 12px 20px; }
+  .navbar-logo-left .navbar-cta { font-size: 13px; line-height: 1.5; white-space: nowrap; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-logo-left .navbar-wrapper { gap: 10px; padding-inline: 12px; }
+  .navbar-logo-left .navbar-brand { padding-inline: 8px; }
+  .navbar-logo-left .navbar-brand .fikra-logo-mark { width: 112px; height: 36.19px; }
+  .navbar-logo-left .nav-link { padding-inline: 9px; font-size: 12px; }
+  .navbar-logo-left .navbar-cta-wrapper .cta-button-with-image { padding-inline: 14px; }
+}
+@media (max-width: 991px) {
+  .navbar-logo-left { padding: 10px 12px; }
+  .navbar-logo-left .navbar-logo-left-container.shadow-three { border-radius: 20px; }
+  .navbar-logo-left .navbar-wrapper { min-height: 68px; gap: 8px; padding: 8px 10px; }
+  .navbar-logo-left .navbar-brand { padding: 6px 8px; }
+  .navbar-logo-left .navbar-brand .fikra-logo-mark { width: 110px; height: 35.55px; }
+  .navbar-logo-left .navbar-wrapper > .fikra-header-book { position: static; transform: none; margin-inline-start: auto; margin-inline-end: 4px; padding: 12px 16px; font-size: 12px; }
+  .navbar-logo-left .menu-button { margin: 0; padding: 8px; border: 0; border-radius: 12px; color: #005bea; background: #ffffffb3; }
+  .navbar-logo-left .menu-button.w--open { background: #e7efff; color: #005bea; }
+  .navbar-logo-left .w-nav-overlay { top: 92px !important; left: 12px !important; right: 12px !important; bottom: 12px !important; width: auto !important; height: calc(100dvh - 104px) !important; }
+  .navbar-logo-left .w-nav-overlay .nav-menu-wrapper { max-height: 100%; overflow-y: auto; border-radius: 20px; }
+  .navbar-logo-left .w-nav-overlay .nav-menu-wrapper .nav-menu-two { gap: 8px; padding: 16px; border-radius: 20px; background: #f5f8ff; box-shadow: inset 0 0 0 1px #005bea14; }
+  .navbar-logo-left .w-nav-overlay .nav-menu-two > .nav-link-item-wrapper { border: 0; }
+  .navbar-logo-left .w-nav-overlay .nav-menu-two .nav-link { padding: 16px; border-radius: 12px; background: #ffffffc9; font-size: 18px; }
+  .navbar-logo-left .w-nav-overlay .nav-menu-two > .mobile-margin-top-10 { order: 2; margin-top: 8px; }
+}
+@media (max-width: 479px) {
+  .navbar-logo-left { padding-inline: 8px; }
+  .navbar-logo-left .navbar-wrapper { gap: 6px; padding-inline: 8px; }
+  .navbar-logo-left .navbar-brand { padding-inline: 4px; }
+  .navbar-logo-left .navbar-brand .fikra-logo-mark { width: 92px; height: 29.73px; }
+  .navbar-logo-left .navbar-wrapper > .fikra-header-book { padding: 11px 12px; margin-inline-end: 0; font-size: 11px; }
+  .navbar-logo-left .menu-button { padding: 6px; }
+  .navbar-logo-left .menu-button .custommenuicon,
+  .navbar-logo-left .cw-animated-menu-icon { width: 28px; height: 28px; }
+  .navbar-logo-left .w-nav-overlay { left: 8px !important; right: 8px !important; }
+}
+@media (prefers-reduced-motion: reduce) { .navbar-logo-left .nav-link { transition: none; } }
