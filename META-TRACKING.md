@@ -37,3 +37,7 @@ FROM meta_conversions ORDER BY rowid DESC LIMIT 20;
 5. In the website Leads ad set select this dataset and the standard Lead event. Confirm the intended ad account has access to the dataset. Campaign publishing and ad spend are separate actions.
 
 References: [Meta parameter builder](https://github.com/facebook/capi-param-builder/tree/main/nodejs), [Meta SDK API version](https://github.com/facebook/facebook-nodejs-business-sdk/blob/main/src/api.js), [Meta deduplication](https://developers.facebook.com/docs/marketing-api/conversions-api/deduplicate-pixel-and-server-events).
+
+## Server delivery verification — 2026-10-18
+
+A clearly marked synthetic phone-only submission returned `201 saved`. Its test-mode server Lead was accepted by Meta on attempt 1 at `2026-10-18T11:16:29.656Z` (`events_received = 1`, no stored error). The exact synthetic lead and associated queue rows were deleted afterward, with zero remaining rows confirmed. The temporary test-code secret was removed to restore production delivery. Owner confirmation in Test Events and browser/server deduplication remain pending; this API receipt alone does not establish those results.
