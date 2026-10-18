@@ -7,6 +7,7 @@ import subprocess
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from articles import build_articles, article_path
+from meta_pixel import install_meta_pixel
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = json.loads((ROOT / 'seo-config.json').read_text())
@@ -29,6 +30,7 @@ def page_path(slug='', lang='en'):
     return ('/ar' if lang == 'ar' else '') + ('/' + slug if slug else '') + '/'
 
 def metadata(soup, path, en_path, ar_path, lang, title, description, service=None):
+    install_meta_pixel(soup)
     # Arabic is the default entry; explicit English URLs remain available.
     for node in list(soup.select('#fikra-default-language, #fikra-default-noscript')):
         node.decompose()
