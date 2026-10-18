@@ -59,3 +59,7 @@ Edit `index.html`, `assets/funnel-copy.js`, `seo-content.json`, `seo-config.json
 - Separate language URLs and avoiding automatic language redirects: https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites
 - AI search eligibility and content: https://developers.google.com/search/docs/appearance/ai-features
 - OpenAI search crawler control: https://developers.openai.com/api/docs/bots
+
+## Publication evidence — 2026-10-19
+
+Pushed website implementation in commit `1733cbd` and deployed Worker version `b0d23ec4-cd82-458d-a974-28af93d42f49`. Read-only live requests confirmed the root's 301 to `/ar/`, www service-page redirection preserving the campaign query, and the old Worker hostname's 301 to the permanent host. The two homepages and new Qatar service pair returned HTML with the expected language, self-canonical on `fikra-agency.com`, and no automatic language-redirect markup. The live sitemap lists 212 URLs, all on the permanent host. Google Search Console was opened for the owner; property verification, sitemap submission, Google-selected canonicals and actual rankings are still pending.
