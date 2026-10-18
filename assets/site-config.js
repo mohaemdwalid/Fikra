@@ -4,7 +4,7 @@ window.FIKRA_CONFIG = Object.freeze({
   email: null,
   whatsapp: null, // International digits only, e.g. country code + number.
   bookingPageUrl: '/book/',
-  vslVideoUrl: null, // Direct MP4/WebM URL or a local file such as assets/videos/fikra-vsl.mp4.
-  vslPosterUrl: null, // Optional poster image URL or local asset path.
+  vslVideoUrl: '/assets/videos/fikra-vsl-ar.mp4', // Arabic introduction, full duration; web-optimised for the asset limit.
+  vslPosterUrl: '/assets/videos/fikra-vsl-poster.jpg',
   newsletterUrl: null
 });

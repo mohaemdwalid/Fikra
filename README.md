@@ -82,7 +82,7 @@ vslVideoUrl: 'assets/videos/fikra-vsl.mp4',
 vslPosterUrl: 'assets/videos/fikra-vsl-poster.jpg',
 ```
 
-Use an actual local video file or a direct HTTPS MP4/WebM URL, rather than a YouTube/Vimeo watch-page URL. The poster is optional. Keep `vslVideoUrl: null` until the real introduction video is supplied: the page displays a translated coming-soon panel with no fake play button. Once configured, it uses native playback controls, supports inline mobile playback, does not autoplay or preload the video, and provides an error message/direct link if playback fails. Watching the video does not fire booking conversions. For Cloudflare-hosted video files, keep each below the existing 25 MiB asset limit or use a direct hosted media URL. Do not rename a portfolio recording as the introduction video.
+Use an actual local video file or a direct HTTPS MP4/WebM URL, rather than a YouTube/Vimeo watch-page URL. The poster is optional. The supplied Arabic introduction is configured at `/assets/videos/fikra-vsl-ar.mp4`, with `/assets/videos/fikra-vsl-poster.jpg` as its poster. This is a full-duration 720p web copy of the owner-supplied 1080p source, compressed to fit the static asset limit; the original remains untouched in the source delivery folder. Once configured, it uses native playback controls, supports inline mobile playback, does not autoplay or preload the video, and provides an error message/direct link if playback fails. Watching the video does not fire booking conversions. For Cloudflare-hosted video files, keep each below the existing 25 MiB asset limit or use a direct hosted media URL. Do not rename a portfolio recording as the introduction video.
 
 
 ## Separate callback request page
