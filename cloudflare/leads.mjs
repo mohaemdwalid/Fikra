@@ -4,14 +4,18 @@ export const productCounts = ['Under 25', '25 to 100', '100 to 500', 'More than 
 export const budgets = ['QAR 5,000+ — confirmed', 'QAR 5,000+ — discuss scope', 'Below QAR 5,000', 'Below QAR 4,000', 'QAR 4,000–6,000', 'QAR 6,000–8,000', 'QAR 8,000–10,000', 'Not sure'];
 export function validateLead(input) {
   if (!input || typeof input !== 'object' || Array.isArray(input)) throw Error('Invalid details');
-  const limits = {id: 36, name: 120, email: 254, phone: 32, project: 40, budget: 40, website: 500, language: 2};
+  const limits = {id: 36, name: 120, phone: 32, project: 40, budget: 40, website: 500, language: 2};
   const result = {};
   for (const [key, limit] of Object.entries(limits)) {
     if (typeof input[key] !== 'string' || input[key].length > limit) throw Error('Invalid details');
     result[key] = input[key].trim();
   }
+  // Keep legacy email values, while new phone-only forms leave this column empty.
+  const email = input.email === undefined ? '' : input.email;
+  if (typeof email !== 'string' || email.length > 254) throw Error('Invalid email');
+  result.email = email.trim();
   if (!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(result.id) ||
-      !result.name || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(result.email) || !/^\+[1-9]\d{6,14}$/.test(result.phone) ||
+      !result.name || (result.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(result.email)) || !/^\+[1-9]\d{6,14}$/.test(result.phone) ||
       !projects.includes(result.project) || !budgets.includes(result.budget) || !['ar', 'en'].includes(result.language) || input.company) throw Error('Invalid details');
   result.product_count = input.product_count ?? '';
   if (typeof result.product_count !== 'string' || !['', ...productCounts].includes(result.product_count)) throw Error('Invalid product count');

@@ -46,7 +46,7 @@ window.FIKRA_FUNNEL_AR = {
   "What investment range have you planned for your store?": "ما نطاق الاستثمار الذي خصّصته لمتجرك؟",
   "Your budget helps us recommend a realistic project scope and the right priorities for your store.": "تساعدنا ميزانيتك على اقتراح نطاق عمل واقعي وتحديد الأولويات المناسبة لمتجرك.",
   "How can we reach you?": "كيف نتواصل معك؟",
-  "Save your details and I’ll call you to discuss the project.": "احفظ بياناتك وسأتصل بك لمناقشة المشروع.",
+  "Leave your number and we’ll call you shortly.": "اترك رقمك وسنتصل بك قريبًا.",
   "Question progress": "تقدّم الأسئلة",
   "Back": "السابق",
   "Continue": "متابعة",

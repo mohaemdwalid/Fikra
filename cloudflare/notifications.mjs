@@ -6,7 +6,7 @@ export function enabledChannels(env) {
 }
 
 export function alertText(lead) {
-  return ['New FIKRA lead', '', `Name: ${lead.name}`, `Phone / WhatsApp: ${lead.phone}`, `Email: ${lead.email}`,
+  return ['New FIKRA lead', '', `Name: ${lead.name}`, `Phone: ${lead.phone}`, ...(lead.email ? [`Email: ${lead.email}`] : []),
     `Project: ${lead.project}`, `Products: ${lead.product_count || 'Not supplied'}`, `Budget: ${lead.budget}`,
     `Website: ${lead.website || 'Not supplied'}`, `Received (UTC): ${lead.created_at}`, `Lead ID: ${lead.id}`].join('\n');
 }

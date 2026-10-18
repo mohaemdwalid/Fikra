@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {DatabaseSync} from 'node:sqlite';
 import {readFileSync} from 'node:fs';
 import {handleLead} from '../cloudflare/leads.mjs';
-import {dispatchAlerts, enabledChannels, rawEmail} from '../cloudflare/notifications.mjs';
+import {dispatchAlerts, enabledChannels, rawEmail, alertText} from '../cloudflare/notifications.mjs';
 
 function fixture() {
   const sqlite = new DatabaseSync(':memory:');
@@ -85,6 +85,25 @@ test('email encodes Arabic text and prevents name-based header injection', () =>
   assert.equal(raw.includes('\r\nBcc:'), false);
   const decoded = Buffer.from(raw.split('\r\n\r\n')[1], 'base64').toString('utf8');
   assert.match(decoded, /اختبار Test/);
-  assert.match(decoded, /Phone \/ WhatsApp: \+97412345678/);
+  assert.match(decoded, /Phone: \+97412345678/);
+  sqlite.close();
+});
+
+test('phone-only submission persists and sends the owner an alert without an empty client email line', async () => {
+  const {sqlite, env, lead, request} = fixture();
+  delete lead.email;
+  assert.equal((await handleLead(request(), env)).status, 201);
+  const stored = sqlite.prepare('SELECT * FROM leads').get();
+  assert.equal(stored.email, '');
+  assert.equal(stored.phone, lead.phone);
+  let sent = false;
+  await dispatchAlerts(env, async savedLead => {
+    const body = alertText(savedLead);
+    assert.equal(body.includes('Email:'), false);
+    assert.equal(body.includes(lead.phone), true);
+    sent = true;
+  });
+  assert.equal(sent, true);
+  assert.equal(sqlite.prepare('SELECT status FROM lead_alerts').get().status, 'accepted');
   sqlite.close();
 });

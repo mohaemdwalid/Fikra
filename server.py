@@ -20,14 +20,18 @@ def validate_lead(payload):
     if not isinstance(payload, dict):
         raise ValueError('Invalid details')
     fields = {}
-    for key, limit in {'id': 36, 'name': 120, 'email': 254, 'phone': 32, 'project': 40, 'budget': 40, 'website': 500, 'language': 2}.items():
+    for key, limit in {'id': 36, 'name': 120, 'phone': 32, 'project': 40, 'budget': 40, 'website': 500, 'language': 2}.items():
         value = payload.get(key)
         if not isinstance(value, str) or len(value) > limit:
             raise ValueError('Invalid details')
         fields[key] = value.strip()
+    email = payload.get('email', '')
+    if not isinstance(email, str) or len(email) > 254:
+        raise ValueError('Invalid email')
+    fields['email'] = email.strip()
     if str(uuid.UUID(fields['id'], version=4)) != fields['id'].lower():
         raise ValueError('Invalid ID')
-    if not fields['name'] or not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', fields['email']):
+    if not fields['name'] or (fields['email'] and not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+', fields['email'])):
         raise ValueError('Invalid contact')
     if not re.fullmatch(r'\+[1-9]\d{6,14}', fields['phone']):
         raise ValueError('Invalid phone')

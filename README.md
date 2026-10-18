@@ -56,7 +56,7 @@ The form pushes `fikra_lead_submitted` to `window.dataLayer` only after the lead
 ## Manual acceptance flow
 
 1. Open desktop and mobile views in English and Arabic. Consultation CTAs should open `/book/`, and Arabic content should use RTL.
-2. Submit empty/invalid fields; confirm translated validation. Enter a full name, email, international WhatsApp number, project, budget and optional full HTTP(S) website URL.
+2. Submit empty/invalid fields; confirm translated validation. Enter a full name, international phone number, project, budget and optional full HTTP(S) website URL. Client email is not requested; existing saved email addresses are retained.
 3. Submit and confirm `POST /api/leads` returns `status: saved`, then read the record from the local SQLite or D1 database. An offline/503 response must retain the form and show an error.
 4. After a successful save, confirm the form is replaced by the callback message, no Cal.com embed or external calendar is loaded, and one lead event is recorded. Switch languages and confirm the success message translates.
 5. If the lead agrees during the callback, the owner can send the meeting link manually over WhatsApp.

@@ -5,7 +5,8 @@ const {chooseProjectAndBudget, bookingPageUrl}=require('./browser_booking_helper
 
 (async()=>{
   const browser=await chromium.launch({channel:'chrome',headless:true});
-  const page=await browser.newPage({viewport:{width:390,height:844}});
+  for (const width of [390,1440]) {
+  const page=await browser.newPage({viewport:{width,height:1000}});
   const errors=[];
   page.on('pageerror',error=>errors.push(error.message));
   await page.goto(bookingPageUrl(),{waitUntil:'domcontentloaded'});
@@ -13,7 +14,7 @@ const {chooseProjectAndBudget, bookingPageUrl}=require('./browser_booking_helper
   await chooseProjectAndBudget(page,'Improvements','QAR 5,000+ — discuss scope');
   const form=page.locator('#fikra-lead-form');
   await form.locator('[name=name]').fill('QA');
-  await form.locator('[name=email]').fill('qa@example.com');
+  assert.equal(await form.locator('[name=email]').count(),0);
   await form.locator('[name=phone]').fill('+97412345678');
 
   await page.route('**/api/leads',route=>route.fulfill({status:503,contentType:'application/json',body:'{"error":"unavailable"}'}));
@@ -24,19 +25,29 @@ const {chooseProjectAndBudget, bookingPageUrl}=require('./browser_booking_helper
   await page.unroute('**/api/leads');
 
   await page.route('**/api/leads',route=>{
-    const id=route.request().postDataJSON().id;
+    const payload=route.request().postDataJSON();
+    assert.equal('email' in payload,false);
+    const id=payload.id;
     route.fulfill({status:201,contentType:'application/json',body:JSON.stringify({id,status:'saved'})});
   });
   await form.locator('[type=submit]').click();
   await page.waitForFunction(()=>document.querySelector('#lead-success').hidden===false);
   assert.equal(await form.isVisible(),false);
-  assert.match(await page.locator('#lead-success').innerText(),/I’ll call you to discuss your project/);
+  assert.equal(await page.locator('#booking-title').innerText(),'Your Shopify journey starts here!');
+  assert.match(await page.locator('#lead-success').innerText(),/We’ll call you shortly/);
   assert.equal(await page.locator('iframe[src*="cal.com"]').count(),0);
   assert.equal(await page.locator('script[src*="cal.com"]').count(),0);
   assert.equal(await page.evaluate(()=>window.dataLayer.filter(event=>event.event==='fikra_lead_submitted').length),1);
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await page.screenshot({path:`/tmp/fikra-phone-thanks-en-${width}.png`});
   await page.getByRole('button',{name:'التبديل إلى العربية'}).click();
-  assert.match(await page.locator('#lead-success').innerText(),/سأتصل بك لمناقشة مشروعك/);
+  assert.match(await page.locator('#lead-success').innerText(),/سنتصل بك قريبًا/);
+  assert.equal(await page.locator('#booking-title').innerText(),'رحلتك مع شوبيفاي تبدأ هنا!');
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await page.screenshot({path:`/tmp/fikra-phone-thanks-ar-${width}.png`});
   assert.deepEqual(errors,[]);
+  await page.close();
+  }
   console.log('PASS: failed save remains on form; saved lead shows bilingual callback confirmation; no Cal.com embed; one lead event');
   await browser.close();
 })().catch(error=>{console.error(error);process.exit(1)});

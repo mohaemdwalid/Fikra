@@ -8,23 +8,24 @@
   const submit = form.querySelector('[type=submit]');
   const strings = {
     eyebrow: ['Free Shopify Project Call', 'مكالمة مجانية لمشروع شوبيفاي'],
-    name: ['Full name', 'الاسم الكامل'], email: ['Email address', 'البريد الإلكتروني'],
-    phone: ['WhatsApp number', 'رقم واتساب'], phoneHint: ['Choose your country code, then enter your mobile number.', 'اختر رمز الدولة، ثم أدخل رقم الجوال.'],
+    heading: ['Let’s talk about your Shopify store.', 'لنتحدّث عن متجرك على شوبيفاي.'],
+    successHeading: ['Your Shopify journey starts here!', 'رحلتك مع شوبيفاي تبدأ هنا!'],
+    name: ['Full name', 'الاسم الكامل'],
+    phone: ['Phone number', 'رقم الجوال'], phoneHint: ['Choose your country code, then enter your mobile number.', 'اختر رمز الدولة، ثم أدخل رقم الجوال.'],
     project: ['Project type', 'نوع المشروع'], choose: ['Select an option', 'اختر أحد الخيارات'],
     new: ['New Shopify Store', 'متجر شوبيفاي جديد'], redesign: ['Store Redesign', 'إعادة تصميم المتجر'], improvements: ['Improvements', 'تحسينات'],
     budget: ['Estimated budget', 'الميزانية التقديرية'], budget1: ['Below QAR 4,000', 'أقل من ٤٬٠٠٠ ر.ق'],
     budget2: ['QAR 4,000–6,000', '٤٬٠٠٠–٦٬٠٠٠ ر.ق'], budget3: ['QAR 6,000–8,000', '٦٬٠٠٠–٨٬٠٠٠ ر.ق'],
     budget4: ['QAR 8,000–10,000', '٨٬٠٠٠–١٠٬٠٠٠ ر.ق'], unsure: ['I’d like help defining my budget', 'أحتاج مساعدة في تحديد ميزانيتي'],
     website: ['Existing website URL (optional)', 'رابط الموقع الحالي (اختياري)'],
-    privacy: ['I’ll save your details and call you to discuss the project. If you’re happy to meet, I’ll send you a Cal.com booking link on WhatsApp.', 'سأحفظ بياناتك وأتصل بك لمناقشة مشروعك. وإذا رغبت في الاجتماع، سأرسل لك رابط الحجز عبر واتساب.'],
+    privacy: ['We’ll use your details to call you about your Shopify project.', 'سنستخدم بياناتك للتواصل معك بشأن مشروعك على شوبيفاي.'],
     continue: ['Request a call', 'اطلب مكالمة'], saving: ['Sending your request…', 'جارٍ إرسال طلبك…'],
     invalid: ['Please check the highlighted field.', 'يرجى مراجعة الحقل المحدد.'],
     required: ['Please complete this field.', 'يرجى إكمال هذا الحقل.'],
-    invalidEmail: ['Enter a valid email address.', 'أدخل بريدًا إلكترونيًا صحيحًا.'],
     invalidPhone: ['Enter a valid number with country code, for example +974 1234 5678.', 'أدخل رقمًا صحيحًا مع رمز الدولة، مثل ‎+974 1234 5678.'],
     invalidWebsite: ['Enter a full website URL starting with https:// or http://.', 'أدخل رابط الموقع كاملًا ويبدأ بـ https:// أو http://.'],
     saveError: ['We could not save your details. Please try again. Your request was not sent.', 'تعذّر حفظ بياناتك. يرجى المحاولة مجددًا. لم يتم إرسال طلبك.'],
-    saved: ['Thanks — your details are saved. I’ll call you to discuss your project. If you’re happy to meet, I’ll send you a Cal.com link on WhatsApp.', 'شكرًا لك، تم حفظ بياناتك. سأتصل بك لمناقشة مشروعك، وإذا رغبت في الاجتماع سأرسل لك رابط Cal.com عبر واتساب.']
+    saved: ['Thank you for taking the first step toward launching or growing your online store. We’re excited to hear your ideas. We’ll call you shortly to plan what’s next.', 'شكرًا لاتخاذك الخطوة الأولى لإطلاق متجرك الإلكتروني أو تطويره على شوبيفاي. متحمّسون لسماع أفكارك، وسنتصل بك قريبًا لمناقشة الخطوة القادمة.']
   };
   const ar = () => document.documentElement.lang === 'ar';
   const text = key => strings[key][ar() ? 1 : 0];
@@ -39,7 +40,10 @@
     if (value && /^[a-zA-Z0-9_.~ -]{1,120}$/.test(value) && !value.includes('@')) utm[key] = value;
   }
   function render() {
-    section.querySelectorAll('[data-booking-copy]').forEach(el => { el.textContent = text(el.dataset.bookingCopy); });
+    section.querySelectorAll('[data-booking-copy]').forEach(el => {
+      const key = el.dataset.bookingCopy;
+      el.textContent = text(key === 'heading' && submitted ? 'successHeading' : key);
+    });
     submit.textContent = text(busy ? 'saving' : 'continue');
     status.textContent = leadState ? text(leadState) : '';
     success.hidden = !submitted;
@@ -85,7 +89,6 @@
       if (!input.willValidate) continue;
       input.setCustomValidity('');
       if (input.required && !input.value.trim()) input.setCustomValidity(text('required'));
-      else if (input.name === 'email' && input.validity.typeMismatch) input.setCustomValidity(text('invalidEmail'));
       else if (input.name === 'phone' && !validPhone(internationalPhone())) input.setCustomValidity(text('invalidPhone'));
       else if (input.name === 'website' && input.value) {
         try { if (!['https:', 'http:'].includes(new URL(input.value).protocol)) throw Error(); }
@@ -101,7 +104,7 @@
     if (!validate()) { leadState = 'invalid'; render(); return; }
     busy = true; leadState = ''; submit.disabled = true; render();
     const details = Object.fromEntries(new FormData(form));
-    details.name = details.name.trim(); details.email = details.email.trim();
+    details.name = details.name.trim();
     details.phone = internationalPhone();
     try {
       const response = await fetch('/api/leads', {method: 'POST', headers: {'Content-Type': 'application/json'},

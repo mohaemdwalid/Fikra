@@ -8,7 +8,7 @@ The Worker sends alerts in the background after saving. A five-minute scheduled 
 
 ## Email
 
-The domain must have Cloudflare Email Routing enabled and the destination address must be verified. `LEAD_ALERT_EMAIL` is the `send_email` binding; `LEAD_ALERT_EMAIL_FROM` specifies the sender. Set `LEAD_ALERT_EMAIL_TO` as a Worker secret. The implementation uses Cloudflare's supported `EmailMessage` API with a UTF-8 plain-text message including name, phone, email, project, product count, budget, website and lead ID.
+The domain must have Cloudflare Email Routing enabled and the destination address must be verified. `LEAD_ALERT_EMAIL` is the `send_email` binding; `LEAD_ALERT_EMAIL_FROM` specifies the sender. Set `LEAD_ALERT_EMAIL_TO` as a Worker secret. The implementation uses Cloudflare's supported `EmailMessage` API with a UTF-8 plain-text message including name, phone, project, product count, budget, website and lead ID. Client email is included only when provided by a legacy form; the current form asks for phone contact only. Owner email alerts remain enabled.
 
 ## WhatsApp
 

@@ -53,6 +53,17 @@ class LeadTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.store.save(self.payload)
 
+    def test_phone_only_contact_preserves_legacy_email(self):
+        payload = dict(self.payload)
+        del payload['email']
+        self.store.save(payload)
+        with sqlite3.connect(self.path) as db:
+            self.assertEqual(db.execute('SELECT email,phone FROM leads').fetchone(), ('', '+97412345678'))
+        self.assertEqual(validate_lead(self.payload)['email'], 'test@example.com')
+        for invalid in [None, 123, 'bad', 'a' * 255]:
+            with self.subTest(email=invalid), self.assertRaises(ValueError):
+                validate_lead(dict(payload, email=invalid))
+
     def test_callback_flow_has_no_calendar_embed(self):
         html = Path('index.html').read_text()
         for old in ['hubspot', 'data-month', 'data-times', 'Confirm booking', '10am–3pm', 'Email confirmations are not enabled']:
@@ -61,7 +72,8 @@ class LeadTests(unittest.TestCase):
         page = Path('book/index.html').read_text()
         self.assertIn('/api/leads', booking)
         self.assertIn('fikra_lead_submitted', booking)
-        self.assertIn('call you to discuss your project', booking)
+        self.assertIn('We’ll call you shortly', booking)
+        self.assertNotIn('name="email"', page)
         self.assertNotIn('bookingUrl', booking)
         self.assertNotIn('fikra-calendar-panel', page)
         self.assertNotIn('app.cal.com/embed', booking)

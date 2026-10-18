@@ -7,6 +7,14 @@ test('strict qualification and campaign whitelist', () => {
   assert.deepEqual(validateLead(lead).utm, {utm_source: 'instagram'});
   for (const bad of [{phone: '123'}, {budget: 'bad'}, {website: 'javascript:alert(1)'}, {company: 'spam'}, {id: 'bad'}]) assert.throws(() => validateLead({...lead, ...bad}));
 });
+
+test('email is optional for new forms and validated when present on legacy clients', () => {
+  const phoneOnly = {...lead}; delete phoneOnly.email;
+  assert.equal(validateLead(phoneOnly).email, '');
+  assert.equal(validateLead({...phoneOnly, email: ''}).email, '');
+  assert.equal(validateLead(lead).email, 'test@example.com');
+  for (const email of [null, 123, 'invalid', 'a'.repeat(255)]) assert.throws(() => validateLead({...phoneOnly, email}));
+});
 test('no storage returns 503, never saved', async () => {
   assert.equal((await handleLead(request(), {})).status, 503);
 });
