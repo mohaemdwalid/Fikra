@@ -1,4 +1,8 @@
 window.FIKRA_FUNNEL_AR = {
+  "Payments & store integrations": "الدفع وربط خدمات المتجر",
+  "Add Apple Pay and Google Pay through a supported payment provider, alongside the delivery services and Shopify apps your store needs.": "أضف Apple Pay وGoogle Pay عبر مزوّد دفع يدعمهما، إلى جانب خدمات التوصيل وتطبيقات شوبيفاي التي يحتاجها متجرك.",
+  "Payment availability depends on your provider and country.": "توفّر طرق الدفع يعتمد على مزوّد الخدمة والدولة.",
+
   "OUR SOLUTIONS": "حلولنا",
   "Solutions we provide": "الحلول التي نقدّمها",
   "From launching your first Shopify store to improving the one you have, we help you take the next step online.": "من إطلاق متجرك الأول على شوبيفاي إلى تطوير متجرك الحالي، نساعدك على اتخاذ خطوتك القادمة عبر الإنترنت.",
