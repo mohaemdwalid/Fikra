@@ -26,7 +26,7 @@ shutil.copy2(ROOT / 'book/index.html', booking_page)
 files.append(booking_page)
 # Ship every generated language/service page and crawler control file.
 slugs = [page['slug'] for page in json.loads((ROOT / 'seo-content.json').read_text())]
-for directory in ['ar', 'articles', *slugs]:
+for directory in ['en', 'ar', 'articles', *slugs]:
     for source in sorted((ROOT / directory).rglob('*.html')):
         destination = OUTPUT / source.relative_to(ROOT)
         destination.parent.mkdir(parents=True, exist_ok=True)

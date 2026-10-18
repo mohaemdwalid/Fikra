@@ -1,4 +1,18 @@
 window.FIKRA_FUNNEL_AR = {
+  "Launch a new Shopify store or improve the one you have. FIKRA helps businesses in Qatar bring their brand, products and Arabic and English shopping experience together.": "أطلق متجر شوبيفاي جديدًا أو طوّر متجرك الحالي. تساعد فكرة الشركات في قطر على الجمع بين هويّتها ومنتجاتها وتجربة تسوّق بالعربية والإنجليزية.",
+  "Explore store design": "اكتشف تصميم المتاجر",
+  "Explore store redesigns": "اكتشف إعادة التصميم",
+  "Read about moving to Shopify": "اقرأ عن الانتقال إلى شوبيفاي",
+  "Explore bilingual stores": "اكتشف المتاجر ثنائية اللغة",
+  "Read about payments in Qatar": "اقرأ عن الدفع في قطر",
+  "Read about store improvements": "اقرأ عن تحسين المتاجر",
+  "ABOUT FIKRA": "عن فكرة",
+  "Shopify expertise for businesses in Qatar.": "خبرة شوبيفاي للشركات في قطر.",
+  "FIKRA is a Shopify design and development agency serving businesses in Qatar. We work on new stores, redesigns, Arabic and English storefronts, migration planning and supported payment integrations.": "فكرة وكالة لتصميم وتطوير متاجر شوبيفاي تخدم الشركات في قطر. نعمل على المتاجر الجديدة وإعادة التصميم والواجهات العربية والإنجليزية والتخطيط لنقل المتاجر وربط خدمات الدفع المدعومة.",
+  "Your project starts with a conversation about your products, customers and priorities. We agree the scope, content responsibilities and delivery schedule before work begins.": "يبدأ مشروعك بمحادثة حول منتجاتك وعملائك وأولوياتك. نتّفق على نطاق العمل ومسؤوليات المحتوى وجدول التسليم قبل البدء.",
+  "Shopify services for Qatar": "خدمات شوبيفاي للشركات في قطر",
+  "Our Shopify store projects start from QAR 5,000. Your written quote confirms the scope, deliverables, payment terms and any separate platform or app costs.": "تبدأ مشاريع متاجر شوبيفاي لدينا من ٥٬٠٠٠ ر.ق. يؤكّد عرض السعر المكتوب نطاق العمل وبنود التنفيذ وشروط الدفع وأي تكاليف منفصلة للمنصّة أو التطبيقات.",
+
   "Payments & store integrations": "الدفع وربط خدمات المتجر",
   "Add Apple Pay and Google Pay through a supported payment provider, alongside the delivery services and Shopify apps your store needs.": "أضف Apple Pay وGoogle Pay عبر مزوّد دفع يدعمهما، إلى جانب خدمات التوصيل وتطبيقات شوبيفاي التي يحتاجها متجرك.",
   "Payment availability depends on your provider and country.": "توفّر طرق الدفع يعتمد على مزوّد الخدمة والدولة.",

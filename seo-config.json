@@ -1,6 +1,11 @@
 {
-  "site_url": "https://fikra.mohamedxmod99.workers.dev",
+  "site_url": "https://fikra-agency.com",
   "business_name": "FIKRA",
   "alternate_name": "فكرة",
-  "instagram_url": "https://www.instagram.com/fikraagency.qa/"
+  "instagram_url": "https://www.instagram.com/fikraagency.qa/",
+  "service_area": {
+    "name": "Qatar",
+    "code": "QA"
+  },
+  "home_last_modified": "2026-10-19"
 }

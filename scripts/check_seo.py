@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 ORIGIN = json.loads((ROOT / 'seo-config.json').read_text())['site_url'].rstrip('/')
 slugs = [p['slug'] for p in json.loads((ROOT / 'seo-content.json').read_text())]
-paths = ['/', '/ar/'] + [f'{prefix}/{slug}/' for slug in slugs for prefix in ['', '/ar']]
+paths = ['/en/', '/ar/'] + [f'{prefix}/{slug}/' for slug in slugs for prefix in ['', '/ar']]
 article_slugs = [p.stem for p in sorted((ROOT / 'content/articles').glob('*.json'))]
 paths += ['/articles/', '/ar/articles/'] + [f'{prefix}/articles/{slug}/' for slug in article_slugs for prefix in ['', '/ar']]
 base = sys.argv[1].rstrip('/') if len(sys.argv) > 1 else None
@@ -31,12 +31,7 @@ for path in paths:
     alternatives = {t['hreflang']: t['href'] for t in soup.find_all('link', rel='alternate')}
     assert set(alternatives) == {'en', 'ar', 'x-default'}, path
     assert alternatives['x-default'] == alternatives['ar'], path
-    if lang == 'en':
-        entry = soup.select_one('#fikra-default-language')
-        assert entry and entry['data-ar-path'] == urlsplit(alternatives['ar']).path, path
-        assert soup.select_one('#fikra-default-noscript meta')['content'] == '0;url=' + urlsplit(alternatives['ar']).path, path
-    else:
-        assert not soup.select_one('#fikra-default-language, #fikra-default-noscript'), path
+    assert not soup.select_one('#fikra-default-language, #fikra-default-noscript'), path
     for language in ['en', 'ar']:
         target = BeautifulSoup(file_for(urlsplit(alternatives[language]).path).read_text(), 'html.parser')
         reverse = {t['hreflang']: t['href'] for t in target.find_all('link', rel='alternate')}

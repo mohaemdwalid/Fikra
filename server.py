@@ -86,7 +86,7 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         target = Path(self.translate_path(urlsplit(self.path).path)).resolve()
         # Serve only public pages; build inputs, leads and management files stay private.
-        public_dirs = {'book', 'ar', 'articles', 'shopify-store-design', 'shopify-store-redesign', 'arabic-english-shopify'}
+        public_dirs = {'book', 'en', 'ar', 'articles', 'shopify-store-design', 'shopify-store-redesign', 'arabic-english-shopify', 'shopify-agency-qatar'}
         relative = target.relative_to(ROOT) if target.is_relative_to(ROOT) else None
         public_page = relative is not None and (
             not relative.parts or str(relative) in {'index.html', 'robots.txt', 'sitemap.xml'}

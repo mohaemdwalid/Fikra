@@ -6,7 +6,7 @@ import json
 import subprocess
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from articles import build_articles, article_path
+from articles import build_articles, article_path, load_articles
 from meta_pixel import install_meta_pixel
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,8 +18,8 @@ if parsed.scheme != 'https' or not parsed.netloc or parsed.path or parsed.query 
 PAGES = json.loads((ROOT / 'seo-content.json').read_text())
 AR = json.loads(subprocess.check_output(['node', str(ROOT / 'scripts/export-translations.cjs')], text=True))
 HOME = {
-    'en': ('Shopify Website Design & Development | FIKRA', 'FIKRA designs and develops Shopify stores around your brand, with mobile layouts, clear navigation and Arabic and English storefront options. Request a free call.'),
-    'ar': ('فكرة | تصميم وتطوير متاجر شوبيفاي', 'نصمّم ونطوّر في فكرة متاجر شوبيفاي تناسب علامتك، مع تجربة جوال واضحة وخيارات للعربية والإنجليزية. اطلب مكالمة مجانية لمناقشة مشروعك.')
+    'en': ('Shopify Website Design & Development in Qatar | FIKRA', 'FIKRA helps businesses in Qatar launch and redesign Shopify stores, with Arabic and English layouts, mobile shopping experiences and supported payment integrations.'),
+    'ar': ('فكرة | تصميم وتطوير متاجر شوبيفاي في قطر', 'نصمّم ونطوّر في فكرة متاجر شوبيفاي للشركات في قطر، بواجهات عربية وإنجليزية وتجربة مناسبة للجوال وربط خدمات دفع مدعومة. اطلب مكالمة مجانية.')
 }
 LABELS = {
     'en': {'services': 'Explore our Shopify services', 'home': 'Home', 'book': 'Request a free call', 'related': 'Related services', 'faq': 'Questions about this service', 'instagram': 'Contact FIKRA on Instagram', 'back': 'See our work', 'scope': 'Request a free call to discuss your products, content and priorities. We agree the scope before work begins.'},
@@ -27,19 +27,15 @@ LABELS = {
 }
 
 def page_path(slug='', lang='en'):
+    if not slug:
+        return '/ar/' if lang == 'ar' else '/en/'
     return ('/ar' if lang == 'ar' else '') + ('/' + slug if slug else '') + '/'
 
 def metadata(soup, path, en_path, ar_path, lang, title, description, service=None):
     install_meta_pixel(soup)
-    # Arabic is the default entry; explicit English URLs remain available.
+    # Language URLs remain stable. The Worker sends only the bare homepage to Arabic.
     for node in list(soup.select('#fikra-default-language, #fikra-default-noscript')):
         node.decompose()
-    if lang == 'en':
-        script = soup.new_tag('script', id='fikra-default-language', attrs={'data-ar-path': ar_path})
-        script.string = (ROOT / 'assets/default-language.js').read_text()
-        soup.head.insert(1, script)
-        fallback = BeautifulSoup(f'<noscript id="fikra-default-noscript"><meta http-equiv="refresh" content="0;url={ar_path}"></noscript>', 'html.parser')
-        soup.head.append(fallback)
     for icon in list(soup.head.find_all('link')):
         if any(rel in icon.get('rel', []) for rel in ['icon', 'shortcut', 'apple-touch-icon']):
             icon.decompose()
@@ -49,7 +45,7 @@ def metadata(soup, path, en_path, ar_path, lang, title, description, service=Non
         {'rel': 'apple-touch-icon', 'sizes': '180x180', 'href': '/assets/fikra-apple-touch-icon.png?v=1'},
     ]:
         soup.head.append(soup.new_tag('link', attrs=attrs))
-    if not soup.find('link', href='/assets/brand.css?v=kicker5'):
+    if not any(link.get('href', '').split('?')[0] == '/assets/brand.css' for link in soup.find_all('link')):
         soup.head.append(soup.new_tag('link', rel='stylesheet', href='/assets/brand.css?v=kicker5'))
     soup.html['lang'] = lang
     soup.html['dir'] = 'rtl' if lang == 'ar' else 'ltr'
@@ -73,13 +69,20 @@ def metadata(soup, path, en_path, ar_path, lang, title, description, service=Non
     org_id = ORIGIN + '/#organization'
     website_id = ORIGIN + '/#website'
     graph = [
-        {'@type': 'Organization', '@id': org_id, 'name': CONFIG['business_name'], 'alternateName': CONFIG['alternate_name'], 'url': ORIGIN + '/', 'logo': ORIGIN + '/assets/fikra-logo.png', 'sameAs': [CONFIG['instagram_url']]},
+        {'@type': 'Organization', '@id': org_id, 'name': CONFIG['business_name'], 'alternateName': CONFIG['alternate_name'], 'url': ORIGIN + '/', 'logo': ORIGIN + '/assets/fikra-logo.png', 'sameAs': [CONFIG['instagram_url']], 'description': 'Shopify design and development for businesses in Qatar, including new stores, redesigns and Arabic and English storefronts.', 'areaServed': {'@type': 'Country', 'name': CONFIG['service_area']['name']}},
         {'@type': 'WebSite', '@id': website_id, 'name': 'FIKRA', 'url': ORIGIN + '/', 'publisher': {'@id': org_id}, 'inLanguage': ['en', 'ar']},
         {'@type': 'WebPage', '@id': canonical + '#webpage', 'url': canonical, 'name': title, 'description': description, 'inLanguage': lang, 'isPartOf': {'@id': website_id}, 'about': {'@id': org_id}}
     ]
+    if path in ['/en/', '/ar/']:
+        graph[2]['dateModified'] = CONFIG['home_last_modified']
     if service:
         graph.append({'@type': 'Service', '@id': canonical + '#service', 'name': service, 'description': description, 'url': canonical, 'provider': {'@id': org_id}})
+        graph[-1]['areaServed'] = {'@type': 'Country', 'name': CONFIG['service_area']['name']}
         graph[-2]['mainEntity'] = {'@id': canonical + '#service'}
+        graph.append({'@type': 'BreadcrumbList', '@id': canonical + '#breadcrumbs', 'itemListElement': [
+            {'@type': 'ListItem', 'position': 1, 'name': LABELS[lang]['home'], 'item': ORIGIN + page_path(lang=lang)},
+            {'@type': 'ListItem', 'position': 2, 'name': service, 'item': canonical}]})
+        graph[2]['breadcrumb'] = {'@id': canonical + '#breadcrumbs'}
     schema = soup.new_tag('script', type='application/ld+json')
     schema.string = json.dumps({'@context': 'https://schema.org', '@graph': graph}, ensure_ascii=False).replace('</', '<\\/')
     soup.head.append(schema)
@@ -131,16 +134,24 @@ if menu and not menu.find('a', href='/articles/'):
     item=home.new_tag('li', attrs={'class':'nav-link-item-wrapper cw-nav-link'})
     link=home.new_tag('a', href='/articles/', attrs={'class':'nav-link','data-i18n':'Website & Shopify guides'})
     link.string='Website & Shopify guides'; item.append(link); menu.append(item)
-metadata(home, '/', '/', '/ar/', 'en', *HOME['en'])
+for link in home.select('a[href="/"]'):
+    link['href'] = '/en/'
+metadata(home, '/en/', '/en/', '/ar/', 'en', *HOME['en'])
 (ROOT / 'index.html').write_text(str(home))
+(ROOT / 'en').mkdir(exist_ok=True)
+(ROOT / 'en/index.html').write_text(str(home))
 for lang in ['ar']:
     soup = BeautifulSoup(str(home), 'html.parser')
     translate(soup)
-    for link in soup.select('a[href="/"]'):
+    for link in soup.select('a[href="/en/"]'):
         link['href'] = '/ar/'
     for link in soup.select('a[href="/articles/"]'):
         link['href'] = '/ar/articles/'
-    metadata(soup, '/ar/', '/', '/ar/', lang, *HOME[lang])
+    for link in soup.select('a[href]'):
+        href = link['href']
+        if href.startswith('/articles/') or href in ['/' + p['slug'] + '/' for p in PAGES]:
+            link['href'] = '/ar' + href
+    metadata(soup, '/ar/', '/en/', '/ar/', lang, *HOME[lang])
     (ROOT / 'ar').mkdir(exist_ok=True)
     (ROOT / 'ar/index.html').write_text('\n'.join(line.rstrip() for line in str(soup).split('\n')))
 
@@ -150,7 +161,7 @@ for page in PAGES:
         esc = html.escape
         sections = ''.join(f'<section><h2>{esc(h)}</h2><p>{esc(p)}</p></section>' for h, p in c['sections'])
         faq = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in c['faq'])
-        raw = f'''<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/seo.css?v=20261016-blue2"><script defer src="/assets/funnel-copy.js"></script><script defer src="/assets/i18n.js?v=all-arabic2"></script><script defer src="/assets/booking-navigation.js?v=seo1"></script></head><body class="seo-page"><header class="seo-header navbar-wrapper"><a href="{page_path(lang=lang)}" aria-label="{labels['home']}"><img src="/assets/fikra-logo.png" width="146" height="48" alt="FIKRA"></a><a href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></header><main id="main"><nav aria-label="{'Breadcrumb' if lang == 'en' else 'مسار التصفّح'}"><a href="{page_path(lang=lang)}">{labels['home']}</a> / {esc(c['title'].split(' | ')[0])}</nav><article><h1>{esc(c['heading'])}</h1><p class="seo-intro">{esc(c['intro'])}</p>{sections}<section><h2>{labels['faq']}</h2>{faq}</section><section class="seo-consult"><h2>{labels['book']}</h2><p>{labels['scope']}</p><a class="seo-cta" href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></section></article></main><footer><nav class="seo-related" aria-label="{labels['related']}"><strong>{labels['related']}</strong>{service_links(lang)}</nav><a href="{page_path(lang=lang)}#shopify-projects">{labels['back']}</a><a href="{CONFIG['instagram_url']}" rel="noopener noreferrer">{labels['instagram']}</a><p>© 2026 FIKRA</p></footer></body></html>'''
+        raw = f'''<!DOCTYPE html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/assets/seo.css?v=20261016-blue2"><script defer src="/assets/funnel-copy.js"></script><script defer src="/assets/i18n.js?v=all-arabic2"></script><script defer src="/assets/booking-navigation.js?v=seo-domain1"></script></head><body class="seo-page"><header class="seo-header navbar-wrapper"><a href="{page_path(lang=lang)}" aria-label="{labels['home']}"><img src="/assets/fikra-logo.png" width="146" height="48" alt="FIKRA"></a><a href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></header><main id="main"><nav aria-label="{'Breadcrumb' if lang == 'en' else 'مسار التصفّح'}"><a href="{page_path(lang=lang)}">{labels['home']}</a> / {esc(c['title'].split(' | ')[0])}</nav><article><h1>{esc(c['heading'])}</h1><p class="seo-intro">{esc(c['intro'])}</p>{sections}<section><h2>{labels['faq']}</h2>{faq}</section><section class="seo-consult"><h2>{labels['book']}</h2><p>{labels['scope']}</p><a class="seo-cta" href="/book/?lang={lang}" data-fikra-booking>{labels['book']}</a></section></article></main><footer><nav class="seo-related" aria-label="{labels['related']}"><strong>{labels['related']}</strong>{service_links(lang)}</nav><a href="{page_path(lang=lang)}#shopify-projects">{labels['back']}</a><a href="{CONFIG['instagram_url']}" rel="noopener noreferrer">{labels['instagram']}</a><p>© 2026 FIKRA</p></footer></body></html>'''
         soup = BeautifulSoup(raw, 'html.parser')
         path = page_path(page['slug'], lang)
         metadata(soup, path, page_path(page['slug']), page_path(page['slug'], 'ar'), lang, c['title'], c['description'], c['title'].split(' | ')[0])
@@ -158,16 +169,26 @@ for page in PAGES:
         destination.parent.mkdir(parents=True, exist_ok=True); destination.write_text(str(soup))
 
 # Only index public information pages. The form remains crawlable but noindex.
-pairs = [('/', '/ar/')] + [(page_path(p['slug']), page_path(p['slug'], 'ar')) for p in PAGES]
+pairs = [('/en/', '/ar/')] + [(page_path(p['slug']), page_path(p['slug'], 'ar')) for p in PAGES]
 pairs += build_articles(ROOT, ORIGIN, metadata, service_links, PAGES)
 ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
 ET.register_namespace('xhtml', 'http://www.w3.org/1999/xhtml')
 ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
 xhtml = '{http://www.w3.org/1999/xhtml}'
 xml = ET.Element(ns + 'urlset')
+modified = {p: CONFIG['home_last_modified'] for p in ['/en/', '/ar/']}
+for page in PAGES:
+    if page.get('modified'):
+        for lang in ['en', 'ar']:
+            modified[page_path(page['slug'], lang)] = page['modified']
+for article in load_articles(ROOT):
+    for lang in ['en', 'ar']:
+        modified[article_path(article['slug'], lang)] = article['modified']
 for en, ar in pairs:
     for path in [en, ar]:
         item = ET.SubElement(xml, ns + 'url'); ET.SubElement(item, ns + 'loc').text = ORIGIN + path
+        if path in modified:
+            ET.SubElement(item, ns + 'lastmod').text = modified[path]
         for language, target in [('en', en), ('ar', ar), ('x-default', ar)]:
             ET.SubElement(item, xhtml + 'link', rel='alternate', hreflang=language, href=ORIGIN + target)
 ET.indent(xml)

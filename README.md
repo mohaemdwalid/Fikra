@@ -95,7 +95,7 @@ Preview: `http://127.0.0.1:5184/book/`.
 
 ## SEO and AI search
 
-See [SEO-HANDOFF.md](SEO-HANDOFF.md) for delivery status and the owner's launch steps. `seo-config.json` defines the canonical origin (currently the existing supplied Worker URL). Set the permanent domain there before publishing if it changes. `seo-content.json` contains bilingual service-guide copy. `python3 prepare_cloudflare.py` now generates and packages the static Arabic homepage, English/Arabic service guides, sitemap, robots.txt and metadata. Rebuild after homepage or translation edits; generated language pages are overwritten.
+See [SEO-HANDOFF.md](SEO-HANDOFF.md) for delivery status and the owner's launch steps. `seo-config.json` defines the canonical origin (`https://fikra-agency.com`). The Worker redirects the root to Arabic at `/ar/`; English has a stable `/en/` homepage. Public language URLs remain indexable without automatic language redirects. `seo-content.json` contains bilingual service-guide copy. `python3 prepare_cloudflare.py` now generates and packages the static Arabic homepage, English/Arabic service guides, sitemap, robots.txt and metadata. Rebuild after homepage or translation edits; generated language pages are overwritten.
 
 Run `python3 scripts/check_seo.py` to check the generated assets, and pass `http://127.0.0.1:5184` to also check local HTTP routes. Language-navigation checks run with `node --test tests/seo-language.test.cjs`. Public language follows each URL; the booking form retains its existing dynamic language behavior. Booking pages are intentionally noindex.
 
