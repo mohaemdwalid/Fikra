@@ -45,3 +45,7 @@ test('validate product count and starting price responses, retaining legacy lead
   assert.throws(() => validateLead({...lead, product_count: 'invented'}));
   assert.equal(validateLead(lead).product_count, '');
 });
+
+test('low-sales service is retained in the lead data', () => {
+  assert.equal(validateLead({...lead, project: 'Low store sales'}).project, 'Low store sales');
+});

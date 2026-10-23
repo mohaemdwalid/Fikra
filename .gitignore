@@ -14,3 +14,7 @@ file.html
 node_modules/
 
 .wrangler/
+
+/output/
+/tmp/
+/downloads/

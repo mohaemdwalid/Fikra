@@ -78,9 +78,12 @@ See `VALIDATION.md` for checks performed and limits.
 The dedicated introduction-video section is `#vsl`, inside the hero, directly after its consultation CTA and before the storefront previews. Configure it in `assets/site-config.js`:
 
 ```js
-vslVideoUrl: 'assets/videos/fikra-vsl.mp4',
+vslWistiaMediaId: 'k5f96jshla',
+vslVideoUrl: '/assets/videos/fikra-vsl-ar.mp4',
 vslPosterUrl: 'assets/videos/fikra-vsl-poster.jpg',
 ```
+
+The landing-page player currently embeds Wistia media `k5f96jshla` (FIKRA-Landing-Intro-Arabic-SFX-1080p, 260.97 seconds) using Wistia’s responsive iframe embed and official E-v1 script. The account `/manage` URL is not embedded. It retains the existing 16:9 layout and CTA placement and does not autoplay. To change the hosted video, update `vslWistiaMediaId`. Embed HTML was verified through Wistia’s public oEmbed endpoint. The original and web MP4 files are preserved; the native player path below is available when the Wistia ID is unset.
 
 Use an actual local video file or a direct HTTPS MP4/WebM URL, rather than a YouTube/Vimeo watch-page URL. The poster is optional. The supplied Arabic introduction is configured at `/assets/videos/fikra-vsl-ar.mp4`, with `/assets/videos/fikra-vsl-poster.jpg` as its poster. This is a full-duration 720p web copy of the owner-supplied 1080p source, compressed to fit the static asset limit; the original remains untouched in the source delivery folder. Once configured, it uses native playback controls, supports inline mobile playback, does not autoplay or preload the video, and provides an error message/direct link if playback fails. Watching the video does not fire booking conversions. For Cloudflare-hosted video files, keep each below the existing 25 MiB asset limit or use a direct hosted media URL. Do not rename a portfolio recording as the introduction video.
 
@@ -124,7 +127,7 @@ Edit the current copy in `content/articles/`. `content/editorial-revisions/` and
 The English and Arabic libraries show 12 matching articles per page when JavaScript is enabled. Category buttons filter the list; selecting a category clears the search and returns to the first page. Search covers the full collection within the selected category. Previous/Next and numbered controls appear above and below results. Search, category and page are retained in URL parameters for refresh/share. Cards use shorter images and two-line excerpts. Without JavaScript, the complete linked collection remains available with category anchors.
 
 ### Product count and starting-price qualification
-The booking form asks for project type and product count together on the first step, side by side on desktop and stacked on phones. Both answers are required before continuing. Progress reflects three steps for new stores and four for existing stores. New-store clients skip the existing-website URL step. The owner-approved starting price is QAR 5,000, with three responses (accepted, discuss scope, below budget). All responses can continue to scheduling; no hidden rejection rule is applied. Historical budget values remain valid for older leads.
+The booking form asks for product count first, then the service needed on the second slide: a new store, redesign, shopping/conversion improvements, or a store getting visits without sales. Both answers are required. New-store requests skip the optional existing-store URL question, making three steps; the other services use four steps. There is no pricing or budget-confirmation question. Visitors finish with name and phone details for a callback. New requests submit the existing “Not sure” budget value for API compatibility. Historical project and budget values remain valid.
 
 `product_count` is saved in the leads table. Python preview upgrades an existing local SQLite database automatically on restart. **Before deploying this version, apply `migrations/0002_product_count.sql` to production D1**, using the migration command above. If the initial schema was created manually and is not recorded in D1 migrations, 0001 uses `CREATE TABLE IF NOT EXISTS` and can be applied safely before 0002. Do not run the raw ALTER statement twice. Existing lead rows are retained with an empty product count. No migration or deployment has been run against production by this change.
 
@@ -162,3 +165,7 @@ The skyline graph and its mounting code, styles, generated bundle, and build ent
 Fresh visits to the homepage, service pages, article library and individual articles open their `/ar/` counterparts before the English page paints; campaign parameters and anchors are retained. The English switch uses `/?lang=en`, and a deliberately selected language preference is respected on return. Older automatically saved language values do not override Arabic. Direct visits to `/book/` default to Arabic unless a language was chosen or explicitly supplied in `?lang=`. English service and article URLs remain available through the English switch or an explicit `?lang=en`; fresh unprefixed visits open the matching Arabic page. HTML and sitemap `x-default` alternates point to Arabic. With JavaScript disabled all public English pages also forward to their static Arabic counterparts.
 
 Product-count choices are exactly `Under 25`, `25 to 100`, `100 to 500`, and `More than 500`, translated as `أقل من ٢٥`, `من ٢٥ إلى ١٠٠`, `من ١٠٠ إلى ٥٠٠`, and `أكثر من ٥٠٠`. Both API implementations accept these values and retain support for historical lead values. No new database migration is needed for this choice update. Restart a running Python preview after changing the API validation constants.
+
+### Homepage ecommerce wording and Shopify platform panel
+
+The hero uses “ecommerce” in English and “متاجر إلكترونية” in Arabic. The solutions section includes a Shopify platform introduction above the service cards. `assets/platform-logos/shopify.svg` is Shopify’s unmodified primary logo, downloaded from the official brand-assets page (https://www.shopify.com/brand-assets) on 2026-10-21. The logo links to Shopify’s homepage.

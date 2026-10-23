@@ -40,6 +40,12 @@ class LeadTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.store.save(self.payload)
 
+    def test_low_sales_service_is_saved(self):
+        self.payload.update(project='Low store sales', budget='Not sure', product_count='Under 25')
+        self.store.save(self.payload)
+        with sqlite3.connect(self.path) as db:
+            self.assertEqual(db.execute('SELECT project FROM leads').fetchone()[0], 'Low store sales')
+
     def test_invalid_details(self):
         for key, value in [('email', 'bad'), ('phone', '1234'), ('budget', 'invented'), ('project', 'other'), ('website', 'javascript:alert(1)'), ('website', 'https://user:secret@example.com'), ('name', ' '), ('company', 'spam'), ('id', 'bad')]:
             with self.subTest(key=key, value=value):

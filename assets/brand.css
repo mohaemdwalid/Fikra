@@ -63,3 +63,26 @@ html[dir="rtl"] .fikra-solutions { text-align: right; }
 .fikra-about { background: #f0f3f6; }
 .fikra-about .proposal-container { max-width: 980px; }
 .fikra-about .proposal-intro { max-width: 780px; }
+.fikra-outcomes-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; margin: 36px 0; }
+.fikra-outcome-card { display: flex; flex-direction: column; padding: 26px; border: 1px solid #d8dfe8; border-radius: 16px; background: #fff; }
+.proposal .fikra-outcome-card h3 { margin: 0 0 16px; font-size: 23px; line-height: 1.45; }
+.proposal .fikra-outcome-card > p { margin: 0 0 26px; font-size: 16px; line-height: 1.8; color: #534f47; }
+.fikra-outcome-proof { margin-top: auto; padding-top: 20px; border-top: 1px solid #d8dfe8; }
+.fikra-outcome-proof > span { color: #005bea; font-size: 13px; font-weight: 600; }
+.proposal .fikra-outcome-proof blockquote { margin: 12px 0; padding: 0; border: 0; font-size: 16px; line-height: 1.8; }
+.fikra-outcome-proof cite { font-size: 14px; font-style: normal; font-weight: 700; }
+@media (max-width: 767px) { .fikra-outcomes-grid { grid-template-columns: minmax(0,1fr); gap: 16px; } }
+
+/* Shopify platform introduction within the ecommerce solutions section. */
+.fikra-shopify-platform { display: grid; grid-template-columns: 240px minmax(0,1fr); align-items: center; gap: 44px; margin-top: 32px; padding: 36px 40px; border: 1px solid #dedad1; border-radius: 14px; background: #fffdf9; }
+.fikra-shopify-logo { display: flex; align-items: center; justify-content: center; padding: 24px 12px; border-radius: 8px; }
+.fikra-shopify-logo:focus-visible { outline: 2px solid var(--fikra-accent); outline-offset: 5px; }
+.fikra-shopify-logo img { display: block; width: 210px; max-width: 100%; height: auto; }
+.proposal .fikra-shopify-platform .proposal-kicker { margin: 0 0 12px; color: var(--fikra-accent); }
+.proposal .fikra-shopify-platform h3 { margin: 0 0 14px; font-size: clamp(24px,2.4vw,32px); line-height: 1.35; }
+.proposal .fikra-shopify-platform > div > p:last-child { max-width: 640px; margin: 0; color: #534f47; font-size: 16px; line-height: 1.7; }
+@media (max-width: 767px) {
+  .fikra-shopify-platform { grid-template-columns: minmax(0,1fr); gap: 24px; padding: 28px 24px; }
+  .fikra-shopify-logo { justify-self: start; padding: 12px 0; }
+  .fikra-shopify-logo img { width: 180px; }
+}

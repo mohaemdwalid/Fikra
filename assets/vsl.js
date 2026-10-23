@@ -14,6 +14,14 @@
       return url.protocol === 'https:' || (url.origin === location.origin && ['http:', 'https:'].includes(url.protocol)) ? url.href : null;
     } catch { return null; }
   };
+  const hostedPlayer = section.querySelector('wistia-player');
+  if (hostedPlayer) {
+    const title = () => { hostedPlayer.setAttribute('aria-label', window.FIKRA_I18N?.t('FIKRA introduction video') || 'FIKRA introduction video'); };
+    title();
+    addEventListener('fikra:language', title);
+    if (fallback) fallback.href = `https://fast.wistia.com/embed/iframe/${hostedPlayer.getAttribute('media-id')}`;
+    return;
+  }
   const source = safeMediaUrl(window.FIKRA_CONFIG?.vslVideoUrl);
   if (!source) return; // Leave an honest, non-interactive placeholder until the video is supplied.
   const poster = safeMediaUrl(window.FIKRA_CONFIG?.vslPosterUrl);
